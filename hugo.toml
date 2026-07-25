@@ -1,48 +1,194 @@
 baseURL = 'https://duynguyen9988.github.io/duynguyen/'
-locale = 'vi-VN'
 title = 'Duy Nguyen Blog'
-theme = 'PaperMod'
+theme = 'LoveIt'
 defaultContentLanguage = 'vi'
-
+locale = 'vi'
+hasCJKLanguage = false
 enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+[pagination]
+  pagerSize = 10
+  path = "page"
 
 [params]
-  description = 'Personal blog by Duy Nguyen'
-  author = 'Duy Nguyen'
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+  title = "Duy Nguyen Blog"
+  description = "Personal blog by Duy Nguyen"
 
-[params.homeInfoParams]
-  Title = 'Xin chào! 👋'
-  Content = 'Chào mừng bạn đến với blog của tôi.'
+  [params.author]
+    name = "Duy Nguyen"
+    email = ""
+    link = "https://github.com/duynguyen9988"
 
-[socialIcons]
-  [[params.socialIcons]]
-    name = 'github'
-    url = 'https://github.com/duynguyen9988'
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Duy Nguyen Blog"
+      pre = ""
+      post = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = true
+    author = true
+    since = 2026
+    icp = ""
+    license = ""
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.app]
+    title = "Duy Nguyen Blog"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#FF2FA0"
+    tileColor = "#FF2FA0"
+
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = "Tìm kiếm..."
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.png"
+      title = "Duy Nguyen"
+      subtitle = "Xin chào! Chào mừng bạn đến với blog của tôi."
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    GitHub = "duynguyen9988"
+    Email = "duynguyen9988@gmail.com"
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    [params.page.math]
+      enable = false
+    [params.page.share]
+      enable = true
+    [params.page.comment]
+      enable = false
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[permalinks]
+  posts = ":contentbasename"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
 
 [menu]
   [[menu.main]]
-    identifier = 'home'
-    name = 'Trang chủ'
-    url = '/'
     weight = 1
+    identifier = "posts"
+    name = "Bài viết"
+    url = "/posts/"
   [[menu.main]]
-    identifier = 'posts'
-    name = 'Bài viết'
-    url = '/posts/'
     weight = 2
+    identifier = "tags"
+    name = "Thẻ"
+    url = "/tags/"
   [[menu.main]]
-    identifier = 'about'
-    name = 'Giới thiệu'
-    url = '/about/'
     weight = 3
+    identifier = "categories"
+    name = "Chuyên mục"
+    url = "/categories/"
   [[menu.main]]
-    identifier = 'search'
-    name = 'Tìm kiếm'
-    url = '/search/'
     weight = 4
+    identifier = "about"
+    name = "Giới thiệu"
+    url = "/about/"
+  [[menu.main]]
+    weight = 5
+    identifier = "search"
+    name = "Tìm kiếm"
+    url = "/search/"
