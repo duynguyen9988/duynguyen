@@ -1,0 +1,48 @@
+baseURL = 'https://duynguyen9988.github.io/duynguyen/'
+locale = 'vi-VN'
+title = 'Duy Nguyen Blog'
+theme = 'PaperMod'
+defaultContentLanguage = 'vi'
+
+enableRobotsTXT = true
+
+[params]
+  description = 'Personal blog by Duy Nguyen'
+  author = 'Duy Nguyen'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = 'Xin chào! 👋'
+  Content = 'Chào mừng bạn đến với blog của tôi.'
+
+[socialIcons]
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/duynguyen9988'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Trang chủ'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Bài viết'
+    url = '/posts/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'about'
+    name = 'Giới thiệu'
+    url = '/about/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Tìm kiếm'
+    url = '/search/'
+    weight = 4
