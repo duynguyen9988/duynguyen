@@ -249,6 +249,27 @@ When user triggers `gg`, execute the following workflow:
 
 6. **Commit + push** automatically.
 
+### `bb` — Blog bài báo (tường thuật)
+
+When user triggers `bb`, execute the following workflow:
+
+1. **Ask** for:
+   - Raw text hoặc URL gốc làm nguồn
+   - Tags, category, description (optional — infer from content if not given)
+   - Featured image (optional — skip nếu không có sẵn)
+
+2. **Write** Hugo blog post:
+   - Dạng tường thuật (narrative), giữ nguyên tinh thần bản gốc
+   - Viết thành tiếng Việt tự nhiên, không dịch word-by-word
+   - Cấu trúc bài báo: mở bài (lead) → thân bài → kết bài (suy ngẫm)
+   - Không bullet-point/liệt kê — lồng ghép thông tin vào văn kể
+
+3. **Create** the post at `content/posts/<slug>/index.md`. Featured image nếu có.
+
+4. **Build** (`hugo --minify`) to verify no errors.
+
+5. **Commit + push** automatically.
+
 ### Category creation workflow
 
 When user says "tạo category mới: <tên>":
