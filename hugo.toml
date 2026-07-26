@@ -38,9 +38,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.footer]
     enable = true
     custom = ""
-    hugo = true
-    copyright = true
-    author = true
+    hugo = false
+    copyright = false
+    author = false
     since = 2026
     icp = ""
     license = ""
