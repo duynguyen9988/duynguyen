@@ -18,13 +18,16 @@ def main():
     os.makedirs("data", exist_ok=True)
     run('git log -1 --format=\'{"hash":"%h","date":"%ad"}\' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json')
 
-    print("2. Build static site with Hugo...")
+    print("2. Generate ML-based related posts...")
+    run("python3 ml-related.py")
+
+    print("3. Build static site with Hugo...")
     run("hugo --minify")
 
-    print(f"\n2. Build hoàn tất. Output tại: {repo_root}/public/")
-    print("3. Để deploy, push code lên GitHub (GitHub Actions sẽ tự động build và deploy):")
+    print(f"\n3. Build hoàn tất. Output tại: {repo_root}/public/")
+    print("4. Để deploy, push code lên GitHub (GitHub Actions sẽ tự động build và deploy):")
     print("   git add . && git commit -m 'update' && git push origin main")
-    print("\n4. Hoặc chạy deploy local:")
+    print("\n5. Hoặc chạy deploy local:")
     print("   cd public && python3 -m http.server 8080")
 
 

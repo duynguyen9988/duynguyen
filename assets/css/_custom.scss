@@ -1026,3 +1026,121 @@ header {
   transition: none !important;
   transition-duration: 0s !important;
 }
+
+// ==============================
+// 11. Related Posts (ML-based)
+// ==============================
+
+.related-posts {
+  margin-top: 2.5rem;
+}
+
+.related-divider {
+  border: none;
+  border-top: 2px solid $global-border-color;
+  margin: 0 0 1.25rem;
+
+  [theme=dark] & {
+    border-top-color: $global-border-color-dark;
+  }
+}
+
+.related-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+  color: $global-font-color;
+
+  [theme=dark] & {
+    color: $global-font-color-dark;
+  }
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.related-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid $global-border-color;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+
+  [theme=dark] & {
+    border-color: $global-border-color-dark;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+
+    [theme=dark] & {
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.related-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.related-info {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.related-post-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0;
+  color: $global-link-color;
+
+  [theme=dark] & {
+    color: $global-link-color-dark;
+  }
+
+  .related-card:hover & {
+    color: $global-link-hover-color;
+
+    [theme=dark] & {
+      color: $global-link-hover-color-dark;
+    }
+  }
+}
+
+.related-desc {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: $global-font-secondary-color;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}

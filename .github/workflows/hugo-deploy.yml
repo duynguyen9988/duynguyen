@@ -43,8 +43,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install python-frontmatter scikit-learn
+
       - name: Generate version info
         run: mkdir -p data && git log -1 --format='{"hash":"%h","date":"%ad"}' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json
+
+      - name: Generate ML-based related posts
+        run: python3 ml-related.py
 
       - name: Build
         run: hugo --minify

@@ -107,6 +107,9 @@
             {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         </div>
 
+        {{- /* Related posts (ML-based) */ -}}
+        {{- partial "related-posts.html" . -}}
+
         {{- /* Footer */ -}}
         {{- partial "single/footer.html" . -}}
 
