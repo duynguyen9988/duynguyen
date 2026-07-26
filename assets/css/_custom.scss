@@ -1228,6 +1228,18 @@ footer.footer {
   color: #475569;
 }
 
+.header-version {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+#header-mobile .header-version-mobile {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
 /* ── Disabled paginator state ── */
 .pagination .page-item.disabled .page-link {
   color: #94a3b8;
