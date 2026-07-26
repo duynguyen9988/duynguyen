@@ -1145,6 +1145,16 @@ header {
   }
 }
 
+.pagination .page-item .page-link {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.pagination .page-item.active .page-link {
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
 @media only screen and (max-width: 600px) {
   .related-grid {
     grid-template-columns: 1fr;
