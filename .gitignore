@@ -4,3 +4,4 @@ resources/_gen/
 .DS_Store
 *.local
 __pycache__/
+/data/version.json

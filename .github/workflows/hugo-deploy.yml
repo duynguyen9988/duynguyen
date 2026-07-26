@@ -39,6 +39,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Generate version info
+        run: git log -1 --format='{"hash":"%h","date":"%ad"}' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json
+
       - name: Build
         run: hugo --minify
 

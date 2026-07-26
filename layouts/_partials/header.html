@@ -25,7 +25,14 @@
                 {{- end -}}
             </a>
         </div>
-        <div class="menu">
+        {{- $version := "" -}}
+        {{- with hugo.Data.version -}}
+            {{- $version = printf "%s | %s" .hash .date -}}
+        {{- end -}}
+        {{- with $version -}}
+            <span class="header-version">{{ . }} GMT+7</span>
+        {{- end -}}
+        <div class="menu" id="menu-desktop">
             <div class="menu-inner">
                 {{- if .Site.Params.search.enable -}}
                     <span class="menu-item search" id="search-desktop">
@@ -103,6 +110,13 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
+        {{- $version := "" -}}
+        {{- with hugo.Data.version -}}
+            {{- $version = printf "%s | %s" .hash .date -}}
+        {{- end -}}
+        {{- with $version -}}
+            <span class="header-version header-version-mobile">{{ . }} GMT+7</span>
+        {{- end -}}
         <div class="menu" id="menu-mobile">
             {{- if .Site.Params.search.enable -}}
                 <div class="search-wrapper">

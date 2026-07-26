@@ -14,7 +14,11 @@ def main():
     repo_root = os.path.dirname(os.path.abspath(__file__))
     os.chdir(repo_root)
 
-    print("1. Build static site with Hugo...")
+    print("1. Generate version info...")
+    os.makedirs("data", exist_ok=True)
+    run('git log -1 --format=\'{"hash":"%h","date":"%ad"}\' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json')
+
+    print("2. Build static site with Hugo...")
     run("hugo --minify")
 
     print(f"\n2. Build hoàn tất. Output tại: {repo_root}/public/")
