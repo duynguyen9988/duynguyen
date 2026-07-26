@@ -162,6 +162,15 @@ git push https://<user>:<token>@github.com/duynguyen9988/duynguyen.git main
 - **Fix**: Use `hugo.Data.version` instead of `.Site.Data.version`
 - Same for `.Site.LanguageCode` → `.Site.Language.Locale`
 
+## Post Ideas
+
+Track generated blog posts here:
+
+- [x] Top 10 quán chay ngon ở Sài Gòn TP HCM năm 2026 (2026-07-26)
+- [x] Cập nhật GitHub Actions 2026 (2026-07-26)
+- [x] Tổng quan tài liệu Hugo (2026-07-26)
+- [x] Thời Khắc Công Bố / Disclosure Day (2026-07-26)
+
 ## Shortcuts
 
 ### `gg` — Generate blog post
