@@ -48,12 +48,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     license = ""
 
   [params.section]
-    paginate = 20
+    paginate = 6
     dateFormat = "01-02"
     rss = 10
 
   [params.list]
-    paginate = 20
+    paginate = 6
     dateFormat = "01-02"
     rss = 10
 
@@ -90,9 +90,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     rss = 10
     [params.home.profile]
       enable = false
-    [params.home.posts]
-      enable = true
-      paginate = 4
+  [params.home.posts]
+    enable = true
+    paginate = 3
 
   [params.social]
     GitHub = "duynguyen9988"
