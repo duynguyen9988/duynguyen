@@ -1255,17 +1255,41 @@ footer.footer {
 // ==============================
 
 a,
-button,
-.post-card,
+button {
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.post-card {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .post-card-thumb img,
-.random-post-thumb img,
-.related-card,
+.random-post-thumb img {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.related-card {
+  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .featured-image img,
-.content img,
-.pagination .page-link,
-.back-to-top,
+.content img {
+  transition: opacity 0.4s ease-out;
+}
+
+.pagination .page-link {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.2s ease;
+}
+
+.back-to-top {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-nav-links a {
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.2s ease;
 }
 
 // Card lift on hover
