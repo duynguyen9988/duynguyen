@@ -11,7 +11,7 @@ tags:
   - phim-2014
   - khoa-hoc-vien-tuong
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg

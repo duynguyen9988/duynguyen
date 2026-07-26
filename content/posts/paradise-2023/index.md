@@ -11,7 +11,7 @@ tags:
   - sci-fi
   - phim-2023
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg

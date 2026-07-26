@@ -11,7 +11,7 @@ tags:
   - phim-tam-ly
   - phim-2014
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg

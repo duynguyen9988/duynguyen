@@ -11,7 +11,7 @@ tags:
   - ufo
   - phim-2026
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg

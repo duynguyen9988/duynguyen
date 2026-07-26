@@ -10,7 +10,7 @@ tags:
   - phim-tam-ly
   - phim-2016
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg

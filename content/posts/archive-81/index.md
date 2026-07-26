@@ -11,7 +11,7 @@ tags:
   - horror
   - phim-bo
 categories:
-  - Giải trí
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg
