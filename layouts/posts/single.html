@@ -67,7 +67,7 @@
         {{- /* Featured image (skip if same as first content image) */ -}}
         {{- $featuredImage := $params.featuredimage -}}
         {{- with .Resources.GetMatch "featured-image" -}}
-            {{- $featuredImage = .RelPermalink -}}
+            {{- $featuredImage = .Name -}}
         {{- end -}}
         {{- /* Find first content image from raw Markdown */ -}}
         {{- $firstContentImage := "" -}}
@@ -78,7 +78,7 @@
                 {{- $firstContentImage = $src -}}
             {{- else -}}
                 {{- with $.Resources.GetMatch $src -}}
-                    {{- $firstContentImage = .RelPermalink -}}
+                    {{- $firstContentImage = .Name -}}
                 {{- end -}}
             {{- end -}}
         {{- end -}}

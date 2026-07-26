@@ -1,7 +1,6 @@
 {{- $allPosts := where .Site.RegularPages "Type" "posts" -}}
 {{- $randomPosts := first 5 ($allPosts | shuffle) -}}
 {{- if $randomPosts -}}
-{{- $loading := resources.Get "svg/loading.svg" | minify -}}
 <div class="sidebar-random-posts">
     <h3 class="sidebar-title">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
     <ul class="random-posts-list">
@@ -14,9 +13,7 @@
                     <span class="random-post-number">{{ $num }}</span>
                     <a href="{{ $post.RelPermalink }}" aria-label="{{ $post.Title }}">
                         <img
-                            class="lazyload"
-                            src="{{ $loading.RelPermalink }}"
-                            data-src="{{ $image | safeURL }}"
+                            src="{{ $image | safeURL }}"
                             alt="{{ $post.Title }}"
                             loading="lazy"
                             decoding="async"

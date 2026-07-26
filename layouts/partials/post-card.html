@@ -1,14 +1,11 @@
 {{- $image := partial "function/first-image.html" . -}}
-{{- $loading := resources.Get "svg/loading.svg" | minify -}}
 
 <article class="post-card{{ if not $image }} post-card-textonly{{ end }}" itemscope itemtype="http://schema.org/Article">
     {{- if $image -}}
     <div class="post-card-thumb">
         <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
             <img
-                class="lazyload"
-                src="{{ $loading.RelPermalink }}"
-                data-src="{{ $image | safeURL }}"
+                src="{{ $image | safeURL }}"
                 alt="{{ .Title }}"
                 loading="lazy"
                 decoding="async"

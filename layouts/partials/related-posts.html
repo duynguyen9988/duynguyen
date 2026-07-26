@@ -9,7 +9,6 @@
     {{- return -}}
 {{- end -}}
 
-{{- $loading := resources.Get "svg/loading.svg" | minify -}}
 <div class="related-posts">
     <hr class="related-divider">
     <h2 class="related-title">Có thể bạn sẽ thích</h2>
@@ -21,7 +20,7 @@
                 <a class="related-card" href="{{ $page.RelPermalink }}">
                     {{- if $image -}}
                     <div class="related-thumb">
-                        <img class="lazyload" src="{{ $loading.RelPermalink }}" data-src="{{ $image | safeURL }}" alt="{{ $page.Title }}" loading="lazy" decoding="async" width="200" height="125">
+                        <img src="{{ $image | safeURL }}" alt="{{ $page.Title }}" loading="lazy" decoding="async" width="200" height="125">
                     </div>
                     {{- end -}}
                     <div class="related-info">

@@ -830,13 +830,15 @@ header {
   overflow: visible;
 }
 
-.featured-image img.lazyloaded {
-  width: auto;
-}
-
 .featured-image a,
 .featured-image a img {
   cursor: zoom-in;
+}
+
+.featured-image img:not([width]),
+.content img:not([width]),
+.content figure img:not([width]) {
+  aspect-ratio: 1600 / 1200;
 }
 
 @media only screen and (max-width: 992px) {

@@ -65,8 +65,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     iconColor = "#FF2FA0"
     tileColor = "#FF2FA0"
 
+  [params.cdn]
+    data = ""
+
   [params.search]
-    enable = true
+    enable = false
     type = "fuse"
     contentLength = 4000
     placeholder = "Tìm kiếm..."
@@ -122,12 +125,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.toc]
       enable = false
     [params.page.code]
-      copy = true
+      copy = false
       maxShownLines = 50
     [params.page.math]
       enable = false
     [params.page.share]
-      enable = true
+      enable = false
     [params.page.comment]
       enable = false
 
