@@ -1,6 +1,6 @@
 ---
 title: 'Top 10 Quán Hủ Tiếu Ngon Nhất Sài Gòn: Từ Nam Vang Đến Sa Đéc'
-date: 2026-07-26T13:30:00+07:00
+date: 2026-07-26T14:15:19+07:00
 draft: false
 description: 'Hủ tiếu là món ăn đường phố đa dạng bậc nhất Sài Gòn. Từ hủ tiếu Nam Vang đậm đà đến hủ tiếu Sa Đéc dai ngon, từ hủ tiếu mực đến hủ tiếu cá — một bản đồ hủ tiếu cho người Sài Gòn và du khách.'
 tags:
@@ -15,120 +15,141 @@ resources:
     src: featured-image.jpg
 ---
 
-Hủ tiếu có mặt ở Sài Gòn từ hơn nửa thế kỷ trước, theo chân người Hoa, người Khmer và người Việt từ miền Tây lên phố. Cũng vì thế, hủ tiếu Sài Gòn là một câu chuyện pha trộn văn hóa hiếm thấy: hủ tiếu Nam Vang mang dấu ấn Campuchia, hủ tiếu Sa Đéc là tinh hoa miền Tây, hủ tiếu Mỹ Tho là sự giao thoa giữa hai miền.
+## Tổng quan thị trường
 
-Không giống phở — vốn có một chuẩn mực tương đối thống nhất — hủ tiếu Sài Gòn chia làm nhiều trường phái: khô và nước, sợi nhỏ và sợi to, nước dùng trong và nước dùng đục. Mỗi quán là một câu chuyện riêng, một bí quyết riêng. Dưới đây là mười cái tên đã làm nên tên tuổi của hủ tiếu Sài Gòn.
+Hủ tiếu Sài Gòn không phải một món — mà là một họ món. Dựa trên nguồn gốc và cách chế biến, có thể chia làm bốn nhóm chính:
 
-## Hủ Tiếu Nam Vang Hồng Phát — Michelin gọi tên, thực khách gọi là chuẩn vị
+| Nhóm | Đặc điểm | Sợi | Nước dùng | Đại diện |
+|------|----------|-----|-----------|----------|
+| **Nam Vang** | Ảnh hưởng Campuchia–Hoa | Sợi nhỏ, dai | Trong, ninh xương + tôm khô | Hồng Phát, Nhân Quán, Thành Đạt |
+| **Mỹ Tho** | Giao thoa Nam Vang + miền Tây | Sợi trung bình | Có nước sốt đặc trưng | Cả Cần, Thanh Xuân |
+| **Sa Đéc** | Miền Tây thuần túy | Sợi to, đục, dai giòn | Thanh, ninh xương + khô mực | Dì Năm Sa Đéc |
+| **Đặc sản** | Chuyên một nguyên liệu | Đa dạng | Tùy loại | Ông Già Cali (mực), Nam Lợi (cá) |
 
-Ít thương hiệu hủ tiếu nào vươn xa được như Hồng Phát. Từ một quán nhỏ ở quận 1 năm 2005, Hồng Phát nay đã có 5 chi nhánh, trong đó có 2 ở Canada. Năm 2023, Hồng Phát được Michelin Guide giới thiệu — một trong số ít quán hủ tiếu được vinh danh.
+Ngoài ra còn phân loại theo cách ăn: hủ tiếu **khô** (trộn sốt) và hủ tiếu **nước** (chan nước lèo). Hầu hết quán đều phục vụ cả hai.
 
-Nước lèo là linh hồn của Hồng Phát: được ninh từ xương heo suốt 10 tiếng, nước trong veo, ngọt thanh tự nhiên, không hề gây ngán. Sợi hủ tiếu dai vừa phải, topping tươi — tôm đỏ au, gan luộc vừa chín, thịt heo thái mỏng, trứng cút béo ngậy. Mỗi tô được bày trí tinh tế, nhìn đã thấy ngon.
+## Nhóm 1: Hủ tiếu Nam Vang
 
-Điểm trừ nhỏ: quán rất đông vào giờ cao điểm (7h–9h sáng, 11h–12h30 trưa). Nếu không muốn chờ, nên đi sớm hoặc chọn giờ thấp điểm. Giá 60.000 – 90.000 đồng/tô.
+### 1. Hủ Tiếu Nam Vang Hồng Phát — Quán hủ tiếu đầu tiên có Michelin
 
-- 389–391 Võ Văn Tần, quận 3 (và 4 chi nhánh khác)
-- Mở cửa: 6h30 – 22h30
+Ra đời: 2005 (20 năm). Chi nhánh: 5 (3 ở SG, 2 ở Canada). Michelin: được giới thiệu năm 2023.
 
-## Hủ Tiếu Cả Cần — Hơn 50 năm giữ lửa hủ tiếu Mỹ Tho
+Là thương hiệu hủ tiếu Việt đầu tiên vươn ra nước ngoài. Điểm khác biệt của Hồng Phát so với các quán Nam Vang khác là nước lèo ninh 10 tiếng, trong veo, ngọt thanh tự nhiên — không dùng bột ngọt. Sợi hủ tiếu được đặt riêng từ làng bột Sa Đéc. Topping tôm đỏ au, gan luộc vừa chín tới, trứng cút béo.
 
-Giữa quận 5 nhộn nhịp, Cả Cần là một biểu tượng của hủ tiếu Mỹ Tho chính gốc. Ra đời từ thập niên 1970, quán đã bền bỉ hơn 50 năm, giữ trọn hương vị từ sợi hủ tiếu thơm mùi gạo, dai nhẹ đến nước sốt chua ngọt đặc trưng.
+Xếp hạng toplist.vn: #2. Google rating: 4.0–4.3 (tuỳ chi nhánh).
+- Giá: 60.000 – 90.000 đ/tô
+- Địa chỉ: 389–391 Võ Văn Tần, Q3 (và 4 chi nhánh khác)
+- Giờ: 6h30 – 22h30
 
-Câu chuyện của Cả Cần cũng đặc biệt: vợ chồng ông bà Cả Cần từ bỏ công việc công chức để theo đuổi đam mê nấu nướng, tạo nên thương hiệu hủ tiếu Mỹ Tho trứ danh. Hủ tiếu nước của quán có nước dùng trong veo, ngọt thanh kết hợp cùng thịt bằm, tôm, sườn và hành phi thơm lừng. Hủ tiếu khô được trộn đều với nước sốt đặc chế, hòa quyện với tôm khô, tóp mỡ và thịt bằm — thơm, béo, mặn ngọt cực hấp dẫn.
+### 2. Hủ Tiếu Nam Vang Nhân Quán — Chuỗi phát triển nhanh nhất
 
-Không gian quán bình dân, sạch sẽ, ấm cúng. Giá 78.000 – 115.000 đồng — hơi cao nhưng xứng đáng với khẩu phần đầy đặn và chất lượng ổn định.
+Chi nhánh: 4 (Q3, Q11, Q8, Bình Chánh). Xếp hạng toplist.vn: **#1**.
 
-- 110 Hùng Vương, phường 9, quận 5
-- Mở cửa: 5h – 0h
+Nhân Quán đang dẫn đầu xu hướng chuỗi hủ tiếu Nam Vang tại Sài Gòn. Nước lèo ninh 2-3 tiếng, kết hợp tỏi phi thơm. Topping tôm tươi size lớn, gan heo xử lý kỹ không hôi. Hủ tiếu khô có nước sốt pha giữa đường, tương ớt và tương đen — vị đậm đà rất riêng.
 
-## Hủ Tiếu Nam Vang Liến Húa — Thương hiệu của gia đình Gil Lê
+Từ tháng 3/2025, quán mở rộng phục vụ sang buổi tối (trước chỉ bán sáng–trưa). Google rating: 4.2.
+- Giá: 86.000 – 115.000 đ/tô
+- Địa chỉ: 122D Cách Mạng Tháng 8, Q3 (và 3 chi nhánh khác)
+- Giờ: 5h30 – 23h
 
-Hủ tiếu Liến Húa không chỉ nổi tiếng vì thuộc sở hữu của gia đình ca sĩ Gil Lê, mà còn bởi hương vị hủ tiếu Nam Vang được nâng tầm. Với hơn 40 năm kinh nghiệm, Liến Húa đã trở thành điểm đến của dân sành ăn và giới trẻ Sài Gòn.
+### 3. Hủ Tiếu Nam Vang Thành Đạt — Chuỗi 14 chi nhánh, mở 24/24
 
-Nước lèo của Liến Húa đậm đà, sợi hủ tiếu dai mềm vừa phải, topping tươi ngon — tôm, thịt, trứng cút, gan heo, xá xíu. Điểm đặc biệt là quán còn phục vụ các món điểm tâm truyền thống của người Hoa như dimsum, xíu mại, bánh bao, sủi cảo — một trải nghiệm ẩm thực Hoa–Việt trọn vẹn.
+Chi nhánh: 14 — chuỗi hủ tiếu Nam Vang lớn nhất Sài Gòn. Điểm đặc biệt: hầu hết mở cửa 24/24, phục vụ xuyên đêm.
 
-Không gian quán rộng rãi, thiết kế tinh tế, bàn ghế gỗ cao cấp tạo cảm giác ấm cúng và sang trọng. Giá 120.000 – 150.000 đồng/tô — cao hơn mặt bằng chung, nhưng chất lượng đi kèm xứng đáng.
+Thành Đạt chọn chiến lược phủ khắp các quận và mở liên tục. Món best-seller là hủ tiếu thập cẩm: tôm, thịt, gan, trứng cút, xá xíu — đầy đặn. Xếp hạng toplist.vn: #8.
 
-- 381 Võ Văn Tần, quận 3 (và 2 chi nhánh khác)
-- Mở cửa: 6h – 23h
+Hạn chế: thái độ phục vụ không đồng đều giữa các chi nhánh — đây là feedback phổ biến trên Google.
+- Giá: 55.000 – 115.000 đ/tô
+- Giờ: 24/24
 
-## Hủ Tiếu Nam Vang Thành Đạt — 14 chi nhánh, mở 24/24
+### 4. Hủ Tiếu Nam Vang Trung Còi — Hẻm nhỏ nhưng lượng khách lớn
 
-Nếu bạn muốn ăn hủ tiếu lúc 2 giờ sáng, Thành Đạt là câu trả lời. Chuỗi hủ tiếu này có 14 chi nhánh phủ khắp thành phố, và hầu hết đều mở cửa 24/24 — một trong số ít quán hủ tiếu phục vụ xuyên đêm.
+Toạ lạc tại hẻm 293 Nguyễn Đình Chiểu (Q3), Trung Còi là quán hủ tiếu Nam Vang bình dân điển hình nhất Sài Gòn: nằm hẻm, khách đông, không gian chật, giá rẻ. Xếp hạng toplist.vn: #3.
 
-Hủ tiếu thập cẩm là món best seller: khẩu phần đầy đặn với tôm, thịt, gan, trứng cút, xá xíu. Sợi hủ tiếu mềm vừa phải, nước dùng đậm đà đặc trưng kiểu Nam Vang. Nước sốt của hủ tiếu khô được nêm nếm vừa vặn, mang hương vị riêng rất hấp dẫn.
+Nước lèo hầm xương, ngọt tự nhiên. Ngoài hủ tiếu Nam Vang, quán còn bán bún mắm và lẩu mắm. Google rating: 4.0. Địa chỉ cũ ở hẻm, nhưng nay đã có mặt bằng mặt tiền 80 Cao Thắng.
+- Giá: bình dân (~45.000 – 60.000 đ/tô)
+- Địa chỉ: 80 Cao Thắng, Q3
+- Giờ: 7h – 22h30
 
-Điểm trừ: thái độ phục vụ không đồng đều giữa các chi nhánh. Một số nơi phục vụ nhanh nhẹn, nhưng vài cơ sở khác có phản hồi về thái độ thiếu thân thiện. Giá 55.000 – 115.000 đồng/tô.
+## Nhóm 2: Hủ tiếu Mỹ Tho
 
-- 14 chi nhánh khắp TP.HCM (quận 1, 3, Tân Bình, Gò Vấp, Bình Thạnh...)
-- Mở cửa: 24/24
+### 5. Hủ Tiếu Cả Cần — Hơn 50 năm, từ công chức thành chủ quán
 
-## Dì Năm Sa Đéc — Hủ tiếu Sa Đéc chuẩn vị miền Tây giữa lòng Sài Gòn
+Thành lập: thập niên 1970. Ở quận 5, Cả Cần là một biểu tượng hủ tiếu Mỹ Tho chính gốc.
 
-Dì Năm gần 30 năm bán hủ tiếu ở Đồng Tháp trước khi theo con lên Sài Gòn mở quán. Điều bất ngờ: nhiều khách quen ở quê cũng theo dì lên phố. Hơn 10 năm nay, quán trên đường Bùi Thị Xuân là địa chỉ quen thuộc của những ai thèm hương vị miền Tây.
+Câu chuyện đáng chú ý: vợ chồng chủ quán từ bỏ công chức để mở quán — vào thập niên 1970, đây là một quyết định hiếm. Hủ tiếu nước dùng nước dùng trong, kết hợp thịt bằm, tôm, sườn. Hủ tiếu khô trộn với nước sốt đặc chế, tôm khô, tóp mỡ.
 
-Hủ tiếu Sa Đéc khác biệt từ sợi hủ tiếu: sợi to, đục, dai giòn sần sật, được lấy từ lò quen ở làng bột Sa Đéc. Trụng nước sôi không bở, ăn hoài không ngán. Nước lèo trong, thanh ngọt từ xương heo hầm kết hợp với tôm khô và mực khô. Hủ tiếu khô có nước sốt chua ngọt nhẹ làm từ cà chua và nước tương chính gốc Sa Đéc — hương vị khó quên.
+Mức giá 78.000 – 115.000 đ/tô cao hơn mặt bằng chung ở quận 5. Quán mở từ 5h sáng đến 0h đêm — phục vụ cả bữa sáng, trưa, tối và khuya.
+- Địa chỉ: 110 Hùng Vương, P9, Q5
+- Giờ: 5h – 0h
 
-Quán có không gian hoài cổ với tường vàng, tranh ảnh Sa Đéc xưa, khiến thực khách như đang ngồi trong một ngôi nhà miền Tây. Giá từ 45.000 đồng — rất phải chăng.
+### 6. Hủ Tiếu Thanh Xuân — 80 năm, được Netflix chọn quay
 
-- 161 Bùi Thị Xuân, phường Bến Thành, quận 1 (và chi nhánh Thảo Điền)
-- Mở cửa: 6h – 22h
+Tuổi đời: 80 năm — lâu đời nhất trong danh sách. Chủ quán là bà Võ Thị Tươi (70 tuổi), tiếp quản từ gia đình chồng. Quán chỉ nghỉ duy nhất ngày mùng 1 Tết.
 
-## Hủ Tiếu Thanh Xuân — 80 năm, một góc Sài Gòn xưa
+Thanh Xuân được Netflix chọn quay cho series "Street Food Asia" — một trong số ít quán hủ tiếu Sài Gòn xuất hiện trên nền tảng quốc tế. Hủ tiếu dùng sợi Sa Đéc, nước sốt đặc biệt từ cà chua theo bí quyết riêng của bà Tươi. Điểm nhấn: thịt cua miền Tây.
 
-Nhắc đến hủ tiếu Mỹ Tho ở Sài Gòn là nhắc đến Thanh Xuân. Quán đã tồn tại 80 năm trên đường Tôn Thất Thiệp (quận 1), được bà Võ Thị Tươi năm nay 70 tuổi tiếp quản từ gia đình chồng. Quán chỉ nghỉ duy nhất ngày mùng 1 Tết — còn lại mở cửa quanh năm.
+Không gian: nhỏ, hẻm, hết sớm (thường đóng cửa xế trưa khi bán hết).
+- Địa chỉ: 67/6 Tôn Thất Thiệp, Q1
+- Giờ: sáng sớm – xế trưa (bán đến khi hết)
 
-Món đinh của quán là hủ tiếu nước và hủ tiếu khô, cả hai đều dùng sợi hủ tiếu dai lấy từ Sa Đéc. Hủ tiếu khô của Thanh Xuân có nước sốt đặc biệt — bí quyết riêng của bà Tươi với cà chua và các nguyên liệu khác — khi rưới lên tô hủ tiếu tạo nên hương vị gây thương nhớ. Thịt cua ngọt ngon xuất xứ miền Tây là điểm nhấn không thể bỏ qua.
+## Nhóm 3: Hủ tiếu Sa Đéc
 
-Quán từng được Netflix chọn quay cho series "Street Food Asia" — nhưng bà Tươi vẫn giữ nguyên cung cách phục vụ giản dị, chân tình.
+### 7. Dì Năm Sa Đéc — 40 năm kinh nghiệm, giá rẻ nhất
 
-- 67/6 Tôn Thất Thiệp, quận 1
-- Mở cửa: sáng sớm đến xế trưa
+Dì Năm bán hủ tiếu gần 30 năm ở Đồng Tháp trước khi lên Sài Gòn. Hơn 10 năm tại địa chỉ 161 Bùi Thị Xuân. Nhiều khách quen ở quê theo dì lên phố — một tín hiệu cho thấy chất lượng.
 
-## Hủ Tiếu Nam Vang Nhân Quán — Chuẩn vị, đầy đặn, nhiều chi nhánh
+Sợi hủ tiếu Sa Đéc: to, đục, dai giòn sần sật, lấy từ làng bột Sa Đéc. Nước sốt chua ngọt nhẹ làm từ cà chua và nước tương chính gốc Sa Đéc. Mức giá từ 45.000 đ/tô — rẻ nhất trong danh sách.
+- Địa chỉ: 161 Bùi Thị Xuân, P. Bến Thành, Q1 (và chi nhánh Thảo Điền)
+- Giờ: 6h – 22h
 
-Nhân Quán là một trong những chuỗi hủ tiếu Nam Vang phát triển nhanh nhất Sài Gòn. Với 4 chi nhánh trải đều từ quận 3, quận 11, quận 8 đến Bình Chánh, Nhân Quán phục vụ cả khách trung tâm lẫn vùng ven.
+## Nhóm 4: Dòng đặc sản
 
-Hai món best seller là hủ tiếu khô và hủ tiếu nước. Hủ tiếu khô nổi bật với nước sốt trộn đặc sệt, pha trộn hài hòa giữa đường, tương ớt và tương đen — vị đậm đà khác biệt. Hủ tiếu nước có nước dùng ninh kỹ 2-3 tiếng, mang hương vị đặc trưng khó lẫn.
+### 8. Hủ Tiếu Mực Ông Già Cali — Một trường phái riêng
 
-Không gian các chi nhánh đều rộng rãi, thoáng mát, sạch sẽ. Đặc biệt, từ cuối tháng 3/2025, quán mở rộng thời gian phục vụ sang cả buổi tối. Giá 86.000 – 115.000 đồng/tô — hơi cao nhưng khẩu phần rất đầy đặn.
+Ông Già Cali là quán hủ tiếu mực hiếm hoi tại Sài Gòn. Điểm đặc biệt: nước dùng ngọt thanh từ mực khô nấu cùng thảo mộc, nước chấm ớt xanh pha chế riêng. Không phải hủ tiếu Nam Vang hay Mỹ Tho — đây là một dòng riêng.
 
-- 122D Cách Mạng Tháng 8, quận 3 (và 3 chi nhánh khác)
-- Mở cửa: 5h30 – 23h
+Toạ lạc tại quận 11 — xa trung tâm, nhưng khách vẫn tìm đến. Không gian bình dân, giá phải chăng.
+- Địa chỉ: 236Bis Lý Thường Kiệt, Q11
+- Giờ: 6h – 22h
 
-## Hủ Tiếu Mực Ông Già Cali — Món lạ cho người thích khám phá
+### 9. Hủ Tiếu Cá Nam Lợi — 70 năm, quán hủ tiếu cá cuối cùng
 
-Hủ tiếu mực là một trường phái riêng của ẩm thực Sài Gòn, và Ông Già Cali là cái tên đứng đầu. Quán nổi tiếng với món hủ tiếu mực tươi, nước dùng ngọt thanh từ mực khô nấu cùng các loại thảo mộc.
+70 năm: Nam Lợi là một trong những quán hủ tiếu cá cuối cùng còn sót lại ở trung tâm Sài Gòn. Phong cách Trung Hoa: sợi hủ tiếu lớn, dai, cá lóc phi lê tươi. Nước dùng ninh từ xương cá.
 
-Sợi hủ tiếu dai, nước lèo thanh ngọt thơm ngon. Điểm nhấn là nước chấm ớt xanh được pha chế theo công thức riêng — cay the, chua nhẹ, ăn kèm hủ tiếu mực tạo nên sự kết hợp hoàn hảo. Nguyên liệu luôn tươi ngon, được nhập mỗi ngày.
+Quán nằm tại 34 Nguyễn Thái Bình (Q1), khu vực tập trung nhiều quán ăn lâu đời. Google rating: 4.0. Giá từ 55.000 đ/tô — hợp lý.
+- Địa chỉ: 34 Nguyễn Thái Bình, Q1
+- Giờ: 6h – 22h
 
-Không gian quán bình dân, sạch sẽ, phù hợp cho bữa ăn nhanh. Món hủ tiếu mực ở đây là một trong những trải nghiệm ẩm thực độc đáo nhất Sài Gòn mà ít nơi có được.
+## Điểm chu đáo: Hủ Tiếu Nam Vang Liến Húa
 
-- 236Bis Lý Thường Kiệt, quận 11
-- Mở cửa: 6h – 22h
+Liến Húa có hơn 40 năm kinh nghiệm, thuộc sở hữu gia đình ca sĩ Gil Lê. Ngoài hủ tiếu Nam Vang chuẩn, quán còn phục vụ dimsum, xíu mại, bánh bao, sủi cảo — kết hợp ẩm thực Hoa–Việt. Google rating: 4.3. Giá cao nhất danh sách.
 
-## Hủ Tiếu Cá Nam Lợi — Hơn 70 năm hủ tiếu cá kiểu Trung Hoa
-
-Nằm trên đường Nguyễn Thái Bình (quận 1), Hủ Tiếu Cá Nam Lợi đã hoạt động hơn 70 năm và là một trong những quán hủ tiếu cá hiếm hoi ở Sài Gòn. Món ăn mang đậm phong cách ẩm thực Trung Hoa, với sợi hủ tiếu lớn, dai, kết hợp với những lát cá lóc phi lê tươi ngon.
-
-Nước dùng thanh ngọt, được ninh từ xương cá và các loại gia vị truyền thống. Cá lóc tươi được cắt lát mỏng, chín tới, giữ được độ ngọt tự nhiên. Tô hủ tiếu cá Nam Lợi là sự kết hợp hoàn hảo giữa sợi hủ tiếu dai và nước dùng thanh tao.
-
-Quán nhỏ, không gian giản dị, nhưng luôn đông khách. Giá từ 55.000 đồng/tô — rất hợp lý cho một tô hủ tiếu cá tươi ngon.
-
-- 34 Nguyễn Thái Bình, quận 1
-- Mở cửa: 6h – 22h
-
-## Hủ Tiếu Nam Vang Trung Còi — Hẻm nhỏ, tiếng lớn, vị ngon khó cưỡng
-
-Dù nằm trong một con hẻm nhỏ, Hủ Tiếu Nam Vang Trung Còi lúc nào cũng đông nghẹt khách. Quán mở cửa cả ngày nhưng nồi hủ tiếu luôn bốc hơi nghi ngút — minh chứng cho sức hút khó cưỡng.
-
-Bí quyết của Trung Còi nằm ở nước lèo thơm ngọt từ xương, kết hợp với topping tôm, thịt và trứng cút tươi ngon. Sự kết hợp của các thành phần tạo nên một tô hủ tiếu Nam Vang siêu chất lượng ở mức giá bình dân.
-
-Điểm đặc biệt: quán có thực đơn đa dạng với hủ tiếu trộn — một món ngon được nhiều thực khách yêu thích. Không gian quán hơi hẹp, thường phải xếp hàng, nhưng tô hủ tiếu xứng đáng với từng phút chờ đợi.
-
-- Hẻm 293 Nguyễn Đình Chiểu, quận 3
-- Mở cửa: 6h – 22h
+- Giá: 120.000 – 150.000 đ/tô
+- Địa chỉ: 381 Võ Văn Tần, Q3 (và 2 chi nhánh khác)
+- Giờ: 6h – 23h
 
 ---
 
-Mười quán, mười câu chuyện. Nhưng có một điều chung nhất: hủ tiếu Sài Gòn là sự pha trộn văn hóa hiếm có — người Hoa mang đến sợi hủ tiếu và tô nước dùng đậm đà, người Khmer góp phần tạo nên hủ tiếu Nam Vang, người miền Tây thêm vào sợi hủ tiếu Sa Đéc dai ngon. Tất cả hòa quyện trong một tô hủ tiếu Sài Gòn — giản dị mà sâu sắc, bình dân mà đầy bản sắc.
+## Dữ liệu so sánh tổng hợp
+
+| Quán | Loại | Giá | Giờ | CN | Năm HĐ |
+|------|------|-----|-----|----|--------|
+| Hồng Phát | Nam Vang | 60–90k | 6h30–22h30 | 5 | 20 |
+| Nhân Quán | Nam Vang | 86–115k | 5h30–23h | 4 | ~10 |
+| Thành Đạt | Nam Vang | 55–115k | 24/24 | 14 | ~15 |
+| Trung Còi | Nam Vang | ~45–60k | 7h–22h30 | 1 | ~15 |
+| Cả Cần | Mỹ Tho | 78–115k | 5h–0h | 1 | 50+ |
+| Thanh Xuân | Mỹ Tho | ~50–70k | Sáng–trưa | 1 | **80** |
+| Dì Năm | Sa Đéc | **45k+** | 6h–22h | 2 | **40** |
+| Ông Già Cali | Mực | ~50–80k | 6h–22h | 1 | ~15 |
+| Nam Lợi | Cá | 55k+ | 6h–22h | 1 | **70** |
+| Liến Húa | Nam Vang | **120–150k** | 6h–23h | 3 | 40+ |
+
+\*CN = chi nhánh, Năm HĐ = năm hoạt động. Giá và giờ có thể thay đổi.
+
+## Nhận xét
+
+Thị trường hủ tiếu Sài Gòn 2026 chứng kiến hai xu hướng rõ rệt: (1) các chuỗi Nam Vang mở rộng nhanh (Nhân Quán, Thành Đạt) chiếm lĩnh phân khúc tầm trung, và (2) các quán lâu đời (Thanh Xuân, Nam Lợi, Cả Cần) vẫn giữ chân khách nhờ tuổi đời và bí quyết gia truyền, bất chấp cạnh tranh.
+
+Trong khi đó, mảng hủ tiếu đặc sản (mực, cá) đang dần thu hẹp — số quán chuyên về hủ tiếu mực tại Sài Gòn chỉ đếm trên đầu ngón tay. Hủ tiếu Sa Đéc cũng ít nơi bán chuẩn vị tại trung tâm. Những quán như Dì Năm và Nam Lợi đang là "di sản sống" của các dòng hủ tiếu đang mai một.
