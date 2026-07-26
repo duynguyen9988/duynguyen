@@ -1,5 +1,6 @@
 ---
 title: 'The Mutations: Bệnh Dịch Thời Mạt Thế, Quái Vật Trong Mây Mù'
+slug: the-mutations-tan-benh-thoi-minh
 date: 2026-07-24T09:00:00+07:00
 draft: false
 description: 'The Mutations (Tân Bệnh Thời Minh) — phim kinh dị cổ trang Trung Quốc về một loại bệnh lạ thời nhà Minh.'

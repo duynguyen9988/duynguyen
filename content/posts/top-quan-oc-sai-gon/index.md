@@ -1,5 +1,6 @@
 ---
 title: 'Top quán ốc ngon Sài Gòn — Hương vị đường phố sau 9 giờ tối'
+slug: top-quan-oc-sai-gon
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Khám phá những quán ốc ngon nhất Sài Gòn — từ ốc len xào dừa đến bánh hỏi ốc hương, nơi tinh hoa ẩm thực đường phố hiện lên đậm đà nhất sau màn đêm.'

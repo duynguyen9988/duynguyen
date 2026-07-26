@@ -1,5 +1,6 @@
 ---
 title: 'Smith Chart: Bản Đồ Biểu Diễn Vô Cực Trong Một Vòng Tròn Hữu Hạn'
+slug: smith-chart-bi-do-cua-ky-thuat-dien
 date: 2026-07-22T09:00:00+07:00
 draft: false
 description: 'Smith Chart — biểu đồ huyền thoại trong kỹ thuật điện từ, công cụ không thể thiếu cho kỹ sư RF và thiết kế viễn thông.'

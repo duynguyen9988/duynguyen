@@ -51,6 +51,9 @@ jobs:
       - name: Install Python deps
         run: pip install python-frontmatter scikit-learn
 
+      - name: SEO check
+        run: python3 scripts/seo-check.py
+
       - name: Generate version info
         run: mkdir -p data && git log -1 --format='{"hash":"%h","date":"%ad"}' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json
 

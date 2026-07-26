@@ -1,5 +1,6 @@
 ---
 title: 'Dropbox: Câu Chuyện Khởi Nghiệp Và Sự Lãng Quên Đắt Giá Nhất Thung Lũng Silicon'
+slug: dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen
 date: 2026-07-25T09:00:00+07:00
 draft: false
 description: 'Câu chuyện khởi nghiệp của Dropbox — từ ý tưởng quên USB đến kỳ lân tỷ đô, và bài học về sự lãng quên trong thời đại cloud.'

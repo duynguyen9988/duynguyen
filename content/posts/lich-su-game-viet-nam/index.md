@@ -1,5 +1,6 @@
 ---
 title: 'Lịch sử ngành game Việt Nam — từ game flash đến esports'
+slug: lich-su-game-viet-nam
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Lịch sử ngành game Việt Nam — từ những quán net đầu tiên đến kỳ lân game và làn sóng đầu tư tỷ đô năm 2026.'

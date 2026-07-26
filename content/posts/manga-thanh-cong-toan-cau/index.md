@@ -1,5 +1,6 @@
 ---
 title: 'Vì sao manga Nhật Bản chinh phục toàn cầu?'
+slug: manga-thanh-cong-toan-cau
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Manga Nhật Bản — hành trình từ truyện tranh bình dân đến hiện tượng văn hóa toàn cầu vượt qua mọi rào cản ngôn ngữ.'

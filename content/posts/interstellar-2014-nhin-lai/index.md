@@ -1,5 +1,6 @@
 ---
 title: 'Interstellar 12 năm nhìn lại — Kiệt tác khoa học viễn tưởng của Nolan'
+slug: interstellar-2014-nhin-lai
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Interstellar (2014) của Christopher Nolan — kiệt tác khoa học viễn tưởng về thời gian, tình yêu và hành trình cứu lấy nhân loại.'

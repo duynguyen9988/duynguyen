@@ -13,7 +13,7 @@ categories:
 resources:
   - name: featured-image
     src: featured-image.jpg
-slug: top-phim-kinh-di-ang-so-nhat-moi-thoi-dai
+slug: top-phim-kinh-di-ang-so-nhat
 ---
 
 Có một cảm giác mà chỉ thể loại kinh dị mới mang lại được: bàn tay bấu chặt vào tay ghế, nhịp tim đập thình thịch trong lồng ngực, và cái cảm giác sợ hãi nguyên thủy nhưng lại kỳ lạ hấp dẫn đến mức không thể rời mắt khỏi màn hình. Suốt hơn một thế kỷ qua, phim kinh dị đã là một phần quan trọng của điện ảnh — không chỉ để hù dọa, mà còn để phản ánh những nỗi sợ sâu thẳm nhất của xã hội qua từng thời kỳ.

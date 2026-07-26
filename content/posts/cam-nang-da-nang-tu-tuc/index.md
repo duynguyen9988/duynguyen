@@ -1,5 +1,6 @@
 ---
 title: 'Cẩm nang du lịch Đà Nẵng tự túc — từ check-in đến ẩm thực'
+slug: cam-nang-da-nang-tu-tuc
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Cẩm nang du lịch Đà Nẵng tự túc 2026 — kinh nghiệm ăn gì, chơi đâu, ở đâu cho chuyến đi biển trọn vẹn nhất.'

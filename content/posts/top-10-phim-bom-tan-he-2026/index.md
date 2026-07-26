@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 phim bom tấn hè 2026 được khán giả mong đợi nhất'
+slug: top-10-phim-bom-tan-he-2026
 date: 2026-07-24T10:00:00+07:00
 draft: false
 description: 'Top 10 phim bom tấn hè 2026 — từ Avengers đến những tác phẩm mới nhất: danh sách phim đáng xem nhất mùa hè này.'

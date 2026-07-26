@@ -1,5 +1,6 @@
 ---
 title: 'Prime Target: Series gián điệp toán học và mật mã số nguyên tố'
+slug: prime-target
 date: 2026-07-26T17:20:27+07:00
 draft: false
 description: 'Prime Target — series chính kịch khoa học Apple TV+ về một nhà toán học phát hiện điểm yếu trong hệ thống mã hóa RSA.'

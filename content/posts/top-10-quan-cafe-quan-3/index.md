@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 Quán Cà Phê Quận 3: Từ Rooftop Chill Đến Coffee Roastery'
+slug: top-10-quan-cafe-quan-3
 date: 2026-07-26T14:00:00+07:00
 draft: false
 description: 'Top 10 quán cà phê Quận 3 Sài Gòn — không gian đẹp, cà phê ngon cho dân văn phòng và giới trẻ yêu Sài Gòn.'

@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 Quán Phở Ngon Nhất Sài Gòn: Từ Gánh Hẻm Đến Michelin'
+slug: top-10-quan-pho-sai-gon
 date: 2026-07-26T11:00:00+07:00
 draft: false
 description: 'Top 10 quán phở ngon nhất Sài Gòn 2026 — phở bò, phở gà, phở tái lăn: tìm hương vị Hà Nội giữa lòng Sài Gòn.'

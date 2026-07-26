@@ -1,5 +1,6 @@
 ---
 title: 'The Giver (2014): Phim dystopia chuyển thể từ tiểu thuyết của Lois Lowry'
+slug: the-giver-2014
 date: 2026-07-22T10:00:00+07:00
 draft: false
 description: 'The Giver (2014) — phim dystopia dựa trên tiểu thuyết Lois Lowry, về một thế giới xóa bỏ đau khổ bằng cách xóa bỏ cả ký ức và màu sắc.'

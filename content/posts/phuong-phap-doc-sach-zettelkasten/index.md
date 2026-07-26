@@ -1,5 +1,6 @@
 ---
 title: 'Phương pháp đọc sách Zettelkasten — ghi chép thông minh cho người Việt'
+slug: phuong-phap-doc-sach-zettelkasten
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Zettelkasten — phương pháp đọc sách và ghi chép của thiên tài Niklas Luhmann, giúp bạn xây dựng kho tri thức cá nhân.'

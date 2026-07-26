@@ -1,5 +1,6 @@
 ---
 title: 'Gone Girl (2014): Phim tâm lý tội phạm của David Fincher dựa trên tiểu thuyết của Gillian Flynn'
+slug: gone-girl-2014
 date: 2026-07-23T08:00:00+07:00
 draft: false
 description: 'Gone Girl là phim tâm lý tội phạm Mỹ 2014 của David Fincher, với Ben Affleck và Rosamund Pike, chuyển thể từ tiểu thuyết cùng tên của Gillian Flynn.'

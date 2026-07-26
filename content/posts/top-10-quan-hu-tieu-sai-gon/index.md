@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 Quán Hủ Tiếu Ngon Nhất Sài Gòn: Từ Nam Vang Đến Sa Đéc'
+slug: top-10-quan-hu-tieu-sai-gon
 date: 2026-07-26T13:00:00+07:00
 draft: false
 description: 'Top 10 quán hủ tiếu ngon nhất Sài Gòn — hủ tiếu Nam Vang, hủ tiếu khô hay hủ tiếu mì, đâu mới là đỉnh nhất?'

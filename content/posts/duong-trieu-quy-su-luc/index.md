@@ -1,5 +1,6 @@
 ---
 title: 'Đường Triều Quỷ Sự Lục: Vụ Án Nào Hay Nhất Qua Ba Mùa?'
+slug: duong-trieu-quy-su-luc
 date: 2026-07-24T08:00:00+07:00
 draft: false
 description: 'Đường Triều Quỷ Sự Lục — bộ phim kinh dị cổ trang Trung Quốc khai thác nỗi sợ từ những câu chuyện dân gian đời Đường.'

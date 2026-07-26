@@ -1,5 +1,6 @@
 ---
 title: 'John Ternus và Câu Hỏi Cho Kỷ Nguyên Mới Của Apple: Khi Một Kỹ Sư Cơ Khí Lên Nắm Quyền'
+slug: john-ternus-apple-ceo
 date: 2026-07-25T10:00:00+07:00
 draft: false
 description: 'John Ternus — tân CEO của Apple kế nhiệm Tim Cook: chân dung vị lãnh đạo thầm lặng đang định hình tương lai của Táo Khuyết.'

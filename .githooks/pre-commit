@@ -1,0 +1,11 @@
+#!/bin/bash
+# Pre-commit hook: run SEO check on staged posts only
+set -e
+
+STAGED=$(git diff --cached --name-only --diff-filter=ACM | grep 'content/posts/.*/index\.md$' || true)
+if [ -z "$STAGED" ]; then
+    exit 0
+fi
+
+echo "=== SEO Check (staged posts) ==="
+echo "$STAGED" | python3 "$(git rev-parse --show-toplevel)/scripts/seo-check.py"

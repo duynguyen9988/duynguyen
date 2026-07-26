@@ -1,5 +1,6 @@
 ---
 title: 'The Girl on the Train (2016): Phim tâm lý tội phạm của Tate Taylor với Emily Blunt'
+slug: girl-on-the-train-2016
 date: 2026-07-23T09:00:00+07:00
 draft: false
 description: 'The Girl on the Train (2016) — chuyển thể từ best-seller của Paula Hawkins, câu chuyện ly kỳ về ký ức, mất trí và sự thật.'

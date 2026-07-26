@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 cửa hàng thể thao uy tín ở Sài Gòn TP HCM năm 2026'
+slug: top-10-cua-hang-the-thao-sai-gon
 date: 2026-07-25T15:00:00+07:00
 draft: false
 description: 'Khám phá top 10 cửa hàng thể thao uy tín nhất Sài Gòn năm 2026, từ chuỗi đa thương hiệu quốc tế đến shop chuyên ngành được dân thể thao tin dùng.'

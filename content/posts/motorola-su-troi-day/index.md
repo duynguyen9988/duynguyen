@@ -1,5 +1,6 @@
 ---
 title: 'Motorola: Từ Cú Ngã Của Huyền Thoại Điện Thoại Đến Sự Trỗi Dậy $60 Tỷ'
+slug: motorola-su-troi-day
 date: 2026-07-25T08:00:00+07:00
 draft: false
 description: 'Motorola — từ huyền thoại điện thoại di động đầu tiên đến sự trở lại ngoạn mục với Razr gập và tham vọng mới.'

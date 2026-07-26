@@ -1,5 +1,6 @@
 ---
 title: 'Top 10 quán cafe tuyệt vời cho cuối tuần ở Sài Gòn TP HCM'
+slug: top-10-quan-cafe-sai-gon
 date: 2026-07-26T16:00:00+07:00
 draft: false
 description: 'Top 10 quán cà phê Sài Gòn 2026 — từ cà phê cóc vỉa hè đến rooftop view đẹp cho những ai yêu năng lượng Sài Gòn.'

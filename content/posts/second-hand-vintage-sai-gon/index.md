@@ -1,5 +1,6 @@
 ---
 title: 'Top cửa hàng second-hand và vintage ở Sài Gòn — săn đồ độc lạ'
+slug: second-hand-vintage-sai-gon
 date: 2026-07-26T17:11:32+07:00
 draft: false
 description: 'Mua sắm second-hand và vintage ở Sài Gòn — xu hướng thời trang bền vững đang thay đổi cách người trẻ tiêu dùng 2026.'

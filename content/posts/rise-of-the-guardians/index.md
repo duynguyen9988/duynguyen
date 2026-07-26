@@ -1,5 +1,6 @@
 ---
 title: 'Sự Trỗi Dậy Của Các Vệ Thần: Khi Jack Frost Tìm Thấy Lý Do Để Được Tin'
+slug: rise-of-the-guardians
 date: 2026-07-23T14:00:00+07:00
 draft: false
 description: 'Rise of the Guardians (2012) — phim hoạt hình DreamWorks về nhóm anh hùng giáng sinh bảo vệ niềm tin của trẻ em.'
