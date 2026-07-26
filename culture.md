@@ -1,5 +1,13 @@
 # Blog Culture & Rules
 
+## Post Date = Current Time Only
+
+**Post date MUST be the real current time.** Never set a future time manually.
+
+- Run `TZ=Asia/Saigon date +"%Y-%m-%dT%H:%M:%S+07:00"` to get the correct timestamp
+- Hugo hides future-dated posts by default — using a future date = post disappears until that time arrives
+- No exceptions: always use `now`, never guess "this will be a 10AM post"
+
 ## Content Integrity — NO FABRICATION
 
 **Every factual claim in every post MUST come from the user-provided Wikipedia source.** Never guess, infer, or fabricate any detail.
