@@ -9,7 +9,7 @@ tags:
   - Ngày Sách Việt Nam
   - tri thức
 categories:
-  - văn-hóa
+  - van-hoa
 resources:
   - name: featured-image
     src: featured-image.jpg
