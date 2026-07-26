@@ -12,6 +12,8 @@ categories:
 resources:
   - name: featured-image
     src: featured-image.jpg
+aliases:
+  - /huong-dan-hugo/
 ---
 
 Hugo là một trong những static site generator nhanh nhất và linh hoạt nhất hiện nay, được viết bằng Go và phát triển bởi cộng đồng mã nguồn mở dưới sự dẫn dắt của Bjørn Erik Pedersen (bepsays) và Steve Francia (spf13). Với hơn 89.000 sao trên GitHub, Hugo đã trở thành lựa chọn hàng đầu cho hàng triệu trang web trên toàn thế giới, từ blog cá nhân đến trang web doanh nghiệp, tài liệu sản phẩm và cổng thông tin điện tử. Bài viết này sẽ tổng quan toàn bộ tài liệu Hugo mới nhất tính đến năm 2026, giúp bạn có cái nhìn toàn diện về framework mạnh mẽ này.

@@ -197,6 +197,19 @@ When user says "tạo category mới: <tên>":
 2. Create a companion blog post with that category — ask user for title + content source, or auto-generate if not specified
 3. Build, commit, push — all tự động, không đợi nhắc
 
+## Delete Post — SEO Rules
+
+When deleting a post:
+
+1. Add `aliases` to the replacement post's front matter pointing to the old URL → Hugo generates 301 redirect pages
+   ```yaml
+   aliases:
+     - /old-url/
+   ```
+2. Delete the old post file from `content/`
+3. Verify the alias page renders correctly (check `public/<old-url>/index.html`)
+4. Build, commit, push
+
 ## Learning Log
 
 Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
