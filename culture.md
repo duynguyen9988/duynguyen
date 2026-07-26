@@ -1,5 +1,19 @@
 # Blog Culture & Rules
 
+## Content Integrity — NO FABRICATION
+
+**Every factual claim in every post MUST be verifiable from an authoritative source.** Never guess, infer, or fabricate dates, showtimes, pricing, names, or figures.
+
+Rules:
+1. **Release dates, showtimes, pricing** — only cite if confirmed on an official page (CGV, BHD, Lotte, Wikipedia, studio press release). If the official page shows empty/loading, do NOT write anything.
+2. **Quotes, reviews, ratings** — must be traceable to a named publication or critic. Never invent a quote.
+3. **Statistics (budget, box office, runtime)** — only from Wikipedia or reputable trades (Variety, Deadline, THR). Cite the source inline.
+4. **Local availability (lịch chiếu, rạp, giá vé)** — if you can't confirm on the official cinema chain website, don't write it. Full stop.
+5. **When in doubt, omit.** A shorter truthful post beats a long fabricated one.
+6. **Attribution:** link to the source URL for any factual claim (e.g., Wikipedia, CGV, official trailer). If you can't link it, don't claim it.
+
+Penalty: any fabricated content undermines blog credibility. Always err on the side of saying nothing vs. saying something unverified.
+
 ## Tech Stack
 
 | Layer | Technology |
