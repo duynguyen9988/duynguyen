@@ -1,0 +1,11 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+<article class="page single">
+  <h1 class="single-title animate__animated animate__flipInX">{{ .Title }}</h1>
+  <div class="content" id="content">
+    <p>Đây là sơ đồ cấu trúc toàn bộ trang web. Mỗi đường dẫn đều có thể click để truy cập.</p>
+    <div class="sitemap-tree">{{ partial "sitemap-tree.html" . | safeHTML }}</div>
+  </div>
+</article>
+{{- end -}}

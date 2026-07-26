@@ -753,7 +753,57 @@ header {
 }
 
 // ==============================
-// 8. Lightbox Modal
+// 8. Sitemap Tree
+// ==============================
+
+.sitemap-tree {
+  font-family: "SF Mono", "Fira Code", "JetBrains Mono", "Cascadia Code", "DejaVu Sans Mono", Menlo, Consolas, monospace;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid $global-border-color;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+
+  [theme=dark] & {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: $global-border-color-dark;
+  }
+
+  .tree-root {
+    white-space: nowrap;
+  }
+
+  .tree-children {
+    padding-left: 2rem;
+  }
+
+  .tree-node {
+    line-height: 1.8;
+  }
+
+  .tree-branch {
+    white-space: pre;
+  }
+
+  a {
+    color: $single-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $single-link-hover-color;
+      text-decoration: underline;
+    }
+
+    [theme=dark] & {
+      color: $single-link-color-dark;
+    }
+  }
+}
+
+// ==============================
+// 9. Lightbox Modal
 // ==============================
 
 #lightbox-overlay {

@@ -27,7 +27,7 @@
 
 ## Navigation
 
-- 4 nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu) are in **Footer section #3** — NOT in the Navbar
+- 5 nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap) are in **Footer section #3** — NOT in the Navbar
 - Menu is read dynamically from `hugo.toml` `[menu]` — never hardcode
 - Navbar only has: blog name (left), search + dark-mode toggle (right)
 - The right side of Navbar is intentionally empty for future features

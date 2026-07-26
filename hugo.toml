@@ -178,3 +178,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "about"
     name = "Giới thiệu"
     url = "/about/"
+  [[menu.main]]
+    weight = 5
+    identifier = "sitemap"
+    name = "Sitemap"
+    url = "/sitemap/"
