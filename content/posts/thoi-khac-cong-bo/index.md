@@ -56,7 +56,7 @@ Spielberg kể chuyện bằng cả trái tim: những pha hành động nghẹt
 
 ## Chiếu tại Việt Nam
 
-Theo Wikipedia, phim **Thời Khắc Công Bố (Disclosure Day)** được công chiếu tại Việt Nam vào ngày **12 / 06 /2026**, cùng ngày với Mỹ, dưới tựa đề chính thức **Thời Khắc Công Bố**, do Universal Pictures phát hành.
+Theo [Wikipedia](https://vi.wikipedia.org/wiki/Th%E1%BB%9Di_kh%E1%BA%AFc_c%C3%B4ng_b%E1%BB%91), phim **Thời Khắc Công Bố (Disclosure Day)** được công chiếu tại Việt Nam vào ngày **12 / 06 /2026**, cùng ngày với Mỹ, dưới tựa đề chính thức **Thời Khắc Công Bố**, do Universal Pictures phát hành.
 
 Phim dài 145 phút, phân loại **T13** (phù hợp cho khán giả từ 13 tuổi).
 
@@ -86,9 +86,8 @@ Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T
 | Diễn viên | Emily Blunt, Josh O'Connor, Colin Firth |
 | Thể loại | Khoa học viễn tưởng, Hồi hộp |
 | Thời lượng | 145 phút |
-| Khởi chiếu VN | 12/06/2026 |
-| Doanh thu | $237.6 triệu (toàn cầu) |
-| Kinh phí | $115 triệu |
+| Doanh thu | $237.6 triệu (toàn cầu) — [Wikipedia](https://en.wikipedia.org/wiki/Disclosure_Day) |
+| Kinh phí | $115 triệu — [Wikipedia](https://en.wikipedia.org/wiki/Disclosure_Day) |
 
 ---
 
