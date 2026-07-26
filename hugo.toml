@@ -2,7 +2,6 @@ baseURL = 'https://duynguyen9988.github.io/duynguyen/'
 title = 'Duy Nguyen'
 theme = 'LoveIt'
 defaultContentLanguage = 'vi'
-languageCode = 'vi'
 locale = 'vi_VN'
 hasCJKLanguage = false
 enableRobotsTXT = true

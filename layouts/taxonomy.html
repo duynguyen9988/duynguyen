@@ -1,0 +1,71 @@
+{{- define "title" -}}
+    {{- .Params.Title | default (T .Data.Plural) | default .Data.Plural | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+    {{- $taxonomies := .Data.Plural -}}
+    {{- $terms := .Data.Terms.ByCount -}}
+    {{- $type := .Type -}}
+
+    {{- /* Emoji & color map for 8 canonical categories */ -}}
+    {{- $catMeta := dict
+        "am-thuc"    (dict "emoji" "🍜" "icon" "utensils"    "gradient" "linear-gradient(135deg, #FF2FA0, #FF6B6B)")
+        "cong-nghe"   (dict "emoji" "💻" "icon" "microchip"   "gradient" "linear-gradient(135deg, #2563EB, #60A5FA)")
+        "du-lich"     (dict "emoji" "✈️" "icon" "plane"       "gradient" "linear-gradient(135deg, #10B981, #34D399)")
+        "giai-tri"    (dict "emoji" "🎬" "icon" "gamepad"     "gradient" "linear-gradient(135deg, #F59E0B, #FBBF24)")
+        "kinh-nghiem-song" (dict "emoji" "🧠" "icon" "brain"  "gradient" "linear-gradient(135deg, #8B5CF6, #A78BFA)")
+        "mua-sam"     (dict "emoji" "🛍️" "icon" "bag-shopping" "gradient" "linear-gradient(135deg, #EC4899, #F472B6)")
+        "phim"        (dict "emoji" "🎥" "icon" "film"        "gradient" "linear-gradient(135deg, #06B6D4, #22D3EE)")
+        "van-hoa"     (dict "emoji" "🏮" "icon" "landmark"    "gradient" "linear-gradient(135deg, #EF4444, #F87171)")
+    -}}
+
+    <div class="page categories-page">
+        <h2 class="single-title animate__animated animate__pulse animate__faster">
+            {{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}
+        </h2>
+
+        <div class="category-grid">
+            {{- range $index, $termItem := $terms -}}
+                {{- $term := .Term -}}
+                {{- $pages := .Pages -}}
+                {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
+                    {{- $meta := index $catMeta $term | default (dict "emoji" "📂" "icon" "folder" "gradient" "linear-gradient(135deg, #64748B, #94A3B8)") -}}
+                    {{- $postCount := len $pages -}}
+                    {{- $slug := $term -}}
+                    <div class="category-card reveal" style="transition-delay: {{ mul $index 0.08 }}s;">
+                        <div class="category-card-bg" style="background: {{ index $meta "gradient" | safeCSS }};"></div>
+
+                        <div class="category-card-header">
+                            <span class="category-card-emoji" aria-hidden="true">{{ index $meta "emoji" }}</span>
+                            <div class="category-card-title-group">
+                                <h3 class="category-card-title">
+                                    <a href="{{ .RelPermalink }}">{{ .Page.Title }}</a>
+                                </h3>
+                                <span class="category-card-count">{{ $postCount }} bài viết</span>
+                            </div>
+                        </div>
+
+                        <div class="category-card-body">
+                            {{- $previewLimit := 5 -}}
+                            {{- if lt $postCount 5 -}}
+                                {{- $previewLimit = $postCount -}}
+                            {{- end -}}
+                            <ul class="category-card-posts">
+                                {{- range first $previewLimit $pages -}}
+                                    <li>
+                                        <a href="{{ .RelPermalink }}">{{- .Title | emojify -}}</a>
+                                    </li>
+                                {{- end -}}
+                            </ul>
+                            {{- if gt $postCount $previewLimit -}}
+                                <a href="{{ .RelPermalink }}" class="category-card-more">+{{ sub $postCount $previewLimit }} bài nữa →</a>
+                            {{- end -}}
+                        </div>
+
+                        <a href="{{ .RelPermalink }}" class="category-card-overlay-link" tabindex="-1" aria-hidden="true"></a>
+                    </div>
+                {{- end -}}
+            {{- end -}}
+        </div>
+    </div>
+{{- end -}}
