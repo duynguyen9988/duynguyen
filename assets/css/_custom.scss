@@ -23,31 +23,7 @@ header {
 }
 
 // ==============================
-// 2. Compact Profile
-// ==============================
-
-.home[data-home=posts] .home-profile {
-  padding-top: 0.75rem !important;
-  padding-bottom: 0 !important;
-  transform: none !important;
-
-  .home-avatar img {
-    width: 4.5rem !important;
-  }
-
-  .home-title {
-    font-size: 1.1rem;
-    padding: 0.25rem;
-  }
-
-  .links {
-    padding: 0.25rem;
-    font-size: 1.25rem;
-  }
-}
-
-// ==============================
-// 3. Container Expansion
+// 2. Container Expansion
 // ==============================
 
 .page.home {

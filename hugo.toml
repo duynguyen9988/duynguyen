@@ -84,14 +84,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.home]
     rss = 10
     [params.home.profile]
-      enable = true
-      gravatarEmail = ""
-      avatarURL = ""
-      title = "Duy Nguyen"
-      subtitle = ""
-      typeit = false
-      social = true
-      disclaimer = ""
+      enable = false
     [params.home.posts]
       enable = true
       paginate = 6
