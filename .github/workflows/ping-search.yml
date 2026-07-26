@@ -1,0 +1,29 @@
+name: Ping search engines
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping URLs
+        run: |
+          BASE="https://duynguyen9988.github.io/duynguyen"
+          URLS=(
+            "$BASE"
+            "$BASE/posts/"
+            "$BASE/top-10-quan-hu-tieu-sai-gon/"
+            "$BASE/top-10-quan-cafe-quan-3/"
+            "$BASE/top-10-banh-mi-sai-gon/"
+          )
+
+          for url in "${URLS[@]}"; do
+            echo ">>> $url"
+            curl -s -o /dev/null -w "HTTP %{http_code} | %{time_total}s\n" "$url"
+            sleep 1
+          done
+
+          echo "--- Done ---"
