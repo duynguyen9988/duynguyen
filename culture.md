@@ -333,3 +333,12 @@ Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
 - **Root cause**: The `data/` directory is in `.gitignore` and doesn't exist in the CI runner's working tree. GitHub Actions only has tracked files checked out.
 - **Fix**: Added `mkdir -p data &&` before the git log command in `.github/workflows/hugo-deploy.yml`
 - **Prevention**: Any step that writes to an auto-generated directory must create it first. CI runners don't have untracked/ignored directories.
+
+### 2026-07-26 — `1271458`
+- **What failed**: 9 posts had homepage thumbnails (via `featuredimagepreview`) but showed ZERO images on the single post page — text-only display
+- **Root cause**: `featuredimagepreview` only supplies the homepage/card thumbnail. The single post page needs `featuredimage` (frontmatter param) or a `featured-image` page resource to show a hero image. Missing `featuredimage` → no featured image div rendered.
+- **Fix**: Added `featuredimage: <unsplash-url>` matching the existing `featuredimagepreview` for all 9 posts. Also added missing `categories` to `mot-goc-nha-tho-duc-ba-saigon`.
+- **Prevention**: Every post MUST have both `featuredimagepreview` (homepage thumb) AND one of:
+  - `featuredimage` param (same URL, for external images)
+  - `featured-image` page resource (for local images)
+  Always include `categories` in frontmatter.
