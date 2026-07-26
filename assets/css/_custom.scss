@@ -425,9 +425,50 @@ header {
   }
 }
 
+.footer {
+  height: auto !important;
+  padding: 2rem 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-section-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.75rem;
+  color: $global-font-color;
+
+  [theme=dark] & {
+    color: $global-font-color-dark;
+  }
+}
+
+.footer-section-content {
+  font-size: 0.8125rem;
+  color: $global-font-secondary-color;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   .post-card {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
