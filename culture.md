@@ -272,6 +272,30 @@ When user triggers `bb`, execute the following workflow:
 
 5. **Commit + push** automatically.
 
+### `pp` — Blog dựa trên chủ đề (tự research)
+
+When user triggers `pp`, execute the following workflow:
+
+1. **Ask** for:
+   - Chủ đề (topic) — bắt buộc
+   - Tags, category, description (optional — infer từ nội dung nếu không có)
+   - Featured image (optional — tự tìm ảnh minh họa phù hợp, ưu tiên Wikipedia Commons)
+
+2. **Research & write**:
+   - Tự websearch/research để thu thập thông tin về chủ đề
+   - Chỉ dùng nguồn đáng tin cậy (Wikipedia, báo chí chính thống, trang chủ)
+   - Viết thành tiếng Việt tự nhiên, phong cách bài báo chuyên sâu (xem Writing Style bên dưới)
+   - Cấu trúc: mở bài (lead) → thân bài (phân tích, đào sâu) → kết bài (suy ngẫm)
+   - Không bullet-point/liệt kê — lồng ghép thông tin vào văn kể
+   - **Không bịa đặt, không suy luận thiếu căn cứ** — mọi dữ kiện phải có nguồn
+   - Dẫn nguồn nếu có thể (hyperlink trong bài)
+
+3. **Create** the post at `content/posts/<slug>/index.md`. Featured image nếu có.
+
+4. **Build** (`hugo --minify`) to verify no errors.
+
+5. **Commit + push** automatically.
+
 ### Category creation workflow
 
 When user says "tạo category mới: <tên>":
