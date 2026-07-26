@@ -1,6 +1,6 @@
 ---
 title: 'Top 10 Quán Cà Phê Quận 3: Từ Rooftop Chill Đến Coffee Roastery'
-date: 2026-07-26T14:15:00+07:00
+date: 2026-07-26T13:35:00+07:00
 draft: false
 description: 'Quận 3 là thủ phủ cà phê của Sài Gòn với hàng trăm quán từ rooftop view đẹp đến roastery tách cà phê thủ công. Một bản đồ cà phê quận 3 cho dân văn phòng, freelancer và tín đồ sống ảo.'
 tags:
