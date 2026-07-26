@@ -3,8 +3,22 @@
         <div class="footer-container">
             <div class="footer-grid">
                 <div class="footer-section">
-                    <h4 class="footer-section-title">Section #1</h4>
-                    <div class="footer-section-content"></div>
+                    <h4 class="footer-section-title">Về blog</h4>
+                    <div class="footer-section-content footer-about">
+                        <p>Blog ẩm thực, công nghệ và phim của Duy Nguyen. Review quán ăn Sài Gòn thật, viết bằng chất văn.</p>
+                        <div class="footer-social">
+                            {{- with .Site.Params.social.GitHub -}}
+                                <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer" title="GitHub" aria-label="GitHub">
+                                    <i class="fab fa-github footer-social-icon" aria-hidden="true"></i>
+                                </a>
+                            {{- end -}}
+                            {{- with .Site.Params.social.Email -}}
+                                <a href="mailto:{{ . }}" title="Email" aria-label="Email">
+                                    <i class="fas fa-envelope footer-social-icon" aria-hidden="true"></i>
+                                </a>
+                            {{- end -}}
+                        </div>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h4 class="footer-section-title">TAG_Heatmap</h4>
