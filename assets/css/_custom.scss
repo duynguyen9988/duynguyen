@@ -467,7 +467,49 @@ header {
 }
 
 // ==============================
-// 6. Responsive
+// 6. Category Colors
+// ==============================
+
+.categories-card .card-item {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  &:nth-child(1)::before { background: #FF2FA0; }
+  &:nth-child(1) .card-item-title i { color: #FF2FA0; }
+
+  &:nth-child(2)::before { background: #2563EB; }
+  &:nth-child(2) .card-item-title i { color: #2563EB; }
+
+  &:nth-child(3)::before { background: #10B981; }
+  &:nth-child(3) .card-item-title i { color: #10B981; }
+
+  &:nth-child(4)::before { background: #F59E0B; }
+  &:nth-child(4) .card-item-title i { color: #F59E0B; }
+
+  &:nth-child(5)::before { background: #8B5CF6; }
+  &:nth-child(5) .card-item-title i { color: #8B5CF6; }
+
+  &:nth-child(6)::before { background: #EF4444; }
+  &:nth-child(6) .card-item-title i { color: #EF4444; }
+
+  &:nth-child(7)::before { background: #06B6D4; }
+  &:nth-child(7) .card-item-title i { color: #06B6D4; }
+
+  &:nth-child(8)::before { background: #EC4899; }
+  &:nth-child(8) .card-item-title i { color: #EC4899; }
+}
+
+// ==============================
+// 6b. Responsive
 // ==============================
 
 @media only screen and (max-width: 900px) {
