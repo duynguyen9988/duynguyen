@@ -187,8 +187,10 @@ git push https://<user>:<token>@github.com/duynguyen9988/duynguyen.git main
 
 All listing pages (homepage, section, taxonomy) display posts newest-first via `.ByDate.Reverse` in the respective templates:
 - `layouts/home.html` — homepage
-- `themes/LoveIt/layouts/section.html` — `/posts/` section
-- `themes/LoveIt/layouts/term.html` — tag/category pages
+- `layouts/section.html` — `/posts/` section (overrides theme)
+- `layouts/term.html` — tag/category pages (overrides theme)
+
+**Never edit theme files directly.** Copy the template to `layouts/` for override — Hugo's lookup order prioritizes project `layouts/` over theme `layouts/`. This avoids forking/customizing the theme submodule.
 
 ## Post Ideas
 
