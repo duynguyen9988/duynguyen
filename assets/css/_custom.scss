@@ -22,6 +22,36 @@ header {
   font-weight: 650;
 }
 
+#header-desktop .header-title a,
+#header-desktop .menu .menu-item,
+#header-desktop .search .search-button,
+#header-mobile .header-title a,
+#header-mobile .menu .menu-item,
+#header-mobile .search .search-button {
+  color: #fff;
+}
+
+#header-desktop .header-wrapper .menu a:hover,
+#header-desktop .header-wrapper .menu a.active {
+  color: #fff;
+  opacity: 0.85;
+}
+
+#header-mobile .menu .menu-item:hover,
+#header-mobile .menu .menu-item.active {
+  color: #fff;
+  opacity: 0.85;
+}
+
+#header-desktop .header-wrapper .menu .menu-item.delimiter,
+#header-mobile .menu .menu-item.delimiter {
+  border-left-color: rgba(255, 255, 255, 0.3);
+}
+
+#header-mobile .menu-toggle span {
+  background: #fff;
+}
+
 // ==============================
 // 2. Container Expansion
 // ==============================
