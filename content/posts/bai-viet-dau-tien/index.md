@@ -6,6 +6,9 @@ description: 'Bài viết đầu tiên trên blog của tôi'
 tags:
   - hello
   - intro
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 ---
 
 Chào mừng bạn đến với blog của tôi!
