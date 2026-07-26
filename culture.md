@@ -2,15 +2,14 @@
 
 ## Content Integrity — NO FABRICATION
 
-**Every factual claim in every post MUST be verifiable from an authoritative source.** Never guess, infer, or fabricate dates, showtimes, pricing, names, or figures.
+**Every factual claim in every post MUST come from the user-provided Wikipedia source.** Never guess, infer, or fabricate any detail.
 
 Rules:
-1. **Release dates, showtimes, pricing** — only cite if confirmed on an official page (CGV, BHD, Lotte, Wikipedia, studio press release). If the official page shows empty/loading, do NOT write anything.
-2. **Quotes, reviews, ratings** — must be traceable to a named publication or critic. Never invent a quote.
-3. **Statistics (budget, box office, runtime)** — only from Wikipedia or reputable trades (Variety, Deadline, THR). Cite the source inline.
-4. **Local availability (lịch chiếu, rạp, giá vé)** — if you can't confirm on the official cinema chain website, don't write it. Full stop.
+1. **Only Wikipedia content.** If the source is a Wikipedia URL, every fact in the post must be extracted from that page. No outside knowledge, no inference, no fabrication.
+2. **Translate faithfully.** From English Wikipedia → Vietnamese. Preserve all facts. Do not add editorial opinion, commentary, or unverified claims.
+3. **No unauthoritative sources.** Do NOT cite other websites, reviews, or unofficial sources unless they are part of the Wikipedia article text.
+4. **If raw text provided by user** — use only that text. Do not supplement with your own knowledge.
 5. **When in doubt, omit.** A shorter truthful post beats a long fabricated one.
-6. **Attribution:** link to the source URL for any factual claim (e.g., Wikipedia, CGV, official trailer). If you can't link it, don't claim it.
 
 Penalty: any fabricated content undermines blog credibility. Always err on the side of saying nothing vs. saying something unverified.
 
@@ -201,22 +200,30 @@ When user triggers `gg`, execute the following workflow:
 
 1. **Ask** for:
    - Title (required)
-   - Frontmatter fields: `tags`, `description`, `date` (default today), `resources` (featured image if any)
-   - **Content source**: URL to fetch from (e.g. Wikipedia) **or** raw text to use as source material
+   - Content source: **Wikipedia URL** (en or vi) **or** raw text user pastes. **NO other URLs allowed.**
+   - Tags, category, description (optional — infer from content if not given)
+   - Featured image: use the Wikipedia infobox image (download as `featured-image.jpg`)
 
-2. **Write** a complete Hugo blog post with:
-   - Minimum **2000 words** in main content
-   - Proper Markdown formatting (headings, paragraphs, lists, images with `![]()` syntax)
-   - Featured image if provided (download and add as page resource with `resources` front matter)
-   - Lightbox-compatible images (use Markdown `![]()` syntax — the render hook handles the rest)
+2. **Process content:**
+   - If Wikipedia URL → fetch the page markdown via webfetch
+   - If raw text → use directly
+   - Translate English Wikipedia content to Vietnamese (natural, readable, không dịch word-by-word)
+   - Preserve factual accuracy — do NOT add, infer, or fabricate any detail not in the source
+   - Reorganize into logical sections (headings, paragraphs, lists) phù hợp blog
+
+3. **Write** Hugo blog post:
+   - No minimum word count — write enough to cover the source faithfully
+   - Proper Markdown formatting
+   - Featured image from Wikipedia (page resource at `featured-image.jpg`)
    - Vietnamese language
    - Front matter matches Hugo conventions
+   - **NO fabricated claims.** Every fact must be traceable to the Wikipedia source.
 
-3. **Create** the post at `content/posts/<slug>/index.md` and save any featured image as `featured-image.jpg` in the same directory.
+4. **Create** the post at `content/posts/<slug>/index.md` with featured image.
 
-4. **Build** (`hugo --minify`) to verify no errors.
+5. **Build** (`hugo --minify`) to verify no errors.
 
-5. **Commit + push** automatically.
+6. **Commit + push** automatically.
 
 ### Category creation workflow
 
