@@ -29,4 +29,4 @@ Trên sóng truyền hình, phim Mùa Hè năm ấy lên sóng VTV3 từ ngày 3
 
 Ở tầm quốc tế, bộ phim Vườn Tình yêu lấy cảm hứng từ Dân ca Quan họ Bắc Ninh đã chính thức ra mắt khán giả toàn cầu trên nền tảng WAVES OTT của Đài Phát thanh — Truyền hình quốc gia Ấn Độ. Trước đó, phim giành giải Phim quốc tế xuất sắc nhất tại Liên hoan phim quốc tế Haryana lần thứ 8. Phim do Sách Kỷ lục Ấn Độ sản xuất, dựa trên ý tưởng của nghệ sĩ Chu Bảo Quế, kể về hành trình của một cô gái Ấn Độ đến với âm nhạc Việt Nam. Đây là lần đầu tiên một bộ phim đưa Quan họ — di sản văn hóa phi vật thể của UNESCO — đến với khán giả toàn cầu qua ngôn ngữ điện ảnh Bollywood.
 
-Nếu yêu thích không khí điện ảnh, đừng bỏ qua bài viết về [top 10 phim bom tấn hè 2026](/duynguyen/posts/top-10-phim-bom-tan-he-2026/) và [Disclosure Day — siêu phẩm UFO của Spielberg](/duynguyen/posts/thoi-khac-cong-bo/) đang gây bão toàn cầu.
+Nếu yêu thích không khí điện ảnh, đừng bỏ qua bài viết về [top 10 phim bom tấn hè 2026](/duynguyen/top-10-phim-bom-tan-he-2026/) và [Disclosure Day — siêu phẩm UFO của Spielberg](/duynguyen/thoi-khac-cong-bo/) đang gây bão toàn cầu.

@@ -39,4 +39,4 @@ Cuối cùng, Lẩu nấm Ashima mang đến một lựa chọn thanh đạm, t�
 
 Mười quán lẩu, mười hương vị, mười câu chuyện khác nhau. Nhưng có một điểm chung: tất cả đều xứng đáng để bạn xỏ dép lê, bước ra cơn mưa Sài Gòn và tìm đến. Bởi mưa ở Sài Gòn không chỉ là nước từ trên trời rơi xuống, mà còn là cái cớ để người ta quây quần bên nhau, bên một nồi lẩu, kể cho nhau nghe những câu chuyện còn dang dở.
 
-Hành trình ẩm thực Sài Gòn còn nhiều điều thú vị: [bún bò Huế đậm đà](/duynguyen/posts/top-10-quan-bun-bo-hue-sai-gon/), [cà phê vỉa hè sáng sớm](/duynguyen/posts/ca-phe-via-he-sai-gon/), [bánh mì giòn rụm](/duynguyen/posts/banh-mi-sai-gon/) hay [chợ đêm về khuya](/duynguyen/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi món một câu chuyện riêng.
+Hành trình ẩm thực Sài Gòn còn nhiều điều thú vị: [bún bò Huế đậm đà](/duynguyen/top-10-quan-bun-bo-hue-sai-gon/), [cà phê vỉa hè sáng sớm](/duynguyen/ca-phe-via-he-sai-gon/), [bánh mì giòn rụm](/duynguyen/banh-mi-sai-gon/) hay [chợ đêm về khuya](/duynguyen/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi món một câu chuyện riêng.

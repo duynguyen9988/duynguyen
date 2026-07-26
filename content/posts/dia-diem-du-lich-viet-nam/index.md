@@ -34,4 +34,4 @@ Mũi Né với đồi cát vàng trải rộng, làn nước xanh và các hoạ
 
 Năm 2026, du lịch Việt Nam không chỉ có biển xanh cát trắng, mà còn có những cung đường Hà Giang quanh co, những hang động Phong Nha kỳ vĩ, những phố cổ Hội An trầm mặc. Mỗi vùng miền mở ra một câu chuyện riêng, một trải nghiệm riêng, và tất cả đều đáng để bạn xách ba lô lên và đi.
 
-Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế](/duynguyen/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/duynguyen/posts/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/duynguyen/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — những trải nghiệm làm nên hồn cốt của thành phố.
+Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế](/duynguyen/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/duynguyen/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/duynguyen/cho-dem-am-thuc-duong-pho-sai-gon/) — những trải nghiệm làm nên hồn cốt của thành phố.

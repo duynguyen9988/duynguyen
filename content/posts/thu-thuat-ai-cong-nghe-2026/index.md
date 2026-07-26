@@ -29,4 +29,4 @@ Với người dùng phổ thông, kỹ thuật prompt vẫn còn giá trị. C�
 
 Năm 2026 là năm của agent. Ranh giới giữa công cụ và đồng nghiệp đang mờ dần. Người biết tận dụng sẽ làm được nhiều hơn với ít thao tác hơn.
 
-Làm chủ công nghệ chỉ là một phần của câu chuyện. Để thực sự tối ưu hiệu suất, bạn cũng cần [làm chủ thời gian và quản lý công việc](/duynguyen/posts/lam-chu-thoi-gian-quan-ly-cong-viec/) — bởi công cụ tốt nhất cũng vô nghĩa nếu thiếu kỷ luật và phương pháp.
+Làm chủ công nghệ chỉ là một phần của câu chuyện. Để thực sự tối ưu hiệu suất, bạn cũng cần [làm chủ thời gian và quản lý công việc](/duynguyen/lam-chu-thoi-gian-quan-ly-cong-viec/) — bởi công cụ tốt nhất cũng vô nghĩa nếu thiếu kỷ luật và phương pháp.
