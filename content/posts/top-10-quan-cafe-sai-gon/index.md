@@ -17,6 +17,8 @@ resources:
 
 Cuối tuần rảnh rỗi, tìm một quán cafe ngồi chill, làm việc hay tụ tập bạn bè luôn là lựa chọn hàng đầu ở Sài Gòn. Sài thành có hàng trăm quán cafe mọc lên mỗi năm, từ phong cách tối giản, sân vườn, rooftop cho đến concept "cà phê trên giường" độc đáo. Dưới đây là 10 quán cafe đẹp và đáng thử nhất, được chọn lọc dựa trên không gian, chất lượng đồ uống và trải nghiệm thực tế.
 
+![](featured-image.jpg)
+
 ## 1. The Workshop Coffee
 
 | Hạng mục | Chi tiết |
