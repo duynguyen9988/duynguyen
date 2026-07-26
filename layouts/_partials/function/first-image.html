@@ -1,0 +1,57 @@
+{{- $result := "" -}}
+{{- $params := .Params | merge .Site.Params.page -}}
+
+{{- /* 1. Check featuredimagepreview / featuredimage front matter */ -}}
+{{- $result = $params.featuredimagepreview | default $params.featuredimage -}}
+{{- if $result -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $result = .RelPermalink -}}
+    {{- end -}}
+    {{- with .Resources.GetMatch "featured-image-preview" -}}
+        {{- $result = .RelPermalink -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* 2. Fall back to first image in raw content */ -}}
+{{- if not $result -}}
+    {{- $raw := .RawContent -}}
+    {{- $matches := findRE `!\[.*?\]\((.+?)(?:\s+".*?")?\)` $raw 1 -}}
+    {{- if $matches -}}
+        {{- $src := replaceRE `!\[.*?\]\((.+?)(?:\s+".*?")?\)` "$1" (index $matches 0) -}}
+        {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//") -}}
+            {{- $result = $src -}}
+        {{- else -}}
+            {{- with $.Resources.GetMatch $src -}}
+                {{- $result = .RelPermalink -}}
+            {{- else -}}
+                {{- $result = printf "%s%s" $.RelPermalink $src -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* 3. Fall back to first <img> in rendered content */ -}}
+{{- if not $result -}}
+    {{- $matches := findRE `<img[^>]+src="([^"]+)"` .Content 1 -}}
+    {{- if $matches -}}
+        {{- $src := replaceRE `<img[^>]+src="([^"]+)"` "$1" (index $matches 0) -}}
+        {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//") -}}
+            {{- $result = $src -}}
+        {{- else -}}
+            {{- with $.Resources.GetMatch $src -}}
+                {{- $result = .RelPermalink -}}
+            {{- else -}}
+                {{- $result = printf "%s%s" $.RelPermalink $src -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* 4. Last resort: use featured image resource even without front matter */ -}}
+{{- if not $result -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $result = .RelPermalink -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

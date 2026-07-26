@@ -6,14 +6,7 @@
     <h3 class="sidebar-title">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
     <ul class="random-posts-list">
         {{- range $index, $post := $randomPosts -}}
-            {{- $params := $post.Params | merge $post.Site.Params.page -}}
-            {{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
-            {{- with $post.Resources.GetMatch "featured-image" -}}
-                {{- $image = .RelPermalink -}}
-            {{- end -}}
-            {{- with $post.Resources.GetMatch "featured-image-preview" -}}
-                {{- $image = .RelPermalink -}}
-            {{- end -}}
+            {{- $image := partial "function/first-image.html" $post -}}
             {{- $num := printf "%02d" (add $index 1) -}}
             <li class="random-post-item{{ if not $image }} random-post-item-textonly{{ end }}">
                 {{- if $image -}}

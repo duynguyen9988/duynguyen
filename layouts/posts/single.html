@@ -63,14 +63,28 @@
             </div>
         </div>
 
-        {{- /* Featured image */ -}}
-        {{- $image := $params.featuredimage -}}
+        {{- /* Featured image (skip if same as first content image) */ -}}
+        {{- $featuredImage := $params.featuredimage -}}
         {{- with .Resources.GetMatch "featured-image" -}}
-            {{- $image = .RelPermalink -}}
+            {{- $featuredImage = .RelPermalink -}}
         {{- end -}}
-        {{- with $image -}}
+        {{- /* Find first content image from raw Markdown */ -}}
+        {{- $firstContentImage := "" -}}
+        {{- $imgMatch := findRE `!\[.*?\]\((.+?)(?:\s+".*?")?\)` .RawContent 1 -}}
+        {{- if $imgMatch -}}
+            {{- $src := replaceRE `!\[.*?\]\((.+?)(?:\s+".*?")?\)` "$1" (index $imgMatch 0) -}}
+            {{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//") -}}
+                {{- $firstContentImage = $src -}}
+            {{- else -}}
+                {{- with $.Resources.GetMatch $src -}}
+                    {{- $firstContentImage = .RelPermalink -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+        {{- $showFeatured := and $featuredImage (or (not $firstContentImage) (ne $featuredImage $firstContentImage)) -}}
+        {{- if $showFeatured -}}
             <div class="featured-image">
-                {{- dict "Src" . "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true | partial "plugin/img.html" -}}
+                {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true | partial "plugin/img.html" -}}
             </div>
         {{- end -}}
 
