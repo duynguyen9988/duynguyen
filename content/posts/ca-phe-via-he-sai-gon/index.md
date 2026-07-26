@@ -39,4 +39,4 @@ Cuối cùng, không thể không nhắc đến cà phê Đắc Phúc, một hi�
 
 Mười quán, mười câu chuyện khác nhau. Nhưng có một điều chung: tất cả đều không cầu kỳ, không ồn ào. Một ly cà phê vỉa hè, một khoảng lặng giữa phố thị, đó là Sài Gòn.
 
-Sau ly cà phê sáng, hãy thử [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [bánh mì Sài Gòn](/posts/banh-mi-sai-gon/) hay [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/). Khi màn đêm buông xuống, [chợ đêm và ẩm thực đường phố](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) sẽ kể cho bạn nghe một câu chuyện khác của Sài Thành.
+Sau ly cà phê sáng, hãy thử [bún bò Huế](/duynguyen/posts/top-10-quan-bun-bo-hue-sai-gon/), [bánh mì Sài Gòn](/duynguyen/posts/banh-mi-sai-gon/) hay [lẩu cho ngày mưa](/duynguyen/posts/top-10-quan-lau-sai-gon/). Khi màn đêm buông xuống, [chợ đêm và ẩm thực đường phố](/duynguyen/posts/cho-dem-am-thuc-duong-pho-sai-gon/) sẽ kể cho bạn nghe một câu chuyện khác của Sài Thành.

@@ -10,7 +10,7 @@
     },
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.1475
+      "score": 0.1473
     },
     {
       "slug": "the-giver-2014",
@@ -20,19 +20,19 @@
   "banh-mi-sai-gon": [
     {
       "slug": "top-10-banh-mi-sai-gon",
-      "score": 0.6099
+      "score": 0.6091
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3886
+      "score": 0.3845
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3727
+      "score": 0.3688
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3582
+      "score": 0.3564
     }
   ],
   "ca-phe-via-he-sai-gon": [
@@ -42,51 +42,51 @@
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3365
+      "score": 0.3355
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3111
+      "score": 0.3105
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3087
+      "score": 0.3065
     }
   ],
   "cho-dem-am-thuc-duong-pho-sai-gon": [
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3886
-    },
-    {
-      "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3365
+      "score": 0.3845
     },
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.3361
+      "score": 0.3366
+    },
+    {
+      "slug": "ca-phe-via-he-sai-gon",
+      "score": 0.3355
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3194
+      "score": 0.3184
     }
   ],
   "dia-diem-du-lich-viet-nam": [
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.2973
+      "score": 0.3019
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.262
+      "score": 0.2614
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2365
+      "score": 0.2361
     },
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.2342
+      "score": 0.235
     }
   ],
   "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen": [
@@ -96,33 +96,33 @@
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.3021
+      "score": 0.302
     },
     {
       "slug": "smith-chart-bi-do-cua-ky-thuat-dien",
-      "score": 0.2419
+      "score": 0.2421
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2369
+      "score": 0.2367
     }
   ],
   "duong-trieu-quy-su-luc": [
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.3421
+      "score": 0.3424
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2449
+      "score": 0.2442
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.223
+      "score": 0.2227
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.2192
+      "score": 0.2187
     }
   ],
   "girl-on-the-train-2016": [
@@ -154,7 +154,7 @@
     },
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.1922
+      "score": 0.1919
     },
     {
       "slug": "top-10-phim-bom-tan-he-2026",
@@ -172,29 +172,29 @@
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2596
+      "score": 0.2594
     },
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.2498
+      "score": 0.2496
     }
   ],
   "lam-chu-thoi-gian-quan-ly-cong-viec": [
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.3534
+      "score": 0.3542
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2596
+      "score": 0.2594
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.2369
+      "score": 0.2367
     },
     {
       "slug": "smith-chart-bi-do-cua-ky-thuat-dien",
-      "score": 0.233
+      "score": 0.2328
     }
   ],
   "mot-goc-nha-tho-duc-ba-saigon": [
@@ -208,11 +208,11 @@
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.0996
+      "score": 0.0992
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.0953
+      "score": 0.095
     }
   ],
   "motorola-su-troi-day": [
@@ -222,7 +222,7 @@
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.3021
+      "score": 0.302
     },
     {
       "slug": "smith-chart-bi-do-cua-ky-thuat-dien",
@@ -230,7 +230,7 @@
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.2336
+      "score": 0.2335
     }
   ],
   "paradise-2023": [
@@ -254,7 +254,7 @@
   "rise-of-the-guardians": [
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.2567
+      "score": 0.2566
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
@@ -266,7 +266,7 @@
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2157
+      "score": 0.2155
     }
   ],
   "smith-chart-bi-do-cua-ky-thuat-dien": [
@@ -276,15 +276,15 @@
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.2419
+      "score": 0.2421
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.233
+      "score": 0.2328
     },
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.2298
+      "score": 0.2297
     }
   ],
   "the-giver-2014": [
@@ -302,13 +302,13 @@
     },
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.2054
+      "score": 0.2055
     }
   ],
   "the-mutations-tan-benh-thoi-minh": [
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.3421
+      "score": 0.3424
     },
     {
       "slug": "rise-of-the-guardians",
@@ -316,11 +316,11 @@
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2336
+      "score": 0.2335
     },
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.213
+      "score": 0.2129
     }
   ],
   "thoi-khac-cong-bo": [
@@ -330,7 +330,7 @@
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2249
+      "score": 0.2245
     },
     {
       "slug": "rise-of-the-guardians",
@@ -344,43 +344,43 @@
   "thu-thuat-ai-cong-nghe-2026": [
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3534
+      "score": 0.3542
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2498
+      "score": 0.2496
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.2334
+      "score": 0.2333
     },
     {
       "slug": "smith-chart-bi-do-cua-ky-thuat-dien",
-      "score": 0.2298
+      "score": 0.2297
     }
   ],
   "top-10-banh-mi-sai-gon": [
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.6099
+      "score": 0.6091
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.359
+      "score": 0.3589
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3196
+      "score": 0.3188
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.319
+      "score": 0.3177
     }
   ],
   "top-10-cua-hang-the-thao-sai-gon": [
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.2295
+      "score": 0.2293
     },
     {
       "slug": "top-10-quan-chay-sai-gon-2026",
@@ -388,17 +388,17 @@
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.225
+      "score": 0.2248
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2242
+      "score": 0.2238
     }
   ],
   "top-10-phim-bom-tan-he-2026": [
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2784
+      "score": 0.278
     },
     {
       "slug": "thoi-khac-cong-bo",
@@ -406,29 +406,29 @@
     },
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.2567
+      "score": 0.2566
     },
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.2177
+      "score": 0.2174
     }
   ],
   "top-10-quan-bun-bo-hue-sai-gon": [
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.4304
+      "score": 0.4277
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.4056
+      "score": 0.4047
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3582
+      "score": 0.3564
     },
     {
       "slug": "top-10-quan-hu-tieu-sai-gon",
-      "score": 0.3264
+      "score": 0.3257
     }
   ],
   "top-10-quan-cafe-quan-3": [
@@ -446,7 +446,7 @@
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2598
+      "score": 0.259
     }
   ],
   "top-10-quan-cafe-sai-gon": [
@@ -460,11 +460,11 @@
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.2806
+      "score": 0.2805
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2453
+      "score": 0.2449
     }
   ],
   "top-10-quan-chay-sai-gon-2026": [
@@ -478,21 +478,21 @@
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3024
+      "score": 0.3023
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2962
+      "score": 0.2958
     }
   ],
   "top-10-quan-hu-tieu-sai-gon": [
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3842
+      "score": 0.3841
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3264
+      "score": 0.3257
     },
     {
       "slug": "top-10-banh-mi-sai-gon",
@@ -500,61 +500,61 @@
     },
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.2817
+      "score": 0.2812
     }
   ],
   "top-10-quan-lau-sai-gon": [
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.4304
+      "score": 0.4277
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3379
+      "score": 0.3368
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3361
+      "score": 0.3366
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3307
+      "score": 0.3306
     }
   ],
   "top-10-quan-pho-sai-gon": [
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.4056
+      "score": 0.4047
     },
     {
       "slug": "top-10-quan-hu-tieu-sai-gon",
-      "score": 0.3842
+      "score": 0.3841
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3727
+      "score": 0.3688
     },
     {
       "slug": "top-10-banh-mi-sai-gon",
-      "score": 0.359
+      "score": 0.3589
     }
   ],
   "van-hoa-giai-tri-viet-nam-2026": [
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.2784
+      "score": 0.278
     },
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.2449
+      "score": 0.2442
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.2265
+      "score": 0.2294
     },
     {
       "slug": "thoi-khac-cong-bo",
-      "score": 0.2249
+      "score": 0.2245
     }
   ]
 }

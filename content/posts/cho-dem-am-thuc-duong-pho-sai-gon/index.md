@@ -29,4 +29,4 @@ Phố đêm Thảo Điền ở thành phố Thủ Đức là một tổ hợp �
 
 Bảy khu chợ đêm, bảy sắc thái khác nhau. Có nơi ồn ào náo nhiệt như Bùi Viện, có nơi hoài cổ trầm mặc như Chợ Lớn, có nơi bình dân dân dã như Vĩnh Khánh. Nhưng tất cả đều có một điểm chung: Sài Gòn về đêm không bao giờ ngủ, và linh hồn của thành phố này vẫn luôn âm ỉ trên những bếp than, trong những quán cóc vỉa hè, nơi người ta đến để ăn, để uống, để sống.
 
-Ban ngày, Sài Gòn cũng có những trải nghiệm ẩm thực không thể bỏ qua: [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè sáng sớm](/posts/ca-phe-via-he-sai-gon/) và [bánh mì nức tiếng](/posts/banh-mi-sai-gon/).
+Ban ngày, Sài Gòn cũng có những trải nghiệm ẩm thực không thể bỏ qua: [bún bò Huế](/duynguyen/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè sáng sớm](/duynguyen/posts/ca-phe-via-he-sai-gon/) và [bánh mì nức tiếng](/duynguyen/posts/banh-mi-sai-gon/).
