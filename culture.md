@@ -342,3 +342,9 @@ Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
   - `featuredimage` param (same URL, for external images)
   - `featured-image` page resource (for local images)
   Always include `categories` in frontmatter.
+
+### 2026-07-26 — current session
+- **What failed**: 6 of 9 Unsplash URLs were fake/AI-invented photo IDs (e.g. `photo-xk2w6brrQNQ`) returning HTTP 404 → broken images on both homepage cards and single post pages
+- **Root cause**: AI-generated Unsplash photo IDs (10-char random strings, no timestamp-hex format `{13digit}-{12hex}`) that don't exist on Unsplash's servers. Real Unsplash IDs follow the format `photo-{13-digit-timestamp}-{12-char-hex}` e.g. `photo-1509042239860-f550ce710b93`.
+- **Fix**: Replaced all 6 fake IDs with real ones confirmed HTTP 200: coffee (`1509042239860-f550ce710b93`), street food (`1490645935967-10de6ba17061`), productivity (`1484480974693-6ca0a78fb36b`), AI (`1485827404703-89b55fcc595e`), food (`1476124369491-e7addf5db371`), entertainment (`1536440136628-849c177e76a1`)
+- **Prevention**: Every image URL in frontmatter MUST be verified with `curl -sI <url> | head -1` to confirm HTTP 200 before commit. Never accept AI-generated photo IDs without checking first. Real Unsplash IDs always have the `{timestamp}-{hex}` format (13 digits + hyphen + 12 hex chars).

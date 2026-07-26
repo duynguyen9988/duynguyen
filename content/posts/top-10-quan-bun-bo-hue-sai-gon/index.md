@@ -3,8 +3,8 @@ title: 'Top 10 quán bún bò Huế ngon nhất Sài Gòn năm 2026'
 date: 2026-07-26T14:31:40+07:00
 draft: false
 description: 'Khám phá top 10 quán bún bò Huế ngon nhất Sài Gòn, từ quán được Michelin vinh danh đến những hàng quán hơn 40 năm tuổi giữa lòng thành phố.'
-featuredimagepreview: https://images.unsplash.com/photo-NFQi_2HUNRI?w=1600&q=80
-featuredimage: https://images.unsplash.com/photo-NFQi_2HUNRI?w=1600&q=80
+featuredimagepreview: https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=1600&q=80
+featuredimage: https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=1600&q=80
 slug: top-10-quan-bun-bo-hue-sai-gon
 tags:
   - am-thuc
