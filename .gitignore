@@ -3,5 +3,9 @@ resources/_gen/
 .hugo_build.lock
 .DS_Store
 *.local
+.git_token
+.git_token.local
+push.sh
+push.local.sh
 __pycache__/
 /data/version.json
