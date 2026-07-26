@@ -2,11 +2,13 @@ baseURL = 'https://duynguyen9988.github.io/duynguyen/'
 title = 'Duy Nguyen'
 theme = 'LoveIt'
 defaultContentLanguage = 'vi'
-locale = 'vi'
+languageCode = 'vi'
+locale = 'vi_VN'
 hasCJKLanguage = false
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
+copyright = '© 2026 Duy Nguyen'
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
@@ -17,12 +19,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [params]
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
-  title = "Duy Nguyen"
-  description = "Personal blog by Duy Nguyen"
+  title = "Duy Nguyen - Blog Ẩm Thực & Công Nghệ Sài Gòn"
+  description = "Blog ẩm thực Sài Gòn với những bài viết chuyên sâu về quán ăn, cà phê, phở và công nghệ. Review thật, viết bằng chất văn."
 
   [params.author]
     name = "Duy Nguyen"
-    email = ""
+    email = "duynguyen9988@gmail.com"
     link = "https://github.com/duynguyen9988"
 
   [params.header]
@@ -92,6 +94,20 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.social]
     GitHub = "duynguyen9988"
     Email = "duynguyen9988@gmail.com"
+
+  [params.verification]
+    google = ""
+    bing = ""
+
+  [params.seo]
+    image = "/images/avatar.png"
+    thumbnailUrl = "/images/avatar.png"
+
+  [params.page.seo]
+    images = []
+    [params.page.seo.publisher]
+      name = "Duy Nguyen"
+      logoUrl = "/images/avatar.png"
 
   [params.page]
     hiddenFromHomePage = false
