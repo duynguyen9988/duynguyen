@@ -804,7 +804,39 @@ header {
 }
 
 // ==============================
-// 9. Lightbox Modal
+// 9. Tag Heatmap (Footer)
+// ==============================
+
+.tag-heatmap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  max-width: 100%;
+}
+
+.tag-heatmap-cell {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  transition: transform 0.15s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+  background: hsl(210, 65%, 60%);
+
+  @supports (background: hsl(calc(210 - (210 * 0.5)), 65%, 60%)) {
+    background: hsl(calc(210 - (210 * var(--heat))), 65%, 60%);
+  }
+
+  &:hover {
+    transform: scale(1.8);
+    z-index: 2;
+    position: relative;
+  }
+}
+
+// ==============================
+// 10. Lightbox Modal
 // ==============================
 
 #lightbox-overlay {

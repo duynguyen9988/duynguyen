@@ -1,0 +1,17 @@
+{{- /* Tag heatmap - colored squares by frequency */ -}}
+{{- $tags := .Site.Taxonomies.tags -}}
+{{- $maxCount := 0 -}}
+{{- range $_, $weightedPages := $tags -}}
+  {{- $count := len $weightedPages -}}
+  {{- if gt $count $maxCount -}}{{- $maxCount = $count -}}{{- end -}}
+{{- end -}}
+{{- if gt $maxCount 0 -}}
+<div class="tag-heatmap">
+  {{- range $term, $weightedPages := $tags -}}
+    {{- $count := len $weightedPages -}}
+    {{- $ratio := div (float $count) (float $maxCount) -}}
+    {{- $page := $.Site.GetPage (printf "/tags/%s" $term) -}}
+    <a href="{{ $page.RelPermalink }}" class="tag-heatmap-cell" title="{{ $term }} ({{ $count }})" style="--heat: {{ $ratio }};"></a>
+  {{- end -}}
+</div>
+{{- end -}}
