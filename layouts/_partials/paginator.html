@@ -2,12 +2,16 @@
     {{- $p := .Paginator -}}
     <ul class="pagination">
         {{- /* Previous */ -}}
-        <li class="page-item">
-            <span class="page-link">
-                <a href="{{ if $p.HasPrev }}{{ $p.Prev.URL }}{{ else }}javascript:void(0);{{ end }}" aria-label="Previous">
-                    <i class="fas fa-angle-left" aria-hidden="true"></i>
-                </a>
+        <li class="page-item{{ if not $p.HasPrev }} disabled{{ end }}">
+            {{- if $p.HasPrev -}}
+            <a class="page-link" href="{{ $p.Prev.URL }}" aria-label="Previous">
+                <i class="fas fa-angle-left" aria-hidden="true"></i>
+            </a>
+            {{- else -}}
+            <span class="page-link" aria-disabled="true" aria-label="Previous">
+                <i class="fas fa-angle-left" aria-hidden="true"></i>
             </span>
+            {{- end -}}
         </li>
         {{- .Scratch.Set "paginator.ellipsed" false -}}
         {{- range $p.Pagers -}}
@@ -36,12 +40,16 @@
             {{- end -}}
         {{- end -}}
         {{- /* Next */ -}}
-        <li class="page-item">
-            <span class="page-link">
-                <a href="{{ if $p.HasNext }}{{ $p.Next.URL }}{{ else }}javascript:void(0);{{ end }}" aria-label="Next">
-                    <i class="fas fa-angle-right" aria-hidden="true"></i>
-                </a>
+        <li class="page-item{{ if not $p.HasNext }} disabled{{ end }}">
+            {{- if $p.HasNext -}}
+            <a class="page-link" href="{{ $p.Next.URL }}" aria-label="Next">
+                <i class="fas fa-angle-right" aria-hidden="true"></i>
+            </a>
+            {{- else -}}
+            <span class="page-link" aria-disabled="true" aria-label="Next">
+                <i class="fas fa-angle-right" aria-hidden="true"></i>
             </span>
+            {{- end -}}
         </li>
     </ul>
 {{- end -}}
