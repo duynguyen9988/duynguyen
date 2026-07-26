@@ -2,14 +2,15 @@
 title: "Những địa điểm du lịch Việt Nam không thể bỏ qua năm 2026"
 date: 2026-07-26T08:00:00+07:00
 description: "Từ Hà Giang hùng vĩ đến Phú Quốc xanh ngát, Việt Nam có vô vàn điểm đến đáng khám phá. Bài viết tổng hợp những địa danh nổi bật nhất."
-featuredimagepreview: https://images.unsplash.com/photo-1775594760339-ed0e505a2635?w=1600&q=80
-featuredimage: https://images.unsplash.com/photo-1775594760339-ed0e505a2635?w=1600&q=80
 tags:
   - du-lich
   - viet-nam
   - dia-diem-du-lich
 categories:
   - du-lich
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 slug: dia-diem-du-lich-viet-nam
 ---
 

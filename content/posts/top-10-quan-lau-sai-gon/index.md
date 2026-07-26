@@ -2,8 +2,6 @@
 title: "Top 10 quán lẩu ngon Sài Gòn cho ngày mưa"
 date: 2026-07-26T12:30:00+07:00
 description: "Sài Gòn vào mùa mưa, còn gì tuyệt hơn quây quần bên nồi lẩu nóng hổi. Bài viết tổng hợp 10 quán lẩu ngon nhất Sài Gòn từ bình dân đến cao cấp."
-featuredimagepreview: https://images.unsplash.com/photo-1753309054187-2291198d6616?w=1600&q=80
-featuredimage: https://images.unsplash.com/photo-1753309054187-2291198d6616?w=1600&q=80
 tags:
   - am-thuc-sai-gon
   - lau
@@ -11,6 +9,9 @@ tags:
   - sai-gon
 categories:
   - Ẩm thực
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 slug: top-10-quan-lau-sai-gon
 ---
 

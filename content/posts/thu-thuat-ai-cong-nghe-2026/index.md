@@ -2,8 +2,6 @@
 title: "Thủ thuật công nghệ 2026: Tận dụng AI để tự động hóa công việc hàng ngày"
 date: 2026-07-25T11:00:00+07:00
 description: "Năm 2026 chứng kiến sự bùng nổ của AI agent. Bài viết tổng hợp những thủ thuật và công cụ giúp bạn tự động hóa công việc hàng ngày hiệu quả."
-featuredimagepreview: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&q=80
-featuredimage: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&q=80
 tags:
   - cong-nghe
   - ai
@@ -11,6 +9,9 @@ tags:
   - thu-thuat
 categories:
   - Công nghệ
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 slug: thu-thuat-ai-cong-nghe-2026
 ---
 

@@ -2,14 +2,15 @@
 title: "Làm chủ thời gian: 6 phương pháp quản lý công việc cho dân văn phòng"
 date: 2026-07-25T14:00:00+07:00
 description: "Quản lý thời gian là kỹ năng sống còn trong thời đại đầy xao nhãng. Bài viết giới thiệu 6 phương pháp đã được kiểm chứng giúp bạn làm việc hiệu quả hơn."
-featuredimagepreview: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1600&q=80
-featuredimage: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1600&q=80
 tags:
   - quan-ly-thoi-gian
   - productivity
   - ky-nang-mem
 categories:
   - kinh-nghiem-song
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 slug: lam-chu-thoi-gian-quan-ly-cong-viec
 ---
 
