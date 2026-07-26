@@ -10,7 +10,7 @@ tags:
   - giáng-sinh
   - review-phim
 categories:
-  - Phim ảnh
+  - Phim
 resources:
   - name: featured-image
     src: featured-image.jpg
