@@ -187,6 +187,16 @@ When user triggers `gg`, execute the following workflow:
 
 5. **Commit + push** automatically.
 
+### Category creation workflow
+
+When user says "tạo category mới: <tên>":
+
+1. Create `content/categories/<slug>/_index.md` with:
+   - Human-readable `title`
+   - SEO-optimized `description` (1 câu, ngắn gọn, có keyword)
+2. Create a companion blog post with that category — ask user for title + content source, or auto-generate if not specified
+3. Build, commit, push — all tự động, không đợi nhắc
+
 ## Learning Log
 
 Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
