@@ -3,6 +3,7 @@ title: "Làm chủ thời gian: 6 phương pháp quản lý công việc cho dâ
 date: 2026-07-26T14:46:25+07:00
 description: "Quản lý thời gian là kỹ năng sống còn trong thời đại đầy xao nhãng. Bài viết giới thiệu 6 phương pháp đã được kiểm chứng giúp bạn làm việc hiệu quả hơn."
 featuredimagepreview: https://images.unsplash.com/photo-P4L9QTJf8pU?w=1600&q=80
+featuredimage: https://images.unsplash.com/photo-P4L9QTJf8pU?w=1600&q=80
 tags:
   - quan-ly-thoi-gian
   - productivity

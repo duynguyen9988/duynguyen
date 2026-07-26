@@ -3,6 +3,7 @@ title: "Top 10 bánh mì Sài Gòn ngon nức tiếng — từ bình dân đến
 date: 2026-07-26T14:46:25+07:00
 description: "Bánh mì Sài Gòn không chỉ là món ăn, đó là biểu tượng ẩm thực. Bài viết dẫn bạn qua 10 tiệm bánh mì nổi tiếng nhất Sài Gòn từ hàng chục năm qua."
 featuredimagepreview: https://images.unsplash.com/photo-1763703686238-bb654515259c?w=1600&q=80
+featuredimage: https://images.unsplash.com/photo-1763703686238-bb654515259c?w=1600&q=80
 tags:
   - banh-mi
   - am-thuc-sai-gon

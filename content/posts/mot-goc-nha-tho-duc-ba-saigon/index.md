@@ -6,6 +6,8 @@ description: 'Nhà thờ Đức Bà Sài Gòn trong giai đoạn trùng tu'
 tags:
   - saigon
   - nhà thờ đức bà
+categories:
+  - du-lich
 resources:
   - name: featured-image
     src: featured-image.jpg
