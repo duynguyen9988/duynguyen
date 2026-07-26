@@ -54,11 +54,9 @@ Spielberg kể chuyện bằng cả trái tim: những pha hành động nghẹt
 
 Ở tuổi 94, huyền thoại John Williams tái ngộ Spielberg lần thứ 30. Ông chọn phong cách tinh tế hơn: "không dẫn dắt phim mà âm thầm nâng đỡ từ bên dưới". Kết quả là bản nhạc nền được giới phê bình gọi là "hay nhất năm 2026".
 
-## Chiếu tại Việt Nam
 
-Theo [Wikipedia](https://vi.wikipedia.org/wiki/Th%E1%BB%9Di_kh%E1%BA%AFc_c%C3%B4ng_b%E1%BB%91), phim **Thời Khắc Công Bố (Disclosure Day)** được công chiếu tại Việt Nam vào ngày **12 / 06 /2026**, cùng ngày với Mỹ, dưới tựa đề chính thức **Thời Khắc Công Bố**, do Universal Pictures phát hành.
 
-Phim dài 145 phút, phân loại **T13** (phù hợp cho khán giả từ 13 tuổi).
+Phim dài 145 phút, phân loại **T13**.
 
 ## Review tổng quan
 
