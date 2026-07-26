@@ -1064,7 +1064,7 @@ header {
 
 .related-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-decoration: none;
   border: 1px solid $global-border-color;
   border-radius: 6px;
@@ -1085,7 +1085,8 @@ header {
 }
 
 .related-thumb {
-  width: 100%;
+  flex-shrink: 0;
+  width: 130px;
   aspect-ratio: 16 / 10;
   overflow: hidden;
 
@@ -1098,10 +1099,12 @@ header {
 }
 
 .related-info {
-  padding: 0.75rem;
+  padding: 0.5rem 0.75rem;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  justify-content: center;
+  gap: 0.15rem;
+  min-width: 0;
 }
 
 .related-post-title {
