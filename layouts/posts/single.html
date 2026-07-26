@@ -91,7 +91,7 @@
             {{- if $preloadSrc -}}
                 <link rel="preload" as="image" href="{{ $preloadSrc | safeURL }}" fetchpriority="high">
             {{- end -}}
-            <div class="featured-image">
+            <div class="featured-image reveal">
                 {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true "Fetchpriority" "high" | partial "plugin/img.html" -}}
             </div>
         {{- end -}}

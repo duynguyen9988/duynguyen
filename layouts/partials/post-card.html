@@ -1,5 +1,5 @@
 {{- $img := .Resources.GetMatch "featured-image" -}}
-<article class="post-card{{ if not $img }} post-card-textonly{{ end }}" itemscope itemtype="http://schema.org/Article">
+<article class="post-card{{ if not $img }} post-card-textonly{{ end }} reveal" itemscope itemtype="http://schema.org/Article">
     {{- with $img -}}
     <div class="post-card-thumb">
         <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">

@@ -1020,15 +1020,6 @@ header {
   line-height: 1.4;
 }
 
-*,
-*::before,
-*::after {
-  animation: none !important;
-  animation-duration: 0s !important;
-  transition: none !important;
-  transition-duration: 0s !important;
-}
-
 // ==============================
 // 11. Related Posts (ML-based)
 // ==============================
@@ -1256,5 +1247,209 @@ footer.footer {
 @media only screen and (max-width: 600px) {
   .related-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+// ==============================
+// 12. Global Transitions & Micro-interactions
+// ==============================
+
+a,
+button,
+.post-card,
+.post-card-thumb img,
+.random-post-thumb img,
+.related-card,
+.featured-image img,
+.content img,
+.pagination .page-link,
+.back-to-top,
+.footer-nav-links a {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Card lift on hover
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.post-card-thumb {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.post-card-thumb img:hover {
+  transform: scale(1.06);
+}
+
+// Link underline slide
+.post-card-title a,
+.random-post-title a,
+.related-post-title a {
+  position: relative;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: $single-link-hover-color;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 1px;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+// Pagination hover
+.pagination .page-link:hover {
+  transform: scale(1.15);
+  color: $pagination-link-hover-color;
+}
+
+.pagination .page-item.active .page-link:hover {
+  transform: scale(1);
+}
+
+// Back to top smooth
+#back-to-top {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#back-to-top:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+// Read more arrow animation
+.post-card-readmore:hover {
+  gap: 0.35rem;
+}
+
+.post-card-readmore {
+  gap: 0.15rem;
+  transition: gap 0.25s ease;
+}
+
+// ==============================
+// 13. Scroll Reveal
+// ==============================
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// Stagger delay for post cards
+.home-posts-list .post-card:nth-child(1) { transition-delay: 0.05s; }
+.home-posts-list .post-card:nth-child(2) { transition-delay: 0.1s; }
+.home-posts-list .post-card:nth-child(3) { transition-delay: 0.15s; }
+.home-posts-list .post-card:nth-child(4) { transition-delay: 0.2s; }
+.home-posts-list .post-card:nth-child(5) { transition-delay: 0.25s; }
+.home-posts-list .post-card:nth-child(6) { transition-delay: 0.3s; }
+
+// Sidebar random posts stagger
+.home-sidebar .random-post-item:nth-child(1) { transition-delay: 0.08s; }
+.home-sidebar .random-post-item:nth-child(2) { transition-delay: 0.13s; }
+.home-sidebar .random-post-item:nth-child(3) { transition-delay: 0.18s; }
+.home-sidebar .random-post-item:nth-child(4) { transition-delay: 0.23s; }
+.home-sidebar .random-post-item:nth-child(5) { transition-delay: 0.28s; }
+
+// ==============================
+// 14. Reading Progress Bar
+// ==============================
+
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #FF2FA0, #2563EB);
+  z-index: 99999;
+  transition: width 0.1s linear;
+  will-change: width;
+}
+
+// ==============================
+// 15. Typography Polish
+// ==============================
+
+// First paragraph drop-cap on single post
+.single .content > p:first-of-type::first-letter {
+  float: left;
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 0.85;
+  margin: 0.08em 0.12em 0 0;
+  color: #FF2FA0;
+  text-transform: uppercase;
+}
+
+// Better heading spacing
+.single-title {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.single-subtitle {
+  letter-spacing: 0.01em;
+  color: $global-font-secondary-color;
+}
+
+// Selection highlight
+::selection {
+  background: rgba(37, 99, 235, 0.25);
+  color: inherit;
+}
+
+// Smooth scroll for the whole page
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// ==============================
+// 16. Post Card Gradient Overlay
+// ==============================
+
+.post-card-thumb {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.25) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  &:hover::after {
+    opacity: 1;
   }
 }

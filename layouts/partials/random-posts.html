@@ -2,12 +2,12 @@
 {{- $randomPosts := first 5 ($allPosts | shuffle) -}}
 {{- if $randomPosts -}}
 <div class="sidebar-random-posts">
-    <h3 class="sidebar-title">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
+    <h3 class="sidebar-title reveal">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
     <ul class="random-posts-list">
         {{- range $index, $post := $randomPosts -}}
             {{- $img := $post.Resources.GetMatch "featured-image" -}}
             {{- $num := printf "%02d" (add $index 1) -}}
-            <li class="random-post-item{{ if not $img }} random-post-item-textonly{{ end }}">
+            <li class="random-post-item{{ if not $img }} random-post-item-textonly{{ end }} reveal">
                 {{- with $img -}}
                 <div class="random-post-thumb">
                     <span class="random-post-number">{{ $num }}</span>

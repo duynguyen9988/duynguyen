@@ -250,6 +250,36 @@ class Theme {
         }
     }
 
+    initScrollReveal() {
+        if (!window.IntersectionObserver) return;
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.08,
+            rootMargin: '0px 0px -40px 0px'
+        });
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    }
+
+    initProgressBar() {
+        const bar = document.getElementById('reading-progress');
+        if (!bar) return;
+        const onScroll = () => {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            if (scrollHeight > 0) {
+                bar.style.width = `${(scrollTop / scrollHeight) * 100}%`;
+            }
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    }
+
     init() {
         try {
             this.initRaw();
@@ -267,6 +297,8 @@ class Theme {
             this.onScroll();
             this.onResize();
             this.onClickMask();
+            this.initScrollReveal();
+            this.initProgressBar();
         }, 100);
     }
 }

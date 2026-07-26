@@ -9,7 +9,7 @@
     {{- return -}}
 {{- end -}}
 
-<div class="related-posts">
+<div class="related-posts reveal">
     <hr class="related-divider">
     <h2 class="related-title">Có thể bạn sẽ thích</h2>
     <div class="related-grid">
@@ -17,7 +17,7 @@
             {{- $page := site.GetPage (printf "/posts/%s" $item.slug) -}}
             {{- if $page -}}
                 {{- $thumb := $page.Resources.GetMatch "featured-image" -}}
-                <a class="related-card{{ if not $thumb }} related-card-textonly{{ end }}" href="{{ $page.RelPermalink }}">
+                <a class="related-card{{ if not $thumb }} related-card-textonly{{ end }} reveal" href="{{ $page.RelPermalink }}">
                     {{- with $thumb -}}
                     <div class="related-thumb">
                         {{- dict "Src" .Name "Resources" $page.Resources "Alt" $page.Title | partial "plugin/img.html" -}}

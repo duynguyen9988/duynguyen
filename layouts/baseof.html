@@ -28,6 +28,8 @@
             {{- partial "footer.html" . -}}
         </div>
 
+        <div id="reading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
         <div id="fixed-buttons">
             {{- /* top button */ -}}
             <a href="#" id="back-to-top" class="fixed-button" title="{{ T `backToTop` }}">
