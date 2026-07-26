@@ -999,3 +999,12 @@ header {
   max-width: 100%;
   line-height: 1.4;
 }
+
+*,
+*::before,
+*::after {
+  animation: none !important;
+  animation-duration: 0s !important;
+  transition: none !important;
+  transition-duration: 0s !important;
+}
