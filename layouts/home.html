@@ -9,7 +9,7 @@
         {{- end -}}
 
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
-            {{- $pages := where .Site.RegularPages "Type" "posts" -}}
+            {{- $pages := (where .Site.RegularPages "Type" "posts").ByDate.Reverse -}}
             {{- if .Site.Params.page.hiddenFromHomePage -}}
                 {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
             {{- else -}}
