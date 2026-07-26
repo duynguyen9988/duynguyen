@@ -16,7 +16,13 @@
         {{- range $item := $relatedList -}}
             {{- $page := site.GetPage (printf "/posts/%s" $item.slug) -}}
             {{- if $page -}}
-                <a class="related-card" href="{{ $page.RelPermalink }}">
+                {{- $thumb := $page.Resources.GetMatch "featured-image" -}}
+                <a class="related-card{{ if not $thumb }} related-card-textonly{{ end }}" href="{{ $page.RelPermalink }}">
+                    {{- with $thumb -}}
+                    <div class="related-thumb">
+                        {{- dict "Src" .Name "Resources" $page.Resources "Alt" $page.Title | partial "plugin/img.html" -}}
+                    </div>
+                    {{- end -}}
                     <div class="related-info">
                         <h3 class="related-post-title">{{ $page.Title | emojify }}</h3>
                         {{- with $page.Description -}}

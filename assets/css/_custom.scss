@@ -1110,6 +1110,10 @@ header {
   min-width: 0;
 }
 
+.related-card-textonly .related-info {
+  width: 100%;
+}
+
 .related-post-title {
   font-size: 0.9375rem;
   font-weight: 600;
@@ -1153,7 +1157,8 @@ header {
 .content img,
 .featured-image img,
 .post-card-thumb img,
-.random-post-thumb img {
+.random-post-thumb img,
+.related-thumb img {
   background: #e8e8e8;
   animation: img-fade-in 0.4s ease-out;
 }
@@ -1162,7 +1167,8 @@ header {
   .content img,
   .featured-image img,
   .post-card-thumb img,
-  .random-post-thumb img {
+  .random-post-thumb img,
+  .related-thumb img {
     background: #2a2a2a;
   }
 }
