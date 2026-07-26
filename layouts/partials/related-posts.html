@@ -16,13 +16,7 @@
         {{- range $item := $relatedList -}}
             {{- $page := site.GetPage (printf "/posts/%s" $item.slug) -}}
             {{- if $page -}}
-                {{- $image := partial "function/first-image.html" $page -}}
                 <a class="related-card" href="{{ $page.RelPermalink }}">
-                    {{- if $image -}}
-                    <div class="related-thumb">
-                        <img src="{{ $image | safeURL }}" alt="{{ $page.Title }}" loading="lazy" decoding="async" width="200" height="125">
-                    </div>
-                    {{- end -}}
                     <div class="related-info">
                         <h3 class="related-post-title">{{ $page.Title | emojify }}</h3>
                         {{- with $page.Description -}}
