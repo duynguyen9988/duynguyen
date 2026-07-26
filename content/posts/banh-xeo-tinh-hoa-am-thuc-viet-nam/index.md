@@ -3,7 +3,7 @@ title: "Bánh Xèo — Tinh Hoa Ẩm Thực Việt Nam Vươn Ra Thế Giới"
 description: "Khám phá hành trình của bánh xèo — từ món ăn bình dân trong hẻm nhỏ đến biểu tượng ẩm thực Việt Nam được thế giới yêu thích."
 date: 2026-07-27T00:04:22+07:00
 slug: banh-xeo-tinh-hoa-am-thuc-viet-nam
-categories: ["Ẩm thực"]
+categories: ["am-thuc"]
 tags: ["bánh xèo", "ẩm thực Việt Nam", "bánh Việt Nam", "street food Việt Nam"]
 resources:
   - name: featured-image

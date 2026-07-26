@@ -4,7 +4,7 @@ description: "Cà phê sữa đá — thức uống quốc dân của Việt Nam
 date: 2026-07-27T00:15:00+07:00
 slug: ca-phe-sua-da-van-hoa-viet-nam
 categories:
-  - Ẩm thực
+  - am-thuc
 tags:
   - cà phê sữa đá
   - cà phê việt nam
@@ -51,7 +51,7 @@ Riêng *bạc xỉu* có một lịch sử đặc biệt. Ra đời từ cộng 
 
 Ở Sài Gòn, cà phê sữa đá hiện diện ở mọi ngóc ngách. Từ những quán cóc vỉa hè với ghế nhựa thấp lè tè, đến những quân cà phê view đẹp nhìn ra sông Sài Gòn, và cả những quán cà phê có điều hòa dành cho giới văn phòng. Ly cà phê sữa đá là vật bất ly thân của người Sài Gòn: uống sáng trước khi đi làm, uống giữa buổi trong giờ nghỉ trưa, và uống chiều tối khi ngồi nhìn phố.
 
-Văn hóa cà phê vỉa hè là một nét đặc trưng khó tìm thấy ở nơi nào khác. Ngồi trên ghế nhựa thấp, bên ấm trà đá miễn phí, nhìn dòng người qua lại — đó là cách người Việt tận hưởng cuộc sống. Từ năm 2025, cà phê sữa đá Việt Nam đã có mặt trong thực đơn của nhiều chuỗi cà phê quốc tế, và các barista trên thế giới bắt đầu học cách pha phin như một kỹ thuật pha chế chuyên nghiệp.
+van-hoa cà phê vỉa hè là một nét đặc trưng khó tìm thấy ở nơi nào khác. Ngồi trên ghế nhựa thấp, bên ấm trà đá miễn phí, nhìn dòng người qua lại — đó là cách người Việt tận hưởng cuộc sống. Từ năm 2025, cà phê sữa đá Việt Nam đã có mặt trong thực đơn của nhiều chuỗi cà phê quốc tế, và các barista trên thế giới bắt đầu học cách pha phin như một kỹ thuật pha chế chuyên nghiệp.
 
 ### Vị đắng và vị ngọt của thời gian
 

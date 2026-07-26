@@ -11,7 +11,7 @@ tags:
   - khoi-nghiep
   - cong-nghe
 categories:
-  - Công nghệ
+  - cong-nghe
 resources:
   - name: featured-image
     src: featured-image.jpg

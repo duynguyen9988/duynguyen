@@ -3,7 +3,7 @@ title: "Phim Việt Nam 2026: Bom Tấn Phòng Vé, Hiện Tượng Điện Ản
 description: "Bức tranh toàn cảnh điện ảnh Việt Nam năm 2026: từ những kỷ lục phòng vé đến sự vươn mình ra quốc tế và những thách thức phía trước."
 date: 2026-07-27T00:04:22+07:00
 slug: phim-viet-nam-2026-bom-tan-dien-anh
-categories: ["Phim"]
+categories: ["phim"]
 tags: ["điện ảnh Việt Nam", "phim Việt 2026", "bom tấn phòng vé", "công nghiệp điện ảnh"]
 draft: false
 resources:

@@ -101,6 +101,10 @@ Eliminate CDN deps, external image URLs & unused features (search, dark mode, sh
 4. No lazysizes/loading SVG — direct `src`/`srcset` with `loading="lazy"`
 5. No CDN URLs, no live image URLs — fully self-hosted
 6. All internal cross-links use full path: `/duynguyen/slug/` (NO `/posts/` — permalinks strips it)
-7. Always include `categories` in frontmatter
+7. Always include `categories` in frontmatter — **slug format only** (lowercase, hyphens, no diacritics)
 8. Build locally before commit
 9. Prevent future dates — run `TZ=Asia/Saigon date` before writing
+10. Run `python3 scripts/seo-check.py` before any build to catch SEO issues
+11. Every post MUST have `slug` in frontmatter matching the directory name
+12. `categories` and `tags` must be lists (not strings) in frontmatter
+13. **NEVER create new categories.** Only use the 8 existing canonical slug categories: `am-thuc`, `cong-nghe`, `du-lich`, `giai-tri`, `kinh-nghiem-song`, `mua-sam`, `phim`, `van-hoa`

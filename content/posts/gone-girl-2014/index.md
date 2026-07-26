@@ -12,7 +12,7 @@ tags:
   - phim-tam-ly
   - phim-2014
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

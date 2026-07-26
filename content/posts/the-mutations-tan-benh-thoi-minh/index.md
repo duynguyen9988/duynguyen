@@ -11,7 +11,7 @@ tags:
   - iqiyi
   - lich-su-trung-quoc
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

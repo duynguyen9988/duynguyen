@@ -3,7 +3,7 @@ title: "Tết Nguyên Đán 2027 — Năm Con Dê và Những Điều Cần Bi�
 description: "Tết Nguyên Đán 2027 — năm Đinh Mùi (con Dê) rơi vào ngày 6 tháng 2. Phong tục, ẩm thực và ý nghĩa của lễ hội lớn nhất Việt Nam."
 date: 2026-07-27T00:04:22+07:00
 slug: tet-nguyen-dan-2027-nam-mui
-categories: ["Văn hóa"]
+categories: ["van-hoa"]
 tags: ["Tết Nguyên Đán", "Tết 2027", "năm con Dê", "năm Đinh Mùi", "văn hóa Việt Nam"]
 resources:
   - name: featured-image
@@ -35,7 +35,7 @@ Nguồn gốc của Tết là một câu chuyện dài. Theo các nhà nghiên c
 
 **Lì xì — mừng tuổi** — Sáng mồng Một, trẻ em mặc quần áo mới đến chúc thọ ông bà và được nhận những phong bao đỏ với tiền may mắn bên trong. Câu chúc quen thuộc: "Sống lâu trăm tuổi" dành cho người già; "Hay ăn chóng lớn" cho trẻ em; "An khang thịnh vượng" cho tất cả.
 
-### Ẩm thực ngày Tết
+### am-thuc ngày Tết
 
 Tết đến là ăn Tết — câu nói không sai. Những món ăn truyền thống:
 

@@ -10,7 +10,7 @@ tags:
   - sai-gon
   - review
 categories:
-  - Mua sắm
+  - mua-sam
 resources:
   - name: featured-image
     src: featured-image.jpg

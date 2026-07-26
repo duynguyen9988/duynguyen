@@ -10,7 +10,7 @@ tags:
   - sai-gon
   - review
 categories:
-  - Ẩm thực
+  - am-thuc
 resources:
   - name: featured-image
     src: featured-image.jpg

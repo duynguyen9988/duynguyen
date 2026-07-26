@@ -9,7 +9,7 @@ tags:
   - mua-hoa
   - viet-nam
 categories:
-  - "Du lịch"
+  - "du-lich"
 resources:
   - name: featured-image
     src: featured-image.jpg

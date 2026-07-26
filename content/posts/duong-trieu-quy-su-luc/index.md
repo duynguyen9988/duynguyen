@@ -10,7 +10,7 @@ tags:
   - phim-hoa-ngu
   - trang-tham-co-trang
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

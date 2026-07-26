@@ -8,7 +8,7 @@ tags:
   - mon-ngon
   - sai-gon
 categories:
-  - Ẩm thực
+  - am-thuc
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -39,4 +39,4 @@ Cuối cùng, bánh mì chảo Dì Nữ là một biểu tượng khác. Tiệm 
 
 Mười địa chỉ, mười phong cách khác nhau. Có tiệm gần một thế kỷ, có gánh chỉ là xe đẩy vỉa hè. Nhưng tất cả đều có một điểm chung: đó là tình yêu với ổ bánh mì Sài Gòn, thứ đã làm nên hồn cốt ẩm thực đường phố của thành phố này.
 
-Ẩm thực Sài Gòn còn nhiều hơn thế: [bún bò Huế](/duynguyen/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/duynguyen/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/duynguyen/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi nơi lưu giữ một phần ký ức Sài Thành.
+am-thuc Sài Gòn còn nhiều hơn thế: [bún bò Huế](/duynguyen/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/duynguyen/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/duynguyen/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi nơi lưu giữ một phần ký ức Sài Thành.

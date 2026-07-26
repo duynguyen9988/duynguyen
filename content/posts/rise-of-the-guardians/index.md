@@ -11,7 +11,7 @@ tags:
   - giáng-sinh
   - review-phim
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -45,7 +45,7 @@ Chi tiết này mang một tầng ý nghĩa khác khi biết rằng ý tưởng 
 
 Về mặt kỹ thuật, *Rise of the Guardians* sử dụng công nghệ OpenVDB — một công cụ mã nguồn mở do DreamWorks phát triển để tạo hiệu ứng khói và hạt thể tích — thể hiện rõ nhất qua Sandman (cát) và Pitch (khói đen). Roger Deakins, nhà quay phim huyền thoại của *1917* và *Blade Runner 2049*, làm cố vấn thị giác, giúp bộ phim có một bảng màu được chăm chút đến từng khung hình: từ ánh sáng vàng cam ấm áp ở Bắc Cực, đến xanh lạnh của Nam Cực, đến những sắc tím đen u tối trong hang ổ của Pitch.
 
-Phim nhận được 75% điểm trên Rotten Tomatoes và đề cử Quả Cầu Vàng cho Phim Hoạt Hình Xuất Sắc Nhất, nhưng quan trọng hơn, điểm CinemaScore "A" từ khán giả cho thấy thông điệp của phim chạm đúng đối tượng mà nó hướng đến — trẻ em và những người lớn còn nhớ cảm giác tin vào điều kỳ diệu.
+phim nhận được 75% điểm trên Rotten Tomatoes và đề cử Quả Cầu Vàng cho phim Hoạt Hình Xuất Sắc Nhất, nhưng quan trọng hơn, điểm CinemaScore "A" từ khán giả cho thấy thông điệp của phim chạm đúng đối tượng mà nó hướng đến — trẻ em và những người lớn còn nhớ cảm giác tin vào điều kỳ diệu.
 
 ## Một bộ phim Giáng sinh đáng được nhớ đến
 

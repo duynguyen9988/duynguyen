@@ -11,7 +11,7 @@ tags:
   - phim-tam-ly
   - phim-2016
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

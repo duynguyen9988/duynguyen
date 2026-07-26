@@ -3,7 +3,7 @@ title: "Phú Quốc — Cẩm Nang Du Lịch Đảo Ngọc"
 description: "Từ bãi Sao cát trắng đến nước mắm truyền thống, từ rừng quốc gia nguyên sinh đến làng chài yên bình — khám phá hòn đảo lớn nhất Việt Nam."
 date: 2026-07-27T00:25:16+07:00
 slug: phu-quoc-cam-nang-du-lich-dao-ngoc
-categories: ["Du lịch"]
+categories: ["du-lich"]
 tags: ["Phú Quốc", "du lịch biển", "đảo ngọc", "cẩm nang", "Kiên Giang"]
 draft: false
 resources:
@@ -21,7 +21,7 @@ Nhưng Phú Quốc không chỉ có biển. Rừng quốc gia Phú Quốc, đư�
 
 Một trong những điểm nhấn đặc biệt của Phú Quốc là hệ thống bảo tồn biển được thiết lập vào năm 2007, bao phủ 187 km² vùng biển quanh đảo. Mục tiêu của khu bảo tồn này là bảo vệ các rạn san hô, thảm cỏ biển và rừng ngập mặn — những môi trường sống quan trọng cho các loài thủy sản. Rùa xanh, rùa da, cá heo và bò biển đều có thể được tìm thấy trong vùng biển này. Thực tế, vùng biển quanh Phú Quốc là một trong những ngư trường giàu nhất Việt Nam.
 
-Văn hóa ẩm thực Phú Quốc là sự kết hợp độc đáo giữa hương vị biển cả và núi rừng. Nước mắm Phú Quốc — được làm từ cá cơm đánh bắt tại vùng biển giàu dinh dưỡng — được công nhận rộng rãi là loại nước mắm ngon nhất Việt Nam. Hồ tiêu Phú Quốc, được trồng chủ yếu ở các xã Gành Dầu và Cửa Dương, cũng là một đặc sản nổi tiếng với hương thơm nồng nàn và vị cay đặc trưng. Nghề nuôi cấy ngọc trai trên đảo đã phát triển hơn 20 năm, kể từ khi các chuyên gia Úc và Nhật Bản đến để phát triển ngành công nghiệp này với công nghệ tiên tiến.
+van-hoa ẩm thực Phú Quốc là sự kết hợp độc đáo giữa hương vị biển cả và núi rừng. Nước mắm Phú Quốc — được làm từ cá cơm đánh bắt tại vùng biển giàu dinh dưỡng — được công nhận rộng rãi là loại nước mắm ngon nhất Việt Nam. Hồ tiêu Phú Quốc, được trồng chủ yếu ở các xã Gành Dầu và Cửa Dương, cũng là một đặc sản nổi tiếng với hương thơm nồng nàn và vị cay đặc trưng. Nghề nuôi cấy ngọc trai trên đảo đã phát triển hơn 20 năm, kể từ khi các chuyên gia Úc và Nhật Bản đến để phát triển ngành công nghiệp này với công nghệ tiên tiến.
 
 Đặc biệt, Phú Quốc còn có một điểm du lịch lịch sử quan trọng: Nhà tù Phú Quốc. Được xây dựng bởi người Pháp để giam giữ các tù nhân Việt Minh, nhà tù này sau đó được quân đội Sài Gòn sử dụng để giam giữ các tù binh Việt Cộng và Quân đội Bắc Việt. Vào năm 1973, nơi đây từng chứa đến 40.000 tù nhân, trở thành trại giam lớn nhất của Việt Nam Cộng Hòa. Ngày nay, nhà tù đã trở thành một di tích lịch sử, thu hút du khách đến tìm hiểu về quá khứ đau thương nhưng hào hùng của dân tộc.
 

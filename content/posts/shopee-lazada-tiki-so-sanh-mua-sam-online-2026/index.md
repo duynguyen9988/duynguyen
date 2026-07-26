@@ -3,7 +3,7 @@ title: "Shopee vs Lazada vs Tiki 2026: Nên Mua Sắm Online Ở Đâu?"
 description: "So sánh toàn diện Shopee, Lazada và Tiki năm 2026 — từ giá cả, giao hàng, chính sách đổi trả đến trải nghiệm mua sắm."
 date: 2026-07-27T00:34:51+07:00
 slug: shopee-lazada-tiki-so-sanh-mua-sam-online-2026
-categories: ["Mua sắm"]
+categories: ["mua-sam"]
 tags: ["Shopee", "Lazada", "Tiki", "mua sắm online", "e-commerce Việt Nam"]
 resources:
   - name: featured-image

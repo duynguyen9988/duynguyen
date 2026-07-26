@@ -4,7 +4,7 @@ description: "VinFast và cuộc cách mạng xe điện Việt Nam — từ sta
 date: 2026-07-27T00:23:06+07:00
 slug: xe-dien-vinfast-cach-mang-xe-dien-viet-nam
 categories:
-  - Công nghệ
+  - cong-nghe
 tags:
   - vinfast
   - xe điện

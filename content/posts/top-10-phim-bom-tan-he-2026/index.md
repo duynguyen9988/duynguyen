@@ -10,7 +10,7 @@ tags:
   - he-2026
   - dien-anh
 categories:
-  - "Giải trí"
+  - "giai-tri"
 resources:
   - name: featured-image
     src: featured-image.jpg

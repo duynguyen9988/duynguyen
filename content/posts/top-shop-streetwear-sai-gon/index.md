@@ -9,7 +9,7 @@ tags:
   - sai-gon
   - local-brand
 categories:
-  - Mua sắm
+  - mua-sam
 resources:
   - name: featured-image
     src: featured-image.jpg

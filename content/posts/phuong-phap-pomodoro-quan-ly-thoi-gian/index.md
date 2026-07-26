@@ -3,7 +3,7 @@ title: "Phương Pháp Pomodoro — Chiếc Đồng Hồ Giúp Bạn Làm Việc
 description: "Phương pháp Pomodoro của Francesco Cirillo — kỹ thuật quản lý thời gian 25 phút đơn giản mà hiệu quả, giúp bạn làm việc thông minh hơn."
 date: 2026-07-27T00:04:22+07:00
 slug: phuong-phap-pomodoro-quan-ly-thoi-gian
-categories: ["Kinh nghiệm sống"]
+categories: ["kinh-nghiem-song"]
 tags: ["Pomodoro", "quản lý thời gian", "tập trung", "năng suất", "time management"]
 resources:
   - name: featured-image
@@ -35,7 +35,7 @@ Pomodoro có một quy tắc mà nhiều người mới bắt đầu thường v
 
 Nghe có vẻ khắc nghiệt, nhưng chính sự nghiêm ngặt này tạo nên kỷ luật. Mỗi lần bạn giơ tay bấm nút "tạm dừng", bạn đang cho phép sự gián đoạn chiến thắng.
 
-### Công nghệ cao hay thấp?
+### cong-nghe cao hay thấp?
 
 Cirillo ban đầu dùng đồng hồ cơ — một chiếc đồng hồ nhà bếp hình quả cà chua mua ở siêu thị. Ông khuyến khích lối tiếp cận "công nghệ thấp": đồng hồ cơ, giấy và bút chì. Hành động vặn đồng hồ xác nhận quyết tâm bắt đầu. Tiếng tích tắc bên ngoài hóa sự bồn chồn thành âm thanh. Tiếng chuông báo hiệu phần thưởng.
 

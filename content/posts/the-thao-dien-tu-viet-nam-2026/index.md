@@ -3,7 +3,7 @@ title: "Thể Thao Điện Tử Việt Nam 2026 — Từ Game Thủ Chuyên Nghi
 description: "Từ những quán net bụi bặm đến sân khấu ánh sáng hoành tráng, esports Việt Nam đã vươn mình trở thành một ngành công nghiệp triệu đô với hàng triệu người hâm mộ."
 date: 2026-07-27T00:25:16+07:00
 slug: the-thao-dien-tu-viet-nam-2026
-categories: ["Giải trí"]
+categories: ["giai-tri"]
 tags: ["esports", "thể thao điện tử", "game", "Vpop", "cộng đồng game"]
 draft: false
 resources:

@@ -10,7 +10,7 @@ tags:
   - am-thuc-sai-gon
   - top-quan-sai-gon
 categories:
-  - Ẩm thực
+  - am-thuc
 resources:
   - name: featured-image
     src: featured-image.jpg

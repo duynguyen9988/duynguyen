@@ -3,7 +3,7 @@ title: "Nhạc Việt 2026 — V-pop, Indie Và Làn Sóng Âm Nhạc Thế Hệ
 description: "Từ những câu hát quan họ truyền thống đến những bản rap điện tử sôi động, từ ca trù di sản đến V-pop triệu view — hành trình âm nhạc Việt Nam qua nhiều thế hệ."
 date: 2026-07-27T00:25:16+07:00
 slug: nhac-viet-2026-v-pop-lan-song-moi
-categories: ["Giải trí"]
+categories: ["giai-tri"]
 tags: ["V-pop", "nhạc Việt", "âm nhạc", "indie", "gen Z"]
 draft: false
 resources:
@@ -15,7 +15,7 @@ resources:
 
 Nhạc cổ truyền Việt Nam có một lịch sử lâu đời và đa dạng. Từ thời kỳ đầu, âm nhạc truyền thống chủ yếu phục vụ các hoạt động tôn giáo, đời sống hàng ngày và các lễ hội dân gian. Mỗi dân tộc trong cộng đồng 54 dân tộc Việt Nam đều sở hữu những loại nhạc cụ và thể loại âm nhạc riêng, tạo nên một kho tàng văn hóa phi vật thể vô cùng phong phú. Các loại nhạc cụ truyền thống như đàn bầu, đàn tranh, đàn nguyệt, đàn nhị, và đàn tỳ bà đều có nguồn gốc từ hàng trăm năm trước, và những cuộc khai quật khảo cổ đã phát hiện ra những nhạc cụ bằng xương hươu có niên đại 2.000 năm, cho thấy sự tương đồng rõ rệt với các nhạc cụ truyền thống hiện đại.
 
-Trong số các thể loại nhạc truyền thống, nhã nhạc cung đình là hình thức phổ biến nhất, được chơi từ thời nhà Trần đến triều Nguyễn, chịu ảnh hưởng từ âm nhạc Trung Hoa thời Minh và phát triển mạnh mẽ dưới các hoàng đế nhà Nguyễn. Ca trù — một hình thức thơ ca phức tạp với giọng hát của các ca nương — đã được UNESCO công nhận là Di sản Văn hóa Phi vật thể vào năm 2009. Quan họ — lối hát đối đáp giao duyên nổi tiếng của vùng Bắc Ninh — là một loại hình dân ca đặc sắc, thường được hát a cappella và ứng tác. Chèo là một hình thức sân khấu âm nhạc châm biếm, thường được biểu diễn ngoài trời bởi nông dân ở miền Bắc. Và cải lương — loại hình sân khấu âm nhạc ra đời ở Nam Bộ vào đầu thế kỷ 20 — vẫn tiếp tục được quảng bá như một hình thức sân khấu dân tộc.
+Trong số các thể loại nhạc truyền thống, nhã nhạc cung đình là hình thức phổ biến nhất, được chơi từ thời nhà Trần đến triều Nguyễn, chịu ảnh hưởng từ âm nhạc Trung Hoa thời Minh và phát triển mạnh mẽ dưới các hoàng đế nhà Nguyễn. Ca trù — một hình thức thơ ca phức tạp với giọng hát của các ca nương — đã được UNESCO công nhận là Di sản van-hoa Phi vật thể vào năm 2009. Quan họ — lối hát đối đáp giao duyên nổi tiếng của vùng Bắc Ninh — là một loại hình dân ca đặc sắc, thường được hát a cappella và ứng tác. Chèo là một hình thức sân khấu âm nhạc châm biếm, thường được biểu diễn ngoài trời bởi nông dân ở miền Bắc. Và cải lương — loại hình sân khấu âm nhạc ra đời ở Nam Bộ vào đầu thế kỷ 20 — vẫn tiếp tục được quảng bá như một hình thức sân khấu dân tộc.
 
 Lịch sử âm nhạc Việt Nam hiện đại ghi dấu ấn đậm nét với những tên tuổi như Phạm Duy và Trịnh Công Sơn — những nhạc sĩ tiêu biểu đã tạo nên những tác phẩm bất hủ xoay quanh các chủ đề hòa bình, tình yêu và công lý xã hội. Trịnh Công Sơn, với những ca khúc phản chiến sâu sắc, đã trở thành biểu tượng của một thế hệ. Thời kỳ chiến tranh Việt Nam đã tạo ra làn sóng nhạc đỏ (revolutionary music) với những ca khúc cách mạng cổ vũ tinh thần yêu nước, và nhạc vàng — dòng nhạc lãng mạn, trữ tình phát triển mạnh ở miền Nam trước năm 1975.
 

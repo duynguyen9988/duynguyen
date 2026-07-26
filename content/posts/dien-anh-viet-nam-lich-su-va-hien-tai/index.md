@@ -3,7 +3,7 @@ title: "Điện Ảnh Việt Nam — Hành Trình Một Thế Kỷ Qua Ống Kí
 description: "Từ những thước phim câm năm 1920 đến Cannes 2023 với giải Caméra d'Or, khám phá lịch sử hơn 100 năm của điện ảnh Việt Nam."
 date: 2026-07-27T00:04:22+07:00
 slug: dien-anh-viet-nam-lich-su-va-hien-tai
-categories: ["Giải trí"]
+categories: ["giai-tri"]
 tags: ["điện ảnh Việt Nam", "phim Việt", "Cannes", "lịch sử điện ảnh", "phim Việt Nam"]
 resources:
   - name: featured-image
@@ -23,7 +23,7 @@ Trong kháng chiến chống Pháp, Bộ Thông tin và Tuyên truyền thành l
 
 Sau hiệp định Genève, Việt Nam tạm thời chia cắt và điện ảnh cũng chia làm hai. Hà Nội thành lập Xưởng phim Việt Nam năm 1956 và Trường Điện ảnh Hà Nội năm 1959. Bộ phim truyện đầu tiên của miền Bắc là *Chung một dòng sông* (1959) của đạo diễn Nguyễn Hồng Nghị — một tác phẩm mang tinh thần dân tộc. Thậm chí còn có một bộ phim hoạt hình: *Đáng đời thằng Cáo* (1960).
 
-Phim tài liệu *Nước về Bắc Hưng Hải* giành giải Vàng tại Liên hoan phim Moskva 1959. Phim truyện *Chị Tư Hậu* (1963) của Phạm Kỳ Nam, với diễn xuất của Trà Giang, giành giải Bạc cũng tại Moskva.
+phim tài liệu *Nước về Bắc Hưng Hải* giành giải Vàng tại Liên hoan phim Moskva 1959. phim truyện *Chị Tư Hậu* (1963) của Phạm Kỳ Nam, với diễn xuất của Trà Giang, giành giải Bạc cũng tại Moskva.
 
 Trong những năm chiến tranh (1965–1973), miền Bắc sản xuất 463 phim thời sự, 307 phim tài liệu và 141 phim khoa học, nhưng chỉ vỏn vẹn 36 phim truyện và 27 phim hoạt hình. Những bộ phim đáng nhớ như *Em bé Hà Nội* (1975) vẫn để lại dấu ấn sâu đậm.
 
@@ -35,7 +35,7 @@ Sau thống nhất, sản lượng phim truyện tăng từ khoảng 3 phim mỗ
 
 ### Đổi mới và hội nhập (1986–2010)
 
-Năm 1986, Đổi Mới giáng một đòn mạnh vào điện ảnh bao cấp. Phim Việt không thể cạnh tranh với băng đĩa và truyền hình. Số lượng phim sụt giảm mạnh. Nhưng chính trong khó khăn ấy, những tài năng mới xuất hiện.
+Năm 1986, Đổi Mới giáng một đòn mạnh vào điện ảnh bao cấp. phim Việt không thể cạnh tranh với băng đĩa và truyền hình. Số lượng phim sụt giảm mạnh. Nhưng chính trong khó khăn ấy, những tài năng mới xuất hiện.
 
 Năm 1993, Trần Anh Hùng gây chấn động với *Mùi đu đủ xanh* — bộ phim giành giải Caméra d'Or tại Cannes, trở thành phim Việt Nam đầu tiên được đề cử Oscar. Tiếp đó là *Xích lô* (1995) — giành giải Sư tử Vàng tại Venice, và *Mùa hè chiều thẳng đứng* (2000).
 
@@ -45,7 +45,7 @@ Năm 1993, Trần Anh Hùng gây chấn động với *Mùi đu đủ xanh* — 
 
 Điện ảnh Việt Nam thập niên 2010 và 2020 chứng kiến sự trỗi dậy của phim thương mại ăn khách — *Mưa đỏ* hiện là phim có doanh thu cao nhất lịch sử với hơn 700 tỷ đồng. Nhưng thành công vang dội nhất đến từ các liên hoan phim quốc tế.
 
-Năm 2023, Phạm Thiên Ân với *Bên trong vỏ kén vàng* giành Caméra d'Or tại Cannes — giải thưởng cao nhất cho phim đầu tay. Cùng năm, Trần Anh Hùng giành giải Đạo diễn xuất sắc nhất tại Cannes với *La Passion de Dodin Bouffant (The Taste of Things)*. Một năm sau, Phạm Ngọc Lân với *Cu li không bao giờ khóc* giành giải "Phim đầu tay xuất sắc nhất" tại Berlin.
+Năm 2023, Phạm Thiên Ân với *Bên trong vỏ kén vàng* giành Caméra d'Or tại Cannes — giải thưởng cao nhất cho phim đầu tay. Cùng năm, Trần Anh Hùng giành giải Đạo diễn xuất sắc nhất tại Cannes với *La Passion de Dodin Bouffant (The Taste of Things)*. Một năm sau, Phạm Ngọc Lân với *Cu li không bao giờ khóc* giành giải "phim đầu tay xuất sắc nhất" tại Berlin.
 
 ### Kết
 

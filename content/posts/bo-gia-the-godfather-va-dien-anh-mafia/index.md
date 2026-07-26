@@ -3,7 +3,7 @@ title: "Bố Già — Kiệt Tác Điện Ảnh Về Quyền Lực và Gia Đìn
 description: "The Godfather (Bố Già) của Francis Ford Coppola không chỉ là phim mafia hay nhất mọi thời đại — mà còn là biểu tượng văn hóa về quyền lực và gia đình."
 date: 2026-07-27T00:04:22+07:00
 slug: bo-gia-the-godfather-va-dien-anh-mafia
-categories: ["Phim"]
+categories: ["phim"]
 tags: ["The Godfather", "Bố Già", "Francis Ford Coppola", "Marlon Brando", "Al Pacino", "mafia", "phim kinh điển"]
 resources:
   - name: featured-image
@@ -37,11 +37,11 @@ Một trong những cảnh mang tính biểu tượng nhất — đầu ngựa t
 
 ### 23 tuần số một và ba giải Oscar
 
-*The Godfather* ra mắt tại nhà hát Loew's State ở New York vào ngày 14 tháng 3 năm 1972. Phim thu về 57.829 đô la ngày đầu tiên từ năm rạp, với giá vé 3,50 đô la — một con số khủng khi ấy.
+*The Godfather* ra mắt tại nhà hát Loew's State ở New York vào ngày 14 tháng 3 năm 1972. phim thu về 57.829 đô la ngày đầu tiên từ năm rạp, với giá vé 3,50 đô la — một con số khủng khi ấy.
 
-Phim giữ vị trí số một tại phòng vé Mỹ trong 23 tuần liên tiếp, tổng doanh thu toàn cầu cuối cùng đạt từ 250 đến 291 triệu đô la — một kỷ lục chưa từng có.
+phim giữ vị trí số một tại phòng vé Mỹ trong 23 tuần liên tiếp, tổng doanh thu toàn cầu cuối cùng đạt từ 250 đến 291 triệu đô la — một kỷ lục chưa từng có.
 
-Tại giải Oscar lần thứ 45, phim giành chiến thắng ở ba hạng mục: Phim hay nhất (Albert S. Ruddy), Nam chính xuất sắc nhất (Brando — và ông đã từ chối nhận tượng vàng trong một tuyên bố gây sốc), và Kịch bản chuyển thể xuất sắc nhất (Puzo và Coppola). Bảy đề cử khác bao gồm Pacino, Caan, Duvall cho Nam phụ — một trường hợp hiếm hoi có ba diễn viên từ cùng một phim được đề cử cùng hạng mục.
+Tại giải Oscar lần thứ 45, phim giành chiến thắng ở ba hạng mục: phim hay nhất (Albert S. Ruddy), Nam chính xuất sắc nhất (Brando — và ông đã từ chối nhận tượng vàng trong một tuyên bố gây sốc), và Kịch bản chuyển thể xuất sắc nhất (Puzo và Coppola). Bảy đề cử khác bao gồm Pacino, Caan, Duvall cho Nam phụ — một trường hợp hiếm hoi có ba diễn viên từ cùng một phim được đề cử cùng hạng mục.
 
 ### Ảnh hưởng văn hóa
 

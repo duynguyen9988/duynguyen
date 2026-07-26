@@ -11,7 +11,7 @@ tags:
   - radio
   - physics
 categories:
-  - Công nghệ
+  - cong-nghe
 resources:
   - name: featured-image
     src: featured-image.png

@@ -4,7 +4,7 @@ description: "Khám phá hành trình của phở bò, từ gánh hàng rong tr�
 date: 2026-07-27T00:10:00+07:00
 slug: pho-bo-tinh-hoa-am-thuc-viet-nam
 categories:
-  - Ẩm thực
+  - am-thuc
 tags:
   - phở bò
   - ẩm thực việt nam

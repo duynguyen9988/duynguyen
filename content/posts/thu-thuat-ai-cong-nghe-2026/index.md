@@ -8,7 +8,7 @@ tags:
   - tu-dong-hoa
   - thu-thuat
 categories:
-  - Công nghệ
+  - cong-nghe
 resources:
   - name: featured-image
     src: featured-image.jpg

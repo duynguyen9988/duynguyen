@@ -3,7 +3,7 @@ title: "Quản Lý Tài Chính Cá Nhân Cho Người Trẻ"
 description: "Hướng dẫn quản lý tài chính cá nhân từ những bước đầu tiên — lập ngân sách, tiết kiệm, đầu tư và xây dựng tương lai tài chính vững chắc."
 date: 2026-07-27T00:34:51+07:00
 slug: quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre
-categories: ["Kinh nghiệm sống"]
+categories: ["kinh-nghiem-song"]
 tags: ["tài chính cá nhân", "tiết kiệm", "đầu tư", "ngân sách", "tự do tài chính"]
 resources:
   - name: featured-image

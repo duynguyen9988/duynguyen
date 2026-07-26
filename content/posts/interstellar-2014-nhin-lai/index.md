@@ -10,7 +10,7 @@ tags:
   - christopher-nolan
   - review
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

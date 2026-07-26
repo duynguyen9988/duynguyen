@@ -10,7 +10,7 @@ tags:
   - nhat-ban
   - anime
 categories:
-  - "Văn hóa"
+  - "van-hoa"
 resources:
   - name: featured-image
     src: featured-image.jpg

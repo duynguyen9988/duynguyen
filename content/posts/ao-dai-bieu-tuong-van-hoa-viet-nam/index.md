@@ -3,7 +3,7 @@ title: "Áo Dài: Hành Trình Của Tà Áo Dân Tộc Từ Lịch Sử Đến 
 description: "Từ tà áo ngũ thân thời Nguyễn đến thiết kế Le Mur cách tân, áo dài Việt Nam đã vượt qua hơn ba thế kỷ để trở thành biểu tượng văn hóa vượt thời gian."
 date: 2026-07-27T00:04:22+07:00
 slug: ao-dai-bieu-tuong-van-hoa-viet-nam
-categories: ["Văn hóa"]
+categories: ["van-hoa"]
 tags: ["áo dài", "trang phục truyền thống Việt Nam", "văn hóa Việt", "biểu tượng dân tộc"]
 draft: false
 resources:

@@ -1,5 +1,5 @@
 ---
-title: "Văn hóa đọc Việt Nam 2026 — Từ trang sách đến không gian số"
+title: "van-hoa đọc Việt Nam 2026 — Từ trang sách đến không gian số"
 date: 2026-07-26T16:56:58+07:00
 description: "Bức tranh văn hóa đọc Việt Nam năm 2026 với chủ đề 'Mạch tri thức - Từ trang sách đến không gian số', những chuyển động trong kỷ nguyên chuyển đổi số."
 tags:
@@ -9,7 +9,7 @@ tags:
   - Ngày Sách Việt Nam
   - tri thức
 categories:
-  - "Văn hóa"
+  - "van-hoa"
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -18,7 +18,7 @@ slug: van-hoa-doc-sach-viet-nam
 
 Có một nghịch lý: giữa thời đại mà con người chưa bao giờ dễ dàng tiếp cận thông tin đến thế, thì văn hóa đọc — theo nghĩa ngồi xuống và lật từng trang sách — lại đang đối mặt với những thách thức chưa từng có. Ở Việt Nam, câu chuyện ấy càng trở nên thú vị khi nhìn vào những con số biết nói và những nỗ lực không ngừng để đưa sách trở lại đời sống thường nhật.
 
-Tháng 4 năm 2026, Ngày Sách và Văn hóa đọc Việt Nam lần thứ V đã chính thức khai mạc tại Thư viện Quốc gia Việt Nam với chủ đề "Mạch tri thức — Từ trang sách đến không gian số". Đây không chỉ là một sự kiện thường niên, mà còn là một tín hiệu cho thấy cách người Việt đang tìm kiếm sự dung hòa giữa truyền thống và công nghệ trong hành trình tiếp nhận tri thức.
+Tháng 4 năm 2026, Ngày Sách và van-hoa đọc Việt Nam lần thứ V đã chính thức khai mạc tại Thư viện Quốc gia Việt Nam với chủ đề "Mạch tri thức — Từ trang sách đến không gian số". Đây không chỉ là một sự kiện thường niên, mà còn là một tín hiệu cho thấy cách người Việt đang tìm kiếm sự dung hòa giữa truyền thống và công nghệ trong hành trình tiếp nhận tri thức.
 
 <!--more-->
 
@@ -36,9 +36,9 @@ Theo thống kê từ các kỳ trước, lượng người đến thư viện t
 
 Các chuyên gia nhận định rằng văn hóa đọc ở Việt Nam vẫn chưa được quan tâm phát triển đúng mức. Ở nhiều gia đình, đặc biệt là khu vực nông thôn, sách hầu như chỉ xuất hiện dưới dạng sách giáo khoa. Ý niệm "đọc để học" vẫn còn nặng hơn "đọc để sống", để tận hưởng, để mở rộng thế giới quan.
 
-Điều đáng mừng là Ngày Sách và Văn hóa đọc Việt Nam đã tạo ra một hiệu ứng lan tỏa nhất định. Những hoạt động như "Trạm đổi sách" — nơi mỗi người có thể mang cuốn sách cũ của mình đến đổi lấy một cuốn mới — đã tạo ra một không gian giao lưu, kết nối cho những người yêu sách. Và quan trọng hơn, nó khơi dậy tinh thần "sống xanh" khi kéo dài vòng đời cho mỗi trang giấy.
+Điều đáng mừng là Ngày Sách và van-hoa đọc Việt Nam đã tạo ra một hiệu ứng lan tỏa nhất định. Những hoạt động như "Trạm đổi sách" — nơi mỗi người có thể mang cuốn sách cũ của mình đến đổi lấy một cuốn mới — đã tạo ra một không gian giao lưu, kết nối cho những người yêu sách. Và quan trọng hơn, nó khơi dậy tinh thần "sống xanh" khi kéo dài vòng đời cho mỗi trang giấy.
 
-### Công nghệ — bạn hay thù?
+### cong-nghe — bạn hay thù?
 
 Câu hỏi lớn nhất mà những người làm văn hóa đọc đặt ra: trong kỷ nguyên TikTok, YouTube Shorts và những nội dung 30 giây, làm sao để sách vẫn có chỗ đứng?
 
@@ -54,6 +54,6 @@ Một trong những hoạt động có ý nghĩa nhất trong chuỗi sự kiệ
 
 ### Nhìn về phía trước
 
-Flashmob Read 2026 — một hoạt động lần đầu tiên xuất hiện trong khuôn khổ Ngày Sách và Văn hóa đọc — cho thấy một tín hiệu lạc quan. Hàng trăm bạn trẻ cùng nhau cầm sách, đọc trong nhịp điệu chung, kết nối giữa tri thức và chuyển động. Đó không chỉ là một màn trình diễn, mà còn là một tuyên ngôn: đọc sách không hề lỗi thời, và nó hoàn toàn có thể trở thành một phần của văn hóa đại chúng.
+Flashmob Read 2026 — một hoạt động lần đầu tiên xuất hiện trong khuôn khổ Ngày Sách và van-hoa đọc — cho thấy một tín hiệu lạc quan. Hàng trăm bạn trẻ cùng nhau cầm sách, đọc trong nhịp điệu chung, kết nối giữa tri thức và chuyển động. Đó không chỉ là một màn trình diễn, mà còn là một tuyên ngôn: đọc sách không hề lỗi thời, và nó hoàn toàn có thể trở thành một phần của văn hóa đại chúng.
 
 Có lẽ, văn hóa đọc Việt Nam đang đứng trước một bước ngoặt. Không phải bước ngoặt của sự diệt vong như nhiều người lo ngại, mà là bước ngoặt của sự chuyển mình. Từ những trang sách in trên giấy đến không gian số mênh mông, dòng chảy tri thức vẫn không ngừng chảy. Vấn đề không phải là chúng ta đọc bằng gì — giấy hay màn hình — mà là chúng ta có đọc hay không.

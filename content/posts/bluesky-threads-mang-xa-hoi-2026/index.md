@@ -4,7 +4,7 @@ description: "Bluesky, Threads và cuộc chiến mạng xã hội phi tập tru
 date: 2026-07-27T00:20:00+07:00
 slug: bluesky-threads-mang-xa-hoi-2026
 categories:
-  - Công nghệ
+  - cong-nghe
 tags:
   - bluesky
   - threads

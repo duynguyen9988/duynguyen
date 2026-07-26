@@ -12,7 +12,7 @@ tags:
   - ufo
   - phim-2026
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -20,7 +20,7 @@ resources:
 
 Bạn có tin chúng ta không đơn độc trong vũ trụ? Steven Spielberg — huyền thoại từng mang đến *E.T.* và *Close Encounters of the Third Kind* — trở lại với **Disclosure Day (Thời Khắc Công Bố)**, bộ phim UFO đang khuấy động toàn cầu.
 
-## Phim hay nhất của Spielberg trong 20 năm?
+## phim hay nhất của Spielberg trong 20 năm?
 
 Ngay sau các suất chiếu sớm cho báo chí, *Disclosure Day* nhận mưa lời khen. Cây bút Germain Lussier (Gizmodo) gọi đây là:
 
@@ -57,7 +57,7 @@ Spielberg kể chuyện bằng cả trái tim: những pha hành động nghẹt
 
 
 
-Phim dài 145 phút, phân loại **T13**.
+phim dài 145 phút, phân loại **T13**.
 
 ## Review tổng quan
 
@@ -70,7 +70,7 @@ Phim dài 145 phút, phân loại **T13**.
 
 Điểm yếu:
 - Một số phân đoạn giữa phim hơi chậm
-- Phim khá dài (145 phút)
+- phim khá dài (145 phút)
 
 Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T.* hay từng ngước nhìn bầu trời và tự hỏi "Có ai ngoài kia không?" — đây nhất định là phim đáng xem.
 

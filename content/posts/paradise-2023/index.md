@@ -12,7 +12,7 @@ tags:
   - sci-fi
   - phim-2023
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

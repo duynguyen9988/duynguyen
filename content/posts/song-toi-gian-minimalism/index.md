@@ -8,7 +8,7 @@ tags:
   - song-toi-gian
   - lifestyle
 categories:
-  - "Kinh nghiệm sống"
+  - "kinh-nghiem-song"
 resources:
   - name: featured-image
     src: featured-image.jpg

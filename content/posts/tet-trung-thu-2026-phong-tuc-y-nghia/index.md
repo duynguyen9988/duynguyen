@@ -3,7 +3,7 @@ title: "Tết Trung Thu 2026: Phong Tục, Ý Nghĩa Đoàn Viên và Mâm Cỗ 
 description: "Tết Trung Thu 2026 rơi vào ngày 25 tháng 9 — dịp để trở về, bày mâm cỗ trông trăng, và cảm nhận trọn vẹn hương vị đoàn viên của ngày rằm tháng Tám."
 date: 2026-07-27T00:04:22+07:00
 slug: tet-trung-thu-2026-phong-tuc-y-nghia
-categories: ["Văn hóa"]
+categories: ["van-hoa"]
 tags: ["Tết Trung Thu", "rằm tháng Tám", "phong tục Việt Nam", "mâm cỗ trông trăng", "bánh trung thu"]
 draft: false
 resources:

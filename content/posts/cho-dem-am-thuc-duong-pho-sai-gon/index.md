@@ -7,7 +7,7 @@ tags:
   - am-thuc-duong-pho
   - am-thuc-sai-gon
 categories:
-  - Ẩm thực
+  - am-thuc
 resources:
   - name: featured-image
     src: featured-image.jpg

@@ -12,7 +12,7 @@ tags:
   - phim-2014
   - khoa-hoc-vien-tuong
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

@@ -12,7 +12,7 @@ tags:
   - horror
   - phim-bo
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

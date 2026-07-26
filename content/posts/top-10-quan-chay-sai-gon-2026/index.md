@@ -10,7 +10,7 @@ tags:
   - sai-gon
   - review
 categories:
-  - Ẩm thực
+  - am-thuc
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -29,7 +29,7 @@ Thực đơn của Chay Garden là sự kết hợp giữa ẩm thực Việt Na
 - Giờ mở cửa: 10:00 – 22:00
 - Không gian: Biệt thự Đông Dương, sân vườn mát mẻ
 
-## 2. Hum Garden — Ẩm thực chay fine-dining giữa vườn xanh
+## 2. Hum Garden — am-thuc chay fine-dining giữa vườn xanh
 
 Hum Garden thuộc hệ thống Hum Dining — thương hiệu ăn chay cao cấp hàng đầu Sài Gòn. Nằm trên một con đường yên tĩnh ở Thảo Điền, Hum Garden sở hữu khu vườn xanh mát với bàn ghế mây tre, tường gạch mộc mạc cùng không gian ăn ngoài trời thoáng đãng. Đây là địa chỉ được Michelin Guide trao Bib Gourmand từ năm 2023 và duy trì đến nay.
 
@@ -95,7 +95,7 @@ Thực đơn của Zenhouse thiên về ẩm thực chay Nhật Bản với các
 - Giờ mở cửa: 9:00 – 21:30
 - Không gian: Thiền Nhật Bản, sân vườn bonsai
 
-## 8. Chay Bà Xã — Ẩm thực chay đường phố Sài Gòn
+## 8. Chay Bà Xã — am-thuc chay đường phố Sài Gòn
 
 Chay Bà Xã mang đến một trải nghiệm ẩm thực chay hoàn toàn khác biệt. Không phải không gian sang trọng hay tĩnh lặng, Chay Bà Xã lại thu hút thực khách bởi phong cách đường phố bình dân, đậm chất Sài Gòn. Quán nằm trên đường Trương Định, quận 3, với không gian mở, bàn ghế nhựa đơn giản, tạo cảm giác thân thuộc như đang ăn ở nhà.
 

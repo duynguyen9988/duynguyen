@@ -3,7 +3,7 @@ title: "Vịnh Hạ Long — Kỳ Quan Thiên Nhiên Thế Giới Và Hành Trì
 description: "Khám phá vịnh Hạ Long — kỳ quan thiên nhiên thế giới với hơn 1.969 hòn đảo đá vôi, hệ sinh thái độc đáo và những câu chuyện địa chất kéo dài nửa tỷ năm."
 date: 2026-07-27T00:04:22+07:00
 slug: vinh-ha-long-ky-quan-thien-nhien
-categories: ["Du lịch"]
+categories: ["du-lich"]
 tags: ["vịnh Hạ Long", "di sản UNESCO", "du lịch Việt Nam", "Quảng Ninh", "kỳ quan thiên nhiên"]
 resources:
   - name: featured-image
@@ -45,7 +45,7 @@ Bốn làng chài nổi — Cửa Vạn, Ba Hang, Cống Tàu và Vông Viêng �
 
 Năm 1994, UNESCO công nhận vịnh Hạ Long là Di sản Thiên nhiên Thế giới. Năm 2012, nó chính thức được vinh danh là một trong Bảy Kỳ quan Thiên nhiên Mới của Thế giới. Năm 2023, danh giới di sản được mở rộng bao gồm thêm quần đảo Cát Bà.
 
-Nhưng kỳ quan cũng đối mặt với thách thức. Du lịch phát triển nhanh mang theo áp lực về rác thải nhựa, nước thải và ô nhiễm tiếng ồn từ tàu thuyền. San hô chết dần, nước vịnh đục hơn xưa. Từ năm 2019, chính quyền Quảng Ninh đã cấm sử dụng sản phẩm nhựa dùng một lần trên vịnh và di dời các hộ dân sống trên làng nổi vào bờ để bảo vệ môi trường.
+Nhưng kỳ quan cũng đối mặt với thách thức. du-lich phát triển nhanh mang theo áp lực về rác thải nhựa, nước thải và ô nhiễm tiếng ồn từ tàu thuyền. San hô chết dần, nước vịnh đục hơn xưa. Từ năm 2019, chính quyền Quảng Ninh đã cấm sử dụng sản phẩm nhựa dùng một lần trên vịnh và di dời các hộ dân sống trên làng nổi vào bờ để bảo vệ môi trường.
 
 ### Kết
 

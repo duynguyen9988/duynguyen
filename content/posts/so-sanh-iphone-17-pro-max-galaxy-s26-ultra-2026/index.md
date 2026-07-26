@@ -3,7 +3,7 @@ title: "So Sánh iPhone 17 Pro Max và Samsung Galaxy S26 Ultra 2026"
 description: "So sánh toàn diện iPhone 17 Pro Max và Samsung Galaxy S26 Ultra — thiết kế, camera, hiệu năng, pin và hệ sinh thái."
 date: 2026-07-27T00:34:51+07:00
 slug: so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026
-categories: ["Mua sắm"]
+categories: ["mua-sam"]
 tags: ["iPhone 17 Pro Max", "Galaxy S26 Ultra", "so sánh smartphone", "Apple", "Samsung"]
 resources:
   - name: featured-image

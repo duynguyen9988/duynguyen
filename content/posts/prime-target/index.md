@@ -12,7 +12,7 @@ tags:
   - khoa-hoc-vien-tuong
   - cambridge
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg

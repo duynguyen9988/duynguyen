@@ -3,7 +3,7 @@ title: "Đà Lạt — Cẩm Nang Du Lịch Tự Túc Từ A Đến Z"
 description: "Đà Lạt — cẩm nang du lịch tự túc từ A đến Z: kinh nghiệm di chuyển, ăn uống và những điểm đến không thể bỏ lỡ."
 date: 2026-07-27T00:25:16+07:00
 slug: da-lat-kinh-nghiem-du-lich-tu-tuc
-categories: ["Du lịch"]
+categories: ["du-lich"]
 tags: ["Đà Lạt", "du lịch tự túc", "kinh nghiệm", "cẩm nang", "Lâm Đồng"]
 draft: false
 resources:

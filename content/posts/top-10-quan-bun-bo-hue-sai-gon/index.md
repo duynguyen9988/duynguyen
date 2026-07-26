@@ -12,7 +12,7 @@ tags:
   - bun-bo-hue
   - sai-gon
 categories:
-  - Ẩm thực
+  - am-thuc
 ---
 
 Giữa Sài Gòn tấp nập, một tô bún bò Huế nóng hổi với nước lèo thơm nồng mùi sả ruốc có thể xoa dịu bất kỳ ngày mệt mỏi nào. Người Sài Gòn gốc Huế mang theo công thức gia truyền vào nam, biến tấu để phù hợp khẩu vị địa phương nhưng vẫn giữ được cái hồn của ẩm thực cố đô. Dưới đây là mười địa chỉ đã làm tròn vai trò đó suốt nhiều thập kỷ.

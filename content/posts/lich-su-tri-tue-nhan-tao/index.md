@@ -3,7 +3,7 @@ title: "Lịch Sử Trí Tuệ Nhân Tạo — Từ Huyền Thoại Đến Kỷ 
 description: "Hành trình 70 năm của trí tuệ nhân tạo: từ những cỗ máy thần thoại Hy Lạp, qua mùa đông AI, đến cuộc bùng nổ ChatGPT và transformer."
 date: 2026-07-27T00:04:22+07:00
 slug: lich-su-tri-tue-nhan-tao
-categories: ["Công nghệ"]
+categories: ["cong-nghe"]
 tags: ["AI", "trí tuệ nhân tạo", "lịch sử AI", "machine learning", "deep learning", "ChatGPT"]
 resources:
   - name: featured-image

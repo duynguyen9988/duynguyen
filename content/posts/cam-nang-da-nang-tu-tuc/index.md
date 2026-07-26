@@ -10,7 +10,7 @@ tags:
   - cam-nang
   - am-thuc
 categories:
-  - "Du lịch"
+  - "du-lich"
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -44,7 +44,7 @@ Giao thông Đà Nẵng rất dễ chịu so với Hà Nội hay Sài Gòn. Đư
 
 **Phố cổ Hội An.** Cách Đà Nẵng 30 km về phía Nam, Hội An là điểm đến mà tôi nghĩ ai cũng nên ghé ít nhất một lần trong đời. Phố cổ về đêm với hàng nghìn chiếc đèn lồng đủ màu sắc, những mái nhà cổ kính và dòng sông Hoài êm đềm — đó là một trong những khung cảnh đẹp nhất Việt Nam. Đừng quên thử chè bắp, cơm gà Hội An, và ngồi thuyền thúng trên sông.
 
-## Ẩm thực Đà Nẵng
+## am-thuc Đà Nẵng
 
 Nếu hỏi tôi nhớ gì nhất về Đà Nẵng, câu trả lời sẽ là đồ ăn. Đà Nẵng có một nền ẩm thực đường phố phong phú bậc nhất Việt Nam.
 

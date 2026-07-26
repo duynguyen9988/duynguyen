@@ -9,7 +9,7 @@ tags:
   - top phim
   - review phim
 categories:
-  - Phim
+  - phim
 resources:
   - name: featured-image
     src: featured-image.jpg
