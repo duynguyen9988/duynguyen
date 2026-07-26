@@ -66,13 +66,8 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 ## Images
 
 ### Thumbnail (auto-detect)
-Every post MUST have a homepage thumbnail. Detection order:
-1. `featuredimagepreview` / `featuredimage` front matter param
-2. `featured-image` or `featured-image-preview` page resource
-3. First `![]()` Markdown image in content
-4. First `<img>` in rendered HTML content
-
-Implementation: `layouts/_partials/function/first-image.html`
+Every post MUST have a homepage thumbnail from its `featured-image.jpg` page resource.
+Post cards and random posts sidebar use `.Resources.GetMatch "featured-image"` directly + `img.html` partial for WebP processing.
 
 ### Content Images (no crop, no scroll, full visibility)
 - `object-fit: contain` — never crop, never `object-fit: cover`
@@ -97,20 +92,13 @@ Implementation: `layouts/_partials/function/first-image.html`
 3. **Content images** (Markdown `![]()` in body): If sourced from web, download to page bundle, reference by filename only. `render-image.html` passes `$src` → `img.html` → Hugo processes to WebP + width/height
 4. **No loading SVG**: No placeholder images, no lazyload wrappers, no `data-src` patterns. All images use direct `src`/`srcset` with `loading="lazy"`
 
-### Lightbox
-- Every content image wraps in `<a href="original" target="_blank" rel="noopener" data-lightbox="original">`
-- Click opens custom Vanilla JS lightbox (file: `assets/js/lightbox.js`)
-- Close: × button, Esc key, click outside backdrop, Tab trap, mobile touch
-- Lightbox image: `max-width: 96vw; max-height: 94vh; object-fit: contain`
-- Background: `rgba(0,0,0,0.92)`
-- `cursor: zoom-in` on content images, `cursor: zoom-out` on lightbox backdrop
-- Graceful fallback: no JS → `target="_blank"` opens image in new tab
-- Featured image on single page follows same rules
+### Lightbox — REMOVED
+- Lightbox feature was removed to eliminate JS dependency and CLS risk
+- Images open in new tab via `target="_blank"` (native browser behavior)
 
 ### Deduplication
 - If the featured image is the SAME as the first content image, the featured-image `<div>` is skipped on the single post page to avoid showing the same image twice
-- Comparison is done via resolved `RelPermalink` strings
-- The first content image still gets the lightbox treatment in the content
+- Comparison is done via `.Name` (basename) strings
 
 ## Post Card (homepage list)
 - Flex: thumbnail 40% / content 60%

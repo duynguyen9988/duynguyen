@@ -5,20 +5,14 @@
     <h3 class="sidebar-title">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
     <ul class="random-posts-list">
         {{- range $index, $post := $randomPosts -}}
-            {{- $image := partial "function/first-image.html" $post -}}
+            {{- $img := $post.Resources.GetMatch "featured-image" -}}
             {{- $num := printf "%02d" (add $index 1) -}}
-            <li class="random-post-item{{ if not $image }} random-post-item-textonly{{ end }}">
-                {{- if $image -}}
+            <li class="random-post-item{{ if not $img }} random-post-item-textonly{{ end }}">
+                {{- with $img -}}
                 <div class="random-post-thumb">
                     <span class="random-post-number">{{ $num }}</span>
                     <a href="{{ $post.RelPermalink }}" aria-label="{{ $post.Title }}">
-                        <img
-                            src="{{ $image | safeURL }}"
-                            alt="{{ $post.Title }}"
-                            loading="lazy"
-                            decoding="async"
-                            width="96"
-                            height="96">
+                        {{- dict "Src" .Name "Resources" $post.Resources "Alt" $post.Title | partial "plugin/img.html" -}}
                     </a>
                 </div>
                 {{- else -}}

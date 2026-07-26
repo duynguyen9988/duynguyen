@@ -84,8 +84,15 @@
         {{- end -}}
         {{- $showFeatured := and $featuredImage (or (not $firstContentImage) (ne $featuredImage $firstContentImage)) -}}
         {{- if $showFeatured -}}
+            {{- $preloadSrc := "" -}}
+            {{- with $.Resources.GetMatch $featuredImage -}}
+                {{- $preloadSrc = (.Fit "1600x1200 webp").RelPermalink -}}
+            {{- end -}}
+            {{- if $preloadSrc -}}
+                <link rel="preload" as="image" href="{{ $preloadSrc | safeURL }}" fetchpriority="high">
+            {{- end -}}
             <div class="featured-image">
-                {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true | partial "plugin/img.html" -}}
+                {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true "Fetchpriority" "high" | partial "plugin/img.html" -}}
             </div>
         {{- end -}}
 

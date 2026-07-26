@@ -1,16 +1,9 @@
-{{- $image := partial "function/first-image.html" . -}}
-
-<article class="post-card{{ if not $image }} post-card-textonly{{ end }}" itemscope itemtype="http://schema.org/Article">
-    {{- if $image -}}
+{{- $img := .Resources.GetMatch "featured-image" -}}
+<article class="post-card{{ if not $img }} post-card-textonly{{ end }}" itemscope itemtype="http://schema.org/Article">
+    {{- with $img -}}
     <div class="post-card-thumb">
-        <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-            <img
-                src="{{ $image | safeURL }}"
-                alt="{{ .Title }}"
-                loading="lazy"
-                decoding="async"
-                width="400"
-                height="250">
+        <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">
+            {{- dict "Src" .Name "Resources" $.Resources "Alt" $.Title | partial "plugin/img.html" -}}
         </a>
     </div>
     {{- end -}}

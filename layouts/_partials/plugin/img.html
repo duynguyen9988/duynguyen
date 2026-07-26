@@ -5,6 +5,7 @@
 {{- $original := $src -}}
 {{- $alt := .Alt | default "" -}}
 {{- $caption := .Caption -}}
+{{- $fetchpriority := .Fetchpriority | default "low" -}}
 
 {{- $small := "" -}}
 {{- $large := "" -}}
@@ -41,6 +42,7 @@
     alt="{{ $alt }}"
     {{- with $width }} width="{{ . }}"{{ end }}
     {{- with $height }} height="{{ . }}"{{ end }}
+    {{- if ne $fetchpriority "auto" }} fetchpriority="{{ $fetchpriority }}"{{ end }}
     loading="lazy"
     decoding="async"
 />

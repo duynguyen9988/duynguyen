@@ -1145,6 +1145,34 @@ header {
   }
 }
 
+@keyframes img-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.content img,
+.featured-image img,
+.post-card-thumb img,
+.random-post-thumb img {
+  background: #e8e8e8;
+  animation: img-fade-in 0.4s ease-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content img,
+  .featured-image img,
+  .post-card-thumb img,
+  .random-post-thumb img {
+    background: #2a2a2a;
+  }
+}
+
+.related-posts,
+footer.footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 400px;
+}
+
 .pagination .page-item .page-link {
   font-weight: 700;
   font-size: 1.1rem;
