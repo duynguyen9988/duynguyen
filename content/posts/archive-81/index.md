@@ -1,6 +1,6 @@
 ---
 title: 'Archive 81: Series kinh dị siêu nhiên Netflix bị hủy sau một mùa'
-date: 2026-07-26T09:41:00+07:00
+date: 2026-07-23T11:00:00+07:00
 draft: false
 description: 'Archive 81 là series kinh dị siêu nhiên của Netflix dựa trên podcast cùng tên, theo chân Dan Turner phục hồi băng video về một vụ hỏa hoạn bí ẩn.'
 tags:

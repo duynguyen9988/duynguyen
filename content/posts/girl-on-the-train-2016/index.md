@@ -1,6 +1,6 @@
 ---
 title: 'The Girl on the Train (2016): Phim tâm lý tội phạm của Tate Taylor với Emily Blunt'
-date: 2026-07-26T10:08:00+07:00
+date: 2026-07-23T09:00:00+07:00
 draft: false
 description: 'The Girl on the Train là phim tâm lý tội phạm Mỹ 2016 của Tate Taylor, với Emily Blunt, Rebecca Ferguson và Haley Bennett, chuyển thể từ tiểu thuyết cùng tên của Paula Hawkins.'
 tags:

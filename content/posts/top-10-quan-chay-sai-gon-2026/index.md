@@ -1,12 +1,12 @@
 ---
 title: 'Top 10 quán chay ngon ở Sài Gòn TP HCM năm 2026'
-date: 2026-07-26T08:30:00+07:00
+date: 2026-07-26T17:00:00+07:00
 draft: false
 description: 'Khám phá top 10 quán chay ngon nhất Sài Gòn năm 2026, từ nhà hàng đạt Michelin đến quán chay bình dân được yêu thích nhất TP HCM.'
 tags:
   - ẩm thực
   - quán chay
-  - Sài Gòn
+  - sai-gon
   - review
 categories:
   - Ẩm thực

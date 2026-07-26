@@ -1,6 +1,6 @@
 ---
 title: "Top 10 quán cà phê vỉa hè Sài Gòn — hương vị giữa lòng phố thị"
-date: 2026-07-26T14:46:25+07:00
+date: 2026-07-26T15:00:00+07:00
 description: "Cà phê vỉa hè Sài Gòn không đơn thuần là thức uống, đó là một nét văn hóa. Bài viết dẫn bạn qua 10 quán cà phê vỉa hè nổi tiếng nhất Sài Gòn."
 featuredimagepreview: https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&q=80
 featuredimage: https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&q=80
@@ -9,7 +9,7 @@ tags:
   - ca-phe-via-he
   - am-thuc-sai-gon
 categories:
-  - am-thuc
+  - Ẩm thực
 slug: ca-phe-via-he-sai-gon
 ---
 

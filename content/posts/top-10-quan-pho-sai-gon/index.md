@@ -1,6 +1,6 @@
 ---
 title: 'Top 10 Quán Phở Ngon Nhất Sài Gòn: Từ Gánh Hẻm Đến Michelin'
-date: 2026-07-26T13:41:53+07:00
+date: 2026-07-26T11:00:00+07:00
 draft: false
 description: 'Sài Gòn có hàng ngàn quán phở, nhưng chỉ vài cái tên đủ sức khiến thực khách xếp hàng mỗi sáng. Từ Phở Lệ hơn 50 năm đến Phở Cao Vân nấu bằng củi — một bản đồ phở cho người Sài Gòn và du khách.'
 tags:

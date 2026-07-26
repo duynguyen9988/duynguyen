@@ -1,6 +1,6 @@
 ---
 title: "Văn hóa giải trí Việt Nam 2026: Điện ảnh, âm nhạc và những dấu ấn mới"
-date: 2026-07-26T14:46:25+07:00
+date: 2026-07-24T11:00:00+07:00
 description: "Năm 2026 chứng kiến nhiều bước chuyển trong đời sống văn hóa giải trí Việt Nam, từ concert quy mô lớn, phim lịch sử ra rạp đến kịch nói lên màn ảnh rộng."
 featuredimagepreview: https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1600&q=80
 featuredimage: https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1600&q=80

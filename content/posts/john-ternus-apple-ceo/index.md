@@ -1,6 +1,6 @@
 ---
 title: 'John Ternus và Câu Hỏi Cho Kỷ Nguyên Mới Của Apple: Khi Một Kỹ Sư Cơ Khí Lên Nắm Quyền'
-date: 2026-07-26T12:43:00+07:00
+date: 2026-07-25T10:00:00+07:00
 draft: false
 description: 'Apple vừa có CEO thứ ba trong lịch sử. John Ternus, một kỹ sư cơ khí 25 năm trong công ty, sẽ thay thế Tim Cook. Liệu Apple sẽ đổi thay, hay đây chỉ là sự tiếp nối của một cỗ máy in tiền?'
 tags:

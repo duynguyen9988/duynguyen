@@ -1,6 +1,6 @@
 ---
 title: 'Top 10 Bánh Mì Sài Gòn: Huyền Thoại Ổ Bánh Mì Việt Nam'
-date: 2026-07-26T13:40:00+07:00
+date: 2026-07-26T10:00:00+07:00
 draft: false
 description: 'Bánh mì Sài Gòn là món ăn đường phố nổi tiếng nhất thế giới. Từ Huỳnh Hoa siêu to khổng lồ đến Bảy Hổ gần 100 năm tuổi — một bản đồ bánh mì cho tín đồ ẩm thực.'
 tags:

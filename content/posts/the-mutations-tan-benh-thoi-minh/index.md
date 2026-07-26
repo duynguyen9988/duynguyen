@@ -1,6 +1,6 @@
 ---
 title: 'The Mutations: Bệnh Dịch Thời Mạt Thế, Quái Vật Trong Mây Mù'
-date: 2026-07-26T13:23:07+07:00
+date: 2026-07-24T09:00:00+07:00
 draft: false
 description: 'Hồi cuối triều Minh, một trận dịch bí ẩn hoành hành vùng Liêu Đông. Một viên Cẩm Y Vệ thân cô thế cô lên đường tìm em trai mất tích, lao vào hòn đảo chứa đầy quái vật và âm mưu.'
 tags:

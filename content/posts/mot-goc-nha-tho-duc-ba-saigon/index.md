@@ -1,10 +1,10 @@
 ---
 title: 'Một góc nhà thờ Đức Bà, Sài Gòn trong lúc đang sửa chữa'
-date: 2026-07-26T08:00:00+07:00
+date: 2026-07-26T18:00:00+07:00
 draft: false
 description: 'Nhà thờ Đức Bà Sài Gòn trong giai đoạn trùng tu'
 tags:
-  - saigon
+  - sai-gon
   - nhà thờ đức bà
 categories:
   - du-lich

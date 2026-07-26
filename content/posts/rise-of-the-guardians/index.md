@@ -1,6 +1,6 @@
 ---
 title: 'Sự Trỗi Dậy Của Các Vệ Thần: Khi Jack Frost Tìm Thấy Lý Do Để Được Tin'
-date: 2026-07-26T10:40:35+07:00
+date: 2026-07-23T14:00:00+07:00
 draft: false
 description: 'Rise of the Guardians (2012) là bộ phim hoạt hình DreamWorks kể về hành trình của Jack Frost từ một kẻ vô hình trở thành Vệ Thần của Niềm Vui, cùng với Santa, Tooth Fairy, Easter Bunny và Sandman chống lại bóng tối.'
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The Giver (2014): Phim dystopia chuyển thể từ tiểu thuyết của Lois Lowry'
-date: 2026-07-26T09:53:00+07:00
+date: 2026-07-22T10:00:00+07:00
 draft: false
 description: 'The Giver là phim dystopia Mỹ 2014 của đạo diễn Phillip Noyce, với Jeff Bridges, Meryl Streep và Brenton Thwaites, chuyển thể từ tiểu thuyết cùng tên của Lois Lowry.'
 tags:

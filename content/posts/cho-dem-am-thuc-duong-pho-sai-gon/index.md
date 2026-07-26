@@ -1,6 +1,6 @@
 ---
 title: "Chợ đêm và ẩm thực đường phố Sài Gòn — linh hồn của thành phố không ngủ"
-date: 2026-07-26T14:46:25+07:00
+date: 2026-07-26T12:00:00+07:00
 description: "Sài Gòn về đêm không bao giờ ngủ. Những khu chợ đêm, phố ẩm thực đường phố là nơi lưu giữ linh hồn ẩm thực bình dân nhất của thành phố."
 featuredimagepreview: https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80
 featuredimage: https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1600&q=80
@@ -9,7 +9,7 @@ tags:
   - am-thuc-duong-pho
   - am-thuc-sai-gon
 categories:
-  - am-thuc
+  - Ẩm thực
 slug: cho-dem-am-thuc-duong-pho-sai-gon
 ---
 
