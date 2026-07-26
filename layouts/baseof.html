@@ -13,20 +13,7 @@
         {{- partial "head/seo.html" . -}}
     </head>
     <body data-header-desktop="{{ .Site.Params.header.desktopMode }}" data-header-mobile="{{ .Site.Params.header.mobileMode }}">
-        {{- /* Check theme isDark before body rendering */ -}}
-        {{- $theme := .Site.Params.defaulttheme -}}
-        <script>
-          const query = window.matchMedia('(prefers-color-scheme: dark)');
-          function applyTheme() {
-            let theme = window.localStorage?.getItem('theme') || '{{ $theme }}';
-            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
-            document.body.setAttribute('theme', isDark? 'dark' : 'light');
-            document.body.setAttribute('cfg-theme', theme);
-          }
-
-          applyTheme();
-          query.addEventListener('change', applyTheme);
-        </script>
+        <script>document.body.setAttribute('theme', 'light');document.body.setAttribute('cfg-theme', 'light');</script>
 
         <div id="mask"></div>
 

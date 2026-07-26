@@ -17,7 +17,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   path = "page"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "light"
   dateFormat = "2006-01-02"
   title = "Duy Nguyen - Blog Ẩm Thực & Công Nghệ Sài Gòn"
   description = "Blog ẩm thực Sài Gòn với những bài viết chuyên sâu về quán ăn, cà phê, phở và công nghệ. Review thật, viết bằng chất văn."
