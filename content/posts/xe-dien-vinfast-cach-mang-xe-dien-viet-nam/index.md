@@ -1,6 +1,6 @@
 ---
 title: "VinFast và cuộc cách mạng xe điện Việt Nam vươn ra thế giới"
-description: "Từ một nhà máy tại Hải Phòng đến sàn Nasdaq, từ xe xăng BMW đến xe điện toàn cầu — hành trình của VinFast là câu chuyện về tham vọng, bài học và tương lai của ngành công nghiệp ô tô Việt Nam."
+description: "VinFast và cuộc cách mạng xe điện Việt Nam — từ startup nội địa đến thương hiệu toàn cầu đang thay đổi ngành công nghiệp ô tô."
 date: 2026-07-27T00:23:06+07:00
 slug: xe-dien-vinfast-cach-mang-xe-dien-viet-nam
 categories:

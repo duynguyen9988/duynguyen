@@ -1,6 +1,6 @@
 ---
 title: "Phương Pháp Pomodoro — Chiếc Đồng Hồ Giúp Bạn Làm Việc Hiệu Quả Hơn"
-description: "Tìm hiểu phương pháp Pomodoro của Francesco Cirillo — kỹ thuật quản lý thời gian đơn giản nhưng hiệu quả, giúp hàng triệu người trên thế giới tập trung hơn và làm việc thông minh hơn."
+description: "Phương pháp Pomodoro của Francesco Cirillo — kỹ thuật quản lý thời gian 25 phút đơn giản mà hiệu quả, giúp bạn làm việc thông minh hơn."
 date: 2026-07-27T00:04:22+07:00
 slug: phuong-phap-pomodoro-quan-ly-thoi-gian
 categories: ["Kinh nghiệm sống"]

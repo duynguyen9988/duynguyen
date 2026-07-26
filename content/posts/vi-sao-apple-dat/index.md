@@ -2,7 +2,7 @@
 title: 'Vì sao Apple đắt? — Phân tích chiến lược định giá và chuỗi cung ứng'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Apple là công ty công nghệ có giá trị nhất thế giới. Nhưng điều gì làm nên mức giá cao ngất ngưởng của những chiếc iPhone, MacBook và Vision Pro? Câu trả lời nằm sâu trong chuỗi cung ứng và chiến lược thương hiệu.'
+description: 'Tại sao Apple đắt? — phân tích chiến lược định giá và hệ sinh thái đằng sau mức giá cao của các sản phẩm Apple.'
 tags:
   - apple
   - cong-nghe

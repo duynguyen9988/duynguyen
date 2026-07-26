@@ -1,6 +1,6 @@
 ---
 title: "Squid Game và Làn Sóng Nội Dung Hàn Quốc: Khi Trò Chơi Trẻ Thơ Trở Thành Hiện Tượng Toàn Cầu"
-description: "Squid Game — từ kịch bản bị từ chối suốt một thập kỷ đến cơn sốt toàn cầu, và sức ảnh hưởng của làn sóng văn hóa Hàn Quốc (Hallyu) lên ngành công nghiệp giải trí thế giới."
+description: "Squid Game — hiện tượng toàn cầu của Netflix và làn sóng văn hóa Hàn Quốc (Hallyu) đang thay đổi ngành giải trí thế giới."
 date: 2026-07-27T00:04:22+07:00
 slug: squid-game-lan-song-noi-dung-han-quoc
 categories: ["Phim"]

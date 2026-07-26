@@ -2,7 +2,7 @@
 title: 'Motorola: Từ Cú Ngã Của Huyền Thoại Điện Thoại Đến Sự Trỗi Dậy $60 Tỷ'
 date: 2026-07-25T08:00:00+07:00
 draft: false
-description: 'Motorola không chết. Họ từng đưa con người lên Mặt Trăng, phát minh ra điện thoại di động đầu tiên, bị iPhone xóa sổ — và giờ đây lặng lẽ trở thành gã khổng lồ $60 tỷ trong lĩnh vực an ninh và cứu hộ.'
+description: 'Motorola — từ huyền thoại điện thoại di động đầu tiên đến sự trở lại ngoạn mục với Razr gập và tham vọng mới.'
 tags:
   - motorola
   - lich-su-cong-nghe

@@ -2,7 +2,7 @@
 title: 'Dropbox: Câu Chuyện Khởi Nghiệp Và Sự Lãng Quên Đắt Giá Nhất Thung Lũng Silicon'
 date: 2026-07-25T09:00:00+07:00
 draft: false
-description: 'Từ một chiếc USB bị quên trên xe bus đến đế chế 10 tỷ đô la, từ cuộc gặp Steve Jobs đến vụ lộ dữ liệu 68 triệu tài khoản — Dropbox đã từng là tương lai, rồi lặng lẽ biến mất khỏi tâm trí mọi người như thế nào.'
+description: 'Câu chuyện khởi nghiệp của Dropbox — từ ý tưởng quên USB đến kỳ lân tỷ đô, và bài học về sự lãng quên trong thời đại cloud.'
 tags:
   - dropbox
   - startup

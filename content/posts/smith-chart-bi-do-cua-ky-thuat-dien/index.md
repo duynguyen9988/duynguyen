@@ -2,7 +2,7 @@
 title: 'Smith Chart: Bản Đồ Biểu Diễn Vô Cực Trong Một Vòng Tròn Hữu Hạn'
 date: 2026-07-22T09:00:00+07:00
 draft: false
-description: 'Biểu đồ đáng sợ nhất ngành kỹ thuật điện — thứ từng khiến bao thế hệ sinh viên khiếp đảm — lại là một trong những phát minh đẹp đẽ và hữu dụng nhất của thế kỷ 20. Câu chuyện về cách nhốt vô cực vào một vòng tròn.'
+description: 'Smith Chart — biểu đồ huyền thoại trong kỹ thuật điện từ, công cụ không thể thiếu cho kỹ sư RF và thiết kế viễn thông.'
 tags:
   - smith-chart
   - electrical-engineering

@@ -2,7 +2,7 @@
 title: 'Paradise (2023): Phim sci-fi Đức trên Netflix về chuyển giao tuổi thọ'
 date: 2026-07-23T10:00:00+07:00
 draft: false
-description: 'Paradise là phim kinh dị khoa học viễn tưởng Đức trên Netflix, xoay quanh một công ty công nghệ sinh học có khả năng chuyển giao năm tuổi thọ giữa người với người.'
+description: 'Paradise (2023) — phim khoa học viễn tưởng Đức đặt câu hỏi: bạn sẵn sàng trả giá nào để sống mãi với người mình yêu?'
 tags:
   - paradise
   - netflix

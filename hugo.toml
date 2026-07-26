@@ -98,8 +98,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     GitHub = "duynguyen9988"
     Email = "292648126+Banhang-Chogao@users.noreply.github.com"
 
+  # Google Search Console — paste mã xác minh từ search.google.com/search-console vào "google"
+  # Sau khi setup xong, submit sitemap tại: https://duynguyen9988.github.io/duynguyen/sitemap.xml
   [params.verification]
     google = ""
+
+  # Google Analytics 4 — tạo property tại analytics.google.com, lấy Measurement ID (dạng G-XXXXXXXXXX)
+  # Tham khảo: https://support.google.com/analytics/answer/9304153
+  [params.analytics]
+    enable = false
+    [params.analytics.google]
+      id = ""
+      respectDoNotTrack = true
     bing = ""
 
   [params.seo]

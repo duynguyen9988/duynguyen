@@ -2,7 +2,7 @@
 title: 'Top 10 quán cafe tuyệt vời cho cuối tuần ở Sài Gòn TP HCM'
 date: 2026-07-26T16:00:00+07:00
 draft: false
-description: 'Danh sách 10 quán cafe đẹp và chill nhất Sài Gòn cho dịp cuối tuần, từ không gian rooftop, sân vườn đến phong cách vintage, kèm địa chỉ, giờ mở cửa, giá cả và món nên thử.'
+description: 'Top 10 quán cà phê Sài Gòn 2026 — từ cà phê cóc vỉa hè đến rooftop view đẹp cho những ai yêu năng lượng Sài Gòn.'
 tags:
   - cafe
   - sai-gon

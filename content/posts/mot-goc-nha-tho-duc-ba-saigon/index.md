@@ -2,7 +2,7 @@
 title: 'Một góc nhà thờ Đức Bà, Sài Gòn trong lúc đang sửa chữa'
 date: 2026-07-26T18:00:00+07:00
 draft: false
-description: 'Nhà thờ Đức Bà Sài Gòn trong giai đoạn trùng tu'
+description: 'Nhà thờ Đức Bà Sài Gòn — biểu tượng kiến trúc Pháp cổ giữa lòng thành phố, chứng nhân hơn 140 năm lịch sử.'
 tags:
   - sai-gon
   - nhà thờ đức bà

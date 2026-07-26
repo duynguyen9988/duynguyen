@@ -2,7 +2,7 @@
 title: 'Cẩm nang du lịch Đà Nẵng tự túc — từ check-in đến ẩm thực'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Đà Nẵng thành phố đáng sống nhất Việt Nam vẫn là điểm đến hút khách nhất 2026. Từ Bà Nà Hills đến bánh tráng cuốn thịt heo, bài viết này là cẩm nang đầy đủ cho chuyến đi tự túc của bạn.'
+description: 'Cẩm nang du lịch Đà Nẵng tự túc 2026 — kinh nghiệm ăn gì, chơi đâu, ở đâu cho chuyến đi biển trọn vẹn nhất.'
 tags:
   - du-lich
   - da-nang

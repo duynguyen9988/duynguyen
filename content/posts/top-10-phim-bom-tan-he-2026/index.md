@@ -2,7 +2,7 @@
 title: 'Top 10 phim bom tấn hè 2026 được khán giả mong đợi nhất'
 date: 2026-07-24T10:00:00+07:00
 draft: false
-description: 'Mùa hè 2026 chứng kiến cuộc đua của những siêu phẩm điện ảnh từ The Odyssey của Christopher Nolan đến Spider-Man: Brand New Day. Cùng điểm qua top 10 phim bom tấn được mong đợi nhất.'
+description: 'Top 10 phim bom tấn hè 2026 — từ Avengers đến những tác phẩm mới nhất: danh sách phim đáng xem nhất mùa hè này.'
 tags:
   - phim-anh
   - bom-tan

@@ -2,7 +2,7 @@
 title: 'Vì sao manga Nhật Bản chinh phục toàn cầu?'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Từ One Piece đến Attack on Titan, manga đã vượt xa biên giới Nhật Bản để trở thành hiện tượng văn hóa toàn cầu. Bài viết này phân tích những yếu tố làm nên thành công đó — từ lịch sử hình thành đến chiến lược xuất khẩu.'
+description: 'Manga Nhật Bản — hành trình từ truyện tranh bình dân đến hiện tượng văn hóa toàn cầu vượt qua mọi rào cản ngôn ngữ.'
 tags:
   - manga
   - van-hoa

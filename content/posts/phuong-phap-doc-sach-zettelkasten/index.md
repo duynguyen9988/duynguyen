@@ -2,7 +2,7 @@
 title: 'Phương pháp đọc sách Zettelkasten — ghi chép thông minh cho người Việt'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Zettelkasten là phương pháp ghi chép và đọc sách đã thay đổi cách tôi tiếp thu tri thức. Bài viết này giải thích cách áp dụng nó vào thực tế — bằng tiếng Việt, với những công cụ ai cũng có thể dùng.'
+description: 'Zettelkasten — phương pháp đọc sách và ghi chép của thiên tài Niklas Luhmann, giúp bạn xây dựng kho tri thức cá nhân.'
 tags:
   - sach
   - zettelkasten

@@ -1,6 +1,6 @@
 ---
 title: "Chợ Bến Thành — 100 Năm Ký Ức Giữa Lòng Sài Gòn"
-description: "Chợ Bến Thành không chỉ là khu chợ lớn nhất Sài Gòn, mà còn là một chứng nhân lịch sử hơn một thế kỷ — nơi kiến trúc Pháp cổ, nhịp sống hiện đại và hương vị Việt Nam hòa quyện."
+description: "Chợ Bến Thành không chỉ là khu chợ lớn nhất Sài Gòn — mà còn là chứng nhân lịch sử hơn 100 năm giữa lòng thành phố."
 date: 2026-07-27T00:04:22+07:00
 slug: cho-ben-thanh-100-nam-sai-gon
 categories: ["Mua sắm"]

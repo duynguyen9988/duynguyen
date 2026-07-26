@@ -2,7 +2,7 @@
 title: 'Lịch sử ngành game Việt Nam — từ game flash đến esports'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Game Việt Nam đã trải qua một hành trình dài từ những trang web game flash thô sơ đến kỷ nguyên esports triệu đô. Bài viết này kể lại câu chuyện đó, từ Võ Lâm Truyền Kỳ đến LMHT và những kỳ vọng cho tương lai.'
+description: 'Lịch sử ngành game Việt Nam — từ những quán net đầu tiên đến kỳ lân game và làn sóng đầu tư tỷ đô năm 2026.'
 tags:
   - game
   - esports

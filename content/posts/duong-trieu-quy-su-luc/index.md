@@ -2,7 +2,7 @@
 title: 'Đường Triều Quỷ Sự Lục: Vụ Án Nào Hay Nhất Qua Ba Mùa?'
 date: 2026-07-24T08:00:00+07:00
 draft: false
-description: 'Từ Trường An huyền bí đến sa mạc phía Tây, loạt phim trinh thám cổ trang đình đám nhất của iQiyi đã đi qua ba mùa với hơn 20 vụ án. Đâu là những vụ án đáng xem nhất?'
+description: 'Đường Triều Quỷ Sự Lục — bộ phim kinh dị cổ trang Trung Quốc khai thác nỗi sợ từ những câu chuyện dân gian đời Đường.'
 tags:
   - duong-trieu-quy-su-luc
   - review-phim

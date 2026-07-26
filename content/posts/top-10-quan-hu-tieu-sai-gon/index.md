@@ -2,7 +2,7 @@
 title: 'Top 10 Quán Hủ Tiếu Ngon Nhất Sài Gòn: Từ Nam Vang Đến Sa Đéc'
 date: 2026-07-26T13:00:00+07:00
 draft: false
-description: 'Hủ tiếu là món ăn đường phố đa dạng bậc nhất Sài Gòn. Từ hủ tiếu Nam Vang đậm đà đến hủ tiếu Sa Đéc dai ngon, từ hủ tiếu mực đến hủ tiếu cá — một bản đồ hủ tiếu cho người Sài Gòn và du khách.'
+description: 'Top 10 quán hủ tiếu ngon nhất Sài Gòn — hủ tiếu Nam Vang, hủ tiếu khô hay hủ tiếu mì, đâu mới là đỉnh nhất?'
 tags:
   - hu-tieu
   - am-thuc-sai-gon

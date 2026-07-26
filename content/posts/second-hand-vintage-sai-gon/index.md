@@ -2,7 +2,7 @@
 title: 'Top cửa hàng second-hand và vintage ở Sài Gòn — săn đồ độc lạ'
 date: 2026-07-26T17:11:32+07:00
 draft: false
-description: 'Sài Gòn là thiên đường của đồ second-hand. Từ những shop quần áo Nhật cũ trên đường Nguyễn Công Trứ đến cửa hàng vintage cao cấp ở Quận 2, bài viết này dẫn bạn đi săn đồ độc — vừa tiết kiệm vừa có style.'
+description: 'Mua sắm second-hand và vintage ở Sài Gòn — xu hướng thời trang bền vững đang thay đổi cách người trẻ tiêu dùng 2026.'
 tags:
   - second-hand
   - vintage

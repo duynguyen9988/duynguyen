@@ -1,6 +1,6 @@
 ---
 title: "Đà Lạt — Cẩm Nang Du Lịch Tự Túc Từ A Đến Z"
-description: "Từ hồ Xuân Hương thơ mộng đến những đồi thông bạt ngàn, từ kiến trúc Pháp cổ kính đến nền ẩm thực độc đáo — tất cả những gì bạn cần biết để khám phá thành phố ngàn hoa."
+description: "Đà Lạt — cẩm nang du lịch tự túc từ A đến Z: kinh nghiệm di chuyển, ăn uống và những điểm đến không thể bỏ lỡ."
 date: 2026-07-27T00:25:16+07:00
 slug: da-lat-kinh-nghiem-du-lich-tu-tuc
 categories: ["Du lịch"]

@@ -1,6 +1,6 @@
 ---
 title: "Cà phê sữa đá — Thức uống quốc dân và văn hóa cà phê Việt Nam"
-description: "Từ chiếc phin nhỏ trên vỉa hè đến chuỗi cửa hàng toàn cầu, cà phê sữa đá đã trở thành biểu tượng văn hóa Việt Nam — khám phá hành trình kỳ thú của thức uống quốc dân này."
+description: "Cà phê sữa đá — thức uống quốc dân của Việt Nam, từ phin nhỏ trên vỉa hè đến chuỗi cà phê toàn cầu, kể câu chuyện văn hóa đậm đà."
 date: 2026-07-27T00:15:00+07:00
 slug: ca-phe-sua-da-van-hoa-viet-nam
 categories:

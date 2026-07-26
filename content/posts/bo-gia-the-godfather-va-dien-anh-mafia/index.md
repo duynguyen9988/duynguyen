@@ -1,6 +1,6 @@
 ---
 title: "Bố Già — Kiệt Tác Điện Ảnh Về Quyền Lực và Gia Đình"
-description: "The Godfather (Bố Già) của Francis Ford Coppola không chỉ là bộ phim về mafia hay nhất mọi thời đại mà còn là một biểu tượng văn hóa — nơi quyền lực, gia đình và nước Mỹ hậu chiến giao thoa."
+description: "The Godfather (Bố Già) của Francis Ford Coppola không chỉ là phim mafia hay nhất mọi thời đại — mà còn là biểu tượng văn hóa về quyền lực và gia đình."
 date: 2026-07-27T00:04:22+07:00
 slug: bo-gia-the-godfather-va-dien-anh-mafia
 categories: ["Phim"]

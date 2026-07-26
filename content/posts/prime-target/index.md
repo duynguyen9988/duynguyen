@@ -2,7 +2,7 @@
 title: 'Prime Target: Series gián điệp toán học và mật mã số nguyên tố'
 date: 2026-07-26T17:20:27+07:00
 draft: false
-description: 'Prime Target là series truyền hình kể về Edward, nghiên cứu sinh Cambridge phát hiện quy luật số nguyên tố có thể phá vỡ mọi hệ thống mã hóa, và vô tình đối đầu với thế lực ngầm sẵn sàng giết người để bảo vệ bí mật.'
+description: 'Prime Target — series chính kịch khoa học Apple TV+ về một nhà toán học phát hiện điểm yếu trong hệ thống mã hóa RSA.'
 tags:
   - prime-target
   - phim-truyen-hinh

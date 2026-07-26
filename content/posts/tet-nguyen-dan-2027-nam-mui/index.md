@@ -1,6 +1,6 @@
 ---
 title: "Tết Nguyên Đán 2027 — Năm Con Dê và Những Điều Cần Biết"
-description: "Tết Nguyên Đán 2027 sẽ rơi vào ngày 6 tháng 2, mở đầu năm Đinh Mùi — năm con Dê. Lễ hội lớn nhất trong năm của người Việt không chỉ là dịp đoàn viên mà còn là cả một kho tàng phong tục, ẩm thực và tín ngưỡng đã được vun đắp qua hàng nghìn năm."
+description: "Tết Nguyên Đán 2027 — năm Đinh Mùi (con Dê) rơi vào ngày 6 tháng 2. Phong tục, ẩm thực và ý nghĩa của lễ hội lớn nhất Việt Nam."
 date: 2026-07-27T00:04:22+07:00
 slug: tet-nguyen-dan-2027-nam-mui
 categories: ["Văn hóa"]
