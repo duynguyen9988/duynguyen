@@ -8,7 +8,7 @@ tags:
   - dien-anh
   - am-nhac
 categories:
-  - van-hoa
+  - "Văn hóa"
 resources:
   - name: featured-image
     src: featured-image.jpg

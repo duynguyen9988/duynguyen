@@ -1,4 +1,39 @@
-# Session Summary — Jul 26, 2026
+# Session Summary — Jul 27, 2026
+
+## Objective
+Add micro-interactions, scroll animations, progress bar, 24 new posts (3 per category), move related posts after 1st paragraph, SEO meta description fixes, automated SEO checker (pre-commit hook + CI + deploy.py).
+
+## Important Details
+- 8 categories × 3 posts each = 24 new posts, plus 2 extra bonus posts = 73 total
+- Related posts moved from bottom to after 1st paragraph: split `.Content` at first `</p>`, insert `related-posts.html` in between
+- SEO checker (`scripts/seo-check.py`) validates: frontmatter completeness, description length (50-160), title length (≤70), featured-image existence, slug match, categories list, no external images, no featuredimage/featuredimagepreview params, word count (≥300), date validity
+- 3-layer automation: pre-commit hook (`.githooks/pre-commit`), `deploy.py` step, GitHub Actions CI step
+- Git hooks path: `git config core.hooksPath .githooks`
+- Google Search Console + Analytics config placeholders in `hugo.toml`
+
+## Completed
+### Session 5 (commits `87d720b` → `02a12c9`)
+- CSS micro-interactions: card lift, link underline slide, pagination scale, back-to-top hover, thumbnail gradient overlay
+- Scroll reveal (IntersectionObserver + stagger delay) in `theme.js`
+- Reading progress gradient bar in `baseof.html`
+- Typography: drop cap, letter-spacing, smooth scroll, selection color, prefers-reduced-motion
+- Transition optimization: `all` → specific CSS properties
+- 24 new posts (3 per category) with Wikipedia-sourced content + local featured images
+- Related posts moved after 1st paragraph in `single.html`
+- 33 meta descriptions fixed (cut from >160 chars to 100-150)
+- Missing `slug` field added to 32 posts
+- SEO automation: `scripts/seo-check.py`, `.githooks/pre-commit`, CI integration
+- Google Search Console + Analytics config in `hugo.toml`
+
+## Key Architecture
+- **SEO check script** (`scripts/seo-check.py`): validates all 73 posts in ~1s, exit code = error count
+- **Pre-commit hook**: runs on staged `index.md` files only (fast, incremental)
+- **Content split** (`single.html`): `findRE "(.*?</p>)" $contentHtml 1` captures first paragraph, `strings.TrimPrefix` isolates the rest, related posts inserted between
+
+## Prevention Rules (updated)
+10. Run `python3 scripts/seo-check.py` before any build to catch SEO issues
+11. Every post MUST have `slug` in frontmatter matching the directory name
+12. `categories` and `tags` must be lists (not strings) in frontmatter
 
 ## Objective
 Eliminate CDN deps, external image URLs & unused features (search, dark mode, share, comment, lightbox) to fix CLS jank — fully self-hosted with zero external network requests.

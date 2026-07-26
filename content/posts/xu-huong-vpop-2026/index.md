@@ -9,7 +9,7 @@ tags:
   - xu-huong
   - concert
 categories:
-  - giai-tri
+  - "Giải trí"
 resources:
   - name: featured-image
     src: featured-image.jpg

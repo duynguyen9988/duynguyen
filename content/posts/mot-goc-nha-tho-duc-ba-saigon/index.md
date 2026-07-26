@@ -8,7 +8,7 @@ tags:
   - sai-gon
   - nhà thờ đức bà
 categories:
-  - du-lich
+  - "Du lịch"
 resources:
   - name: featured-image
     src: featured-image.jpg

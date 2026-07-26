@@ -9,7 +9,7 @@ tags:
   - buoi-sang
   - nang-suat
 categories:
-  - kinh-nghiem-song
+  - "Kinh nghiệm sống"
 resources:
   - name: featured-image
     src: featured-image.jpg

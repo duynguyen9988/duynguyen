@@ -7,7 +7,7 @@ tags:
   - viet-nam
   - dia-diem-du-lich
 categories:
-  - du-lich
+  - "Du lịch"
 resources:
   - name: featured-image
     src: featured-image.jpg

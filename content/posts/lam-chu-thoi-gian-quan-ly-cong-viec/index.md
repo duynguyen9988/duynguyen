@@ -7,7 +7,7 @@ tags:
   - productivity
   - ky-nang-mem
 categories:
-  - kinh-nghiem-song
+  - "Kinh nghiệm sống"
 resources:
   - name: featured-image
     src: featured-image.jpg

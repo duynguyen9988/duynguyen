@@ -9,7 +9,7 @@ tags:
   - smartphone
   - iOS
 categories:
-  - Công-nghệ
+  - "Công nghệ"
 resources:
   - name: featured-image
     src: featured-image.jpg

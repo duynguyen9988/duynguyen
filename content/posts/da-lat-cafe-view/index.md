@@ -8,7 +8,7 @@ tags:
   - cafe
   - view-dep
 categories:
-  - du-lich
+  - "Du lịch"
 resources:
   - name: featured-image
     src: featured-image.jpg

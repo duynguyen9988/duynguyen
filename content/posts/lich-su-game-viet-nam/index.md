@@ -10,7 +10,7 @@ tags:
   - viet-nam
   - lich-su
 categories:
-  - giai-tri
+  - "Giải trí"
 resources:
   - name: featured-image
     src: featured-image.jpg

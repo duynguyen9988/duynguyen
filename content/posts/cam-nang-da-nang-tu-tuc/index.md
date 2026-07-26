@@ -10,7 +10,7 @@ tags:
   - cam-nang
   - am-thuc
 categories:
-  - du-lich
+  - "Du lịch"
 resources:
   - name: featured-image
     src: featured-image.jpg
