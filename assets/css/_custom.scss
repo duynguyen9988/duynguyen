@@ -128,8 +128,8 @@ header {
 
 .post-card {
   display: flex;
-  gap: 1.5rem;
-  padding: 1.5rem 0;
+  gap: 1rem;
+  padding: 1rem 0;
   border-bottom: 1px solid $global-border-color;
 
   [theme=dark] & {
@@ -138,7 +138,7 @@ header {
 }
 
 .post-card-thumb {
-  width: 40%;
+  width: 35%;
   flex-shrink: 0;
   aspect-ratio: 16 / 10;
   overflow: hidden;
@@ -171,14 +171,14 @@ header {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.35rem;
   min-width: 0;
 }
 
 .post-card-title {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.35;
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -204,7 +204,7 @@ header {
 }
 
 .post-card-meta {
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   color: $global-font-secondary-color;
 
   [theme=dark] & {
@@ -226,11 +226,11 @@ header {
 }
 
 .post-card-summary {
-  font-size: 0.9375rem;
-  line-height: 1.6;
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: $global-font-secondary-color;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 
@@ -242,7 +242,7 @@ header {
 .post-card-readmore {
   display: inline-flex;
   align-items: center;
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;

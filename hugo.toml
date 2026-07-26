@@ -87,7 +87,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = false
     [params.home.posts]
       enable = true
-      paginate = 6
+      paginate = 8
 
   [params.social]
     GitHub = "duynguyen9988"
