@@ -1,5 +1,5 @@
 baseURL = 'https://duynguyen9988.github.io/duynguyen/'
-title = 'Duy Nguyen Blog'
+title = 'Duy Nguyen'
 theme = 'LoveIt'
 defaultContentLanguage = 'vi'
 locale = 'vi'
@@ -17,7 +17,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [params]
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
-  title = "Duy Nguyen Blog"
+  title = "Duy Nguyen"
   description = "Personal blog by Duy Nguyen"
 
   [params.author]
@@ -30,7 +30,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "Duy Nguyen Blog"
+      name = "Duy Nguyen"
       pre = ""
       post = ""
       typeit = false
@@ -56,7 +56,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     rss = 10
 
   [params.app]
-    title = "Duy Nguyen Blog"
+    title = "Duy Nguyen"
     noFavicon = false
     svgFavicon = ""
     themeColor = "#ffffff"
@@ -86,10 +86,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "/images/avatar.png"
+      avatarURL = ""
       title = "Duy Nguyen"
-      subtitle = "Xin chào! Chào mừng bạn đến với blog của tôi."
-      typeit = true
+      subtitle = ""
+      typeit = false
       social = true
       disclaimer = ""
     [params.home.posts]
@@ -187,4 +187,3 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "about"
     name = "Giới thiệu"
     url = "/about/"
-

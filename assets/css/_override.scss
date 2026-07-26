@@ -7,8 +7,12 @@ $global-link-color: #161209;
 $global-link-hover-color: #FF2FA0;
 $global-border-color: #E2E8F0;
 
-$header-background-color: #fff;
+$header-background-color: rgba(37, 99, 235, 0.05);
+$header-background-color-dark: rgba(37, 99, 235, 0.12);
 $header-hover-color: #FF2FA0;
+$header-hover-color-dark: #FF2FA0;
+
+$header-title-font-size: clamp(1.35rem, 2vw, 1.8rem) !default;
 
 $single-link-color: #2563EB;
 $single-link-hover-color: #FF2FA0;
