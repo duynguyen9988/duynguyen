@@ -3,41 +3,56 @@
 {{- end -}}
 
 {{- define "content" -}}
-    {{- $taxonomies := .Data.Plural -}}
     {{- $terms := .Data.Terms.ByCount -}}
     {{- $type := .Type -}}
+    {{- $totalPosts := 0 -}}
+    {{- range $terms -}}
+        {{- $totalPosts = add $totalPosts (len .Pages) -}}
+    {{- end -}}
 
-    {{- /* Emoji & color map for 8 canonical categories */ -}}
     {{- $catMeta := dict
-        "am-thuc"    (dict "emoji" "🍜" "icon" "utensils"    "gradient" "linear-gradient(135deg, #FF2FA0, #FF6B6B)")
-        "cong-nghe"   (dict "emoji" "💻" "icon" "microchip"   "gradient" "linear-gradient(135deg, #2563EB, #60A5FA)")
-        "du-lich"     (dict "emoji" "✈️" "icon" "plane"       "gradient" "linear-gradient(135deg, #10B981, #34D399)")
-        "giai-tri"    (dict "emoji" "🎬" "icon" "gamepad"     "gradient" "linear-gradient(135deg, #F59E0B, #FBBF24)")
-        "kinh-nghiem-song" (dict "emoji" "🧠" "icon" "brain"  "gradient" "linear-gradient(135deg, #8B5CF6, #A78BFA)")
-        "mua-sam"     (dict "emoji" "🛍️" "icon" "bag-shopping" "gradient" "linear-gradient(135deg, #EC4899, #F472B6)")
-        "phim"        (dict "emoji" "🎥" "icon" "film"        "gradient" "linear-gradient(135deg, #06B6D4, #22D3EE)")
-        "van-hoa"     (dict "emoji" "🏮" "icon" "landmark"    "gradient" "linear-gradient(135deg, #EF4444, #F87171)")
+        "am-thuc"    (dict "emoji" "🍜" "gradient" "linear-gradient(135deg, #FF2FA0, #FF6B6B)")
+        "cong-nghe"   (dict "emoji" "💻" "gradient" "linear-gradient(135deg, #2563EB, #60A5FA)")
+        "du-lich"     (dict "emoji" "✈️" "gradient" "linear-gradient(135deg, #10B981, #34D399)")
+        "giai-tri"    (dict "emoji" "🎬" "gradient" "linear-gradient(135deg, #F59E0B, #FBBF24)")
+        "kinh-nghiem-song" (dict "emoji" "🧠" "gradient" "linear-gradient(135deg, #8B5CF6, #A78BFA)")
+        "mua-sam"     (dict "emoji" "🛍️" "gradient" "linear-gradient(135deg, #EC4899, #F472B6)")
+        "phim"        (dict "emoji" "🎥" "gradient" "linear-gradient(135deg, #06B6D4, #22D3EE)")
+        "van-hoa"     (dict "emoji" "🏮" "gradient" "linear-gradient(135deg, #EF4444, #F87171)")
     -}}
 
     <div class="page categories-page">
-        <h2 class="single-title animate__animated animate__pulse animate__faster">
-            {{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}
-        </h2>
+        <div class="categories-hero reveal">
+            <h1 class="categories-hero-title">Tất cả Danh mục</h1>
+            <p class="categories-hero-desc">Khám phá nội dung theo chủ đề bạn yêu thích</p>
+            <div class="categories-hero-stats">
+                <div class="categories-hero-stat">
+                    <span class="categories-hero-stat-num">{{ len $terms }}</span>
+                    <span class="categories-hero-stat-label">danh mục</span>
+                </div>
+                <div class="categories-hero-stat">
+                    <span class="categories-hero-stat-num">{{ $totalPosts }}</span>
+                    <span class="categories-hero-stat-label">bài viết</span>
+                </div>
+            </div>
+        </div>
 
         <div class="category-grid">
             {{- range $index, $termItem := $terms -}}
                 {{- $term := .Term -}}
                 {{- $pages := .Pages -}}
                 {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $term) -}}
-                    {{- $meta := index $catMeta $term | default (dict "emoji" "📂" "icon" "folder" "gradient" "linear-gradient(135deg, #64748B, #94A3B8)") -}}
+                    {{- $meta := index $catMeta $term | default (dict "emoji" "📂" "gradient" "linear-gradient(135deg, #64748B, #94A3B8)") -}}
                     {{- $postCount := len $pages -}}
-                    {{- $slug := $term -}}
                     <div class="category-card reveal" style="transition-delay: {{ mul $index 0.08 }}s;">
                         <div class="category-card-bg" style="background: {{ index $meta "gradient" | safeCSS }};"></div>
+                        <div class="category-card-pattern"></div>
 
                         <div class="category-card-header">
-                            <span class="category-card-emoji" aria-hidden="true">{{ index $meta "emoji" }}</span>
-                            <div class="category-card-title-group">
+                            <div class="category-card-emoji-wrap">
+                                <span class="category-card-emoji">{{ index $meta "emoji" }}</span>
+                            </div>
+                            <div>
                                 <h3 class="category-card-title">
                                     <a href="{{ .RelPermalink }}">{{ .Page.Title }}</a>
                                 </h3>
@@ -46,23 +61,21 @@
                         </div>
 
                         <div class="category-card-body">
-                            {{- $previewLimit := 5 -}}
-                            {{- if lt $postCount 5 -}}
+                            {{- $previewLimit := 4 -}}
+                            {{- if lt $postCount 4 -}}
                                 {{- $previewLimit = $postCount -}}
                             {{- end -}}
                             <ul class="category-card-posts">
                                 {{- range first $previewLimit $pages -}}
-                                    <li>
-                                        <a href="{{ .RelPermalink }}">{{- .Title | emojify -}}</a>
-                                    </li>
+                                    <li><a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a></li>
                                 {{- end -}}
                             </ul>
-                            {{- if gt $postCount $previewLimit -}}
-                                <a href="{{ .RelPermalink }}" class="category-card-more">+{{ sub $postCount $previewLimit }} bài nữa →</a>
-                            {{- end -}}
                         </div>
 
-                        <a href="{{ .RelPermalink }}" class="category-card-overlay-link" tabindex="-1" aria-hidden="true"></a>
+                        <a href="{{ .RelPermalink }}" class="category-card-cta">
+                            <span>Khám phá</span>
+                            <svg class="category-card-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
                     </div>
                 {{- end -}}
             {{- end -}}
