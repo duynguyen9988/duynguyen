@@ -192,6 +192,20 @@ All listing pages (homepage, section, taxonomy) display posts newest-first via `
 
 **Never edit theme files directly.** Copy the template to `layouts/` for override — Hugo's lookup order prioritizes project `layouts/` over theme `layouts/`. This avoids forking/customizing the theme submodule.
 
+## Writing Style — Viết như bài báo chuyên sâu
+
+**Không viết kiểu liệt kê AI.** Mỗi bài blog phải được viết như một bài báo chuyên sâu (long-form journalism):
+
+1. **Mở bài có narrative** — mở đầu bằng một câu chuyện, một góc nhìn, hoặc một câu hỏi gây tò mò, không phải "dưới đây là danh sách".
+2. **Không bullet-point/lister** — hạn chế tối đa dạng "1. 2. 3." hay gạch đầu dòng liệt kê khô khan. Thông tin được lồng ghép vào đoạn văn.
+3. **Có chính kiến và góc nhìn** — không chỉ là tổng hợp dữ liệu, mà có quan điểm, cảm nhận, so sánh.
+4. **Chất văn** — câu văn có nhịp điệu, biết lúc dài lúc ngắn. Dùng từ ngữ gợi hình, tránh sáo rỗng.
+5. **Cấu trúc bài báo** — mở bài (lead), thân bài (phân tích, đào sâu), kết bài (suy ngẫm).
+6. **Nghiên cứu kỹ** — với danh sách địa điểm, mỗi mục phải có thông tin thực tế (địa chỉ, giờ, giá, review trích dẫn) — không viết chung chung.
+7. **Người thật việc thật** — dẫn link/trích dẫn review thật nếu có.
+
+Ví dụ: thay vì "Quán A có cafe ngon" → "Ngồi ở quán A vào một chiều cuối tuần, ly cafe đến mà tôi còn chưa kịp mở laptop..."
+
 ## Post Ideas
 
 Track generated blog posts here:
