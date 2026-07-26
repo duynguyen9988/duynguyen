@@ -123,7 +123,61 @@ header {
 }
 
 // ==============================
-// 4. Post Card
+// 4. Breadcrumb
+// ==============================
+
+.breadcrumb {
+  margin-bottom: 0.5rem;
+  font-size: 0.8125rem;
+
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    & + li::before {
+      content: "/";
+      color: $global-font-secondary-color;
+      margin-right: 0.25rem;
+    }
+  }
+
+  a {
+    color: $single-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $single-link-hover-color;
+    }
+  }
+
+  span[aria-current="page"] {
+    color: $global-font-secondary-color;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  i {
+    margin-right: 0.25rem;
+  }
+}
+
+// ==============================
+// 5. Post Card
 // ==============================
 
 .post-card {
@@ -200,6 +254,16 @@ header {
         color: $global-link-hover-color-dark;
       }
     }
+  }
+}
+
+.post-meta-line {
+  display: inline;
+
+  & + &::before {
+    content: "·";
+    margin: 0 0.5rem;
+    color: $global-font-secondary-color;
   }
 }
 

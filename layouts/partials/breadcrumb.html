@@ -1,0 +1,21 @@
+{{- /* Breadcrumb: Home > Category/Tag (if any) > Title */ -}}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ .Site.Home.RelPermalink }}"><i class="fas fa-home" aria-hidden="true"></i><span>Trang chủ</span></a></li>
+    {{- with .Params.categories -}}
+      {{- range $i, $cat := . -}}
+        {{- $found := false -}}
+        {{- range $.Site.Pages -}}
+          {{- if and (eq .Kind "term") (eq .Section "categories") (eq (.Title | lower) ($cat | lower)) -}}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- $found = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $found -}}
+          <li>{{ $cat }}</li>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <li><span aria-current="page">{{ .Title }}</span></li>
+  </ol>
+</nav>
