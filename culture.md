@@ -162,6 +162,13 @@ git push https://<user>:<token>@github.com/duynguyen9988/duynguyen.git main
 - **Fix**: Use `hugo.Data.version` instead of `.Site.Data.version`
 - Same for `.Site.LanguageCode` → `.Site.Language.Locale`
 
+## Post Sort Order
+
+All listing pages (homepage, section, taxonomy) display posts newest-first via `.ByDate.Reverse` in the respective templates:
+- `layouts/home.html` — homepage
+- `themes/LoveIt/layouts/section.html` — `/posts/` section
+- `themes/LoveIt/layouts/term.html` — tag/category pages
+
 ## Post Ideas
 
 Track generated blog posts here:
@@ -170,6 +177,7 @@ Track generated blog posts here:
 - [x] Cập nhật GitHub Actions 2026 (2026-07-26)
 - [x] Tổng quan tài liệu Hugo (2026-07-26)
 - [x] Thời Khắc Công Bố / Disclosure Day (2026-07-26)
+- [x] Delete /bai-viet-dau-tien/ (hello world) (2026-07-26)
 
 ## Shortcuts
 

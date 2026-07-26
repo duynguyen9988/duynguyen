@@ -2,7 +2,7 @@
 title: 'Thời Khắc Công Bố (Disclosure Day): Bom tấn UFO của Spielberg "gây bão" toàn cầu'
 date: 2026-07-26T08:45:00+07:00
 draft: false
-description: 'Disclosure Day - siêu phẩm UFO của Steven Spielberg với Emily Blunt đang làm mưa làm gió tại các rạp chiếu Việt Nam. Lịch chiếu, đánh giá và thông tin chi tiết.'
+description: 'Disclosure Day - siêu phẩm UFO của Steven Spielberg với Emily Blunt. Đánh giá, nội dung, dàn cast và thông tin chi tiết về bộ phim.'
 tags:
   - disclosure-day
   - steven-spielberg
@@ -54,24 +54,9 @@ Spielberg kể chuyện bằng cả trái tim: những pha hành động nghẹt
 
 Ở tuổi 94, huyền thoại John Williams tái ngộ Spielberg lần thứ 30. Ông chọn phong cách tinh tế hơn: "không dẫn dắt phim mà âm thầm nâng đỡ từ bên dưới". Kết quả là bản nhạc nền được giới phê bình gọi là "hay nhất năm 2026".
 
-## Lịch chiếu tại Việt Nam
+## Chiếu tại Việt Nam
 
-Phim được khởi chiếu tại **Việt Nam từ ngày 10 / 06 /2026** (sớm hơn Mỹ 2 ngày), dưới tựa đề **Thời Khắc Công Bố**, do **Universal Pictures** phát hành.
-
-Hiện phim vẫn đang chiếu tại các cụm rạp lớn trên toàn quốc:
-
-- **TP. Hồ Chí Minh**: CGV, BHD Star, Lotte Cinema, Galaxy Cinema
-- **Hà Nội**: CGV, BHD Star, Lotte Cinema, Beta Cinemas
-- **Đà Nẵng**: CGV, Lotte Cinema
-- **Các tỉnh thành khác**: Hải Phòng, Cần Thơ, Đồng Nai, Bình Dương, Nghệ An, Khánh Hòa, Lâm Đồng, Quảng Ninh, Bắc Ninh, Thái Nguyên, Vũng Tàu, Huế, Quảng Nam và nhiều nơi khác
-
-> **Lưu ý**: Lịch chiếu có thể thay đổi theo từng rạp. Bạn nên kiểm tra trên app CGV, Galaxy Cinema, BHD Star hoặc Moveek trước khi đi.
-
-| Định dạng | Giá tham khảo |
-|-----------|--------------|
-| 2D thường | 50.000 - 120.000₫ |
-| 3D | 80.000 - 150.000₫ |
-| IMAX / 4DX | 120.000 - 220.000₫ |
+Theo Wikipedia, phim **Thời Khắc Công Bố (Disclosure Day)** được công chiếu tại Việt Nam vào ngày **12 / 06 /2026**, cùng ngày với Mỹ, dưới tựa đề chính thức **Thời Khắc Công Bố**, do Universal Pictures phát hành.
 
 Phim dài 145 phút, phân loại **T13** (phù hợp cho khán giả từ 13 tuổi).
 
@@ -101,7 +86,7 @@ Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T
 | Diễn viên | Emily Blunt, Josh O'Connor, Colin Firth |
 | Thể loại | Khoa học viễn tưởng, Hồi hộp |
 | Thời lượng | 145 phút |
-| Khởi chiếu VN | 10/06/2026 |
+| Khởi chiếu VN | 12/06/2026 |
 | Doanh thu | $237.6 triệu (toàn cầu) |
 | Kinh phí | $115 triệu |
 
