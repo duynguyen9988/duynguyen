@@ -74,7 +74,7 @@ header {
 }
 
 .home-sidebar {
-  width: 320px;
+  width: 340px;
   flex-shrink: 0;
   position: sticky;
   top: var(--header-height);
@@ -86,7 +86,7 @@ header {
 @media only screen and (min-width: 1200px) {
   .home-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(340px, 420px);
+    grid-template-columns: minmax(0, 1fr) minmax(400px, 480px);
     gap: clamp(32px, 4vw, 64px);
   }
 
@@ -264,8 +264,8 @@ header {
 
 .random-post-item {
   display: flex;
-  gap: 0.75rem;
-  padding: 0.75rem 0;
+  gap: 1rem;
+  padding: 0.85rem 0;
   align-items: flex-start;
 
   + .random-post-item {
@@ -279,11 +279,12 @@ header {
 
 .random-post-thumb {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 96px;
+  height: 96px;
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 4px;
+  aspect-ratio: 1 / 1;
 
   a {
     display: block;
@@ -305,7 +306,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-size: clamp(2.8rem, 7vw, 4.5rem);
   font-weight: 900;
   color: rgba(255, 255, 255, 0.55);
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
@@ -332,15 +333,18 @@ header {
 .random-post-info {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
 .random-post-title {
   font-size: 0.9375rem;
   font-weight: 600;
-  line-height: 1.35;
-  margin: 0 0 0.25rem;
+  line-height: 1.4;
+  margin: 0;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 
@@ -417,11 +421,11 @@ header {
 
   .random-post-item {
     flex: 0 0 100%;
-    padding: 0.75rem 0 !important;
+    padding: 0.85rem 0 !important;
   }
 
   .random-post-number {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(2.4rem, 10vw, 3.5rem);
   }
 }
 
