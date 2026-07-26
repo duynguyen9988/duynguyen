@@ -87,8 +87,15 @@ Implementation: `layouts/_partials/function/first-image.html`
 - All images processed with `Fit "1600x1200"` — downscales only, no upscale
 - Responsive srcset generated: 800x600, 1600x1200 (1.5x), 2400x1800 (2x)
 - `loading="lazy" decoding="async"` on all `<img>` tags
-- `width`/`height` attributes from processed image dimensions (only when available)
+- `width`/`height` attributes from processed image dimensions
 - Original image file is preserved (never deleted)
+- **ALL images MUST be WebP** — `$res.Fit (printf "%s webp" $fit)` in `img.html`
+
+### Image Sourcing Rules
+1. **NO live URLs**: Every image in every post MUST be a local page resource (`featured-image.jpg` or `featured-image.png`) — no `featuredimage` param, no `featuredimagepreview` param, no Unsplash/CDN URLs in frontmatter
+2. **WebP only**: Hugo processes local images → WebP output. Do NOT use JPEG, PNG, GIF, or SVG as final output format
+3. **Content images** (Markdown `![]()` in body): If sourced from web, download to page bundle, reference by filename only. `render-image.html` passes `$src` → `img.html` → Hugo processes to WebP + width/height
+4. **No loading SVG**: No placeholder images, no lazyload wrappers, no `data-src` patterns. All images use direct `src`/`srcset` with `loading="lazy"`
 
 ### Lightbox
 - Every content image wraps in `<a href="original" target="_blank" rel="noopener" data-lightbox="original">`

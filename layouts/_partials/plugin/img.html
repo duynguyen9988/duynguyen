@@ -34,28 +34,13 @@
     {{- $large = $src -}}
 {{- end -}}
 
-{{- if $linked -}}
-    <a href="{{ $original }}" target="_blank" rel="noopener" data-lightbox="{{ $original }}"{{ with $caption }} data-lightbox-caption="{{ . }}"{{ end }}{{ with .Rel }} rel="{{ . }}"{{ end }}>
-        <img
-            class="{{ with .Class }}{{ . }}{{ end }}"
-            src="{{ $src | safeURL }}"
-            srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
-            alt="{{ $alt }}"
-            {{- with $width }} width="{{ . }}"{{ end }}
-            {{- with $height }} height="{{ . }}"{{ end }}
-            loading="lazy"
-            decoding="async"
-        />
-    </a>
-{{- else -}}
-    <img
-        class="{{ with .Class }}{{ . }}{{ end }}"
-        src="{{ $src | safeURL }}"
-        srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
-        alt="{{ $alt }}"
-        {{- with $width }} width="{{ . }}"{{ end }}
-        {{- with $height }} height="{{ . }}"{{ end }}
-        loading="lazy"
-        decoding="async"
-    />
-{{- end -}}
+<img
+    class="{{ with .Class }}{{ . }}{{ end }}"
+    src="{{ $src | safeURL }}"
+    srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
+    alt="{{ $alt }}"
+    {{- with $width }} width="{{ . }}"{{ end }}
+    {{- with $height }} height="{{ . }}"{{ end }}
+    loading="lazy"
+    decoding="async"
+/>

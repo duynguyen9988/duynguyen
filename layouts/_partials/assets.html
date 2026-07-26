@@ -211,13 +211,6 @@
 {{- /* Theme script */ -}}
 {{- dict "Source" "js/theme.js" "JSBuild" true "Minify" true "TargetPath" "js/theme.js" "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 
-{{- /* Lightbox — always loaded */ -}}
-{{- $lightboxSrc := resources.Get "js/lightbox.js" | minify -}}
-{{- if $lightboxSrc -}}
-    {{- $lightboxJS := $lightboxSrc.Content -}}
-    {{- dict "Content" $lightboxJS | dict "Scratch" $.Scratch "Data" | partial "scratch/script.html" -}}
-{{- end -}}
-
 {{- with (.Scratch.Get "this").scriptArr -}}
     {{- delimit . "\n" | dict "Content" | dict "Scratch" $.Scratch "Data" | partial "scratch/script.html" -}}
 {{- end -}}
