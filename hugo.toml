@@ -93,7 +93,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
     GitHub = "duynguyen9988"
-    Email = "duynguyen9988@gmail.com"
+    Email = "292648126+Banhang-Chogao@users.noreply.github.com"
 
   [params.verification]
     google = ""
