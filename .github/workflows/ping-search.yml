@@ -9,6 +9,8 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v6
+
       - name: Ping URLs
         run: |
           BASE="https://duynguyen9988.github.io/duynguyen"
@@ -27,3 +29,17 @@ jobs:
           done
 
           echo "--- Done ---"
+
+      - name: Record ping timestamp
+        run: |
+          TS=$(TZ=Asia/Ho_Chi_Minh date +"%d-%m-%Y %H:%M:%S")
+          echo "{\"indexed\": \"$TS\"}" > data/ping-google.json
+          echo "Recorded: $TS"
+
+      - name: Commit & push timestamp
+        run: |
+          git config user.name "opencode"
+          git config user.email "opencode@users.noreply.github.com"
+          git add data/ping-google.json
+          git diff --staged --quiet || git commit -m "ping: ghi timestamp"
+          git push

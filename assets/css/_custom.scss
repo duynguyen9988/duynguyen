@@ -709,6 +709,24 @@ header {
   display: block;
 }
 
+.ping-status {
+  margin-top: 0.5rem;
+  font-size: 0.6875rem;
+  text-transform: none;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.ping-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
 @media only screen and (max-width: 680px) {
   .footer-nav-links nav ul {
     flex-direction: row;

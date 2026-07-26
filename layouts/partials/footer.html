@@ -6,6 +6,12 @@
                     <h4 class="footer-section-title">Về blog</h4>
                     <div class="footer-section-content footer-about">
                         <p>viết linh tinh về đồ ăn và phim.</p>
+                        {{- with index hugo.Data "ping-google" -}}
+                            <div class="ping-status">
+                                <span class="ping-dot"></span>
+                                Google Index: {{ .indexed }}
+                            </div>
+                        {{- end -}}
                         <div class="footer-social">
                             {{- with .Site.Params.social.GitHub -}}
                                 <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer" title="GitHub" aria-label="GitHub">
