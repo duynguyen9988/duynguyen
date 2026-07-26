@@ -565,10 +565,10 @@ header {
 }
 
 .footer-section-title {
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 0.8125rem;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   margin: 0 0 0.75rem;
   color: $global-font-color;
   text-align: left;
@@ -580,6 +580,8 @@ header {
 
 .footer-section-content {
   font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
   color: $global-font-secondary-color;
   text-align: left;
 
@@ -600,7 +602,6 @@ header {
 .footer-nav-links a {
   color: $global-link-color;
   text-decoration: none;
-  font-weight: 500;
   padding: 0.15rem 0;
   display: inline-block;
   transition: color 0.2s;
