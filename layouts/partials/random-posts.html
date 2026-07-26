@@ -1,0 +1,49 @@
+{{- $allPosts := where .Site.RegularPages "Type" "posts" -}}
+{{- $randomPosts := first 5 ($allPosts | shuffle) -}}
+{{- if $randomPosts -}}
+{{- $loading := resources.Get "svg/loading.svg" | minify -}}
+<div class="sidebar-random-posts">
+    <h3 class="sidebar-title">{{ T "randomPosts" | default "RANDOM POSTS" }}</h3>
+    <ul class="random-posts-list">
+        {{- range $index, $post := $randomPosts -}}
+            {{- $params := $post.Params | merge $post.Site.Params.page -}}
+            {{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
+            {{- with $post.Resources.GetMatch "featured-image" -}}
+                {{- $image = .RelPermalink -}}
+            {{- end -}}
+            {{- with $post.Resources.GetMatch "featured-image-preview" -}}
+                {{- $image = .RelPermalink -}}
+            {{- end -}}
+            {{- $num := printf "%02d" (add $index 1) -}}
+            <li class="random-post-item{{ if not $image }} random-post-item-textonly{{ end }}">
+                {{- if $image -}}
+                <div class="random-post-thumb">
+                    <span class="random-post-number">{{ $num }}</span>
+                    <a href="{{ $post.RelPermalink }}" aria-label="{{ $post.Title }}">
+                        <img
+                            class="lazyload"
+                            src="{{ $loading.RelPermalink }}"
+                            data-src="{{ $image | safeURL }}"
+                            alt="{{ $post.Title }}"
+                            loading="lazy"
+                            decoding="async"
+                            width="80"
+                            height="80">
+                    </a>
+                </div>
+                {{- else -}}
+                <span class="random-post-number-textonly">{{ $num }}</span>
+                {{- end -}}
+                <div class="random-post-info">
+                    <h4 class="random-post-title">
+                        <a href="{{ $post.RelPermalink }}">{{ $post.Title | emojify }}</a>
+                    </h4>
+                    <time class="random-post-date" datetime="{{ $post.PublishDate.Format "2006-01-02" }}">
+                        {{- $post.PublishDate.Format "2006-01-02" -}}
+                    </time>
+                </div>
+            </li>
+        {{- end -}}
+    </ul>
+</div>
+{{- end -}}

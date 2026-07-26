@@ -1,0 +1,61 @@
+{{- $params := .Params | merge .Site.Params.page -}}
+{{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
+{{- with .Resources.GetMatch "featured-image" -}}
+    {{- $image = .RelPermalink -}}
+{{- end -}}
+{{- with .Resources.GetMatch "featured-image-preview" -}}
+    {{- $image = .RelPermalink -}}
+{{- end -}}
+
+{{- $loading := resources.Get "svg/loading.svg" | minify -}}
+
+<article class="post-card{{ if not $image }} post-card-textonly{{ end }}" itemscope itemtype="http://schema.org/Article">
+    {{- if $image -}}
+    <div class="post-card-thumb">
+        <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            <img
+                class="lazyload"
+                src="{{ $loading.RelPermalink }}"
+                data-src="{{ $image | safeURL }}"
+                alt="{{ .Title }}"
+                loading="lazy"
+                decoding="async"
+                width="400"
+                height="250">
+        </a>
+    </div>
+    {{- end -}}
+
+    <div class="post-card-body">
+        <h2 class="post-card-title" itemprop="name headline">
+            <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+        </h2>
+
+        <div class="post-card-meta">
+            <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                {{- .PublishDate.Format "2006-01-02" -}}
+            </time>
+            {{- with .Params.categories -}}
+                <span class="post-card-categories">
+                    {{- range $index, $value := . -}}
+                        {{- if gt $index 0 }}, {{ end -}}
+                        {{- $category := partialCached "function/path.html" $value $value | printf "/categories/%v" | $.Site.GetPage -}}
+                        <a href="{{ $category.RelPermalink }}">{{ $category.Title }}</a>
+                    {{- end -}}
+                </span>
+            {{- end -}}
+        </div>
+
+        <div class="post-card-summary">
+            {{- with .Summary -}}
+                {{- . | plainify | truncate 250 -}}
+            {{- else -}}
+                {{- .Description | plainify | truncate 250 -}}
+            {{- end -}}
+        </div>
+
+        <a class="post-card-readmore" href="{{ .RelPermalink }}">
+            {{- T "readMore" | default "READ MORE" -}} &rarr;
+        </a>
+    </div>
+</article>
