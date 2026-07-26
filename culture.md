@@ -162,6 +162,31 @@ git push https://<user>:<token>@github.com/duynguyen9988/duynguyen.git main
 - **Fix**: Use `hugo.Data.version` instead of `.Site.Data.version`
 - Same for `.Site.LanguageCode` → `.Site.Language.Locale`
 
+## Shortcuts
+
+### `gg` — Generate blog post
+
+When user triggers `gg`, execute the following workflow:
+
+1. **Ask** for:
+   - Title (required)
+   - Frontmatter fields: `tags`, `description`, `date` (default today), `resources` (featured image if any)
+   - **Content source**: URL to fetch from (e.g. Wikipedia) **or** raw text to use as source material
+
+2. **Write** a complete Hugo blog post with:
+   - Minimum **2000 words** in main content
+   - Proper Markdown formatting (headings, paragraphs, lists, images with `![]()` syntax)
+   - Featured image if provided (download and add as page resource with `resources` front matter)
+   - Lightbox-compatible images (use Markdown `![]()` syntax — the render hook handles the rest)
+   - Vietnamese language
+   - Front matter matches Hugo conventions
+
+3. **Create** the post at `content/posts/<slug>/index.md` and save any featured image as `featured-image.jpg` in the same directory.
+
+4. **Build** (`hugo --minify`) to verify no errors.
+
+5. **Commit + push** automatically.
+
 ## Learning Log
 
 Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
