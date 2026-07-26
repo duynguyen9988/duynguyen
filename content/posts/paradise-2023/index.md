@@ -12,6 +12,9 @@ tags:
   - phim-2023
 categories:
   - Giải trí
+resources:
+  - name: featured-image
+    src: featured-image.jpg
 ---
 
 *Paradise* là phim kinh dị khoa học viễn tưởng dystopia của Đức năm 2023 do Boris Kunz đạo diễn, với sự tham gia của Kostja Ullmann, Corinna Kirchhoff, Marlene Tanczik và Iris Berben. Phim được phát hành trên Netflix vào ngày 27 tháng 7 năm 2023.
