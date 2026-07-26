@@ -17,7 +17,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Bạn có tin chúng ta không đơn độc trong vũ trụ? Steven Spielberg — huyền thoại từng mang đến *E.T.* và *Close Encounters of the Third Kind* — trở lại với **Disclosure Day (Thời Khắc Công Bố)**, bộ phim UFO đang khuấy động toàn cầu. Và tin vui: phim đã có suất chiếu tại Việt Nam!
+Bạn có tin chúng ta không đơn độc trong vũ trụ? Steven Spielberg — huyền thoại từng mang đến *E.T.* và *Close Encounters of the Third Kind* — trở lại với **Disclosure Day (Thời Khắc Công Bố)**, bộ phim UFO đang khuấy động toàn cầu.
 
 ## Phim hay nhất của Spielberg trong 20 năm?
 
@@ -60,9 +60,7 @@ Theo [Wikipedia](https://vi.wikipedia.org/wiki/Th%E1%BB%9Di_kh%E1%BA%AFc_c%C3%B4
 
 Phim dài 145 phút, phân loại **T13** (phù hợp cho khán giả từ 13 tuổi).
 
-## Review: Có nên ra rạp xem?
-
-**TL;DR: CÓ, và nên xem IMAX nếu có thể.**
+## Review tổng quan
 
 Điểm mạnh:
 - Màn trình diễn đỉnh cao của Emily Blunt
@@ -75,7 +73,7 @@ Phim dài 145 phút, phân loại **T13** (phù hợp cho khán giả từ 13 tu
 - Một số phân đoạn giữa phim hơi chậm
 - Phim khá dài (145 phút)
 
-Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T.* hay từng ngước nhìn bầu trời và tự hỏi "Có ai ngoài kia không?" — đây nhất định là phim bạn không thể bỏ lỡ.
+Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T.* hay từng ngước nhìn bầu trời và tự hỏi "Có ai ngoài kia không?" — đây nhất định là phim đáng xem.
 
 ## Thông tin nhanh
 
