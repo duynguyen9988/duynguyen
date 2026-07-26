@@ -1,6 +1,6 @@
 ---
 title: 'Thời Khắc Công Bố (Disclosure Day): Bom tấn UFO của Spielberg "gây bão" toàn cầu'
-date: 2026-07-26T08:45:00+07:00
+date: 2026-07-26T09:26:00+07:00
 draft: false
 description: 'Disclosure Day - siêu phẩm UFO của Steven Spielberg với Emily Blunt. Đánh giá, nội dung, dàn cast và thông tin chi tiết về bộ phim.'
 tags:

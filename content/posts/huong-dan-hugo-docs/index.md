@@ -1,6 +1,6 @@
 ---
 title: 'Tổng quan tài liệu Hugo: Từ Quick Start đến nâng cao'
-date: 2026-07-26T09:00:00+07:00
+date: 2026-07-26T09:19:00+07:00
 draft: false
 description: 'Khám phá toàn bộ tài liệu Hugo mới nhất 2026: hướng dẫn cài đặt, quản lý nội dung, templates, shortcodes, image processing, multilingual và nhiều hơn nữa.'
 tags:
