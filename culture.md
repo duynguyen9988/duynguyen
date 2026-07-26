@@ -1,12 +1,14 @@
 # Blog Culture & Rules
 
-## Post Date = Current Time Only
+## Post Date = Thời Gian Đẩy Lên GitHub
 
-**Post date MUST be the real current time.** Never set a future time manually.
+**NGHIÊM CẤM đặt ngày tương lai dưới mọi hình thức.**
 
-- Run `TZ=Asia/Saigon date +"%Y-%m-%dT%H:%M:%S+07:00"` to get the correct timestamp
-- Hugo hides future-dated posts by default — using a future date = post disappears until that time arrives
-- No exceptions: always use `now`, never guess "this will be a 10AM post"
+- `date` trong frontmatter PHẢI sát với thời gian đẩy lên GitHub, sai số tối đa 1-2 phút
+- Chạy `TZ=Asia/Saigon date +"%Y-%m-%dT%H:%M:%S+07:00"` NGAY trước khi ghi `date` vào frontmatter — dùng kết quả đó làm `date`
+- Hugo mặc định ẩn bài có `date` ở tương lai → bài sẽ biến mất khỏi trang chủ
+- **Tuyệt đối không tự suy luận, không ước lượng, không đặt bừa.** Nếu không chắc, chạy lệnh date. Nếu quên, lùi `date` về 1-2 phút trước giờ commit.
+- Vi phạm rule này = lỗi nghiêm trọng
 
 ## Content Integrity — NO FABRICATION
 
