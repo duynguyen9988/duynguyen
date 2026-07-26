@@ -12,7 +12,23 @@
                 </div>
                 <div class="footer-section">
                     <h4 class="footer-section-title">Section #3</h4>
-                    <div class="footer-section-content"></div>
+                    <div class="footer-section-content footer-nav-links">
+                        <nav aria-label="Navigation">
+                            <ul>
+                                {{- range .Site.Menus.main -}}
+                                    {{- $url := .URL | relLangURL -}}
+                                    {{- with .Page -}}
+                                        {{- $url = .RelPermalink -}}
+                                    {{- end -}}
+                                    <li>
+                                        <a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                                            {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                                        </a>
+                                    </li>
+                                {{- end -}}
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
