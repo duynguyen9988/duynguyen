@@ -547,3 +547,181 @@ header {
     gap: 1.5rem;
   }
 }
+
+// ==============================
+// 7. Content Images
+// ==============================
+
+.content img,
+.content figure img,
+.content a img {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 900px;
+  object-fit: contain;
+  overflow: visible;
+  border-radius: 0;
+
+  [theme=dark] & {
+    opacity: 0.95;
+  }
+}
+
+.content figure {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.content figure .image-caption:not(:empty) {
+  min-width: 0;
+  max-width: 100%;
+  display: block;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  font-size: 0.875rem;
+  color: $global-font-secondary-color;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
+.content a[data-lightbox] {
+  cursor: zoom-in;
+  display: inline-block;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.content a[data-lightbox] img {
+  cursor: zoom-in;
+}
+
+.featured-image {
+  margin: 0.5rem 0 1.5rem;
+  text-align: center;
+}
+
+.featured-image a[data-lightbox] {
+  cursor: zoom-in;
+}
+
+.featured-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 900px;
+  object-fit: contain;
+  overflow: visible;
+}
+
+.featured-image img.lazyloaded {
+  width: auto;
+}
+
+.featured-image a,
+.featured-image a img {
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 992px) {
+  .content img,
+  .content figure img,
+  .content a img,
+  .featured-image img {
+    max-height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content img,
+  .content figure img,
+  .content a img,
+  .featured-image img {
+    max-height: 70svh;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+// ==============================
+// 8. Lightbox Modal
+// ==============================
+
+#lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  z-index: 10;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.25rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.25rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: color 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    color: #fff;
+    outline: 2px solid rgba(255, 255, 255, 0.6);
+    outline-offset: 2px;
+  }
+}
+
+.lightbox-wrap {
+  position: relative;
+  max-width: 96vw;
+  max-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-img {
+  display: block;
+  max-width: 100%;
+  max-height: 94vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9375rem;
+  padding: 0.75rem 1rem 0;
+  text-align: center;
+  max-width: 100%;
+  line-height: 1.4;
+}

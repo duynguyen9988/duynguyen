@@ -1,0 +1,69 @@
+{{- $src := .Src -}}
+{{- $width := .Width -}}
+{{- $height := .Height -}}
+{{- $linked := .Linked | default false -}}
+{{- $original := $src -}}
+{{- $alt := .Alt | default "" -}}
+{{- $title := .Title | default "" -}}
+{{- $caption := .Caption -}}
+{{- $loading := resources.Get "svg/loading.svg" | minify -}}
+
+{{- $small := "" -}}
+{{- $large := "" -}}
+
+{{- with dict "Path" $src "Resources" .Resources | partial "function/resource.html" -}}
+    {{- if not (eq .MediaType.SubType "svg") -}}
+        {{- $res := . -}}
+        {{- $original = .RelPermalink -}}
+        {{- $maxW := 1600 -}}
+        {{- $maxH := 1200 -}}
+        {{- $fit := printf "%dx%d" $maxW $maxH -}}
+        {{- $processed := $res.Fit $fit -}}
+        {{- $src = $processed.RelPermalink -}}
+        {{- $width = $processed.Width -}}
+        {{- $height = $processed.Height -}}
+        {{- $small = $res.Fit "800x600" -}}
+        {{- $small = $small.RelPermalink -}}
+        {{- $large = $res.Fit "2400x1800" -}}
+        {{- $large = $large.RelPermalink -}}
+    {{- else -}}
+        {{- $src = .RelPermalink -}}
+        {{- $width = $width | default .Width -}}
+        {{- $height = $height | default .Height -}}
+        {{- $small = $src -}}
+        {{- $large = $src -}}
+    {{- end -}}
+{{- else -}}
+    {{- $small = $src -}}
+    {{- $large = $src -}}
+{{- end -}}
+
+{{- if $linked -}}
+    <a href="{{ $original }}" target="_blank" rel="noopener" data-lightbox="{{ $original }}"{{ with $caption }} data-lightbox-caption="{{ . }}"{{ end }}{{ with .Rel }} rel="{{ . }}"{{ end }}>
+        <img
+            class="lazyload{{ with .Class }} {{ . }}{{ end }}"
+            src="{{ $loading.RelPermalink }}"
+            data-src="{{ $src | safeURL }}"
+            data-srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
+            data-sizes="auto"
+            alt="{{ $alt }}"
+            {{- with $width }} width="{{ . }}"{{ end }}
+            {{- with $height }} height="{{ . }}"{{ end }}
+            loading="lazy"
+            decoding="async"
+        />
+    </a>
+{{- else -}}
+    <img
+        class="lazyload{{ with .Class }} {{ . }}{{ end }}"
+        src="{{ $loading.RelPermalink }}"
+        data-src="{{ $src | safeURL }}"
+        data-srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
+        data-sizes="auto"
+        alt="{{ $alt }}"
+        {{- with $width }} width="{{ . }}"{{ end }}
+        {{- with $height }} height="{{ . }}"{{ end }}
+        loading="lazy"
+        decoding="async"
+    />
+{{- end -}}
