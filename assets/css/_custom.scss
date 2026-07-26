@@ -587,6 +587,16 @@ header {
     [theme=dark] & {
       background: rgba(255, 47, 160, 0.5);
     }
+
+    .footer-section-title,
+    .footer-section-content,
+    .footer-social a {
+      color: #1a1a1a;
+    }
+
+    .footer-social a:hover {
+      color: #000;
+    }
   }
 
   &:nth-child(2) {
