@@ -36,14 +36,14 @@ Ra đời: 2005 (20 năm). Chi nhánh: 5 (3 ở SG, 2 ở Canada). Michelin: đ�
 
 Là thương hiệu hủ tiếu Việt đầu tiên vươn ra nước ngoài. Điểm khác biệt của Hồng Phát so với các quán Nam Vang khác là nước lèo ninh 10 tiếng, trong veo, ngọt thanh tự nhiên — không dùng bột ngọt. Sợi hủ tiếu được đặt riêng từ làng bột Sa Đéc. Topping tôm đỏ au, gan luộc vừa chín tới, trứng cút béo.
 
-Xếp hạng toplist.vn: #2. Google rating: 4.0–4.3 (tuỳ chi nhánh).
+Google rating: 4.0–4.3 (tuỳ chi nhánh).
 - Giá: 60.000 – 90.000 đ/tô
 - Địa chỉ: 389–391 Võ Văn Tần, Q3 (và 4 chi nhánh khác)
 - Giờ: 6h30 – 22h30
 
 ### 2. Hủ Tiếu Nam Vang Nhân Quán — Chuỗi phát triển nhanh nhất
 
-Chi nhánh: 4 (Q3, Q11, Q8, Bình Chánh). Xếp hạng toplist.vn: **#1**.
+Chi nhánh: 4 (Q3, Q11, Q8, Bình Chánh).
 
 Nhân Quán đang dẫn đầu xu hướng chuỗi hủ tiếu Nam Vang tại Sài Gòn. Nước lèo ninh 2-3 tiếng, kết hợp tỏi phi thơm. Topping tôm tươi size lớn, gan heo xử lý kỹ không hôi. Hủ tiếu khô có nước sốt pha giữa đường, tương ớt và tương đen — vị đậm đà rất riêng.
 
@@ -56,7 +56,7 @@ Từ tháng 3/2025, quán mở rộng phục vụ sang buổi tối (trước ch
 
 Chi nhánh: 14 — chuỗi hủ tiếu Nam Vang lớn nhất Sài Gòn. Điểm đặc biệt: hầu hết mở cửa 24/24, phục vụ xuyên đêm.
 
-Thành Đạt chọn chiến lược phủ khắp các quận và mở liên tục. Món best-seller là hủ tiếu thập cẩm: tôm, thịt, gan, trứng cút, xá xíu — đầy đặn. Xếp hạng toplist.vn: #8.
+Thành Đạt chọn chiến lược phủ khắp các quận và mở liên tục. Món best-seller là hủ tiếu thập cẩm: tôm, thịt, gan, trứng cút, xá xíu — đầy đặn.
 
 Hạn chế: thái độ phục vụ không đồng đều giữa các chi nhánh — đây là feedback phổ biến trên Google.
 - Giá: 55.000 – 115.000 đ/tô
@@ -64,7 +64,7 @@ Hạn chế: thái độ phục vụ không đồng đều giữa các chi nhán
 
 ### 4. Hủ Tiếu Nam Vang Trung Còi — Hẻm nhỏ nhưng lượng khách lớn
 
-Toạ lạc tại hẻm 293 Nguyễn Đình Chiểu (Q3), Trung Còi là quán hủ tiếu Nam Vang bình dân điển hình nhất Sài Gòn: nằm hẻm, khách đông, không gian chật, giá rẻ. Xếp hạng toplist.vn: #3.
+Toạ lạc tại hẻm 293 Nguyễn Đình Chiểu (Q3), Trung Còi là quán hủ tiếu Nam Vang bình dân điển hình nhất Sài Gòn: nằm hẻm, khách đông, không gian chật, giá rẻ.
 
 Nước lèo hầm xương, ngọt tự nhiên. Ngoài hủ tiếu Nam Vang, quán còn bán bún mắm và lẩu mắm. Google rating: 4.0. Địa chỉ cũ ở hẻm, nhưng nay đã có mặt bằng mặt tiền 80 Cao Thắng.
 - Giá: bình dân (~45.000 – 60.000 đ/tô)
