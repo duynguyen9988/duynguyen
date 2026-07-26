@@ -2,6 +2,7 @@
 title: "Top 10 bánh mì Sài Gòn ngon nức tiếng — từ bình dân đến huyền thoại"
 date: 2026-07-26T14:46:25+07:00
 description: "Bánh mì Sài Gòn không chỉ là món ăn, đó là biểu tượng ẩm thực. Bài viết dẫn bạn qua 10 tiệm bánh mì nổi tiếng nhất Sài Gòn từ hàng chục năm qua."
+featuredimagepreview: https://images.unsplash.com/photo-1763703686238-bb654515259c?w=1600&q=80
 tags:
   - banh-mi
   - am-thuc-sai-gon
@@ -35,3 +36,5 @@ Trên đường Nguyễn Trãi, quận 5, có một xe bánh mì thịt nướng
 Cuối cùng, bánh mì chảo Dì Nữ là một biểu tượng khác. Tiệm nằm trên đường Nguyễn Văn Tráng, quận 1, tuổi đời hơn bảy mươi năm. Một phần bánh mì chảo gồm thịt bò xào, xíu mại, pate, phô mai, trứng ốp la, ăn kèm bánh mì nóng giòn. Giá từ 40.000 đồng, đủ cho một bữa ăn no. Đây là lựa chọn thay thế cho ai muốn đổi vị khỏi bánh mì kẹp truyền thống.
 
 Mười địa chỉ, mười phong cách khác nhau. Có tiệm gần một thế kỷ, có gánh chỉ là xe đẩy vỉa hè. Nhưng tất cả đều có một điểm chung: đó là tình yêu với ổ bánh mì Sài Gòn, thứ đã làm nên hồn cốt ẩm thực đường phố của thành phố này.
+
+Ẩm thực Sài Gòn còn nhiều hơn thế: [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/posts/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi nơi lưu giữ một phần ký ức Sài Thành.

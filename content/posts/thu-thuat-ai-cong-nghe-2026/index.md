@@ -2,6 +2,7 @@
 title: "Thủ thuật công nghệ 2026: Tận dụng AI để tự động hóa công việc hàng ngày"
 date: 2026-07-26T14:46:25+07:00
 description: "Năm 2026 chứng kiến sự bùng nổ của AI agent. Bài viết tổng hợp những thủ thuật và công cụ giúp bạn tự động hóa công việc hàng ngày hiệu quả."
+featuredimagepreview: https://images.unsplash.com/photo-bUybBtjhqEg?w=1600&q=80
 tags:
   - cong-nghe
   - ai
@@ -25,3 +26,5 @@ Phong trào no-code AI agent đang bùng nổ. Nhiều nền tảng cho phép do
 Với người dùng phổ thông, kỹ thuật prompt vẫn còn giá trị. Công thức bốn lớp: thiết lập bối cảnh — ra lệnh duy nhất rõ ràng — cung cấp ví dụ — đặt ràng buộc. Và một mẹo nhỏ: sau khi AI viết xong, hãy yêu cầu nó đóng vai chuyên gia khó tính để đánh giá lại bài của chính nó. Lặp lại quy trình này nhiều lần, chất lượng đầu ra sẽ tăng dần.
 
 Năm 2026 là năm của agent. Ranh giới giữa công cụ và đồng nghiệp đang mờ dần. Người biết tận dụng sẽ làm được nhiều hơn với ít thao tác hơn.
+
+Làm chủ công nghệ chỉ là một phần của câu chuyện. Để thực sự tối ưu hiệu suất, bạn cũng cần [làm chủ thời gian và quản lý công việc](/posts/lam-chu-thoi-gian-quan-ly-cong-viec/) — bởi công cụ tốt nhất cũng vô nghĩa nếu thiếu kỷ luật và phương pháp.

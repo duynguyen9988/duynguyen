@@ -3,13 +3,14 @@ title: 'Top 10 quán bún bò Huế ngon nhất Sài Gòn năm 2026'
 date: 2026-07-26T14:31:40+07:00
 draft: false
 description: 'Khám phá top 10 quán bún bò Huế ngon nhất Sài Gòn, từ quán được Michelin vinh danh đến những hàng quán hơn 40 năm tuổi giữa lòng thành phố.'
+featuredimagepreview: https://images.unsplash.com/photo-NFQi_2HUNRI?w=1600&q=80
+slug: top-10-quan-bun-bo-hue-sai-gon
 tags:
-  - ẩm thực
-  - bún bò Huế
-  - Sài Gòn
-  - review
+  - am-thuc
+  - bun-bo-hue
+  - sai-gon
 categories:
-  - Ẩm thực
+  - am-thuc
 ---
 
 Giữa Sài Gòn tấp nập, một tô bún bò Huế nóng hổi với nước lèo thơm nồng mùi sả ruốc có thể xoa dịu bất kỳ ngày mệt mỏi nào. Người Sài Gòn gốc Huế mang theo công thức gia truyền vào nam, biến tấu để phù hợp khẩu vị địa phương nhưng vẫn giữ được cái hồn của ẩm thực cố đô. Dưới đây là mười địa chỉ đã làm tròn vai trò đó suốt nhiều thập kỷ.
@@ -57,3 +58,5 @@ Nằm trên đường Nguyễn Bá Lân, Thảo Điền, Bún bò Trang thu hút
 ---
 
 Sài Gòn có lẽ là nơi hội tụ nhiều quán bún bò Huế nhất bên ngoài Huế. Mỗi quán mang một bí quyết riêng: 14B được Michelin chứng thực, 31 và Hạnh giữ vị truyền thống hơn bốn mươi năm, Giáo Toàn gây choáng với quy mô, còn Xưa chiếm trọn tình cảm sinh viên bằng giá rẻ khó tin. Dù chọn quán nào, một tô bún bò nóng hổi vẫn luôn là liều thuốc tinh thần không thể thay thế giữa lòng thành phố.
+
+Nếu bạn muốn khám phá thêm ẩm thực Sài Gòn, đừng bỏ qua [top quán lẩu ngon cho ngày mưa](/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè giữa lòng phố thị](/posts/ca-phe-via-he-sai-gon/), [bánh mì Sài Gòn nức tiếng](/posts/banh-mi-sai-gon/) hay [chợ đêm và ẩm thực đường phố](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — tất cả đều là những mảnh ghép làm nên bức tranh ẩm thực Sài Thành.

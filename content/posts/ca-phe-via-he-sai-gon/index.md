@@ -2,6 +2,7 @@
 title: "Top 10 quán cà phê vỉa hè Sài Gòn — hương vị giữa lòng phố thị"
 date: 2026-07-26T14:46:25+07:00
 description: "Cà phê vỉa hè Sài Gòn không đơn thuần là thức uống, đó là một nét văn hóa. Bài viết dẫn bạn qua 10 quán cà phê vỉa hè nổi tiếng nhất Sài Gòn."
+featuredimagepreview: https://images.unsplash.com/photo-xk2w6brrQNQ?w=1600&q=80
 tags:
   - ca-phe-sai-gon
   - ca-phe-via-he
@@ -36,3 +37,5 @@ Little Saigon Café nằm khiêm tốn ở một góc phố với bàn ghế g�
 Cuối cùng, không thể không nhắc đến cà phê Đắc Phúc, một hiện tượng mạng xã hội đầu tháng 7 năm 2026. Chủ quán Bùi Huy Hoàng, từ một ý tưởng ngẫu hứng — lấy giấy vàng in chữ Hoa vốn dùng để dán mâm quả, bọc bên ngoài ly cà phê cho khách đỡ ướt tay — bỗng tạo nên cơn sốt. Trên mạng xã hội, người ta ví von ly cà phê như bùa chú, thi nhau đến check-in. Quán từng phải tạm đóng cửa vì quá tải, nhưng anh Hoàng vẫn giữ phong thái bình thản: khách đến vì đồ uống thường sẽ quay lại, còn đến chỉ để chụp hình thì khó mà giữ được lâu. Giữa tâm bão viral, quán nhỏ này vẫn trung thành với cà phê phin đậm vị, không gian mang đậm hơi thở người Hoa Chợ Lớn xưa.
 
 Mười quán, mười câu chuyện khác nhau. Nhưng có một điều chung: tất cả đều không cầu kỳ, không ồn ào. Một ly cà phê vỉa hè, một khoảng lặng giữa phố thị, đó là Sài Gòn.
+
+Sau ly cà phê sáng, hãy thử [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [bánh mì Sài Gòn](/posts/banh-mi-sai-gon/) hay [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/). Khi màn đêm buông xuống, [chợ đêm và ẩm thực đường phố](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) sẽ kể cho bạn nghe một câu chuyện khác của Sài Thành.

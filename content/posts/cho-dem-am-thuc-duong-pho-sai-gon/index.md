@@ -2,6 +2,7 @@
 title: "Chợ đêm và ẩm thực đường phố Sài Gòn — linh hồn của thành phố không ngủ"
 date: 2026-07-26T14:46:25+07:00
 description: "Sài Gòn về đêm không bao giờ ngủ. Những khu chợ đêm, phố ẩm thực đường phố là nơi lưu giữ linh hồn ẩm thực bình dân nhất của thành phố."
+featuredimagepreview: https://images.unsplash.com/photo-oBu2jRDmMNk?w=1600&q=80
 tags:
   - cho-dem
   - am-thuc-duong-pho
@@ -26,3 +27,5 @@ Trên đường Hà Tôn Quyền, một con đường ngắn nằm trong khu Ch�
 Phố đêm Thảo Điền ở thành phố Thủ Đức là một tổ hợp ẩm thực và giải trí quy mô lớn hơn cả. Không gian được thiết kế mở, bài bản, với các gian hàng sắp xếp khoa học. Nơi đây hội tụ tinh hoa ẩm thực ba miền Bắc, Trung, Nam và hải sản tươi sống. Có cả khu biểu diễn nghệ thuật đường phố với hát live acoustic, nhảy flashmob, ảo thuật. Phù hợp cho mọi lứa tuổi, đặc biệt là các nhóm bạn và gia đình. Giá cả từ bình dân đến trung bình, khoảng 100.000 đến 200.000 đồng một người là có thể ăn thỏa thích.
 
 Bảy khu chợ đêm, bảy sắc thái khác nhau. Có nơi ồn ào náo nhiệt như Bùi Viện, có nơi hoài cổ trầm mặc như Chợ Lớn, có nơi bình dân dân dã như Vĩnh Khánh. Nhưng tất cả đều có một điểm chung: Sài Gòn về đêm không bao giờ ngủ, và linh hồn của thành phố này vẫn luôn âm ỉ trên những bếp than, trong những quán cóc vỉa hè, nơi người ta đến để ăn, để uống, để sống.
+
+Ban ngày, Sài Gòn cũng có những trải nghiệm ẩm thực không thể bỏ qua: [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè sáng sớm](/posts/ca-phe-via-he-sai-gon/) và [bánh mì nức tiếng](/posts/banh-mi-sai-gon/).

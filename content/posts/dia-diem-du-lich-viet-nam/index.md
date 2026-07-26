@@ -2,6 +2,7 @@
 title: "Những địa điểm du lịch Việt Nam không thể bỏ qua năm 2026"
 date: 2026-07-26T14:46:25+07:00
 description: "Từ Hà Giang hùng vĩ đến Phú Quốc xanh ngát, Việt Nam có vô vàn điểm đến đáng khám phá. Bài viết tổng hợp những địa danh nổi bật nhất."
+featuredimagepreview: https://images.unsplash.com/photo-1775594760339-ed0e505a2635?w=1600&q=80
 tags:
   - du-lich
   - viet-nam
@@ -30,3 +31,5 @@ Phú Quốc tiếp tục là hòn đảo được yêu thích nhất Việt Nam.
 Mũi Né với đồi cát vàng trải rộng, làn nước xanh và các hoạt động thể thao biển như lướt ván diều. Cần Thơ với chợ nổi Cái Răng, vựa trái cây miền Tây sông nước. An Giang với chợ nổi Châu Đốc, núi Sam, lăng Thoại Ngọc Hầu. Cà Mau với khu dự trữ sinh quyển rừng ngập mặn rộng hơn 370.000 héc-ta, là nơi tận cùng Tổ quốc nhìn ra biển Đông.
 
 Năm 2026, du lịch Việt Nam không chỉ có biển xanh cát trắng, mà còn có những cung đường Hà Giang quanh co, những hang động Phong Nha kỳ vĩ, những phố cổ Hội An trầm mặc. Mỗi vùng miền mở ra một câu chuyện riêng, một trải nghiệm riêng, và tất cả đều đáng để bạn xách ba lô lên và đi.
+
+Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế](/posts/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/posts/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/posts/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — những trải nghiệm làm nên hồn cốt của thành phố.

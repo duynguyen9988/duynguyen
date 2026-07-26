@@ -2,6 +2,7 @@
 title: "Top 10 quán lẩu ngon Sài Gòn cho ngày mưa"
 date: 2026-07-26T14:46:25+07:00
 description: "Sài Gòn vào mùa mưa, còn gì tuyệt hơn quây quần bên nồi lẩu nóng hổi. Bài viết tổng hợp 10 quán lẩu ngon nhất Sài Gòn từ bình dân đến cao cấp."
+featuredimagepreview: https://images.unsplash.com/photo-1753309054187-2291198d6616?w=1600&q=80
 tags:
   - am-thuc-sai-gon
   - lau
@@ -35,3 +36,5 @@ Hutong Hotpot tái hiện không gian Hong Kong xưa giữa Sài Gòn. Nồi l�
 Cuối cùng, Lẩu nấm Ashima mang đến một lựa chọn thanh đạm, tốt cho sức khỏe. Nguyên liệu chính là ba mươi loại nấm, trong đó có nhiều loại nấm quý từ Nhật, Hàn Quốc và Shangri-La. Nước dùng được hầm liên tục hai ngày từ các loại nấm và thuốc bắc, tạo nên vị ngọt thanh, hương thơm tự nhiên. Với các chi nhánh tại 35A Nguyễn Đình Chiểu, 11 Công trường Mê Linh và 11 Tú Xương, Ashima là điểm đến lý tưởng cho những ngày mưa lạnh, muốn tìm chút ấm áp từ một nồi lẩu nấm bổ dưỡng.
 
 Mười quán lẩu, mười hương vị, mười câu chuyện khác nhau. Nhưng có một điểm chung: tất cả đều xứng đáng để bạn xỏ dép lê, bước ra cơn mưa Sài Gòn và tìm đến. Bởi mưa ở Sài Gòn không chỉ là nước từ trên trời rơi xuống, mà còn là cái cớ để người ta quây quần bên nhau, bên một nồi lẩu, kể cho nhau nghe những câu chuyện còn dang dở.
+
+Hành trình ẩm thực Sài Gòn còn nhiều điều thú vị: [bún bò Huế đậm đà](/posts/top-10-quan-bun-bo-hue-sai-gon/), [cà phê vỉa hè sáng sớm](/posts/ca-phe-via-he-sai-gon/), [bánh mì giòn rụm](/posts/banh-mi-sai-gon/) hay [chợ đêm về khuya](/posts/cho-dem-am-thuc-duong-pho-sai-gon/) — mỗi món một câu chuyện riêng.
