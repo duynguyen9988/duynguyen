@@ -2,6 +2,10 @@
 // 1. Navbar
 // ==============================
 
+:root {
+  --editorial-heading-font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
 header {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1618,7 +1622,10 @@ footer.footer {
 }
 
 .latest-news-lead h3 {
+  font-family: var(--editorial-heading-font-family);
   font-size: clamp(1.45rem, 3vw, 2.15rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .latest-news-compact h3 {
@@ -2200,6 +2207,8 @@ button {
 
 // Better heading spacing
 .single-title {
+  font-family: var(--editorial-heading-font-family);
+  font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.25;
 }
