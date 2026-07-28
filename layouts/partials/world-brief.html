@@ -19,8 +19,11 @@
                         <section class="world-brief-block">
                             <span class="world-brief-badge">{{ $sectionTitle }}</span>
                             <h4 class="world-brief-block-title">{{ .title }}</h4>
-                            {{- $first := index .paragraphs 0 -}}
-                            <p class="world-brief-block-text">{{ $first }}</p>
+                            <div class="world-brief-block-text">
+                                {{- range .paragraphs -}}
+                                    <p>{{ . }}</p>
+                                {{- end -}}
+                            </div>
                         </section>
                     {{- end -}}
                 {{- end -}}

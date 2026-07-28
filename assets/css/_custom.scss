@@ -1965,14 +1965,15 @@ footer.footer {
 }
 
 .world-brief-block-text {
-  margin: 0;
   color: $global-font-secondary-color;
   font-size: 0.82rem;
   line-height: 1.55;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+
+  p {
+    margin: 0 0 0.5rem;
+
+    &:last-child { margin: 0; }
+  }
 
   [theme=dark] & {
     color: $global-font-secondary-color-dark;
