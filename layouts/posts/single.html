@@ -10,15 +10,16 @@
         {{- $toc = dict "enable" false -}}
     {{- end -}}
 
-    {{- /* Auto TOC */ -}}
+    <div class="single-reading-layout">
+    {{- /* Desktop TOC sidebar; JavaScript keeps the current heading highlighted. */ -}}
     {{- if ne $toc.enable false -}}
-        <div class="toc" id="toc-auto">
-            <h2 class="toc-title">{{ T "contents" }}</h2>
+    <aside class="single-toc-sidebar" aria-label="On this page">
+        <div class="toc reading-toc" id="toc-auto">
+            <p class="toc-title">On this page</p>
             <div class="toc-content{{ if eq $toc.auto false }} always-active{{ end }}" id="toc-content-auto"></div>
         </div>
+    </aside>
     {{- end -}}
-
-    <div class="single-reading-layout">
     <article class="page single">
         {{- partial "breadcrumb.html" . -}}
         {{- /* Title */ -}}

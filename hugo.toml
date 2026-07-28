@@ -132,7 +132,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     linkToMarkdown = true
     rssFullText = false
     [params.page.toc]
-      enable = false
+      enable = true
+      keepStatic = false
+      auto = true
     [params.page.code]
       copy = false
       maxShownLines = 50

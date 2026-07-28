@@ -13,7 +13,7 @@ class Util {
     }
 
     static isTocStatic() {
-        return window.matchMedia('only screen and (max-width: 960px)').matches;
+        return window.matchMedia('only screen and (max-width: 1320px)').matches;
     }
 
     static animateCSS(element, animation, reserved, callback) {
@@ -127,6 +127,7 @@ class Theme {
                 $tocContentStatic.appendChild($tocCore);
             }
             if (this._tocOnScroll) this.scrollEventSet.delete(this._tocOnScroll);
+            this._tocOnScroll = null;
         } else {
             const $tocContentAuto = document.getElementById('toc-content-auto');
             if ($tocCore.parentElement !== $tocContentAuto) {
@@ -134,11 +135,15 @@ class Theme {
                 $tocContentAuto.appendChild($tocCore);
             }
             const $toc = document.getElementById('toc-auto');
-            const $page = document.getElementsByClassName('page')[0];
-            if (!$toc || !$page) return;
-            const rect = $page.getBoundingClientRect();
-            $toc.style.left = `${rect.left + rect.width + 20}px`;
-            $toc.style.maxWidth = `${$page.getBoundingClientRect().left - 20}px`;
+            if (!$toc) return;
+            const isReadingToc = $toc.classList.contains('reading-toc');
+            if (!isReadingToc) {
+                const $page = document.getElementsByClassName('page')[0];
+                if (!$page) return;
+                const rect = $page.getBoundingClientRect();
+                $toc.style.left = `${rect.left + rect.width + 20}px`;
+                $toc.style.maxWidth = `${$page.getBoundingClientRect().left - 20}px`;
+            }
             $toc.style.visibility = 'visible';
             const $tocLinkElements = $tocCore.querySelectorAll('a:first-child');
             const $tocLiElements = $tocCore.getElementsByTagName('li');
@@ -149,18 +154,20 @@ class Theme {
             const minTocTop = $toc.offsetTop;
             const minScrollTop = minTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
             this._tocOnScroll = this._tocOnScroll || (() => {
-                const footerTop = document.getElementById('post-footer').offsetTop;
-                const maxTocTop = footerTop - $toc.getBoundingClientRect().height;
-                const maxScrollTop = maxTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
-                if (this.newScrollTop < minScrollTop) {
-                    $toc.style.position = 'absolute';
-                    $toc.style.top = `${minTocTop}px`;
-                } else if (this.newScrollTop > maxScrollTop) {
-                    $toc.style.position = 'absolute';
-                    $toc.style.top = `${maxTocTop}px`;
-                } else {
-                    $toc.style.position = 'fixed';
-                    $toc.style.top = `${TOP_SPACING}px`;
+                if (!isReadingToc) {
+                    const footerTop = document.getElementById('post-footer').offsetTop;
+                    const maxTocTop = footerTop - $toc.getBoundingClientRect().height;
+                    const maxScrollTop = maxTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
+                    if (this.newScrollTop < minScrollTop) {
+                        $toc.style.position = 'absolute';
+                        $toc.style.top = `${minTocTop}px`;
+                    } else if (this.newScrollTop > maxScrollTop) {
+                        $toc.style.position = 'absolute';
+                        $toc.style.top = `${maxTocTop}px`;
+                    } else {
+                        $toc.style.position = 'fixed';
+                        $toc.style.top = `${TOP_SPACING}px`;
+                    }
                 }
                 Util.forEach($tocLinkElements, $tocLink => { $tocLink.classList.remove('active'); });
                 Util.forEach($tocLiElements, $tocLi => { $tocLi.classList.remove('has-active'); });
