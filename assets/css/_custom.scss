@@ -1549,7 +1549,7 @@ footer.footer {
 
 .latest-news-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+  grid-template-columns: minmax(0, 1fr) minmax(330px, 0.78fr);
   gap: clamp(2rem, 5vw, 5rem);
   align-items: start;
 }
@@ -1669,7 +1669,7 @@ footer.footer {
 
 .latest-news-compact {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(125px, 0.58fr);
+  grid-template-columns: minmax(0, 1fr) minmax(100px, 0.38fr);
   gap: clamp(1rem, 2vw, 1.65rem);
   padding: 0 0 1.5rem;
   align-items: stretch;
@@ -1704,7 +1704,7 @@ footer.footer {
   overflow: hidden;
   border-radius: 0.65rem;
   background: #e2e8f0;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 11;
 
   img {
     display: block;
