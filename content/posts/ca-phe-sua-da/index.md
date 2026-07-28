@@ -20,11 +20,17 @@ resources:
       alt: "Cà phê sữa đá Việt Nam"
 ---
 
+<!-- editorial-structure -->
+
 Buổi sáng ở Sài Gòn, trước mỗi căn nhà, trên mỗi vỉa hè, bạn sẽ thấy một hình ảnh quen thuộc: chiếc phin nhôm nhỏ đặt trên ly thủy tinh, từng giọt cà phê đen đặc sánh chầm chậm nhỏ xuống lớp sữa đặc trắng ngà bên dưới. Mười lăm phút có thể là khoảng thời gian dài với một tách espresso ở Ý, nhưng ở Việt Nam, đó là khoảng lặng thiêng liêng để bắt đầu một ngày mới. Cà phê sữa đá không đơn thuần là một thức uống — nó là nghi lễ, là nhịp sống, là tấm gương phản chiếu hành trình trăm năm của hạt cà phê trên mảnh đất hình chữ S.
+
+## Câu chuyện và bối cảnh
 
 Câu chuyện của cà phê Việt Nam bắt đầu từ năm 1857, khi các nhà truyền giáo Pháp đầu tiên mang cây cà phê đến vùng đất này. Những đồn điền cà phê đầu tiên chỉ thực sự được thiết lập vào năm 1888 tại các tỉnh Ninh Bình và Quảng Bình, với giống Arabica được trồng phổ biến thời kỳ đầu. Phải đến thập niên 1920, người Pháp mới quyết định mở rộng vùng trồng cà phê lên Tây Nguyên, đặc biệt là tỉnh Đắk Lắk. Đến năm 1930, sản lượng xuất khẩu cà phê Việt Nam đạt khoảng 1.500 tấn mỗi năm, tăng lên 2.000 tấn vào năm 1940. Nhưng phải sau Đổi Mới năm 1986, khi kinh tế tư nhân được khôi phục, ngành cà phê Việt Nam mới thực sự bùng nổ. Ngày nay, Việt Nam là nhà sản xuất cà phê lớn thứ hai thế giới sau Brazil, với giống Robusta chiếm 97% tổng sản lượng — và năm 2023, cả nước đã xuất khẩu 1,62 triệu tấn.
 
 Cà phê sữa đá, món uống quốc dân của người Việt, là kết quả của một quá trình thích ứng tài tình với hoàn cảnh lịch sử và điều kiện tự nhiên. Nguồn gốc của nó bắt nguồn từ thời kỳ thuộc địa Pháp, được cho là sự biến tấu từ món café au lait — cà phê sữa kiểu Pháp. Trong điều kiện nhiệt đới nóng bức, sữa tươi không chỉ khan hiếm mà còn nhanh hỏng. Giải pháp là sữa đặc có đường nhập khẩu — loại thực phẩm ổn định trong môi trường nhiệt đới mà thực dân Pháp sử dụng. Nhưng sự kết hợp này tạo ra một vấn đề: sữa đặc có đường quá ngọt, và cần một loại cà phê đủ đắng để cân bằng.
+
+## Hương vị và trải nghiệm
 
 Giải pháp đến từ giống cà phê Robusta rang đậm. Với hàm lượng caffeine gần gấp đôi Arabica — caffeine là một hợp chất có vị đắng tự nhiên — cà phê Robusta rang đậm mang đến vị đắng mạnh đủ để làm đối trọng với độ ngọt của sữa đặc. Sự kết hợp tưởng như bất khả thi này lại tạo nên một thức uống cân bằng hoàn hảo, với vị đắng của cà phê hòa quyện cùng vị béo ngọt của sữa. Và trong khí hậu nhiệt đới, việc thêm đá — biến cà phê nóng thành cà phê sữa đá — là bước cuối cùng để hoàn thiện một tuyệt tác ẩm thực đường phố.
 

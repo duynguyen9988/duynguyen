@@ -13,6 +13,8 @@ draft: false
 
 Ít ai biết rằng giấc mơ về một cỗ máy biết suy nghĩ đã có từ thời Hy Lạp cổ đại. Những bức tượng biết nói, những người máy bằng vàng của thần Hephaestus, hay người khổng lồ bằng đồng Talos canh gác bờ biển Crete — tất cả đều là những phiên bản đầu tiên của khát vọng chế tạo ra trí thông minh nhân tạo. Phải mất hơn hai nghìn năm, giấc mơ đó mới bắt đầu thành hình.
 
+## Tổng quan
+
 ### Những nền tảng đầu tiên
 
 Thế kỷ 17 chứng kiến những bước đi triết học quan trọng. Gottfried Leibniz mơ về một "ngôn ngữ phổ quát của lý trí" — *characteristica universalis* — nơi mọi tranh luận triết học đều có thể giải quyết bằng tính toán, giống như hai kế toán viên cầm bút chì ngồi xuống và nói: "Chúng ta hãy cùng tính toán." Thomas Hobbes, trong cuốn Leviathan, tuyên bố: "Lý trí chẳng qua là sự tính toán."

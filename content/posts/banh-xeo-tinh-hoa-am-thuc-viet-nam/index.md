@@ -13,6 +13,8 @@ draft: false
 
 Chiều Sài Gòn, cái nắng đã dịu bớt, tiếng dầu xèo xèo trong chảo nóng vọng ra từ một góc hẻm trên đường Nguyễn Trãi. Đó là âm thanh không thể nhầm lẫn của bánh xèo — cái tên nghe như tiếng hát của món ăn, mời gọi thực khách từ xa. Một người phụ nữ ngồi trước chiếc chảo gang đen bóng, đổ bột theo chuyển động xoay tròn đều tay, rồi rắc tôm, thịt, giá đỗ lên trên. Chỉ vài phút sau, chiếc bánh vàng ươm, giòn rụm được gấp đôi, xếp lên đĩa cùng rau sống xanh mát. Đây không đơn thuần là một món ăn — đó là một di sản.
 
+## Tổng quan
+
 ### Hành trình từ bột gạo đến kiệt tác ẩm thực
 
 Ít ai biết rằng bánh xèo, món ăn đường phố quen thuộc đến mức gần như người Việt nào cũng từng ăn, lại có một lịch sử khiêm tốn đến bất ngờ. Nguồn gốc chính xác của nó không được ghi chép rõ ràng, nhưng các nhà nghiên cứu ẩm thực đồng thuận rằng bánh xèo sinh ra ở đâu đó tại miền Trung hoặc miền Nam Việt Nam, trong thời kỳ thuộc địa Pháp.

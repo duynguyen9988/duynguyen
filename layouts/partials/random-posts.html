@@ -1,4 +1,7 @@
 {{- $allPosts := where .Site.RegularPages "Type" "posts" -}}
+{{- if .IsPage -}}
+    {{- $allPosts = where $allPosts "RelPermalink" "ne" .RelPermalink -}}
+{{- end -}}
 {{- $randomPosts := first 5 ($allPosts | shuffle) -}}
 {{- if $randomPosts -}}
 <div class="sidebar-random-posts">

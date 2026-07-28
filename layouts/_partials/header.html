@@ -25,15 +25,20 @@
                 {{- end -}}
             </a>
         </div>
-        {{- $version := "" -}}
-        {{- with hugo.Data.version -}}
-            {{- $version = printf "%s | %s" .hash .date -}}
-        {{- end -}}
-        {{- with $version -}}
-            <span class="header-version">{{ . }} GMT+7</span>
-        {{- end -}}
         <div class="menu" id="menu-desktop">
             <div class="menu-inner">
+                {{- range .Site.Menus.main -}}
+                    {{- $url := .URL | relLangURL -}}
+                    {{- with .Page -}}
+                        {{- $url = .RelPermalink -}}
+                    {{- end -}}
+                    <a class="menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                        {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                    </a>
+                {{- end -}}
+                {{- if .Site.Menus.main -}}
+                    <span class="menu-item delimiter" aria-hidden="true"></span>
+                {{- end -}}
                 {{- if .Site.Params.search.enable -}}
                     <span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="{{ .Site.Params.search.placeholder | default (T `searchPlaceholder`) }}" id="search-input-desktop">
@@ -107,13 +112,6 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        {{- $version := "" -}}
-        {{- with hugo.Data.version -}}
-            {{- $version = printf "%s | %s" .hash .date -}}
-        {{- end -}}
-        {{- with $version -}}
-            <span class="header-version header-version-mobile">{{ . }} GMT+7</span>
-        {{- end -}}
         <div class="menu" id="menu-mobile">
             {{- if .Site.Params.search.enable -}}
                 <div class="search-wrapper">
@@ -133,6 +131,15 @@
                         {{ T `cancel` }}
                     </a>
                 </div>
+            {{- end -}}
+            {{- range .Site.Menus.main -}}
+                {{- $url := .URL | relLangURL -}}
+                {{- with .Page -}}
+                    {{- $url = .RelPermalink -}}
+                {{- end -}}
+                <a class="menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                    {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                </a>
             {{- end -}}
             {{- if hugo.IsMultilingual -}}
                 <a href="javascript:void(0);" class="menu-item" title="{{ T "selectLanguage" }}">

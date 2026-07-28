@@ -21,6 +21,8 @@ resources:
 
 Đêm 19 tháng 7 năm 2026, khi trọng tài thổi hồi còi kết thúc hiệp phụ tại MetLife Stadium, New Jersey, những con người khoác áo đỏ và vàng đã vỡ òa. Tây Ban Nha, sau mười sáu năm chờ đợi kể từ chức vô địch năm 2010, lại một lần nữa đứng trên đỉnh thế giới. Chiến thắng 1-0 trước Argentina ở trận chung kết không chỉ là câu chuyện về một trận cầu, mà là dấu chấm hết cho một giải đấu kéo dài 39 ngày, với 104 trận đấu, 308 bàn thắng và gần 7 triệu khán giả đến sân — con số kỷ lục trong lịch sử World Cup.
 
+## Tổng quan
+
 ### Kỳ World Cup của những lần đầu tiên
 
 World Cup 2026 đi vào lịch sử như một giải đấu của những cột mốc. Lần đầu tiên ba quốc gia — Mỹ, Canada và Mexico — cùng đăng cai một kỳ World Cup. Lần đầu tiên giải đấu mở rộng lên 48 đội, với 12 bảng đấu mỗi bảng 4 đội. Và lần đầu tiên bốn đội đứng đầu bảng xếp hạng FIFA thế giới cùng lọt vào bán kết — Argentina, Tây Ban Nha, Pháp và Anh.

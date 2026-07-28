@@ -21,6 +21,8 @@ Buổi sáng ở Sài Gòn không thể thiếu tiếng leng keng của những 
 
 Cà phê sữa đá, hay *cà phê nâu đá* trong tiếng miền Bắc, là hơn cả một thức uống. Đó là một hiện tượng văn hóa, một tuyên ngôn về bản sắc, và ngày nay, là một đại sứ ẩm thực Việt Nam trên khắp thế giới.
 
+## Tổng quan
+
 ### Từ nước Pháp đến Việt Nam — câu chuyện của sự thích nghi
 
 Cây cà phê được người Pháp mang đến Việt Nam từ giữa thế kỷ 19, nhưng phải đến thời kỳ thuộc địa đầu thế kỷ 20 thì văn hóa uống cà phê mới thực sự bén rễ. Cà phê sữa đá ra đời như một sự thích nghi thông minh của người Việt đối với thức uống phương Tây.

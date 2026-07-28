@@ -23,6 +23,8 @@ Cuối năm 2022, Elon Musk mua lại Twitter với giá 44 tỷ USD. Sự kiệ
 
 Gần bốn năm sau, vào năm 2026, cuộc chiến giữa các nền tảng microblogging vẫn chưa có hồi kết. Nhưng một điều đã trở nên rõ ràng: cách chúng ta nghĩ về mạng xã hội sẽ không bao giờ như cũ.
 
+## Tổng quan
+
 ### Sự ra đời của Bluesky — từ nghiên cứu đến hiện thực
 
 Câu chuyện của Bluesky bắt đầu từ tháng 12 năm 2019, khi Jack Dorsey — CEO của Twitter khi đó — tweet rằng công ty đang tài trợ cho một nhóm nhỏ các kiến trúc sư nguồn mở để phát triển một chuẩn mực phi tập trung cho mạng xã hội. Tầm nhìn của Dorsey bị ảnh hưởng bởi bài luận "Protocols, Not Platforms" của Mike Masnick — người sau này trở thành thành viên hội đồng quản trị của Bluesky.

@@ -11,17 +11,25 @@ resources:
 draft: false
 ---
 
+<!-- editorial-structure -->
+
 Tháng Giêng năm 1996, hai nghiên cứu sinh tiến sĩ tại Đại học Stanford — Larry Page và Sergey Brin — bắt tay vào một dự án nghiên cứu mà ít ai ngờ rằng sẽ thay đổi hoàn toàn cách con người tương tác với thông tin. Họ phát triển thuật toán PageRank, một phương pháp xác định mức độ liên quan của một trang web dựa trên số lượng và chất lượng của các trang web khác liên kết đến nó. Dự án này ban đầu được đặt tên là BackRub trước khi được đổi thành Google — một lỗi chính tả của từ googol, con số 1 theo sau bởi một trăm số 0, ám chỉ tham vọng tổ chức một lượng thông tin khổng lồ trên web.
+
+## Bối cảnh và hành trình phát triển
 
 Tháng Tám năm 1998, Andy Bechtolsheim, đồng sáng lập Sun Microsystems, đã viết một tấm séc 100.000 đô la cho một công ty chưa từng được thành lập. Cuộc gặp diễn ra chớp nhoáng vào lúc tám giờ sáng trước hiên nhà David Cheriton ở Palo Alto — Bechtolsheim xem qua bản demo, thích những gì thấy, và quay lại xe lấy séc. Jeff Bezos, người sáng lập Amazon, và Ram Shriram, một doanh nhân từng là chủ tịch Junglee, cũng tham gia đầu tư. Craig Silverstein, một nghiên cứu sinh cùng trường Stanford, trở thành nhân viên đầu tiên của công ty. Với khoảng một triệu đô la huy động được từ những nhà đầu tư đầu tiên, Google mở văn phòng đầu tiên tại Menlo Park, California.
 
 Trang chủ của Google khi ấy có thiết kế tối giản đến mức gần như thô sơ — không phải vì một triết lý thiết kế cao siêu, mà đơn giản vì hai nhà sáng lập có rất ít kinh nghiệm với HTML, ngôn ngữ đánh dấu dùng để thiết kế trang web. Chính sự tối giản bất đắc dĩ này đã trở thành một phần DNA thương hiệu của Google trong những năm sau đó.
+
+## Những chuyển biến đáng chú ý
 
 Tháng Sáu năm 2000 là một bước ngoặt. Google trở thành công cụ tìm kiếm mặc định cho Yahoo!, thay thế Inktomi, đưa Google lên một trong những trang web phổ biến nhất thời bấy giờ. Năm 2001, các nhà đầu tư thúc ép Google thuê một ban quản lý mạnh. Eric Schmidt, lúc đó đang là CEO của Novell, được John Doerr từ Kleiner Perkins đề xuất. Schmidt không hào hứng với ý tưởng tham gia Google — tiềm năng của công ty khi ấy vẫn chưa được nhìn nhận rộng rãi. Nhưng cuối cùng ông đồng ý, và như một cam kết, đã mua một triệu đô la cổ phiếu ưu đãi của Google.
 
 Ngày 19 tháng Tám năm 2004, Google chính thức trở thành công ty đại chúng. Đợt IPO trên NASDAQ với mã GOOGL chào bán hơn 19,6 triệu cổ phiếu ở mức giá 85 đô la mỗi cổ phiếu, huy động được 1,67 tỷ đô la và định giá công ty ở mức hơn 23 tỷ đô la. Cổ phiếu tăng vọt và chạm mốc 350 đô la lần đầu tiên vào cuối tháng Mười năm 2007, chủ yếu nhờ doanh thu mạnh mẽ từ thị trường quảng cáo trực tuyến.
 
 Google không ngừng mở rộng qua các thương vụ mua lại mang tính chiến lược. Tháng Mười năm 2006, Google mua YouTube với giá 1,65 tỷ đô la bằng cổ phiếu. Tháng Ba năm 2008, DoubleClick được thâu tóm với giá 3,1 tỷ đô la, mang về cho Google những mối quan hệ quý giá với các nhà xuất bản web và đại lý quảng cáo. Năm 2012, Motorola Mobility được mua lại với giá 12,5 tỷ đô la — thương vụ lớn nhất từ trước đến thời điểm đó — nhằm sở hữu kho bằng sáng chế đáng kể về điện thoại di động và công nghệ không dây. Năm 2013, Waze được mua lại với giá 966 triệu đô la. Năm 2014, DeepMind, một công ty AI tư nhân đến từ London, về tay Google với giá 400 triệu đô la.
+
+## Tác động trong thực tế
 
 Ngày 10 tháng Tám năm 2015 đánh dấu một cuộc tái cấu trúc lớn. Google tổ chức lại thành Alphabet Inc., với Sundar Pichai trở thành CEO của Google, thay thế Larry Page, người chuyển sang làm CEO của Alphabet. Hệ sinh thái sản phẩm của Google khi ấy đã vươn ra xa ngoài công cụ tìm kiếm: Android thống trị thị trường hệ điều hành di động, Chrome là trình duyệt web phổ biến, Gmail và Google Maps trở thành công cụ hàng ngày của hàng tỷ người. YouTube và Google Cloud tiếp tục khẳng định vị thế.
 

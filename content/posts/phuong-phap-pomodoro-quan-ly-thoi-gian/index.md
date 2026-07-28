@@ -15,6 +15,8 @@ Cuối những năm 1980, một sinh viên đại học người Ý tên Frances
 
 Từ khoảnh khắc đó, một trong những kỹ thuật quản lý thời gian phổ biến nhất thế giới đã ra đời.
 
+## Tổng quan
+
 ### 25 phút và sức mạnh của sự giới hạn
 
 Nguyên lý của Pomodoro đơn giản đến mức nhiều người thoạt nghe đã nghĩ: "Chỉ thế thôi à?" Bạn chọn một nhiệm vụ, đặt đồng hồ 25 phút, làm việc liên tục cho đến khi chuông reo, nghỉ 5 phút. Sau bốn pomodori — tức khoảng hai giờ — nghỉ dài 20 đến 30 phút. Lặp lại.

@@ -13,6 +13,8 @@ draft: false
 
 Còn khoảng sáu tháng nữa, những cành mai vàng sẽ bắt đầu bung nở trên khắp các con phố Sài Gòn. Những cành đào hồng thắm sẽ khoe sắc trước hiên nhà Hà Nội. Những chiếc bánh chưng vuông vức sẽ được gói trong lá dong xanh. Tết Nguyên Đán 2027 — năm Đinh Mùi, con giáp Dê (còn gọi là Mùi) — sẽ đến vào ngày 6 tháng 2.
 
+## Tổng quan
+
 ### Tết là gì?
 
 Tết Nguyên Đán, còn được gọi là Tết Cả, là lễ hội quan trọng nhất trong văn hóa Việt Nam. Tên đầy đủ "Tết Nguyên Đán" có gốc Hán Việt: "Nguyên" là khởi đầu, "Đán" là buổi sáng — buổi sáng đầu tiên của năm mới theo âm lịch.

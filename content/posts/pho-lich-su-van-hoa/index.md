@@ -16,7 +16,11 @@ resources:
 slug: pho-lich-su-van-hoa
 ---
 
+<!-- editorial-structure -->
+
 Buổi sáng Sài Gòn, một tô phở nóng hổi bốc khói nghi ngút — nước dùng trong veo, lát thịt tái hồng hào bên cọng rau thơm xanh mướt — có lẽ là hình ảnh quen thuộc nhất với bất kỳ ai đã từng đặt chân đến Việt Nam. Nhưng ít ai biết rằng, đằng sau tô phở tưởng chừng giản dị ấy là cả một hành trình hơn một thế kỷ, từ những gánh hàng rong ở làng Vân Cù, Nam Định, cho đến khi trở thành một trong những biểu tượng ẩm thực được cả thế giới ngưỡng mộ.
+
+## Câu chuyện và bối cảnh
 
 <!--more-->
 
@@ -24,17 +28,23 @@ Phở xuất hiện tương đối muộn trong lịch sử ẩm thực Việt N
 
 Người dân thành phố Nam Định được xem là những người đầu tiên sáng tạo ra phở truyền thống. Ngôi làng tổ được cho là Vân Cù và Dao Cù (hay Giao Cù) thuộc xã Đông Xuân, huyện Nam Trực, tỉnh Nam Định. Câu chuyện bắt đầu từ những năm 1900–1907, khi thị trường dệt may Nam Định còn sầm uất, và những người lao động từ Vân Nam, Quảng Đông đổ về. Chính nhu cầu thịt bò gia tăng dưới thời Pháp thuộc đã tạo ra nguồn xương bò dồi dào, và những người thợ Trung Hoa đã mua lại để nấu một món mì bò có tên gọi *ngưu nhục phấn*, gần giống với phở ngày nay.
 
+## Hương vị và trải nghiệm
+
 Ban đầu, phở chỉ là món ăn vặt được bán vào lúc bình minh và hoàng hôn bởi những gánh hàng rong. Người bán quảy trên vai một đòn gánh nặng trĩu — một đầu là nồi nước dùng nghi ngút khói, đầu kia đựng bánh phở, gia vị và dụng cụ để chuẩn bị một tô phở. Chiếc gánh nặng ấy luôn do đàn ông gánh vác, và họ đội những chiếc mũ phớt đặc trưng gọi là *mũ phở* để giữ ấm đầu trong những buổi sớm se lạnh.
 
 Hai quán phở cố định đầu tiên của Hà Nội là Cát Tường trên phố Cầu Gỗ, do người Việt làm chủ, và một quán của người Hoa trước trạm xe điện Bờ Hồ. Đến năm 1918, thêm hai quán nữa mở ra trên phố Quạt và phố Đồng. Khoảng năm 1925, một người làng Vân Cù tên Vạn đã mở quán phở "kiểu Nam Định" đầu tiên tại Hà Nội. Từ đó, những gánh phở dần nhường chỗ cho các quán ăn cố định.
 
 Cuối thập niên 1920, phở bắt đầu có những biến tấu. Các hàng quán thử nghiệm với húng lìu, dầu mè, đậu phụ và cả tinh dầu cà cuống — một loại "phở cải lương" nhưng không thành công. Năm 1930, phở tái ra đời, và đến năm 1939, phở gà xuất hiện, có lẽ vì thịt bò không được bán vào thứ Hai và thứ Sáu hàng tuần.
 
+## Điểm nhấn đáng nhớ
+
 Năm 1954 đánh dấu một bước ngoặt lớn. Sau Hiệp định Genève, hơn một triệu người từ miền Bắc di cư vào miền Nam, mang theo tình yêu phở của họ. Phở, vốn ít phổ biến ở phương Nam, bỗng trở nên thịnh hành. Những biến tấu về thịt và nước dùng xuất hiện, kéo theo các loại rau gia vị mới như giá đỗ, ngò gai, húng quế, cùng tương đen và tương ớt trở thành tiêu chuẩn. Phở tái bắt đầu cạnh tranh với phở chín về độ phổ biến.
 
 Ở miền Bắc, sau chiến tranh, các quán phở tư nhân bị quốc hữu hóa. Thời kỳ bao cấp khắc nghiệt, các quán phở quốc doanh phục vụ một biến thể không thịt mang tên "phở không người lái" — nước dùng chỉ là nước sôi với bột ngọt, vì thịt và gạo đều khan hiếm. Bánh mì hoặc cơm nguội thường được dùng kèm, dẫn đến tập tục nhúng quẩy vào phở còn tồn tại đến ngày nay. Phải đến thời kỳ Đổi Mới, các quán phở mới được tư nhân hóa trở lại.
 
 Nước dùng của phở bò được ninh từ xương bò, đuôi bò, thịt bắp, hành tây nướng, gừng nướng và các loại gia vị như quế Thanh, hoa hồi, gừng rang, hành nướng, thảo quả đen, hạt ngò, thì là Ai Cập và đinh hương. Các gia vị thường được bọc trong vải màn để không trôi nổi khắp nồi. Các đầu bếp kỳ công thường nướng gừng và hành trên lửa khoảng một phút trước khi cho vào nước dùng, và liên tục hớt bọt để có được nước trong veo. Nước mắm được thêm vào gần cuối.
+
+## Giá trị văn hóa còn lại
 
 Bánh phở tươi được làm từ gạo, và người Việt ở mỗi vùng miền lại có khẩu vị riêng về độ rộng hẹp của sợi bánh. Phở Bắc thiên về vị mặn mà, nước dùng trong, thanh nhẹ, dùng kèm hành lá, ngò rí và đôi khi là quẩy. Phở Nam ngọt hơn, nước dùng đục hơn, ăn với giá đỗ, húng quế, ớt tươi, tương đen và tương ớt. Phở miền Trung lại cầu kỳ hơn với đu đủ ngâm chua và sa tế.
 

@@ -22,6 +22,8 @@ Từ một chiếc điện thoại màn hình cảm ứng chưa ai tin tưởng,
 
 <!--more-->
 
+## Tổng quan
+
 ### Thế hệ đầu tiên — Cuộc cách mạng màn hình cảm ứng (2007)
 
 Chiếc iPhone thế hệ đầu tiên ra mắt với màn hình 3,5 inch — một kích thước bị chế giễu là quá nhỏ cho một chiếc smartphone. Nhưng thứ khiến nó đặc biệt là toàn bộ giao diện được điều khiển bằng ngón tay, không cần bút stylus. Jobs gọi đó là "một chiếc iPod, một chiếc điện thoại, và một thiết bị internet di động" — ba trong một.

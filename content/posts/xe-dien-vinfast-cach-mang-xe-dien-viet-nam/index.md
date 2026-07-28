@@ -22,6 +22,8 @@ Ngày 2 tháng 9 năm 2017, một buổi lễ động thổ được tổ chức
 
 Tám năm sau, VinFast đã đi một hành trình dài hơn bất kỳ ai có thể tưởng tượng — đưa xe điện Việt Nam ra thị trường quốc tế, niêm yết trên Nasdaq, và trải qua những thăng trầm khắc nghiệt nhất của ngành công nghiệp ô tô toàn cầu.
 
+## Tổng quan
+
 ### Sự ra đời của một thương hiệu quốc gia
 
 VinFast ra đời trong bối cảnh ngành công nghiệp ô tô Việt Nam gần như không tồn tại. Các nhà sản xuất nước ngoài luôn thấy dễ dàng hơn khi nhập khẩu xe lắp ráp tại Thái Lan và Indonesia. Việt Nam gần như không có một thương hiệu ô tô nội địa nào có tầm cỡ quốc tế.

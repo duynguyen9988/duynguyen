@@ -22,6 +22,8 @@ Dưới đây là những bộ phim kinh dị đáng sợ nhất mọi thời đ
 
 <!--more-->
 
+## Tổng quan
+
 ### The Exorcist (1973) — Nỗi sợ tâm linh
 
 Năm 1973, William Friedkin mang lên màn ảnh câu chuyện về một bé gái 12 tuổi bị quỷ ám, và thế giới chưa từng chứng kiến điều gì như thế. The Exorcist không chỉ là phim kinh dị — nó trở thành một hiện tượng văn hóa. Khi ra rạp, khán giả ngất xỉu, nôn mửa và bỏ chạy khỏi rạp. Nhiều người bị sốc tâm lý đến mức phải nhập viện.

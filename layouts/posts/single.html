@@ -18,6 +18,7 @@
         </div>
     {{- end -}}
 
+    <div class="single-reading-layout">
     <article class="page single">
         {{- partial "breadcrumb.html" . -}}
         {{- /* Title */ -}}
@@ -132,4 +133,8 @@
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
     </article>
+    <aside class="single-reading-sidebar" aria-label="Bài viết ngẫu nhiên">
+        {{- partial "random-posts.html" . -}}
+    </aside>
+    </div>
 {{- end -}}

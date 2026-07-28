@@ -13,6 +13,8 @@ draft: false
 
 Có một nơi ở Sài Gòn mà hồi nhỏ tôi luôn nghĩ là trái tim của thành phố. Không phải Nhà thờ Đức Bà, không phải Dinh Độc Lập. Mà là một tòa nhà màu vàng với chiếc đồng hồ bốn mặt già nua, nơi mà mỗi sáng thức dậy, hàng nghìn người đổ về từ tinh mơ đến tận tối mịt. Chợ Bến Thành.
 
+## Tổng quan
+
 ### Từ bến sông đến công trường
 
 Ít ai biết rằng chợ Bến Thành không phải sinh ra ở vị trí hiện tại. Những năm đầu thế kỷ XVII, những người bán hàng rong tụ tập ven sông Sài Gòn — lúc đó còn gọi là sông Bến Nghé — gần thành Gia Định. Cái tên "Bến Thành" đã nói lên tất cả: Bến là bến sông, Thành là thành lũy. Một khu chợ nổi sơ khai, nơi ghe thuyền tấp nập qua lại.

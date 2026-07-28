@@ -16,7 +16,11 @@ resources:
 slug: lan-song-hallyu
 ---
 
+<!-- editorial-structure -->
+
 Mùa hè năm 2012, cả thế giới nhảy theo điệu Gangnam Style. Video âm nhạc của PSY — một rapper người Hàn Quốc — trở thành video đầu tiên trên YouTube cán mốc một tỷ lượt xem vào tháng 12 năm đó, đánh dấu bước ngoặt không thể quay lại của làn sóng văn hóa Hàn Quốc trên toàn cầu. Nhưng ít ai biết rằng, hành trình ấy đã bắt đầu từ hơn một thập kỷ trước, với những bộ phim truyền hình lãng mạn len lỏi vào từng gia đình ở Đông Á.
+
+## Bối cảnh và nội dung
 
 <!--more-->
 
@@ -24,17 +28,23 @@ Thuật ngữ "Hallyu" (한류, Hàn lưu) — nghĩa đen là "dòng chảy Hà
 
 **Bối cảnh lịch sử và sự ra đời của Hallyu thế hệ đầu**
 
+## Những điểm nhấn đáng chú ý
+
 Dưới chế độ độc tài quân sự của Park Chung-hee, truyền thông Hàn Quốc trải qua quá trình mở rộng nhanh chóng nhưng đồng thời chịu sự kiểm soát gắt gao từ chính phủ. Các đài phát thanh và truyền hình thương mại đầu tiên ra đời đầu thập niên 1960, nhưng phải chịu sự kiểm duyệt nghiêm ngặt của Ủy ban Đạo đức Phát thanh Truyền hình. Đến năm 1972, Hiến pháp Yushin được ban hành, chính thức hóa chế độ độc tài trên thực tế của Park, kéo theo cuộc đàn áp văn hóa với cáo buộc ảnh hưởng từ "văn hóa đồi trụy nước ngoài". Sau khi Park bị ám sát và cuộc đảo chính ngày 12 tháng 12 năm 1979, chính quyền quân sự của Chun Doo-hwan tiếp tục siết chặt truyền thông, buộc sáp nhập 29 đài tư nhân vào hai đài quốc doanh KBS và MBC vào năm 1980.
 
 Cuộc khủng hoảng tài chính châu Á 1997 trở thành chất xúc tác. Các đài truyền hình khắp Đông Á tìm kiếm chương trình rẻ hơn thay thế cho phim Nhật Bản đắt đỏ. Vào năm 2000, phim truyền hình Hàn Quốc chỉ bằng một phần tư giá phim Nhật và một phần mười giá phim Hong Kong. Sự kiện năm 1997, hai bộ phim Hàn Quốc *First Love* (Mối Tình Đầu) và *Star in My Heart* (Ngôi Sao Trong Tim) phát sóng tại Trung Quốc được coi là cột mốc khởi đầu của làn sóng Hallyu. Năm 1990, Quốc hội Hàn Quốc cấp giấy phép cho Đài Truyền hình Seoul (SBS) — đài tư nhân đầu tiên kể từ cuộc quốc hữu hóa năm 1980. Đạo luật Truyền hình Cáp được thông qua tháng 12 năm 1991, mở đường cho dịch vụ truyền hình cáp bắt đầu từ tháng 3 năm 1995, tạo tiền đề cho xuất khẩu chương trình truyền hình ra nước ngoài.
 
 **Thế hệ thứ nhất: Phim truyền hình và điện ảnh dẫn lối**
 
+## Dấu ấn của tác phẩm
+
 Hallyu 1.0 — làn sóng thế hệ thứ nhất — chủ yếu xoay quanh phim truyền hình. Bộ phim cổ trang *Jewel in the Palace* (Nàng Dae Jang Geum) năm 2003 được ghi nhận là có tác động lớn nhất đến sự phổ biến của phim truyền hình Hàn tại các quốc gia nói tiếng Trung, bao gồm Đài Loan, Hong Kong, Singapore và Trung Quốc đại lục. Tháng 5 năm 2005, tập cuối của phim đạt rating hơn 40 phần trăm tại Hong Kong — cao nhất lịch sử truyền hình nơi đây thời điểm đó. Chương trình sau đó được xuất khẩu đến hơn 80 quốc gia trên thế giới.
 
 Cùng thời gian, *Winter Sonata* công chiếu tại Nhật Bản giai đoạn 2003–2004, tạo nên một cơn sốt cuồng nhiệt, đặc biệt ở phụ nữ Nhật ở độ tuổi 30, với tài tử Bae Yong-joon trở thành biểu tượng. Thủ tướng Nhật Bản Junichiro Koizumi từng thốt lên vào năm 2004: "Bae Yong-joon còn nổi tiếng hơn tôi ở Nhật." Sau loạt phim này, định kiến về Hàn Quốc tại Nhật thay đổi mạnh mẽ, và du lịch từ Nhật đến Hàn Quốc tăng vọt, chủ yếu là phụ nữ Nhật.
 
 Về điện ảnh, từ cuối thập niên 1990, ngành công nghiệp phim Hàn bắt đầu cất cánh. Bộ phim *Shiri* (1999) phá vỡ các kỷ lục phòng vé tại Hàn Quốc và thành công về mặt thương mại tại Hong Kong và Nhật Bản. Thành công này dẫn đến việc sửa đổi Luật Khuyến khích Điện ảnh năm 1999, cho phép cá nhân tài trợ sản xuất phim. Một dòng vốn lớn đổ vào ngành, với chi phí sản xuất trung bình tăng từ 0,9 tỷ won năm 1995 lên 42 tỷ won năm 2004. Bộ phim hài lãng mạn *My Sassy Girl* (Cô Nàng Lắm Chiêu) năm 2001 gặt hái thành công phòng vé tại Hong Kong và Nhật, và là chủ đề của nhiều phiên bản làm lại quốc tế.
+
+## Đánh giá tổng quan
 
 **Âm nhạc thế hệ đầu: K-pop chập chững**
 

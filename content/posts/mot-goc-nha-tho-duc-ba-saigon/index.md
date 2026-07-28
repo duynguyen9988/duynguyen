@@ -14,6 +14,10 @@ resources:
     src: featured-image.jpg
 ---
 
+<!-- editorial-structure -->
+
 Nhà thờ Đức Bà Sài Gòn đang trong quá trình sửa chữa, nhưng vẫn giữ được vẻ đẹp cổ kính và uy nghiêm vốn có.
+
+## Điểm đến và bối cảnh
 
 ![Góc nhà thờ Đức Bà Sài Gòn](featured-image.jpg "Nhà thờ Đức Bà Sài Gòn trong lúc trùng tu")

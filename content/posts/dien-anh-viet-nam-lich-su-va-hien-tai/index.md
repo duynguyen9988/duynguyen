@@ -13,6 +13,8 @@ draft: false
 
 Năm 1923, tại Hà Nội, một nhóm trí thức Việt Nam thành lập Hãng phim Hương Kỳ. Họ bắt đầu bằng những thước phim tài liệu về lễ tang vua Khải Định và lễ đăng quang của Bảo Đại — những thước phim đầu tiên do người Việt thực hiện. Cũng từ đó, họ cho ra đời bộ phim câm đầu tiên: *Một đồng kẽm tậu được ngựa* (A Penny for a Horse). Chẳng ai ngờ rằng hành trình ấy, một thế kỷ sau, sẽ đưa điện ảnh Việt Nam lên đỉnh cao của liên hoan phim danh giá nhất thế giới.
 
+## Tổng quan
+
 ### Những bước đi đầu tiên (1920–1954)
 
 Giai đoạn 1937–1940 chứng kiến những bộ phim có tiếng đầu tiên: *Trọn với tình*, *Khúc khải hoàn* và *Toét sợ ma*, do Hãng phim Châu Á thực hiện với sự tham gia của nghệ sĩ Tám Danh. Song song đó, Đoàn phim Việt Nam do Trần Tấn Giàu dẫn dắt sản xuất *Một buổi chiều trên sông Cửu Long* và *Thầy Pháp râu đỏ*. Hai bộ phim khác — *Cánh đồng ma* và *Trận phong ba* — được thực hiện năm 1937 và 1938 tại Hồng Kông với diễn viên và lời thoại tiếng Việt, nhưng cả hai đều thất bại về tài chính.

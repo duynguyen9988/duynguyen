@@ -20,17 +20,25 @@ resources:
       alt: "Xã hội toàn cầu 2030"
 ---
 
+<!-- editorial-structure -->
+
 Jakarta, Indonesia. Một buổi sáng tháng Bảy 2026, hơn 30 triệu người thức dậy trong vùng đô thị lớn nhất thế giới. Trong số họ, một gia đình trẻ sống trong căn hộ nhỏ ở ngoại ô, làm việc từ xa cho công ty ở Singapore, mua thực phẩm từ trang trại thông minh ở Đức, và gửi con đến trường trực tuyến với giáo viên AI. Đây là xã hội 2030 — nơi ranh giới giữa địa phương và toàn cầu, giữa thực và ảo, đã tan biến.
+
+## Nguồn gốc và bối cảnh
 
 Theo Wikipedia, Trái Đất có hơn 8,2 tỷ người vào năm 2025, với mật độ 50 người/km². Gần 60% sống ở châu Á, với hơn 2,8 tỷ ở Ấn Độ và Trung Quốc. Đến 2026, con số vượt 8,3 tỷ. Nhưng điều đáng chú ý là cấu trúc dân số thay đổi thế nào. Tỷ lệ sinh toàn cầu giảm xuống 2,24 vào năm 2025, dưới mức thay thế 2,33 — từ 0,8 ở Hàn Quốc đến 6,7 ở Niger.
 
 Dân số thế giới tăng hơn ba lần trong thế kỷ 20, từ 1,65 tỷ lên 5,97 tỷ. Nhưng tốc độ đang chậm lại. UN dự báo 9,15 tỷ vào 2050 — tăng chậm hơn nhiều so với nửa thế kỷ trước.
+
+## Những giá trị nổi bật
 
 Đô thị hóa là xu hướng chủ đạo. Dân số đô thị tăng từ 29% năm 1950 lên 55,3% năm 2018. Ngày 23 tháng 5 năm 2007 là lần đầu dân số đô thị vượt nông thôn. Jakarta vượt Tokyo thành vùng đô thị lớn nhất. Các thành phố chiếm 80% GDP toàn cầu nhưng cũng tập trung ô nhiễm, tội phạm và bất bình đẳng. Công nghệ đang giúp thành phố thông minh hơn — giao thông AI, lưới điện thông minh, nhà ở thông minh.
 
 Già hóa dân số là áp lực lớn. Người dưới 15 tuổi chiếm 25,18%, người trên 65 chiếm 9,69% vào 2021. Tỷ lệ người già tăng nhanh ở Nhật, Hàn, châu Âu — nơi tỷ lệ sinh giảm mạnh và tuổi thọ tăng. Tỷ lệ phụ thuộc người già đang đặt áp lực lên lương hưu và y tế, nhưng cũng tạo ra "nền kinh tế bạc".
 
 Văn hóa toàn cầu đang thay đổi khi thế giới kết nối hơn bao giờ. TikTok và Netflix tạo ra văn hóa đại chúng toàn cầu, nhưng cũng làm dấy lên lo ngại về đồng nhất hóa và mất bản sắc địa phương. Tỷ lệ biết chữ tăng từ 66,7% năm 1979 lên 86,3%, nhưng mù chữ vì nghèo đói tập trung ở Nam Á và châu Phi cận Sahara.
+
+## Dấu ấn trong đời sống
 
 UN dự báo dân số châu Phi cận Sahara tăng từ 14,51% dân số thế giới năm 2022 lên 21,62% vào 2050, trong khi Đông Á giảm từ 20,71% xuống 15,71%. Sự dịch chuyển này tác động sâu sắc đến kinh tế, văn hóa và chính trị toàn cầu.
 

@@ -13,6 +13,8 @@ draft: false
 
 Khi Mario Puzo viết những trang đầu tiên của cuốn tiểu thuyết *The Godfather* vào cuối những năm 1960, ông đang ngập trong nợ nần. Paramount Pictures mua bản quyền tác phẩm dang dở với giá 80.000 đô la — một con số mà Puzo không thể từ chối. Ông không biết rằng câu chuyện về dòng họ Corleone sẽ trở thành một trong những tác phẩm điện ảnh vĩ đại nhất lịch sử.
 
+## Tổng quan
+
 ### Cuộc chiến giữa thiên tài và ông lớn
 
 Paramount muốn đạo diễn Sergio Leone, nhưng Leone từ chối để làm *Once Upon a Time in America*. Peter Bogdanovich, Peter Yates, Richard Brooks, Arthur Penn — tất cả đều nói không. Francis Ford Coppola, khi đó đang mắc nợ Warner Bros. hơn 400.000 đô la vì *THX 1138*, cũng từ chối. Ông gọi cuốn tiểu thuyết của Puzo là "thứ rác rưởi khá rẻ".

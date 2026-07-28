@@ -15,6 +15,8 @@ Có một câu chuyện kể rằng, thuở xa xưa, khi đất nước mới h�
 
 Đó là truyền thuyết. Nhưng sự thật địa chất còn kỳ diệu hơn thế.
 
+## Tổng quan
+
 ### 500 triệu năm kiến tạo
 
 Vịnh Hạ Long ngày nay là kết quả của nửa tỷ năm biến đổi địa chất. Vào kỷ Cambri, cách đây 570 triệu năm, khu vực này từng là đất liền, chịu sự bào mòn khắc nghiệt của mưa gió. Đến cuối kỷ Cambri, biển tràn vào nhấn chìm vùng đất. Suốt 100 triệu năm tiếp theo — từ kỷ Than Đá đến kỷ Permi — một vùng biển nông và ấm tồn tại, tạo nên lớp đá vôi dày hơn 1.000 mét.

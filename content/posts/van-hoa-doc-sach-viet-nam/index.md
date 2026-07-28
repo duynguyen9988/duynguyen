@@ -22,6 +22,8 @@ Tháng 4 năm 2026, Ngày Sách và Văn hóa đọc Việt Nam lần thứ V đ
 
 <!--more-->
 
+## Tổng quan
+
 ### Sự kiện và những con số
 
 Chủ đề năm 2026 mang một thông điệp kép: tri thức vẫn chảy từ những trang sách giấy truyền thống, nhưng đồng thời đang lan tỏa vào không gian số với tốc độ chưa từng thấy. Chuỗi hoạt động kéo dài từ giữa tháng 4 đến đầu tháng 5 đã thu hút sự tham gia của đông đảo công chúng, từ những em nhỏ lần đầu cầm cuốn sách tranh cho đến những người làm công tác nghiên cứu, xuất bản kỳ cựu.

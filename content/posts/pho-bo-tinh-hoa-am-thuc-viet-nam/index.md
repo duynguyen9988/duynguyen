@@ -21,6 +21,8 @@ Chẳng ai nhớ chính xác bát phở đầu tiên được nấu khi nào. Ch
 
 Phở bò, ngày nay đã trở thành một trong những món ăn tiêu biểu nhất của Việt Nam, nhưng ít ai biết rằng hành trình của nó bắt đầu chỉ hơn một thế kỷ trước tại các làng nhỏ thuộc tỉnh Nam Định, nơi mà theo các nhà nghiên cứu văn hóa, chính là quê hương của món phở truyền thống.
 
+## Tổng quan
+
 ### Khởi nguồn từ những làng quê Nam Định
 
 Theo sử liệu ẩm thực, phở xuất hiện trong các ghi chép vào đầu những năm 1910. Có một điều đặc biệt là mặc dù phở được xem là món ăn quốc dân của Việt Nam, nhưng lịch sử của nó lại khá ngắn ngủi so với nhiều món ăn truyền thống khác. Nhà nghiên cứu Georges Dumoutier trong công trình khảo cứu đồ sộ về ẩm thực Việt Nam năm 1907 đã không hề nhắc đến phở.
