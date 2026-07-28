@@ -17,6 +17,8 @@
             {{- end -}}
             {{- $latestPosts := first 3 $allPosts -}}
             {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
+            {{- $trendingPosts := first 4 ((after (len $latestPosts) $allPosts) | shuffle) -}}
+            {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
 
             {{- $pages := $allPosts -}}
             {{- with $posts.paginate | default .Site.Params.paginate -}}
