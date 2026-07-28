@@ -14,7 +14,7 @@
     };
 
     const loadAnalytics = () => {
-        if (loaded || doNotTrack() || !window.duyConsent || !window.duyConsent.analyticsAllowed()) return;
+        if (loaded || doNotTrack()) return;
         loaded = true;
         const script = document.createElement('script');
         script.async = true;
@@ -29,7 +29,6 @@
     };
 
     loadAnalytics();
-    window.addEventListener('duy-consent-updated', loadAnalytics);
 })();
 </script>
 {{- end -}}

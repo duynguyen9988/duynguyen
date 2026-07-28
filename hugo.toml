@@ -104,19 +104,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.verification]
     google = ""
 
-  # Google Analytics 4 — tạo property tại analytics.google.com, lấy Measurement ID (dạng G-XXXXXXXXXX)
-  # Tham khảo: https://support.google.com/analytics/answer/9304153
+  # Google Analytics 4 measurement.
   [params.analytics]
     enable = true
     [params.analytics.google]
       id = "G-PGH7K78BSR"
       respectDoNotTrack = true
     bing = ""
-
-  # Analytics and future advertising are loaded only after the visitor grants consent.
-  [params.consent]
-    enable = true
-    policyURL = "privacy-policy/"
 
   # Keep disabled until an AdSense account and a Google-certified CMP are ready.
   [params.adsense]
