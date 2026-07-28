@@ -107,9 +107,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Google Analytics 4 — tạo property tại analytics.google.com, lấy Measurement ID (dạng G-XXXXXXXXXX)
   # Tham khảo: https://support.google.com/analytics/answer/9304153
   [params.analytics]
-    enable = false
+    enable = true
     [params.analytics.google]
-      id = ""
+      id = "G-PGH7K78BSR"
       respectDoNotTrack = true
     bing = ""
 
