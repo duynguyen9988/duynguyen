@@ -16,31 +16,28 @@
                 {{- $allPosts = where $allPosts "Params.hiddenfromhomepage" "!=" true -}}
             {{- end -}}
             {{- $latestPosts := first 3 $allPosts -}}
+            {{- $recentPosts := first 6 (after (len $latestPosts) $allPosts) -}}
+            {{- $featuredPostCount := add (len $latestPosts) (len $recentPosts) -}}
+            {{- $trendingPosts := first 4 ((after $featuredPostCount $allPosts) | shuffle) -}}
+            {{- partial "home-topic-nav.html" . -}}
             {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
-            {{- $trendingPosts := first 4 ((after (len $latestPosts) $allPosts) | shuffle) -}}
             {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
 
-            {{- $pages := $allPosts -}}
-            {{- with $posts.paginate | default .Site.Params.paginate -}}
-                {{- $pages = $.Paginate $pages . -}}
-            {{- else -}}
-                {{- $pages = .Paginate $pages -}}
-            {{- end -}}
-
-            <section class="all-posts-section" aria-labelledby="all-posts-title">
+            <section class="recent-posts-section" aria-labelledby="recent-posts-title">
                 <header class="home-section-heading">
-                    <p class="home-section-eyebrow">Khám phá</p>
-                    <h2 id="all-posts-title">Tất cả bài viết</h2>
+                    <h2 id="recent-posts-title">Mới cập nhật</h2>
                 </header>
                 <div class="home-layout">
                     <div class="home-posts-list">
-                        {{- range $pages.Pages -}}
+                        {{- range $recentPosts -}}
                             {{- partial "post-card.html" . -}}
                         {{- end -}}
-                        {{- partial "paginator.html" . -}}
+                        {{- with .Site.GetPage "section" "posts" -}}
+                            <a class="recent-posts-link" href="{{ .RelPermalink }}">Xem tất cả bài viết <span aria-hidden="true">&rarr;</span></a>
+                        {{- end -}}
                     </div>
                     <aside class="home-sidebar">
-                        {{- partial "random-posts.html" . -}}
+                        {{- partial "home-topic-sidebar.html" . -}}
                     </aside>
                 </div>
             </section>

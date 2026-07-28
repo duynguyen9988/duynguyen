@@ -1,0 +1,16 @@
+{{- $categorySlugs := slice "am-thuc" "cong-nghe" "du-lich" "giai-tri" "kinh-nghiem-song" "mua-sam" "phim" "van-hoa" -}}
+<section class="sidebar-topics" aria-labelledby="sidebar-topics-title">
+    <h2 id="sidebar-topics-title" class="sidebar-title">Chủ đề</h2>
+    <ul class="sidebar-topic-list">
+        {{- range $categorySlugs -}}
+            {{- with $.Site.GetPage (printf "/categories/%s" .) -}}
+                <li>
+                    <a href="{{ .RelPermalink }}">
+                        <span>{{ .Title }}</span>
+                        <span class="sidebar-topic-count">{{ len .RegularPages }}</span>
+                    </a>
+                </li>
+            {{- end -}}
+        {{- end -}}
+    </ul>
+</section>
