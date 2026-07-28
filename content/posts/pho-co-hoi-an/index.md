@@ -1,13 +1,15 @@
-+++
-title = "Phố cổ Hội An — Hành trình từ thương cảng sầm uất đến di sản thế giới"
-slug = "pho-co-hoi-an"
-date = 2026-07-27T01:41:00+07:00
-description = "Từ một thương cảng nhộn nhịp bậc nhất Đông Nam Á, phố cổ Hội An đã trở thành di sản UNESCO với kiến trúc độc đáo và vẻ đẹp vượt thời gian."
-tags = ["hoi an", "di san unesco", "du lich viet nam", "pho co"]
-categories = ["du-lich"]
-resources = [{name = "featured-image", src = "featured-image.jpg"}]
-draft = false
-+++
+---
+title: "Phố cổ Hội An — Hành trình từ thương cảng sầm uất đến di sản thế giới"
+slug: "pho-co-hoi-an"
+date: 2026-07-27T01:41:00+07:00
+description: "Từ một thương cảng nhộn nhịp bậc nhất Đông Nam Á, phố cổ Hội An đã trở thành di sản UNESCO với kiến trúc độc đáo và vẻ đẹp vượt thời gian."
+tags: [hoi an, di san unesco, du lich viet nam, pho co]
+categories: [du-lich]
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+draft: false
+---
 
 Nằm bên bờ sông Thu Bồn, cách Đà Nẵng hai mươi tám cây số về phía nam, Hội An hiện ra như một bức tranh cổ tích còn nguyên vẹn giữa nhịp sống hiện đại. Những mái ngói rêu phong, những bức tường vàng trầm mặc, và chiếc cầu Nhật Bản hơn bốn trăm năm tuổi — tất cả kể một câu chuyện dài về một thời vàng son mà ít nơi nào trên dải đất Việt Nam còn giữ được.
 
