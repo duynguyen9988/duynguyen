@@ -264,7 +264,7 @@ def write_current_recipe(recipe: dict[str, Any], published_at: datetime) -> None
             "title": recipe["title"],
             "description": normalized(recipe["description"]),
             "slug": recipe["id"],
-            "pagePath": f"/posts/{recipe['id']}",
+            "pagePath": f"/{recipe['id']}",
             "publishedAt": published_at.isoformat(),
             "displayDate": published_at.strftime("%d/%m/%Y"),
         }
@@ -290,7 +290,7 @@ def main() -> int:
 
     now = datetime.now(TIMEZONE)
     run_date = args.date or now.date()
-    published_at = now if args.date is None else datetime.combine(run_date, datetime.min.time(), TIMEZONE).replace(hour=7, minute=5)
+    published_at = now
     recipe = select_recipe(recipes, published_recipe_ids(), run_date)
     if recipe is None:
         print("Every recipe brief has already been published; nothing to do.")

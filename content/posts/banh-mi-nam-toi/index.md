@@ -1,7 +1,7 @@
 ---
 title: "Bánh mì nấm tỏi và rau thơm"
 description: "Món chay cho hai người — Bánh mì chay nhanh cho hai người với nấm xào tỏi, rau thơm và rau củ giòn; không dùng sốt có trứng.."
-date: 2026-07-29T07:05:00+07:00
+date: 2026-07-29T00:55:00+07:00
 slug: banh-mi-nam-toi
 categories:
   - am-thuc
