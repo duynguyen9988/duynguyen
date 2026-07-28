@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import sys
 import xml.etree.ElementTree as ET
@@ -31,7 +32,7 @@ def append_summary(lines: list[str]) -> None:
         summary.write("\n".join(lines) + "\n")
 
 
-def fetch_public_sitemap(sitemap_url: str) -> tuple[int, str, int]:
+def fetch_public_sitemap(sitemap_url: str) -> tuple[int, str, list[str]]:
     request = Request(
         sitemap_url,
         headers={
@@ -63,23 +64,23 @@ def fetch_public_sitemap(sitemap_url: str) -> tuple[int, str, int]:
     if root.tag != EXPECTED_ROOT:
         raise CheckFailed(f"Unexpected sitemap root element: {root.tag}")
 
-    url_count = len(root.findall(f"{{{SITEMAP_NAMESPACE}}}url"))
-    if url_count == 0:
+    urls: list[str] = []
+    for entry in root.findall(f"{{{SITEMAP_NAMESPACE}}}url"):
+        location = entry.find(f"{{{SITEMAP_NAMESPACE}}}loc")
+        if location is not None and location.text:
+            urls.append(location.text.strip())
+
+    if not urls:
         raise CheckFailed("Public sitemap contains no URL entries.")
 
-    return status_code, content_type, url_count
+    return status_code, content_type, urls
 
 
 def parse_timestamp(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-def check_search_console(
-    credentials_file: Path,
-    site_url: str,
-    sitemap_url: str,
-    max_age_hours: int,
-) -> tuple[str, int, int, bool]:
+def build_search_console_service(credentials_file: Path):
     try:
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
@@ -92,7 +93,16 @@ def check_search_console(
         credentials_file,
         scopes=scopes,
     )
-    service = build("searchconsole", "v1", credentials=credentials, cache_discovery=False)
+    return build("searchconsole", "v1", credentials=credentials, cache_discovery=False)
+
+
+def check_search_console(
+    service,
+    site_url: str,
+    sitemap_url: str,
+    max_age_hours: int,
+) -> tuple[str, int, int, bool]:
+    from googleapiclient.errors import HttpError
 
     try:
         sitemap = service.sitemaps().get(
@@ -131,6 +141,71 @@ def check_search_console(
     return last_downloaded, errors, warnings, is_pending
 
 
+def inspect_urls(
+    service,
+    site_url: str,
+    urls: list[str],
+    max_urls: int,
+) -> list[dict[str, str]]:
+    from googleapiclient.errors import HttpError
+
+    results: list[dict[str, str]] = []
+    for url in urls[:max_urls]:
+        try:
+            response = service.urlInspection().index().inspect(
+                body={
+                    "inspectionUrl": url,
+                    "siteUrl": site_url,
+                    "languageCode": "en-US",
+                }
+            ).execute()
+            status = response.get("inspectionResult", {}).get("indexStatusResult", {})
+            results.append(
+                {
+                    "url": url,
+                    "verdict": status.get("verdict", "VERDICT_UNSPECIFIED"),
+                    "coverageState": status.get("coverageState", "Unknown"),
+                    "indexingState": status.get("indexingState", "INDEXING_STATE_UNSPECIFIED"),
+                    "robotsTxtState": status.get("robotsTxtState", "ROBOTS_TXT_STATE_UNSPECIFIED"),
+                    "pageFetchState": status.get("pageFetchState", "PAGE_FETCH_STATE_UNSPECIFIED"),
+                    "lastCrawlTime": status.get("lastCrawlTime", ""),
+                }
+            )
+        except HttpError as error:
+            results.append(
+                {
+                    "url": url,
+                    "verdict": "API_ERROR",
+                    "coverageState": f"HTTP {error.resp.status}",
+                    "indexingState": "",
+                    "robotsTxtState": "",
+                    "pageFetchState": "",
+                    "lastCrawlTime": "",
+                }
+            )
+
+    return results
+
+
+def write_index_report(
+    report_file: Path,
+    site_url: str,
+    sitemap_url: str,
+    results: list[dict[str, str]],
+) -> None:
+    report_file.parent.mkdir(parents=True, exist_ok=True)
+    report = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "siteUrl": site_url,
+        "sitemapUrl": sitemap_url,
+        "indexedCount": sum(result["verdict"] == "PASS" for result in results),
+        "excludedCount": sum(result["verdict"] == "NEUTRAL" for result in results),
+        "errorCount": sum(result["verdict"] in {"FAIL", "API_ERROR"} for result in results),
+        "results": results,
+    }
+    report_file.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Monitor the public sitemap and its Google Search Console fetch status."
@@ -155,16 +230,37 @@ def main() -> int:
         default=168,
         help="Fail when Google's last successful fetch is older than this many hours.",
     )
+    parser.add_argument(
+        "--inspect-urls",
+        action="store_true",
+        help="Inspect each sitemap URL using the Google URL Inspection API.",
+    )
+    parser.add_argument(
+        "--max-urls",
+        type=int,
+        default=500,
+        help="Maximum number of sitemap URLs to inspect in one manual run.",
+    )
+    parser.add_argument(
+        "--report-file",
+        type=Path,
+        default=Path("reports/google-index-report.json"),
+        help="Where to write the URL Inspection report when --inspect-urls is used.",
+    )
     args = parser.parse_args()
 
     summary = ["## Sitemap monitor", "", "| Check | Result |", "| --- | --- |"]
     try:
-        status, content_type, url_count = fetch_public_sitemap(args.sitemap_url)
+        status, content_type, sitemap_urls = fetch_public_sitemap(args.sitemap_url)
         summary.append(
-            f"| Public sitemap | HTTP {status}; {content_type}; {url_count} URL entries |"
+            f"| Public sitemap | HTTP {status}; {content_type}; {len(sitemap_urls)} URL entries |"
         )
 
         if not args.credentials_file:
+            if args.inspect_urls:
+                raise CheckFailed(
+                    "Cannot inspect individual URLs until the Search Console service-account secret is configured."
+                )
             summary.append("| Google Search Console | Not checked: service-account secret is not configured |")
             append_summary(summary)
             print("Public sitemap is valid. Google Search Console API is not configured yet.")
@@ -174,8 +270,9 @@ def main() -> int:
         if not credentials_file.is_file():
             raise CheckFailed("The configured Search Console credentials file does not exist.")
 
+        service = build_search_console_service(credentials_file)
         last_downloaded, errors, warnings, is_pending = check_search_console(
-            credentials_file,
+            service,
             args.site_url,
             args.sitemap_url,
             args.max_age_hours,
@@ -183,6 +280,18 @@ def main() -> int:
         summary.append(f"| Google last downloaded | {last_downloaded} |")
         summary.append(f"| Google errors / warnings | {errors} / {warnings} |")
         summary.append(f"| Pending | {is_pending} |")
+
+        if args.inspect_urls:
+            results = inspect_urls(service, args.site_url, sitemap_urls, args.max_urls)
+            write_index_report(args.report_file, args.site_url, args.sitemap_url, results)
+            indexed = sum(result["verdict"] == "PASS" for result in results)
+            excluded = sum(result["verdict"] == "NEUTRAL" for result in results)
+            failed = sum(result["verdict"] in {"FAIL", "API_ERROR"} for result in results)
+            summary.append(
+                f"| URL Inspection | {len(results)} inspected: {indexed} indexed, "
+                f"{excluded} excluded, {failed} errors |"
+            )
+            summary.append(f"| URL Inspection report | `{args.report_file}` |")
         append_summary(summary)
         print(f"Google Search Console last downloaded the sitemap at {last_downloaded}.")
         return 0

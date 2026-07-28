@@ -11,6 +11,16 @@ on:
         required: false
         default: '168'
         type: string
+      inspect_urls:
+        description: 'Inspect every sitemap URL using Google URL Inspection API (manual only)'
+        required: false
+        default: false
+        type: boolean
+      max_urls:
+        description: 'Maximum URLs to inspect when inspect_urls is enabled'
+        required: false
+        default: '500'
+        type: string
 
 permissions:
   contents: read
@@ -27,6 +37,8 @@ jobs:
       SITEMAP_URL: https://duynguyen9988.github.io/duynguyen/sitemap.xml
       GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT }}
       MAX_AGE_HOURS: ${{ inputs.max_age_hours || '168' }}
+      INSPECT_URLS: ${{ inputs.inspect_urls && 'true' || 'false' }}
+      MAX_URLS: ${{ inputs.max_urls || '500' }}
 
     steps:
       - uses: actions/checkout@v6
@@ -57,4 +69,19 @@ jobs:
           if [ -n "${GSC_CREDENTIALS_FILE:-}" ]; then
             args+=(--credentials-file "$GSC_CREDENTIALS_FILE")
           fi
+          if [ "$INSPECT_URLS" = "true" ]; then
+            args+=(
+              --inspect-urls
+              --max-urls "$MAX_URLS"
+              --report-file reports/google-index-report.json
+            )
+          fi
           python3 scripts/check-sitemap-status.py "${args[@]}"
+
+      - name: Upload URL Inspection report
+        if: ${{ always() && env.INSPECT_URLS == 'true' && hashFiles('reports/google-index-report.json') != '' }}
+        uses: actions/upload-artifact@v5
+        with:
+          name: google-index-report
+          path: reports/google-index-report.json
+          retention-days: 30

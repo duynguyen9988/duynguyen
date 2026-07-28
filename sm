@@ -16,4 +16,9 @@ if [[ -z "${GH_TOKEN:-}" && -r "$project_root/.git_token.local" ]]; then
   export GH_TOKEN="$(tr -d '[:space:]' < "$project_root/.git_token.local")"
 fi
 
+if [[ "${1:-}" == "index" ]]; then
+  shift
+  set -- --field inspect_urls=true "$@"
+fi
+
 exec gh workflow run sitemap-monitor.yml --repo "$repository" --ref main "$@"
