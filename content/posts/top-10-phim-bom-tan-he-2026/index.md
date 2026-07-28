@@ -62,4 +62,4 @@ Chốt lại mùa hè là Người Nhện. Sau sự kiện của No Way Home, Pe
 
 Mùa hè 2026 sắp khép lại, nhưng những gì nó để lại là một bức tranh điện ảnh đầy tham vọng: từ những thương hiệu kỳ cựu như Toy Story, Star Wars đến những tên tuổi lớn như Nolan và Spielberg, từ nỗi sợ UFO đến nụ cười của Minions. Và còn đó Avengers: Doomsday và Dune: Part Three đang chờ ở cuối năm. Có lẽ chưa bao giờ điện ảnh lại sôi động đến thế.
 
-Nếu muốn khám phá thêm về thế giới điện ảnh và giải trí 2026, hãy xem bài viết về [văn hóa giải trí Việt Nam 2026](/duynguyen/van-hoa-giai-tri-viet-nam-2026/) và bài [review chi tiết Disclosure Day của Spielberg](/duynguyen/thoi-khac-cong-bo/).
+Nếu muốn khám phá thêm về thế giới điện ảnh và giải trí 2026, hãy xem bài viết về [văn hóa giải trí Việt Nam 2026]({{< relurl "van-hoa-giai-tri-viet-nam-2026/" >}}) và bài [review chi tiết Disclosure Day của Spielberg]({{< relurl "thoi-khac-cong-bo/" >}}).

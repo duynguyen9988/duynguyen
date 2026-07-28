@@ -12,14 +12,15 @@
 
 ## Content Integrity — NO FABRICATION
 
-**Every factual claim in every post MUST come from the user-provided Wikipedia source.** Never guess, infer, or fabricate any detail.
+**Every factual claim in every post MUST be traceable to evidence. Never guess, infer, or fabricate any detail.** The full pre-publish process is in [`docs/editorial-checklist.md`](docs/editorial-checklist.md); it is a human editorial gate, not a Hugo build/deploy gate.
 
 Rules:
-1. **Only Wikipedia content.** If the source is a Wikipedia URL, every fact in the post must be extracted from that page. No outside knowledge, no inference, no fabrication.
-2. **Translate faithfully.** From English Wikipedia → Vietnamese. Preserve all facts. Do not add editorial opinion, commentary, or unverified claims.
-3. **No unauthoritative sources.** Do NOT cite other websites, reviews, or unofficial sources unless they are part of the Wikipedia article text.
-4. **If raw text provided by user** — use only that text. Do not supplement with your own knowledge.
-5. **When in doubt, omit.** A shorter truthful post beats a long fabricated one.
+1. **Source-bound assignments stay source-bound.** If the user supplies a Wikipedia URL or raw text as the source, every factual claim must be extracted from that source. Do not add outside facts, inference, personal experiences or unverified commentary.
+2. **Translate faithfully.** From English Wikipedia → Vietnamese. Preserve the source's meaning; do not turn it into a review, test, interview or first-hand report.
+3. **Label the article honestly.** A source-bound article is a *tổng hợp có nguồn*. A review/travel/product experience needs a real first-hand experience, a stated method and evidence; it must never be simulated.
+4. **Use appropriate sources for changing facts.** Prices, opening hours, product specifications, release dates, rankings and current events require a primary/official source and a date checked. Wikipedia is not sufficient on its own for those claims.
+5. **If raw text is provided by user** — use only that text unless the user explicitly authorizes additional sources.
+6. **When in doubt, omit.** A shorter truthful post beats a long fabricated one.
 
 Penalty: any fabricated content undermines blog credibility. Always err on the side of saying nothing vs. saying something unverified.
 

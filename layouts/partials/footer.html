@@ -5,7 +5,7 @@
                 <div class="footer-section">
                     <h4 class="footer-section-title">Về blog</h4>
                     <div class="footer-section-content footer-about">
-                        <p>viết linh tinh về đồ ăn và phim.</p>
+                        <p>Bài viết có nguồn và góc nhìn riêng về văn hóa, ẩm thực, phim ảnh, công nghệ và đời sống.</p>
                         {{- with index hugo.Data "ping-google" -}}
                             {{- $checkedAt := or (index . "checkedAt") (index . "indexed") -}}
                             <div class="ping-status">
@@ -32,7 +32,7 @@
                     <div class="footer-section-content">{{- partial "tag-heatmap.html" . -}}</div>
                 </div>
                 <div class="footer-section">
-                    <h4 class="footer-section-title">Section #3</h4>
+                    <h4 class="footer-section-title">Thông tin</h4>
                     <div class="footer-section-content footer-nav-links">
                         <nav aria-label="Navigation">
                             <ul>
@@ -49,6 +49,19 @@
                                 {{- end -}}
                             </ul>
                         </nav>
+                        {{- with .Site.Menus.footer -}}
+                        <nav aria-label="Chính sách website">
+                            <ul>
+                                {{- range . -}}
+                                    {{- $url := .URL | relLangURL -}}
+                                    {{- with .Page -}}
+                                        {{- $url = .RelPermalink -}}
+                                    {{- end -}}
+                                    <li><a href="{{ $url }}">{{ .Name }}</a></li>
+                                {{- end -}}
+                            </ul>
+                        </nav>
+                        {{- end -}}
                     </div>
                 </div>
             </div>

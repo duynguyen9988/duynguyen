@@ -95,7 +95,7 @@ Eliminate CDN deps, external image URLs & unused features (search, dark mode, sh
 3. All images must be WebP (processed by Hugo). No JPEG/PNG/GIF/SVG as final output
 4. No lazysizes/loading SVG — direct `src`/`srcset` with `loading="lazy"`
 5. No CDN URLs, no live image URLs — fully self-hosted
-6. All internal cross-links use full path: `/duynguyen/slug/` (NO `/posts/` — permalinks strips it)
+6. Internal Markdown links use `{{< relurl "slug/" >}}`, never a hard-coded `/duynguyen/` prefix; templates use `.RelPermalink`. This keeps links valid on GitHub Pages and a future custom domain. Do not use `/posts/` — permalinks strips it.
 7. Always include `categories` in frontmatter — **slug format only** (lowercase, hyphens, no diacritics)
 8. Build locally before commit
 9. Prevent future dates — run `TZ=Asia/Saigon date` before writing

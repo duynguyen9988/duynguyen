@@ -38,4 +38,4 @@ Gộp nhóm tác vụ cùng loại là mẹo chuyên nghiệp giúp tránh chi p
 
 Hãy bắt đầu từ hôm nay. Viết ra ba đến năm việc quan trọng nhất cần làm vào sáng mai. Đặt deadline cho từng việc. Tắt thông báo khi làm việc. Và nhớ: nghỉ ngơi cũng là một phần của năng suất.
 
-Nếu bạn muốn tăng tốc hơn nữa, hãy kết hợp những phương pháp trên với các [thủ thuật AI và tự động hóa 2026](/duynguyen/thu-thuat-ai-cong-nghe-2026/) — công cụ và phương pháp kết hợp với nhau sẽ giúp bạn làm được nhiều hơn với ít nỗ lực hơn.
+Nếu bạn muốn tăng tốc hơn nữa, hãy kết hợp những phương pháp trên với các [thủ thuật AI và tự động hóa 2026]({{< relurl "thu-thuat-ai-cong-nghe-2026/" >}}) — công cụ và phương pháp kết hợp với nhau sẽ giúp bạn làm được nhiều hơn với ít nỗ lực hơn.

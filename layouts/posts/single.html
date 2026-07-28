@@ -35,6 +35,9 @@
             <div class="post-meta-line">
                 {{- $author := $params.author | default .Site.Params.Author.name | default (T "author") -}}
                 {{- $authorLink := $params.authorlink | default .Site.Params.Author.link | default .Site.Home.RelPermalink -}}
+                {{- if not (urls.Parse $authorLink).Host -}}
+                    {{- $authorLink = $authorLink | relURL -}}
+                {{- end -}}
                 <span class="post-author">
                     {{- $options := dict "Class" "author" "Destination" $authorLink "Title" "Author" "Rel" "author" "Icon" (dict "Class" "fas fa-user-circle") "Content" $author -}}
                     {{- partial "plugin/a.html" $options -}}

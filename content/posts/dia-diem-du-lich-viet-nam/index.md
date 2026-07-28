@@ -44,4 +44,4 @@ Năm 2026, du lịch Việt Nam không chỉ có biển xanh cát trắng, mà c
 
 ## Dư vị của chuyến đi
 
-Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế](/duynguyen/top-10-quan-bun-bo-hue-sai-gon/), [lẩu cho ngày mưa](/duynguyen/top-10-quan-lau-sai-gon/), [cà phê vỉa hè](/duynguyen/ca-phe-via-he-sai-gon/) và [chợ đêm phố ẩm thực](/duynguyen/cho-dem-am-thuc-duong-pho-sai-gon/) — những trải nghiệm làm nên hồn cốt của thành phố.
+Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}), [lẩu cho ngày mưa]({{< relurl "top-10-quan-lau-sai-gon/" >}}), [cà phê vỉa hè]({{< relurl "ca-phe-via-he-sai-gon/" >}}) và [chợ đêm phố ẩm thực]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) — những trải nghiệm làm nên hồn cốt của thành phố.

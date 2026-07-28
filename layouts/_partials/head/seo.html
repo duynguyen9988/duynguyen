@@ -1,0 +1,45 @@
+{{- with .Site.Params.verification.google -}}
+    <meta name="google-site-verification" content="{{ . }}">
+{{- end -}}
+{{- with .Site.Params.verification.bing -}}
+    <meta name="msvalidate.01" content="{{ . }}">
+{{- end -}}
+{{- with .Site.Params.verification.yandex -}}
+    <meta name="yandex-verification" content="{{ . }}">
+{{- end -}}
+{{- with .Site.Params.verification.pinterest -}}
+    <meta name="p:domain_verify" content="{{ . }}">
+{{- end -}}
+
+{{- $logoPath := .Site.Params.page.seo.publisher.logoUrl | default "images/duy-nguyen-logo.webp" | strings.TrimPrefix "/" -}}
+{{- $logoURL := $logoPath | absURL -}}
+{{- $publisherName := .Site.Params.page.seo.publisher.name | default .Site.Title -}}
+{{- $authorName := .Site.Params.Author.name | default .Site.Title -}}
+{{- $authorURL := .Site.Params.Author.link | default .Site.Home.RelPermalink | absURL -}}
+
+{{- if .IsHome -}}
+    {{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" .Permalink) "name" .Site.Title "url" .Permalink "inLanguage" .Site.Language.Lang "description" (.Site.Params.description | plainify) -}}
+    {{- $organization := dict "@type" "Organization" "@id" (printf "%s#organization" .Permalink) "name" $publisherName "url" .Permalink "logo" (dict "@type" "ImageObject" "url" $logoURL "width" 512 "height" 512) -}}
+    {{- dict "@context" "https://schema.org" "@graph" (slice $website $organization) | jsonify | safeJS | printf `<script type="application/ld+json">%s</script>` | safeHTML -}}
+{{- else if and .IsPage (eq .Section "posts") -}}
+    {{- $socialImage := false -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+        {{- $socialImage = .Fill "1200x630 jpg q82" -}}
+    {{- end -}}
+    {{- $article := dict "@context" "https://schema.org" "@type" "BlogPosting" "@id" (printf "%s#article" .Permalink) "headline" (.Title | plainify) "description" (.Description | default .Site.Params.description | plainify) "inLanguage" .Site.Language.Lang "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "url" .Permalink "author" (dict "@type" "Person" "name" $authorName "url" $authorURL) "publisher" (dict "@type" "Organization" "name" $publisherName "url" .Site.Home.Permalink "logo" (dict "@type" "ImageObject" "url" $logoURL "width" 512 "height" 512)) -}}
+    {{- if not .PublishDate.IsZero -}}
+        {{- $article = merge $article (dict "datePublished" (.PublishDate.Format "2006-01-02T15:04:05-07:00")) -}}
+    {{- else if not .Date.IsZero -}}
+        {{- $article = merge $article (dict "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")) -}}
+    {{- end -}}
+    {{- if not .Lastmod.IsZero -}}
+        {{- $article = merge $article (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")) -}}
+    {{- end -}}
+    {{- with .Params.tags -}}
+        {{- $article = merge $article (dict "keywords" (delimit . ", ")) -}}
+    {{- end -}}
+    {{- if $socialImage -}}
+        {{- $article = merge $article (dict "image" (slice (dict "@type" "ImageObject" "url" $socialImage.Permalink "width" $socialImage.Width "height" $socialImage.Height))) -}}
+    {{- end -}}
+    {{- $article | jsonify | safeJS | printf `<script type="application/ld+json">%s</script>` | safeHTML -}}
+{{- end -}}

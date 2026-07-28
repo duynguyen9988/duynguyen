@@ -1,0 +1,35 @@
+{{- $analytics := .Site.Params.analytics | default dict -}}
+{{- $googleID := $analytics.google.id -}}
+{{- if and $analytics.enable $googleID -}}
+<script>
+(() => {
+    const measurementID = {{ $googleID | jsonify }};
+    const respectDoNotTrack = {{ $analytics.google.respectDoNotTrack | default true }};
+    let loaded = false;
+
+    const doNotTrack = () => {
+        if (!respectDoNotTrack) return false;
+        const value = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+        return value === '1' || value === 'yes';
+    };
+
+    const loadAnalytics = () => {
+        if (loaded || doNotTrack() || !window.duyConsent || !window.duyConsent.analyticsAllowed()) return;
+        loaded = true;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementID);
+        script.onload = () => {
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+            window.gtag('js', new Date());
+            window.gtag('config', measurementID, { anonymize_ip: true });
+        };
+        document.head.appendChild(script);
+    };
+
+    loadAnalytics();
+    window.addEventListener('duy-consent-updated', loadAnalytics);
+})();
+</script>
+{{- end -}}

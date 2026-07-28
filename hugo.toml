@@ -24,7 +24,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.author]
     name = "Duy Nguyen"
     email = "duynguyen9988@gmail.com"
-    link = "https://github.com/duynguyen9988"
+    link = "tac-gia/duy-nguyen/"
+    bio = "Người sáng lập và chịu trách nhiệm biên tập Duy Nguyen Blog."
+    avatar = "images/duy-nguyen-logo.webp"
 
   [params.header]
     desktopMode = "fixed"
@@ -111,15 +113,25 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       respectDoNotTrack = true
     bing = ""
 
+  # Analytics and future advertising are loaded only after the visitor grants consent.
+  [params.consent]
+    enable = true
+    policyURL = "privacy-policy/"
+
+  # Keep disabled until an AdSense account and a Google-certified CMP are ready.
+  [params.adsense]
+    enable = false
+    clientID = ""
+
   [params.seo]
-    image = "/images/avatar.png"
-    thumbnailUrl = "/images/avatar.png"
+    image = "images/duy-nguyen-logo.webp"
+    thumbnailUrl = "images/duy-nguyen-logo.webp"
 
   [params.page.seo]
     images = []
     [params.page.seo.publisher]
-      name = "Duy Nguyen"
-      logoUrl = "/images/avatar.png"
+      name = "Duy Nguyen Blog"
+      logoUrl = "images/duy-nguyen-logo.webp"
 
   [params.page]
     hiddenFromHomePage = false
@@ -213,3 +225,24 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "sitemap"
     name = "Sitemap"
     url = "/sitemap/"
+
+  [[menu.footer]]
+    weight = 1
+    identifier = "privacy"
+    name = "Quyền riêng tư"
+    url = "/privacy-policy/"
+  [[menu.footer]]
+    weight = 2
+    identifier = "editorial"
+    name = "Chính sách biên tập"
+    url = "/editorial-policy/"
+  [[menu.footer]]
+    weight = 3
+    identifier = "terms"
+    name = "Điều khoản"
+    url = "/terms-of-use/"
+  [[menu.footer]]
+    weight = 4
+    identifier = "contact"
+    name = "Liên hệ"
+    url = "/contact/"

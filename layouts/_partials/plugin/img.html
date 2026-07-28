@@ -2,7 +2,6 @@
 {{- $width := .Width -}}
 {{- $height := .Height -}}
 {{- $linked := .Linked | default false -}}
-{{- $original := $src -}}
 {{- $alt := .Alt | default "" -}}
 {{- $caption := .Caption -}}
 {{- $fetchpriority := .Fetchpriority | default "low" -}}
@@ -13,7 +12,6 @@
 {{- with dict "Path" $src "Resources" .Resources | partial "function/resource.html" -}}
     {{- if not (eq .MediaType.SubType "svg") -}}
         {{- $res := . -}}
-        {{- $original = .RelPermalink -}}
         {{- $maxW := 1600 -}}
         {{- $maxH := 1200 -}}
         {{- $fit := printf "%dx%d" $maxW $maxH -}}

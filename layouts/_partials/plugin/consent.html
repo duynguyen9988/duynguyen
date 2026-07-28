@@ -1,0 +1,67 @@
+{{- $consent := .Site.Params.consent | default dict -}}
+{{- $analytics := .Site.Params.analytics | default dict -}}
+{{- $adsense := .Site.Params.adsense | default dict -}}
+{{- $gaID := $analytics.google.id -}}
+{{- $showConsent := and $consent.enable (or (and $analytics.enable $gaID) $adsense.enable) -}}
+{{- if $showConsent -}}
+<section class="consent-banner" id="consent-banner" role="dialog" aria-modal="false" aria-labelledby="consent-title" hidden>
+    <div class="consent-banner__content">
+        <h2 id="consent-title">Lựa chọn quyền riêng tư</h2>
+        <p>Chúng tôi chỉ tải công cụ phân tích hoặc quảng cáo không thiết yếu sau khi bạn đồng ý. Xem <a href="{{ $consent.policyURL | default "privacy-policy/" | relURL }}">Chính sách quyền riêng tư</a>.</p>
+    </div>
+    <div class="consent-banner__actions">
+        <button type="button" class="consent-button consent-button--secondary" data-consent-action="reject">Từ chối</button>
+        <button type="button" class="consent-button consent-button--secondary" data-consent-action="analytics">Chỉ cho phép phân tích</button>
+        <button type="button" class="consent-button" data-consent-action="accept">Chấp nhận</button>
+    </div>
+</section>
+<script>
+(() => {
+    const storageKey = 'duy-nguyen-consent-v1';
+    const denied = { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' };
+    let choice = null;
+
+    try {
+        const saved = JSON.parse(localStorage.getItem(storageKey));
+        if (saved && typeof saved.analytics === 'boolean' && typeof saved.ads === 'boolean') choice = saved;
+    } catch (_) {}
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', denied);
+
+    const updateGoogleConsent = (value) => {
+        window.gtag('consent', 'update', {
+            analytics_storage: value.analytics ? 'granted' : 'denied',
+            ad_storage: value.ads ? 'granted' : 'denied',
+            ad_user_data: value.ads ? 'granted' : 'denied',
+            ad_personalization: value.ads ? 'granted' : 'denied'
+        });
+    };
+
+    const publishChoice = (value) => {
+        choice = value;
+        try { localStorage.setItem(storageKey, JSON.stringify(value)); } catch (_) {}
+        updateGoogleConsent(value);
+        window.dispatchEvent(new CustomEvent('duy-consent-updated', { detail: value }));
+        const banner = document.getElementById('consent-banner');
+        if (banner) banner.hidden = true;
+    };
+
+    window.duyConsent = {
+        analyticsAllowed: () => Boolean(choice && choice.analytics),
+        adsAllowed: () => Boolean(choice && choice.ads)
+    };
+
+    document.querySelectorAll('[data-consent-action]').forEach((button) => {
+        button.addEventListener('click', () => {
+            const action = button.dataset.consentAction;
+            publishChoice(action === 'accept' ? { analytics: true, ads: true } : action === 'analytics' ? { analytics: true, ads: false } : { analytics: false, ads: false });
+        });
+    });
+
+    if (choice) updateGoogleConsent(choice);
+    else document.getElementById('consent-banner').hidden = false;
+})();
+</script>
+{{- end -}}

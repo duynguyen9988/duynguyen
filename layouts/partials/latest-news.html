@@ -1,0 +1,76 @@
+{{- $pages := .Pages -}}
+{{- if gt (len $pages) 0 -}}
+    {{- $lead := index $pages 0 -}}
+    {{- $site := $lead.Site -}}
+    {{- $leadCategory := "" -}}
+    {{- with $lead.Params.categories -}}
+        {{- $categoryPath := partialCached "function/path.html" (index . 0) (index . 0) -}}
+        {{- with $lead.Site.GetPage (printf "/categories/%v" $categoryPath) -}}
+            {{- $leadCategory = .Title -}}
+        {{- end -}}
+    {{- end -}}
+
+    <section class="latest-news" aria-labelledby="latest-news-title">
+        <header class="home-section-heading">
+            <p class="home-section-eyebrow">Mới nhất</p>
+            <h2 id="latest-news-title">Latest News</h2>
+        </header>
+
+        <div class="latest-news-grid">
+            <article class="latest-news-lead reveal" itemscope itemtype="https://schema.org/Article">
+                {{- with $lead.Resources.GetMatch "featured-image" -}}
+                    <a class="latest-news-lead-image" href="{{ $lead.RelPermalink }}" aria-label="{{ $lead.Title }}">
+                        {{- dict "Src" .Name "Resources" $lead.Resources "Alt" $lead.Title "Fetchpriority" "high" | partial "plugin/img.html" -}}
+                    </a>
+                {{- end -}}
+                <div class="latest-news-lead-content">
+                    {{- with $leadCategory -}}<p class="latest-news-category">{{ . }}</p>{{- end -}}
+                    <h3 itemprop="headline"><a href="{{ $lead.RelPermalink }}">{{ $lead.Title | emojify }}</a></h3>
+                    <p class="latest-news-summary">
+                        {{- with $lead.Summary -}}
+                            {{- . | plainify | truncate 180 -}}
+                        {{- else -}}
+                            {{- $lead.Description | plainify | truncate 180 -}}
+                        {{- end -}}
+                    </p>
+                    <p class="latest-news-reading-time"><i class="far fa-clock" aria-hidden="true"></i> {{ $lead.ReadingTime }} phút đọc</p>
+                </div>
+            </article>
+
+            {{- $supportingPosts := after 1 $pages -}}
+            {{- if gt (len $supportingPosts) 0 -}}
+                <div class="latest-news-side">
+                    {{- range $supportingPosts -}}
+                        {{- $post := . -}}
+                        {{- $category := "" -}}
+                        {{- with $post.Params.categories -}}
+                            {{- $categoryPath := partialCached "function/path.html" (index . 0) (index . 0) -}}
+                            {{- with $site.GetPage (printf "/categories/%v" $categoryPath) -}}
+                                {{- $category = .Title -}}
+                            {{- end -}}
+                        {{- end -}}
+                        <article class="latest-news-compact reveal" itemscope itemtype="https://schema.org/Article">
+                            <div class="latest-news-compact-content">
+                                {{- with $category -}}<p class="latest-news-category">{{ . }}</p>{{- end -}}
+                                <h3 itemprop="headline"><a href="{{ $post.RelPermalink }}">{{ $post.Title | emojify }}</a></h3>
+                                <p class="latest-news-summary">
+                                    {{- with $post.Summary -}}
+                                        {{- . | plainify | truncate 120 -}}
+                                    {{- else -}}
+                                        {{- $post.Description | plainify | truncate 120 -}}
+                                    {{- end -}}
+                                </p>
+                                <p class="latest-news-reading-time"><i class="far fa-clock" aria-hidden="true"></i> {{ $post.ReadingTime }} phút đọc</p>
+                            </div>
+                            {{- with $post.Resources.GetMatch "featured-image" -}}
+                                <a class="latest-news-compact-image" href="{{ $post.RelPermalink }}" aria-label="{{ $post.Title }}">
+                                    {{- dict "Src" .Name "Resources" $post.Resources "Alt" $post.Title | partial "plugin/img.html" -}}
+                                </a>
+                            {{- end -}}
+                        </article>
+                    {{- end -}}
+                </div>
+            {{- end -}}
+        </div>
+    </section>
+{{- end -}}
