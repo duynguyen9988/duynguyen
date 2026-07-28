@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Trigger the GitHub Actions sitemap monitor from this repository.
+set -euo pipefail
+
+project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+repository="duynguyen9988/duynguyen"
+
+if ! command -v gh >/dev/null 2>&1; then
+  echo "GitHub CLI (gh) is required. Install it, then run ./sm again." >&2
+  exit 1
+fi
+
+# Reuse the local token file already used by this repository's push tooling,
+# without printing it. GH_TOKEN takes precedence when it has been exported.
+if [[ -z "${GH_TOKEN:-}" && -r "$project_root/.git_token.local" ]]; then
+  export GH_TOKEN="$(tr -d '[:space:]' < "$project_root/.git_token.local")"
+fi
+
+exec gh workflow run sitemap-monitor.yml --repo "$repository" --ref main "$@"
