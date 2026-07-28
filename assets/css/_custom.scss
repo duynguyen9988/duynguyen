@@ -132,7 +132,10 @@ header {
 
 .single-toc-sidebar {
   min-width: 0;
-  align-self: start;
+  // Stretch through the article row so the nested sticky TOC can follow the
+  // reader until the article footer instead of stopping at its own height.
+  align-self: stretch;
+  padding-top: clamp(3.5rem, 5vw, 4.5rem);
 }
 
 #toc-auto.reading-toc {
@@ -258,7 +261,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1180px) {
   .single-reading-layout {
     grid-template-columns: minmax(0, 1fr) minmax(250px, 280px);
     max-width: 1260px;
