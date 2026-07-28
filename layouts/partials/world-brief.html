@@ -6,8 +6,28 @@
         </header>
         <article class="world-brief-card">
             <p class="world-brief-meta">{{ .displayDate }} · Theo Nghiên cứu Quốc tế</p>
-            <h3><a href="{{ .url }}" rel="noopener noreferrer">{{ .title }}</a></h3>
-            <a class="world-brief-link" href="{{ .url }}" rel="noopener noreferrer">Đọc bản tin tại nguồn <span aria-hidden="true">&nearr;</span></a>
+            <h3>{{ .title }}</h3>
+            {{- with .attribution -}}
+                <p class="world-brief-attribution">{{ . }}</p>
+            {{- end -}}
+            <div class="world-brief-subsections">
+                {{- range .sections -}}
+                    <section class="world-brief-subsection">
+                        <h4>{{ .title }}</h4>
+                        <div class="world-brief-topics">
+                            {{- range .topics -}}
+                                <section class="world-brief-topic">
+                                    <h5>{{ .title }}</h5>
+                                    {{- range .paragraphs -}}
+                                        <p>{{ . }}</p>
+                                    {{- end -}}
+                                </section>
+                            {{- end -}}
+                        </div>
+                    </section>
+                {{- end -}}
+            </div>
+            <a class="world-brief-link" href="{{ .url }}" rel="noopener noreferrer">Xem bài gốc tại Nghiên cứu Quốc tế <span aria-hidden="true">&nearr;</span></a>
         </article>
     </section>
 {{- end -}}
