@@ -1962,6 +1962,7 @@ footer.footer {
 }
 
 .world-brief-grid {
+  &[hidden] { display: none; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.75rem;
