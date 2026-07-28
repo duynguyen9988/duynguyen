@@ -2,559 +2,613 @@
   "5-thoi-quen-buoi-sang": [
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3828
+      "score": 0.3863
     },
     {
       "slug": "song-toi-gian-minimalism",
-      "score": 0.3751
+      "score": 0.3849
     },
     {
       "slug": "phuong-phap-pomodoro-quan-ly-thoi-gian",
-      "score": 0.3157
+      "score": 0.3263
     },
     {
       "slug": "phuong-phap-doc-sach-zettelkasten",
-      "score": 0.3107
+      "score": 0.3148
     }
   ],
   "ai-2026-2030": [
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.3527
+      "score": 0.36
     },
     {
       "slug": "lich-su-tri-tue-nhan-tao",
-      "score": 0.3276
+      "score": 0.3285
     },
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.3234
+      "score": 0.3239
     },
     {
       "slug": "viec-lam-2030",
-      "score": 0.3048
+      "score": 0.3057
     }
   ],
   "anime": [
     {
       "slug": "manga-thanh-cong-toan-cau",
-      "score": 0.3399
+      "score": 0.3424
     },
     {
       "slug": "lan-song-hallyu",
-      "score": 0.2593
+      "score": 0.2603
     },
     {
       "slug": "dien-anh-viet-nam-lich-su-va-hien-tai",
-      "score": 0.2529
+      "score": 0.2564
     },
     {
       "slug": "phim-viet-nam-2026-bom-tan-dien-anh",
-      "score": 0.2494
+      "score": 0.2544
     }
   ],
   "ao-dai-bieu-tuong-van-hoa-viet-nam": [
     {
       "slug": "ao-dai-viet-nam",
-      "score": 0.5332
+      "score": 0.534
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2378
+      "score": 0.2379
     },
     {
       "slug": "pho-bo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.2196
+      "score": 0.2222
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2144
+      "score": 0.2163
     }
   ],
   "ao-dai-viet-nam": [
     {
       "slug": "ao-dai-bieu-tuong-van-hoa-viet-nam",
-      "score": 0.5332
+      "score": 0.534
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2639
+      "score": 0.2627
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2534
+      "score": 0.2553
     },
     {
-      "slug": "pho-co-hoi-an",
-      "score": 0.2261
+      "slug": "cai-luong",
+      "score": 0.2325
     }
   ],
   "archive-81": [
     {
       "slug": "netflix-lich-su-phat-trien",
-      "score": 0.1722
+      "score": 0.1736
     },
     {
       "slug": "paradise-2023",
-      "score": 0.1451
+      "score": 0.1461
     },
     {
       "slug": "girl-on-the-train-2016",
-      "score": 0.139
+      "score": 0.1397
     },
     {
       "slug": "thoi-khac-cong-bo",
-      "score": 0.1334
+      "score": 0.1345
+    }
+  ],
+  "banh-mi-nam-toi": [
+    {
+      "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
+      "score": 0.2222
+    },
+    {
+      "slug": "top-10-quan-lau-sai-gon",
+      "score": 0.2095
+    },
+    {
+      "slug": "banh-mi-sai-gon",
+      "score": 0.2092
+    },
+    {
+      "slug": "top-10-banh-mi-sai-gon",
+      "score": 0.1934
     }
   ],
   "banh-mi-sai-gon": [
     {
       "slug": "top-10-banh-mi-sai-gon",
-      "score": 0.4058
+      "score": 0.4011
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3552
+      "score": 0.3497
     },
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.3486
+      "score": 0.3432
     },
     {
       "slug": "pho-ha-noi",
-      "score": 0.3179
+      "score": 0.3149
     }
   ],
   "banh-xeo-tinh-hoa-am-thuc-viet-nam": [
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.3575
+      "score": 0.3531
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3552
+      "score": 0.3497
     },
     {
       "slug": "top-quan-oc-sai-gon",
-      "score": 0.3458
+      "score": 0.3443
     },
     {
       "slug": "com-tam-sai-gon",
-      "score": 0.3365
+      "score": 0.3331
     }
   ],
   "blockchain-crypto-2026": [
     {
       "slug": "ai-2026-2030",
-      "score": 0.2512
+      "score": 0.2508
     },
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.2462
+      "score": 0.2499
+    },
+    {
+      "slug": "dien-toan-luong-tu",
+      "score": 0.2473
     },
     {
       "slug": "bluesky-threads-mang-xa-hoi-2026",
-      "score": 0.2217
-    },
-    {
-      "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.2187
+      "score": 0.2204
     }
   ],
   "bluesky-threads-mang-xa-hoi-2026": [
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.3051
+      "score": 0.3106
     },
     {
       "slug": "tiktok-xa-hoi",
-      "score": 0.2824
+      "score": 0.2804
     },
     {
       "slug": "ai-2026-2030",
-      "score": 0.2621
+      "score": 0.2632
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2322
+      "score": 0.2358
     }
   ],
   "bo-gia-the-godfather-va-dien-anh-mafia": [
     {
       "slug": "top-phim-kinh-di-ang-so-nhat",
-      "score": 0.2219
+      "score": 0.2264
     },
     {
       "slug": "phim-viet-nam-2026-bom-tan-dien-anh",
-      "score": 0.2182
+      "score": 0.2209
     },
     {
       "slug": "interstellar-2014-nhin-lai",
-      "score": 0.2109
+      "score": 0.2137
     },
     {
       "slug": "parasite-2019",
-      "score": 0.21
+      "score": 0.212
     }
   ],
   "board-game": [
     {
       "slug": "lich-su-game-viet-nam",
-      "score": 0.2834
+      "score": 0.2898
     },
     {
       "slug": "the-thao-dien-tu-viet-nam-2026",
-      "score": 0.2734
-    },
-    {
-      "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2301
+      "score": 0.27
     },
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.2287
+      "score": 0.231
+    },
+    {
+      "slug": "nhac-viet-2026-v-pop-lan-song-moi",
+      "score": 0.2299
     }
   ],
   "ca-phe-sua-da": [
     {
       "slug": "ca-phe-sua-da-van-hoa-viet-nam",
-      "score": 0.643
+      "score": 0.6473
     },
     {
       "slug": "ca-phe-viet-nam-van-hoa",
-      "score": 0.4884
+      "score": 0.4876
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3517
+      "score": 0.3532
     },
     {
-      "slug": "banh-mi-sai-gon",
-      "score": 0.2443
+      "slug": "top-10-quan-cafe-quan-3",
+      "score": 0.2442
     }
   ],
   "ca-phe-sua-da-van-hoa-viet-nam": [
     {
       "slug": "ca-phe-sua-da",
-      "score": 0.643
+      "score": 0.6473
     },
     {
       "slug": "ca-phe-viet-nam-van-hoa",
-      "score": 0.4077
+      "score": 0.4133
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3985
+      "score": 0.4054
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.2921
+      "score": 0.2929
     }
   ],
   "ca-phe-via-he-sai-gon": [
     {
       "slug": "ca-phe-sua-da-van-hoa-viet-nam",
-      "score": 0.3985
+      "score": 0.4054
     },
     {
       "slug": "top-10-quan-cafe-quan-3",
-      "score": 0.3679
+      "score": 0.3719
     },
     {
       "slug": "ca-phe-sua-da",
-      "score": 0.3517
+      "score": 0.3532
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3184
+      "score": 0.3197
     }
   ],
   "ca-phe-viet-nam-van-hoa": [
     {
       "slug": "ca-phe-sua-da",
-      "score": 0.4884
+      "score": 0.4876
     },
     {
       "slug": "ca-phe-sua-da-van-hoa-viet-nam",
-      "score": 0.4077
+      "score": 0.4133
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.251
+      "score": 0.2542
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2501
+      "score": 0.2511
     }
   ],
   "cach-hoc-tieng-anh-giao-tiep-hieu-qua": [
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2982
-    },
-    {
-      "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2944
+      "score": 0.3046
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2933
+      "score": 0.2985
+    },
+    {
+      "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
+      "score": 0.2984
     },
     {
       "slug": "phuong-phap-doc-sach-zettelkasten",
-      "score": 0.2918
+      "score": 0.2984
+    }
+  ],
+  "cai-luong": [
+    {
+      "slug": "nhac-viet-2026-v-pop-lan-song-moi",
+      "score": 0.3393
+    },
+    {
+      "slug": "xu-huong-vpop-2026",
+      "score": 0.2755
+    },
+    {
+      "slug": "van-hoa-giai-tri-viet-nam-2026",
+      "score": 0.2664
+    },
+    {
+      "slug": "ao-dai-viet-nam",
+      "score": 0.2325
     }
   ],
   "cai-tien-ky-thuat-blog-duy-nguyen": [
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2633
+      "score": 0.2683
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2607
+      "score": 0.2642
     },
     {
       "slug": "phuong-phap-doc-sach-zettelkasten",
-      "score": 0.2529
+      "score": 0.258
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2506
+      "score": 0.257
     }
   ],
   "cam-nang-da-nang-tu-tuc": [
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.3242
+      "score": 0.3247
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.3217
+      "score": 0.3244
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.3037
     },
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.2937
-    },
-    {
-      "slug": "da-lat-cafe-view",
-      "score": 0.2826
+      "score": 0.294
     }
   ],
   "chanh-niem-mindfulness": [
     {
       "slug": "thien-dinh-chanh-niem",
-      "score": 0.5768
+      "score": 0.569
     },
     {
       "slug": "digital-detox",
-      "score": 0.3368
+      "score": 0.3315
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2939
+      "score": 0.2933
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.2762
+      "score": 0.2792
     }
   ],
   "chatgpt-cach-mang-ai": [
     {
       "slug": "ai-2026-2030",
-      "score": 0.3527
+      "score": 0.36
     },
     {
       "slug": "lich-su-tri-tue-nhan-tao",
-      "score": 0.3412
+      "score": 0.3476
     },
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.3195
+      "score": 0.3249
     },
     {
       "slug": "bluesky-threads-mang-xa-hoi-2026",
-      "score": 0.3051
+      "score": 0.3106
     }
   ],
   "cho-ben-thanh-100-nam-sai-gon": [
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.2849
+      "score": 0.2858
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.2754
+      "score": 0.2783
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.2666
+      "score": 0.2704
     },
     {
       "slug": "pho-co-hoi-an",
-      "score": 0.2557
+      "score": 0.2577
     }
   ],
   "cho-dem-am-thuc-duong-pho-sai-gon": [
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.3359
+      "score": 0.3344
     },
     {
       "slug": "top-quan-oc-sai-gon",
-      "score": 0.3253
+      "score": 0.3239
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3184
+      "score": 0.3197
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3036
+      "score": 0.3034
     }
   ],
   "com-tam-sai-gon": [
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3365
+      "score": 0.3331
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3101
+      "score": 0.3061
     },
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.2974
+      "score": 0.2947
     },
     {
-      "slug": "pho-ha-noi",
-      "score": 0.2839
+      "slug": "pho-bo-tinh-hoa-am-thuc-viet-nam",
+      "score": 0.2842
     }
   ],
   "da-lat-cafe-view": [
     {
       "slug": "top-10-quan-cafe-quan-3",
-      "score": 0.3556
+      "score": 0.3578
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.3486
+      "score": 0.3525
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3122
+      "score": 0.3155
     },
     {
       "slug": "top-10-quan-cafe-sai-gon",
-      "score": 0.2891
+      "score": 0.2916
     }
   ],
   "da-lat-kinh-nghiem-du-lich-tu-tuc": [
     {
       "slug": "da-lat-cafe-view",
-      "score": 0.3486
+      "score": 0.3525
     },
     {
       "slug": "cam-nang-da-nang-tu-tuc",
-      "score": 0.3217
+      "score": 0.3244
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.3088
     },
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.3004
-    },
-    {
-      "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.2898
+      "score": 0.3038
     }
   ],
   "dia-diem-du-lich-viet-nam": [
     {
       "slug": "phu-quoc",
-      "score": 0.4097
+      "score": 0.408
     },
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.3969
+      "score": 0.3954
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.3662
     },
     {
       "slug": "phuot-tay-bac-mua-hoa",
-      "score": 0.3539
-    },
-    {
-      "slug": "sapa",
-      "score": 0.3355
+      "score": 0.3542
     }
   ],
   "dien-anh-viet-nam-lich-su-va-hien-tai": [
     {
       "slug": "phim-viet-nam-2026-bom-tan-dien-anh",
-      "score": 0.5722
+      "score": 0.5697
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2688
+      "score": 0.2698
     },
     {
       "slug": "anime",
-      "score": 0.2529
+      "score": 0.2564
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2489
+      "score": 0.2481
+    }
+  ],
+  "dien-toan-luong-tu": [
+    {
+      "slug": "chatgpt-cach-mang-ai",
+      "score": 0.2918
+    },
+    {
+      "slug": "ai-2026-2030",
+      "score": 0.2694
+    },
+    {
+      "slug": "lich-su-tri-tue-nhan-tao",
+      "score": 0.2595
+    },
+    {
+      "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
+      "score": 0.2565
     }
   ],
   "digital-detox": [
     {
-      "slug": "chanh-niem-mindfulness",
-      "score": 0.3368
+      "slug": "thien-dinh-chanh-niem",
+      "score": 0.3324
     },
     {
-      "slug": "thien-dinh-chanh-niem",
-      "score": 0.3352
+      "slug": "chanh-niem-mindfulness",
+      "score": 0.3315
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.318
+      "score": 0.3172
     },
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.2815
+      "score": 0.2818
     }
   ],
   "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen": [
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2968
+      "score": 0.3004
     },
     {
       "slug": "vi-sao-apple-dat",
-      "score": 0.2872
+      "score": 0.2906
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2549
+      "score": 0.2579
     },
     {
       "slug": "lich-su-iphone-qua-tung-the-he",
-      "score": 0.2332
+      "score": 0.2364
     }
   ],
   "du-lich-2030": [
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.3138
+      "score": 0.3197
+    },
+    {
+      "slug": "kinh-te-2030",
+      "score": 0.3118
     },
     {
       "slug": "du-lich-thai-lan",
       "score": 0.3113
     },
     {
-      "slug": "kinh-te-2030",
-      "score": 0.31
-    },
-    {
       "slug": "ai-2026-2030",
-      "score": 0.2861
+      "score": 0.2882
     }
   ],
   "du-lich-thai-lan": [
@@ -564,317 +618,317 @@
     },
     {
       "slug": "phu-quoc",
-      "score": 0.2439
+      "score": 0.2447
     },
     {
       "slug": "tiktok-xa-hoi",
-      "score": 0.2383
+      "score": 0.2364
     },
     {
-      "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.2182
+      "slug": "nha-trang",
+      "score": 0.2312
     }
   ],
   "duong-trieu-quy-su-luc": [
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.3258
+      "score": 0.3296
     },
     {
       "slug": "prime-target",
-      "score": 0.246
+      "score": 0.2473
     },
     {
       "slug": "top-phim-kinh-di-ang-so-nhat",
-      "score": 0.2286
+      "score": 0.2321
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2212
+      "score": 0.2231
     }
   ],
   "girl-on-the-train-2016": [
     {
       "slug": "gone-girl-2014",
-      "score": 0.2445
+      "score": 0.2448
     },
     {
       "slug": "the-giver-2014",
-      "score": 0.2008
+      "score": 0.2005
     },
     {
       "slug": "bo-gia-the-godfather-va-dien-anh-mafia",
-      "score": 0.1824
+      "score": 0.1837
     },
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.1709
+      "score": 0.1703
     }
   ],
   "gone-girl-2014": [
     {
       "slug": "girl-on-the-train-2016",
-      "score": 0.2445
+      "score": 0.2448
     },
     {
       "slug": "the-giver-2014",
-      "score": 0.1929
+      "score": 0.1934
     },
     {
       "slug": "interstellar-2014-nhin-lai",
-      "score": 0.1901
+      "score": 0.1906
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.1886
+      "score": 0.1899
     }
   ],
   "google-lich-su": [
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2785
+      "score": 0.2783
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2691
-    },
-    {
-      "slug": "tiktok-xa-hoi",
-      "score": 0.2629
+      "score": 0.2689
     },
     {
       "slug": "thuong-mai-dien-tu",
-      "score": 0.2617
+      "score": 0.2626
+    },
+    {
+      "slug": "tiktok-xa-hoi",
+      "score": 0.2604
     }
   ],
   "interstellar-2014": [
     {
       "slug": "interstellar-2014-nhin-lai",
-      "score": 0.5338
+      "score": 0.5349
     },
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.2078
+      "score": 0.2081
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.2006
+      "score": 0.2035
     },
     {
       "slug": "ai-2026-2030",
-      "score": 0.1973
+      "score": 0.1991
     }
   ],
   "interstellar-2014-nhin-lai": [
     {
       "slug": "interstellar-2014",
-      "score": 0.5338
+      "score": 0.5349
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2424
+      "score": 0.2429
     },
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.2295
+      "score": 0.2344
     },
     {
       "slug": "top-phim-kinh-di-ang-so-nhat",
-      "score": 0.2286
+      "score": 0.2319
     }
   ],
   "john-ternus-apple-ceo": [
     {
       "slug": "vi-sao-apple-dat",
-      "score": 0.385
+      "score": 0.3879
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.2968
+      "score": 0.3004
     },
     {
       "slug": "lich-su-iphone-qua-tung-the-he",
-      "score": 0.283
+      "score": 0.2863
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2799
+      "score": 0.2823
     }
   ],
   "kinh-te-2030": [
     {
       "slug": "xa-hoi-2030",
-      "score": 0.345
+      "score": 0.3468
     },
     {
       "slug": "du-lich-2030",
-      "score": 0.31
+      "score": 0.3118
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2784
+      "score": 0.2801
     },
     {
       "slug": "viec-lam-2030",
-      "score": 0.2718
+      "score": 0.2736
     }
   ],
   "kpop-hallyu": [
     {
       "slug": "lan-song-hallyu",
-      "score": 0.4832
+      "score": 0.4808
     },
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.2991
+      "score": 0.3034
     },
     {
       "slug": "xu-huong-vpop-2026",
-      "score": 0.291
+      "score": 0.2939
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2896
+      "score": 0.2904
     }
   ],
   "lam-chu-thoi-gian-quan-ly-cong-viec": [
     {
       "slug": "phuong-phap-pomodoro-quan-ly-thoi-gian",
-      "score": 0.3968
+      "score": 0.4076
     },
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.3828
+      "score": 0.3863
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.3371
+      "score": 0.3372
     },
     {
       "slug": "song-toi-gian-minimalism",
-      "score": 0.3282
+      "score": 0.3344
     }
   ],
   "lan-song-hallyu": [
     {
       "slug": "kpop-hallyu",
-      "score": 0.4832
+      "score": 0.4808
     },
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.3027
+      "score": 0.3017
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2905
+      "score": 0.2874
     },
     {
       "slug": "anime",
-      "score": 0.2593
+      "score": 0.2603
     }
   ],
   "lich-su-game-viet-nam": [
     {
       "slug": "the-thao-dien-tu-viet-nam-2026",
-      "score": 0.4466
+      "score": 0.4523
     },
     {
       "slug": "board-game",
-      "score": 0.2834
+      "score": 0.2898
     },
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.2377
+      "score": 0.2455
     },
     {
       "slug": "netflix-lich-su-phat-trien",
-      "score": 0.2286
+      "score": 0.2335
     }
   ],
   "lich-su-iphone-qua-tung-the-he": [
     {
       "slug": "lich-su-smartphone",
-      "score": 0.3802
+      "score": 0.3879
     },
     {
       "slug": "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026",
-      "score": 0.3354
+      "score": 0.3421
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2839
+      "score": 0.2863
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.283
+      "score": 0.2863
     }
   ],
   "lich-su-smartphone": [
     {
       "slug": "lich-su-iphone-qua-tung-the-he",
-      "score": 0.3802
+      "score": 0.3879
     },
     {
       "slug": "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026",
-      "score": 0.3029
+      "score": 0.3099
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2835
+      "score": 0.288
     },
     {
       "slug": "vi-sao-apple-dat",
-      "score": 0.2423
+      "score": 0.2472
     }
   ],
   "lich-su-tri-tue-nhan-tao": [
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.3412
+      "score": 0.3476
     },
     {
       "slug": "ai-2026-2030",
-      "score": 0.3276
+      "score": 0.3285
+    },
+    {
+      "slug": "dien-toan-luong-tu",
+      "score": 0.2595
     },
     {
       "slug": "thu-thuat-ai-cong-nghe-2026",
-      "score": 0.2557
-    },
-    {
-      "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2494
+      "score": 0.2555
     }
   ],
   "manga-thanh-cong-toan-cau": [
     {
       "slug": "anime",
-      "score": 0.3399
+      "score": 0.3424
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2605
+      "score": 0.2594
     },
     {
       "slug": "phuong-phap-doc-sach-zettelkasten",
-      "score": 0.2095
+      "score": 0.2087
     },
     {
       "slug": "ao-dai-viet-nam",
-      "score": 0.2093
+      "score": 0.2066
     }
   ],
   "mot-goc-nha-tho-duc-ba-saigon": [
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.1424
+      "score": 0.1433
     },
     {
       "slug": "cho-ben-thanh-100-nam-sai-gon",
-      "score": 0.1192
+      "score": 0.1195
     },
     {
       "slug": "top-10-quan-cafe-quan-3",
-      "score": 0.1105
+      "score": 0.1107
     },
     {
       "slug": "cam-nang-da-nang-tu-tuc",
@@ -883,106 +937,124 @@
   ],
   "motorola-su-troi-day": [
     {
-      "slug": "lich-su-iphone-qua-tung-the-he",
-      "score": 0.2839
+      "slug": "lich-su-smartphone",
+      "score": 0.288
     },
     {
-      "slug": "lich-su-smartphone",
-      "score": 0.2835
+      "slug": "lich-su-iphone-qua-tung-the-he",
+      "score": 0.2863
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2799
+      "score": 0.2823
     },
     {
       "slug": "google-lich-su",
-      "score": 0.2691
+      "score": 0.2689
     }
   ],
   "mua-sam-ben-vung": [
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.3172
+      "score": 0.3232
     },
     {
       "slug": "du-lich-2030",
-      "score": 0.3138
-    },
-    {
-      "slug": "chanh-niem-mindfulness",
-      "score": 0.2762
+      "score": 0.3197
     },
     {
       "slug": "song-toi-gian-minimalism",
-      "score": 0.2759
+      "score": 0.2864
+    },
+    {
+      "slug": "chanh-niem-mindfulness",
+      "score": 0.2792
     }
   ],
   "netflix-lich-su-phat-trien": [
     {
       "slug": "google-lich-su",
-      "score": 0.254
-    },
-    {
-      "slug": "the-thao-dien-tu-viet-nam-2026",
-      "score": 0.2498
+      "score": 0.2533
     },
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.2496
+      "score": 0.2526
     },
     {
       "slug": "tiktok-xa-hoi",
-      "score": 0.2496
+      "score": 0.2489
+    },
+    {
+      "slug": "the-thao-dien-tu-viet-nam-2026",
+      "score": 0.248
+    }
+  ],
+  "nha-trang": [
+    {
+      "slug": "phu-quoc",
+      "score": 0.4588
+    },
+    {
+      "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
+      "score": 0.4265
+    },
+    {
+      "slug": "dia-diem-du-lich-viet-nam",
+      "score": 0.3662
+    },
+    {
+      "slug": "sapa",
+      "score": 0.3141
     }
   ],
   "nhac-viet-2026-v-pop-lan-song-moi": [
     {
       "slug": "xu-huong-vpop-2026",
-      "score": 0.3484
+      "score": 0.3485
+    },
+    {
+      "slug": "cai-luong",
+      "score": 0.3393
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.3105
-    },
-    {
-      "slug": "lan-song-hallyu",
-      "score": 0.2905
+      "score": 0.3107
     },
     {
       "slug": "kpop-hallyu",
-      "score": 0.2896
+      "score": 0.2904
     }
   ],
   "paradise-2023": [
     {
       "slug": "the-giver-2014",
-      "score": 0.1872
+      "score": 0.1869
     },
     {
       "slug": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.184
+      "score": 0.1834
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.1684
+      "score": 0.1683
     },
     {
       "slug": "thoi-khac-cong-bo",
-      "score": 0.1588
+      "score": 0.159
     }
   ],
   "parasite-2019": [
     {
       "slug": "squid-game-lan-song-noi-dung-han-quoc",
-      "score": 0.272
+      "score": 0.2746
     },
     {
       "slug": "lan-song-hallyu",
-      "score": 0.2352
+      "score": 0.2335
     },
     {
       "slug": "dien-anh-viet-nam-lich-su-va-hien-tai",
-      "score": 0.2276
+      "score": 0.2272
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
@@ -992,407 +1064,407 @@
   "phim-viet-nam-2026-bom-tan-dien-anh": [
     {
       "slug": "dien-anh-viet-nam-lich-su-va-hien-tai",
-      "score": 0.5722
+      "score": 0.5697
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2957
+      "score": 0.2972
     },
     {
       "slug": "anime",
-      "score": 0.2494
+      "score": 0.2544
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.2471
+      "score": 0.2472
     }
   ],
   "pho-bo-tinh-hoa-am-thuc-viet-nam": [
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.6811
+      "score": 0.6835
     },
     {
       "slug": "pho-ha-noi",
-      "score": 0.6125
+      "score": 0.6183
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.377
+      "score": 0.3799
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3142
+      "score": 0.3146
     }
   ],
   "pho-co-hoi-an": [
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.3043
+      "score": 0.305
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.2799
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.2737
+      "score": 0.2756
     },
     {
       "slug": "phu-quoc",
-      "score": 0.2589
-    },
-    {
-      "slug": "cho-ben-thanh-100-nam-sai-gon",
-      "score": 0.2557
+      "score": 0.2604
     }
   ],
   "pho-ha-noi": [
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.6312
+      "score": 0.6305
     },
     {
       "slug": "pho-bo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.6125
+      "score": 0.6183
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3827
+      "score": 0.3831
     },
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.3179
+      "score": 0.3149
     }
   ],
   "pho-lich-su-van-hoa": [
     {
       "slug": "pho-bo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.6811
+      "score": 0.6835
     },
     {
       "slug": "pho-ha-noi",
-      "score": 0.6312
+      "score": 0.6305
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3659
+      "score": 0.3644
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3575
+      "score": 0.3531
     }
   ],
   "phu-quoc": [
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.5567
+      "score": 0.5539
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.4588
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.4097
+      "score": 0.408
     },
     {
       "slug": "vinh-ha-long-ky-quan-thien-nhien",
-      "score": 0.3065
-    },
-    {
-      "slug": "sapa",
-      "score": 0.2873
+      "score": 0.3096
     }
   ],
   "phu-quoc-cam-nang-du-lich-dao-ngoc": [
     {
       "slug": "phu-quoc",
-      "score": 0.5567
+      "score": 0.5539
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.4265
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.3969
+      "score": 0.3954
     },
     {
       "slug": "vinh-ha-long-ky-quan-thien-nhien",
-      "score": 0.319
-    },
-    {
-      "slug": "sapa",
-      "score": 0.314
+      "score": 0.3204
     }
   ],
   "phuong-phap-doc-sach-zettelkasten": [
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.3107
+      "score": 0.3148
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.3092
+      "score": 0.3136
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2975
+      "score": 0.2995
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2918
+      "score": 0.2984
     }
   ],
   "phuong-phap-pomodoro-quan-ly-thoi-gian": [
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3968
+      "score": 0.4076
     },
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.3157
+      "score": 0.3263
     },
     {
       "slug": "digital-detox",
-      "score": 0.2773
+      "score": 0.2813
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2696
+      "score": 0.2797
     }
   ],
   "phuot-tay-bac-mua-hoa": [
     {
       "slug": "sapa",
-      "score": 0.4434
+      "score": 0.4447
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.3539
+      "score": 0.3542
     },
     {
       "slug": "da-lat-cafe-view",
-      "score": 0.285
+      "score": 0.2858
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.2669
+      "score": 0.2704
     }
   ],
   "prime-target": [
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.246
+      "score": 0.2473
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.2298
+      "score": 0.2338
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2135
+      "score": 0.2161
     },
     {
-      "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2091
+      "slug": "top-phim-kinh-di-ang-so-nhat",
+      "score": 0.2104
     }
   ],
   "quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre": [
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.7611
+      "score": 0.7605
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3012
-    },
-    {
-      "slug": "viec-lam-2030",
-      "score": 0.2842
+      "score": 0.3007
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2807
+      "score": 0.2859
+    },
+    {
+      "slug": "viec-lam-2030",
+      "score": 0.2845
     }
   ],
   "rise-of-the-guardians": [
     {
       "slug": "top-phim-kinh-di-ang-so-nhat",
-      "score": 0.2462
-    },
-    {
-      "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.2283
+      "score": 0.251
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.2259
+      "score": 0.2295
+    },
+    {
+      "slug": "top-10-phim-bom-tan-he-2026",
+      "score": 0.2285
     },
     {
       "slug": "interstellar-2014-nhin-lai",
-      "score": 0.2077
+      "score": 0.2099
     }
   ],
   "sapa": [
     {
       "slug": "phuot-tay-bac-mua-hoa",
-      "score": 0.4434
+      "score": 0.4447
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.3355
+      "score": 0.3368
+    },
+    {
+      "slug": "nha-trang",
+      "score": 0.3141
     },
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.314
-    },
-    {
-      "slug": "phu-quoc",
-      "score": 0.2873
+      "score": 0.3139
     }
   ],
   "second-hand-vintage-sai-gon": [
     {
       "slug": "top-shop-streetwear-sai-gon",
-      "score": 0.3677
-    },
-    {
-      "slug": "top-10-cua-hang-the-thao-sai-gon",
-      "score": 0.2382
+      "score": 0.3702
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.2362
+      "score": 0.2419
     },
     {
-      "slug": "cam-nang-da-nang-tu-tuc",
-      "score": 0.2089
+      "slug": "top-10-cua-hang-the-thao-sai-gon",
+      "score": 0.2396
+    },
+    {
+      "slug": "song-toi-gian-minimalism",
+      "score": 0.2111
     }
   ],
   "shopee-lazada-tiki-so-sanh-mua-sam-online-2026": [
     {
       "slug": "thuong-mai-dien-tu",
-      "score": 0.3103
+      "score": 0.3121
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.2672
+      "score": 0.2722
     },
     {
       "slug": "tiktok-xa-hoi",
-      "score": 0.2529
+      "score": 0.2508
     },
     {
       "slug": "kinh-te-2030",
-      "score": 0.2452
+      "score": 0.2454
     }
   ],
   "smith-chart-bi-do-cua-ky-thuat-dien": [
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2374
+      "score": 0.2387
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.229
+      "score": 0.2294
     },
     {
       "slug": "motorola-su-troi-day",
-      "score": 0.2218
+      "score": 0.2232
     },
     {
       "slug": "digital-detox",
-      "score": 0.2173
+      "score": 0.2167
     }
   ],
   "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026": [
     {
       "slug": "vi-sao-apple-dat",
-      "score": 0.384
+      "score": 0.3892
     },
     {
       "slug": "lich-su-iphone-qua-tung-the-he",
-      "score": 0.3354
+      "score": 0.3421
     },
     {
       "slug": "lich-su-smartphone",
-      "score": 0.3029
+      "score": 0.3099
     },
     {
       "slug": "john-ternus-apple-ceo",
-      "score": 0.2574
+      "score": 0.2619
     }
   ],
   "song-toi-gian-minimalism": [
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.3751
+      "score": 0.3849
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3282
+      "score": 0.3344
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.2759
+      "score": 0.2864
     },
     {
-      "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2744
+      "slug": "phuong-phap-doc-sach-zettelkasten",
+      "score": 0.2804
     }
   ],
   "squid-game-lan-song-noi-dung-han-quoc": [
     {
-      "slug": "lan-song-hallyu",
-      "score": 0.3027
+      "slug": "kpop-hallyu",
+      "score": 0.3034
     },
     {
-      "slug": "kpop-hallyu",
-      "score": 0.2991
+      "slug": "lan-song-hallyu",
+      "score": 0.3017
     },
     {
       "slug": "parasite-2019",
-      "score": 0.272
+      "score": 0.2746
     },
     {
       "slug": "netflix-lich-su-phat-trien",
-      "score": 0.2496
+      "score": 0.2526
     }
   ],
   "tai-chinh-ca-nhan-cho-nguoi-tre": [
     {
       "slug": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.7611
+      "score": 0.7605
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.3371
+      "score": 0.3372
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.3172
+      "score": 0.3232
     },
     {
       "slug": "viec-lam-2030",
-      "score": 0.3004
+      "score": 0.3008
     }
   ],
   "tet-nguyen-dan": [
     {
       "slug": "tet-nguyen-dan-2027-nam-mui",
-      "score": 0.5753
+      "score": 0.5775
     },
     {
       "slug": "tet-trung-thu-2026-phong-tuc-y-nghia",
-      "score": 0.3
+      "score": 0.3015
     },
     {
       "slug": "pho-lich-su-van-hoa",
-      "score": 0.2269
+      "score": 0.228
     },
     {
       "slug": "ao-dai-viet-nam",
-      "score": 0.2205
+      "score": 0.2233
     }
   ],
   "tet-nguyen-dan-2027-nam-mui": [
     {
       "slug": "tet-nguyen-dan",
-      "score": 0.5753
+      "score": 0.5775
     },
     {
       "slug": "tet-trung-thu-2026-phong-tuc-y-nghia",
-      "score": 0.2938
+      "score": 0.2945
     },
     {
       "slug": "pho-lich-su-van-hoa",
@@ -1400,323 +1472,323 @@
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.226
+      "score": 0.2249
     }
   ],
   "tet-trung-thu-2026-phong-tuc-y-nghia": [
     {
       "slug": "tet-nguyen-dan",
-      "score": 0.3
+      "score": 0.3015
     },
     {
       "slug": "tet-nguyen-dan-2027-nam-mui",
-      "score": 0.2938
+      "score": 0.2945
     },
     {
       "slug": "da-lat-kinh-nghiem-du-lich-tu-tuc",
-      "score": 0.2081
+      "score": 0.2095
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2016
+      "score": 0.2033
     }
   ],
   "the-giver-2014": [
     {
       "slug": "girl-on-the-train-2016",
-      "score": 0.2008
+      "score": 0.2005
     },
     {
       "slug": "gone-girl-2014",
-      "score": 0.1929
+      "score": 0.1934
     },
     {
       "slug": "paradise-2023",
-      "score": 0.1872
+      "score": 0.1869
     },
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.1841
+      "score": 0.1849
     }
   ],
   "the-mutations-tan-benh-thoi-minh": [
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.3258
+      "score": 0.3296
     },
     {
       "slug": "prime-target",
-      "score": 0.2298
+      "score": 0.2338
     },
     {
       "slug": "top-phim-kinh-di-ang-so-nhat",
-      "score": 0.2264
+      "score": 0.2321
     },
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.2259
+      "score": 0.2295
     }
   ],
   "the-thao-dien-tu-viet-nam-2026": [
     {
       "slug": "lich-su-game-viet-nam",
-      "score": 0.4466
+      "score": 0.4523
     },
     {
       "slug": "board-game",
-      "score": 0.2734
+      "score": 0.27
     },
     {
       "slug": "tiktok-xa-hoi",
-      "score": 0.2662
+      "score": 0.2614
     },
     {
       "slug": "netflix-lich-su-phat-trien",
-      "score": 0.2498
+      "score": 0.248
     }
   ],
   "thien-dinh-chanh-niem": [
     {
       "slug": "chanh-niem-mindfulness",
-      "score": 0.5768
+      "score": 0.569
     },
     {
       "slug": "digital-detox",
-      "score": 0.3352
-    },
-    {
-      "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2791
+      "score": 0.3324
     },
     {
       "slug": "5-thoi-quen-buoi-sang",
-      "score": 0.2785
+      "score": 0.2806
+    },
+    {
+      "slug": "van-hoa-doc-sach-viet-nam",
+      "score": 0.2798
     }
   ],
   "thoi-khac-cong-bo": [
     {
       "slug": "top-10-phim-bom-tan-he-2026",
-      "score": 0.284
+      "score": 0.2841
     },
     {
       "slug": "interstellar-2014-nhin-lai",
-      "score": 0.2251
+      "score": 0.2255
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2163
+      "score": 0.2182
     },
     {
-      "slug": "prime-target",
-      "score": 0.1771
+      "slug": "top-phim-kinh-di-ang-so-nhat",
+      "score": 0.1798
     }
   ],
   "thu-thuat-ai-cong-nghe-2026": [
     {
-      "slug": "ai-2026-2030",
-      "score": 0.3234
+      "slug": "chatgpt-cach-mang-ai",
+      "score": 0.3249
     },
     {
-      "slug": "chatgpt-cach-mang-ai",
-      "score": 0.3195
+      "slug": "ai-2026-2030",
+      "score": 0.3239
     },
     {
       "slug": "lam-chu-thoi-gian-quan-ly-cong-viec",
-      "score": 0.2939
+      "score": 0.294
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2783
+      "score": 0.2777
     }
   ],
   "thuong-mai-dien-tu": [
     {
       "slug": "shopee-lazada-tiki-so-sanh-mua-sam-online-2026",
-      "score": 0.3103
+      "score": 0.3121
     },
     {
       "slug": "google-lich-su",
-      "score": 0.2617
+      "score": 0.2626
     },
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2562
+      "score": 0.2593
     },
     {
       "slug": "kinh-te-2030",
-      "score": 0.2546
+      "score": 0.2581
     }
   ],
   "tiktok-xa-hoi": [
     {
       "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.3008
+      "score": 0.3007
     },
     {
       "slug": "bluesky-threads-mang-xa-hoi-2026",
-      "score": 0.2824
+      "score": 0.2804
     },
     {
       "slug": "chatgpt-cach-mang-ai",
-      "score": 0.2737
+      "score": 0.2775
     },
     {
       "slug": "the-thao-dien-tu-viet-nam-2026",
-      "score": 0.2662
+      "score": 0.2614
     }
   ],
   "top-10-banh-mi-sai-gon": [
     {
       "slug": "banh-mi-sai-gon",
-      "score": 0.4058
+      "score": 0.4011
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3563
+      "score": 0.3569
     },
     {
       "slug": "top-quan-oc-sai-gon",
-      "score": 0.3432
+      "score": 0.3446
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3134
+      "score": 0.3114
     }
   ],
   "top-10-cua-hang-the-thao-sai-gon": [
     {
       "slug": "top-shop-streetwear-sai-gon",
-      "score": 0.2969
+      "score": 0.2992
     },
     {
       "slug": "mua-sam-ben-vung",
-      "score": 0.2408
+      "score": 0.2467
     },
     {
       "slug": "second-hand-vintage-sai-gon",
-      "score": 0.2382
+      "score": 0.2396
     },
     {
       "slug": "shopee-lazada-tiki-so-sanh-mua-sam-online-2026",
-      "score": 0.2246
+      "score": 0.2255
     }
   ],
   "top-10-phim-bom-tan-he-2026": [
     {
       "slug": "thoi-khac-cong-bo",
-      "score": 0.284
+      "score": 0.2841
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2579
+      "score": 0.2589
     },
     {
       "slug": "phim-viet-nam-2026-bom-tan-dien-anh",
-      "score": 0.2287
+      "score": 0.2291
     },
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.2283
+      "score": 0.2285
     }
   ],
   "top-10-quan-bun-bo-hue-sai-gon": [
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.4109
+      "score": 0.4125
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3947
+      "score": 0.3971
     },
     {
       "slug": "top-10-quan-hu-tieu-sai-gon",
-      "score": 0.3237
+      "score": 0.3242
     },
     {
       "slug": "top-quan-oc-sai-gon",
-      "score": 0.3153
+      "score": 0.318
     }
   ],
   "top-10-quan-cafe-quan-3": [
     {
       "slug": "top-10-quan-cafe-sai-gon",
-      "score": 0.399
+      "score": 0.4022
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.3679
+      "score": 0.3719
     },
     {
       "slug": "da-lat-cafe-view",
-      "score": 0.3556
+      "score": 0.3578
     },
     {
       "slug": "top-10-quan-chay-sai-gon-2026",
-      "score": 0.3012
+      "score": 0.3024
     }
   ],
   "top-10-quan-cafe-sai-gon": [
     {
       "slug": "top-10-quan-cafe-quan-3",
-      "score": 0.399
+      "score": 0.4022
     },
     {
       "slug": "top-10-quan-chay-sai-gon-2026",
-      "score": 0.3208
+      "score": 0.3235
     },
     {
       "slug": "da-lat-cafe-view",
-      "score": 0.2891
+      "score": 0.2916
     },
     {
       "slug": "ca-phe-via-he-sai-gon",
-      "score": 0.2759
+      "score": 0.28
     }
   ],
   "top-10-quan-chay-sai-gon-2026": [
     {
       "slug": "top-10-quan-cafe-sai-gon",
-      "score": 0.3208
+      "score": 0.3235
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3146
+      "score": 0.3161
     },
     {
       "slug": "top-10-quan-cafe-quan-3",
-      "score": 0.3012
+      "score": 0.3024
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.2977
+      "score": 0.2997
     }
   ],
   "top-10-quan-hu-tieu-sai-gon": [
     {
       "slug": "top-10-quan-pho-sai-gon",
-      "score": 0.3846
+      "score": 0.3851
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3237
+      "score": 0.3242
     },
     {
       "slug": "top-10-banh-mi-sai-gon",
-      "score": 0.2865
+      "score": 0.2875
     },
     {
       "slug": "top-10-quan-lau-sai-gon",
-      "score": 0.2811
+      "score": 0.2799
     }
   ],
   "top-10-quan-lau-sai-gon": [
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.4109
+      "score": 0.4125
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3359
+      "score": 0.3344
     },
     {
       "slug": "top-10-quan-pho-sai-gon",
@@ -1724,241 +1796,241 @@
     },
     {
       "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3235
+      "score": 0.3197
     }
   ],
   "top-10-quan-pho-sai-gon": [
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3947
+      "score": 0.3971
     },
     {
       "slug": "top-10-quan-hu-tieu-sai-gon",
-      "score": 0.3846
+      "score": 0.3851
     },
     {
       "slug": "pho-ha-noi",
-      "score": 0.3827
+      "score": 0.3831
     },
     {
       "slug": "pho-bo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.377
+      "score": 0.3799
     }
   ],
   "top-phim-kinh-di-ang-so-nhat": [
     {
       "slug": "rise-of-the-guardians",
-      "score": 0.2462
+      "score": 0.251
     },
     {
       "slug": "duong-trieu-quy-su-luc",
-      "score": 0.2286
-    },
-    {
-      "slug": "interstellar-2014-nhin-lai",
-      "score": 0.2286
+      "score": 0.2321
     },
     {
       "slug": "the-mutations-tan-benh-thoi-minh",
-      "score": 0.2264
+      "score": 0.2321
+    },
+    {
+      "slug": "interstellar-2014-nhin-lai",
+      "score": 0.2319
     }
   ],
   "top-quan-oc-sai-gon": [
     {
-      "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
-      "score": 0.3458
+      "slug": "top-10-banh-mi-sai-gon",
+      "score": 0.3446
     },
     {
-      "slug": "top-10-banh-mi-sai-gon",
-      "score": 0.3432
+      "slug": "banh-xeo-tinh-hoa-am-thuc-viet-nam",
+      "score": 0.3443
     },
     {
       "slug": "cho-dem-am-thuc-duong-pho-sai-gon",
-      "score": 0.3253
+      "score": 0.3239
     },
     {
       "slug": "top-10-quan-bun-bo-hue-sai-gon",
-      "score": 0.3153
+      "score": 0.318
     }
   ],
   "top-shop-streetwear-sai-gon": [
     {
       "slug": "second-hand-vintage-sai-gon",
-      "score": 0.3677
+      "score": 0.3702
     },
     {
       "slug": "top-10-cua-hang-the-thao-sai-gon",
-      "score": 0.2969
+      "score": 0.2992
     },
     {
       "slug": "ao-dai-viet-nam",
-      "score": 0.2183
+      "score": 0.2206
     },
     {
       "slug": "top-10-quan-cafe-sai-gon",
-      "score": 0.2065
+      "score": 0.209
     }
   ],
   "van-hoa-doc-sach-viet-nam": [
     {
       "slug": "phuong-phap-doc-sach-zettelkasten",
-      "score": 0.3092
-    },
-    {
-      "slug": "tiktok-xa-hoi",
-      "score": 0.3008
+      "score": 0.3136
     },
     {
       "slug": "cach-hoc-tieng-anh-giao-tiep-hieu-qua",
-      "score": 0.2982
+      "score": 0.3046
+    },
+    {
+      "slug": "tiktok-xa-hoi",
+      "score": 0.3007
     },
     {
       "slug": "chanh-niem-mindfulness",
-      "score": 0.2939
+      "score": 0.2933
     }
   ],
   "van-hoa-giai-tri-viet-nam-2026": [
     {
       "slug": "xu-huong-vpop-2026",
-      "score": 0.3832
+      "score": 0.3834
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.3105
+      "score": 0.3107
     },
     {
       "slug": "phim-viet-nam-2026-bom-tan-dien-anh",
-      "score": 0.2957
+      "score": 0.2972
     },
     {
-      "slug": "dien-anh-viet-nam-lich-su-va-hien-tai",
-      "score": 0.2688
+      "slug": "van-hoa-doc-sach-viet-nam",
+      "score": 0.2707
     }
   ],
   "vi-sao-apple-dat": [
     {
-      "slug": "john-ternus-apple-ceo",
-      "score": 0.385
+      "slug": "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026",
+      "score": 0.3892
     },
     {
-      "slug": "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026",
-      "score": 0.384
+      "slug": "john-ternus-apple-ceo",
+      "score": 0.3879
     },
     {
       "slug": "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen",
-      "score": 0.2872
+      "score": 0.2906
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2674
+      "score": 0.2686
     }
   ],
   "viec-lam-2030": [
     {
       "slug": "ai-2026-2030",
-      "score": 0.3048
+      "score": 0.3057
     },
     {
       "slug": "tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.3004
+      "score": 0.3008
     },
     {
       "slug": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre",
-      "score": 0.2842
+      "score": 0.2845
     },
     {
       "slug": "kinh-te-2030",
-      "score": 0.2718
+      "score": 0.2736
     }
   ],
   "vinh-ha-long-ky-quan-thien-nhien": [
     {
       "slug": "phu-quoc-cam-nang-du-lich-dao-ngoc",
-      "score": 0.319
+      "score": 0.3204
     },
     {
       "slug": "dia-diem-du-lich-viet-nam",
-      "score": 0.314
+      "score": 0.3175
     },
     {
       "slug": "phu-quoc",
-      "score": 0.3065
+      "score": 0.3096
     },
     {
-      "slug": "pho-co-hoi-an",
-      "score": 0.2428
+      "slug": "nha-trang",
+      "score": 0.2982
     }
   ],
   "world-cup-2026": [
     {
       "slug": "the-thao-dien-tu-viet-nam-2026",
-      "score": 0.2438
+      "score": 0.242
     },
     {
       "slug": "dien-anh-viet-nam-lich-su-va-hien-tai",
-      "score": 0.21
+      "score": 0.2095
     },
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.2079
+      "score": 0.2082
     },
     {
       "slug": "lich-su-game-viet-nam",
-      "score": 0.2015
+      "score": 0.206
     }
   ],
   "xa-hoi-2030": [
     {
       "slug": "kinh-te-2030",
-      "score": 0.345
+      "score": 0.3468
     },
     {
       "slug": "du-lich-2030",
-      "score": 0.2401
+      "score": 0.2428
     },
     {
       "slug": "viec-lam-2030",
-      "score": 0.2313
+      "score": 0.232
     },
     {
       "slug": "ai-2026-2030",
-      "score": 0.2303
+      "score": 0.2313
     }
   ],
   "xe-dien-vinfast-cach-mang-xe-dien-viet-nam": [
     {
       "slug": "google-lich-su",
-      "score": 0.2583
+      "score": 0.2561
     },
     {
       "slug": "netflix-lich-su-phat-trien",
-      "score": 0.2383
+      "score": 0.2377
     },
     {
       "slug": "vi-sao-apple-dat",
-      "score": 0.2269
+      "score": 0.2272
     },
     {
-      "slug": "bluesky-threads-mang-xa-hoi-2026",
-      "score": 0.2178
+      "slug": "kinh-te-2030",
+      "score": 0.2168
     }
   ],
   "xu-huong-vpop-2026": [
     {
       "slug": "van-hoa-giai-tri-viet-nam-2026",
-      "score": 0.3832
+      "score": 0.3834
     },
     {
       "slug": "nhac-viet-2026-v-pop-lan-song-moi",
-      "score": 0.3484
+      "score": 0.3485
     },
     {
       "slug": "kpop-hallyu",
-      "score": 0.291
+      "score": 0.2939
     },
     {
-      "slug": "van-hoa-doc-sach-viet-nam",
-      "score": 0.2546
+      "slug": "cai-luong",
+      "score": 0.2755
     }
   ]
 }
