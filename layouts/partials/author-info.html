@@ -1,0 +1,27 @@
+{{- $author := .Site.Params.Author | default dict -}}
+{{- $name := $author.name | default "Duy Nguyen" -}}
+{{- $link := $author.link | default .Site.Home.RelPermalink -}}
+{{- $avatar := $author.avatar | default "images/duy-nguyen-logo.webp" -}}
+{{- $bio := $author.bio | default "Chia sẻ những góc nhìn hữu ích về ẩm thực, công nghệ và nhịp sống Sài Gòn." -}}
+
+<section class="author-info reveal" aria-labelledby="author-info-title">
+    <div class="author-info-avatar" aria-hidden="true">
+        <span class="author-info-avatar-fallback">DN</span>
+        <img src="{{ $avatar | relURL }}" width="96" height="96" alt="" loading="lazy" decoding="async">
+    </div>
+    <div class="author-info-content">
+        <p class="author-info-kicker"><i class="fas fa-pen-nib" aria-hidden="true"></i> Tác giả bài viết</p>
+        <h2 class="author-info-name" id="author-info-title">{{ $name }}</h2>
+        <p class="author-info-bio">{{ $bio }}</p>
+        <div class="author-info-footer">
+            <div class="author-info-topics" aria-label="Chủ đề yêu thích">
+                <span>Ẩm thực</span>
+                <span>Công nghệ</span>
+                <span>Sài Gòn</span>
+            </div>
+            <a class="author-info-link" href="{{ $link }}" rel="author">
+                Kết nối với {{ $name }} <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</section>
