@@ -7,9 +7,10 @@
                     <div class="footer-section-content footer-about">
                         <p>viết linh tinh về đồ ăn và phim.</p>
                         {{- with index hugo.Data "ping-google" -}}
+                            {{- $checkedAt := or (index . "checkedAt") (index . "indexed") -}}
                             <div class="ping-status">
                                 <span class="ping-dot"></span>
-                                Google Index: {{ .indexed }}
+                                URL health check: {{ $checkedAt }}
                             </div>
                         {{- end -}}
                         <div class="footer-social">

@@ -35,7 +35,7 @@ jobs:
       - name: Record ping timestamp
         run: |
           TS=$(TZ=Asia/Ho_Chi_Minh date +"%d-%m-%Y %H:%M:%S")
-          echo "{\"indexed\": \"$TS\"}" > data/ping-google.json
+          echo "{\"checkedAt\": \"$TS\"}" > data/ping-google.json
           echo "Recorded: $TS"
 
       - name: Commit & push timestamp
