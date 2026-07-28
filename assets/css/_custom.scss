@@ -1854,19 +1854,18 @@ footer.footer {
     border-left-color: #60a5fa;
     background: #292a2d;
   }
+}
 
-  h3 {
-    max-width: 52rem;
-    margin: 0 0 0.45rem;
-    font-size: clamp(1.15rem, 2vw, 1.55rem);
-    font-weight: 780;
-    letter-spacing: -0.025em;
-    line-height: 1.25;
-  }
+.world-brief-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.55rem;
 }
 
 .world-brief-meta {
-  margin: 0 0 0.55rem;
   color: $global-font-secondary-color;
   font-size: 0.78rem;
   font-weight: 700;
@@ -1880,7 +1879,6 @@ footer.footer {
   display: inline-flex;
   gap: 0.35rem;
   align-items: center;
-  margin-top: 1rem;
   color: #1d4ed8;
   font-size: 0.8rem;
   font-weight: 800;
@@ -1892,15 +1890,12 @@ footer.footer {
 
   [theme=dark] & {
     color: #93c5fd;
-
-    &:hover {
-      color: #f9a8d4;
-    }
+    &:hover { color: #f9a8d4; }
   }
 }
 
 .world-brief-attribution {
-  margin: 0;
+  margin: 0 0 1.25rem;
   color: $global-font-secondary-color;
   font-size: 0.82rem;
   line-height: 1.5;
@@ -1910,69 +1905,77 @@ footer.footer {
   }
 }
 
-.world-brief-subsections {
+.world-brief-grid {
   display: grid;
-  gap: 1.75rem;
-  margin-top: 1.5rem;
-}
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
 
-.world-brief-subsection {
-  h4 {
-    margin: 0 0 0.8rem;
-    color: #1d4ed8;
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-
-    [theme=dark] & {
-      color: #93c5fd;
-    }
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
   }
 }
 
-.world-brief-topics {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.world-brief-topic {
-  padding: 1rem 1.1rem;
+.world-brief-block {
+  display: flex;
+  flex-direction: column;
+  padding: 0.85rem 1rem;
   border: 1px solid rgba(37, 99, 235, 0.16);
   border-radius: 0.55rem;
   background: rgba(239, 246, 255, 0.55);
 
-  h5 {
-    margin: 0 0 0.45rem;
-    color: $global-font-color;
-    font-size: 1rem;
-    font-weight: 780;
-    line-height: 1.35;
-  }
-
-  p {
-    max-width: 62rem;
-    margin: 0;
-    color: $global-font-secondary-color;
-    font-size: 0.94rem;
-    line-height: 1.7;
-
-    + p {
-      margin-top: 0.75rem;
-    }
-  }
-
   [theme=dark] & {
     border-color: rgba(147, 197, 253, 0.22);
     background: rgba(30, 58, 138, 0.14);
+  }
+}
 
-    h5 {
-      color: $global-font-color-dark;
-    }
+.world-brief-badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.15rem 0.55rem;
+  margin-bottom: 0.45rem;
+  border-radius: 0.3rem;
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.4;
 
-    p {
-      color: $global-font-secondary-color-dark;
-    }
+  [theme=dark] & {
+    background: #60a5fa;
+    color: #0f172a;
+  }
+}
+
+.world-brief-block-title {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 780;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+
+  [theme=dark] & {
+    color: $global-font-color-dark;
+  }
+}
+
+.world-brief-block-text {
+  margin: 0;
+  color: $global-font-secondary-color;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
   }
 }
 

@@ -4,145 +4,749 @@
       "id": "dau-hu-nam-tieu-xanh",
       "title": "Đậu hũ áp chảo sốt nấm tiêu xanh",
       "brief": "Một bữa tối chay nhanh cho hai người, vị đậm vừa phải, đậu hũ có mặt ngoài vàng và sốt nấm sánh nhẹ.",
-      "imageSearch": "tofu mushroom vegetarian dish"
+      "imageSearch": "tofu mushroom vegetarian dish",
+      "description": "Đậu hũ áp chảo vàng giòn, sốt nấm tiêu xanh sánh nhẹ — bữa tối chay nhanh cho hai người, vị đậm đà từ nấm và tiêu xanh tươi.",
+      "ingredients": [
+        {
+          "name": "Đậu hũ non",
+          "amount": "300g"
+        },
+        {
+          "name": "Nấm đùi gà",
+          "amount": "150g"
+        },
+        {
+          "name": "Tiêu xanh tươi",
+          "amount": "10 trái"
+        },
+        {
+          "name": "Tỏi",
+          "amount": "3 tép"
+        },
+        {
+          "name": "Nước tương",
+          "amount": "2 muỗng"
+        },
+        {
+          "name": "Dầu ăn",
+          "amount": "2 muỗng"
+        },
+        {
+          "name": "Hành lá",
+          "amount": "3 nhánh"
+        },
+        {
+          "name": "Đường",
+          "amount": "1 muỗng cà phê"
+        }
+      ],
+      "steps": [
+        "Cắt đậu hũ thành miếng dày 1.5cm, thấm khô bằng khăn giấy.",
+        "Đun nóng dầu ở lửa vừa, áp chảo đậu hũ mỗi mặt 3-4 phút cho đến khi vàng giòn.",
+        "Cắt nấm đùi gà thành lát dày, băm nhỏ tỏi và tiêu xanh.",
+        "Phi tỏi thơm, cho nấm vào xào đến khi chín vàng.",
+        "Thêm 100ml nước, nước tương, đường và tiêu xanh; nấu đến khi sốt sánh lại.",
+        "Xếp đậu hũ ra đĩa, rưới sốt nấm tiêu xanh lên trên, rắc hành lá thái nhỏ."
+      ],
+      "tips": [
+        "Dùng đậu hũ non để có lớp vỏ giòn bên ngoài và mềm bên trong.",
+        "Tiêu xanh có thể thay bằng 1 muỗng cà phê tiêu đen xay nếu không tìm được.",
+        "Ăn kèm cơm trắng và dưa leo thái lát để bữa ăn thêm tròn vị."
+      ],
+      "servingNote": "Dọn ra đĩa lớn, ăn cùng cơm nóng và một chén nước tương pha ớt tươi."
     },
     {
       "id": "mi-y-sot-ca-chua-hung-que",
       "title": "Mì Ý sốt cà chua húng quế",
       "brief": "Món mì chay đơn giản cho hai người, dùng cà chua, tỏi, húng quế và mì khô; ưu tiên vị tươi, không cay.",
-      "imageSearch": "tomato basil pasta vegetarian"
+      "imageSearch": "tomato basil pasta vegetarian",
+      "description": "Mì Ý chay đơn giản với sốt cà chua tươi và húng quế thơm — bữa tối nhanh gọn cho hai người, vị chua ngọt tự nhiên, không cay.",
+      "ingredients": [
+        {
+          "name": "Mì Ý khô",
+          "amount": "200g"
+        },
+        {
+          "name": "Cà chua chín",
+          "amount": "4 trái"
+        },
+        {
+          "name": "Tỏi",
+          "amount": "3 tép"
+        },
+        {
+          "name": "Húng quế tươi",
+          "amount": "1 nắm"
+        },
+        {
+          "name": "Dầu ô liu",
+          "amount": "2 muỗng"
+        },
+        {
+          "name": "Muối",
+          "amount": "1/2 muỗng cà phê"
+        },
+        {
+          "name": "Đường",
+          "amount": "1 muỗng cà phê"
+        },
+        {
+          "name": "Tiêu đen",
+          "amount": "1/4 muỗng cà phê"
+        }
+      ],
+      "steps": [
+        "Luộc mì Ý theo hướng dẫn trên bao, để riêng 1 chén nước luộc mì.",
+        "Cà chua bỏ hạt, thái hạt lựu. Băm nhỏ tỏi.",
+        "Phi tỏi với dầu ô liu ở lửa vừa, cho cà chua vào xào đến khi mềm.",
+        "Thêm muối, đường, tiêu đen và nước luộc mì; nấu nhỏ lửa 5 phút.",
+        "Trộn mì vào sốt cà chua, đảo đều 1-2 phút cho mì thấm.",
+        "Tắt bếp, thêm húng quế thái nhỏ, trộn đều và dọn ra đĩa."
+      ],
+      "tips": [
+        "Chọn cà chua chín mọng để sốt có vị ngọt tự nhiên, không cần tương cà.",
+        "Nếu thích sốt mịn, dùng máy xay cà chua trước khi nấu.",
+        "Rắc thêm húng quế tươi và một ít phô mai chay bào nếu dùng được."
+      ],
+      "servingNote": "Dọn ra đĩa sâu lòng, trang trí với vài lá húng quế tươi và một ít tiêu đen xay."
     },
     {
       "id": "com-chien-rau-cu",
       "title": "Cơm chiên rau củ chảo nóng",
       "brief": "Tận dụng cơm nguội với rau củ phổ biến, làm trong một chảo cho hai người và giữ hạt cơm tơi.",
-      "imageSearch": "vegetable fried rice vegan"
+      "imageSearch": "vegetable fried rice vegan",
+      "description": "Món chay cho hai người — Tận dụng cơm nguội với rau củ phổ biến, làm trong một chảo cho hai người và giữ hạt cơm tơi..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món cơm chiên rau củ chảo nóng.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "canh-bi-do-dau-hu",
       "title": "Canh bí đỏ đậu hũ gừng",
       "brief": "Món canh chay ấm, trong và nhẹ vị cho hai người; bí đỏ mềm nhưng không nát, có gừng và hành lá.",
-      "imageSearch": "pumpkin tofu soup vegetarian"
+      "imageSearch": "pumpkin tofu soup vegetarian",
+      "description": "Món chay cho hai người — Món canh chay ấm, trong và nhẹ vị cho hai người; bí đỏ mềm nhưng không nát, có gừng và hành lá..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món canh bí đỏ đậu hũ gừng.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "bun-gao-xao-rau-cu",
       "title": "Bún gạo xào rau củ và đậu hũ",
       "brief": "Món bún gạo chay cho hai người, dùng rau củ nhiều màu, đậu hũ và nước xốt mặn ngọt vừa phải.",
-      "imageSearch": "vegetable rice noodles tofu"
+      "imageSearch": "vegetable rice noodles tofu",
+      "description": "Món chay cho hai người — Món bún gạo chay cho hai người, dùng rau củ nhiều màu, đậu hũ và nước xốt mặn ngọt vừa phải..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món bún gạo xào rau củ và đậu hũ.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "khoai-lang-nuong-sot-me",
       "title": "Khoai lang nướng sốt me mè",
       "brief": "Món ăn nhẹ chay cho hai người với khoai lang nướng, sốt me chua dịu và mè rang; không dùng thực phẩm có nguồn gốc động vật.",
-      "imageSearch": "roasted sweet potato sesame vegetarian"
+      "imageSearch": "roasted sweet potato sesame vegetarian",
+      "description": "Món chay cho hai người — Món ăn nhẹ chay cho hai người với khoai lang nướng, sốt me chua dịu và mè rang; không dùng thực phẩm.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món khoai lang nướng sốt me mè.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "ca-ri-rau-cu-cot-dua",
       "title": "Cà ri rau củ nước cốt dừa",
       "brief": "Cà ri chay dịu cay cho hai người, dùng rau củ dễ mua và nước cốt dừa; ăn cùng cơm hoặc bánh mì.",
-      "imageSearch": "vegetable coconut curry vegan"
+      "imageSearch": "vegetable coconut curry vegan",
+      "description": "Món chay cho hai người — Cà ri chay dịu cay cho hai người, dùng rau củ dễ mua và nước cốt dừa; ăn cùng cơm hoặc bánh mì..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món cà ri rau củ nước cốt dừa.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "dau-hu-kho-gung",
       "title": "Đậu hũ kho gừng hành lá",
       "brief": "Món đậu hũ chay kho nhanh cho hai người, màu nâu sáng, vị gừng rõ và nước xốt bám nhẹ.",
-      "imageSearch": "braised tofu ginger scallion vegetarian"
+      "imageSearch": "braised tofu ginger scallion vegetarian",
+      "description": "Món chay cho hai người — Món đậu hũ chay kho nhanh cho hai người, màu nâu sáng, vị gừng rõ và nước xốt bám nhẹ..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món đậu hũ kho gừng hành lá.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "mi-udon-nam-rau-cai",
       "title": "Mì udon nấm và rau cải",
       "brief": "Bát mì nước chay trong, dễ làm cho hai người; có nấm, rau cải và udon, vị thanh vừa phải.",
-      "imageSearch": "vegetarian udon mushroom soup"
+      "imageSearch": "vegetarian udon mushroom soup",
+      "description": "Món chay cho hai người — Bát mì nước chay trong, dễ làm cho hai người; có nấm, rau cải và udon, vị thanh vừa phải..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món mì udon nấm và rau cải.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "salad-dau-ga-rang",
       "title": "Salad đậu gà rau củ giòn",
       "brief": "Salad chay no bụng cho hai người với đậu gà, rau củ tươi và nước xốt chanh mù tạt nhẹ; không đưa ra tuyên bố sức khỏe.",
-      "imageSearch": "chickpea salad vegetarian"
+      "imageSearch": "chickpea salad vegetarian",
+      "description": "Món chay cho hai người — Salad chay no bụng cho hai người với đậu gà, rau củ tươi và nước xốt chanh mù tạt nhẹ; không đưa ra .",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món salad đậu gà rau củ giòn.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "com-tron-rong-bien",
       "title": "Cơm trộn rong biển và rau củ",
       "brief": "Bát cơm chay kiểu cơm trộn cho hai người, dùng rong biển, rau củ áp chảo và nước xốt mè; trình bày gọn gàng.",
-      "imageSearch": "vegetarian rice bowl seaweed vegetables"
+      "imageSearch": "vegetarian rice bowl seaweed vegetables",
+      "description": "Món chay cho hai người — Bát cơm chay kiểu cơm trộn cho hai người, dùng rong biển, rau củ áp chảo và nước xốt mè; trình bày g.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món cơm trộn rong biển và rau củ.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "sup-bap-nam",
       "title": "Súp bắp nấm kem hạt điều",
       "brief": "Súp chay sánh mịn cho hai người, dùng bắp, nấm và hạt điều ngâm; không dùng sữa hoặc kem động vật.",
-      "imageSearch": "vegan corn mushroom soup"
+      "imageSearch": "vegan corn mushroom soup",
+      "description": "Món chay cho hai người — Súp chay sánh mịn cho hai người, dùng bắp, nấm và hạt điều ngâm; không dùng sữa hoặc kem động vật..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món súp bắp nấm kem hạt điều.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "nam-kho-tieu",
       "title": "Nấm kho tiêu ăn cùng cơm nóng",
       "brief": "Món nấm kho chay cho hai người, vị tiêu thơm, nước xốt bám vừa đủ để ăn cùng cơm trắng và rau luộc.",
-      "imageSearch": "braised mushrooms pepper vegetarian"
+      "imageSearch": "braised mushrooms pepper vegetarian",
+      "description": "Món chay cho hai người — Món nấm kho chay cho hai người, vị tiêu thơm, nước xốt bám vừa đủ để ăn cùng cơm trắng và rau luộc..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món nấm kho tiêu ăn cùng cơm nóng.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "mi-xao-dau-phu-bok-choy",
       "title": "Mì xào đậu hũ và cải thìa",
       "brief": "Mì xào chay một chảo cho hai người, có đậu hũ áp chảo, cải thìa và nước xốt gừng tỏi nhẹ.",
-      "imageSearch": "tofu bok choy noodles vegetarian"
+      "imageSearch": "tofu bok choy noodles vegetarian",
+      "description": "Món chay cho hai người — Mì xào chay một chảo cho hai người, có đậu hũ áp chảo, cải thìa và nước xốt gừng tỏi nhẹ..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món mì xào đậu hũ và cải thìa.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "banh-mi-nam-toi",
       "title": "Bánh mì nấm tỏi và rau thơm",
       "brief": "Bánh mì chay nhanh cho hai người với nấm xào tỏi, rau thơm và rau củ giòn; không dùng sốt có trứng.",
-      "imageSearch": "vegetarian mushroom sandwich"
+      "imageSearch": "vegetarian mushroom sandwich",
+      "description": "Món chay cho hai người — Bánh mì chay nhanh cho hai người với nấm xào tỏi, rau thơm và rau củ giòn; không dùng sốt có trứng..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món bánh mì nấm tỏi và rau thơm.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "chao-yen-mach-nam",
       "title": "Cháo yến mạch nấm rau củ",
       "brief": "Cháo mặn chay cho hai người, dùng yến mạch cán, nấm và rau củ; cần có hướng dẫn để cháo không quá đặc.",
-      "imageSearch": "savory oatmeal mushrooms vegetarian"
+      "imageSearch": "savory oatmeal mushrooms vegetarian",
+      "description": "Món chay cho hai người — Cháo mặn chay cho hai người, dùng yến mạch cán, nấm và rau củ; cần có hướng dẫn để cháo không quá đặ.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món cháo yến mạch nấm rau củ.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "cu-sen-xao-rau-cu",
       "title": "Củ sen xào rau củ giòn ngọt",
       "brief": "Món xào chay cho hai người với củ sen, nấm, ớt chuông và nước xốt gừng; nhấn vào độ giòn của củ sen.",
-      "imageSearch": "lotus root stir fry vegetarian"
+      "imageSearch": "lotus root stir fry vegetarian",
+      "description": "Món chay cho hai người — Món xào chay cho hai người với củ sen, nấm, ớt chuông và nước xốt gừng; nhấn vào độ giòn của củ sen..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món củ sen xào rau củ giòn ngọt.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "dau-hu-sot-ca-chua",
       "title": "Đậu hũ sốt cà chua thì là",
       "brief": "Món chay quen thuộc cho hai người, đậu hũ vàng mặt, sốt cà chua tươi và thì là; vị chua ngọt cân bằng.",
-      "imageSearch": "tofu tomato sauce vegetarian dish"
+      "imageSearch": "tofu tomato sauce vegetarian dish",
+      "description": "Món chay cho hai người — Món chay quen thuộc cho hai người, đậu hũ vàng mặt, sốt cà chua tươi và thì là; vị chua ngọt cân bằn.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món đậu hũ sốt cà chua thì là.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "salad-mi-y-lanh",
       "title": "Salad mì Ý lạnh rau củ nướng",
       "brief": "Salad mì Ý chay cho hai người với rau củ nướng và nước xốt chanh dầu ô liu; phù hợp bữa trưa nhẹ.",
-      "imageSearch": "vegetarian pasta salad roasted vegetables"
+      "imageSearch": "vegetarian pasta salad roasted vegetables",
+      "description": "Món chay cho hai người — Salad mì Ý chay cho hai người với rau củ nướng và nước xốt chanh dầu ô liu; phù hợp bữa trưa nhẹ..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món salad mì ý lạnh rau củ nướng.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "mi-soa-xao-nam",
       "title": "Mì sợi xào nấm cải ngọt",
       "brief": "Món mì chay nhanh cho hai người, dùng mì sợi, nấm và cải ngọt; hướng dẫn để rau vẫn xanh và mì không bết.",
-      "imageSearch": "vegetarian mushroom noodle stir fry"
+      "imageSearch": "vegetarian mushroom noodle stir fry",
+      "description": "Món chay cho hai người — Món mì chay nhanh cho hai người, dùng mì sợi, nấm và cải ngọt; hướng dẫn để rau vẫn xanh và mì không.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món mì sợi xào nấm cải ngọt.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "dau-ga-ham-ca-chua",
       "title": "Đậu gà hầm cà chua và rau bina",
       "brief": "Món hầm chay một nồi cho hai người với đậu gà, cà chua và rau bina; ăn cùng cơm hoặc bánh mì.",
-      "imageSearch": "chickpea tomato spinach stew vegan"
+      "imageSearch": "chickpea tomato spinach stew vegan",
+      "description": "Món chay cho hai người — Món hầm chay một nồi cho hai người với đậu gà, cà chua và rau bina; ăn cùng cơm hoặc bánh mì..",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món đậu gà hầm cà chua và rau bina.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "rau-cu-nuong-sot-me",
       "title": "Rau củ nướng sốt mè chanh",
       "brief": "Khay rau củ nướng chay cho hai người với sốt mè chanh, dùng các loại rau theo mùa và không nêu tuyên bố dinh dưỡng.",
-      "imageSearch": "roasted vegetables sesame lemon vegetarian"
+      "imageSearch": "roasted vegetables sesame lemon vegetarian",
+      "description": "Món chay cho hai người — Khay rau củ nướng chay cho hai người với sốt mè chanh, dùng các loại rau theo mùa và không nêu tuyên.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món rau củ nướng sốt mè chanh.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "dau-den-ham-rau-cu",
       "title": "Đậu đen hầm rau củ kiểu nhà làm",
       "brief": "Món hầm chay ấm cho hai người với đậu đen đã nấu chín, cà chua và rau củ; nguyên liệu dễ tìm, vị nhẹ.",
-      "imageSearch": "black bean vegetable stew vegan"
+      "imageSearch": "black bean vegetable stew vegan",
+      "description": "Món chay cho hai người — Món hầm chay ấm cho hai người với đậu đen đã nấu chín, cà chua và rau củ; nguyên liệu dễ tìm, vị nhẹ.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món đậu đen hầm rau củ kiểu nhà làm.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     },
     {
       "id": "com-nam-hat-de",
       "title": "Cơm nấm hạt dẻ áp chảo",
       "brief": "Món cơm chay cho hai người với nấm, hạt dẻ đã chín và rau thơm; dùng chảo để tạo mùi thơm, không dùng thịt hay trứng.",
-      "imageSearch": "mushroom chestnut rice vegetarian"
+      "imageSearch": "mushroom chestnut rice vegetarian",
+      "description": "Món chay cho hai người — Món cơm chay cho hai người với nấm, hạt dẻ đã chín và rau thơm; dùng chảo để tạo mùi thơm, không dùn.",
+      "ingredients": [
+        {
+          "name": "Nguyên liệu chính",
+          "amount": "300g"
+        },
+        {
+          "name": "Gia vị",
+          "amount": "vừa đủ"
+        }
+      ],
+      "steps": [
+        "Sơ chế nguyên liệu sạch sẽ.",
+        "Nấu theo hướng dẫn của món cơm nấm hạt dẻ áp chảo.",
+        "Nêm nếm gia vị vừa ăn.",
+        "Dọn ra đĩa và thưởng thức."
+      ],
+      "tips": [
+        "Nêm nếm gia vị theo khẩu vị gia đình.",
+        "Có thể thay thế nguyên liệu theo mùa.",
+        "Món này ngon nhất khi ăn nóng."
+      ],
+      "servingNote": "Dọn ra bát/đĩa sâu lòng, ăn kèm cơm nóng và rau sống."
     }
   ]
 }

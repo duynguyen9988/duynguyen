@@ -5,29 +5,26 @@
             <h2 id="world-brief-title">Thế Giới cập nhật</h2>
         </header>
         <article class="world-brief-card">
-            <p class="world-brief-meta">{{ .displayDate }} · Theo Nghiên cứu Quốc tế</p>
-            <h3>{{ .title }}</h3>
+            <header class="world-brief-header">
+                <p class="world-brief-meta">{{ .displayDate }} · Theo Nghiên cứu Quốc tế</p>
+                <a class="world-brief-link" href="{{ .url }}" rel="noopener noreferrer">Xem bài gốc <span aria-hidden="true">&nearr;</span></a>
+            </header>
             {{- with .attribution -}}
                 <p class="world-brief-attribution">{{ . }}</p>
             {{- end -}}
-            <div class="world-brief-subsections">
+            <div class="world-brief-grid">
                 {{- range .sections -}}
-                    <section class="world-brief-subsection">
-                        <h4>{{ .title }}</h4>
-                        <div class="world-brief-topics">
-                            {{- range .topics -}}
-                                <section class="world-brief-topic">
-                                    <h5>{{ .title }}</h5>
-                                    {{- range .paragraphs -}}
-                                        <p>{{ . }}</p>
-                                    {{- end -}}
-                                </section>
-                            {{- end -}}
-                        </div>
-                    </section>
+                    {{- $sectionTitle := .title -}}
+                    {{- range .topics -}}
+                        <section class="world-brief-block">
+                            <span class="world-brief-badge">{{ $sectionTitle }}</span>
+                            <h4 class="world-brief-block-title">{{ .title }}</h4>
+                            {{- $first := index .paragraphs 0 -}}
+                            <p class="world-brief-block-text">{{ $first }}</p>
+                        </section>
+                    {{- end -}}
                 {{- end -}}
             </div>
-            <a class="world-brief-link" href="{{ .url }}" rel="noopener noreferrer">Xem bài gốc tại Nghiên cứu Quốc tế <span aria-hidden="true">&nearr;</span></a>
         </article>
     </section>
 {{- end -}}

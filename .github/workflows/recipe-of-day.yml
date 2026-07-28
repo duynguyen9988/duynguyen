@@ -24,7 +24,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       DRY_RUN: ${{ inputs.dry_run }}
     steps:
       - uses: actions/checkout@v6
@@ -33,14 +32,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Check AI publishing credential
-        run: |
-          if [ -z "$OPENAI_API_KEY" ]; then
-            echo "Missing OPENAI_API_KEY repository secret. No content was published."
-            exit 1
-          fi
-
-      - name: Create original recipe and licensed cover image
+      - name: Create recipe post from pre-written brief and licensed cover image
         run: |
           args=()
           if [ "$DRY_RUN" = "true" ]; then
