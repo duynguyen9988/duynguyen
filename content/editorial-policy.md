@@ -21,6 +21,10 @@ Người chịu trách nhiệm biên tập được nêu trên bài viết và c
 
 Công cụ tự động hoặc AI có thể được dùng để hỗ trợ cấu trúc, diễn đạt hoặc công việc kỹ thuật, nhưng không thay thế việc kiểm tra dữ kiện và trách nhiệm biên tập của con người. Khi việc sử dụng đó có ý nghĩa đối với cách người đọc đánh giá bài viết, chúng tôi sẽ minh bạch phù hợp.
 
+### Công thức xuất bản tự động
+
+Mục Công thức hôm nay chỉ tạo bài từ brief biên tập nội bộ; không sao chép, dịch hay diễn đạt lại công thức của bên thứ ba. Bài được gắn nhãn rõ là nội dung tự động, không tuyên bố tác giả đã nấu thử và không đưa ra khuyến nghị y tế hoặc dinh dưỡng. Ảnh bìa chỉ được dùng khi metadata của Wikimedia Commons xác nhận giấy phép phù hợp; tên tác giả, giấy phép và liên kết ảnh gốc được ghi ở cuối bài. Nếu kiểm tra cấu trúc, nội dung hoặc giấy phép thất bại, bài không được xuất bản.
+
 ## Đính chính và cập nhật
 
 Chúng tôi khuyến khích người đọc báo lỗi qua trang [Liên hệ]({{< relurl "contact/" >}}). Những sai sót có bằng chứng sẽ được kiểm tra, chỉnh sửa hoặc làm rõ. Ngày cập nhật chỉ thay đổi khi nội dung thực sự được rà soát hay sửa đổi đáng kể; không thay đổi ngày chỉ để tạo cảm giác mới.
@@ -28,4 +32,3 @@ Chúng tôi khuyến khích người đọc báo lỗi qua trang [Liên hệ]({{
 ## Quảng cáo, tài trợ và xung đột lợi ích
 
 Quảng cáo, bài tài trợ, liên kết tiếp thị, sản phẩm được tặng hoặc quan hệ lợi ích sẽ được nhận diện rõ ràng khi xuất hiện. Khoản thanh toán hay quà tặng không bảo đảm một bài viết, thứ hạng, lời khen hoặc kết luận cụ thể.
-

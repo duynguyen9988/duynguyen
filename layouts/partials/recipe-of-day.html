@@ -1,0 +1,24 @@
+{{- $recipeOfDay := index hugo.Data "recipe-of-day" -}}
+{{- with $recipeOfDay.entry -}}
+    {{- $entry := . -}}
+    {{- with $.Site.GetPage $entry.pagePath -}}
+        <section class="recipe-of-day" aria-labelledby="recipe-of-day-title">
+            <header class="home-section-heading">
+                <h2 id="recipe-of-day-title">Công thức hôm nay</h2>
+            </header>
+            <article class="recipe-of-day-card reveal" itemscope itemtype="https://schema.org/Recipe">
+                {{- with .Resources.GetMatch "featured-image" -}}
+                    <a class="recipe-of-day-image" href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">
+                        {{- dict "Src" .Name "Resources" $.Resources "Alt" $.Title "Fetchpriority" "high" | partial "plugin/img.html" -}}
+                    </a>
+                {{- end -}}
+                <div class="recipe-of-day-content">
+                    <p class="recipe-of-day-meta">{{ $entry.displayDate }} · Hướng dẫn nấu ăn tại nhà</p>
+                    <h3 itemprop="name"><a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a></h3>
+                    <p itemprop="description">{{ $entry.description }}</p>
+                    <a class="recipe-of-day-link" href="{{ .RelPermalink }}">Xem công thức <span aria-hidden="true">&rarr;</span></a>
+                </div>
+            </article>
+        </section>
+    {{- end -}}
+{{- end -}}

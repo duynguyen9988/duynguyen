@@ -20,6 +20,7 @@
             {{- $featuredPostCount := add (len $latestPosts) (len $recentPosts) -}}
             {{- $trendingPosts := first 4 ((after $featuredPostCount $allPosts) | shuffle) -}}
             {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
+            {{- partial "recipe-of-day.html" . -}}
             {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
             {{- partial "world-brief.html" . -}}
 
