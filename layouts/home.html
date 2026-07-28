@@ -19,7 +19,6 @@
             {{- $recentPosts := first 6 (after (len $latestPosts) $allPosts) -}}
             {{- $featuredPostCount := add (len $latestPosts) (len $recentPosts) -}}
             {{- $trendingPosts := first 4 ((after $featuredPostCount $allPosts) | shuffle) -}}
-            {{- partial "home-topic-nav.html" . -}}
             {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
             {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
 
@@ -27,18 +26,13 @@
                 <header class="home-section-heading">
                     <h2 id="recent-posts-title">Mới cập nhật</h2>
                 </header>
-                <div class="home-layout">
-                    <div class="home-posts-list">
-                        {{- range $recentPosts -}}
-                            {{- partial "post-card.html" . -}}
-                        {{- end -}}
-                        {{- with .Site.GetPage "section" "posts" -}}
-                            <a class="recent-posts-link" href="{{ .RelPermalink }}">Xem tất cả bài viết <span aria-hidden="true">&rarr;</span></a>
-                        {{- end -}}
-                    </div>
-                    <aside class="home-sidebar">
-                        {{- partial "home-topic-sidebar.html" . -}}
-                    </aside>
+                <div class="home-posts-list">
+                    {{- range $recentPosts -}}
+                        {{- partial "post-card.html" . -}}
+                    {{- end -}}
+                    {{- with .Site.GetPage "section" "posts" -}}
+                        <a class="recent-posts-link" href="{{ .RelPermalink }}">Xem tất cả bài viết <span aria-hidden="true">&rarr;</span></a>
+                    {{- end -}}
                 </div>
             </section>
         {{- end -}}

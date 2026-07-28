@@ -92,26 +92,8 @@ header {
   max-width: 1320px;
 }
 
-.home-layout {
-  display: flex;
-  gap: 2.5rem;
-  margin-top: 1.5rem;
-  align-items: flex-start;
-}
-
 .home-posts-list {
-  flex: 1;
   min-width: 0;
-}
-
-.home-sidebar {
-  width: 340px;
-  flex-shrink: 0;
-  position: sticky;
-  top: var(--header-height);
-  align-self: flex-start;
-  max-height: calc(100vh - var(--header-height) - 2rem);
-  overflow-y: auto;
 }
 
 // Reading sidebar: desktop discovery without taking focus away from the article
@@ -239,18 +221,6 @@ header {
 
   .random-post-title {
     -webkit-line-clamp: 3;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .home-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(400px, 480px);
-    gap: clamp(32px, 4vw, 64px);
-  }
-
-  .home-sidebar {
-    width: auto;
   }
 }
 
@@ -769,61 +739,6 @@ body {
   }
 }
 
-.sidebar-topic-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  li + li {
-    border-top: 1px solid $global-border-color;
-
-    [theme=dark] & {
-      border-top-color: $global-border-color-dark;
-    }
-  }
-
-  a {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.72rem 0;
-    color: $global-font-color;
-    font-size: 0.94rem;
-    font-weight: 650;
-    text-decoration: none;
-
-    &:hover {
-      color: #2563eb;
-    }
-
-    [theme=dark] & {
-      color: $global-font-color-dark;
-
-      &:hover {
-        color: #93c5fd;
-      }
-    }
-  }
-}
-
-.sidebar-topic-count {
-  min-width: 1.8rem;
-  padding: 0.08rem 0.4rem;
-  border-radius: 999px;
-  color: #1d4ed8;
-  background: #dbeafe;
-  font-size: 0.72rem;
-  font-weight: 800;
-  line-height: 1.35;
-  text-align: center;
-
-  [theme=dark] & {
-    color: #bfdbfe;
-    background: rgba(37, 99, 235, 0.28);
-  }
-}
-
 // ==============================
 // 6. Category Colors
 // ==============================
@@ -871,16 +786,6 @@ body {
 // ==============================
 
 @media only screen and (max-width: 900px) {
-  .home-layout {
-    flex-direction: column;
-  }
-
-  .home-sidebar {
-    width: 100%;
-    position: static;
-    max-height: none;
-  }
-
   .random-posts-list {
     display: flex;
     flex-wrap: wrap;
@@ -1612,58 +1517,6 @@ footer.footer {
 // Homepage latest news
 // ==============================
 
-.home-topic-nav {
-  display: flex;
-  gap: 0.75rem 1.25rem;
-  align-items: baseline;
-  margin: clamp(1.5rem, 3vw, 2.25rem) 0 0;
-  padding: 0 0 0.9rem;
-  border-bottom: 1px solid $global-border-color;
-
-  [theme=dark] & {
-    border-bottom-color: $global-border-color-dark;
-  }
-}
-
-.home-topic-nav-label {
-  flex: 0 0 auto;
-  color: $global-font-color;
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
-  [theme=dark] & {
-    color: $global-font-color-dark;
-  }
-}
-
-.home-topic-nav-links {
-  display: flex;
-  gap: 0.4rem 1rem;
-  min-width: 0;
-  flex-wrap: wrap;
-
-  a {
-    color: $global-font-secondary-color;
-    font-size: 0.86rem;
-    font-weight: 650;
-    text-decoration: none;
-
-    &:hover {
-      color: #2563eb;
-    }
-
-    [theme=dark] & {
-      color: $global-font-secondary-color-dark;
-
-      &:hover {
-        color: #93c5fd;
-      }
-    }
-  }
-}
-
 .latest-news {
   margin: clamp(2rem, 4vw, 3.25rem) 0 clamp(1.75rem, 3vw, 2.5rem);
 }
@@ -1980,10 +1833,6 @@ footer.footer {
 
 .recent-posts-section {
   margin-bottom: 3rem;
-}
-
-.recent-posts-section .home-layout {
-  margin-top: 0;
 }
 
 .recent-posts-link {
