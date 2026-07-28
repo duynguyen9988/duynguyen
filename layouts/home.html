@@ -21,6 +21,7 @@
             {{- $trendingPosts := first 4 ((after $featuredPostCount $allPosts) | shuffle) -}}
             {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
             {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
+            {{- partial "world-brief.html" . -}}
 
             <section class="recent-posts-section" aria-labelledby="recent-posts-title">
                 <header class="home-section-heading">

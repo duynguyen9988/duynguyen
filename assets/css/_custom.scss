@@ -1831,6 +1831,84 @@ footer.footer {
   }
 }
 
+.world-brief {
+  margin: 0 0 clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.world-brief-card {
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  border: 1px solid $global-border-color;
+  border-left: 4px solid #2563eb;
+  border-radius: 0.7rem;
+  background: #fff;
+
+  [theme=dark] & {
+    border-color: $global-border-color-dark;
+    border-left-color: #60a5fa;
+    background: #292a2d;
+  }
+
+  h3 {
+    max-width: 46rem;
+    margin: 0;
+    font-size: clamp(1.15rem, 2vw, 1.55rem);
+    font-weight: 780;
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+
+    a {
+      color: $global-font-color;
+      text-decoration: none;
+
+      &:hover {
+        color: #2563eb;
+      }
+
+      [theme=dark] & {
+        color: $global-font-color-dark;
+
+        &:hover {
+          color: #93c5fd;
+        }
+      }
+    }
+  }
+}
+
+.world-brief-meta {
+  margin: 0 0 0.55rem;
+  color: $global-font-secondary-color;
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
+.world-brief-link {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  margin-top: 1rem;
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: none;
+
+  &:hover {
+    color: #db2777;
+  }
+
+  [theme=dark] & {
+    color: #93c5fd;
+
+    &:hover {
+      color: #f9a8d4;
+    }
+  }
+}
+
 .recent-posts-section {
   margin-bottom: 3rem;
 }
