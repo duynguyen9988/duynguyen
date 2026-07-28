@@ -1776,6 +1776,14 @@ footer.footer {
 
 .all-posts-section {
   margin-bottom: 3rem;
+
+  .home-section-heading h2 {
+    color: #2563eb;
+
+    [theme=dark] & {
+      color: #93c5fd;
+    }
+  }
 }
 
 .all-posts-section .home-layout {
