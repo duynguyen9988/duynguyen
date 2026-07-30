@@ -15,27 +15,51 @@
             {{- else -}}
                 {{- $allPosts = where $allPosts "Params.hiddenfromhomepage" "!=" true -}}
             {{- end -}}
-            {{- $latestPosts := first 3 $allPosts -}}
-            {{- $recentPosts := first 6 (after (len $latestPosts) $allPosts) -}}
-            {{- $featuredPostCount := add (len $latestPosts) (len $recentPosts) -}}
-            {{- $trendingPosts := first 4 ((after $featuredPostCount $allPosts) | shuffle) -}}
-            {{- partial "latest-news.html" (dict "Pages" $latestPosts) -}}
-            {{- partial "recipe-of-day.html" . -}}
-            {{- partial "trending-posts.html" (dict "Pages" $trendingPosts) -}}
-            {{- partial "world-brief.html" . -}}
+            {{- $heroPost := index $allPosts 0 -}}
+            {{- $gridPosts := first 6 (after 1 $allPosts) -}}
 
-            <section class="recent-posts-section" aria-labelledby="recent-posts-title">
+            {{- /* Hero section */ -}}
+            <section class="home-hero" aria-label="Bài viết nổi bật">
+                <a href="{{ $heroPost.RelPermalink }}" class="home-hero-card reveal">
+                    {{- $heroImg := $heroPost.Resources.GetMatch "featured-image" -}}
+                    {{- if $heroImg -}}
+                    <div class="home-hero-image">
+                        {{- dict "Src" $heroImg.Name "Resources" $heroPost.Resources "Alt" $heroPost.Title | partial "plugin/img.html" -}}
+                    </div>
+                    {{- end -}}
+                    <div class="home-hero-content{{ if not $heroImg }}-only{{ end }}">
+                        {{- with $heroPost.Params.categories -}}
+                            {{- $cat := index . 0 -}}
+                            {{- $catPage := partialCached "function/path.html" $cat $cat | printf "/categories/%v" | $.Site.GetPage -}}
+                            <span class="home-hero-category">{{ $catPage.Title }}</span>
+                        {{- end -}}
+                        <h1 class="home-hero-title">{{ $heroPost.Title | emojify }}</h1>
+                        <p class="home-hero-summary">{{ $heroPost.Description | plainify | truncate 200 }}</p>
+                        <div class="home-hero-meta">
+                            <time datetime="{{ $heroPost.PublishDate.Format "2006-01-02" }}">
+                                {{- $heroPost.PublishDate.Format "2006-01-02" -}}
+                            </time>
+                            &nbsp;·&nbsp;{{ $heroPost.ReadingTime }} phút đọc
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            {{- /* Post grid */ -}}
+            <section class="home-posts-section" aria-labelledby="recent-posts-title">
                 <header class="home-section-heading">
-                    <h2 id="recent-posts-title">Mới cập nhật</h2>
+                    <h2 id="recent-posts-title">Bài viết mới</h2>
                 </header>
-                <div class="home-posts-list">
-                    {{- range $recentPosts -}}
+                <div class="home-posts-grid">
+                    {{- range $gridPosts -}}
                         {{- partial "post-card.html" . -}}
                     {{- end -}}
-                    {{- with .Site.GetPage "section" "posts" -}}
-                        <a class="recent-posts-link" href="{{ .RelPermalink }}">Xem tất cả bài viết <span aria-hidden="true">&rarr;</span></a>
-                    {{- end -}}
                 </div>
+                {{- with .Site.GetPage "section" "posts" -}}
+                    <a class="home-posts-link" href="{{ .RelPermalink }}">
+                        Xem tất cả bài viết <span aria-hidden="true">&rarr;</span>
+                    </a>
+                {{- end -}}
             </section>
         {{- end -}}
     </div>

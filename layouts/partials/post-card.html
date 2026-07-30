@@ -9,6 +9,12 @@
     {{- end -}}
 
     <div class="post-card-body">
+        {{- with .Params.categories -}}
+            {{- $cat := index . 0 -}}
+            {{- $catPage := partialCached "function/path.html" $cat $cat | printf "/categories/%v" | $.Site.GetPage -}}
+            <span class="post-card-category">{{ $catPage.Title }}</span>
+        {{- end -}}
+
         <h2 class="post-card-title" itemprop="name headline">
             <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
         </h2>
@@ -17,27 +23,19 @@
             <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
                 {{- .PublishDate.Format "2006-01-02" -}}
             </time>
-            {{- with .Params.categories -}}
-                <span class="post-card-categories">
-                    {{- range $index, $value := . -}}
-                        {{- if gt $index 0 }}, {{ end -}}
-                        {{- $category := partialCached "function/path.html" $value $value | printf "/categories/%v" | $.Site.GetPage -}}
-                        <a href="{{ $category.RelPermalink }}">{{ $category.Title }}</a>
-                    {{- end -}}
-                </span>
-            {{- end -}}
+            <span>{{ .ReadingTime }} phút đọc</span>
         </div>
 
         <div class="post-card-summary">
             {{- with .Summary -}}
-                {{- . | plainify | truncate 250 -}}
+                {{- . | plainify | truncate 200 -}}
             {{- else -}}
-                {{- .Description | plainify | truncate 250 -}}
+                {{- .Description | plainify | truncate 200 -}}
             {{- end -}}
         </div>
 
         <a class="post-card-readmore" href="{{ .RelPermalink }}">
-            {{- T "readMore" | default "READ MORE" -}} &rarr;
+            {{- T "readMore" | default "Đọc tiếp" -}} &rarr;
         </a>
     </div>
 </article>

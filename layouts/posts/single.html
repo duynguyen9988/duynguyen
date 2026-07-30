@@ -11,26 +11,15 @@
     {{- end -}}
 
     <div class="single-reading-layout">
-    {{- /* Desktop TOC sidebar; JavaScript keeps the current heading highlighted. */ -}}
-    {{- if ne $toc.enable false -}}
-    <aside class="single-toc-sidebar" aria-label="On this page">
-        <div class="toc reading-toc" id="toc-auto">
-            <p class="toc-title">On this page</p>
-            <div class="toc-content{{ if eq $toc.auto false }} always-active{{ end }}" id="toc-content-auto"></div>
-        </div>
-    </aside>
-    {{- end -}}
     <article class="page single">
         {{- partial "breadcrumb.html" . -}}
-        {{- /* Title */ -}}
+
         <h1 class="single-title animate__animated animate__flipInX">{{ .Title | emojify }}</h1>
 
-        {{- /* Subtitle */ -}}
         {{- with $params.subtitle -}}
             <h2 class="single-subtitle">{{ . }}</h2>
         {{- end -}}
 
-        {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
                 {{- $author := $params.author | default .Site.Params.Author.name | default (T "author") -}}
@@ -69,12 +58,11 @@
             </div>
         </div>
 
-        {{- /* Featured image (skip if same as first content image) */ -}}
+        {{- /* Featured image */ -}}
         {{- $featuredImage := $params.featuredimage -}}
         {{- with .Resources.GetMatch "featured-image" -}}
             {{- $featuredImage = .Name -}}
         {{- end -}}
-        {{- /* Find first content image from raw Markdown */ -}}
         {{- $firstContentImage := "" -}}
         {{- $imgMatch := findRE `!\[.*?\]\((.+?)(?:\s+".*?")?\)` .RawContent 1 -}}
         {{- if $imgMatch -}}
@@ -101,9 +89,9 @@
             </div>
         {{- end -}}
 
-        {{- /* Static TOC */ -}}
+        {{- /* Static TOC (visible on mobile) */ -}}
         {{- if ne $toc.enable false -}}
-            <div class="details toc" id="toc-static"  data-kept="{{ if $toc.keepStatic }}true{{ end }}">
+            <div class="details toc" id="toc-static" data-kept="{{ if $toc.keepStatic }}true{{ end }}">
                 <div class="details-summary toc-title">
                     <span>{{ T "contents" }}</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
@@ -114,22 +102,14 @@
             </div>
         {{- end -}}
 
-        {{- /* Content — related posts inserted after 1st paragraph */ -}}
+        {{- /* Content */ -}}
         {{- $contentHtml := dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" -}}
-        {{- $firstPara := "" -}}
-        {{- $contentRest := $contentHtml -}}
-        {{- $match := findRE `(.*?</p>)` $contentHtml 1 -}}
-        {{- if $match -}}
-            {{- $firstPara = index $match 0 -}}
-            {{- $contentRest = strings.TrimPrefix $firstPara $contentHtml -}}
-        {{- end -}}
         <div class="content" id="content">
-            {{- $firstPara | safeHTML -}}
-
-            {{- partial "related-posts.html" . -}}
-
-            {{- $contentRest | safeHTML -}}
+            {{- $contentHtml | safeHTML -}}
         </div>
+
+        {{- /* Related posts at bottom */ -}}
+        {{- partial "related-posts.html" . -}}
 
         {{- /* Footer */ -}}
         {{- partial "single/footer.html" . -}}
@@ -140,7 +120,17 @@
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
     </article>
-    <aside class="single-reading-sidebar" aria-label="Bài viết ngẫu nhiên">
+
+    {{- /* Sidebar */ -}}
+    <aside class="sidebar-wrapper" aria-label="Bài viết ngẫu nhiên">
+        {{- if ne $toc.enable false -}}
+        <div class="sidebar-card sidebar-toc">
+            <p class="sidebar-toc-title">{{ T "contents" }}</p>
+            <div class="toc" id="toc-auto">
+                <div class="toc-content" id="toc-content-auto"></div>
+            </div>
+        </div>
+        {{- end -}}
         {{- partial "random-posts.html" . -}}
     </aside>
     </div>
