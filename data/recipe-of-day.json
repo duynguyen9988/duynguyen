@@ -1,12 +1,10 @@
 {
   "entry": {
-    "title": "Bánh mì nấm tỏi và rau thơm",
-    "description": "Món chay cho hai người — Bánh mì chay nhanh với nấm xào tỏi, rau thơm và rau củ giòn.",
-    "slug": "banh-mi-nam-toi",
-    "pagePath": "/posts/banh-mi-nam-toi",
-    "publishedAt": "2026-07-29T00:55:00+07:00",
-    "displayDate": "29/07/2026",
-    "postUrl": "/banh-mi-nam-toi",
-    "imageUrl": "/banh-mi-nam-toi/featured-image.jpg"
+    "title": "Cơm chiên rau củ chảo nóng",
+    "description": "Món chay cho hai người — Tận dụng cơm nguội với rau củ phổ biến, làm trong một chảo cho hai người và giữ hạt cơm tơi..",
+    "slug": "com-chien-rau-cu",
+    "pagePath": "/com-chien-rau-cu",
+    "publishedAt": "2026-07-30T16:39:23.061235+07:00",
+    "displayDate": "30/07/2026"
   }
 }
