@@ -1,31 +1,31 @@
 $global-font-family: 'Inter', 'Segoe UI', Roboto, 'Noto Sans', system-ui, sans-serif !default;
 
-$global-background-color: #FAFAF8;
-$global-font-color: #1E293B;
-$global-font-secondary-color: #64748B;
-$global-link-color: #1E293B;
-$global-link-hover-color: #D94A4A;
-$global-border-color: #E2E8F0;
+$global-background-color: #FEFDFB;
+$global-font-color: #1C1917;
+$global-font-secondary-color: #78716C;
+$global-link-color: #FF2FA0;
+$global-link-hover-color: #E0258A;
+$global-border-color: #E7E5E4;
 
-$header-background-color: rgba(30, 41, 59, 0.95);
-$header-background-color-dark: rgba(30, 41, 59, 0.95);
-$header-hover-color: #D94A4A;
-$header-hover-color-dark: #D94A4A;
+$header-background-color: rgba(255, 47, 160, 0.95);
+$header-background-color-dark: rgba(255, 47, 160, 0.95);
+$header-hover-color: #FF2FA0;
+$header-hover-color-dark: #FF2FA0;
 
 $header-title-font-size: clamp(1.35rem, 2vw, 1.8rem) !default;
 
-$single-link-color: #D94A4A;
-$single-link-hover-color: #D94A4A;
+$single-link-color: #FF2FA0;
+$single-link-hover-color: #FF2FA0;
 
-$blockquote-color: #D94A4A;
+$blockquote-color: #FF2FA0;
 
-$code-color: #D94A4A;
-$code-background-color: #F8FAFC;
+$code-color: #FF2FA0;
+$code-background-color: #F5F3F0;
 
 $table-background-color: #fff;
-$table-thead-color: #F8FAFC;
+$table-thead-color: #F5F3F0;
 
-$pagination-link-color: #D94A4A;
-$pagination-link-hover-color: #D94A4A;
+$pagination-link-color: #FF2FA0;
+$pagination-link-hover-color: #FF2FA0;
 
-$selection-color: rgba(217, 74, 74, 0.2);
+$selection-color: rgba(255, 47, 160, 0.2);
