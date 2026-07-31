@@ -609,6 +609,123 @@ body {
   overflow: hidden;
 }
 
+// ---------- About page ----------
+
+.about-page {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2.5rem 0 3rem;
+
+  .about-kicker {
+    margin: 0 0 .5rem;
+    color: var(--elton-blue);
+    font-size: .8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+
+  .about-title {
+    margin: 0 0 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .about-body {
+    text-align: justify;
+    line-height: 1.75;
+
+    p {
+      margin: 0 0 1rem;
+    }
+  }
+
+  .about-section {
+    margin-top: 2.5rem;
+  }
+
+  .about-h2 {
+    margin: 0 0 .5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .about-note {
+    margin: 0 0 1rem;
+    color: var(--elton-muted);
+    font-size: .875rem;
+  }
+
+  .about-author {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--elton-border);
+  }
+
+  .about-avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .about-author-info {
+    min-width: 0;
+  }
+
+  .about-author-name {
+    margin: 0 0 .25rem;
+    font-weight: 700;
+  }
+
+  .about-author-bio {
+    margin: 0;
+    color: var(--elton-muted);
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+
+  .about-author-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .375rem 1rem;
+    margin-top: .75rem;
+    font-size: .875rem;
+
+    a {
+      color: var(--elton-blue);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    .about-title {
+      font-size: 1.625rem;
+    }
+
+    .about-author {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .about-author-links {
+        justify-content: center;
+      }
+    }
+  }
+}
+
 // ---------- Reveal & motion ----------
 
 @media (prefers-reduced-motion: reduce) {

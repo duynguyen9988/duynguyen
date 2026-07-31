@@ -63,7 +63,7 @@ func tokenize(s string) []string {
 		cur = nil
 	}
 	for _, r := range s {
-		if unicode.IsLetter(r) || unicode.IsDigit(r) || r == '_' {
+		if unicode.IsLetter(r) || unicode.IsNumber(r) || r == '_' {
 			cur = append(cur, r)
 		} else {
 			flush()
@@ -96,9 +96,12 @@ func buildText(p *Post) string {
 	body = junkRE.ReplaceAllString(body, " ")
 	body = spaceRE.ReplaceAllString(body, " ")
 	body = strings.TrimSpace(body)
-	if len(body) > bodyCharLimit {
-		body = body[:bodyCharLimit]
+	// Python slices by code point (len(body) counts Unicode chars), not bytes
+	runes := []rune(body)
+	if len(runes) > bodyCharLimit {
+		runes = runes[:bodyCharLimit]
 	}
+	body = string(runes)
 	sb.WriteString(" ")
 	sb.WriteString(body)
 	return sb.String()
@@ -185,7 +188,7 @@ func main() {
 	}
 
 	// max_features: keep top 5000 by corpus count (ties by first occurrence)
-	if false && len(vocab) > maxFeatures {
+	if os.Getenv("NO_MAX_FEATURES") == "" && len(vocab) > maxFeatures {
 		corpus := make(map[string]int)
 		for _, p := range posts {
 			counts, _ := tokenCounts(buildText(p))

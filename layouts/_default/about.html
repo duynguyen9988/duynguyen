@@ -1,0 +1,40 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+    {{- $author := .Site.Params.author -}}
+    <div class="about-page">
+        <header class="about-header">
+            <p class="about-kicker">Giới thiệu</p>
+            <h1 class="about-title">{{ .Title }}</h1>
+        </header>
+
+        <div class="about-body content">
+            {{- .Content -}}
+        </div>
+
+        <section class="about-section">
+            <h2 class="about-h2">Chủ đề blog</h2>
+            <p class="about-note">Mỗi bài viết được xếp vào một chuyên mục để dễ theo dõi và tra cứu.</p>
+            <div class="elton-chip-grid">
+                {{- range $name, $pages := .Site.Taxonomies.categories -}}
+                    {{- with $.Site.GetPage (printf "/categories/%s" $name) -}}
+                        <a class="elton-chip elton-chip-lg" href="{{ .RelPermalink }}">{{ .Title }}<span class="count">{{ len $pages }}</span></a>
+                    {{- end -}}
+                {{- end -}}
+            </div>
+        </section>
+
+        <section class="about-author">
+            <img class="about-avatar" src="{{ $author.avatar | relURL }}" alt="{{ $author.name }}" width="56" height="56" loading="lazy">
+            <div class="about-author-info">
+                <p class="about-author-name">{{ $author.name }}</p>
+                <p class="about-author-bio">{{ $author.bio }}</p>
+                <nav class="about-author-links" aria-label="Tác giả">
+                    {{- with site.GetPage "/tac-gia/duy-nguyen" -}}<a href="{{ .RelPermalink }}">Hồ sơ tác giả</a>{{- end -}}
+                    {{- with site.GetPage "/contact" -}}<a href="{{ .RelPermalink }}">Liên hệ</a>{{- end -}}
+                    {{- with $author.email -}}<a href="mailto:{{ . }}">{{ . }}</a>{{- end -}}
+                </nav>
+            </div>
+        </section>
+    </div>
+{{- end -}}
