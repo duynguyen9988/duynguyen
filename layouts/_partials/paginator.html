@@ -5,11 +5,11 @@
         <li class="page-item{{ if not $p.HasPrev }} disabled{{ end }}">
             {{- if $p.HasPrev -}}
             <a class="page-link" href="{{ $p.Prev.URL }}" aria-label="Trang trước">
-                <i class="fas fa-angle-left" aria-hidden="true"></i> Trang trước
+                {{- partial "icon.html" (dict "Name" "angle-left" "Size" 12) -}} Trang trước
             </a>
             {{- else -}}
             <span class="page-link" aria-disabled="true" aria-label="Trang trước">
-                <i class="fas fa-angle-left" aria-hidden="true"></i> Trang trước
+                {{- partial "icon.html" (dict "Name" "angle-left" "Size" 12) -}} Trang trước
             </span>
             {{- end -}}
         </li>
@@ -43,11 +43,11 @@
         <li class="page-item{{ if not $p.HasNext }} disabled{{ end }}">
             {{- if $p.HasNext -}}
             <a class="page-link" href="{{ $p.Next.URL }}" aria-label="Trang kế tiếp">
-                Trang kế tiếp <i class="fas fa-angle-right" aria-hidden="true"></i>
+                Trang kế tiếp {{- partial "icon.html" (dict "Name" "angle-right" "Size" 12) -}}
             </a>
             {{- else -}}
             <span class="page-link" aria-disabled="true" aria-label="Trang kế tiếp">
-                Trang kế tiếp <i class="fas fa-angle-right" aria-hidden="true"></i>
+                Trang kế tiếp {{- partial "icon.html" (dict "Name" "angle-right" "Size" 12) -}}
             </span>
             {{- end -}}
         </li>

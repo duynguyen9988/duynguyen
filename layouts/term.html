@@ -7,9 +7,9 @@
         {{- $taxonomy := .Data.Singular -}}
         <h1 class="elton-page-title">
             {{- if eq $taxonomy "category" -}}
-                <i class="far fa-folder-open" aria-hidden="true"></i>&nbsp;{{ .Title }}
+                {{- partial "icon.html" (dict "Name" "folder" "Size" 20) -}}&nbsp;{{ .Title }}
             {{- else if eq $taxonomy "tag" -}}
-                <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{ .Title }}
+                {{- partial "icon.html" (dict "Name" "tag" "Size" 20) -}}&nbsp;{{ .Title }}
             {{- else -}}
                 {{- printf "%v - %v" (T $taxonomy | default $taxonomy) .Title -}}
             {{- end -}}

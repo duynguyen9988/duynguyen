@@ -72,7 +72,7 @@
                 <link rel="preload" as="image" href="{{ $preloadSrc | safeURL }}" fetchpriority="high">
             {{- end -}}
             <div class="featured-image reveal">
-                {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true "Fetchpriority" "high" | partial "plugin/img.html" -}}
+                {{- dict "Src" $featuredImage "Title" $.Description "Alt" $.Description "Resources" $.Resources "Linked" true "Fetchpriority" "high" "Loading" "eager" | partial "plugin/img.html" -}}
             </div>
         {{- end -}}
 
@@ -81,7 +81,7 @@
             <div class="details toc" id="toc-static" data-kept="{{ if $toc.keepStatic }}true{{ end }}">
                 <div class="details-summary toc-title">
                     <span>{{ T "contents" }}</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                    <span>{{- partial "icon.html" (dict "Name" "angle-right" "Size" 14) -}}</span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static">
                     {{- dict "Content" .TableOfContents "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}

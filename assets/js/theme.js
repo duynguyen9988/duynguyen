@@ -304,116 +304,162 @@ class Theme {
         const $searchInput = document.getElementById('search-input');
         const $searchLoading = document.getElementById('search-loading');
         const $searchClear = document.getElementById('search-clear');
-        if (!$searchInput || !$searchLoading || !$searchClear) return;
+        const $searchDropdown = document.getElementById('search-dropdown');
+        if (!$searchInput || !$searchLoading || !$searchClear || !$searchDropdown) return;
 
         const maxResultLength = searchConfig.maxResultLength || 10;
         const snippetLength = searchConfig.snippetLength || 50;
         const highlightTag = searchConfig.highlightTag || 'em';
 
+        const escapeHtml = (value) => String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+
+        let activeIndex = -1;
+        let currentItems = [];
+
+        const searchDropdown = {
+            render(results) {
+                activeIndex = results.length ? 0 : -1;
+                currentItems = results;
+                let html = '<div class="dropdown-menu"><div class="suggestions">';
+                if (!results.length) {
+                    html += `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${escapeHtml($searchInput.value)}"</span></div>`;
+                } else {
+                    results.forEach((item, index) => {
+                        html += `<a class="suggestion${index === 0 ? ' cursor' : ''}" href="${escapeHtml(item.uri)}">`
+                            + `<div><span class="suggestion-title">${item.title}</span><span class="suggestion-date">${item.date}</span></div>`
+                            + `<div class="suggestion-context">${item.context}</div></a>`;
+                    });
+                }
+                html += '</div><div class="search-footer">Search by Fuse.js</div></div>';
+                $searchDropdown.innerHTML = html;
+                $searchDropdown.style.display = 'block';
+            },
+            close() {
+                $searchDropdown.innerHTML = '';
+                $searchDropdown.style.display = 'none';
+                activeIndex = -1;
+                currentItems = [];
+            },
+            move(direction) {
+                if (!currentItems.length) return;
+                activeIndex = Math.min(Math.max(activeIndex + direction, 0), currentItems.length - 1);
+                const $suggestions = $searchDropdown.querySelectorAll('.suggestion');
+                $suggestions.forEach(($el, index) => {
+                    $el.classList.toggle('cursor', index === activeIndex);
+                });
+                $suggestions[activeIndex].scrollIntoView({ block: 'nearest' });
+            },
+            select() {
+                const item = currentItems[activeIndex];
+                if (item) window.location.assign(item.uri);
+            },
+        };
+        this._search = searchDropdown;
+
         $searchInput.addEventListener('input', () => {
-            $searchClear.style.display = $searchInput.value === '' ? 'none' : 'inline';
+            const query = $searchInput.value.trim();
+            $searchClear.style.display = query === '' ? 'none' : 'inline';
+            if (query === '') {
+                searchDropdown.close();
+                return;
+            }
+            $searchLoading.style.display = 'inline';
+            $searchClear.style.display = 'none';
+            const finish = (results) => {
+                $searchLoading.style.display = 'none';
+                $searchClear.style.display = 'inline';
+                searchDropdown.render(results);
+            };
+            const search = () => {
+                const results = {};
+                this._fuse.search(query).forEach(({ item, matches }) => {
+                    let { uri, title, content: context, date } = item;
+                    if (results[uri]) return;
+                    let position = 0;
+                    if (matches) {
+                        for (const match of matches) {
+                            if (match.key === 'content' && match.indices.length > 0) {
+                                position = match.indices[0][0];
+                                break;
+                            }
+                        }
+                    }
+                    position -= snippetLength / 5;
+                    if (position > 0) {
+                        position += context.slice(position, position + 20).lastIndexOf(' ') + 1;
+                        context = '...' + context.slice(position, position + snippetLength);
+                    } else {
+                        context = context.slice(0, snippetLength);
+                    }
+                    const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    title = title.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
+                    context = context.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
+                    results[uri] = { uri, title, date, context };
+                });
+                return Object.values(results).slice(0, maxResultLength);
+            };
+            if (!this._fuse) {
+                fetch(searchConfig.fuseIndexURL)
+                    .then(response => response.json())
+                    .then(data => {
+                        const fuseOpts = Object.assign({
+                            isCaseSensitive: false,
+                            findAllMatches: false,
+                            minMatchCharLength: 2,
+                            location: 0,
+                            threshold: 0.3,
+                            distance: 100,
+                            ignoreLocation: false,
+                            includeMatches: true,
+                            keys: [
+                                { name: 'title', weight: 5 },
+                                { name: 'tags', weight: 2 },
+                                { name: 'categories', weight: 2 },
+                                { name: 'content', weight: 1 },
+                            ],
+                        }, searchConfig.fuseOpts || {}, { includeMatches: true });
+                        this._fuse = new Fuse(data, fuseOpts);
+                        finish(search());
+                    }).catch(err => {
+                        console.error(err);
+                        finish([]);
+                    });
+            } else finish(search());
         }, false);
         $searchClear.addEventListener('click', () => {
             $searchInput.value = '';
             $searchClear.style.display = 'none';
-            if (this._search) this._search.autocomplete.setVal('');
+            this._search.close();
             $searchInput.focus();
         }, false);
+        $searchDropdown.addEventListener('click', (event) => {
+            const $anchor = event.target.closest('a.suggestion');
+            if ($anchor) window.location.assign($anchor.getAttribute('href'));
+        }, false);
         document.getElementById('mask').addEventListener('click', () => {
-            if (this._search) this._search.autocomplete.close();
+            this._search.close();
         }, false);
         document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && this._search) {
-                this._search.autocomplete.close();
+            if (event.key === 'Escape') {
+                this._search.close();
+                return;
+            }
+            if (!currentItems.length) return;
+            if (event.key === 'ArrowDown') {
+                event.preventDefault();
+                this._search.move(1);
+            } else if (event.key === 'ArrowUp') {
+                event.preventDefault();
+                this._search.move(-1);
+            } else if (event.key === 'Enter') {
+                event.preventDefault();
+                this._search.select();
             }
         }, false);
-
-        const initAutosearch = () => {
-            const autosearch = autocomplete('#search-input', {
-                hint: false,
-                autoselect: true,
-                dropdownMenuContainer: '#search-dropdown',
-                clearOnSelected: true,
-                cssClasses: { noPrefix: true },
-                debug: false,
-            }, {
-                name: 'search',
-                source: (query, callback) => {
-                    $searchLoading.style.display = 'inline';
-                    $searchClear.style.display = 'none';
-                    const finish = (results) => {
-                        $searchLoading.style.display = 'none';
-                        $searchClear.style.display = 'inline';
-                        callback(results);
-                    };
-                    const search = () => {
-                        const results = {};
-                        this._fuse.search(query).forEach(({ item, matches }) => {
-                            let { uri, title, content: context, date } = item;
-                            if (results[uri]) return;
-                            let position = 0;
-                            if (matches) {
-                                for (const match of matches) {
-                                    if (match.key === 'content' && match.indices.length > 0) {
-                                        position = match.indices[0][0];
-                                        break;
-                                    }
-                                }
-                            }
-                            position -= snippetLength / 5;
-                            if (position > 0) {
-                                position += context.slice(position, position + 20).lastIndexOf(' ') + 1;
-                                context = '...' + context.slice(position, position + snippetLength);
-                            } else {
-                                context = context.slice(0, snippetLength);
-                            }
-                            const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                            title = title.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
-                            context = context.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
-                            results[uri] = { uri, title, date, context };
-                        });
-                        return Object.values(results).slice(0, maxResultLength);
-                    };
-                    if (!this._fuse) {
-                        fetch(searchConfig.fuseIndexURL)
-                            .then(response => response.json())
-                            .then(data => {
-                                const fuseOpts = Object.assign({
-                                    isCaseSensitive: false,
-                                    findAllMatches: false,
-                                    minMatchCharLength: 2,
-                                    location: 0,
-                                    threshold: 0.3,
-                                    distance: 100,
-                                    ignoreLocation: false,
-                                    includeMatches: true,
-                                    keys: [
-                                        { name: 'title', weight: 5 },
-                                        { name: 'tags', weight: 2 },
-                                        { name: 'categories', weight: 2 },
-                                        { name: 'content', weight: 1 },
-                                    ],
-                                }, searchConfig.fuseOpts || {}, { includeMatches: true });
-                                this._fuse = new Fuse(data, fuseOpts);
-                                finish(search());
-                            }).catch(err => {
-                                console.error(err);
-                                finish([]);
-                            });
-                    } else finish(search());
-                },
-                templates: {
-                    suggestion: ({ title, date, context }) => `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
-                    empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
-                    footer: () => `<div class="search-footer">Search by Fuse.js</div>`,
-                },
-            });
-            autosearch.on('autocomplete:selected', (_event, suggestion) => {
-                window.location.assign(suggestion.uri);
-            });
-            this._search = autosearch;
-        };
-        initAutosearch();
     }
 
     init() {

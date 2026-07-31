@@ -1,7 +1,7 @@
 {{- /* Breadcrumb: Home > Category/Tag (if any) > Title */ -}}
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <ol>
-    <li><a href="{{ .Site.Home.RelPermalink }}"><i class="fas fa-home" aria-hidden="true"></i><span>Trang chủ</span></a></li>
+    <li><a href="{{ .Site.Home.RelPermalink }}">{{- partial "icon.html" (dict "Name" "home" "Size" 13) -}}<span>Trang chủ</span></a></li>
     {{- with .Params.categories -}}
       {{- range $i, $cat := . -}}
         {{- $found := false -}}

@@ -11,7 +11,7 @@
                         {{- if $.Site.Params.gitRepo -}}
                             {{- with $.GitInfo -}}
                                 &nbsp;<a class="git-hash" href="{{ printf `%v/commit/%v` $.Site.Params.gitRepo .Hash }}" target="_blank" title="commit by {{ .AuthorName }}({{ .AuthorEmail }}) {{ .Hash }}: {{ .Subject }}">
-                                    <i class="fas fa-hashtag" aria-hidden="true"></i>{{- .AbbreviatedHash -}}
+                                    {{- partial "icon.html" (dict "Name" "hashtag" "Size" 12) -}}{{- .AbbreviatedHash -}}
                                 </a>
                             {{- end -}}
                         {{- end -}}
@@ -73,10 +73,10 @@
             {{- $nextPage = .NextInSection -}}
         {{- end -}}
         {{- with $prevPage -}}
-            <a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}"><i class="fas fa-angle-left" aria-hidden="true"></i>{{ .Title | emojify }}</a>
+            <a href="{{ .RelPermalink }}" class="prev" rel="prev" title="{{ .Title }}">{{- partial "icon.html" (dict "Name" "angle-left" "Size" 14) -}}{{ .Title | emojify }}</a>
         {{- end -}}
         {{ with $nextPage }}
-            <a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+            <a href="{{ .RelPermalink }}" class="next" rel="next" title="{{ .Title }}">{{ .Title | emojify }}{{- partial "icon.html" (dict "Name" "angle-right" "Size" 14) -}}</a>
         {{- end -}}
     </div>
 </div>

@@ -149,6 +149,22 @@ body {
     color: #9CA3AF;
     z-index: 2;
   }
+
+  .elton-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #E5E7EB;
+    border-top-color: var(--elton-blue);
+    border-radius: 50%;
+    animation: elton-spin .8s linear infinite;
+  }
+}
+
+@keyframes elton-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .elton-nav-link {
