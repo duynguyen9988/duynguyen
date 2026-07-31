@@ -51,7 +51,7 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 
 ## Navigation
 
-- 5 nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap) are in the **footer** (horizontal, right side) — NOT in the Navbar
+- 3 nav links (Bài viết, Giới thiệu, Sitemap) are in the **footer** (horizontal, right side) — NOT in the Navbar
 - Menu is read dynamically from `hugo.toml` `[menu]` — never hardcode
 - Navbar only has: blog name (left), search pill (center), GitHub link (right)
 - Mobile (≤768px): GitHub link hidden; brand name hidden ≤640px
@@ -120,7 +120,7 @@ Post cards and random posts sidebar use `.Resources.GetMatch "featured-image"` d
 
 ## Footer — Elton style
 - Background `#E2E8F0` (`bg-slate-200`), flex `space-between`, wrap
-- Left: `© <year> Duy Nguyen Blog`; right: 5 main nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap), horizontal
+- Left: `© <year> Duy Nguyen Blog`; right: 3 main nav links (Bài viết, Giới thiệu, Sitemap), horizontal
 - Hover: blue `#2563EB`
 
 ## Layout

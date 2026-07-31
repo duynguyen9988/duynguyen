@@ -1,7 +1,6 @@
 {{- /* Sitemap tree as indented list */ -}}
 {{- $posts := where (where .Site.Pages "Kind" "page") "Section" "posts" -}}
 {{- $categories := where (where .Site.Pages "Kind" "term") "Section" "categories" -}}
-{{- $tags := where (where .Site.Pages "Kind" "term") "Section" "tags" -}}
 {{- $sitemapPage := . -}}
 <div class="tree-root">
   <div class="tree-node"><span class="tree-branch">└</span> <a href="{{ .Site.Home.RelPermalink }}">Trang chủ</a></div>
@@ -21,14 +20,6 @@
       {{- range $i, $c := $categories -}}
       {{- $branch := "├──" -}}{{ if eq $i (sub (len $categories) 1) }}{{ $branch = "└──" }}{{ end -}}
       <div class="tree-node"><span class="tree-branch">{{ $branch }}</span> <a href="{{ $c.RelPermalink }}">{{ $c.Title }}</a></div>
-      {{- end -}}
-    </div>
-
-    <div class="tree-node"><span class="tree-branch">├──</span> <a href="{{ .Site.Home.RelPermalink }}tags/">Thẻ</a></div>
-    <div class="tree-children">
-      {{- range $i, $t := $tags -}}
-      {{- $branch := "├──" -}}{{ if eq $i (sub (len $tags) 1) }}{{ $branch = "└──" }}{{ end -}}
-      <div class="tree-node"><span class="tree-branch">{{ $branch }}</span> <a href="{{ $t.RelPermalink }}">{{ $t.Title }}</a></div>
       {{- end -}}
     </div>
 

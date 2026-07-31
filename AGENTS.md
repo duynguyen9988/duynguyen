@@ -88,8 +88,7 @@ Elton-style UI (like blog.eltondata.com): flat white design, blue accent `#2563E
 - `assets/js/theme.js` — added `initSearch()` (Fuse.js branch, ported from theme) + called in `init()`
 - `layouts/home.html` — flat `.elton-post-grid` + smart paginator + social CTA (GitHub/Email buttons)
 - `layouts/partials/post-card.html` — elton card: title → chips → avatar+date row → image → 3-line summary
-- `layouts/section.html`, `layouts/term.html` — same card grid + bold page title
-- `layouts/taxonomy.html` — flat chip grid with post counts (removed emoji/gradient cards)
+- `layouts/section.html`, `layouts/term.html` — same card grid + bold page title (term = category pages only)
 - `layouts/partials/footer.html` — minimal: `© <year>` left, main menu links right
 - `layouts/posts/single.html` — meta replaced with avatar + `DD/MM/YYYY` + reading time row
 - `layouts/_partials/paginator.html` — "Trang trước"/"Trang kế tiếp" text labels
@@ -97,6 +96,13 @@ Elton-style UI (like blog.eltondata.com): flat white design, blue accent `#2563E
 - `hugo.toml` — `[params.search] enable = true` (fuse, self-hosted); `iconColor`/`tileColor` → `#2563EB`
 - Deleted dead partials: `layouts/partials/home/`, `layouts/partials/sidebar/`
 - Verified with Playwright headless: nav fixed/white/shadow, 2-col grid desktop + 1-col ≤768px, no 404s, no JS errors, search dropdown renders suggestions
+
+### Session 7 — remove taxonomy index pages
+- `hugo.toml`: `disableKinds = ["taxonomy"]` (kills `/tags/` + `/categories/` index pages) + `[taxonomies] category = "categories"` (tags taxonomy disabled — no tag term pages either); removed "Thẻ"/"Chuyên mục" from `menu.main`
+- Deleted `layouts/taxonomy.html`, `layouts/tags/taxonomy.html`
+- `layouts/_partials/single/footer.html` — removed `.post-tags` section (would nil-error without tags taxonomy)
+- `layouts/partials/sitemap-tree.html` — removed the Thẻ subtree
+- Category chips on cards + `/categories/<slug>/` term pages still work (kind `term` unaffected by `disableKinds`)
 
 ## Key Architecture
 - **Featured image resolution** (`layouts/posts/single.html:68-90`):

@@ -11,6 +11,11 @@ copyright = '© 2026 Duy Nguyen'
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
+disableKinds = ["taxonomy"]
+
+[taxonomies]
+  category = "categories"
+
 [pagination]
   pagerSize = 10
   path = "page"
@@ -204,16 +209,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/posts/"
   [[menu.main]]
     weight = 2
-    identifier = "tags"
-    name = "Thẻ"
-    url = "/tags/"
+    identifier = "about"
+    name = "Giới thiệu"
+    url = "/about/"
   [[menu.main]]
     weight = 3
-    identifier = "categories"
-    name = "Chuyên mục"
-    url = "/categories/"
-  [[menu.main]]
-    weight = 4
     identifier = "about"
     name = "Giới thiệu"
     url = "/about/"
