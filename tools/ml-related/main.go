@@ -358,6 +358,10 @@ func parseFrontmatter(content string, dirSlug string) *Post {
 					}
 					continue
 				}
+				// Skip nested keys (e.g. resources block has its own title/name)
+				if line != "" && (line[0] == ' ' || line[0] == '\t') {
+					continue
+				}
 				idx := strings.Index(line, ":")
 				if idx <= 0 {
 					continue
@@ -365,6 +369,23 @@ func parseFrontmatter(content string, dirSlug string) *Post {
 				key := strings.TrimSpace(line[:idx])
 				val := strings.TrimSpace(line[idx+1:])
 				val = strings.Trim(val, `"'`)
+				if strings.HasPrefix(val, "[") && strings.HasSuffix(val, "]") {
+					inner := strings.TrimSuffix(strings.TrimPrefix(val, "["), "]")
+					for _, item := range strings.Split(inner, ",") {
+						item = strings.Trim(strings.TrimSpace(item), `"'`)
+						if item == "" {
+							continue
+						}
+						switch key {
+						case "tags":
+							p.Tags = append(p.Tags, item)
+						case "categories":
+							p.Cats = append(p.Cats, item)
+						}
+					}
+					listKey = ""
+					continue
+				}
 				if val == "" {
 					listKey = key
 					continue
