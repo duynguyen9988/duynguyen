@@ -9,6 +9,11 @@
     {{- $paginator := .Paginate $allPosts -}}
 
     <div class="page elton-home">
+        <header class="elton-home-head">
+            <h1 class="elton-home-h1">{{ .Site.Title }}</h1>
+            <p class="elton-home-desc">{{ .Site.Params.description | plainify }}</p>
+        </header>
+
         <div class="elton-post-grid">
             {{- range $paginator.Pages -}}
                 {{- partial "post-card.html" . -}}
@@ -25,7 +30,7 @@
             <p class="elton-cta-label">Theo dõi và kết nối với tôi</p>
             <div class="elton-cta-buttons">
                 {{- with .Site.Params.social.GitHub -}}
-                <a class="elton-cta-btn elton-cta-btn-github" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer">
+                <a class="elton-cta-btn elton-cta-btn-github" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer">
                     {{- partial "icon.html" (dict "Name" "github" "Size" 16) -}} GitHub
                 </a>
                 {{- end -}}

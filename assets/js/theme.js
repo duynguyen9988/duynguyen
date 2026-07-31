@@ -440,6 +440,11 @@ class Theme {
             const $anchor = event.target.closest('a.suggestion');
             if ($anchor) window.location.assign($anchor.getAttribute('href'));
         }, false);
+        const searchQuery = new URLSearchParams(window.location.search).get('q');
+        if (searchQuery && searchQuery.trim() && $searchInput.value === '') {
+            $searchInput.value = searchQuery.trim();
+            $searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+        }
         document.getElementById('mask').addEventListener('click', () => {
             this._search.close();
         }, false);

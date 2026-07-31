@@ -18,7 +18,9 @@
 {{- $authorURL := .Site.Params.Author.link | default .Site.Home.RelPermalink | absURL -}}
 
 {{- if .IsHome -}}
-    {{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" .Permalink) "name" .Site.Title "url" .Permalink "inLanguage" .Site.Language.Lang "description" (.Site.Params.description | plainify) -}}
+    {{- $searchTarget := printf "%s?q={search_term_string}" .Site.Home.Permalink -}}
+    {{- $searchAction := dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" $searchTarget) "query-input" "required name=search_term_string" -}}
+    {{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" .Permalink) "name" .Site.Title "url" .Permalink "inLanguage" .Site.Language.Lang "description" (.Site.Params.description | plainify) "potentialAction" $searchAction -}}
     {{- $organization := dict "@type" "Organization" "@id" (printf "%s#organization" .Permalink) "name" $publisherName "url" .Permalink "logo" (dict "@type" "ImageObject" "url" $logoURL "width" 512 "height" 512) -}}
     {{- dict "@context" "https://schema.org" "@graph" (slice $website $organization) | jsonify | safeJS | printf `<script type="application/ld+json">%s</script>` | safeHTML -}}
 {{- else if and .IsPage (eq .Section "posts") -}}

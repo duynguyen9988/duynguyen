@@ -1,4 +1,4 @@
-{{- /* Elton-style navigation: brand | search pill | external link */ -}}
+{{- /* Elton-style navigation: brand | search pill | external link + category bar */ -}}
 <header class="elton-nav" id="header-desktop">
     <div class="elton-nav-inner">
         <a class="elton-brand" href="{{ .Site.Home.RelPermalink }}" title="{{ .Site.Title }}">
@@ -23,10 +23,19 @@
         {{- end -}}
 
         {{- with .Site.Params.social.GitHub -}}
-        <a class="elton-nav-link" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer" aria-label="GitHub">
+        <a class="elton-nav-link" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             GitHub
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
         </a>
         {{- end -}}
     </div>
+
+    {{- /* Category navigation bar */ -}}
+    <nav class="elton-nav-cats" aria-label="Chuyên mục">
+        {{- range $name, $pages := .Site.Taxonomies.categories -}}
+            {{- with $.Site.GetPage (printf "/categories/%s" $name) -}}
+                <a class="elton-nav-cat{{ if and (eq $.Kind "term") (eq $.Title .Title) }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}<span class="elton-nav-cat-count">{{ len $pages }}</span></a>
+            {{- end -}}
+        {{- end -}}
+    </nav>
 </header>

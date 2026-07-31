@@ -13,7 +13,7 @@
   --elton-blue-50: #EFF6FF;
   --elton-blue-100: #DBEAFE;
   --elton-slate-200: #E2E8F0;
-  --elton-nav-height: 4rem;
+  --elton-nav-height: calc(4rem + 2.75rem);
 }
 
 body {
@@ -30,16 +30,75 @@ body {
   left: 0;
   z-index: 1000;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   height: auto;
   line-height: normal;
   background-color: #FFFFFF;
-  padding: .875rem 1.5rem;
+  padding: 0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
 
   [theme=dark] & {
     background-color: #FFFFFF;
   }
+}
+
+.elton-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: .875rem 1.5rem;
+}
+
+.elton-nav-cats {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  border-top: 1px solid #F1F5F9;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.elton-nav-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .5rem .65rem;
+  white-space: nowrap;
+  color: var(--elton-muted);
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .15s ease;
+
+  &:hover {
+    color: var(--elton-blue);
+  }
+
+  &.active {
+    color: var(--elton-blue);
+    font-weight: 700;
+  }
+}
+
+.elton-nav-cat-count {
+  font-size: .6875rem;
+  font-weight: 600;
+  color: #94A3B8;
+  background-color: #F1F5F9;
+  border-radius: 9999px;
+  padding: .05rem .4rem;
 }
 
 .elton-nav-inner {
@@ -324,6 +383,26 @@ body {
 
 .elton-home {
   padding: 1.5rem 0 3rem;
+}
+
+.elton-home-head {
+  margin: .5rem 0 2.25rem;
+  max-width: 56ch;
+}
+
+.elton-home-h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.elton-home-desc {
+  margin: 0;
+  color: var(--elton-muted);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .elton-page-title {
