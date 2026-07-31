@@ -13,11 +13,10 @@ import (
 )
 
 const (
-	contentDir   = "content/posts"
-	output       = "data/related.json"
-	topN         = 4
-	maxFeatures  = 5000
-	maxDF        = 0.85
+	contentDir    = "content/posts"
+	output        = "data/related.json"
+	topN          = 4
+	maxDF         = 0.85
 	bodyCharLimit = 5000
 )
 
@@ -187,36 +186,6 @@ func main() {
 		}
 	}
 
-	// max_features: keep top 5000 by corpus count (ties by first occurrence)
-	if os.Getenv("NO_MAX_FEATURES") == "" && len(vocab) > maxFeatures {
-		corpus := make(map[string]int)
-		for _, p := range posts {
-			counts, _ := tokenCounts(buildText(p))
-			for t, c := range counts {
-				corpus[t] += c
-			}
-		}
-		type termScore struct {
-			term  string
-			count int
-			first int
-		}
-		scores := make([]termScore, 0, len(vocab))
-		for t := range vocab {
-			scores = append(scores, termScore{t, corpus[t], firstSeen[t]})
-		}
-		sort.Slice(scores, func(i, j int) bool {
-			if scores[i].count != scores[j].count {
-				return scores[i].count > scores[j].count
-			}
-			return scores[i].first < scores[j].first
-		})
-		vocab = make(map[string]int)
-		for i, s := range scores[:maxFeatures] {
-			vocab[s.term] = i
-		}
-	}
-
 	// TF-IDF vectors (sublinear tf, smooth idf, L2 normalized)
 	idf := make(map[string]float64)
 	for t := range vocab {
@@ -300,25 +269,8 @@ func main() {
 		fmt.Fprintln(os.Stderr, "encode error:", err)
 		os.Exit(1)
 	}
-	if os.Getenv("DUMP_VOCAB") != "" {
-		dumpVocab(vocab, firstSeen)
-	}
 
 	fmt.Printf("\nDone. %d posts, top %d related each → %s\n", n, topN, output)
-}
-
-
-func dumpVocab(vocab map[string]int, firstSeen map[string]int) {
-	terms := make([]string, 0, len(vocab))
-	for t := range vocab {
-		terms = append(terms, t)
-	}
-	sort.Slice(terms, func(i, j int) bool { return vocab[terms[i]] < vocab[terms[j]] })
-	f, _ := os.Create("/tmp/go-vocab.txt")
-	defer f.Close()
-	for _, t := range terms {
-		fmt.Fprintln(f, t)
-	}
 }
 
 func round4(x float64) float64 {

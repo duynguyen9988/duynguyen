@@ -19,7 +19,7 @@ def main():
     run('git log -1 --format=\'{"hash":"%h","date":"%ad"}\' --date=format:"%d-%m-%Y %H:%M:%S" > data/version.json')
 
     print("2. Generate ML-based related posts...")
-    run("python3 ml-related.py")
+    run("go run ./tools/ml-related")
 
     print("3. Build static site with Hugo...")
     run("hugo --minify")
