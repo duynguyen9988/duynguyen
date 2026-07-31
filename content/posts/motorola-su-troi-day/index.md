@@ -21,7 +21,7 @@ Hầu hết mọi người nhớ về Motorola như một thương hiệu di đ�
 
 Nhưng câu chuyện của Motorola còn đáng kinh ngạc hơn thế. Họ đã góp mặt trong những khoảnh khắc quan trọng nhất của lịch sử nhân loại. Cuộc đổ bộ lên Mặt Trăng của Apollo — câu nói "Một bước nhỏ của con người" được phát qua một máy thu của Motorola. Chiếc điện thoại di động đầu tiên trên thế giới — do chính họ phát minh. Thế rồi, trong thời hiện đại, công ty gần như biến mất khỏi mắt công chúng, nhưng vẫn âm thầm đạt được những thành tựu đáng nể. Và bộ phận điện thoại thông minh của họ cũng đang quay trở lại. Nghe có vẻ khó tin, nhưng đó là sự thật.
 
-![](featured-image.jpg)
+![Motorola — logo thương hiệu điện thoại từng là huyền thoại](featured-image.jpg)
 
 ## Chiếc gạch phóng xạ làm thay đổi thế giới
 

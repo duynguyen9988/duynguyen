@@ -1,5 +1,5 @@
 ---
-title: "Cuộc chiến mạng xã hội 2026 — Bluesky, Threads và sự trỗi dậy của nền tảng phi tập trung"
+title: 'Cuộc chiến mạng xã hội 2026: Bluesky vs Threads vs phi tập trung'
 description: "Bluesky, Threads và cuộc chiến mạng xã hội phi tập trung 2026 — liệu có ứng cử viên nào thực sự thay thế được Twitter?"
 date: 2026-07-27T00:20:00+07:00
 slug: bluesky-threads-mang-xa-hoi-2026

@@ -1,6 +1,6 @@
 ---
-title: "Thể Thao Điện Tử Việt Nam 2026 — Từ Game Thủ Chuyên Nghiệp Đến Ngành Công Nghiệp Triệu Đô"
-description: "Từ những quán net bụi bặm đến sân khấu ánh sáng hoành tráng, esports Việt Nam đã vươn mình trở thành một ngành công nghiệp triệu đô với hàng triệu người hâm mộ."
+title: 'Esports Việt Nam 2026 — từ game thủ đến ngành công nghiệp triệu đô'
+description: 'Esports Việt Nam 2026: từ quán net bụi bặm đến sân khấu ánh sáng và ngành công nghiệp triệu đô.'
 date: 2026-07-27T00:25:16+07:00
 slug: the-thao-dien-tu-viet-nam-2026
 categories: ["giai-tri"]

@@ -21,7 +21,7 @@ Hãy tưởng tượng lần đầu tiên bạn nhìn thấy một tấm bản �
 
 Thế nhưng câu chuyện đằng sau nó không bắt đầu từ một giáo sư đại học hay một phòng thí nghiệm hàn lâm. Nó bắt đầu từ một kỹ sư trẻ vừa ra trường, nhận công việc đầu tiên tại Bell Labs vào năm 1928, khi ngành điện thoại đang bùng nổ với hơn 65 triệu cuộc gọi mỗi ngày.
 
-![](featured-image.png)
+![Smith chart — biểu đồ Smith trong kỹ thuật điện và điện tử cao tần](featured-image.png)
 
 ## Cuộc gọi vượt đại dương
 

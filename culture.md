@@ -350,3 +350,29 @@ Whenever a PR/CI fails and is fixed successfully, append a new entry here with:
 - **Root cause**: AI-generated Unsplash photo IDs (10-char random strings, no timestamp-hex format `{13digit}-{12hex}`) that don't exist on Unsplash's servers. Real Unsplash IDs follow the format `photo-{13-digit-timestamp}-{12-char-hex}` e.g. `photo-1509042239860-f550ce710b93`.
 - **Fix**: Replaced all 6 fake IDs with real ones confirmed HTTP 200: coffee (`1509042239860-f550ce710b93`), street food (`1490645935967-10de6ba17061`), productivity (`1484480974693-6ca0a78fb36b`), AI (`1485827404703-89b55fcc595e`), food (`1476124369491-e7addf5db371`), entertainment (`1536440136628-849c177e76a1`)
 - **Prevention**: Every image URL in frontmatter MUST be verified with `curl -sI <url> | head -1` to confirm HTTP 200 before commit. Never accept AI-generated photo IDs without checking first. Real Unsplash IDs always have the `{timestamp}-{hex}` format (13 digits + hyphen + 12 hex chars).
+
+## Bộ Từ Khóa Chiến Lược (SEO Research — 2026-08-01)
+
+Blog DA thấp → chỉ nhắm long-tail có intent rõ, cạnh tranh thấp. KHÔNG đánh head term
+("review phim", "du lịch Đà Lạt") trực diện với báo lớn — đánh qua biến thể dài hơn.
+
+### 5 cụm từ khóa dễ hứng organic nhất
+
+1. **Review phim mới + năm + góc nhìn** — thắng bằng freshness, phải đăng trong 48h ra mắt:
+   `review <tên phim> <năm> không spoiler`, `<tên phim> <năm> có đáng xem không`
+2. **Top địa phương + món cụ thể** (Sài Gòn food): `top 10 <món> sài gòn`,
+   `quán <món> <quận>`, `cà phê view <địa điểm>`, `<món> <quận> ngon nhất`
+3. **Cẩm nang tự túc**: `<địa điểm> tự túc`, `<địa điểm> <N> ngày <N> đêm chi phí`,
+   `lịch trình <địa điểm>`, `kinh nghiệm du lịch <địa điểm> <năm>`
+4. **So sánh + năm**: `<A> vs <B> <năm>`, `nên mua <A> hay <B>` (iPhone/Samsung, Shopee/Lazada/Tiki)
+5. **Evergreen văn hóa/lịch sử**: `<món/loại hình> lịch sử văn hóa` — volume ổn định, cạnh tranh trung bình
+
+### Chuẩn SEO mỗi bài mới (bắt buộc)
+
+- Title ≤ 70 ký tự, keyword ở đầu, có năm/địa điểm khi cần
+- Description 100–150 ký tự, chứa keyword chính + CTA
+- H2 chứa biến thể keyword; H1 = title
+- Nội dung ≥ 800 từ; có info box (thông tin phim/quán) + phần điểm cộng/trừ → bắt featured snippet
+- Ít nhất 1 internal link tới bài cùng chủ đề
+- Featured image local WebP + alt chứa keyword
+- Ngày đăng = ngày push (quy tắc hiện hành)

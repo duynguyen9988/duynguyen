@@ -1,6 +1,6 @@
 ---
 title: "Anime — Từ nét vẽ tay đến hiện tượng văn hóa toàn cầu"
-description: "Từ những nét vẽ tay đầu thế kỷ 20 đến ngành công nghiệp tỷ đô, anime Nhật Bản đã vượt qua biên giới để trở thành hiện tượng văn hóa toàn cầu không thể phủ nhận."
+description: 'Từ nét vẽ tay đầu thế kỷ 20 đến ngành công nghiệp tỷ đô — vì sao anime chinh phục toàn cầu.'
 date: 2026-07-29T00:42:32+07:00
 slug: anime
 categories: ["phim"]

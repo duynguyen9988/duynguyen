@@ -2,7 +2,7 @@
 title: "Điện toán lượng tử — Bước ngoặt mới của công nghệ thế giới"
 slug: dien-toan-luong-tu
 date: 2026-07-29T00:42:32+07:00
-description: "Điện toán lượng tử: từ qubit, superposition, entanglement đến Google Sycamore (2019) và thách thức decoherence — bước ngoặt thay đổi mật mã, dược phẩm và tối ưu hóa."
+description: 'Điện toán lượng tử: qubit, superposition, entanglement và bước ngoặt mới của công nghệ thế giới.'
 categories:
   - cong-nghe
 tags:

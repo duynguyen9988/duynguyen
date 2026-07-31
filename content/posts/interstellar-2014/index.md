@@ -2,7 +2,7 @@
 title: "Interstellar — Kiệt tác khoa học viễn tưởng của Christopher Nolan"
 slug: interstellar-2014
 date: 2026-07-27T01:28:21+07:00
-description: "Interstellar (2014): Kiệt tác khoa học viễn tưởng của Christopher Nolan về du hành không gian, lỗ đen và tình yêu vượt thời gian — phân tích từ Wikipedia."
+description: 'Interstellar (2014) của Christopher Nolan — review phim khoa học viễn tưởng về tình yêu và thời gian.'
 categories:
   - phim
 tags:

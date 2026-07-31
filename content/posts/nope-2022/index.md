@@ -1,6 +1,6 @@
 ---
 title: "Nope (2022) — Phép màu quái dị và cơn nghiện cảnh tượng của Jordan Peele"
-description: "Jordan Peele trở lại với Nope — bộ phim kinh dị UFO đầu tiên quay bằng IMAX 65mm, nơi một đôi giày đứng thẳng sau thảm kịch trở thành biểu tượng cho 'phép màu quái dị' và sự hủy diệt của nỗi ám ảnh con người."
+description: 'Nope (2022) của Jordan Peele — review phim kinh dị UFO, phép màu quái dị và cơn nghiện cảnh tượng.'
 date: 2026-07-29T01:08:01+07:00
 slug: nope-2022
 categories: [phim]

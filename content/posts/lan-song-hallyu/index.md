@@ -1,5 +1,5 @@
 ---
-title: "Làn Sóng Hallyu — Từ Phim Truyền Hàn Đến K-Pop, Hành Trình Văn Hóa Hàn Quốc Chinh Phục Thế Giới"
+title: 'Làn sóng Hallyu — hành trình K-Pop chinh phục thế giới'
 date: 2026-07-27T01:37:06+07:00
 description: "Hành trình 30 năm của làn sóng Hàn Quốc (Hallyu) — từ Winter Sonata, Parasite đến BTS, cách văn hóa đại chúng Hàn Quốc trở thành hiện tượng toàn cầu."
 tags:

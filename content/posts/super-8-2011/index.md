@@ -1,6 +1,6 @@
 ---
 title: "Super 8 — Bức Thư Tình Gửi Tuổi Thơ Qua Ống Kính Super 8"
-description: "Super 8 (2011) của J.J. Abrams và Steven Spielberg là cuộc phiêu lưu ly kỳ về lũ trẻ năm 1979 chứng kiến vụ tai nạn tàu hỏa bí ẩn và sinh vật ngoài hành tinh thoát khỏi nhà tù quân sự."
+description: 'Super 8 (2011) của J.J. Abrams và Steven Spielberg — bức thư tình gửi tuổi thơ qua ống kính Super 8.'
 date: 2026-07-29T01:10:12+07:00
 slug: super-8-2011
 categories: [phim]

@@ -1,7 +1,7 @@
 ---
 title: "Phở — Hành Trình Từ Gánh Hàng Rong Nam Định Đến Biểu Tượng Ẩm Thực Toàn Cầu"
 date: 2026-07-27T01:36:57+07:00
-description: "Khám phá lịch sử hơn một thế kỷ của phở Việt Nam, từ gánh hàng rong đầu thế kỷ 20 Nam Định đến di sản văn hóa phi vật thể quốc gia, biểu tượng ẩm thực toàn cầu."
+description: 'Lịch sử phở Việt Nam hơn một thế kỷ: từ gánh hàng rong đến biểu tượng ẩm thực toàn cầu.'
 tags:
   - phở
   - ẩm thực Việt Nam

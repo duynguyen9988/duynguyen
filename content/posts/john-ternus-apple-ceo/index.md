@@ -1,5 +1,5 @@
 ---
-title: 'John Ternus và Câu Hỏi Cho Kỷ Nguyên Mới Của Apple: Khi Một Kỹ Sư Cơ Khí Lên Nắm Quyền'
+title: 'John Ternus — kỹ sư cơ khí lên làm CEO Apple'
 slug: john-ternus-apple-ceo
 date: 2026-07-25T10:00:00+07:00
 draft: false
@@ -23,7 +23,7 @@ Về mặt tài chính, Tim đã đúng. Khi ông bắt đầu làm CEO, Apple �
 
 Nhưng mọi thứ sắp thay đổi. Ngày 21 tháng 4 năm 2026, Apple chính thức xác nhận: Tim Cook sẽ rời ghế CEO. Ngày cuối cùng của ông là 31 tháng 8.
 
-![](featured-image.jpg)
+![John Ternus — CEO mới của Apple](featured-image.jpg)
 
 ## Người kế nhiệm vô danh
 

@@ -42,4 +42,18 @@
         {{- $article = merge $article (dict "image" (slice (dict "@type" "ImageObject" "url" $socialImage.Permalink "width" $socialImage.Width "height" $socialImage.Height))) -}}
     {{- end -}}
     {{- $article | jsonify | safeJS | printf `<script type="application/ld+json">%s</script>` | safeHTML -}}
+
+    {{- /* BreadcrumbList */ -}}
+    {{- $crumbItems := slice (dict "@type" "ListItem" "position" 1 "name" (.Site.Title | plainify) "item" .Site.Home.Permalink) -}}
+    {{- $pos := 2 -}}
+    {{- with .Params.categories -}}
+        {{- with index . 0 -}}
+            {{- with $.Site.GetPage (printf "/categories/%v" .) -}}
+                {{- $crumbItems = $crumbItems | append (dict "@type" "ListItem" "position" $pos "name" (.Title | plainify) "item" .Permalink) -}}
+                {{- $pos = add $pos 1 -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $crumbItems = $crumbItems | append (dict "@type" "ListItem" "position" $pos "name" (.Title | plainify) "item" .Permalink) -}}
+    {{- dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbItems | jsonify | safeJS | printf `<script type="application/ld+json">%s</script>` | safeHTML -}}
 {{- end -}}

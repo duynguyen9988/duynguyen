@@ -1,7 +1,7 @@
 ---
 title: "Du Lịch Thái Lan — Hành Trình Khám Phá Xứ Chùa Vàng"
 date: 2026-07-27T01:37:17+07:00
-description: "Khám phá ngành du lịch Thái Lan — 39,8 triệu lượt khách quốc tế năm 2019, những điểm đến không thể bỏ qua, ẩm thực đường phố và tác động kinh tế sâu rộng."
+description: 'Du lịch Thái Lan tự túc: cẩm nang địa điểm, ẩm thực, chi phí và kinh nghiệm từ A đến Z.'
 tags:
   - du lịch Thái Lan
   - Bangkok

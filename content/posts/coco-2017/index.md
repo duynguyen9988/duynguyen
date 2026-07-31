@@ -1,6 +1,6 @@
 ---
 title: "Coco (2017) — Hành trình về cội nguồn và sức mạnh của ký ức"
-description: "Phim hoạt hình Coco của Pixar kể về cậu bé Miguel lạc vào Thế giới Người Chết, khám phá bí mật gia tộc và ý nghĩa của sự tưởng nhớ. Đoạt giải Oscar 2018."
+description: 'Coco (2017) của Pixar — review phim hoạt hình về gia đình, âm nhạc và ngày của người chết.'
 date: 2026-07-29T01:00:00+07:00
 slug: coco-2017
 categories:

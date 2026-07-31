@@ -2,7 +2,7 @@
 title: "Phú Quốc — Hòn Đảo Ngọc Của Việt Nam Và Hành Trình Vươn Tầm Thế Giới"
 slug: "phu-quoc"
 date: 2026-07-27T01:32:42+07:00
-description: "Phú Quốc, hòn đảo lớn nhất Việt Nam, đang chuyển mình từ thiên đường hoang sơ thành điểm đến đẳng cấp quốc tế với thiên nhiên kỳ vĩ và nền ẩm thực độc đáo."
+description: 'Khám phá Phú Quốc — hòn đảo ngọc với bãi biển, rừng nguyên sinh và hải sản tươi ngon.'
 categories: ["du-lich"]
 tags: ["phu-quoc", "kien-giang", "dao-ngoc", "du-lich-bien", "nha-trang"]
 resources:

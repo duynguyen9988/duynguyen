@@ -1,6 +1,6 @@
 ---
 title: "Nha Trang — Viên ngọc biển của miền Trung Việt Nam"
-description: "Khám phá Nha Trang, thành phố biển xinh đẹp ở Khánh Hòa với bãi cát trắng dài, làn nước trong xanh, tháp Chăm Po Nagar, ẩm thực hải sản phong phú và những hòn đảo hoang sơ."
+description: 'Khám phá Nha Trang — thành phố biển Khánh Hòa với bãi cát trắng, hòn đảo và hải sản tươi ngon.'
 date: 2026-07-29T00:42:32+07:00
 slug: nha-trang
 categories:

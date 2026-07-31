@@ -1,9 +1,9 @@
 ---
-title: 'Review Spider-Man: Brand New Day (2026) không spoiler — Người Nhện trưởng thành hơn, có đáng xem?'
+title: 'Review Spider-Man: Brand New Day (2026) không spoiler — có đáng xem?'
 slug: review-spider-man-brand-new-day
 date: 2026-08-01T05:15:21+07:00
 draft: false
-description: 'Review Spider-Man: Brand New Day (2026) không spoiler: Người Nhện của Tom Holland trưởng thành hơn, cô đơn hơn — có đáng xem ngoài rạp không?'
+description: 'Review Spider-Man: Brand New Day (2026) không spoiler: Người Nhện của Tom Holland trưởng thành hơn — có đáng xem ngoài rạp không?'
 tags:
   - phim-2026
   - spider-man

@@ -1,5 +1,5 @@
 ---
-title: "Quản Lý Tài Chính Cá Nhân — Hành Trình Từ Chi Tiêu Vô Tội Vạ Đến Tự Do Tài Chính Cho Người Trẻ"
+title: 'Quản lý tài chính cá nhân cho người trẻ — hành trình đến tự do tài chính'
 date: 2026-07-27T01:37:17+07:00
 description: "Bài học quản lý tài chính cá nhân cho người trẻ — từ lập ngân sách, tiết kiệm, đầu tư đến nghỉ hưu sớm, dựa trên nguyên tắc hoạch định tài chính."
 tags:

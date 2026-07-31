@@ -2,7 +2,7 @@
 title: "Google — Từ dự án nghiên cứu đến đế chế công nghệ toàn cầu"
 slug: "google-lich-su"
 date: 2026-07-27T01:40:00+07:00
-description: "Từ một dự án nghiên cứu tại Stanford năm 1996, Google đã trở thành một trong những công ty quyền lực nhất thế giới, thay đổi cách con người tìm kiếm thông tin."
+description: 'Từ dự án nghiên cứu Stanford 1996, Google trở thành đế chế công nghệ — lịch sử phát triển của Google.'
 tags: [google, lich su cong nghe, internet, tim kiem]
 categories: [cong-nghe]
 resources:

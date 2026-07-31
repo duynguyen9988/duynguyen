@@ -1,5 +1,5 @@
 ---
-title: "Cà Phê Việt Nam — Hành Trình 170 Năm Từ Đồn Điền Pháp Đến Vương Quốc Robusta Toàn Cầu"
+title: 'Cà phê Việt Nam — 170 năm từ đồn điền Pháp đến vương quốc Robusta'
 date: 2026-07-27T01:37:16+07:00
 description: "Khám phá hành trình 170 năm của cà phê Việt Nam — từ hạt giống đầu tiên năm 1857 đến nhà sản xuất lớn thứ hai thế giới, văn hóa phin và cà phê sữa đá."
 tags:

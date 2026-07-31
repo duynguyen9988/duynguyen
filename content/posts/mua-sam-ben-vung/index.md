@@ -1,7 +1,7 @@
 ---
 title: "Mua Sắm Bền Vững — Tiêu Dùng Có Trách Nhiệm Trong Thời Đại Thời Trang Nhanh"
 date: 2026-07-29T00:42:32+07:00
-description: "Tiêu dùng bền vững là sử dụng sản phẩm và dịch vụ theo cách giảm thiểu tác động đến môi trường. Từ thời trang nhanh đến ethical consumerism, làm thế nào để mua sắm có trách nhiệm?"
+description: 'Mua sắm bền vững: tiêu dùng có trách nhiệm trong thời đại thời trang nhanh — lợi ích và cách thực hành.'
 tags:
   - mua-sam-ben-vung
   - tieu-dung

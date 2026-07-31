@@ -1,7 +1,7 @@
 ---
 title: "van-hoa giải trí Việt Nam 2026: Điện ảnh, âm nhạc và những dấu ấn mới"
 date: 2026-07-24T11:00:00+07:00
-description: "Năm 2026 chứng kiến nhiều bước chuyển trong đời sống văn hóa giải trí Việt Nam, từ concert quy mô lớn, phim lịch sử ra rạp đến kịch nói lên màn ảnh rộng."
+description: 'Văn hóa giải trí Việt Nam 2026: phim, nhạc, game và làn sóng nội dung Gen Z.'
 tags:
   - van-hoa
   - giai-tri

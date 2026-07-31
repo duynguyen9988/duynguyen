@@ -21,7 +21,7 @@ Hãy thử nhớ lại lần cuối bạn mở Dropbox. Với đa số mọi ng�
 
 Bởi Dropbox chưa chết. Công ty vẫn kiếm hơn 2,5 tỷ đô mỗi năm, vẫn có hơn 18 triệu người dùng trả phí. Nhưng về mặt văn hóa, nó vô hình. Và câu chuyện về cách một công ty đã phát minh ra cả một ngành công nghiệp, rồi lặng lẽ bị lãng quên, đáng để kể lại từ đầu.
 
-![](featured-image.jpg)
+![Dropbox — logo công ty lưu trữ đám mây](featured-image.jpg)
 
 ## Chiếc USB bị quên trên xe bus
 

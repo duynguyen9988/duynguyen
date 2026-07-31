@@ -1,6 +1,6 @@
 ---
 title: "House of Cards — Ngôi Nhà Bài Chính Trị Và Cuộc Chơi Quyền Lực Tuyệt Đỉnh"
-description: "House of Cards (2013-2018) là series chính trị của Netflix về Frank và Claire Underwood — hành trình từ Hạ viện đến Nhà Trắng qua 6 mùa đầy thao túng, phản bội và tham vọng."
+description: 'House of Cards (2013–2018): series chính trị của Netflix về Frank Underwood và cuộc chơi quyền lực tuyệt đỉnh.'
 date: 2026-07-29T01:16:24+07:00
 slug: house-of-cards
 categories: [phim]

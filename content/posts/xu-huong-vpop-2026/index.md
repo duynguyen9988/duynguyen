@@ -1,7 +1,7 @@
 ---
-title: "Xu Hướng Âm Nhạc V-Pop 2026: Concert Trị, Album Cá Nhân Và Sự Trưởng Thành Của Thị Trường"
+title: 'Xu hướng V-Pop 2026: concert, album cá nhân và sự trưởng thành của thị trường'
 date: 2026-07-26T16:49:54+07:00
-description: "V-Pop 2026 chứng kiến sự chuyển mình từ cuộc đua siêu hit sang kinh tế trải nghiệm — concert cháy vé, album bản sắc và những nghệ sĩ dám đi con đường riêng."
+description: 'Xu hướng V-Pop 2026: từ cuộc đua siêu hit sang kinh tế concert và sự trưởng thành của thị trường nhạc Việt.'
 tags:
   - giai-tri
   - vpop

@@ -21,7 +21,7 @@ Jack Frost chưa bao giờ nghĩ mình là một anh hùng. Cậu thức dậy t
 
 Đó là câu hỏi mà *Rise of the Guardians* (tựa Việt: *Sự Trỗi Dậy Của Các Vệ Thần*) đặt ra ngay từ những phút đầu tiên, và cũng là hành trình cảm động nhất mà DreamWorks Animation từng kể.
 
-![](featured-image.jpg)
+![Sự trỗi dậy của các vệ thần — phim hoạt hình Rise of the Guardians](featured-image.jpg)
 
 ## Một "Avengers" của thế giới cổ tích
 

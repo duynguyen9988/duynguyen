@@ -1,6 +1,6 @@
 ---
 title: "Nhạc Việt 2026 — V-pop, Indie Và Làn Sóng Âm Nhạc Thế Hệ Gen Z"
-description: "Từ những câu hát quan họ truyền thống đến những bản rap điện tử sôi động, từ ca trù di sản đến V-pop triệu view — hành trình âm nhạc Việt Nam qua nhiều thế hệ."
+description: 'Nhạc Việt 2026: từ quan họ truyền thống đến rap điện tử — V-pop, indie và làn sóng Gen Z.'
 date: 2026-07-27T00:25:16+07:00
 slug: nhac-viet-2026-v-pop-lan-song-moi
 categories: ["giai-tri"]

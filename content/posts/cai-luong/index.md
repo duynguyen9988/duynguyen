@@ -1,6 +1,6 @@
 ---
 title: "Cải lương — Hồn dân tộc trong loại hình nghệ thuật sân khấu miền Nam"
-description: "Cải lương — loại hình sân khấu dân gian hiện đại ra đời đầu thế kỷ 20 ở Nam Bộ, kết hợp hát bội, nhạc tài tử và kịch nói, từng có thời kỳ hoàng kim rực rỡ"
+description: 'Cải lương Việt Nam: lịch sử hơn trăm năm, từ hát bội đến sân khấu vàng son.'
 date: 2026-07-29T00:48:18+07:00
 slug: cai-luong
 categories:

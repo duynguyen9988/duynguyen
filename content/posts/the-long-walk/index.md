@@ -1,6 +1,6 @@
 ---
 title: "The Long Walk — Đi Bộ Liên Tục, Dừng Sẽ Chết"
-description: "The Long Walk của Stephen King (1979) và phim 2025 của Francis Lawrence — cuộc thi đi bộ khắc nghiệt nơi 100 chàng trai phải bước tiếp không ngừng nghỉ, ai chậm hơn 6,4 km/h sẽ bị xử bắn."
+description: 'The Long Walk (1979) của Stephen King và phim chuyển thể của Francis Lawrence — review không spoiler.'
 date: 2026-07-29T01:16:51+07:00
 slug: the-long-walk
 categories: [phim]

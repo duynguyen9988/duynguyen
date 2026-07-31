@@ -126,3 +126,4 @@ Elton-style UI (like blog.eltondata.com): flat white design, blue accent `#2563E
 10. Every post MUST have `slug` in frontmatter matching the directory name
 11. `categories` and `tags` must be lists (not strings) in frontmatter
 12. **NEVER create new categories.** Only use the 8 existing canonical slug categories: `am-thuc`, `cong-nghe`, `du-lich`, `giai-tri`, `kinh-nghiem-song`, `mua-sam`, `phim`, `van-hoa`
+13. Title ≤ 70 chars with keyword at front; description 100–150 chars with keyword + CTA; alt text on every image (see `culture.md` keyword strategy)
