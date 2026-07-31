@@ -17,6 +17,6 @@ Mọi bài mới và lần cập nhật đáng kể đều theo [Chính sách bi
 
 ## Liên hệ
 
-Email: [duynguyen9988@gmail.com](mailto:duynguyen9988@gmail.com)  
+Email: [content@seomoney.org](mailto:content@seomoney.org)  
 GitHub: [duynguyen9988](https://github.com/duynguyen9988)
 

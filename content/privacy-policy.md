@@ -29,5 +29,5 @@ Bài viết có thể dẫn đến website của bên thứ ba. Các website đ�
 
 ## Thay đổi và liên hệ
 
-Chính sách này có thể được cập nhật khi website thay đổi dịch vụ hoặc yêu cầu pháp lý. Ngày cập nhật đáng kể sẽ được ghi ở đầu trang. Với câu hỏi hoặc yêu cầu liên quan đến quyền riêng tư, hãy liên hệ [duynguyen9988@gmail.com](mailto:duynguyen9988@gmail.com).
+Chính sách này có thể được cập nhật khi website thay đổi dịch vụ hoặc yêu cầu pháp lý. Ngày cập nhật đáng kể sẽ được ghi ở đầu trang. Với câu hỏi hoặc yêu cầu liên quan đến quyền riêng tư, hãy liên hệ [content@seomoney.org](mailto:content@seomoney.org).
 

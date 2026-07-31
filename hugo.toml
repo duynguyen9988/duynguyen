@@ -28,7 +28,7 @@ disableKinds = ["taxonomy"]
 
   [params.author]
     name = "Duy Nguyen"
-    email = "duynguyen9988@gmail.com"
+    email = "content@seomoney.org"
     link = "tac-gia/duy-nguyen/"
     bio = "Người sáng lập và chịu trách nhiệm biên tập Duy Nguyen Blog."
     avatar = "images/duy-nguyen-logo.webp"
@@ -101,7 +101,7 @@ disableKinds = ["taxonomy"]
 
   [params.social]
     GitHub = "duynguyen9988"
-    Email = "duynguyen9988@gmail.com"
+    Email = "content@seomoney.org"
     Facebook = ""
     Twitter = ""
     Instagram = ""

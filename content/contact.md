@@ -5,7 +5,7 @@ description: "Thông tin liên hệ với Duy Nguyen Blog về nội dung, đín
 slug: contact
 ---
 
-Bạn có thể liên hệ với Duy Nguyen Blog qua email: [duynguyen9988@gmail.com](mailto:duynguyen9988@gmail.com).
+Bạn có thể liên hệ với Duy Nguyen Blog qua email: [content@seomoney.org](mailto:content@seomoney.org).
 
 ## Nội dung và đính chính
 
