@@ -1,41 +1,42 @@
 {{- $img := .Resources.GetMatch "featured-image" -}}
-<article class="post-card{{ if not $img }} post-card-textonly{{ end }} reveal" itemscope itemtype="http://schema.org/Article">
+{{- $author := .Site.Params.Author | default dict -}}
+{{- $authorName := $author.name | default "Duy Nguyen" -}}
+{{- $avatar := $author.avatar | default "images/duy-nguyen-logo.webp" -}}
+<article class="elton-card reveal" itemscope itemtype="http://schema.org/Article">
+    <h2 class="elton-card-title" itemprop="name headline">
+        <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+    </h2>
+
+    {{- with .Params.categories -}}
+    <div class="elton-card-chips">
+        {{- range . -}}
+            {{- $catPage := partialCached "function/path.html" . . | printf "/categories/%v" | $.Site.GetPage -}}
+            <a class="elton-chip" href="{{ $catPage.RelPermalink }}">{{ $catPage.Title }}</a>
+        {{- end -}}
+    </div>
+    {{- end -}}
+
+    <div class="elton-card-meta">
+        <div class="elton-card-author">
+            <img class="elton-card-avatar" src="{{ $avatar | relURL }}" width="36" height="36" alt="" loading="lazy" decoding="async">
+            <span>{{ $authorName }}</span>
+        </div>
+        <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "02/01/2006" }}</time>
+    </div>
+
     {{- with $img -}}
-    <div class="post-card-thumb">
+    <div class="elton-card-image">
         <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">
             {{- dict "Src" .Name "Resources" $.Resources "Alt" $.Title | partial "plugin/img.html" -}}
         </a>
     </div>
     {{- end -}}
 
-    <div class="post-card-body">
-        {{- with .Params.categories -}}
-            {{- $cat := index . 0 -}}
-            {{- $catPage := partialCached "function/path.html" $cat $cat | printf "/categories/%v" | $.Site.GetPage -}}
-            <span class="post-card-category">{{ $catPage.Title }}</span>
+    <p class="elton-card-summary">
+        {{- with .Summary -}}
+            {{- . | plainify | truncate 300 -}}
+        {{- else -}}
+            {{- .Description | plainify | truncate 300 -}}
         {{- end -}}
-
-        <h2 class="post-card-title" itemprop="name headline">
-            <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
-        </h2>
-
-        <div class="post-card-meta">
-            <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
-                {{- .PublishDate.Format "2006-01-02" -}}
-            </time>
-            <span>{{ .ReadingTime }} phút đọc</span>
-        </div>
-
-        <div class="post-card-summary">
-            {{- with .Summary -}}
-                {{- . | plainify | truncate 200 -}}
-            {{- else -}}
-                {{- .Description | plainify | truncate 200 -}}
-            {{- end -}}
-        </div>
-
-        <a class="post-card-readmore" href="{{ .RelPermalink }}">
-            {{- T "readMore" | default "Đọc tiếp" -}} &rarr;
-        </a>
-    </div>
+    </p>
 </article>

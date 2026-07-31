@@ -287,6 +287,124 @@ class Theme {
         onScroll();
     }
 
+    initSearch() {
+        const searchConfig = this.config.search;
+        if (!searchConfig || searchConfig.type !== 'fuse') return;
+        const $searchInput = document.getElementById('search-input');
+        const $searchLoading = document.getElementById('search-loading');
+        const $searchClear = document.getElementById('search-clear');
+        if (!$searchInput || !$searchLoading || !$searchClear) return;
+
+        const maxResultLength = searchConfig.maxResultLength || 10;
+        const snippetLength = searchConfig.snippetLength || 50;
+        const highlightTag = searchConfig.highlightTag || 'em';
+
+        $searchInput.addEventListener('input', () => {
+            $searchClear.style.display = $searchInput.value === '' ? 'none' : 'inline';
+        }, false);
+        $searchClear.addEventListener('click', () => {
+            $searchInput.value = '';
+            $searchClear.style.display = 'none';
+            if (this._search) this._search.autocomplete.setVal('');
+            $searchInput.focus();
+        }, false);
+        document.getElementById('mask').addEventListener('click', () => {
+            if (this._search) this._search.autocomplete.close();
+        }, false);
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && this._search) {
+                this._search.autocomplete.close();
+            }
+        }, false);
+
+        const initAutosearch = () => {
+            const autosearch = autocomplete('#search-input', {
+                hint: false,
+                autoselect: true,
+                dropdownMenuContainer: '#search-dropdown',
+                clearOnSelected: true,
+                cssClasses: { noPrefix: true },
+                debug: false,
+            }, {
+                name: 'search',
+                source: (query, callback) => {
+                    $searchLoading.style.display = 'inline';
+                    $searchClear.style.display = 'none';
+                    const finish = (results) => {
+                        $searchLoading.style.display = 'none';
+                        $searchClear.style.display = 'inline';
+                        callback(results);
+                    };
+                    const search = () => {
+                        const results = {};
+                        this._fuse.search(query).forEach(({ item, matches }) => {
+                            let { uri, title, content: context, date } = item;
+                            if (results[uri]) return;
+                            let position = 0;
+                            if (matches) {
+                                for (const match of matches) {
+                                    if (match.key === 'content' && match.indices.length > 0) {
+                                        position = match.indices[0][0];
+                                        break;
+                                    }
+                                }
+                            }
+                            position -= snippetLength / 5;
+                            if (position > 0) {
+                                position += context.slice(position, position + 20).lastIndexOf(' ') + 1;
+                                context = '...' + context.slice(position, position + snippetLength);
+                            } else {
+                                context = context.slice(0, snippetLength);
+                            }
+                            const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                            title = title.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
+                            context = context.replace(new RegExp(`(${escapedQuery})`, 'gi'), `<${highlightTag}>$1</${highlightTag}>`);
+                            results[uri] = { uri, title, date, context };
+                        });
+                        return Object.values(results).slice(0, maxResultLength);
+                    };
+                    if (!this._fuse) {
+                        fetch(searchConfig.fuseIndexURL)
+                            .then(response => response.json())
+                            .then(data => {
+                                const fuseOpts = Object.assign({
+                                    isCaseSensitive: false,
+                                    findAllMatches: false,
+                                    minMatchCharLength: 2,
+                                    location: 0,
+                                    threshold: 0.3,
+                                    distance: 100,
+                                    ignoreLocation: false,
+                                    includeMatches: true,
+                                    keys: [
+                                        { name: 'title', weight: 5 },
+                                        { name: 'tags', weight: 2 },
+                                        { name: 'categories', weight: 2 },
+                                        { name: 'content', weight: 1 },
+                                    ],
+                                }, searchConfig.fuseOpts || {}, { includeMatches: true });
+                                this._fuse = new Fuse(data, fuseOpts);
+                                finish(search());
+                            }).catch(err => {
+                                console.error(err);
+                                finish([]);
+                            });
+                    } else finish(search());
+                },
+                templates: {
+                    suggestion: ({ title, date, context }) => `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
+                    empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
+                    footer: () => `<div class="search-footer">Search by Fuse.js</div>`,
+                },
+            });
+            autosearch.on('autocomplete:selected', (_event, suggestion) => {
+                window.location.assign(suggestion.uri);
+            });
+            this._search = autosearch;
+        };
+        initAutosearch();
+    }
+
     init() {
         try {
             this.initRaw();
@@ -306,6 +424,7 @@ class Theme {
             this.onClickMask();
             this.initScrollReveal();
             this.initProgressBar();
+            this.initSearch();
         }, 100);
     }
 }

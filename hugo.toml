@@ -63,17 +63,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     noFavicon = false
     svgFavicon = ""
     themeColor = "#ffffff"
-    iconColor = "#FF2FA0"
-    tileColor = "#FF2FA0"
+    iconColor = "#2563EB"
+    tileColor = "#2563EB"
 
   [params.cdn]
     data = ""
 
   [params.search]
-    enable = false
+    enable = true
     type = "fuse"
     contentLength = 4000
-    placeholder = "Tìm kiếm..."
+    placeholder = "Tìm kiếm bài viết..."
     maxResultLength = 10
     snippetLength = 30
     highlightTag = "em"
@@ -96,7 +96,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
     GitHub = "duynguyen9988"
-    Email = "292648126+Banhang-Chogao@users.noreply.github.com"
+    Email = "duynguyen9988@gmail.com"
+    Facebook = ""
+    Twitter = ""
+    Instagram = ""
+    YouTube = ""
 
   # Google Search Console — paste mã xác minh từ search.google.com/search-console vào "google"
   # Sau khi setup xong, submit sitemap tại: https://duynguyen9988.github.io/duynguyen/sitemap.xml

@@ -1,69 +1,18 @@
 {{- if ne .Site.Params.footer.enable false -}}
-    <footer class="footer">
-        <div class="footer-grid">
-            <div class="footer-section">
-                <h4 class="footer-section-title">Về blog</h4>
-                <div class="footer-section-content footer-about">
-                    <p>Bài viết có nguồn và góc nhìn riêng về văn hóa, ẩm thực, phim ảnh, công nghệ và đời sống.</p>
-                    {{- with index hugo.Data "ping-google" -}}
-                        {{- $checkedAt := or (index . "checkedAt") (index . "indexed") -}}
-                        <div class="ping-status">
-                            <span class="ping-dot"></span>
-                            URL health check: {{ $checkedAt }}
-                        </div>
+    <footer class="elton-footer">
+        <div class="elton-footer-inner">
+            <div>
+                © {{ now.Format "2006" }} {{ .Site.Title }} Blog
+            </div>
+            <nav class="elton-footer-nav" aria-label="Footer">
+                {{- range .Site.Menus.main -}}
+                    {{- $url := .URL | relLangURL -}}
+                    {{- with .Page -}}
+                        {{- $url = .RelPermalink -}}
                     {{- end -}}
-                    <div class="footer-social">
-                        {{- with .Site.Params.social.GitHub -}}
-                            <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer" title="GitHub" aria-label="GitHub">
-                                <i class="fab fa-github footer-social-icon" aria-hidden="true"></i>
-                            </a>
-                        {{- end -}}
-                        {{- with .Site.Params.social.Email -}}
-                            <a href="mailto:{{ . }}" title="Email" aria-label="Email">
-                                <i class="fas fa-envelope footer-social-icon" aria-hidden="true"></i>
-                            </a>
-                        {{- end -}}
-                    </div>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h4 class="footer-section-title">Chuyên mục</h4>
-                <div class="footer-section-content footer-nav-links">
-                    <nav aria-label="Chuyên mục">
-                        <ul>
-                            {{- range .Site.Menus.main -}}
-                                {{- $url := .URL | relLangURL -}}
-                                {{- with .Page -}}
-                                    {{- $url = .RelPermalink -}}
-                                {{- end -}}
-                                <li>
-                                    <a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
-                                        {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
-                                    </a>
-                                </li>
-                            {{- end -}}
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h4 class="footer-section-title">Khác</h4>
-                <div class="footer-section-content footer-nav-links">
-                    {{- with .Site.Menus.footer -}}
-                    <nav aria-label="Khác">
-                        <ul>
-                            {{- range . -}}
-                                {{- $url := .URL | relLangURL -}}
-                                {{- with .Page -}}
-                                    {{- $url = .RelPermalink -}}
-                                {{- end -}}
-                                <li><a href="{{ $url }}">{{ .Name }}</a></li>
-                            {{- end -}}
-                        </ul>
-                    </nav>
-                    {{- end -}}
-                </div>
-            </div>
+                    <a href="{{ $url }}">{{ .Name }}</a>
+                {{- end -}}
+            </nav>
         </div>
     </footer>
 {{- end -}}

@@ -1,66 +1,41 @@
 {{- define "content" -}}
-    {{- $params := .Scratch.Get "params" -}}
-    {{- $profile := .Site.Params.home.profile -}}
-    {{- $posts := .Site.Params.home.posts -}}
+    {{- $allPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse -}}
+    {{- if .Site.Params.page.hiddenFromHomePage -}}
+        {{ $allPosts = where $allPosts "Params.hiddenfromhomepage" false -}}
+    {{- else -}}
+        {{- $allPosts = where $allPosts "Params.hiddenfromhomepage" "!=" true -}}
+    {{- end -}}
 
-    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
-        {{- if ne $profile.enable false -}}
-            {{- partial "home/profile.html" . -}}
+    {{- $paginator := .Paginate $allPosts -}}
+
+    <div class="page elton-home">
+        <div class="elton-post-grid">
+            {{- range $paginator.Pages -}}
+                {{- partial "post-card.html" . -}}
+            {{- end -}}
+        </div>
+
+        {{- if gt $paginator.TotalPages 1 -}}
+            {{- partial "paginator.html" . -}}
         {{- end -}}
 
-        {{- if ne $posts.enable false | and .Site.RegularPages -}}
-            {{- $allPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse -}}
-            {{- if .Site.Params.page.hiddenFromHomePage -}}
-                {{- $allPosts = where $allPosts "Params.hiddenfromhomepage" false -}}
-            {{- else -}}
-                {{- $allPosts = where $allPosts "Params.hiddenfromhomepage" "!=" true -}}
-            {{- end -}}
-            {{- $heroPost := index $allPosts 0 -}}
-            {{- $gridPosts := first 6 (after 1 $allPosts) -}}
-
-            {{- /* Hero section */ -}}
-            <section class="home-hero" aria-label="Bài viết nổi bật">
-                <a href="{{ $heroPost.RelPermalink }}" class="home-hero-card reveal">
-                    {{- $heroImg := $heroPost.Resources.GetMatch "featured-image" -}}
-                    {{- if $heroImg -}}
-                    <div class="home-hero-image">
-                        {{- dict "Src" $heroImg.Name "Resources" $heroPost.Resources "Alt" $heroPost.Title | partial "plugin/img.html" -}}
-                    </div>
-                    {{- end -}}
-                    <div class="home-hero-content{{ if not $heroImg }}-only{{ end }}">
-                        {{- with $heroPost.Params.categories -}}
-                            {{- $cat := index . 0 -}}
-                            {{- $catPage := partialCached "function/path.html" $cat $cat | printf "/categories/%v" | $.Site.GetPage -}}
-                            <span class="home-hero-category">{{ $catPage.Title }}</span>
-                        {{- end -}}
-                        <h1 class="home-hero-title">{{ $heroPost.Title | emojify }}</h1>
-                        <p class="home-hero-summary">{{ $heroPost.Description | plainify | truncate 200 }}</p>
-                        <div class="home-hero-meta">
-                            <time datetime="{{ $heroPost.PublishDate.Format "2006-01-02" }}">
-                                {{- $heroPost.PublishDate.Format "2006-01-02" -}}
-                            </time>
-                            &nbsp;·&nbsp;{{ $heroPost.ReadingTime }} phút đọc
-                        </div>
-                    </div>
+        {{- /* Social CTA */ -}}
+        {{- if or .Site.Params.social.GitHub .Site.Params.social.Email -}}
+        <div class="elton-cta">
+            <p class="elton-cta-label">Theo dõi và kết nối với tôi</p>
+            <div class="elton-cta-buttons">
+                {{- with .Site.Params.social.GitHub -}}
+                <a class="elton-cta-btn elton-cta-btn-github" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer">
+                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
                 </a>
-            </section>
-
-            {{- /* Post grid */ -}}
-            <section class="home-posts-section" aria-labelledby="recent-posts-title">
-                <header class="home-section-heading">
-                    <h2 id="recent-posts-title">Bài viết mới</h2>
-                </header>
-                <div class="home-posts-grid">
-                    {{- range $gridPosts -}}
-                        {{- partial "post-card.html" . -}}
-                    {{- end -}}
-                </div>
-                {{- with .Site.GetPage "section" "posts" -}}
-                    <a class="home-posts-link" href="{{ .RelPermalink }}">
-                        Xem tất cả bài viết <span aria-hidden="true">&rarr;</span>
-                    </a>
                 {{- end -}}
-            </section>
+                {{- with .Site.Params.social.Email -}}
+                <a class="elton-cta-btn elton-cta-btn-email" href="mailto:{{ . }}">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> Email
+                </a>
+                {{- end -}}
+            </div>
+        </div>
         {{- end -}}
     </div>
 {{- end -}}

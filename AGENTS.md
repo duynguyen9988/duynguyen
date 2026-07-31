@@ -31,17 +31,18 @@ Add micro-interactions, scroll animations, progress bar, 24 new posts (3 per cat
 11. `categories` and `tags` must be lists (not strings) in frontmatter
 
 ## Objective
-Eliminate CDN deps, external image URLs & unused features (search, dark mode, share, comment, lightbox) to fix CLS jank — fully self-hosted with zero external network requests.
+Elton-style UI (like blog.eltondata.com): flat white design, blue accent `#2563EB`, fixed white nav with search pill, 2-column card grid, minimal slate footer. All libs stay self-hosted (Fuse.js search re-enabled with local assets — zero CDN, zero external network requests except optional GA).
 
 ## Important Details
 - BaseURL: `https://duynguyen9988.github.io/duynguyen/`
-- CDN enabled by theme's `hugo.toml:650` `data = "jsdelivr.yml"` → `init.html` loads `assets/data/cdn/jsdelivr.yml` in production → all libs from `cdn.jsdelivr.net`. Fix: add `[params.cdn] data = ""` in project config
-- Local featured images passed as `.RelPermalink` (full path) → `resource.html` uses `Resources.GetMatch` expecting basename → nil → no Hugo processing → CLS. Fix: use `.Name` (basename)
-- 9 Unsplash URLs → no width/height → CSS `aspect-ratio: 1600/1200` fallback but actual ratio may differ → residual jank. Fix: download all to `featured-image.jpg`, add `resources` block, remove `featuredimage`/`featuredimagepreview`
-- Dark mode removed: `defaultTheme = "light"`, header buttons deleted, baseof script simplified
-- Lightbox removed: delete `assets/js/lightbox.js`, remove `data-lightbox` + `<a>` wrapper from `img.html`, remove inline JS from `assets.html`
+- CDN disabled: `[params.cdn] data = ""` in project config → all libs from `assets/lib/`
+- Search: `[params.search] enable = true` (type `fuse`) — Fuse.js + autocomplete libs served locally; search JS lives in `initSearch()` in `assets/js/theme.js`; dropdown markup ids: `#search-input`, `#search-clear`, `#search-loading`, `#search-dropdown`
+- Local featured images passed as `.Name` (basename) → `resource.html` resolves → Hugo processes to WebP + width/height
+- All images local page resources (`featured-image.jpg` + `resources` block in frontmatter); no `featuredimage`/`featuredimagepreview`
+- Dark mode removed: `defaultTheme = "light"`, single fixed white header (`#header-desktop` id kept for TOC JS)
+- Lightbox removed
 - Related post thumbnails removed: text-only cards
-- Smart pagination: project override adds Prev/Next + current±2 window + ellipsis
+- Smart pagination: project override adds "Trang trước/Trang kế tiếp" labels + current±2 window + ellipsis
 - Image rules: NO live URLs, WebP only, all images local page resources
 
 ## Completed
@@ -79,6 +80,23 @@ Eliminate CDN deps, external image URLs & unused features (search, dark mode, sh
 - `AGENTS.md` — updated everywhere
 - `content/posts/<9x>/index.md` — removed featuredimage/featuredimagepreview, added resources block
 - `content/posts/<9x>/featured-image.jpg` — new local page resources
+
+### Session 6 — Elton-style redesign (blog.eltondata.com look)
+- `assets/css/elton.scss` — NEW, imported LAST in `style.scss`; full design: white bg, blue `#2563EB` accent, fixed nav shadow, 2-col card grid (`gap: clamp(2rem,4vw,4rem)`, 1 col ≤768px), blue chips, pagination outline buttons, slate `#E2E8F0` footer
+- `assets/css/_override.scss` — pink `#FF2FA0` → blue palette (links, blockquote, code, pagination, selection); bg white
+- `layouts/_partials/header.html` — fully rewritten: brand logo+name | search pill (center, `#search-input` + dropdown `#search-dropdown`) | GitHub link (hidden ≤768px); single header, no mobile hamburger
+- `assets/js/theme.js` — added `initSearch()` (Fuse.js branch, ported from theme) + called in `init()`
+- `layouts/home.html` — flat `.elton-post-grid` + smart paginator + social CTA (GitHub/Email buttons)
+- `layouts/partials/post-card.html` — elton card: title → chips → avatar+date row → image → 3-line summary
+- `layouts/section.html`, `layouts/term.html` — same card grid + bold page title
+- `layouts/taxonomy.html` — flat chip grid with post counts (removed emoji/gradient cards)
+- `layouts/partials/footer.html` — minimal: `© <year>` left, main menu links right
+- `layouts/posts/single.html` — meta replaced with avatar + `DD/MM/YYYY` + reading time row
+- `layouts/_partials/paginator.html` — "Trang trước"/"Trang kế tiếp" text labels
+- `layouts/_partials/head/link.html` — favicon points to local `images/duy-nguyen-logo.webp` (theme root paths 404'd)
+- `hugo.toml` — `[params.search] enable = true` (fuse, self-hosted); `iconColor`/`tileColor` → `#2563EB`
+- Deleted dead partials: `layouts/partials/home/`, `layouts/partials/sidebar/`
+- Verified with Playwright headless: nav fixed/white/shadow, 2-col grid desktop + 1-col ≤768px, no 404s, no JS errors, search dropdown renders suggestions
 
 ## Key Architecture
 - **Featured image resolution** (`layouts/posts/single.html:68-90`):

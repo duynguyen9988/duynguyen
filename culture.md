@@ -32,12 +32,12 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 | Theme | LoveIt (git submodule) |
 | Hosting | GitHub Pages |
 | CI/CD | GitHub Actions (`.github/workflows/hugo-deploy.yml`) |
-| Search | Fuse.js (client-side) |
+| Search | Fuse.js (client-side, self-hosted) |
 | CSS | SCSS via Hugo pipe |
 | Font | System font stack (Segoe UI, Roboto, Notas Sans, sans-serif) |
 | Icons | Font Awesome (free) |
-| Lazy load | Lazysizes |
-| Lightbox | Custom Vanilla JS (3.5KB, no deps) |
+| Lazy load | Native `loading="lazy"` (no lazysizes) |
+| Lightbox | REMOVED (opens in new tab) |
 | Image processing | Hugo `.Fit` (1600x1200 max) |
 
 ## Config
@@ -45,20 +45,20 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 - **BaseURL**: `https://duynguyen9988.github.io/duynguyen/`
 - **Remote**: `git@github.com:duynguyen9988/duynguyen.git` (push via HTTPS token)
 - **Branch**: `main` (auto-deploy via GH Actions)
-- **Color scheme**: Primary pink `#FF2FA0`, accent blue `#2563EB`
-- **Navbar**: Blue tint `rgba(37,99,235,0.7)` light / `0.78` dark, `backdrop-filter:blur(10px)`, white text/icons
+- **Color scheme**: White background, slate gray text, blue accent `#2563EB` family (Elton-style)
+- **Navbar**: White, `box-shadow`, fixed top; brand logo + name (left), search pill (center), GitHub link (right, desktop only)
 - **Font stack**: `'Segoe UI', Roboto, 'Noto Sans', system-ui, sans-serif`
 
 ## Navigation
 
-- 5 nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap) are in **Footer section #3** — NOT in the Navbar
+- 5 nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap) are in the **footer** (horizontal, right side) — NOT in the Navbar
 - Menu is read dynamically from `hugo.toml` `[menu]` — never hardcode
-- Navbar only has: blog name (left), search + dark-mode toggle (right)
-- The right side of Navbar is intentionally empty for future features
+- Navbar only has: blog name (left), search pill (center), GitHub link (right)
+- Mobile (≤768px): GitHub link hidden; brand name hidden ≤640px
 
 ## Version Badge
 
-- Shows `commit id | dd-mm-yyyy hh:mm:ss GMT+7` in Navbar beside blog name
+- Shows `commit id | dd-mm-yyyy hh:mm:ss GMT+7` in Navbar beside blog name (legacy)
 - Generated from `git log -1` before each build
 - CI step: `mkdir -p data && git log -1 --format='...' > data/version.json`
 - Local: same in `deploy.py`
@@ -101,37 +101,41 @@ Post cards and random posts sidebar use `.Resources.GetMatch "featured-image"` d
 - If the featured image is the SAME as the first content image, the featured-image `<div>` is skipped on the single post page to avoid showing the same image twice
 - Comparison is done via `.Name` (basename) strings
 
-## Post Card (homepage list)
-- Flex: thumbnail 40% / content 60%
-- Thumbnail: `aspect-ratio: 16/10`, `object-fit: cover`, `border-radius: 4px`
-- Text-only fallback when no image exists
-- Title: 2-line clamp
-- Summary: 3-line clamp
+## Post Card (homepage/section/term grids) — Elton style
+- Vertical order: **title → category chips → author+date row → image → summary**
+- Title: `1.5rem` (24px) bold; hover turns blue
+- Chips: tiny blue pills `#EFF6FF` bg / `#1D4ED8` text, `rounded-full`, hover `#DBEAFE`
+- Meta row: 36px round avatar + author name (left), date `DD/MM/YYYY` (right), slate `#64748B`
+- Image: `aspect-ratio: 16/10`, `object-fit: cover`, full width, below the meta row
+- Summary: 3-line clamp (`-webkit-line-clamp: 3`)
+- Grid: 2 columns, `gap: clamp(2rem, 4vw, 4rem)`; 1 column ≤768px
+- No card borders/shadows — flat typographic cards separated by whitespace
 
-## Random Posts (sidebar)
+## Random Posts (sidebar, single page only)
 - 5 random posts, shuffled on each build
 - Thumbnail: 96×96px square, `aspect-ratio: 1/1`, `object-fit: cover`
 - Number overlay `01`–`05`, `font-size: clamp(2.8rem, 7vw, 4.5rem)`
 - Title: 3-line clamp
-- Sidebar width: `340px` (flex) / `minmax(400px, 480px)` (grid ≥1200px)
+- Sidebar: `minmax(260px, 300px)` right column of `.single-reading-layout`; hidden ≤1180px
 
-## Footer
-- 3-column grid: Section #1 (empty), #2 (empty), #3 (navigation links)
-- Nav links: column on desktop, horizontal flex-wrap on mobile (≤680px)
-- `gap: 0.5rem` desktop, `0.75rem 1.25rem` mobile
-- Hover/focus-visible: pink color with outline
+## Footer — Elton style
+- Background `#E2E8F0` (`bg-slate-200`), flex `space-between`, wrap
+- Left: `© <year> Duy Nguyen Blog`; right: 5 main nav links (Bài viết, Thẻ, Chuyên mục, Giới thiệu, Sitemap), horizontal
+- Hover: blue `#2563EB`
 
 ## Layout
-- Container: `width: calc(100% - 48px); max-width: 1500px`
-- Desktop (≥1200px): CSS Grid `minmax(0, 1fr) minmax(400px, 480px)`
-- Tablet: flex layout, sidebar `340px`
-- Mobile (≤900px): single column, sidebar full width
+- Page column: `max-width: 1100px`, centered; nav is `position: fixed` with `box-shadow`
+- Homepage: flat 2-column card grid (NO hero, NO sidebar, NO category blocks)
+- Section/term pages: same card grid with a bold page title
+- Taxonomy (categories) index: flat chip grid with post counts
+- Single post: `.single-reading-layout` grid `minmax(0,1fr) + sidebar(260-300px)`; sidebar hidden ≤1180px
 - No profile/intro section on homepage
 
 ## CSS Override Rules
-- Project overrides in `assets/css/_custom.scss` and `assets/css/_override.scss`
+- Project overrides in `assets/css/_custom.scss` (legacy), `assets/css/_override.scss` (variables) and `assets/css/elton.scss` (design — imported LAST, wins the cascade)
 - Template overrides in `layouts/` (mirror theme's `_partials/` structure)
-- Header override: `layouts/_partials/header.html`
+- Header override: `layouts/_partials/header.html` (Elton nav: brand + search pill + GitHub link)
+- Head links (favicon): `layouts/_partials/head/link.html`
 - Assets override: `layouts/_partials/assets.html`
 - Image processing: `layouts/_partials/plugin/img.html`
 - Markdown render hook: `layouts/_markup/render-image.html`
@@ -139,6 +143,7 @@ Post cards and random posts sidebar use `.Resources.GetMatch "featured-image"` d
 - Post card: `layouts/partials/post-card.html`
 - Random posts: `layouts/partials/random-posts.html`
 - Footer: `layouts/partials/footer.html`
+- Search JS: `initSearch()` in `assets/js/theme.js` (Fuse.js, self-hosted)
 
 ## Build & Deploy
 

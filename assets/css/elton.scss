@@ -1,0 +1,619 @@
+// ============================================================
+// Elton-style design override (blog.eltondata.com look)
+// Imported LAST so every rule wins the cascade.
+// ============================================================
+
+:root {
+  --elton-bg: #FFFFFF;
+  --elton-text: #1F2937;
+  --elton-muted: #64748B;
+  --elton-border: #E5E7EB;
+  --elton-blue: #2563EB;
+  --elton-blue-dark: #1D4ED8;
+  --elton-blue-50: #EFF6FF;
+  --elton-blue-100: #DBEAFE;
+  --elton-slate-200: #E2E8F0;
+  --elton-nav-height: 4.5rem;
+}
+
+body {
+  background-color: var(--elton-bg) !important;
+  color: var(--elton-text);
+}
+
+// ---------- Header / nav ----------
+
+.elton-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  height: auto;
+  line-height: normal;
+  background-color: #FFFFFF;
+  padding: .75rem 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+
+  [theme=dark] & {
+    background-color: #FFFFFF;
+  }
+}
+
+.elton-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.elton-brand {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  flex-shrink: 0;
+  color: var(--elton-text);
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--elton-text);
+  }
+
+  img {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.elton-search {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 28rem;
+  margin: 0 auto;
+
+  .elton-search-icon {
+    position: absolute;
+    top: 50%;
+    left: .85rem;
+    transform: translateY(-50%);
+    color: #9CA3AF;
+    pointer-events: none;
+    display: flex;
+    z-index: 2;
+  }
+
+  .algolia-autocomplete {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--elton-border);
+    background-color: #F9FAFB !important;
+    color: #1F2937 !important;
+    border-radius: 9999px;
+    padding: .5rem 2.6rem .5rem 2.4rem;
+    font-size: .875rem;
+    outline: none;
+    transition: border-color .15s ease, background-color .15s ease, box-shadow .15s ease;
+
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-decoration {
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    &:focus {
+      border-color: #60A5FA;
+      background-color: #FFFFFF !important;
+      box-shadow: 0 0 0 2px var(--elton-blue-100);
+    }
+  }
+
+  .elton-search-clear {
+    position: absolute;
+    top: 50%;
+    right: .8rem;
+    transform: translateY(-50%);
+    display: none;
+    padding: .25rem;
+    color: #9CA3AF;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+
+    &:hover {
+      color: #6B7280;
+    }
+  }
+
+  .elton-search-loading {
+    position: absolute;
+    top: 50%;
+    right: .9rem;
+    transform: translateY(-50%);
+    display: none;
+    color: #9CA3AF;
+    z-index: 2;
+  }
+}
+
+.elton-nav-link {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  flex-shrink: 0;
+  color: var(--elton-text);
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .15s ease;
+
+  &:hover {
+    color: var(--elton-blue);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .elton-brand-name {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .elton-nav-link {
+    display: none;
+  }
+}
+
+// Keep the single header visible on all sizes
+@media only screen and (max-width: 960px) {
+  #header-desktop {
+    display: flex;
+  }
+
+  #header-mobile {
+    display: none;
+  }
+}
+
+// ---------- Search dropdown ----------
+
+.elton-search-dropdown {
+  position: relative !important;
+  top: .35rem;
+  z-index: 1100;
+  min-width: 0;
+
+  .dropdown-menu {
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: auto !important;
+    margin: 0;
+    z-index: 1100;
+    background-color: #FFFFFF;
+    border: 1px solid var(--elton-border);
+    border-radius: .5rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
+    overflow: hidden;
+  }
+
+  .suggestions {
+    display: block;
+    max-height: calc(100vh - 10rem);
+    overflow-y: auto;
+  }
+
+  .suggestion {
+    display: block;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #F3F4F6;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .suggestion-title {
+      display: inline-block;
+      max-width: 75%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .suggestion-date {
+      float: right;
+      text-align: right;
+      font-size: .8125rem;
+      color: var(--elton-muted);
+    }
+
+    .suggestion-context {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.4rem;
+      font-size: .875rem;
+      color: var(--elton-muted);
+      overflow-wrap: break-word;
+    }
+
+    &.cursor,
+    &:hover {
+      background-color: #F8FAFC;
+    }
+
+    em {
+      font-style: normal;
+      background-color: rgba(37, 99, 235, .15);
+    }
+  }
+
+  .search-empty {
+    padding: 1rem;
+    text-align: center;
+    color: #6B7280;
+
+    .search-query {
+      font-weight: 700;
+    }
+  }
+
+  .search-footer {
+    padding: .5rem 1rem;
+    text-align: right;
+    font-size: .75rem;
+    color: #9CA3AF;
+  }
+}
+
+// ---------- Layout ----------
+
+[data-header-desktop] .page {
+  padding-top: 0;
+}
+
+.page {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.main {
+  padding-top: calc(var(--elton-nav-height) + .5rem);
+}
+
+.wrapper main .container {
+  padding: 0 1rem;
+}
+
+// ---------- Home / listing grid ----------
+
+.elton-home {
+  padding: 1.5rem 0 3rem;
+}
+
+.elton-page-title {
+  margin: .5rem 0 2rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.elton-post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+}
+
+@media only screen and (max-width: 768px) {
+  .elton-post-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ---------- Post card ----------
+
+.elton-card {
+  min-width: 0;
+}
+
+.elton-card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.35;
+
+  a {
+    color: var(--elton-text);
+    text-decoration: none;
+    transition: color .15s ease;
+
+    &:hover {
+      color: var(--elton-blue);
+    }
+  }
+}
+
+.elton-card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .375rem;
+  margin-top: .5rem;
+}
+
+.elton-chip {
+  display: inline-block;
+  padding: .125rem .625rem;
+  border-radius: 9999px;
+  background-color: var(--elton-blue-50);
+  color: var(--elton-blue-dark);
+  font-size: .75rem;
+  text-decoration: none;
+  transition: background-color .15s ease;
+
+  &:hover {
+    background-color: var(--elton-blue-100);
+  }
+}
+
+.elton-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  margin-top: .5rem;
+  color: var(--elton-muted);
+  font-size: .875rem;
+}
+
+.elton-card-author {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.elton-card-avatar {
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.elton-card-image {
+  margin-top: 1rem;
+  aspect-ratio: 16 / 10;
+  border-radius: .25rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.elton-card-summary {
+  margin: 1rem 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.65;
+  color: #4B5563;
+  font-size: .9375rem;
+}
+
+// ---------- Taxonomy chips ----------
+
+.elton-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+
+.elton-chip-lg {
+  padding: .5rem 1.1rem;
+  font-size: .9375rem;
+
+  .count {
+    margin-left: .35rem;
+    color: var(--elton-blue);
+    font-weight: 700;
+  }
+}
+
+// ---------- Pagination ----------
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: 3rem;
+  padding: 0;
+  list-style: none;
+
+  .page-item {
+    margin: 0;
+
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      padding: .5rem .8rem;
+      border-radius: .25rem;
+      border: 2px solid var(--elton-border);
+      color: var(--elton-text);
+      font-size: .9375rem;
+      text-decoration: none;
+      transition: border-color .15s ease, color .15s ease;
+
+      &:hover {
+        border-color: var(--elton-blue);
+        color: var(--elton-blue);
+      }
+    }
+
+    &.active .page-link {
+      border-color: var(--elton-blue);
+      background-color: var(--elton-blue);
+      color: #FFFFFF;
+      font-weight: 700;
+    }
+
+    &.disabled .page-link {
+      opacity: .45;
+      pointer-events: none;
+    }
+  }
+}
+
+// ---------- CTA block ----------
+
+.elton-cta {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--elton-border);
+}
+
+.elton-cta-label {
+  margin: 0 0 .75rem;
+  text-align: center;
+  color: #374151;
+  font-weight: 500;
+}
+
+.elton-cta-buttons {
+  display: flex;
+  gap: .75rem;
+}
+
+.elton-cta-btn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  color: #FFFFFF;
+  font-size: .875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color .2s ease, color .2s ease;
+
+  &.elton-cta-btn-github {
+    background-color: #1F2937;
+
+    &:hover {
+      background-color: #111827;
+    }
+  }
+
+  &.elton-cta-btn-email {
+    background-color: var(--elton-blue);
+
+    &:hover {
+      background-color: var(--elton-blue-dark);
+    }
+  }
+}
+
+// ---------- Footer ----------
+
+.elton-footer {
+  margin-top: 4rem;
+  background-color: var(--elton-slate-200);
+}
+
+.elton-footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem 1.5rem;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #334155;
+  font-size: .875rem;
+}
+
+.elton-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+
+  a {
+    color: #334155;
+    text-decoration: none;
+    transition: color .15s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--elton-blue);
+      outline: none;
+    }
+  }
+}
+
+// ---------- Single post ----------
+
+.single-title {
+  margin: 0;
+}
+
+.elton-single-chips {
+  margin-top: .75rem;
+}
+
+.elton-single-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem 1rem;
+  margin: 1rem 0 1.5rem;
+  color: var(--elton-muted);
+  font-size: .875rem;
+}
+
+.elton-single-meta-right {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.featured-image {
+  margin: 0 0 2rem;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+// ---------- Reveal & motion ----------
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

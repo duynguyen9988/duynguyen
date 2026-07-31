@@ -4,12 +4,12 @@
         {{- /* Previous */ -}}
         <li class="page-item{{ if not $p.HasPrev }} disabled{{ end }}">
             {{- if $p.HasPrev -}}
-            <a class="page-link" href="{{ $p.Prev.URL }}" aria-label="Previous">
-                <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <a class="page-link" href="{{ $p.Prev.URL }}" aria-label="Trang trước">
+                <i class="fas fa-angle-left" aria-hidden="true"></i> Trang trước
             </a>
             {{- else -}}
-            <span class="page-link" aria-disabled="true" aria-label="Previous">
-                <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <span class="page-link" aria-disabled="true" aria-label="Trang trước">
+                <i class="fas fa-angle-left" aria-hidden="true"></i> Trang trước
             </span>
             {{- end -}}
         </li>
@@ -27,11 +27,11 @@
             {{- end -}}
             {{- if $showNumber -}}
                 <li class="page-item {{ if eq . $p }}active{{ end }}">
-                    <span class="page-link">
-                        <a href="{{ .URL }}">
-                            {{- .PageNumber -}}
-                        </a>
-                    </span>
+                    {{- if eq . $p -}}
+                        <span class="page-link" aria-current="page">{{- .PageNumber -}}</span>
+                    {{- else -}}
+                        <a class="page-link" href="{{ .URL }}">{{- .PageNumber -}}</a>
+                    {{- end -}}
                 </li>
             {{- else if ($.Scratch.Get "paginator.shouldEllipse") -}}
                 <li class="page-item ">
@@ -42,12 +42,12 @@
         {{- /* Next */ -}}
         <li class="page-item{{ if not $p.HasNext }} disabled{{ end }}">
             {{- if $p.HasNext -}}
-            <a class="page-link" href="{{ $p.Next.URL }}" aria-label="Next">
-                <i class="fas fa-angle-right" aria-hidden="true"></i>
+            <a class="page-link" href="{{ $p.Next.URL }}" aria-label="Trang kế tiếp">
+                Trang kế tiếp <i class="fas fa-angle-right" aria-hidden="true"></i>
             </a>
             {{- else -}}
-            <span class="page-link" aria-disabled="true" aria-label="Next">
-                <i class="fas fa-angle-right" aria-hidden="true"></i>
+            <span class="page-link" aria-disabled="true" aria-label="Trang kế tiếp">
+                Trang kế tiếp <i class="fas fa-angle-right" aria-hidden="true"></i>
             </span>
             {{- end -}}
         </li>
