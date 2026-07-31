@@ -33,8 +33,8 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
     env:
-      GSC_SITE_URL: https://duynguyen9988.github.io/duynguyen/
-      SITEMAP_URL: https://duynguyen9988.github.io/duynguyen/sitemap.xml
+      GSC_SITE_URL: https://seomoney.org/
+      SITEMAP_URL: https://seomoney.org/sitemap.xml
       GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT }}
       MAX_AGE_HOURS: ${{ inputs.max_age_hours || '168' }}
       INSPECT_URLS: ${{ inputs.inspect_urls && 'true' || 'false' }}

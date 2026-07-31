@@ -34,7 +34,7 @@ Add micro-interactions, scroll animations, progress bar, 24 new posts (3 per cat
 Elton-style UI (like blog.eltondata.com): flat white design, blue accent `#2563EB`, fixed white nav with search pill, 2-column card grid, minimal slate footer. All libs stay self-hosted (Fuse.js search re-enabled with local assets — zero CDN, zero external network requests except optional GA).
 
 ## Important Details
-- BaseURL: `https://duynguyen9988.github.io/duynguyen/`
+- BaseURL: `https://seomoney.org/`
 - CDN disabled: `[params.cdn] data = ""` in project config → all libs from `assets/lib/`
 - Search: `[params.search] enable = true` (type `fuse`) — Fuse.js + autocomplete libs served locally; search JS lives in `initSearch()` in `assets/js/theme.js`; dropdown markup ids: `#search-input`, `#search-clear`, `#search-loading`, `#search-dropdown`
 - Local featured images passed as `.Name` (basename) → `resource.html` resolves → Hugo processes to WebP + width/height

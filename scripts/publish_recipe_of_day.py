@@ -55,7 +55,7 @@ def request_json(url: str, *, headers: dict[str, str] | None = None) -> dict[str
         url,
         headers={
             "Accept": "application/json",
-            "User-Agent": "DuyNguyenRecipePublisher/1.0 (+https://duynguyen9988.github.io/duynguyen/)",
+            "User-Agent": "DuyNguyenRecipePublisher/1.0 (+https://seomoney.org/)",
             **(headers or {}),
         },
     )
@@ -166,7 +166,7 @@ def image_metadata(page: dict[str, Any]) -> dict[str, str] | None:
 def download_image(metadata: dict[str, str], destination: Path) -> None:
     request = urllib.request.Request(
         metadata["originalUrl"],
-        headers={"User-Agent": "DuyNguyenRecipePublisher/1.0 (+https://duynguyen9988.github.io/duynguyen/)"},
+        headers={"User-Agent": "DuyNguyenRecipePublisher/1.0 (+https://seomoney.org/)"},
     )
     with urllib.request.urlopen(request, timeout=90) as response:
         content_length = response.headers.get("Content-Length")

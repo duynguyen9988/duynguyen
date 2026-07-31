@@ -1,4 +1,4 @@
-baseURL = 'https://duynguyen9988.github.io/duynguyen/'
+baseURL = 'https://seomoney.org/'
 title = 'Duy Nguyen'
 theme = 'LoveIt'
 defaultContentLanguage = 'vi'
@@ -103,7 +103,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     YouTube = ""
 
   # Google Search Console — paste mã xác minh từ search.google.com/search-console vào "google"
-  # Sau khi setup xong, submit sitemap tại: https://duynguyen9988.github.io/duynguyen/sitemap.xml
+  # Sau khi setup xong, submit sitemap tại: https://seomoney.org/sitemap.xml
   [params.verification]
     google = ""
 

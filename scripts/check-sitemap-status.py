@@ -16,7 +16,7 @@ from urllib.request import Request, urlopen
 
 SITEMAP_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 EXPECTED_ROOT = f"{{{SITEMAP_NAMESPACE}}}urlset"
-USER_AGENT = "DuyNguyenSitemapMonitor/1.0 (+https://duynguyen9988.github.io/duynguyen/)"
+USER_AGENT = "DuyNguyenSitemapMonitor/1.0 (+https://seomoney.org/)"
 
 
 class CheckFailed(Exception):
@@ -212,12 +212,12 @@ def main() -> int:
     )
     parser.add_argument(
         "--site-url",
-        default="https://duynguyen9988.github.io/duynguyen/",
+        default="https://seomoney.org/",
         help="The exact Search Console property URL.",
     )
     parser.add_argument(
         "--sitemap-url",
-        default="https://duynguyen9988.github.io/duynguyen/sitemap.xml",
+        default="https://seomoney.org/sitemap.xml",
         help="The absolute sitemap URL submitted to Search Console.",
     )
     parser.add_argument(

@@ -42,7 +42,7 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 
 ## Config
 
-- **BaseURL**: `https://duynguyen9988.github.io/duynguyen/`
+- **BaseURL**: `https://seomoney.org/`
 - **Remote**: `git@github.com:duynguyen9988/duynguyen.git` (push via HTTPS token)
 - **Branch**: `main` (auto-deploy via GH Actions)
 - **Color scheme**: White background, slate gray text, blue accent `#2563EB` family (Elton-style)

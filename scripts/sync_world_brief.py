@@ -36,7 +36,7 @@ def fetch_url(url: str) -> bytes:
         url,
         headers={
             "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, text/html;q=0.7",
-            "User-Agent": "DuyNguyenBlogWorldBrief/1.0 (+https://duynguyen9988.github.io/duynguyen/)",
+            "User-Agent": "DuyNguyenBlogWorldBrief/1.0 (+https://seomoney.org/)",
         },
     )
     with urllib.request.urlopen(request, timeout=30) as response:

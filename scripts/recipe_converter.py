@@ -136,7 +136,7 @@ def fetch_url_source(url: str) -> tuple[str, str]:
         url,
         headers={
             "Accept": "text/html,application/xhtml+xml",
-            "User-Agent": "DuyNguyenRecipeConverter/1.0 (+https://duynguyen9988.github.io/duynguyen/)",
+            "User-Agent": "DuyNguyenRecipeConverter/1.0 (+https://seomoney.org/)",
         },
     )
     with urllib.request.urlopen(request, timeout=45) as response:
@@ -265,7 +265,7 @@ def download_image(url: str, destination_dir: Path) -> tuple[Path, str]:
         raise ValueError("Image URL must be an absolute http(s) URL.")
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "DuyNguyenRecipeConverter/1.0 (+https://duynguyen9988.github.io/duynguyen/)"},
+        headers={"User-Agent": "DuyNguyenRecipeConverter/1.0 (+https://seomoney.org/)"},
     )
     with urllib.request.urlopen(request, timeout=90) as response:
         content_type = response.headers.get_content_type()
