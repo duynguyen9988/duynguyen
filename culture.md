@@ -43,7 +43,7 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 ## Config
 
 - **BaseURL**: `https://seomoney.org/`
-- **Remote**: `git@github.com:duynguyen9988/duynguyen.git` (push via HTTPS token)
+- **Remote**: `https://github.com/duynguyen9988/duynguyen.git` (push qua HTTPS token) — remote cũ (`banhangchogao`) đã bị xóa, không bao giờ dùng lại. Chỉ làm việc giữa local repo và remote duynguyen9988/duynguyen này.
 - **Branch**: `main` (auto-deploy via GH Actions)
 - **Color scheme**: White background, slate gray text, blue accent `#2563EB` family (Elton-style)
 - **Navbar**: White, `box-shadow`, fixed top; brand logo + name (left), search pill (center), GitHub link (right, desktop only)
