@@ -110,14 +110,6 @@
 
     {{- /* Sidebar */ -}}
     <aside class="sidebar-wrapper" aria-label="Bài viết ngẫu nhiên">
-        {{- if ne $toc.enable false -}}
-        <div class="sidebar-card sidebar-toc">
-            <p class="sidebar-toc-title">{{ T "contents" }}</p>
-            <div class="toc" id="toc-auto">
-                <div class="toc-content" id="toc-content-auto"></div>
-            </div>
-        </div>
-        {{- end -}}
         {{- partial "random-posts.html" . -}}
     </aside>
     </div>

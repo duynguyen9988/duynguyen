@@ -120,6 +120,17 @@ class Theme {
     initToc() {
         const $tocCore = document.getElementById('TableOfContents');
         if ($tocCore === null) return;
+        const $tocContentAuto = document.getElementById('toc-content-auto');
+        if (!$tocContentAuto) {
+            const $tocContentStatic = document.getElementById('toc-content-static');
+            if ($tocContentStatic && $tocCore.parentElement !== $tocContentStatic) {
+                $tocCore.parentElement.removeChild($tocCore);
+                $tocContentStatic.appendChild($tocCore);
+            }
+            if (this._tocOnScroll) this.scrollEventSet.delete(this._tocOnScroll);
+            this._tocOnScroll = null;
+            return;
+        }
         if (document.getElementById('toc-static').getAttribute('data-kept') || Util.isTocStatic()) {
             const $tocContentStatic = document.getElementById('toc-content-static');
             if ($tocCore.parentElement !== $tocContentStatic) {
