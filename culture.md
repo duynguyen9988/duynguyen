@@ -223,6 +223,7 @@ Track generated blog posts here:
 - [x] Review Spider-Man: Brand New Day (2026) không spoiler (2026-08-01)
 - [x] Top 10 quán mì Quảng ngon ở Sài Gòn (2026-08-01)
 - [x] Cẩm nang du lịch Đà Lạt tự túc 3N2Đ (2026-08-01)
+- [x] Thủ tục xin visa Hàn Quốc 5 năm diện thu nhập 8.000 USD (2026-08-01)
 
 ## Shortcuts
 
