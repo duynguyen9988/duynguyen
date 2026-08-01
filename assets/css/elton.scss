@@ -397,6 +397,33 @@ body {
   line-height: 1.6;
 }
 
+.elton-home-sec {
+  margin-top: 3rem;
+}
+
+.elton-home-sec-t {
+  margin: 0 0 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.elton-home-sec-more {
+  margin: 2rem 0 0;
+  text-align: right;
+
+  a {
+    color: var(--elton-accent);
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .elton-page-title {
   margin: .5rem 0 2rem;
   font-size: 1.75rem;

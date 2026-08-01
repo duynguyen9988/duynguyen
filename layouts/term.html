@@ -22,7 +22,7 @@
                     {{- partial "post-card.html" . -}}
                 {{- end -}}
             </div>
-            {{- partial "paginator.html" . -}}
+            {{- partial "paginator.html" (dict "Pager" $paginator) -}}
         {{- end -}}
     </div>
 {{- end -}}

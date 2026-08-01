@@ -1,5 +1,5 @@
-{{- if gt .Paginator.TotalPages 1 -}}
-    {{- $p := .Paginator -}}
+{{- $p := .Pager -}}
+{{- if gt $p.TotalPages 1 -}}
     <ul class="pagination">
         {{- /* Previous */ -}}
         <li class="page-item{{ if not $p.HasPrev }} disabled{{ end }}">
@@ -13,27 +13,23 @@
             </span>
             {{- end -}}
         </li>
-        {{- .Scratch.Set "paginator.ellipsed" false -}}
+        {{- $ellipsed := false -}}
+        {{- $current := $p.PageNumber -}}
         {{- range $p.Pagers -}}
             {{- $right := sub .TotalPages .PageNumber -}}
             {{- $showNumber := or (le .PageNumber 1) (eq $right 0) -}}
-            {{- $showNumber := or $showNumber (and (gt .PageNumber (sub $.Paginator.PageNumber 3)) (lt .PageNumber (add $.Paginator.PageNumber 3))) -}}
+            {{- $showNumber := or $showNumber (and (gt .PageNumber (sub $current 3)) (lt .PageNumber (add $current 3))) -}}
             {{- if $showNumber -}}
-                {{- $.Scratch.Set "paginator.ellipsed" false -}}
-                {{- $.Scratch.Set "paginator.shouldEllipse" false -}}
-            {{- else -}}
-                {{- $.Scratch.Set "paginator.shouldEllipse" (not ($.Scratch.Get "paginator.ellipsed") ) -}}
-                {{- $.Scratch.Set "paginator.ellipsed" true -}}
-            {{- end -}}
-            {{- if $showNumber -}}
-                <li class="page-item {{ if eq . $p }}active{{ end }}">
-                    {{- if eq . $p -}}
+                {{- $ellipsed = false -}}
+                <li class="page-item {{ if eq .PageNumber $current }}active{{ end }}">
+                    {{- if eq .PageNumber $current -}}
                         <span class="page-link" aria-current="page">{{- .PageNumber -}}</span>
                     {{- else -}}
                         <a class="page-link" href="{{ .URL }}">{{- .PageNumber -}}</a>
                     {{- end -}}
                 </li>
-            {{- else if ($.Scratch.Get "paginator.shouldEllipse") -}}
+            {{- else if not $ellipsed -}}
+                {{- $ellipsed = true -}}
                 <li class="page-item ">
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li>
