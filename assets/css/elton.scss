@@ -13,7 +13,14 @@
   --elton-blue-50: #EFF6FF;
   --elton-blue-100: #DBEAFE;
   --elton-slate-200: #E2E8F0;
-  --elton-nav-height: 4rem;
+  --elton-nav-height: 5rem;
+  --header-height: var(--elton-nav-height);
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --elton-nav-height: 4.25rem;
+  }
 }
 
 body {
@@ -31,10 +38,12 @@ body {
   z-index: 1000;
   display: flex;
   align-items: center;
+  min-height: var(--elton-nav-height);
   height: auto;
   line-height: normal;
   background-color: #FFFFFF;
-  padding: .75rem 1.5rem;
+  padding: .875rem 1.5rem;
+  border-bottom: 3px solid #E5E7EB;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
 
   [theme=dark] & {
@@ -62,7 +71,7 @@ body {
 .elton-nav-sep {
   flex-shrink: 0;
   width: 1px;
-  height: 1.5rem;
+  height: 2rem;
   margin: 0 .75rem;
   background-color: var(--elton-border);
 }
@@ -83,11 +92,13 @@ body {
 .elton-nav-cat {
   display: inline-flex;
   align-items: center;
-  padding: .4rem .55rem;
+  padding: .45rem .55rem;
   white-space: nowrap;
-  color: var(--elton-muted);
+  color: var(--elton-text);
   font-size: .8125rem;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
   text-decoration: none;
   transition: color .15s ease;
 
@@ -97,7 +108,8 @@ body {
 
   &.active {
     color: var(--elton-blue);
-    font-weight: 700;
+    font-weight: 800;
+    box-shadow: inset 0 -3px 0 var(--elton-blue);
   }
 }
 
@@ -653,7 +665,7 @@ body {
   gap: .75rem 1.5rem;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2.25rem 1.5rem;
   color: #334155;
   font-size: .875rem;
 }
@@ -665,6 +677,10 @@ body {
 
   a {
     color: #334155;
+    font-size: .8125rem;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
     text-decoration: none;
     transition: color .15s ease;
 

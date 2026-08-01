@@ -222,6 +222,11 @@ disableKinds = ["taxonomy"]
     identifier = "sitemap"
     name = "Sitemap"
     url = "/sitemap/"
+  [[menu.main]]
+    weight = 4
+    identifier = "cv-generator"
+    name = "CV Generator"
+    url = "/cv-generator/"
 
   [[menu.footer]]
     weight = 1

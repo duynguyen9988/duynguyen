@@ -1,0 +1,275 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "head_extra" -}}
+    <link rel="stylesheet" href="{{ "cv-generator/cv-generator.css" | relURL }}">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CV Generator — Tạo CV Chuẩn ATS Miễn Phí",
+        "url": "{{ .Permalink }}",
+        "description": {{ .Description | safeHTML }},
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "VND"
+        },
+        "featureList": [
+            "Tạo CV chuẩn ATS",
+            "Xem trước trực tiếp",
+            "Xuất PDF và DOCX",
+            "Kiểm tra điểm ATS",
+            "Trợ lý viết CV"
+        ],
+        "publisher": {
+            "@type": "Organization",
+            "name": "Duy Nguyen Blog"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Trang chủ",
+                "item": "{{ .Site.BaseURL }}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": {{ .Title | safeHTML }},
+                "item": "{{ .Permalink }}"
+            }
+        ]
+    }
+    </script>
+{{- end -}}
+
+{{- define "content" -}}
+<div id="cvgen" class="cvgen" data-theme="light">
+    <div class="cvgen-chrome">
+        <header class="cvgen-hero">
+            <div>
+                <h1 class="cvgen-h1">{{ .Title }}</h1>
+                <p class="cvgen-sub">Điền thông tin bên trái — CV của bạn được cập nhật trực tiếp bên phải. Dữ liệu chỉ lưu trên trình duyệt của bạn.</p>
+            </div>
+            <div class="cvgen-toolbar">
+                <button type="button" id="cvgen-theme" class="cvgen-btn cvgen-btn-ghost" aria-label="Chuyển chế độ sáng tối">Chế độ tối</button>
+                <span id="cvgen-save-state" class="cvgen-save-state" role="status" aria-live="polite">Chưa lưu</span>
+            </div>
+        </header>
+
+        <section class="cvgen-kpis" aria-label="Thống kê CV">
+            <div class="cvgen-kpi">
+                <span class="cvgen-kpi-value" id="kpi-completion">0%</span>
+                <span class="cvgen-kpi-label">Mức độ hoàn thiện</span>
+            </div>
+            <div class="cvgen-kpi">
+                <span class="cvgen-kpi-value" id="kpi-missing">0</span>
+                <span class="cvgen-kpi-label">Mục bắt buộc còn thiếu</span>
+            </div>
+            <div class="cvgen-kpi">
+                <span class="cvgen-kpi-value" id="kpi-ats">0</span>
+                <span class="cvgen-kpi-label">Điểm ATS Readiness</span>
+            </div>
+            <div class="cvgen-kpi">
+                <span class="cvgen-kpi-value" id="kpi-recruiter">0</span>
+                <span class="cvgen-kpi-label">Điểm nhà tuyển dụng ước tính</span>
+            </div>
+        </section>
+
+        <div class="cvgen-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Mức độ hoàn thiện CV">
+            <div class="cvgen-progress-fill" id="cvgen-progress-fill"></div>
+        </div>
+
+        <div class="cvgen-banner" id="cvgen-banner" role="status" hidden></div>
+
+        <div class="cvgen-layout">
+            <form class="cvgen-form" id="cvgen-form" novalidate>
+                <h2 class="cvgen-sr">Form nhập liệu CV</h2>
+
+                <section class="cvgen-sec" id="sec-personal" aria-labelledby="sec-personal-t">
+                    <h3 class="cvgen-sec-t" id="sec-personal-t">1. Thông tin cá nhân</h3>
+                    <div class="cvgen-grid">
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-fullName">Họ và tên <span class="cvgen-req" aria-hidden="true">*</span></label>
+                            <input type="text" id="f-fullName" data-bind="personal.fullName" autocomplete="name" aria-required="true" placeholder="Nguyễn Văn An">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-jobTitle">Chức danh / Vị trí mong muốn</label>
+                            <input type="text" id="f-jobTitle" data-bind="personal.jobTitle" autocomplete="organization-title" placeholder="Nhân viên Marketing">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-email">Email <span class="cvgen-req" aria-hidden="true">*</span></label>
+                            <input type="email" id="f-email" data-bind="personal.email" autocomplete="email" aria-required="true" placeholder="an.nguyen@email.com">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-phone">Số điện thoại <span class="cvgen-req" aria-hidden="true">*</span></label>
+                            <input type="tel" id="f-phone" data-bind="personal.phone" autocomplete="tel" aria-required="true" placeholder="090 123 4567">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-address">Địa chỉ</label>
+                            <input type="text" id="f-address" data-bind="personal.address" autocomplete="address-level2" placeholder="Quận 1, TP. Hồ Chí Minh">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-nationality">Quốc tịch</label>
+                            <input type="text" id="f-nationality" data-bind="personal.nationality" autocomplete="nationality" placeholder="Việt Nam">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-birthDate">Ngày sinh</label>
+                            <input type="date" id="f-birthDate" data-bind="personal.birthDate" autocomplete="bday">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-linkedin">LinkedIn</label>
+                            <input type="url" id="f-linkedin" data-bind="personal.linkedin" placeholder="https://linkedin.com/in/annguyen">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-website">Website / Portfolio</label>
+                            <input type="url" id="f-website" data-bind="personal.website" placeholder="https://annguyen.dev">
+                        </div>
+                        <div class="cvgen-field cvgen-field-2">
+                            <label for="f-lang">Ngôn ngữ tiêu đề CV</label>
+                            <select id="f-lang" data-bind="ui.lang">
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="en">English</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cvgen-sec" id="sec-objective" aria-labelledby="sec-objective-t">
+                    <h3 class="cvgen-sec-t" id="sec-objective-t">2. Mục tiêu nghề nghiệp <span class="cvgen-req" aria-hidden="true">*</span></h3>
+                    <div class="cvgen-field">
+                        <label for="f-summary">Tóm tắt bản thân (2–4 câu)</label>
+                        <textarea id="f-summary" data-bind="objective.summary" rows="4" aria-required="true" placeholder="Ví dụ: Nhân viên Marketing với 4 năm kinh nghiệm trong lĩnh vực thương mại điện tử, chuyên về nội dung SEO và chiến dịch quảng cáo..."></textarea>
+                    </div>
+                </section>
+
+                <section class="cvgen-sec" id="sec-experience" aria-labelledby="sec-experience-t">
+                    <h3 class="cvgen-sec-t" id="sec-experience-t">3. Kinh nghiệm làm việc <span class="cvgen-req" aria-hidden="true">*</span></h3>
+                    <div class="cvgen-list" id="exp-list" aria-label="Danh sách kinh nghiệm"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="exp">+ Thêm kinh nghiệm</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-education" aria-labelledby="sec-education-t">
+                    <h3 class="cvgen-sec-t" id="sec-education-t">4. Học vấn <span class="cvgen-req" aria-hidden="true">*</span></h3>
+                    <div class="cvgen-list" id="edu-list" aria-label="Danh sách học vấn"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="edu">+ Thêm học vấn</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-projects" aria-labelledby="sec-projects-t">
+                    <h3 class="cvgen-sec-t" id="sec-projects-t">5. Dự án</h3>
+                    <div class="cvgen-list" id="proj-list" aria-label="Danh sách dự án"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="proj">+ Thêm dự án</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-skills" aria-labelledby="sec-skills-t">
+                    <h3 class="cvgen-sec-t" id="sec-skills-t">6. Kỹ năng <span class="cvgen-req" aria-hidden="true">*</span></h3>
+                    <div class="cvgen-list" id="skills-list" aria-label="Danh sách kỹ năng"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="skills">+ Thêm kỹ năng</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-certifications" aria-labelledby="sec-certifications-t">
+                    <h3 class="cvgen-sec-t" id="sec-certifications-t">7. Chứng chỉ</h3>
+                    <div class="cvgen-list" id="cert-list" aria-label="Danh sách chứng chỉ"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="cert">+ Thêm chứng chỉ</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-languages" aria-labelledby="sec-languages-t">
+                    <h3 class="cvgen-sec-t" id="sec-languages-t">8. Ngoại ngữ</h3>
+                    <div class="cvgen-list" id="lang-list" aria-label="Danh sách ngoại ngữ"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="lang">+ Thêm ngoại ngữ</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-awards" aria-labelledby="sec-awards-t">
+                    <h3 class="cvgen-sec-t" id="sec-awards-t">9. Giải thưởng</h3>
+                    <div class="cvgen-list" id="award-list" aria-label="Danh sách giải thưởng"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="award">+ Thêm giải thưởng</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-activities" aria-labelledby="sec-activities-t">
+                    <h3 class="cvgen-sec-t" id="sec-activities-t">10. Hoạt động</h3>
+                    <div class="cvgen-list" id="act-list" aria-label="Danh sách hoạt động"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="act">+ Thêm hoạt động</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-references" aria-labelledby="sec-references-t">
+                    <h3 class="cvgen-sec-t" id="sec-references-t">11. Người tham chiếu</h3>
+                    <div class="cvgen-list" id="ref-list" aria-label="Danh sách người tham chiếu"></div>
+                    <button type="button" class="cvgen-btn cvgen-btn-add" data-act="add" data-list="ref">+ Thêm người tham chiếu</button>
+                </section>
+
+                <section class="cvgen-sec" id="sec-additional" aria-labelledby="sec-additional-t">
+                    <h3 class="cvgen-sec-t" id="sec-additional-t">12. Thông tin bổ sung</h3>
+                    <div class="cvgen-field">
+                        <label for="f-additional">Sở thích, tình nguyện, yêu cầu khác…</label>
+                        <textarea id="f-additional" data-bind="additional.text" rows="3" placeholder="Ví dụ: Thích đọc sách, chạy bộ; sẵn sàng đi công tác..."></textarea>
+                    </div>
+                </section>
+            </form>
+
+            <div class="cvgen-main">
+                <section class="cvgen-panel cvgen-preview-panel" aria-labelledby="preview-t">
+                    <h2 class="cvgen-panel-t" id="preview-t">Xem trước CV</h2>
+                    <div class="cvgen-preview-wrap" id="cv-preview-wrap">
+                        <div class="cvp-page" id="cv-preview" aria-label="Bản xem trước CV"></div>
+                    </div>
+                </section>
+
+                <section class="cvgen-panel" aria-labelledby="ats-t">
+                    <h2 class="cvgen-panel-t" id="ats-t">Kiểm tra ATS</h2>
+                    <div class="cvgen-field">
+                        <label for="f-jd">Dán mô tả công việc (tùy chọn — để so sánh từ khóa)</label>
+                        <textarea id="f-jd" data-bind="jd" rows="4" placeholder="Paste job description để kiểm tra từ khóa trùng khớp..."></textarea>
+                    </div>
+                    <div class="cvgen-ats-score">
+                        <span class="cvgen-ats-num" id="ats-score" aria-live="polite">0/100</span>
+                        <span class="cvgen-ats-label">Điểm ATS tổng thể</span>
+                    </div>
+                    <div class="cvgen-ats-detail" id="ats-detail"></div>
+                    <ul class="cvgen-ats-list" id="ats-suggestions" aria-label="Gợi ý cải thiện ATS"></ul>
+                </section>
+
+                <section class="cvgen-panel" aria-labelledby="ai-t">
+                    <h2 class="cvgen-panel-t" id="ai-t">Trợ lý viết CV</h2>
+                    <p class="cvgen-ai-note">Tất cả xử lý đều chạy ngay trên trình duyệt của bạn — không gửi dữ liệu đi đâu.</p>
+                    <div class="cvgen-ai-grid" role="group" aria-label="Công cụ trợ lý viết">
+                        <button type="button" class="cvgen-btn" data-ai="improve-objective">Cải thiện mục tiêu</button>
+                        <button type="button" class="cvgen-btn" data-ai="improve-experience">Cải thiện kinh nghiệm</button>
+                        <button type="button" class="cvgen-btn" data-ai="rewrite-bullets">Viết lại gạch đầu dòng</button>
+                        <button type="button" class="cvgen-btn" data-ai="tone">Giọng văn chuyên nghiệp</button>
+                        <button type="button" class="cvgen-btn" data-ai="shorter">Ngắn gọn hơn</button>
+                        <button type="button" class="cvgen-btn" data-ai="impact">Sắc bén hơn</button>
+                        <button type="button" class="cvgen-btn" data-ai="grammar">Kiểm tra ngữ pháp</button>
+                        <button type="button" class="cvgen-btn" data-ai="ats-opt">Tối ưu ATS</button>
+                        <button type="button" class="cvgen-btn" data-ai="skills">Gợi ý kỹ năng</button>
+                        <button type="button" class="cvgen-btn" data-ai="achievements">Tạo gạch đầu dòng thành tựu</button>
+                        <button type="button" class="cvgen-btn cvgen-btn-ghost" data-ai="undo">Hoàn tác</button>
+                    </div>
+                    <div class="cvgen-ai-output" id="ai-output" role="status" aria-live="polite" hidden></div>
+                </section>
+            </div>
+        </div>
+
+        <div class="cvgen-actions">
+            <button type="button" class="cvgen-btn cvgen-btn-primary" id="btn-pdf">Tải PDF</button>
+            <button type="button" class="cvgen-btn cvgen-btn-primary" id="btn-docx">Tải DOCX</button>
+            <button type="button" class="cvgen-btn" id="btn-print">In</button>
+            <button type="button" class="cvgen-btn cvgen-btn-danger" id="btn-reset">Đặt lại</button>
+            <span class="cvgen-actions-note">PDF xuất qua hộp thoại in của trình duyệt — chọn “Save as PDF”.</span>
+        </div>
+
+        <div class="cvgen-content content">{{- .Content -}}</div>
+    </div>
+</div>
+
+<script src="{{ "cv-generator/jszip.min.js" | relURL }}"></script>
+<script src="{{ "cv-generator/cv-generator.js" | relURL }}"></script>
+{{- end -}}
