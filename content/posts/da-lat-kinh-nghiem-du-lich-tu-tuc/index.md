@@ -41,4 +41,4 @@ Về ẩm thực, Đà Lạt là thiên đường của những món ăn đườ
 
 ## Dư vị của chuyến đi
 
-Đà Lạt không chỉ là một điểm đến, mà còn là một trải nghiệm. Cái lạnh se sắt của buổi sớm mùa đông, vị ngọt thơm của ly sữa đậu nành nóng bên hè phố, ánh nắng xuyên qua những tán thông già — tất cả tạo nên một bức tranh mà bất cứ ai đã từng đặt chân đến cũng sẽ nhớ mãi. Và khi bạn rời đi, bạn sẽ thấy mình đã để lại một phần nào đó ở lại nơi đây.
+Đà Lạt không chỉ là một điểm đến, mà còn là một trải nghiệm. Cái lạnh se sắt của buổi sớm mùa đông, vị ngọt thơm của ly sữa đậu nành nóng bên hè phố, ánh nắng xuyên qua những tán thông già — tất cả tạo nên một bức tranh mà bất cứ ai đã từng đặt chân đến cũng sẽ nhớ mãi. Và khi bạn rời đi, bạn sẽ thấy mình đã để lại một phần nào đó ở lại nơi đây. Nếu đang lên kế hoạch cho chuyến đi, đừng bỏ qua bài viết chi tiết về [chi phí và lịch trình Đà Lạt tự túc 3 ngày 2 đêm]({{< relurl "cam-nang-du-lich-da-lat-tu-tuc/" >}}) để dự trù ngân sách chính xác.

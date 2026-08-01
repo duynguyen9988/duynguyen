@@ -222,6 +222,7 @@ Track generated blog posts here:
 - [x] Delete /bai-viet-dau-tien/ (hello world) (2026-07-26)
 - [x] Review Spider-Man: Brand New Day (2026) không spoiler (2026-08-01)
 - [x] Top 10 quán mì Quảng ngon ở Sài Gòn (2026-08-01)
+- [x] Cẩm nang du lịch Đà Lạt tự túc 3N2Đ (2026-08-01)
 
 ## Shortcuts
 
