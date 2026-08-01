@@ -861,10 +861,14 @@
 }
 
 @media print {
+    html,
     body,
     .wrapper,
     .main,
     .container {
+        display: block !important;
+        min-height: 0 !important;
+        height: auto !important;
         max-width: none !important;
         padding: 0 !important;
         margin: 0 !important;
