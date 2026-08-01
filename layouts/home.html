@@ -23,24 +23,5 @@
         {{- if gt $paginator.TotalPages 1 -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
-
-        {{- /* Social CTA */ -}}
-        {{- if or .Site.Params.social.GitHub .Site.Params.social.Email -}}
-        <div class="elton-cta">
-            <p class="elton-cta-label">Theo dõi và kết nối với tôi</p>
-            <div class="elton-cta-buttons">
-                {{- with .Site.Params.social.GitHub -}}
-                <a class="elton-cta-btn elton-cta-btn-github" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer">
-                    {{- partial "icon.html" (dict "Name" "github" "Size" 16) -}} GitHub
-                </a>
-                {{- end -}}
-                {{- with .Site.Params.social.Email -}}
-                <a class="elton-cta-btn elton-cta-btn-email" href="mailto:{{ . }}">
-                    {{- partial "icon.html" (dict "Name" "mail" "Size" 16) -}} Email
-                </a>
-                {{- end -}}
-            </div>
-        </div>
-        {{- end -}}
     </div>
 {{- end -}}
