@@ -116,7 +116,7 @@ disableKinds = ["taxonomy"]
   [params.analytics]
     enable = true
     [params.analytics.google]
-      id = "G-PGH7K78BSR"
+      id = "G-SMTFZVC0XN"
       respectDoNotTrack = true
     bing = ""
 
