@@ -117,95 +117,6 @@ class Theme {
         }
     }
 
-    initToc() {
-        const $tocCore = document.getElementById('TableOfContents');
-        if ($tocCore === null) return;
-        const $tocContentAuto = document.getElementById('toc-content-auto');
-        if (!$tocContentAuto) {
-            const $tocContentStatic = document.getElementById('toc-content-static');
-            if ($tocContentStatic && $tocCore.parentElement !== $tocContentStatic) {
-                $tocCore.parentElement.removeChild($tocCore);
-                $tocContentStatic.appendChild($tocCore);
-            }
-            if (this._tocOnScroll) this.scrollEventSet.delete(this._tocOnScroll);
-            this._tocOnScroll = null;
-            return;
-        }
-        if (document.getElementById('toc-static').getAttribute('data-kept') || Util.isTocStatic()) {
-            const $tocContentStatic = document.getElementById('toc-content-static');
-            if ($tocCore.parentElement !== $tocContentStatic) {
-                $tocCore.parentElement.removeChild($tocCore);
-                $tocContentStatic.appendChild($tocCore);
-            }
-            if (this._tocOnScroll) this.scrollEventSet.delete(this._tocOnScroll);
-            this._tocOnScroll = null;
-        } else {
-            const $tocContentAuto = document.getElementById('toc-content-auto');
-            if ($tocCore.parentElement !== $tocContentAuto) {
-                $tocCore.parentElement.removeChild($tocCore);
-                $tocContentAuto.appendChild($tocCore);
-            }
-            const $toc = document.getElementById('toc-auto');
-            if (!$toc) return;
-            const isReadingToc = $toc.classList.contains('reading-toc');
-            if (!isReadingToc) {
-                const $page = document.getElementsByClassName('page')[0];
-                if (!$page) return;
-                const rect = $page.getBoundingClientRect();
-                $toc.style.left = `${rect.left + rect.width + 20}px`;
-                $toc.style.maxWidth = `${$page.getBoundingClientRect().left - 20}px`;
-            }
-            $toc.style.visibility = 'visible';
-            const $tocLinkElements = $tocCore.querySelectorAll('a:first-child');
-            const $tocLiElements = $tocCore.getElementsByTagName('li');
-            const $headerLinkElements = document.getElementsByClassName('headerLink');
-            const headerIsFixed = document.body.getAttribute('data-header-desktop') !== 'normal';
-            const headerHeight = document.getElementById('header-desktop').offsetHeight;
-            const TOP_SPACING = 20 + (headerIsFixed ? headerHeight : 0);
-            const minTocTop = $toc.offsetTop;
-            const minScrollTop = minTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
-            this._tocOnScroll = this._tocOnScroll || (() => {
-                if (!isReadingToc) {
-                    const footerTop = document.getElementById('post-footer').offsetTop;
-                    const maxTocTop = footerTop - $toc.getBoundingClientRect().height;
-                    const maxScrollTop = maxTocTop - TOP_SPACING + (headerIsFixed ? 0 : headerHeight);
-                    if (this.newScrollTop < minScrollTop) {
-                        $toc.style.position = 'absolute';
-                        $toc.style.top = `${minTocTop}px`;
-                    } else if (this.newScrollTop > maxScrollTop) {
-                        $toc.style.position = 'absolute';
-                        $toc.style.top = `${maxTocTop}px`;
-                    } else {
-                        $toc.style.position = 'fixed';
-                        $toc.style.top = `${TOP_SPACING}px`;
-                    }
-                }
-                Util.forEach($tocLinkElements, $tocLink => { $tocLink.classList.remove('active'); });
-                Util.forEach($tocLiElements, $tocLi => { $tocLi.classList.remove('has-active'); });
-                const INDEX_SPACING = 20 + (headerIsFixed ? headerHeight : 0);
-                let activeTocIndex = $headerLinkElements.length - 1;
-                for (let i = 0; i < $headerLinkElements.length - 1; i++) {
-                    const thisTop = $headerLinkElements[i].getBoundingClientRect().top;
-                    const nextTop = $headerLinkElements[i + 1].getBoundingClientRect().top;
-                    if ((i === 0 && thisTop > INDEX_SPACING) || (thisTop <= INDEX_SPACING && nextTop > INDEX_SPACING)) {
-                        activeTocIndex = i;
-                        break;
-                    }
-                }
-                if (activeTocIndex !== -1) {
-                    $tocLinkElements[activeTocIndex].classList.add('active');
-                    let $parent = $tocLinkElements[activeTocIndex].parentElement;
-                    while ($parent !== $tocCore) {
-                        $parent.classList.add('has-active');
-                        $parent = $parent.parentElement.parentElement;
-                    }
-                }
-            });
-            this._tocOnScroll();
-            this.scrollEventSet.add(this._tocOnScroll);
-        }
-    }
-
     onScroll() {
         const $headers = [];
         if (document.body.getAttribute('data-header-desktop') === 'auto') $headers.push(document.getElementById('header-desktop'));
@@ -252,7 +163,6 @@ class Theme {
                 this._resizeTimeout = window.setTimeout(() => {
                     this._resizeTimeout = null;
                     for (let event of this.resizeEventSet) event();
-                    this.initToc();
                 }, 100);
             }
         }, false);
@@ -480,7 +390,6 @@ class Theme {
         }
 
         window.setTimeout(() => {
-            this.initToc();
             this.onScroll();
             this.onResize();
             this.onClickMask();

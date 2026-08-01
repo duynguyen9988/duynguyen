@@ -144,49 +144,7 @@ header {
   }
 }
 
-// TOC in sidebar
-.sidebar-toc {
-  margin-bottom: 1.5rem;
-}
-
-.sidebar-toc-title {
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-text-secondary);
-  margin: 0 0 0.8rem;
-}
-
-.sidebar-toc-content {
-  font-size: 0.8125rem;
-  line-height: 1.5;
-
-  ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-  }
-
-  ul ul {
-    padding-left: 0.85rem;
-  }
-
-  a {
-    display: block;
-    padding: 0.3rem 0;
-    color: var(--color-text-secondary);
-    text-decoration: none;
-    border-left: 2px solid transparent;
-    padding-left: 0.6rem;
-    transition: all 0.2s ease;
-
-    &:hover, &.active {
-      color: var(--color-accent);
-      border-left-color: var(--color-accent);
-    }
-  }
-}
+// TOC in sidebar (removed feature)
 
 #toc-static {
   display: none;
@@ -200,10 +158,6 @@ header {
 
   .sidebar-wrapper {
     display: none;
-  }
-
-  #toc-static {
-    display: block;
   }
 }
 

@@ -145,10 +145,6 @@ disableKinds = ["taxonomy"]
     fontawesome = true
     linkToMarkdown = true
     rssFullText = false
-    [params.page.toc]
-      enable = true
-      keepStatic = false
-      auto = true
     [params.page.code]
       copy = false
       maxShownLines = 50
