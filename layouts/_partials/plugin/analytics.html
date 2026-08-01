@@ -1,12 +1,27 @@
 {{- $analytics := .Site.Params.analytics | default dict -}}
 {{- $googleID := $analytics.google.id -}}
 {{- if and $analytics.enable $googleID -}}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ $googleID }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', '{{ $googleID }}', { anonymize_ip: true });
+
+  var __gtagLoaded = false;
+  function __loadGtag() {
+    if (__gtagLoaded) return;
+    __gtagLoaded = true;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{ $googleID }}';
+    document.head.appendChild(s);
+  }
+  if (document.readyState === 'complete') {
+    window.setTimeout(__loadGtag, 3000);
+  } else {
+    window.addEventListener('load', function () {
+      window.setTimeout(__loadGtag, 3000);
+    });
+  }
 </script>
 {{- end -}}

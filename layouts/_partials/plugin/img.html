@@ -9,35 +9,44 @@
 
 {{- $small := "" -}}
 {{- $large := "" -}}
+{{- $smallW := "" -}}
+{{- $largeW := "" -}}
 
 {{- with dict "Path" $src "Resources" .Resources | partial "function/resource.html" -}}
     {{- if not (eq .MediaType.SubType "svg") -}}
         {{- $res := . -}}
-        {{- $maxW := 1600 -}}
-        {{- $maxH := 1200 -}}
-        {{- $fit := printf "%dx%d" $maxW $maxH -}}
+        {{- $fit := "1600x1200" -}}
         {{- $processed := $res.Fit (printf "%s webp" $fit) -}}
         {{- $src = $processed.RelPermalink -}}
         {{- $width = $processed.Width -}}
         {{- $height = $processed.Height -}}
-        {{- $small = ($res.Fit "800x600 webp").RelPermalink -}}
-        {{- $large = ($res.Fit "2400x1800 webp").RelPermalink -}}
+        {{- $smallRes := $res.Fit "800x600 webp" -}}
+        {{- $small = $smallRes.RelPermalink -}}
+        {{- $smallW = $smallRes.Width -}}
+        {{- $largeRes := $res.Fit "2400x1800 webp" -}}
+        {{- $large = $largeRes.RelPermalink -}}
+        {{- $largeW = $largeRes.Width -}}
     {{- else -}}
         {{- $src = .RelPermalink -}}
         {{- $width = $width | default .Width -}}
         {{- $height = $height | default .Height -}}
         {{- $small = $src -}}
+        {{- $smallW = .Width -}}
         {{- $large = $src -}}
+        {{- $largeW = .Width -}}
     {{- end -}}
 {{- else -}}
     {{- $small = $src -}}
+    {{- $smallW = $width -}}
     {{- $large = $src -}}
+    {{- $largeW = $width -}}
 {{- end -}}
 
 <img
     class="{{ with .Class }}{{ . }}{{ end }}"
     src="{{ $src | safeURL }}"
-    srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x"
+    srcset="{{ $small | safeURL }} {{ $smallW }}w, {{ $src | safeURL }} {{ $width }}w, {{ $large | safeURL }} {{ $largeW }}w"
+    sizes="(max-width: 600px) 100vw, 800px"
     alt="{{ $alt }}"
     {{- with $width }} width="{{ . }}"{{ end }}
     {{- with $height }} height="{{ . }}"{{ end }}
