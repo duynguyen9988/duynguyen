@@ -854,3 +854,26 @@ body {
     transform: none !important;
   }
 }
+
+// ---------- Accessibility ----------
+
+.single .content a,
+.page .content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#toc-static .toc-content a,
+#toc-static .toc-content nav > ul a,
+.toc-content nav#TableOfContents a,
+.sidebar-toc-content a {
+  display: inline-block;
+  min-height: 24px;
+  line-height: 1.5;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
