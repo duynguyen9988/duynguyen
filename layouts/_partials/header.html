@@ -35,12 +35,6 @@
                 <div class="elton-search-dropdown" id="search-dropdown"></div>
             </div>
             {{- end -}}
-
-            {{- with .Site.Params.social.GitHub -}}
-            <a class="elton-nav-link" href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub của {{ . }}">
-                {{- partial "icon.html" (dict "Name" "github" "Size" 20) -}}
-            </a>
-            {{- end -}}
         </div>
     </div>
 </header>

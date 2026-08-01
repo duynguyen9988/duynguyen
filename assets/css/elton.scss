@@ -146,7 +146,7 @@ body {
 .elton-search {
   position: relative;
   flex: none;
-  width: 13.5rem;
+  width: 10.5rem;
 
   .elton-search-icon {
     position: absolute;
@@ -235,24 +235,6 @@ body {
   }
 }
 
-.elton-nav-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  flex-shrink: 0;
-  color: var(--elton-muted);
-  border-radius: 9999px;
-  text-decoration: none;
-  transition: color .15s ease, background-color .15s ease;
-
-  &:hover {
-    color: var(--elton-blue);
-    background-color: var(--elton-blue-50);
-  }
-}
-
 @media only screen and (max-width: 640px) {
   .elton-brand-name {
     display: none;
@@ -260,12 +242,8 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .elton-nav-link {
-    display: none;
-  }
-
   .elton-search {
-    width: 10rem;
+    width: 8.5rem;
   }
 }
 
