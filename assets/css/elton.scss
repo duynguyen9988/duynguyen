@@ -390,7 +390,12 @@ body {
 
 .elton-home-sec-t {
   margin: 0 0 1.5rem;
-  font-size: 1.35rem;
+  display: inline-block;
+  padding: .5rem 1.25rem;
+  background-color: #BFDBFE;
+  border-radius: .5rem;
+  color: var(--elton-blue-dark);
+  font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
