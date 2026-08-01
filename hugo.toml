@@ -35,7 +35,7 @@ disableKinds = ["taxonomy"]
 
   [params.header]
     desktopMode = "fixed"
-    mobileMode = "auto"
+    mobileMode = "fixed"
     [params.header.title]
       logo = ""
       name = "Duy Nguyen"

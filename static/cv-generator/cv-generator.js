@@ -1170,19 +1170,21 @@
     function stripFirstPerson(text, lang) {
         var out = String(text);
         lang = lang || detectLang(out);
+        var B = '(?<![\\p{L}\\p{N}])';
         if (lang === 'vi') {
             out = out
-                .replace(/\b(Tôi|Em)\s+(đã|sẽ|thường|luôn)\s+/gi, '')
-                .replace(/\b(Tôi|Em)\s+(là|được|bị)\s+/gi, '')
-                .replace(/\bTôi\s+/gi, '')
-                .replace(/\bEm\s+/gi, '')
-                .replace(/\bTôi là\b/gi, 'Là');
+                .replace(new RegExp(B + '(Tôi|Em)\\s+(đã|sẽ|thường|luôn)\\s+', 'giu'), '')
+                .replace(new RegExp(B + '(Tôi|Em)\\s+(là|được|bị)\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'Tôi\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'Em\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'Tôi là', 'giu'), 'Là');
         } else {
             out = out
-                .replace(/\bI\s+(have|had|was|am|will|would|can|could|used)\s+/gi, '')
-                .replace(/\bMy\s+(role|job|duty|responsibilities?|main task)\s+(was|were|is|are|included)\s+/gi, '')
-                .replace(/\bI\s+/gi, '')
-                .replace(/\bmy\s+(team|role|responsibility|duties?|job|task)\s+(at|of|with|in|was|were|is|are)\s+/gi, '');
+                .replace(new RegExp(B + 'As an? (?!result\\b)[A-Za-z]+(?: [A-Za-z]+)*,\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'I\\s+(have|had|was|am|will|would|can|could|used)\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'My\\s+(role|job|duty|responsibilities?|main task)\\s+(was|were|is|are|included)\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'I\\s+', 'giu'), '')
+                .replace(new RegExp(B + 'my\\s+(team|role|responsibility|duties?|job|task)\\s+(at|of|with|in|was|were|is|are)\\s+', 'giu'), '');
         }
         return out.charAt(0).toUpperCase() + out.slice(1);
     }
