@@ -16,11 +16,11 @@ resources:
     src: featured-image.jpg
 ---
 
-Sài Gòn về đêm không chỉ có ánh đèn neon và dòng xe tấp nập — mà còn có thứ mùi hương đặc biệt chỉ những ai từng ngồi bệt xuống vỉa hè, trước một dĩa ốc đầy ắp tỏi ớt mới cảm nhận hết. Ốc Sài Gòn không đơn thuần là món ăn vặt; nó là một nghi lễ. Nghi lễ của những người bạn sau giờ làm, của vài lon bà ba và những câu chuyện kéo dài đến tận khuya. Nếu bạn chưa từng ngồi ở một quán ốc giữa lòng Sài Gòn, bạn chưa thực sự biết đến hương vị đường phố của thành phố này.
+Sài Gòn về đêm không chỉ có ánh đèn neon và dòng xe tấp nập — mà còn có thứ mùi hương đặc biệt chỉ những ai từng ngồi bệt xuống vỉa hè, trước một dĩa ốc đầy ắp tỏi ớt mới cảm nhận hết. Ốc Sài Gòn không đơn thuần là món ăn vặt; nó là một nghi lễ. Nghi lễ của những người bạn sau giờ làm, của vài lon bà ba và những câu chuyện kéo dài đến tận khuya. Nếu bạn chưa từng ngồi ở một quán ốc giữa lòng Sài Gòn, bạn chưa thực sự biết đến hương vị [đường phố]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) của thành phố này.
 
 ## 1. Ốc Đào — Quán ốc gần 30 năm tuổi
 
-Nằm trong một con hẻm nhỏ trên đường Nguyễn Trãi, quận 5, Ốc Đào là cái tên gần như huyền thoại trong giới sành ốc Sài Gòn. Bắt đầu từ một gánh hàng rong với vài cái ghế nhựa, giờ đây quán đã có mặt bằng khang trang hơn, nhưng hương vị thì vẫn vẹn nguyên như ba thập kỷ trước.
+Nằm trong một con hẻm nhỏ trên đường Nguyễn Trãi, quận 5, Ốc Đào là cái tên gần như [huyền thoại]({{< relurl "top-10-banh-mi-sai-gon/" >}}) trong giới sành ốc Sài Gòn. Bắt đầu từ một gánh hàng rong với vài cái ghế nhựa, giờ đây quán đã có mặt bằng khang trang hơn, nhưng hương vị thì vẫn vẹn nguyên như ba thập kỷ trước.
 
 Món đặc trưng ở đây là ốc mỡ hấp sả và ốc hương xào dừa. Ốc mỡ hấp vừa chín tới, không bị dai, cái ngọt tự nhiên của thịt ốc kết hợp với vị thơm của sả và lá chanh cắt chỉ khiến ai ăn cũng gật gù. Còn ốc hương xào dừa — nước cốt dừa béo ngậy thấm đều từng con ốc, điểm thêm chút ớt băm và hành tím phi thơm. Bạn sẽ không thể ngừng đũa cho đến khi dĩa ốc trơ vỏ.
 

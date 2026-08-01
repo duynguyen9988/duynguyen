@@ -19,7 +19,7 @@ resources:
 
 Ngày 24 tháng 8 năm 2011. Một thông cáo báo chí của Apple công bố cái tên lạ hoắc: Tim Cook, CEO mới. So với Steve Jobs, chẳng ai biết ông này là ai. Ngày hôm sau khi nhậm chức, Cook viết một email nội bộ: "Apple sẽ không thay đổi. Tôi tin rằng những năm tháng tốt đẹp nhất vẫn còn ở phía trước."
 
-Về mặt tài chính, Tim đã đúng. Khi ông bắt đầu làm CEO, Apple được định giá 350 tỷ đô. Con số đó đã phình lên thành 4 nghìn tỷ. Công ty chưa bao giờ ở vị thế tốt hơn trong một thời gian dài — dù đã trải qua các vụ kiện chống độc quyền trên khắp thế giới và những cáo buộc bóp nghẹt cạnh tranh.
+Về mặt tài chính, Tim đã đúng. Khi ông bắt đầu làm CEO, Apple được [định giá]({{< relurl "vi-sao-apple-dat/" >}}) 350 tỷ đô. Con số đó đã phình lên thành 4 nghìn tỷ. Công ty chưa bao giờ ở vị thế tốt hơn trong một thời gian dài — dù đã trải qua các vụ kiện chống độc quyền trên khắp thế giới và những cáo buộc bóp nghẹt cạnh tranh.
 
 Nhưng mọi thứ sắp thay đổi. Ngày 21 tháng 4 năm 2026, Apple chính thức xác nhận: Tim Cook sẽ rời ghế CEO. Ngày cuối cùng của ông là 31 tháng 8.
 
@@ -33,7 +33,7 @@ Với hầu hết những người đam mê công nghệ, Ternus là gương m�
 
 Ternus tốt nghiệp Đại học Pennsylvania với bằng kỹ sư cơ khí. Trước cả khi đến Apple, dự án đại học cuối cùng của ông là chế tạo một cánh tay robot cho bệnh nhân liệt tứ chi, điều khiển hoàn toàn bằng chuyển động đầu. Ông gia nhập Apple năm 2001, bắt đầu sự nghiệp với việc phát triển màn hình — những chiếc Cinema Display mà theo những người từng sở hữu thì đến nay vẫn hoạt động hoàn hảo. Ở thời điểm năm 2002, khi hầu hết mọi người còn dùng màn hình CRT, Cinema Display với tấm nền LCD phẳng là một kiệt tác thiết kế.
 
-Sau đó, Ternus chuyển sang iPad, làm việc trên đó từ nguyên mẫu đầu tiên. Ông thúc đẩy nội bộ để iPad OS trở thành một hệ điều hành riêng — thời điểm đó iPad về cơ bản chỉ chạy phần mềm iPhone, và Ternus tin rằng điều đó đang kìm hãm phần cứng. Như chúng ta đã biết, ông đã thắng cuộc tranh luận đó. Ông tiếp tục giám sát AirPods và đóng vai trò then chốt trong quá trình chuyển đổi sang Apple Silicon — dòng chip M-series. Gần đây nhất, ông có công lớn trong MacBook Neo — chiếc laptop 599 đô mà chính ông công bố tại New York, nhận được sự hoan nghênh gần như tuyệt đối.
+Sau đó, Ternus chuyển sang iPad, làm việc trên đó từ nguyên mẫu đầu tiên. Ông thúc đẩy nội bộ để iPad OS trở thành một hệ điều hành riêng — thời điểm đó iPad về cơ bản chỉ chạy phần mềm iPhone, và Ternus tin rằng điều đó đang kìm hãm phần cứng. Như chúng ta đã biết, ông đã thắng cuộc tranh luận đó. Ông tiếp tục giám sát AirPods và đóng vai trò then chốt trong quá trình chuyển đổi sang Apple silicon — dòng chip M-series. Gần đây nhất, ông có công lớn trong MacBook Neo — chiếc laptop 599 đô mà chính ông công bố tại New York, nhận được sự hoan nghênh gần như tuyệt đối.
 
 ## Người đã đúng về Vision Pro và Apple Car
 

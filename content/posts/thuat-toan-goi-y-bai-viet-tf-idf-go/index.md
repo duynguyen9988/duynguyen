@@ -19,7 +19,7 @@ resources:
 
 Mỗi khi bạn đọc xong một bài trên blog này, ở cuối trang có bốn bài viết khác hiện ra dưới dòng chữ "Có thể bạn sẽ thích". Với người đọc, đó là một chi tiết nhỏ bên lề trang. Với tôi, đó là một thuật toán học máy chạy bằng Go thuần, không một thư viện bên ngoài, và mỗi dòng code của nó đều có thể giải thích được từ gốc. Bài này sẽ mổ xẻ toàn bộ `tools/ml-related/main.go` — từ chữ đầu tiên đến dòng xuất JSON — để bạn thấy một hệ gợi ý nhỏ thực sự hoạt động ra sao.
 
-Đây là bài đầu tiên trong chuỗi bài tiếp nối câu chuyện [blog chuyển từ Python sang Go]({{< relurl "blog-tu-python-sang-go/" >}}).
+Đây là bài đầu tiên trong chuỗi bài tiếp nối câu chuyện [blog chuyển]({{< relurl "blog-tu-python-sang-go/" >}}) từ Python sang Go.
 
 ## Vấn đề: làm sao biết hai bài viết "gần nhau"
 
@@ -65,7 +65,7 @@ Cuối cùng, kết quả được ghi ra file `data/related.json` — một map
 
 ## Vì sao Go, và vì sao phải tự viết
 
-Như tôi đã viết trong [bài chuyển tech stack]({{< relurl "blog-tu-python-sang-go/" >}}), lý do rời scikit-learn không phải vì tốc độ trong bước build — mà vì cả một hệ sinh thái Python phải cài đặt trên máy cục bộ lẫn CI chỉ để chạy 103 dòng code. Bản Go hoàn chỉnh này chỉ dùng thư viện chuẩn: `regexp` cho các biểu thức làm sạch, `unicode` cho việc tách ký tự, `sort` cho việc xếp hạng, và `encoding/json` cho việc xuất dữ liệu.
+Như tôi đã viết trong bài chuyển tech stack, lý do rời scikit-learn không phải vì tốc độ trong bước build — mà vì cả một hệ sinh thái Python phải cài đặt trên máy cục bộ lẫn CI chỉ để chạy 103 dòng code. Bản Go hoàn chỉnh này chỉ dùng thư viện chuẩn: `regexp` cho các biểu thức làm sạch, `unicode` cho việc tách ký tự, `sort` cho việc xếp hạng, và `encoding/json` cho việc xuất dữ liệu.
 
 Không có dependency bên ngoài nghĩa là không có bản vá bảo mật bắt buộc, không có xung đột phiên bản, không có bước cài đặt nào trước khi build. Một lệnh `go run ./tools/ml-related` — và bạn có một hệ gợi ý bài viết hoàn chỉnh.
 
@@ -86,8 +86,8 @@ Không có dependency bên ngoài nghĩa là không có bản vá bảo mật b�
 | Điểm cộng | Điều cần biết |
 |---|---|
 | Go thuần, 0 dependency — build được mọi nơi | Phải tự viết lại mọi thứ mà thư viện cho sẵn |
-| Chạy ~10 lần nhanh hơn bản Python | So sánh với bản cũ cần kiểm chứng định lượng |
+| Chạy ~10 lần nhanh hơn bản Python | So sánh với bản cũ cần [kiểm chứng]({{< relurl "kiem-chung-port-go-python/" >}}) định lượng |
 | Mỗi bước đều giải thích được từ gốc | Trọng số title/tag là quyết định thiết kế chủ quan |
 | Không có gì chạy ngầm — code đọc là hiểu | — |
 
-Nếu bạn muốn biết những con số này đã được kiểm chứng thế nào khi chuyển từ Python sang Go — bộ từ vựng khớp 6303/6304, điểm sai lệch dưới 0,0001 — thì bài tiếp theo trong chuỗi sẽ kể toàn bộ quá trình [kiểm chứng bản port Go]({{< relurl "kiem-chung-port-go-python/" >}}).
+Nếu bạn muốn biết những con số này đã được kiểm chứng thế nào khi chuyển từ Python sang Go — bộ từ vựng khớp 6303/6304, điểm sai lệch dưới 0,0001 — thì bài tiếp theo trong chuỗi sẽ kể toàn bộ quá trình kiểm chứng bản port Go.

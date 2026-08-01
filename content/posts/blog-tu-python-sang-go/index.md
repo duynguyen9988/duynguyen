@@ -42,7 +42,7 @@ Với scikit-learn, toàn bộ việc này chỉ là vài dòng gọi API. Vấn
 
 Mỗi lần build, pipeline phải chạy trước Hugo. Nghĩa là trên máy cục bộ và trong GitHub Actions, máy tính phải chuẩn bị đủ bộ ba Python: cài `python-frontmatter`, cài `scikit-learn`, rồi mới chạy được script 103 dòng.
 
-Cái giá phải trả là một chuỗi CI dài dòng: bước "Setup Python", bước "Install Python deps", rồi mới đến bước chạy. Cứ mỗi lần deploy, runner của GitHub lại phải tải về và cài đặt những gói này — và với dự án nhỏ, cảm giác đó giống như thuê cả một kho hàng để cất một hộp giấy. Hệ sinh thái cũng rạn nứt theo: blog nói tiếng Go ở lớp build, tiếng Python ở lớp gợi ý, còn người viết phải nhớ cả hai.
+Cái giá phải trả là một chuỗi CI dài dòng: bước "[Setup Python]({{< relurl "ci-cd-blog-mot-lenh-go/" >}})", bước "Install Python deps", rồi mới đến bước chạy. Cứ mỗi lần deploy, runner của GitHub lại phải tải về và cài đặt những gói này — và với dự án nhỏ, cảm giác đó giống như thuê cả một kho hàng để cất một hộp giấy. Hệ sinh thái cũng rạn nứt theo: blog nói tiếng Go ở lớp build, tiếng Python ở lớp gợi ý, còn người viết phải nhớ cả hai.
 
 Câu hỏi đặt ra rất thẳng thắn: một thuật toán gồm tokenize, đếm tần số và nhân ma trận — có thật sự cần một thư viện học máy khổng lồ và một ngôn ngữ thứ hai để chạy không?
 
@@ -50,7 +50,7 @@ Câu hỏi đặt ra rất thẳng thắn: một thuật toán gồm tokenize, �
 
 Câu trả lời được viết trong commit `41d1f29` sáng 1/8/2026: "migrate related-posts ML pipeline from Python/scikit-learn to Go". Toàn bộ `ml-related.py` bị xóa, thay bằng `tools/ml-related/main.go` — một chương trình Go thuần, chỉ dùng thư viện chuẩn, không một dependency bên ngoài.
 
-Điều làm tôi tâm đắc nhất là cách bản port được kiểm chứng. Không phải "viết lại rồi tin là đúng", mà là một cuộc so sánh sòng phẳng giữa hai thế hệ code:
+Điều làm tôi tâm đắc nhất là cách bản port được [kiểm chứng]({{< relurl "kiem-chung-port-go-python/" >}}). Không phải "viết lại rồi tin là đúng", mà là một cuộc so sánh sòng phẳng giữa hai thế hệ code:
 
 - Bộ từ vựng khớp **6303/6304** từ — chênh đúng một từ vì cơ chế phân hạng nội bộ của scikit-learn dựa trên thuật toán sắp xếp của numpy, không thể tái hiện chính xác, nên giới hạn `max_features` đã được bỏ hẳn.
 - Điểm tương đồng sai lệch **dưới 0,0001** — trong ngưỡng sai số làm tròn.
@@ -67,7 +67,7 @@ Với người đọc, mọi thứ vẫn y hệt: bốn bài liên quan vẫn hi
 
 ## Bài học: migration không phải viết lại, mà là port có kiểm chứng
 
-Câu chuyện này gợi nhớ đến [những câu chuyện kỹ thuật của các công ty lớn]({{< relurl "dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen/" >}}), nơi một lớp code viết nhanh ban đầu dần trở thành gánh nặng hạ tầng, rồi được thay thế bằng một ngôn ngữ chuyên cho phần lõi hiệu năng. Blog này không ở quy mô đó, nhưng bài học thì giống nhau: hãy để ngôn ngữ phục vụ hệ sinh thái đang có, đừng bắt hệ sinh thái phục vụ hai ngôn ngữ.
+Câu chuyện này gợi nhớ đến những câu chuyện kỹ thuật của các công ty lớn, nơi một lớp code viết nhanh ban đầu dần trở thành gánh nặng hạ tầng, rồi được thay thế bằng một ngôn ngữ chuyên cho phần lõi hiệu năng. Blog này không ở quy mô đó, nhưng bài học thì giống nhau: hãy để ngôn ngữ phục vụ hệ sinh thái đang có, đừng bắt hệ sinh thái phục vụ hai ngôn ngữ.
 
 Quan trọng hơn, đây là lần đầu tiên blog có một quy trình "nâng cấp có bằng chứng": kết quả cũ và mới được đặt cạnh nhau, đo bằng cùng một thước đo, và quyết định được đưa ra dựa trên con số. Điều đó đáng giá hơn bất kỳ lời quảng cáo "nhanh hơn" nào.
 
@@ -92,4 +92,4 @@ Buổi sáng hôm sau, tôi chạy build thử. Vài trăm mili-giây sau, trang
 | CI gọn: bỏ setup-python, bỏ pip install | Một số hành vi nội bộ (tie-break sắp xếp) của scikit-learn không thể tái hiện 100% |
 | Nhanh hơn ~10 lần, không dependency | Vẫn còn một lỗi chính tả trong nội dung bài cũ cần sửa |
 
-[Quá trình nâng cấp kỹ thuật của blog này]({{< relurl "cai-tien-ky-thuat-blog-duy-nguyen/" >}}) không dừng ở giao diện và tốc độ tải trang — nó còn đi sâu vào cả bên dưới lớp vỏ, nơi những quyết định về ngôn ngữ lập trình thay đổi cách cả một dự án được vận hành mỗi ngày.
+Quá trình nâng cấp kỹ thuật của blog này không dừng ở giao diện và tốc độ tải trang — nó còn đi sâu vào cả bên dưới lớp vỏ, nơi những quyết định về ngôn ngữ lập trình thay đổi cách cả một dự án được vận hành mỗi ngày.

@@ -17,7 +17,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Đầu năm 2024, giữa lúc thị trường phim Hoa ngữ bão hòa với những câu chuyện tiên hiệp dài hơi và ngôn tình trong cung, một bộ phim ngắn 12 tập lặng lẽ lên sóng iQiyi. Không màu hồng, không lãng mạn. Chỉ có mây mù dày đặc bao phủ một hòn đảo ngoài khơi Liêu Đông, những xác chết biến dạng vì một căn bệnh lạ, và một viên Cẩm Y Vệ lẻ loi giữa vùng đất thù địch.
+Đầu năm 2024, giữa lúc [thị trường phim Hoa ngữ bão hòa]({{< relurl "duong-trieu-quy-su-luc/" >}}) với những câu chuyện tiên hiệp dài hơi và ngôn tình trong cung, một bộ phim ngắn 12 tập lặng lẽ lên sóng iQiyi. Không màu hồng, không lãng mạn. Chỉ có mây mù dày đặc bao phủ một hòn đảo ngoài khơi Liêu Đông, những xác chết biến dạng vì một căn bệnh lạ, và một viên Cẩm Y Vệ lẻ loi giữa vùng đất thù địch.
 
 Tên phim: Thiên Khải Dị Văn Lục. Tên quốc tế: The Mutations.
 

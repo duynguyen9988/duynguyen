@@ -17,9 +17,9 @@ resources:
     src: featured-image.jpg
 ---
 
-Khi tôi nói với một người bạn rằng mình vừa viết lại toàn bộ pipeline gợi ý bài viết từ Python sang Go, câu hỏi đầu tiên của anh ấy không phải "nhanh hơn bao nhiêu?" mà là "làm sao mày biết nó vẫn chạy đúng?". Đó chính là câu hỏi đúng đắn nhất. Viết lại một thuật toán sang ngôn ngữ khác là một chuyện; chứng minh bản viết lại cho kết quả như bản gốc lại là chuyện hoàn toàn khác. Bài này kể về cách tôi trả lời câu hỏi đó — không bằng niềm tin, mà bằng ba con số: 6303/6304, 0,0001 và 103/120.
+Khi tôi nói với một người bạn rằng mình vừa viết lại toàn bộ pipeline gợi ý bài viết từ [Python sang]({{< relurl "blog-tu-python-sang-go/" >}}) Go, câu hỏi đầu tiên của anh ấy không phải "nhanh hơn bao nhiêu?" mà là "làm sao mày biết nó vẫn chạy đúng?". Đó chính là câu hỏi đúng đắn nhất. Viết lại một thuật toán sang ngôn ngữ khác là một chuyện; chứng minh bản viết lại cho kết quả như bản gốc lại là chuyện hoàn toàn khác. Bài này kể về cách tôi trả lời câu hỏi đó — không bằng niềm tin, mà bằng ba con số: 6303/6304, 0,0001 và 103/120.
 
-Đây là bài thứ hai trong chuỗi tiếp nối [câu chuyện chuyển tech stack]({{< relurl "blog-tu-python-sang-go/" >}}), sau khi đã [mổ xẻ thuật toán TF-IDF]({{< relurl "thuat-toan-goi-y-bai-viet-tf-idf-go/" >}}) ở bài trước.
+Đây là bài thứ hai trong chuỗi tiếp nối câu chuyện chuyển tech stack, sau khi đã mổ xẻ thuật toán TF-IDF ở bài trước.
 
 ## Tại sao "chạy được" chưa đủ
 
@@ -53,7 +53,7 @@ Kiểm chứng cuối cùng cũng là kiểm chứng gần nhất với trải n
 
 Ba phép so sánh này tạo thành ba lớp bảo vệ, mỗi lớp bắt một loại lỗi khác nhau: bộ từ vựng bắt lỗi tokenizer, điểm số bắt lỗi công thức toán, và thứ tự bài bắt lỗi tổng hợp cũng như lỗi dữ liệu. Chúng bổ sung cho nhau, và nếu chỉ làm một trong ba, sẽ có những lỗi lọt lưới.
 
-Quan trọng hơn, cách tiếp cận này tạo ra một tư duy có thể lặp lại: mỗi lần sửa code trong tương lai, tôi có thể chạy lại toàn bộ bộ so sánh để đảm bảo không có gì thay đổi ngoài ý muốn. Bài học lớn nhất của lần migration này không phải là "viết lại xong rồi tin là đúng", mà là "đo lường mọi thứ rồi mới tin". Điều này cũng gợi nhớ một bài học lớn hơn về [việc chuyển tech stack của blog]({{< relurl "blog-tu-python-sang-go/" >}}): nâng cấp có bằng chứng luôn đáng giá hơn nâng cấp theo cảm tính.
+Quan trọng hơn, cách tiếp cận này tạo ra một tư duy có thể lặp lại: mỗi lần sửa code trong tương lai, tôi có thể chạy lại toàn bộ bộ so sánh để đảm bảo không có gì thay đổi ngoài ý muốn. Bài học lớn nhất của lần migration này không phải là "viết lại xong rồi tin là đúng", mà là "đo lường mọi thứ rồi mới tin". Điều này cũng gợi nhớ một bài học lớn hơn về việc chuyển tech stack của blog: nâng cấp có bằng chứng luôn đáng giá hơn nâng cấp theo cảm tính.
 
 ## Thông tin nhanh
 
@@ -72,4 +72,4 @@ Quan trọng hơn, cách tiếp cận này tạo ra một tư duy có thể lặ
 | Phát hiện lỗi cắt chuỗi theo byte nhờ đo lường | 17 vị trí lệch do lỗi chính tả NFD trong bài cũ |
 | Quy trình lặp lại được cho mọi thay đổi tương lai | Kiểm chứng cần giữ dữ liệu cũ để so sánh |
 
-Muốn hiểu lỗi cắt chuỗi theo byte nguy hiểm thế nào với tiếng Việt — và vì sao "một ký tự" không phải lúc nào cũng là "một byte" — bài tiếp theo trong chuỗi sẽ kể về [cái bẫy Unicode khi cắt chuỗi tiếng Việt]({{< relurl "cat-chuoi-tieng-viet-unicode-go/" >}}).
+Muốn hiểu lỗi cắt chuỗi theo byte nguy hiểm thế nào với tiếng Việt — và vì sao "một ký tự" không phải lúc nào cũng là "một byte" — bài tiếp theo trong chuỗi sẽ kể về cái [bẫy Unicode]({{< relurl "cat-chuoi-tieng-viet-unicode-go/" >}}) khi cắt chuỗi tiếng Việt.

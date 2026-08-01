@@ -3,7 +3,7 @@ title: 'Top 10 Bánh Mì Sài Gòn: Huyền Thoại Ổ Bánh Mì Việt Nam'
 slug: top-10-banh-mi-sai-gon
 date: 2026-07-26T10:00:00+07:00
 draft: false
-description: 'Bánh mì Sài Gòn — món ăn đường phố nổi tiếng nhất thế giới. Top 10 ổ bánh mì huyền thoại.'
+description: 'Bánh mì Sài Gòn — món ăn đường phố nổi tiếng nhất thế giới. Top 10 ổ bánh mì huyền thoại Sài Gòn: địa chỉ, giá, giờ mở cửa và hương vị đặc trưng từng quán.'
 tags:
   - banh-mi
   - am-thuc-sai-gon
@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Bánh mì Sài Gòn không chỉ là một món ăn — nó là một biểu tượng. Tạp chí du lịch Mỹ Condé Nast Traveler từng vinh danh bánh mì Việt Nam là một trong những món ăn đường phố ngon nhất thế giới. Và Sài Gòn chính là thủ phủ của bánh mì.
+Bánh mì [Sài Gòn]({{< relurl "top-10-quan-pho-sai-gon/" >}}) không chỉ là một món ăn — nó là một [biểu tượng]({{< relurl "banh-mi-sai-gon/" >}}). Tạp chí du lịch Mỹ Condé Nast Traveler từng vinh danh bánh mì Việt Nam là một trong những món ăn đường phố ngon nhất thế giới. Và Sài Gòn chính là thủ phủ của bánh mì.
 
 Mỗi tiệm bánh mì Sài Gòn đều có một bí quyết riêng: tiệm thì nổi tiếng với pate béo ngậy, tiệm với thịt nướng than hồng, tiệm với nước sốt gia truyền. Dưới đây là mười cái tên đã làm nên huyền thoại bánh mì Sài Gòn.
 

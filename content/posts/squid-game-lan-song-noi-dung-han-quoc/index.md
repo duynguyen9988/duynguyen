@@ -13,7 +13,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Tháng 9 năm 2021, một bộ phim Hàn Quốc với tựa đề kỳ lạ — *Squid Game* — bất ngờ đổ bộ lên Netflix và nhanh chóng trở thành cơn sốt toàn cầu chưa từng có. Trong những ngày đầu phát sóng, ai cũng bắt gặp những bộ đồ xanh lá, những người bảo vệ mặt nạ hồng, và điệu nhảy trên nền nhạc classical vang lên từ mọi ngóc ngách của thế giới. Nhưng ít ai biết rằng, đằng sau hiện tượng này là một hành trình dài mười năm đầy chông gai.
+Tháng 9 năm 2021, một bộ phim Hàn Quốc với tựa đề kỳ lạ — *Squid Game* — bất ngờ đổ bộ lên netflix và nhanh chóng trở thành cơn sốt toàn cầu chưa từng có. Trong những ngày đầu phát sóng, ai cũng bắt gặp những bộ đồ xanh lá, những người bảo vệ mặt nạ hồng, và điệu nhảy trên nền nhạc classical vang lên từ mọi ngóc ngách của thế giới. Nhưng ít ai biết rằng, đằng sau hiện tượng này là một hành trình dài mười năm đầy chông gai.
 
 ## Bối cảnh và nội dung
 
@@ -25,7 +25,7 @@ Câu chuyện kể về Seong Gi-hun, một người đàn ông nợ nần chồ
 
 Thành công của *Squid Game* vượt xa mọi dự đoán. Nó trở thành series được xem nhiều nhất trong lịch sử Netflix, giành sáu giải Primetime Emmy và một Quả cầu Vàng. Dàn diễn viên gồm Lee Jung-jae, Park Hae-soo, Jung Ho-yeon và O Yeong-su bỗng nhiên trở thành những ngôi sao toàn cầu. Mùa hai ra mắt tháng 12 năm 2024 và mùa ba — mùa cuối cùng — lên sóng tháng 6 năm 2025, khép lại hành trình ba mùa với tổng kinh phí 100 tỷ won (68,9 triệu đô la) cho hai mùa cuối.
 
-Nhưng *Squid Game* không chỉ đơn thuần là một bộ phim — nó là đỉnh cao của làn sóng Hallyu, làn sóng văn hóa Hàn Quốc đã âm thầm chinh phục thế giới suốt hai thập kỷ qua. Từ K-pop với BTS và Blackpink, từ phim truyền hình Hàn Quốc với những câu chuyện tình yêu lãng mạn, cho đến ẩm thực Hàn Quốc với kim chi và bibimbap — tất cả đã tạo nên một sức hút khó cưỡng.
+Nhưng *Squid Game* không chỉ đơn thuần là một bộ phim — nó là đỉnh cao của làn [sóng Hallyu]({{< relurl "kpop-hallyu/" >}}), làn sóng văn hóa Hàn Quốc đã âm thầm [chinh phục]({{< relurl "lan-song-hallyu/" >}}) thế giới suốt hai thập kỷ qua. Từ K-pop với BTS và Blackpink, từ phim truyền hình Hàn Quốc với những câu chuyện tình yêu lãng mạn, cho đến ẩm thực Hàn Quốc với kim chi và bibimbap — tất cả đã tạo nên một sức hút khó cưỡng.
 
 Điều khiến *Squid Game* đặc biệt là nó đã phá vỡ rào cản ngôn ngữ và văn hóa một cách triệt để. Một bộ phim nói tiếng Hàn, với những trò chơi dân gian Hàn Quốc, nhưng lại chạm đến trái tim của hàng trăm triệu người trên khắp thế giới. Bộ phim đã chứng minh rằng một câu chuyện hay, được kể một cách chân thực, có thể vượt qua mọi biên giới. Đây là minh chứng rõ ràng nhất cho sức mạnh của làn sóng Hallyu — một làn sóng không chỉ dừng lại ở giải trí mà còn định hình cách thế giới nhìn nhận văn hóa Hàn Quốc.
 

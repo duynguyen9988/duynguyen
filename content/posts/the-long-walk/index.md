@@ -11,7 +11,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Hãy tưởng tượng một cuộc đua mà bạn không được phép dừng lại. Không được ngồi, không được nằm, không được chậm hơn sáu phẩy bốn kilômét trên giờ. Nếu bạn chậm hơn ba mươi giây, bạn nhận được một cảnh báo. Ba cảnh báo, và viên đạn từ khẩu súng của lính canh sẽ kết thúc cuộc chơi. Một trăm chàng trai tuổi thiếu niên bước đi dọc theo Quốc lộ Một, từ biên giới Canada đến điểm kết thúc không được tiết lộ. Người cuối cùng còn sống sẽ nhận được bất cứ điều gì mình muốn suốt đời. Đây không phải một câu chuyện kinh dị siêu nhiên — đây là thế giới của *The Long Walk*, kiệt tác đầu tay đầy ám ảnh của Stephen King.
+Hãy tưởng tượng một cuộc đua mà bạn không được phép dừng lại. Không được ngồi, không được nằm, không được chậm hơn sáu phẩy bốn kilômét trên giờ. Nếu bạn chậm hơn ba mươi giây, bạn nhận được một cảnh báo. Ba cảnh báo, và viên đạn từ khẩu súng của lính canh sẽ kết thúc cuộc chơi. Một trăm chàng trai tuổi thiếu niên bước đi dọc theo Quốc lộ Một, từ biên giới Canada đến điểm kết thúc không được tiết lộ. Người cuối cùng còn sống sẽ nhận được bất cứ điều gì mình muốn suốt đời. Đây không phải một [câu chuyện kinh dị siêu nhiên]({{< relurl "from-season-4-nhung-bi-an-chua-giai-dap/" >}}) — đây là thế giới của *The Long Walk*, kiệt tác đầu tay đầy ám ảnh của Stephen King.
 
 **Cuốn tiểu thuyết đầu tiên của Stephen King**
 

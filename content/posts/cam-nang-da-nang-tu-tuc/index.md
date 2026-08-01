@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Tôi nhớ lần đầu tiên đặt chân đến Đà Nẵng là một buổi sáng tháng Tám. Máy bay hạ cánh, cái nóng ẩm của miền Trung ùa vào cabin, và trước mắt là bầu trời xanh đến nao lòng. Không ồn ào như Sài Gòn, không vội vã như Hà Nội — Đà Nẵng có một nhịp sống riêng, chậm rãi và dễ chịu đến mức bạn sẽ muốn ở lại mãi.
+Tôi nhớ lần đầu tiên đặt chân đến Đà Nẵng là một buổi sáng tháng Tám. Máy bay hạ cánh, cái nóng ẩm của miền Trung ùa vào cabin, và trước mắt là bầu trời xanh đến nao lòng. Không ồn ào như [Sài Gòn]({{< relurl "top-10-quan-mi-quang-sai-gon/" >}}), không vội vã như Hà Nội — Đà Nẵng có một nhịp sống riêng, chậm rãi và dễ chịu đến mức bạn sẽ muốn ở lại mãi.
 
 Sáu năm sau, tôi đã quay lại Đà Nẵng bốn lần. Mỗi lần là một khám phá mới. Và bài viết này là những gì tôi đúc kết được — dành cho ai lần đầu đi tự túc, không muốn bỏ lỡ điều gì và cũng không muốn bị "du lịch hóa".
 

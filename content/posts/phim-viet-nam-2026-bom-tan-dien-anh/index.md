@@ -13,7 +13,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Năm 2026 đánh dấu một cột mốc quan trọng của điện ảnh Việt Nam — một năm mà những con số phòng vé không chỉ dừng lại ở kỷ lục mà còn phản ánh sự trưởng thành vượt bậc của cả một nền công nghiệp. Từ những rạp chiếu nhỏ lẻ thời kỳ đầu, điện ảnh Việt đã đi một chặng đường dài để khẳng định vị thế trên bản đồ điện ảnh thế giới.
+Năm 2026 đánh dấu một cột mốc quan trọng của [điện ảnh]({{< relurl "dien-anh-viet-nam-lich-su-va-hien-tai/" >}}) Việt Nam — một năm mà những con số phòng vé không chỉ dừng lại ở kỷ lục mà còn phản ánh sự trưởng thành vượt bậc của cả một nền công nghiệp. Từ những rạp chiếu nhỏ lẻ thời kỳ đầu, điện ảnh Việt đã đi một chặng đường dài để khẳng định vị thế trên bản đồ điện ảnh thế giới.
 
 ## Bối cảnh và nội dung
 

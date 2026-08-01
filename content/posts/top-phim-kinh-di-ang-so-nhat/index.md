@@ -16,7 +16,7 @@ resources:
 slug: top-phim-kinh-di-ang-so-nhat
 ---
 
-Có một cảm giác mà chỉ thể loại kinh dị mới mang lại được: bàn tay bấu chặt vào tay ghế, nhịp tim đập thình thịch trong lồng ngực, và cái cảm giác sợ hãi nguyên thủy nhưng lại kỳ lạ hấp dẫn đến mức không thể rời mắt khỏi màn hình. Suốt hơn một thế kỷ qua, phim kinh dị đã là một phần quan trọng của điện ảnh — không chỉ để hù dọa, mà còn để phản ánh những nỗi sợ sâu thẳm nhất của xã hội qua từng thời kỳ.
+Có một cảm giác mà chỉ thể loại kinh dị mới mang lại được: bàn tay bấu chặt vào tay ghế, nhịp tim đập thình thịch trong lồng ngực, và cái cảm giác sợ hãi nguyên thủy nhưng lại kỳ lạ hấp dẫn đến mức không thể rời mắt khỏi màn hình. Suốt hơn một thế kỷ qua, [phim kinh dị đã là một phần quan trọng]({{< relurl "from-season-4-nhung-bi-an-chua-giai-dap/" >}}) của điện ảnh — không chỉ để hù dọa, mà còn để phản ánh những nỗi sợ sâu thẳm nhất của xã hội qua từng thời kỳ.
 
 Dưới đây là những bộ phim kinh dị đáng sợ nhất mọi thời đại, những tác phẩm đã in dấu ấn không thể phai trong lịch sử điện ảnh.
 

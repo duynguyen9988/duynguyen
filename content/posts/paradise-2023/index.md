@@ -22,7 +22,7 @@ resources:
 
 ## Nội dung
 
-Startup công nghệ sinh học Aeon dưới sự lãnh đạo của người sáng lập Sophie Theissen đã trở thành một tập đoàn tỷ đô. Công ty có khả năng chuyển giao năm tuổi thọ từ người trẻ sang người có khả năng chi trả, thông qua một quy trình y tế. Người hiến tặng tuổi thọ được bồi thường tài chính. Quy trình này yêu cầu sự tương thích di truyền giữa người cho và người nhận, được xác định thông qua mẫu phết má.
+Startup công nghệ sinh học Aeon dưới sự lãnh đạo của người sáng lập Sophie Theissen đã trở thành một tập đoàn tỷ đô. Công ty có khả năng chuyển giao năm tuổi thọ từ người trẻ sang người có khả năng chi trả, thông qua một quy trình y tế. Người hiến tặng tuổi thọ được bồi thường [tài chính]({{< relurl "quan-ly-tai-chinh-ca-nhan-cho-nguoi-tre/" >}}). Quy trình này yêu cầu sự tương thích di truyền giữa người cho và người nhận, được xác định thông qua mẫu phết má.
 
 Một tập thể mang tên "Nhóm Adam" phản đối công nghệ của Aeon và tiến hành các cuộc tấn công bạo lực nhằm vào những người nhận tuổi thọ. Thủ lĩnh của họ là Lilith.
 
@@ -57,7 +57,7 @@ Tháng 3 năm 2022, Netflix công bố dự án. Quá trình quay phim diễn ra
 
 Trên Rotten Tomatoes, phim đạt tỷ lệ chấp thuận 61% dựa trên hơn 250 bài đánh giá, với điểm trung bình 7/10.
 
-Kathleen Hildebrand từ Süddeutsche Zeitung nhận xét phim mang lại cảm giác "carpe diem" hiếm thấy trong thể loại dystopia. Ulf Lepelmeier từ Filmstarts gọi đây là "một bom tấn sci-fi Netflix thành công — đến từ Đức!" với "tiền đề hấp dẫn, diễn xuất mạnh mẽ và nửa giờ đầu cảm xúc dồn dập".
+Kathleen Hildebrand từ Süddeutsche Zeitung nhận xét phim mang lại cảm giác "carpe diem" hiếm thấy trong thể loại dystopia. Ulf Lepelmeier từ Filmstarts gọi đây là "một [bom tấn]({{< relurl "thoi-khac-cong-bo/" >}}) sci-fi Netflix thành công — đến từ Đức!" với "tiền đề hấp dẫn, diễn xuất mạnh mẽ và nửa giờ đầu cảm xúc dồn dập".
 
 Trong tuần đầu phát hành, phim đạt 16,1 triệu giờ xem, tương đương 8,1 triệu người xem, đứng đầu bảng xếp hạng phim không nói tiếng Anh trên Netflix.
 

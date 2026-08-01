@@ -11,7 +11,7 @@ resources:
 draft: false
 ---
 
-Còn khoảng sáu tháng nữa, những cành mai vàng sẽ bắt đầu bung nở trên khắp các con phố Sài Gòn. Những cành đào hồng thắm sẽ khoe sắc trước hiên nhà Hà Nội. Những chiếc bánh chưng vuông vức sẽ được gói trong lá dong xanh. Tết Nguyên Đán 2027 — năm Đinh Mùi, con giáp Dê (còn gọi là Mùi) — sẽ đến vào ngày 6 tháng 2.
+Còn khoảng sáu tháng nữa, những cành mai vàng sẽ bắt đầu bung nở trên khắp các con phố Sài Gòn. Những cành đào hồng thắm sẽ khoe sắc trước hiên nhà Hà Nội. Những chiếc bánh chưng vuông vức sẽ được gói trong lá dong xanh. [Tết Nguyên]({{< relurl "tet-nguyen-dan/" >}}) Đán 2027 — năm Đinh Mùi, con giáp Dê (còn gọi là Mùi) — sẽ đến vào ngày 6 tháng 2.
 
 ## Tổng quan
 
@@ -23,7 +23,7 @@ Tết đánh dấu sự chuyển giao giữa năm cũ và năm mới, đồng th
 
 ### Lịch sử ngàn năm
 
-Nguồn gốc của Tết là một câu chuyện dài. Theo các nhà nghiên cứu, Tết Nguyên Đán ở Việt Nam có thể đã xuất hiện từ trước thời Hùng Vương, như truyền thuyết về Lang Liêu và bánh chưng bánh dày vẫn còn lưu truyền. Dù chịu ảnh hưởng từ văn hóa Trung Hoa trong hơn một nghìn năm Bắc thuộc, người Việt đã biến Tết thành một bản sắc riêng — với lịch con giáp có thêm con Mèo thay vì con Thỏ, với những món ăn riêng biệt và phong tục xông đất đậm chất Việt.
+Nguồn gốc của Tết là một câu chuyện dài. Theo các nhà nghiên cứu, Tết Nguyên Đán ở Việt Nam có thể đã xuất hiện từ trước thời Hùng Vương, như truyền thuyết về Lang Liêu và bánh chưng bánh dày vẫn còn lưu truyền. Dù chịu ảnh hưởng từ văn hóa Trung Hoa trong hơn một nghìn năm Bắc thuộc, người Việt đã biến Tết thành một bản sắc riêng — với lịch con giáp có thêm con Mèo thay vì con Thỏ, với những món ăn riêng biệt và [phong tục]({{< relurl "tet-trung-thu-2026-phong-tuc-y-nghia/" >}}) xông đất đậm chất Việt.
 
 ### Những phong tục không thể thiếu
 

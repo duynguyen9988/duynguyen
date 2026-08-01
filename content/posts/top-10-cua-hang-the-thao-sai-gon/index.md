@@ -16,11 +16,11 @@ resources:
     src: featured-image.jpg
 ---
 
-Sài Gòn những năm gần đây chứng kiến một sự bùng nổ thực sự của phong trào tập luyện thể thao. Từ chạy bộ, gym, pickleball cho đến cầu lông và bóng đá, chưa bao giờ người dân thành phố lại quan tâm đến sức khỏe nhiều như bây giờ. Và kéo theo đó, nhu cầu tìm mua giày dép, quần áo và dụng cụ tập luyện chính hãng, chất lượng cũng tăng vọt. Dưới đây là mười địa chỉ đã được cộng đồng thể thao Sài Gòn kiểm chứng qua nhiều năm.
+[Sài Gòn]({{< relurl "top-shop-streetwear-sai-gon/" >}}) những năm gần đây chứng kiến một sự bùng nổ thực sự của phong trào tập luyện thể thao. Từ chạy bộ, gym, pickleball cho đến cầu lông và bóng đá, chưa bao giờ người dân thành phố lại quan tâm đến sức khỏe nhiều như bây giờ. Và kéo theo đó, nhu cầu tìm mua giày dép, quần áo và dụng cụ tập luyện chính hãng, chất lượng cũng tăng vọt. Dưới đây là mười địa chỉ đã được cộng đồng thể thao Sài Gòn kiểm chứng qua nhiều năm.
 
 ## Supersports — Đa thương hiệu, đa môn
 
-Nếu bạn chỉ có một buổi chiều và muốn lướt qua hàng loạt thương hiệu từ Nike, adidas, Under Armour cho đến HOKA, Columbia, Speedo — Supersports là điểm đến duy nhất. Với ba cửa hàng tại Estella Mall (Quận 2), Crescent Mall (Quận 7) và Outlet Lê Văn Sỹ (Quận 3), Supersports phân phối hơn bốn mươi thương hiệu quốc tế dưới một mái nhà. Điểm mạnh của họ là hàng luôn mới, đúng giá niêm yết và chính sách đổi trả rõ ràng. Tuy nhiên, vào cuối tuần, bạn nên đến sớm nếu không muốn xếp hàng chờ thanh toán.
+Nếu bạn chỉ có một buổi chiều và muốn lướt qua hàng loạt thương hiệu từ Nike, adidas, Under Armour cho đến HOKA, Columbia, Speedo — Supersports là điểm đến duy nhất. Với ba [cửa hàng]({{< relurl "second-hand-vintage-sai-gon/" >}}) tại Estella Mall (Quận 2), Crescent Mall (Quận 7) và Outlet Lê Văn Sỹ (Quận 3), Supersports phân phối hơn bốn mươi thương hiệu quốc tế dưới một mái nhà. Điểm mạnh của họ là hàng luôn mới, đúng giá niêm yết và chính sách đổi trả rõ ràng. Tuy nhiên, vào cuối tuần, bạn nên đến sớm nếu không muốn xếp hàng chờ thanh toán.
 
 ## Decathlon — Chuỗi toàn cầu, giá không thể rẻ hơn
 

@@ -1,9 +1,9 @@
 ---
-title: 'Thời Khắc Công Bố (Disclosure Day): Bom tấn UFO của Spielberg "gây bão" toàn cầu'
+title: 'Thời Khắc Công Bố (Disclosure Day): Bom Tấn UFO Của Spielberg'
 slug: thoi-khac-cong-bo
 date: 2026-07-22T08:00:00+07:00
 draft: false
-description: 'Disclosure Day - siêu phẩm UFO của Steven Spielberg với Emily Blunt. Đánh giá, nội dung, dàn cast và thông tin chi tiết về bộ phim.'
+description: 'Disclosure Day — siêu phẩm UFO của Steven Spielberg với Emily Blunt. Đánh giá không spoiler, nội dung, dàn cast và thông tin chi tiết về bộ phim.'
 tags:
   - disclosure-day
   - steven-spielberg
@@ -72,7 +72,7 @@ phim dài 145 phút, phân loại **T13**.
 - Một số phân đoạn giữa phim hơi chậm
 - phim khá dài (145 phút)
 
-Nếu bạn yêu thích phim khoa học viễn tưởng, từng khóc với *E.T.* hay từng ngước nhìn bầu trời và tự hỏi "Có ai ngoài kia không?" — đây nhất định là phim đáng xem.
+Nếu bạn yêu thích phim khoa học [viễn tưởng]({{< relurl "interstellar-2014-nhin-lai/" >}}), từng khóc với *E.T.* hay từng ngước nhìn bầu trời và tự hỏi "Có ai ngoài kia không?" — đây nhất định là phim đáng xem.
 
 ## Thông tin nhanh
 

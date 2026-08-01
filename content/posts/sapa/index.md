@@ -19,7 +19,7 @@ Những ai đã từng đặt chân đến Sa Pa vào một sớm mùa đông, k
 
 Thị trấn Sa Pa nằm tại tỉnh Lào Cai, vùng Tây Bắc Việt Nam, nép mình trên một cao nguyên ở độ cao khoảng 1.500 mét so với mực nước biển. Nằm cách thủ đô Hà Nội 380 km về phía Tây Bắc, Sa Pa từ lâu đã là điểm đến hấp dẫn cho những ai yêu thích sự khám phá và vẻ đẹp của thiên nhiên hoang sơ.
 
-Sa Pa có một lịch sử hình thành đặc biệt. Năm 1903, khi thực dân Pháp thực hiện cuộc khảo sát vùng biên giới phía Bắc, các sĩ quan viễn chinh đã phát hiện ra một cao nguyên thơ mộng với khí hậu mát mẻ quanh năm. Từ một khu nghỉ dưỡng trên núi dành cho viên chức Pháp, Sa Pa dần phát triển thành một đô thị du lịch. Sau những biến động của lịch sử, đến nay Sa Pa đã trở thành một trong những điểm đến nổi tiếng nhất của du lịch Việt Nam, thu hút hàng triệu du khách mỗi năm.
+Sa Pa có một lịch sử hình thành đặc biệt. Năm 1903, khi thực dân Pháp thực hiện cuộc khảo sát vùng biên giới phía Bắc, các sĩ quan viễn chinh đã phát hiện ra một cao nguyên thơ mộng với khí hậu mát mẻ quanh năm. Từ một khu nghỉ dưỡng trên núi dành cho viên chức Pháp, Sa Pa dần phát triển thành một đô thị du lịch. Sau những biến động của lịch sử, đến nay Sa Pa đã trở thành một trong những điểm đến nổi tiếng nhất của du [lịch Việt]({{< relurl "dia-diem-du-lich-viet-nam/" >}}) Nam, thu hút hàng triệu du khách mỗi năm.
 
 ## Những trải nghiệm nổi bật
 
@@ -27,7 +27,7 @@ Khí hậu Sa Pa khá đặc biệt, với nhiệt độ trung bình năm chỉ 
 
 Điều làm nên sức hút của Sa Pa không chỉ là khí hậu hay cảnh sắc, mà còn là văn hóa độc đáo của các dân tộc thiểu số sinh sống lâu đời tại đây. Người Mông, Dao đỏ, Tày, Giáy, Xa Phó, và nhiều dân tộc khác vẫn giữ gìn bản sắc riêng qua trang phục truyền thống sặc sỡ, những phiên chợ vùng cao cuối tuần, và các điệu múa, lễ hội đặc sắc. Du khách đến Sa Pa có thể ghé thăm các bản làng như Cát Cát, Tả Van, Bản Hồ để tận mắt thấy cuộc sống giản dị của người dân nơi đây.
 
-Cao điểm trong hành trình đến Sa Pa không thể không kể đến đỉnh Fansipan — nóc nhà Đông Dương với độ cao 3.143 mét. Từ lâu, chinh phục Fansipan là niềm tự hào của những người yêu leo núi, với hành trình băng qua rừng nguyên sinh, vượt suối, đối mặt với cái lạnh cắt da và những cung đường dốc đứng. Ngày nay, hệ thống cáp treo Fansipan với chiều dài 6.292 mét đã đưa du khách lên đỉnh chỉ trong 15 phút, nhưng vẫn còn đó những cung đường trekking dành cho ai muốn thử thách bản thân.
+Cao điểm trong hành trình đến Sa Pa không thể không kể đến đỉnh Fansipan — nóc nhà Đông Dương với độ cao 3.143 mét. Từ lâu, chinh phục Fansipan là niềm tự hào của những người yêu leo núi, với hành trình băng qua rừng nguyên sinh, vượt suối, đối mặt với cái lạnh cắt da và những [cung đường]({{< relurl "phuot-tay-bac-mua-hoa/" >}}) dốc đứng. Ngày nay, hệ thống cáp treo Fansipan với chiều dài 6.292 mét đã đưa du khách lên đỉnh chỉ trong 15 phút, nhưng vẫn còn đó những cung đường trekking dành cho ai muốn thử thách bản thân.
 
 ## Điều đáng lưu ý cho hành trình
 

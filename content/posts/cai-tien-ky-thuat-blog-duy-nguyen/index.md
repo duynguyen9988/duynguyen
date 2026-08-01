@@ -1,7 +1,7 @@
 ---
-title: "Blog Duy Nguyen đã được nâng cấp thế nào: nhanh hơn, ổn định hơn và dễ đọc hơn"
+title: 'Blog Duy Nguyen Nâng Cấp: Nhanh Hơn, Ổn Định Hơn, Dễ Đọc Hơn'
 date: 2026-07-28T23:20:00+07:00
-description: "Tổng hợp các nâng cấp kỹ thuật của blog Duy Nguyen: ảnh WebP local, giảm CLS, giao diện ít xao nhãng, SEO rõ ràng và tôn trọng quyền riêng tư."
+description: 'Tổng hợp nâng cấp kỹ thuật blog Duy Nguyen: ảnh WebP local, giảm CLS, giao diện ít xao nhãng, SEO rõ ràng và tôn trọng quyền riêng tư.'
 tags:
   - toi-uu-website
   - hieu-nang-web
@@ -66,4 +66,4 @@ Khi chức năng phân tích được bật, nó chỉ được tải sau khi ng
 
 Chúng tôi không gắn cho blog một con số “nhanh hơn bao nhiêu phần trăm” nếu chưa có phép đo nhất quán trên cùng mạng, thiết bị và nội dung. Thay vào đó, các thay đổi được kiểm chứng qua những tiêu chí cụ thể: ảnh có kích thước xác định, không còn phụ thuộc CDN cho giao diện cốt lõi, build Hugo không có warning deprecated, và bài viết có thể được đọc với ít yếu tố gây xao nhãng hơn.
 
-Đây là một quá trình tiếp diễn. Mỗi bài mới vẫn phải tuân thủ các quy tắc ảnh local, slug rõ ràng và liên kết nội bộ đúng đường dẫn. Kỹ thuật tốt nhất không phải bản nâng cấp ồn ào nhất; nó là nền tảng khiến người đọc gần như không phải nghĩ về kỹ thuật, mà chỉ tập trung vào câu chuyện mình đang đọc.
+Đây là một quá trình tiếp diễn. Mỗi bài mới vẫn phải tuân thủ các quy tắc ảnh local, slug rõ ràng và liên kết nội bộ đúng đường dẫn. Kỹ thuật tốt nhất không phải bản nâng cấp ồn ào nhất; nó là nền tảng khiến người đọc gần như không phải nghĩ về kỹ thuật, mà chỉ tập trung vào [câu chuyện]({{< relurl "blog-tu-python-sang-go/" >}}) mình đang đọc.

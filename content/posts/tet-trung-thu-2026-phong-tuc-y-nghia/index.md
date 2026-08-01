@@ -1,6 +1,6 @@
 ---
-title: "Tết Trung Thu 2026: Phong Tục, Ý Nghĩa Đoàn Viên và Mâm Cỗ Đón Trăng Rằm Tháng Tám"
-description: "Tết Trung Thu 2026 rơi vào ngày 25 tháng 9 — dịp để trở về, bày mâm cỗ trông trăng, và cảm nhận trọn vẹn hương vị đoàn viên của ngày rằm tháng Tám."
+title: 'Tết Trung Thu 2026: Phong Tục Và Mâm Cỗ Đón Trăng Rằm'
+description: 'Tết Trung Thu 2026 rơi vào 25/9 — dịp trở về, bày mâm cỗ trông trăng và cảm nhận hương vị đoàn viên: nguồn gốc, phong tục và ý nghĩa ngày rằm tháng Tám.'
 date: 2026-07-27T00:04:22+07:00
 slug: tet-trung-thu-2026-phong-tuc-y-nghia
 categories: ["van-hoa"]
@@ -13,7 +13,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Năm 2026, Tết Trung Thu rơi vào ngày 25 tháng 9 dương lịch — thời điểm mà những cơn gió heo may bắt đầu se lạnh, bầu trời buổi tối trong vắt, và mặt trăng hiện lên tròn đầy như một chiếc đĩa bạc giữa màn đêm. Tết Trung Thu, còn được gọi là Tết Đoàn Viên hay Tết Trông Trăng, là một trong những lễ hội cổ truyền quan trọng nhất trong văn hóa Việt Nam.
+Năm 2026, Tết Trung Thu rơi vào ngày 25 tháng 9 dương lịch — thời điểm mà những cơn gió heo may bắt đầu se lạnh, bầu trời buổi tối trong vắt, và mặt trăng hiện lên tròn đầy như một chiếc đĩa bạc giữa màn đêm. Tết Trung Thu, còn được gọi là Tết Đoàn Viên hay Tết Trông Trăng, là một trong những lễ hội cổ truyền quan trọng nhất trong [văn hóa]({{< relurl "van-hoa-tra-viet-lich-su/" >}}) Việt Nam.
 
 ## Nguồn gốc và bối cảnh
 
@@ -27,7 +27,7 @@ Truyền thuyết phổ biến nhất gắn liền với Tết Trung Thu là s�
 
 Mâm cỗ Trung Thu truyền thống không thể thiếu bánh nướng và bánh dẻo — hai loại bánh đặc trưng với nhân đậu xanh, hạt sen hoặc thập cẩm. Bánh trung thu thường có hình tròn hoặc hình vuông, tượng trưng cho sự viên mãn và đất trời. Bên cạnh bánh, mâm cỗ còn có trái cây mùa thu như hồng, bưởi, na, chuối, và những chén trà thơm. Trong văn hóa Trung Hoa, bánh trung thu còn gắn liền với một trang lịch sử: người Hán đã dùng bánh để truyền tin trong cuộc khởi nghĩa chống lại nhà Nguyên.
 
-Phong tục rước đèn và múa lân cũng là những nét đặc sắc không thể thiếu. Đèn lồng với đủ kích cỡ và hình dạng — từ hình cá chép, thỏ ngọc, đến hình ngôi sao — được trẻ em rước khắp phố phường trong ánh sáng lung linh của đêm trăng rằm. Múa lân với những màn biểu diễn nhào lộn đặc sắc, tiếng trống rộn rã mang đến không khí tưng bừng cho ngày hội.
+[Phong tục]({{< relurl "tet-nguyen-dan/" >}}) rước đèn và múa lân cũng là những nét đặc sắc không thể thiếu. Đèn lồng với đủ kích cỡ và hình dạng — từ hình cá chép, thỏ ngọc, đến hình ngôi sao — được trẻ em rước khắp phố phường trong ánh sáng lung linh của đêm trăng rằm. Múa lân với những màn biểu diễn nhào lộn đặc sắc, tiếng trống rộn rã mang đến không khí tưng bừng cho ngày hội.
 
 ## Dấu ấn trong đời sống
 

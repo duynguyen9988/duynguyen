@@ -22,7 +22,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Năm 2014, Christopher Nolan — vị đạo diễn từng làm nên thành công vang dội của trilogy The Dark Knight và Inception — trình làng một bộ phim khoa học viễn tưởng không giống bất kỳ tác phẩm nào trước đó: Interstellar. Với dàn diễn viên do Matthew McConaughey và Anne Hathaway dẫn dắt, bộ phim kể về một tương lai dystopian khi Trái Đất đang chết dần vì nạn bệnh bạc lá (blight) và nạn đói, và một nhóm phi hành gia phải du hành xuyên không gian để tìm kiếm ngôi nhà mới cho nhân loại. Nhưng Interstellar không chỉ là một bộ phim — đó là một cuộc đối thoại giữa điện ảnh và vật lý lý thuyết.
+Năm 2014, Christopher Nolan — vị đạo diễn từng làm nên thành công vang dội của trilogy The Dark Knight và Inception — trình làng một bộ phim khoa học [viễn tưởng]({{< relurl "interstellar-2014-nhin-lai/" >}}) không giống bất kỳ tác phẩm nào trước đó: Interstellar. Với dàn diễn viên do Matthew McConaughey và Anne Hathaway dẫn dắt, bộ phim kể về một tương lai dystopian khi Trái Đất đang chết dần vì nạn bệnh bạc lá (blight) và nạn đói, và một nhóm phi hành gia phải du hành xuyên không gian để tìm kiếm ngôi nhà mới cho nhân loại. Nhưng Interstellar không chỉ là một bộ phim — đó là một cuộc đối thoại giữa điện ảnh và vật lý lý thuyết.
 
 ## Bối cảnh và nội dung
 

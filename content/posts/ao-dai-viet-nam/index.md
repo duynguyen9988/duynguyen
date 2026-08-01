@@ -19,13 +19,13 @@ draft: false
 
 **Từ áo ngũ thân đến sắc dụ của chúa Nguyễn**
 
-Tiền thân của áo dài ngày nay là áo ngũ thân — loại áo năm thân xuất hiện dưới thời các chúa Nguyễn ở Phú Xuân vào thế kỷ XVIII. Năm 1744, chúa Nguyễn Phúc Khoát ban dụ rằng tất cả quan lại trong triều phải mặc quần và áo dài có cúc cài phía trước. Quyết định tưởng chừng chỉ thuần về y phục ấy thực chất là một tuyên ngôn chính trị: nó đánh dấu sự tách biệt về văn hóa giữa triều đình phương Nam và chúa Trịnh ở Đàng Ngoài. Chiếc áo dài, ngay từ thuở sơ khai, đã mang trong mình hơi thở của quyền lực và bản sắc vùng miền.
+Tiền thân của áo dài ngày nay là áo ngũ thân — loại áo năm thân xuất hiện dưới thời các chúa Nguyễn ở Phú Xuân vào thế kỷ XVIII. Năm 1744, chúa Nguyễn Phúc Khoát ban dụ rằng tất cả quan lại trong triều phải mặc quần và áo dài có cúc cài phía trước. Quyết định tưởng chừng chỉ thuần về y phục ấy thực chất là một tuyên ngôn chính trị: nó đánh dấu sự tách biệt về [văn hóa]({{< relurl "van-hoa-doc-sach-viet-nam/" >}}) giữa triều đình phương Nam và chúa Trịnh ở Đàng Ngoài. Chiếc áo dài, ngay từ thuở sơ khai, đã mang trong mình hơi thở của quyền lực và bản sắc vùng miền.
 
 **Cuộc cách mạng Le Mur và hơi thở phương Tây**
 
 ## Những giá trị nổi bật
 
-Phải đến đầu thế kỷ XX, áo dài mới thực sự bước vào kỷ nguyên hiện đại. Năm 1921, một chiếc áo dài Việt Nam lần đầu tiên xuất hiện trên sàn diễn thời trang Paris, đánh dấu cột mốc giao thoa văn hóa Đông Tây. Nhưng cuộc cách mạng thực sự đến vào năm 1930, khi họa sĩ Cát Tường — người mang bút danh Le Mur — giới thiệu một thiết kế đột phá: thân áo được ôm sát cơ thể nhờ kỹ thuật may rập (dart) và eo được thắt nhỏ lại. Đây là lần đầu tiên chiếc áo dài tôn vinh đường cong cơ thể một cách có chủ đích. Phong cách Le Mur nhanh chóng được nhóm Tự Lực văn đoàn ủng hộ và lan tỏa trong giới trí thức Hà Thành, những con người đang khao khát một sự đổi mới văn hóa giữa thời cuộc giao thời.
+Phải đến đầu thế kỷ XX, áo dài mới thực sự bước vào kỷ nguyên [hiện đại]({{< relurl "ao-dai-bieu-tuong-van-hoa-viet-nam/" >}}). Năm 1921, một chiếc áo dài Việt Nam lần đầu tiên xuất hiện trên sàn diễn thời trang Paris, đánh dấu cột mốc giao thoa văn hóa Đông Tây. Nhưng cuộc cách mạng thực sự đến vào năm 1930, khi họa sĩ Cát Tường — người mang bút danh Le Mur — giới thiệu một thiết kế đột phá: thân áo được ôm sát cơ thể nhờ kỹ thuật may rập (dart) và eo được thắt nhỏ lại. Đây là lần đầu tiên chiếc áo dài tôn vinh đường cong cơ thể một cách có chủ đích. Phong cách Le Mur nhanh chóng được nhóm Tự Lực văn đoàn ủng hộ và lan tỏa trong giới trí thức Hà Thành, những con người đang khao khát một sự đổi mới văn hóa giữa thời cuộc giao thời.
 
 **Những thăng trầm dưới chế độ mới**
 

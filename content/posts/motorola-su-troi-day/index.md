@@ -19,7 +19,7 @@ resources:
 
 Hầu hết mọi người nhớ về Motorola như một thương hiệu di động hoài niệm — thương hiệu của thế hệ millennial và những thùng rác lịch sử. Nhưng điều ít ai biết là công ty chưa hề biến mất. Thực tế, nó đang phát triển thịnh vượng với mức định giá 60 tỷ đô. Ở hình hài mới, Motorola đã trở thành lựa chọn yêu thích của lính cứu hỏa, nhân viên cấp cứu và cảnh sát. Thiết bị của họ — từ bộ đàm cho nhiệm vụ sống còn đến camera gắn trên xe cảnh sát — đang thống trị một ngành công nghiệp mà ít người tiêu dùng bình thường để ý đến.
 
-Nhưng câu chuyện của Motorola còn đáng kinh ngạc hơn thế. Họ đã góp mặt trong những khoảnh khắc quan trọng nhất của lịch sử nhân loại. Cuộc đổ bộ lên Mặt Trăng của Apollo — câu nói "Một bước nhỏ của con người" được phát qua một máy thu của Motorola. Chiếc điện thoại di động đầu tiên trên thế giới — do chính họ phát minh. Thế rồi, trong thời hiện đại, công ty gần như biến mất khỏi mắt công chúng, nhưng vẫn âm thầm đạt được những thành tựu đáng nể. Và bộ phận điện thoại thông minh của họ cũng đang quay trở lại. Nghe có vẻ khó tin, nhưng đó là sự thật.
+Nhưng câu chuyện của Motorola còn đáng kinh ngạc hơn thế. Họ đã góp mặt trong những khoảnh khắc quan trọng nhất của lịch sử nhân loại. Cuộc đổ bộ lên Mặt Trăng của Apollo — câu nói "Một bước nhỏ của con người" được phát qua một máy thu của Motorola. Chiếc [điện thoại]({{< relurl "lich-su-smartphone/" >}}) di động đầu tiên trên thế giới — do chính họ phát minh. Thế rồi, trong thời hiện đại, công ty gần như biến mất khỏi mắt công chúng, nhưng vẫn âm thầm đạt được những thành tựu đáng nể. Và bộ phận điện thoại thông minh của họ cũng đang quay trở lại. Nghe có vẻ khó tin, nhưng đó là sự thật.
 
 ![Motorola — logo thương hiệu điện thoại từng là huyền thoại](featured-image.jpg)
 
@@ -43,7 +43,7 @@ Vào giữa những năm 2000, Motorola phát hành RAZR V3. Thiết kế của 
 
 Nhưng thành công đó hóa ra chỉ ngắn ngủi.
 
-## Khi cả thế giới chuyển sang iPhone
+## Khi cả thế giới chuyển sang iphone
 
 Năm 2007, Steve Jobs đứng trên sân khấu và trình làng iPhone. Thế giới thay đổi ngay lập tức. Hầu hết các ông lớn đều bắt đầu hoảng loạn. Ngay cả Nokia — công ty có lợi thế đáng kể — cũng đã tạo ra các bản PowerPoint phác họa iPhone có thể thay đổi mọi thứ như thế nào.
 
@@ -59,7 +59,7 @@ Giữa những tổn thất lớn năm 2008, Motorola đã bí mật chơi một
 
 "Cộng thêm với công lao của Brown, ít hơn đã thành nhiều hơn". Công ty đang trải qua một sự tái sinh — với tên gọi Motorola Solutions. Bộ đàm của họ được lính cứu hỏa sử dụng rộng rãi từ EU đến Mỹ đến Anh. Họ phát triển giải pháp đám mây cho cứu hỏa và dịch vụ khẩn cấp, cắt giảm thời gian phản ứng. Hệ thống camera M500 trên xe cảnh sát được tích hợp AI, quét tìm vũ khí và cảnh báo tổng đài 911 phát hiện mối đe dọa.
 
-Theo các nhà vận hành an ninh, Motorola giờ đây là một trong những nhà cung cấp công nghệ hứa hẹn nhất của thập kỷ. Phần kinh doanh tăng trưởng nhanh nhất của họ là thiết bị an ninh cho bệnh viện, không gian sự kiện và trường học — dùng AI phát hiện hành vi đáng ngờ. Doanh thu đã vượt 10 tỷ đô, gấp 10 lần đối thủ cạnh tranh gần nhất là Axon.
+Theo các nhà vận hành an ninh, Motorola giờ đây là một trong những nhà cung cấp [công nghệ]({{< relurl "google-lich-su/" >}}) hứa hẹn nhất của thập kỷ. Phần kinh doanh tăng trưởng nhanh nhất của họ là thiết bị an ninh cho bệnh viện, không gian sự kiện và trường học — dùng AI phát hiện hành vi đáng ngờ. Doanh thu đã vượt 10 tỷ đô, gấp 10 lần đối thủ cạnh tranh gần nhất là Axon.
 
 ## Sự sống lại của một huyền thoại di động
 

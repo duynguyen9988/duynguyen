@@ -11,7 +11,7 @@ resources:
 draft: false
 ---
 
-Có một nơi ở Sài Gòn mà hồi nhỏ tôi luôn nghĩ là trái tim của thành phố. Không phải Nhà thờ Đức Bà, không phải Dinh Độc Lập. Mà là một tòa nhà màu vàng với chiếc đồng hồ bốn mặt già nua, nơi mà mỗi sáng thức dậy, hàng nghìn người đổ về từ tinh mơ đến tận tối mịt. Chợ Bến Thành.
+Có một nơi ở [Sài Gòn]({{< relurl "ca-phe-via-he-sai-gon/" >}}) mà hồi nhỏ tôi luôn nghĩ là trái tim của thành phố. Không phải Nhà thờ Đức Bà, không phải Dinh Độc Lập. Mà là một tòa nhà màu vàng với chiếc đồng hồ bốn mặt già nua, nơi mà mỗi sáng thức dậy, hàng nghìn người đổ về từ tinh mơ đến tận tối mịt. Chợ Bến Thành.
 
 ## Tổng quan
 
@@ -33,7 +33,7 @@ Kiến trúc sư Khuông Văn Mười, Chủ tịch Hội Kiến trúc sư thàn
 
 Bước vào bên trong, chợ rộng hơn 13.000 mét vuông với gần 1.500 quầy hàng và hơn 6.000 tiểu thương. Bốn cổng chợ chia thành bốn khu vực riêng biệt: cổng Nam bán quần áo, giày dép và mỹ phẩm; cổng Bắc là thiên đường ẩm thực — phở, cơm tấm, bún bò Huế, bánh bèo, hải sản nướng; cổng Đông có hải sản khô, cà phê, trà, nước mắm và gia vị; cổng Tây chuyên đồ thủ công mỹ nghệ và gốm sứ.
 
-Mỗi ngày, hơn 10.000 lượt khách đổ về. Khách du lịch nước ngoài tìm đến để mua quà lưu niệm, nếm thử ẩm thực đường phố. Người Sài Gòn đến vì quen — vì quầy hàng bà Bảy bán hàng đã ba mươi năm, vì tô phở sáng nay vẫn nóng như ba mươi năm trước.
+Mỗi ngày, hơn 10.000 lượt khách đổ về. Khách du lịch nước ngoài tìm đến để mua quà lưu niệm, nếm thử ẩm thực [đường phố]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}). Người Sài Gòn đến vì quen — vì quầy hàng bà Bảy bán hàng đã ba mươi năm, vì tô phở sáng nay vẫn nóng như ba mươi năm trước.
 
 ### Đêm xuống, chợ thay áo
 

@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Người ta thường kể câu chuyện của Amazon như một truyền thuyết Silicon Valley: một người đàn ông bỏ công việc lương cao ở phố Wall, dọn về một ngôi nhà thuê ở vùng ngoại ô Seattle, và gõ những dòng code đầu tiên của một hiệu sách trực tuyến ngay trong gara. Ba thập kỷ sau, cái tên ấy đã trở thành thứ gì đó lớn hơn nhiều so với một trang web bán hàng — nó là hạ tầng của cả nền thương mại điện tử lẫn một phần của internet. Hiểu lịch sử Amazon chính là hiểu cách thương mại điện tử toàn cầu đã được định hình.
+Người ta thường kể câu chuyện của Amazon như một truyền thuyết Silicon Valley: một người đàn ông bỏ công việc lương cao ở phố Wall, dọn về một ngôi nhà thuê ở vùng ngoại ô Seattle, và gõ những dòng code đầu tiên của một hiệu sách trực tuyến ngay trong gara. Ba thập kỷ sau, cái tên ấy đã trở thành thứ gì đó lớn hơn nhiều so với một trang web bán hàng — nó là hạ tầng của cả nền [thương mại]({{< relurl "thuong-mai-dien-tu/" >}}) điện tử lẫn một phần của internet. Hiểu lịch sử Amazon chính là hiểu cách thương mại điện tử [toàn cầu]({{< relurl "google-lich-su/" >}}) đã được định hình.
 
 ## Khởi đầu: hiệu sách trong gara
 
@@ -77,4 +77,4 @@ Nhưng quy mô càng lớn, áp lực càng nhiều. Amazon liên tục bị ch�
 | AWS là nền tảng điện toán đám mây lớn nhất toàn cầu | Bị giám sát chặt chẽ về hành vi chống cạnh tranh tại nhiều nước |
 | Có lịch sử đổi mới liên tục: Kindle, Echo, Alexa, robot kho bãi | Liên tục tái cơ cấu và cắt giảm nhân sự quy mô lớn |
 
-Câu chuyện của Amazon nhắc chúng ta một bài học đơn giản: những đế chế lớn nhất thường khởi đầu nhỏ nhất, và đôi khi từ một cuốn sách được bán qua internet trong gara. Ở Việt Nam, các sàn thương mại điện tử như [Shopee, Lazada hay Tiki]({{< relurl "shopee-lazada-tiki-so-sanh-mua-sam-online-2026/" >}}) đang chạy đua với cùng những công thức mà Amazon đã kiểm chứng suốt ba thập kỷ — giao nhanh, hoàn trả dễ, và xây dựng niềm tin từ trải nghiệm nhỏ nhất. Tìm hiểu thêm về [thương mại điện tử là gì]({{< relurl "thuong-mai-dien-tu/" >}}) để hiểu bức tranh toàn cảnh của cuộc chơi mà Amazon đã thắng lớn.
+Câu chuyện của Amazon nhắc chúng ta một bài học đơn giản: những đế chế lớn nhất thường khởi đầu nhỏ nhất, và đôi khi từ một cuốn sách được bán qua internet trong gara. Ở Việt Nam, các sàn thương mại điện tử như Shopee, Lazada hay Tiki đang chạy đua với cùng những công thức mà Amazon đã kiểm chứng suốt ba thập kỷ — giao nhanh, hoàn trả dễ, và xây dựng niềm tin từ trải nghiệm nhỏ nhất. Tìm hiểu thêm về thương mại điện tử là gì để hiểu bức tranh toàn cảnh của cuộc chơi mà Amazon đã thắng lớn.

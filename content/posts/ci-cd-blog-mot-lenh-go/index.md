@@ -19,7 +19,7 @@ resources:
 
 Có một khoảnh khắc mà mọi quyết định kỹ thuật của blog này được thử thách: khoảnh khắc commit và đẩy code lên GitHub. Mỗi lần push, một workflow tự động chạy — và nếu một bước nào đó thất bại, trang web sẽ không được cập nhật. Trước khi diễn ra cuộc migration sang Go, quy trình đó gồm những bước nặng nề: khởi tạo môi trường Python, cài scikit-learn, cài các gói phụ trợ, rồi mới đến lượt chạy pipeline và build Hugo. Mỗi lần deploy là một lần chờ đợi trong lo lắng. Bài này kể về cách toàn bộ quy trình đó gọn lại còn một lệnh duy nhất.
 
-Đây là bài cuối cùng trong chuỗi tiếp nối [câu chuyện chuyển tech stack]({{< relurl "blog-tu-python-sang-go/" >}}), sau bài về [thuật toán]({{< relurl "thuat-toan-goi-y-bai-viet-tf-idf-go/" >}}), [kiểm chứng bản port]({{< relurl "kiem-chung-port-go-python/" >}}) và [cái bẫy Unicode]({{< relurl "cat-chuoi-tieng-viet-unicode-go/" >}}).
+Đây là bài cuối cùng trong chuỗi tiếp nối câu chuyện chuyển [tech stack]({{< relurl "blog-tu-python-sang-go/" >}}), sau bài về thuật toán, kiểm chứng bản port và cái [bẫy Unicode]({{< relurl "cat-chuoi-tieng-viet-unicode-go/" >}}).
 
 ## Cái giá của hai ngôn ngữ trong một quy trình build
 
@@ -49,7 +49,7 @@ Cách đặt vấn đề đúng đắn về CI không phải là "làm cho nó c
 
 Nhìn lại, cuộc migration này không chỉ là chuyện một script được viết lại bằng ngôn ngữ khác. Nó là một chuỗi quyết định nhất quán: chọn công cụ phù hợp với hệ sinh thái hiện có, kiểm chứng bằng phép đo, và cắt giảm mọi thứ không thật sự cần thiết. Mỗi bước một mình đều nhỏ — nhưng cộng lại, chúng làm cho cả quy trình vận hành của blog nhẹ đi đáng kể.
 
-Đối với những ai đang vận hành một blog tĩnh với CI phức tạp không cần thiết, thông điệp của chuỗi bài này có thể tóm gọn trong một câu: hãy để một lệnh duy nhất nói lên toàn bộ quy trình build của bạn. Nếu cần hơn một câu lệnh, hãy hỏi tại sao. Blog này đã trải qua [hành trình thay đổi tech stack]({{< relurl "blog-tu-python-sang-go/" >}}) để có được câu trả lời đơn giản ấy — và mỗi lần push code, tôi lại nhận ra sự đơn giản đó đáng giá thế nào.
+Đối với những ai đang vận hành một blog tĩnh với CI phức tạp không cần thiết, thông điệp của chuỗi bài này có thể tóm gọn trong một câu: hãy để một lệnh duy nhất nói lên toàn bộ quy trình build của bạn. Nếu cần hơn một câu lệnh, hãy hỏi tại sao. Blog này đã trải qua hành trình thay đổi tech stack để có được câu trả lời đơn giản ấy — và mỗi lần push code, tôi lại nhận ra sự đơn giản đó đáng giá thế nào.
 
 ## Thông tin nhanh
 
@@ -69,4 +69,4 @@ Nhìn lại, cuộc migration này không chỉ là chuyện một script đư�
 | Môi trường cục bộ giống hệt CI | `go run` biên dịch mỗi lần — chấp nhận được với dự án nhỏ |
 | Bất kỳ ai clone về đều build được | Thứ tự chạy pipeline trước Hugo là bắt buộc |
 
-Bốn bài trong chuỗi này đã đi trọn một vòng: từ [thuật toán TF-IDF]({{< relurl "thuat-toan-goi-y-bai-viet-tf-idf-go/" >}}), qua [kiểm chứng định lượng]({{< relurl "kiem-chung-port-go-python/" >}}) và [cái bẫy Unicode]({{< relurl "cat-chuoi-tieng-viet-unicode-go/" >}}), đến quy trình CI gọn như ngày hôm nay. Tất cả xuất phát từ một quyết định duy nhất: [chuyển tech stack của blog sang Go]({{< relurl "blog-tu-python-sang-go/" >}}).
+Bốn bài trong chuỗi này đã đi trọn một vòng: từ thuật toán TF-IDF, qua kiểm chứng định lượng và cái bẫy Unicode, đến quy trình CI gọn như ngày hôm nay. Tất cả xuất phát từ một quyết định duy nhất: chuyển tech stack của blog sang Go.

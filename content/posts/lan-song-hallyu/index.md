@@ -18,7 +18,7 @@ slug: lan-song-hallyu
 
 <!-- editorial-structure -->
 
-Mùa hè năm 2012, cả thế giới nhảy theo điệu Gangnam Style. Video âm nhạc của PSY — một rapper người Hàn Quốc — trở thành video đầu tiên trên YouTube cán mốc một tỷ lượt xem vào tháng 12 năm đó, đánh dấu bước ngoặt không thể quay lại của làn sóng văn hóa Hàn Quốc trên toàn cầu. Nhưng ít ai biết rằng, hành trình ấy đã bắt đầu từ hơn một thập kỷ trước, với những bộ phim truyền hình lãng mạn len lỏi vào từng gia đình ở Đông Á.
+Mùa hè năm 2012, cả thế giới nhảy theo điệu [Gangnam Style]({{< relurl "kpop-hallyu/" >}}). Video âm nhạc của PSY — một rapper người Hàn Quốc — trở thành video đầu tiên trên YouTube cán mốc một tỷ lượt xem vào tháng 12 năm đó, đánh dấu bước ngoặt không thể quay lại của làn sóng văn hóa Hàn Quốc trên toàn cầu. Nhưng ít ai biết rằng, hành trình ấy đã bắt đầu từ hơn một thập kỷ trước, với những bộ phim truyền hình lãng mạn len lỏi vào từng gia đình ở Đông Á.
 
 ## Bối cảnh và nội dung
 
@@ -58,7 +58,7 @@ Hallyu 2.0, hay Làn sóng Hàn Quốc mới, bắt đầu từ năm 2008 và đ
 
 "Gangnam Style" của PSY vào năm 2012 trở thành hiện tượng toàn cầu chưa từng có. Video âm nhạc này là video YouTube đầu tiên cán mốc một tỷ lượt xem, mở ra cánh cửa cho âm nhạc Hàn Quốc ra thế giới. Sự nổi lên của BTS và Blackpink từ giữa thập niên 2010 củng cố vị thế của K-pop như một thế lực văn hóa toàn cầu. Các nhóm này không chỉ thống trị bảng xếp hạng Billboard mà còn lấp đầy các sân vận động trên khắp thế giới.
 
-Về truyền hình, làn sóng mới còn có sự bùng nổ của các chương trình thực tế và phim truyền hình trên Netflix. Theo một khảo sát của Bộ Văn hóa, Thể thao và Du lịch Hàn Quốc trong đại dịch COVID-19, *Crash Landing on You* (Hạ Cánh Nơi Anh), *It's Okay to Not Be Okay* (Sẽ Ổn Cả Thôi) và *The World of the Married* (Thế Giới Hôn Nhân) là ba chương trình truyền hình phổ biến nhất quốc tế. Bộ phim *Squid Game* (Trò Chơi Con Mực) phát hành năm 2021 trên Netflix trở thành hiện tượng toàn cầu, phá vỡ mọi kỷ lục về lượng người xem của nền tảng này. Trong lĩnh vực điện ảnh, *Parasite* (Ký Sinh Trùng) của đạo diễn Bong Joon-ho giành giải Oscar cho Phim xuất sắc nhất năm 2019, một cột mốc lịch sử không chỉ cho điện ảnh Hàn Quốc mà cho cả nền điện ảnh châu Á.
+Về truyền hình, làn sóng mới còn có sự bùng nổ của các chương trình thực tế và phim truyền hình trên Netflix. Theo một khảo sát của Bộ Văn hóa, Thể thao và Du lịch Hàn Quốc trong đại dịch COVID-19, *Crash Landing on You* (Hạ Cánh Nơi Anh), *It's Okay to Not Be Okay* (Sẽ Ổn Cả Thôi) và *The World of the Married* (Thế Giới Hôn Nhân) là ba chương trình truyền hình phổ biến nhất quốc tế. Bộ phim *[Squid Game]({{< relurl "squid-game-lan-song-noi-dung-han-quoc/" >}})* (Trò Chơi Con Mực) phát hành năm 2021 trên Netflix trở thành hiện tượng toàn cầu, phá vỡ mọi kỷ lục về lượng người xem của nền tảng này. Trong lĩnh vực điện ảnh, *Parasite* (Ký Sinh Trùng) của đạo diễn Bong Joon-ho giành giải Oscar cho Phim xuất sắc nhất năm 2019, một cột mốc lịch sử không chỉ cho điện ảnh Hàn Quốc mà cho cả nền điện ảnh châu Á.
 
 **Chính sách nhà nước và tác động kinh tế**
 

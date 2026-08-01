@@ -22,13 +22,13 @@ resources:
 
 <!-- editorial-structure -->
 
-Những ngày giáp Tết, khi những cơn mưa xuân lất phất bắt đầu rơi trên phố phường Hà Nội và những cánh đào bắt đầu hé nụ hồng, tôi lại nhớ về cái Tết tuổi thơ. Đó là khi cả nhà quây quần bên nồi bánh chưng nghi ngút khói, tiếng lửa tí tách và mùi lá dong thơm nồng lan tỏa khắp xóm. Tết Nguyên Đán — ngày lễ quan trọng nhất của người Việt — không chỉ là một dịp lễ mà còn là sợi dây kết nối thế hệ, là tấm gương phản chiếu hồn cốt dân tộc.
+Những ngày giáp Tết, khi những cơn mưa xuân lất phất bắt đầu rơi trên phố phường Hà Nội và những cánh đào bắt đầu hé nụ hồng, tôi lại nhớ về cái Tết tuổi thơ. Đó là khi cả nhà quây quần bên nồi bánh chưng nghi ngút khói, tiếng lửa tí tách và mùi lá dong thơm nồng lan tỏa khắp xóm. [Tết Nguyên]({{< relurl "tet-nguyen-dan-2027-nam-mui/" >}}) Đán — ngày lễ quan trọng nhất của người Việt — không chỉ là một dịp lễ mà còn là sợi dây kết nối thế hệ, là tấm gương phản chiếu hồn cốt dân tộc.
 
 ## Nguồn gốc và bối cảnh
 
 Tết Nguyên Đán, hay còn gọi là Tết Cả, là lễ hội lớn nhất trong văn hóa Việt Nam. Tên gọi bắt nguồn từ chữ Hán: "Tết" là tiết, "Nguyên Đán" nghĩa là buổi sáng đầu tiên của năm mới. Khác với Tết Dương lịch, Tết Nguyên Đán được tính theo âm dương lịch, thường rơi vào khoảng cuối tháng Một đến giữa tháng Hai dương lịch. Năm 2026, Tết rơi vào ngày 17 tháng 2, mở đầu năm Bính Ngọ với con giáp Ngựa.
 
-Lịch sử của Tết gắn liền với hơn một nghìn năm Bắc thuộc, khi người Hán đem lịch pháp và phong tục Trung Hoa đến vùng đất Giao Chỉ. Nhưng người Việt không đơn thuần sao chép. Họ đã biến Tết thành một bản sắc riêng, khác biệt ngay từ những chi tiết nhỏ nhất. Cầm tinh của Việt Nam có Trâu và Mèo thay vì Sửu và Thỏ như Trung Quốc. Những truyền thuyết như Lang Liêu gói bánh chưng dâng vua Hùng cho thấy Tết đã ăn sâu vào tâm thức dân tộc từ trước Công nguyên.
+Lịch sử của Tết gắn liền với hơn một nghìn năm Bắc thuộc, khi người Hán đem lịch pháp và [phong tục]({{< relurl "tet-trung-thu-2026-phong-tuc-y-nghia/" >}}) Trung Hoa đến vùng đất Giao Chỉ. Nhưng người Việt không đơn thuần sao chép. Họ đã biến Tết thành một bản sắc riêng, khác biệt ngay từ những chi tiết nhỏ nhất. Cầm tinh của Việt Nam có Trâu và Mèo thay vì Sửu và Thỏ như Trung Quốc. Những truyền thuyết như Lang Liêu gói bánh chưng dâng vua Hùng cho thấy Tết đã ăn sâu vào tâm thức dân tộc từ trước Công nguyên.
 
 ## Những giá trị nổi bật
 

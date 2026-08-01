@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Năm 2005, tôi lần đầu tiên bước vào một tiệm internet gần nhà. Màn hình CRT đầy bụi, bàn phím mòn chữ, và trên màn hình là một thế giới võ hiệp với những nhân vật tung bay trong gió. Đó là Võ Lâm Truyền Kỳ — và nó đã thay đổi cách cả một thế hệ người Việt nhìn về trò chơi điện tử.
+Năm 2005, tôi lần đầu tiên bước vào một tiệm internet gần nhà. Màn hình CRT đầy bụi, bàn phím mòn chữ, và trên màn hình là một [thế giới]({{< relurl "board-game/" >}}) võ hiệp với những nhân vật tung bay trong gió. Đó là Võ Lâm Truyền Kỳ — và nó đã thay đổi cách cả một thế hệ người Việt nhìn về trò chơi điện tử.
 
 Hai thập kỷ sau, game Việt Nam là một ngành công nghiệp trị giá hàng trăm triệu đô la. Nhưng con đường đến đó không hề bằng phẳng.
 
@@ -44,7 +44,7 @@ Song song với đó, game di động như Sky Garden, Tam Quốc Diễn Nghĩa,
 
 ## Esports Việt Nam — những bước tiến và thách thức
 
-Esports Việt Nam đã đi một chặng đường dài. Năm 2018, Levi gia nhập đội tuyển huyền thoại Flash Wolves (Đài Loan) và bước ra thế giới. Năm 2019, đội tuyển Phong Vân Buffalo (nay là Team Flash) đại diện Việt Nam tham dự Chung kết thế giới LMHT tại Pháp.
+[Esports Việt]({{< relurl "the-thao-dien-tu-viet-nam-2026/" >}}) Nam đã đi một chặng đường dài. Năm 2018, Levi gia nhập đội tuyển huyền thoại Flash Wolves (Đài Loan) và bước ra thế giới. Năm 2019, đội tuyển Phong Vân Buffalo (nay là Team Flash) đại diện Việt Nam tham dự Chung kết thế giới LMHT tại Pháp.
 
 Liên Quân Mobile (Arena of Valor) là nơi Việt Nam thực sự tỏa sáng: Team Flash vô địch thế giới AIC 2019, đánh bại những đội tuyển hàng đầu Thái Lan và Hàn Quốc.Đây là lần đầu tiên một đội tuyển thể thao điện tử Việt Nam đứng trên đỉnh thế giới.
 

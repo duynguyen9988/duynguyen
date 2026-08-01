@@ -13,7 +13,7 @@ draft: false
 
 <!-- editorial-structure -->
 
-Vào một ngày tháng 9 năm 2016, một ứng dụng có tên Douyin ra mắt tại Trung Quốc, và không ai có thể ngờ rằng từ nền tảng video ngắn ấy, một hiện tượng văn hóa toàn cầu sẽ được sinh ra. Chỉ một năm sau, phiên bản quốc tế mang tên TikTok chính thức xuất hiện vào tháng 9 năm 2017, mở ra một chương mới cho cách con người sáng tạo và tiêu thụ nội dung trên không gian số.
+Vào một ngày tháng 9 năm 2016, một ứng dụng có tên Douyin ra mắt tại trung Quốc, và không ai có thể ngờ rằng từ nền tảng video ngắn ấy, một hiện tượng [văn hóa]({{< relurl "van-hoa-doc-sach-viet-nam/" >}}) toàn cầu sẽ được sinh ra. Chỉ một năm sau, phiên bản quốc tế mang tên TikTok chính thức xuất hiện vào tháng 9 năm 2017, mở ra một chương mới cho cách con người sáng tạo và tiêu thụ nội dung trên không gian số.
 
 ## Bối cảnh và nội dung
 
@@ -23,7 +23,7 @@ Sự bùng nổ của TikTok là điều chưa từng có trong lịch sử mạ
 
 ## Những điểm đáng chú ý
 
-Trái tim của TikTok nằm ở trang "Dành cho bạn" (For You Page), nơi thuật toán gợi ý dựa trên trí tuệ nhân tạo phân tích từng tương tác nhỏ nhất của người dùng — từ thời gian dừng lại ở một video, lượt thích, chia sẻ, cho đến nội dung tìm kiếm. Thuật toán này tinh vi đến mức nó có thể giữ chân người dùng lướt không biết mệt mỏi hàng giờ liền.
+Trái tim của TikTok nằm ở trang "Dành cho bạn" (For You Page), nơi thuật toán gợi ý dựa trên trí [tuệ nhân]({{< relurl "chatgpt-cach-mang-ai/" >}}) tạo phân tích từng tương tác nhỏ nhất của người dùng — từ thời gian dừng lại ở một video, lượt thích, chia sẻ, cho đến nội dung tìm kiếm. Thuật toán này tinh vi đến mức nó có thể giữ chân người dùng lướt không biết mệt mỏi hàng giờ liền.
 
 Những tính năng đặc trưng như duet và stitch cho phép người dùng tương tác trực tiếp với nội dung của nhau, tạo ra vô số trend và thử thách lan truyền với tốc độ chóng mặt. Tính năng phát trực tiếp (live streaming) được mở cho người dùng từ mười sáu tuổi trở lên và có ít nhất một nghìn người theo dõi. Chế độ an toàn gia đình giúp phụ huynh kiểm soát nội dung con em mình tiếp cận. Và TikTok Shop đã biến nền tảng này thành một kênh thương mại điện tử đầy tiềm năng, nơi người dùng có thể mua sắm ngay trong lúc xem video.
 

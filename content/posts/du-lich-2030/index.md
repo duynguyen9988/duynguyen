@@ -34,7 +34,7 @@ Nhưng từ tro tàn đại dịch, một ngành du lịch mới ra đời. Bề
 
 Du lịch chiếm 8% lượng phát thải nhà kính toàn cầu, thúc đẩy cách mạng giao thông. Máy bay điện thay thế máy bay truyền thống trên đường bay ngắn. Xe điện thành tiêu chuẩn du lịch đường bộ với mạng lưới sạc phủ khắp châu Âu, Bắc Mỹ và Đông Á.
 
-Metaverse mở ra chiều không gian mới. Du lịch thực tế ảo cho phép trải nghiệm điểm đến không cần di chuyển, giảm tải cho điểm đến quá tải. Bảo tàng và di tích tạo bản sao kỹ thuật số cho du khách khám phá từ xa.
+Metaverse mở ra chiều không gian mới. Du lịch thực tế ảo cho phép trải nghiệm điểm đến không cần di chuyển, giảm tải cho điểm đến quá tải. Bảo tàng và di tích tạo bản sao kỹ thuật số cho du khách [khám phá]({{< relurl "du-lich-thai-lan/" >}}) từ xa.
 
 Du lịch vũ trụ, từng là giấc mơ của số ít người giàu, đang phổ biến hơn. Virgin Galactic, Blue Origin và SpaceX đã đưa du lịch vũ trụ từ viễn tưởng thành hiện thực. Dù giá còn rất cao, xu hướng cho thấy chi phí sẽ giảm dần.
 
@@ -44,6 +44,6 @@ Du lịch trải nghiệm (experiential travel) — xu hướng thị trường 
 
 Hàng không giá rẻ và sự phát triển hạ tầng làm du lịch phải chăng hơn. WHO ước tính nửa triệu người trên máy bay tại bất kỳ thời điểm nào năm 2009; đến 2030 con số đã tăng đáng kể. Một yếu tố chính là miễn thuế nhiên liệu hàng không.
 
-Tuy nhiên, tác động tiêu cực đến cộng đồng địa phương gây nhiều cuộc biểu tình — đặc biệt về Airbnb làm tăng giá thuê. Khách du lịch giàu có gây áp lực lên hạ tầng, nước và rác thải. Cân bằng lợi ích kinh tế và trách nhiệm xã hội là thách thức trung tâm.
+Tuy nhiên, tác động tiêu cực đến cộng đồng địa phương gây nhiều cuộc biểu tình — đặc biệt về Airbnb làm tăng giá thuê. Khách du lịch giàu có gây áp lực lên hạ tầng, nước và rác thải. Cân bằng lợi ích kinh tế và [trách nhiệm]({{< relurl "mua-sam-ben-vung/" >}}) xã hội là thách thức trung tâm.
 
 Đến 2030, du lịch không còn là ngành riêng biệt — nó được tích hợp vào cuộc sống qua công nghệ. Từ AI cá nhân hóa hành trình đến metaverse mở rộng ranh giới trải nghiệm, từ máy bay điện giảm thiểu tác động đến du lịch vũ trụ mở ra chân trời mới — tương lai đang đến nhanh hơn chúng ta tưởng.

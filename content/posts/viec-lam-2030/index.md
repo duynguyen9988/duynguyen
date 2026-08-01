@@ -22,7 +22,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Năm 2030, một sinh viên tốt nghiệp đại học bước ra thị trường lao động với tấm bằng cô nhận được bốn năm trước. Vấn đề là những kiến thức trong sách giáo khoa đã lỗi thời từ năm thứ hai. Cô phải học lại từ đầu về AI tác nhân, về quản lý robot, về những công việc chưa từng tồn tại khi cô mới nhập học. Đây không phải là kịch bản giả định. Đây là thực tế đang diễn ra.
+Năm 2030, một sinh viên tốt nghiệp đại học bước ra thị trường lao động với tấm bằng cô nhận được bốn năm trước. Vấn đề là những kiến thức trong sách giáo khoa đã lỗi thời từ năm thứ hai. Cô phải học lại từ đầu về AI [tác nhân]({{< relurl "ai-2026-2030/" >}}), về quản lý robot, về những công việc chưa từng tồn tại khi cô mới nhập học. Đây không phải là kịch bản giả định. Đây là thực tế đang diễn ra.
 
 ## Vấn đề và bối cảnh
 
@@ -44,6 +44,6 @@ Geoffrey Hinton tin rằng AGI và robot tiên tiến sẽ tự động hóa m�
 
 Vào tháng 7 năm 2025, CEO Ford Jim Farley dự đoán AI sẽ thay thế một nửa lao động cổ trắng tại Mỹ. Tháng 10 năm 2025, Thượng nghị sĩ Bernie Sanders đề xuất "thuế robot" để bảo vệ người lao động, trích dẫn báo cáo ước tính mất 100 triệu việc làm trong thập kỷ tới.
 
-Giải pháp, theo Wikipedia, bao gồm đào tạo lại kỹ năng, giờ làm ngắn hơn, công trình công cộng và thu nhập cơ bản. Vào tháng 4 năm 2018, Adair Turner, cựu Chủ tịch Cơ quan Dịch vụ Tài chính Anh, tuyên bố đã có thể tự động hóa 50% việc làm với công nghệ hiện tại và sẽ tự động hóa được tất cả vào năm 2060.
+Giải pháp, theo Wikipedia, bao gồm đào tạo lại kỹ năng, giờ làm ngắn hơn, công trình công cộng và thu nhập cơ bản. Vào tháng 4 năm 2018, Adair Turner, cựu Chủ tịch Cơ quan Dịch vụ [Tài chính]({{< relurl "tai-chinh-ca-nhan-cho-nguoi-tre/" >}}) Anh, tuyên bố đã có thể tự động hóa 50% việc làm với công nghệ hiện tại và sẽ tự động hóa được tất cả vào năm 2060.
 
 Đến năm 2030, thị trường lao động sẽ không biến mất, nhưng nó sẽ thay đổi căn bản. Câu hỏi không phải AI có lấy đi việc làm hay không, mà là chúng ta có đủ nhanh để thích nghi với những công việc mới mà AI tạo ra.

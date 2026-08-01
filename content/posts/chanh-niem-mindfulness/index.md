@@ -17,7 +17,7 @@ draft: false
 
 ## Vấn đề và bối cảnh
 
-Thuật ngữ "chánh niệm" bắt nguồn từ chữ "sati" trong tiếng Pali, một yếu tố nền tảng trong truyền thống Phật giáo. Trong tiếng Anh, từ "mindfulness" đã tồn tại từ trước khi mang ý nghĩa Phật học, lần đầu tiên được ghi nhận là "myndfulness" vào năm 1530. Mãi đến năm 1881, học giả T.W. Rhys Davids mới lần đầu dịch "sati" thành "mindfulness" — một bước ngoặt ngôn ngữ đưa khái niệm này ra khỏi ranh giới tự viện để bước vào thế giới học thuật phương Tây.
+Thuật ngữ "chánh niệm" bắt nguồn từ chữ "sati" trong tiếng Pali, một yếu tố nền tảng trong truyền thống Phật giáo. Trong tiếng Anh, từ "mindfulness" đã tồn tại từ trước khi mang ý nghĩa Phật học, lần đầu tiên được ghi nhận là "myndfulness" vào năm 1530. Mãi đến năm 1881, học giả T.W. Rhys Davids mới lần đầu dịch "sati" thành "mindfulness" — một bước ngoặt ngôn ngữ đưa khái niệm này ra khỏi ranh giới tự viện để bước vào [thế giới]({{< relurl "digital-detox/" >}}) học thuật phương Tây.
 
 Trong Phật giáo, sati không đơn thuần là sự chú ý. Đó là khả năng ghi nhớ giáo pháp (dharma), yếu tố thứ bảy trong Bát Chánh Đạo — con đường thoát khổ mà Đức Phật đã chỉ dạy. Chánh niệm được xem như liều thuốc giải cho si mê, một "năng lực" đưa hành giả đến gần Niết bàn. Nhưng phải đến thế kỷ hai mươi, sức mạnh này mới được khoa học phương Tây khám phá và chứng minh.
 
@@ -27,7 +27,7 @@ Năm 1979, tại Đại học Massachusetts, một giáo sư y khoa tên Jon Kab
 
 Trong khi Kabat-Zinn tiếp cận chánh niệm từ góc độ lâm sàng, những tiếng nói khác từ phương Đông đã mang đến những tầng ý nghĩa sâu xa hơn. Thiền sư Thích Nhất Hạnh, người đưa chánh niệm vào đời sống phương Tây một cách dung dị và sâu sắc, nhấn mạnh khái niệm "tương tức" (interbeing) — rằng vạn vật tồn tại trong mối liên hệ mật thiết với nhau. Với ông, chánh niệm không chỉ là một kỹ thuật giảm stress, mà là "năng lượng soi sáng mọi sự vật", giúp ta thấy rõ bản chất của thực tại. Trong truyền thống Thiền (Zen), thực hành "chỉ ngồi" (shikantaza) đưa người tập đến trạng thái đình chỉ mọi tư duy phán xét — một cách tiếp cận triệt để hơn, đòi hỏi sự buông bỏ hoàn toàn các cấu trúc tinh thần.
 
-Nhà nghiên cứu Shinzen Young, người dành cả đời để xây cầu nối giữa thiền định và khoa học nhận thức, đã phân tích chánh niệm thành ba thành tố vận hành cùng nhau: sức tập trung (concentration power), sự rõ ràng của cảm giác (sensory clarity), và sự quân bình (equanimity). Khi ba yếu tố này hội tụ, người thực hành không chỉ đơn giản là "thư giãn" mà đạt đến một trạng thái nhận thức chất lượng cao, có thể quan sát mọi biến chuyển của tâm lý và thể xác mà không bị cuốn theo.
+Nhà nghiên cứu Shinzen Young, người dành cả đời để xây cầu nối giữa [thiền định]({{< relurl "thien-dinh-chanh-niem/" >}}) và khoa học nhận thức, đã phân tích chánh niệm thành ba thành tố vận hành cùng nhau: sức tập trung (concentration power), sự rõ ràng của cảm giác (sensory clarity), và sự quân bình (equanimity). Khi ba yếu tố này hội tụ, người thực hành không chỉ đơn giản là "thư giãn" mà đạt đến một trạng thái nhận thức chất lượng cao, có thể quan sát mọi biến chuyển của tâm lý và thể xác mà không bị cuốn theo.
 
 ## Điều cần ghi nhớ
 

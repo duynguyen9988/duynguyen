@@ -26,7 +26,7 @@ Một người phụ nữ 70 tuổi ở Tokyo mở điện thoại, và trong ba
 
 ## Bối cảnh và lựa chọn
 
-Theo Wikipedia, nền kinh tế thế giới là tổng thể các hoạt động kinh tế của con người, bao gồm sản xuất, tiêu dùng, quản lý, lao động, giao dịch tài chính và thương mại. Với quy mô 126.295 tỷ USD GDP danh nghĩa vào năm 2026, nền kinh tế toàn cầu đang trải qua cuộc chuyển đổi cơ cấu chưa từng có kể từ Cách mạng Công nghiệp.
+Theo Wikipedia, nền kinh tế thế giới là tổng thể các hoạt động kinh tế của con người, bao gồm sản xuất, tiêu dùng, quản lý, lao động, giao dịch [tài chính]({{< relurl "tai-chinh-ca-nhan-cho-nguoi-tre/" >}}) và thương mại. Với quy mô 126.295 tỷ USD GDP danh nghĩa vào năm 2026, nền kinh tế toàn cầu đang trải qua cuộc chuyển đổi cơ cấu chưa từng có kể từ Cách mạng Công nghiệp.
 
 Cho đến giữa thế kỷ 19, sản lượng toàn cầu bị chi phối bởi Trung Quốc và Ấn Độ. Các làn sóng Cách mạng Công nghiệp ở Tây Âu và Bắc Mỹ đã chuyển dịch tỷ trọng sang Tây bán cầu. Nhưng thế kỷ 21 đang chứng kiến sự trở lại của châu Á. Tính đến 2026, các nền kinh tế châu Á mới nổi chiếm 23,5% GDP danh nghĩa và 35,5% GDP PPP toàn cầu, với Trung Quốc dẫn đầu ở 44.295 tỷ USD PPP và Ấn Độ 18.902 tỷ USD.
 

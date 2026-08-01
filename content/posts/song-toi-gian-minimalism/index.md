@@ -35,7 +35,7 @@ Với công nghệ, minimalism có nghĩa là tắt thông báo không cần thi
 
 ## Điều cần ghi nhớ
 
-Minimalism có thể áp dụng vào cả công việc. Giảm số lượng cuộc họp, tập trung vào những nhiệm vụ thực sự quan trọng. Phương pháp Eisenhower Matrix chia công việc làm bốn phần: quan trọng và khẩn cấp, quan trọng nhưng không khẩn cấp, khẩn cấp nhưng không quan trọng, và không quan trọng không khẩn cấp. Người theo chủ nghĩa tối giản chỉ tập trung vào hai nhóm đầu tiên.
+Minimalism có thể áp dụng vào cả công việc. Giảm số lượng cuộc họp, tập trung vào những nhiệm vụ thực sự quan trọng. [Phương pháp]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) Eisenhower Matrix chia công việc làm bốn phần: quan trọng và khẩn cấp, quan trọng nhưng không khẩn cấp, khẩn cấp nhưng không quan trọng, và không quan trọng không khẩn cấp. Người theo chủ nghĩa tối giản chỉ tập trung vào hai nhóm đầu tiên.
 
 Vào các mối quan hệ, minimalism dạy chúng ta dành thời gian cho những người thực sự quan trọng. Trong thời đại mạng xã hội, chúng ta có thể có hàng nghìn "bạn bè" nhưng thực sự chỉ có vài người bạn thân thiết. Dành thời gian chất lượng cho năm người thay vì lướt newsfeed của năm trăm người — đó là minimalism trong quan hệ xã hội.
 

@@ -13,7 +13,7 @@ draft: false
 
 <!-- editorial-structure -->
 
-Khi đồng hồ điểm tháng 9 năm 2007, Steve Jobs bước lên sân khấu Macworld và giới thiệu một thiết bị mà ông gọi là "một chiếc iPod, một chiếc điện thoại, và một thiết bị liên lạc Internet". Chiếc iPhone đầu tiên ra đời, và thế giới di động không bao giờ còn như cũ. Ba năm sau, vào tháng 6 năm 2010, Samsung đáp trả bằng Galaxy S đầu tiên — một chiếc smartphone chạy Android với màn hình Super AMOLED 4 inch. Cuộc đối đầu giữa hai gã khổng lồ đã định hình ngành công nghiệp di động suốt một thập kỷ rưỡi qua, và đến năm 2026, cuộc chiến ấy vẫn chưa có dấu hiệu hạ nhiệt.
+Khi đồng hồ điểm tháng 9 năm 2007, Steve Jobs bước lên sân khấu Macworld và giới thiệu một thiết bị mà ông gọi là "một chiếc iPod, một chiếc [điện thoại]({{< relurl "lich-su-smartphone/" >}}), và một thiết bị liên lạc Internet". Chiếc iPhone đầu tiên ra đời, và thế giới di động không bao giờ còn như cũ. Ba năm sau, vào tháng 6 năm 2010, Samsung đáp trả bằng Galaxy S đầu tiên — một chiếc smartphone chạy Android với màn hình Super AMOLED 4 inch. Cuộc đối đầu giữa hai gã khổng lồ đã định hình ngành công nghiệp di động suốt một thập kỷ rưỡi qua, và đến năm 2026, cuộc chiến ấy vẫn chưa có dấu hiệu hạ nhiệt.
 
 ## Bối cảnh và lựa chọn
 

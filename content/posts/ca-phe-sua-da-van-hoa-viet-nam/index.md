@@ -19,7 +19,7 @@ draft: false
 
 Buổi sáng ở Sài Gòn không thể thiếu tiếng leng keng của những chiếc phin nhôm trên bàn nhựa vỉa hè. Từng giọt cà phê đen đặc, sánh màu nâu óng ả, chậm rãi rơi xuống ly sữa đặc trắng ngà bên dưới — một nghi thức đã ăn sâu vào nhịp sống của người Việt Nam suốt nhiều thập kỷ.
 
-Cà phê sữa đá, hay *cà phê nâu đá* trong tiếng miền Bắc, là hơn cả một thức uống. Đó là một hiện tượng văn hóa, một tuyên ngôn về bản sắc, và ngày nay, là một đại sứ ẩm thực Việt Nam trên khắp thế giới.
+Cà phê sữa đá, hay *cà phê nâu đá* trong tiếng miền Bắc, là hơn cả một [thức uống]({{< relurl "ca-phe-sua-da/" >}}). Đó là một hiện tượng văn hóa, một tuyên ngôn về bản sắc, và ngày nay, là một đại sứ ẩm thực Việt Nam trên khắp thế giới.
 
 ## Tổng quan
 
@@ -33,7 +33,7 @@ Nhưng độ ngọt của sữa đặc là một thử thách. Uống nó với 
 
 ### Chiếc phin — linh hồn của cà phê Việt
 
-Không giống như espresso Ý hay pour-over Nhật Bản, cà phê Việt Nam có một dụng cụ pha chế riêng: chiếc phin nhôm hoặc inox. Thiết kế đơn giản đến bất ngờ — một cái phễu nhỏ có lỗ, một tấm nén, và một nắp đậy — nhưng lại tạo ra một tách cà phê đậm đặc, đắng nhẹ, với lớp crema mỏng màu nâu cánh gián.
+Không giống như espresso Ý hay pour-over Nhật Bản, cà [phê Việt]({{< relurl "ca-phe-viet-nam-van-hoa/" >}}) Nam có một dụng cụ pha chế riêng: chiếc phin nhôm hoặc inox. Thiết kế đơn giản đến bất ngờ — một cái phễu nhỏ có lỗ, một tấm nén, và một nắp đậy — nhưng lại tạo ra một tách cà phê đậm đặc, đắng nhẹ, với lớp crema mỏng màu nâu cánh gián.
 
 Quá trình pha phin là một bài tập về sự kiên nhẫn. Người pha cho bột cà phê vào phin, nén nhẹ bằng tấm nén, chế một ít nước sôi để ủ trong 30 giây, sau đó chế nước đầy phin và đợi. Từng giọt cà phê rơi xuống — mỗi mẻ mất khoảng 5-7 phút. Trong thế giới hiện đại vội vã, năm phút chờ cà phê phin là một khoảng lặng hiếm hoi trong ngày.
 

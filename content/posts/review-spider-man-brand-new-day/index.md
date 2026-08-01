@@ -111,7 +111,7 @@ Dù vậy, lượng nhân vật đông cũng tạo nên một số vấn đề. 
 
 ## Hành động lớn hơn nhưng vẫn giữ tinh thần đường phố
 
-Sau quy mô đa vũ trụ của *No Way Home*, lựa chọn dễ đoán nhất là tiếp tục nâng mức độ hoành tráng giống phần lớn các [bom tấn hè 2026]({{< relurl "top-10-phim-bom-tan-he-2026/" >}}) khác. *Brand New Day* lại cố gắng đưa Spider-Man trở về gần New York và những cuộc đối đầu mang tính trực tiếp hơn.
+Sau quy mô đa vũ trụ của *No Way Home*, lựa chọn dễ đoán nhất là tiếp tục nâng mức độ hoành tráng giống phần lớn các bom tấn hè 2026 khác. *Brand New Day* lại cố gắng đưa Spider-Man trở về gần New York và những cuộc đối đầu mang tính trực tiếp hơn.
 
 Điều đó không có nghĩa phim thiếu những trường đoạn hành động quy mô lớn.
 
@@ -167,7 +167,7 @@ Bạn muốn một bộ phim Người Nhện có chiều sâu cảm xúc, không
 
 Bạn chỉ tìm kiếm một sự kiện MCU quy mô như *No Way Home* — bộ phim này có thể khiến bạn thấy thiếu. Bạn không theo dõi Marvel thường xuyên và dễ bị rối bởi dàn nhân vật đông. Thời lượng 2 giờ 25 phút cũng là một yếu tố đáng cân nhắc nếu bạn không thoải mái với những bộ phim dài hơi ở rạp.
 
-Còn với những ai muốn nắm bắt nhanh danh sách phim đáng chú ý đang chiếu, có thể tham khảo thêm danh sách [phim chiếu rạp tháng 8/2026]({{< relurl "phim-chieu-rap-thang-8-2026/" >}}) của blog.
+Còn với những ai muốn nắm bắt nhanh danh sách phim đáng chú ý đang chiếu, có thể tham khảo thêm danh sách phim [chiếu rạp]({{< relurl "phim-chieu-rap-thang-8-2026/" >}}) tháng 8/2026 của blog.
 
 ## Đánh giá tổng quan Spider-Man: Brand New Day
 

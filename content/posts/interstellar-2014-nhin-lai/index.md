@@ -22,13 +22,13 @@ Tháng 11 năm 2014, giữa một rạp chiếu tối om, tôi ngồi cứng ng�
 
 Câu chuyện của Interstellar bắt đầu từ một tình huống khó tin: nhà vật lý lý thuyết Kip Thorne được Carl Sagan — tác giả của Contact — mai mối với nhà sản xuất Lynda Obst trong một buổi hẹn hò mù tại Los Angeles. Mối quan hệ không thành, nhưng tình bạn và sự hợp tác khoa học của họ kéo dài nhiều thập kỷ.
 
-Năm 2006, họ cùng nhau phát triển một bối cảnh tám trang về "những sự kiện kỳ lạ nhất trong vũ trụ bỗng nhiên trở nên khả dụng với con người". Ban đầu, Steven Spielberg là người được mời đạo diễn. Jonathan Nolan được thuê viết kịch bản. Nhưng khi DreamWorks của Spielberg rời Paramount vào năm 2009, dự án rơi vào ngõ cụt. Jonathan giới thiệu anh trai mình — Christopher Nolan — và mọi thứ bắt đầu thay đổi.
+Năm 2006, họ cùng nhau phát triển một bối cảnh tám trang về "những sự kiện kỳ lạ nhất trong vũ trụ bỗng nhiên trở nên khả dụng với con người". Ban đầu, Steven Spielberg là người được mời đạo diễn. Jonathan Nolan được thuê viết kịch bản. Nhưng khi DreamWorks của Spielberg rời Paramount vào năm 2009, dự án rơi vào ngõ cụt. Jonathan giới thiệu anh trai mình — [Christopher Nolan]({{< relurl "interstellar-2014/" >}}) — và mọi thứ bắt đầu thay đổi.
 
 ## Khoa học và nghệ thuật — ranh giới mong manh
 
 Điều làm Interstellar khác biệt so với mọi bộ phim khoa học viễn tưởng trước đó là cam kết với tính chính xác khoa học. Kip Thorne đặt ra hai nguyên tắc ngay từ đầu: "Một, không có gì vi phạm định luật vật lý đã được kiểm chứng. Hai, mọi suy đoán phải xuất phát từ khoa học, không phải từ trí tưởng tượng của người viết kịch bản."
 
-Nolan đã chấp nhận những nguyên tắc đó, và kết quả là một trong những mô tả chính xác nhất về hố đen và lỗ sâu trong lịch sử điện ảnh. Nhóm hiệu ứng hình ảnh tại Double Negative đã xây dựng phần mềm CGI hoàn toàn mới dựa trên các phương trình của Thorne để mô phỏng thấu kính hấp dẫn (gravitational lensing). Một số khung hình mất tới 100 giờ để render, tổng cộng 800 terabyte dữ liệu.
+Nolan đã chấp nhận những nguyên tắc đó, và kết quả là một trong những mô tả chính xác nhất về hố đen và lỗ sâu trong lịch sử [điện ảnh]({{< relurl "van-hoa-giai-tri-viet-nam-2026/" >}}). Nhóm hiệu ứng hình ảnh tại Double Negative đã xây dựng phần mềm CGI hoàn toàn mới dựa trên các phương trình của Thorne để mô phỏng thấu kính hấp dẫn (gravitational lensing). Một số khung hình mất tới 100 giờ để render, tổng cộng 800 terabyte dữ liệu.
 
 Kết quả không chỉ mãn nhãn — nó còn có giá trị khoa học. Những mô phỏng về hố đen trong Interstellar đã dẫn đến ba bài báo khoa học được công bố trên các tạp chí uy tín, và hình ảnh hố đen thực tế đầu tiên do Kính viễn vọng Chân trời Sự kiện (EHT) chụp năm 2019 có sự tương đồng đáng kinh ngạc với Gargantua trong phim.
 

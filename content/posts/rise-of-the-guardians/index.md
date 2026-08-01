@@ -25,7 +25,7 @@ Jack Frost chưa bao giờ nghĩ mình là một anh hùng. Cậu thức dậy t
 
 ## Một "Avengers" của thế giới cổ tích
 
-Đạo diễn Peter Ramsey — người Mỹ gốc Phi đầu tiên chỉ đạo một bộ phim hoạt hình CG kinh phí lớn — cùng biên kịch David Lindsay-Abaire (tác giả từng đoạt Pulitzer) đã xây dựng một thế giới nơi Santa Claus, Easter Bunny, Tooth Fairy, Sandman và Jack Frost không chỉ là những nhân vật trong truyện cổ tích riêng lẻ, mà là một đội ngũ được Mặt Trăng triệu tập để bảo vệ niềm tin của trẻ em trên toàn thế giới.
+Đạo diễn Peter Ramsey — người Mỹ gốc Phi đầu tiên chỉ đạo một bộ phim hoạt hình CG kinh phí lớn — cùng biên kịch David Lindsay-Abaire (tác giả từng đoạt Pulitzer) đã xây dựng một thế giới nơi Santa Claus, Easter Bunny, Tooth Fairy, Sandman và Jack Frost không chỉ là những nhân vật trong truyện cổ tích riêng lẻ, mà là một đội ngũ được Mặt Trăng triệu tập để bảo vệ niềm tin của trẻ em trên toàn thế giới. Nhắc đến [phim hoạt hình DreamWorks]({{< relurl "coco-2017/" >}}), người ta thường nhớ tới những bộ phim đánh dấu một thế hệ người xem.
 
 Giống như cách *The Avengers* tập hợp các siêu anh hùng Marvel, *Rise of the Guardians* đưa năm huyền thoại lên cùng một con thuyền — mỗi người một tính cách, một vùng lãnh thổ, một "trung tâm" (center) riêng. North (Alec Baldwin) là Santa Claus phiên bản Nga gốc với thân hình vạm vỡ, hình xăm dây leo trên tay và lối nói chuyện bộc trực — không phải ông già Noel hiền từ ta thường thấy. Bunny (Hugh Jackman) chất giọng Úc, tính cách càu nhàu, coi Easter như một chiến dịch quân sự. Toothiana (Isla Fisher) duyên dáng nhưng cũng đầy quyết liệt. Còn Sandy — Vệ Thần của Giấc Mơ — không nói một lời nào suốt bộ phim, chỉ giao tiếp bằng những hình vẽ cát lấp lánh trên đầu, và lại là nhân vật ám ảnh nhất trong số họ.
 

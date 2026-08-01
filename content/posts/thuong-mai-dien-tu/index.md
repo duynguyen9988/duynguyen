@@ -13,13 +13,13 @@ draft: false
 
 <!-- editorial-structure -->
 
-Một buổi chiều năm 1971, các sinh viên tại phòng thí nghiệm trí tuệ nhân tạo của Stanford và Viện Công nghệ Massachusetts trao cho nhau một thứ mà họ không thể ngờ sẽ trở thành cột mốc khai sinh ra cả một ngành công nghiệp toàn cầu: đó là một giao dịch cần sa thực hiện qua mạng ARPANET. Hai thập niên trước khi web ra đời, trước khi Jeff Bezos nghĩ về một hiệu sách trực tuyến, trước khi Jack Ma gõ những dòng code đầu tiên cho Alibaba, giao dịch đầu tiên ấy đã đặt viên gạch đầu tiên cho thứ mà sau này Robert Jacobson, trong Đạo luật Thương mại Điện tử của California năm 1984, chính thức gọi là thương mại điện tử.
+Một buổi chiều năm 1971, các sinh viên tại phòng thí nghiệm trí tuệ nhân tạo của Stanford và Viện Công nghệ Massachusetts trao cho nhau một thứ mà họ không thể ngờ sẽ trở thành cột mốc khai sinh ra cả một ngành công nghiệp toàn cầu: đó là một giao dịch cần sa thực hiện qua mạng ARPANET. Hai thập niên trước khi web ra đời, trước khi Jeff Bezos nghĩ về một hiệu sách [trực tuyến]({{< relurl "lich-su-amazon/" >}}), trước khi Jack Ma gõ những dòng code đầu tiên cho Alibaba, giao dịch đầu tiên ấy đã đặt viên gạch đầu tiên cho thứ mà sau này Robert Jacobson, trong Đạo luật Thương mại Điện tử của California năm 1984, chính thức gọi là thương mại điện tử.
 
 ## Bối cảnh và lựa chọn
 
 **Định nghĩa thì tưởng chừng khô khan:** thương mại điện tử là các hoạt động thương mại bao gồm mua hoặc bán sản phẩm và dịch vụ trên nền tảng trực tuyến. Nhưng đằng sau câu chữ ấy là một cuộc cách mạng làm đảo lộn hoàn toàn cách con người trao đổi hàng hóa, từ những khu chợ nhộn nhịp thời cổ đại đến những mặt tiền phố Wall, và nay là những dòng code chạy trên server cách xa hàng nghìn cây số.
 
-Năm 1979, Michael Aldrich trình diễn hệ thống mua sắm trực tuyến đầu tiên trên thế giới. Đó là một chiếc tivi kết nối với máy tính qua đường dây điện thoại — một ý tưởng đi trước thời đại đến mức phải mất thêm mười lăm năm nữa, với sự ra đời của Netscape Navigator và giao thức mã hóa SSL vào năm 1994, thương mại điện tử mới thực sự bắt đầu cất cánh. SSL, một công nghệ mã hóa tưởng chừng thuần túy kỹ thuật, đã làm được một điều mang tính bước ngoặt: nó khiến người dùng lần đầu dám gõ số thẻ tín dụng của mình vào một ô trống trên trình duyệt và nhấn Enter. Một hành động nhỏ, một bước nhảy vọt của lòng tin.
+Năm 1979, Michael Aldrich trình diễn hệ thống [mua sắm]({{< relurl "shopee-lazada-tiki-so-sanh-mua-sam-online-2026/" >}}) trực tuyến đầu tiên trên thế giới. Đó là một chiếc tivi kết nối với máy tính qua đường dây điện thoại — một ý tưởng đi trước thời đại đến mức phải mất thêm mười lăm năm nữa, với sự ra đời của Netscape Navigator và giao thức mã hóa SSL vào năm 1994, thương mại điện tử mới thực sự bắt đầu cất cánh. SSL, một công nghệ mã hóa tưởng chừng thuần túy kỹ thuật, đã làm được một điều mang tính bước ngoặt: nó khiến người dùng lần đầu dám gõ số thẻ tín dụng của mình vào một ô trống trên trình duyệt và nhấn Enter. Một hành động nhỏ, một bước nhảy vọt của lòng tin.
 
 ## Những điểm cần so sánh
 

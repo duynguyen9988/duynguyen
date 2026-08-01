@@ -17,7 +17,7 @@ resources:
 draft: false
 ---
 
-Chẳng ai nhớ chính xác bát phở đầu tiên được nấu khi nào. Chỉ biết rằng vào những năm đầu thế kỷ 20, trên các con phố Hà Nội, những gánh hàng rong với hai cái tủ gỗ hai bên, một bên là nồi nước dùng nghi ngút khói, một bên là bát đũa và gia vị, đã bắt đầu làm nên một huyền thoại.
+Chẳng ai nhớ chính xác bát phở đầu tiên được nấu khi nào. Chỉ biết rằng vào những năm đầu thế kỷ 20, trên các con phố Hà Nội, những [gánh hàng]({{< relurl "pho-lich-su-van-hoa/" >}}) rong với hai cái tủ gỗ hai bên, một bên là nồi nước dùng nghi ngút khói, một bên là bát đũa và gia vị, đã bắt đầu làm nên một huyền thoại.
 
 Phở bò, ngày nay đã trở thành một trong những món ăn tiêu biểu nhất của Việt Nam, nhưng ít ai biết rằng hành trình của nó bắt đầu chỉ hơn một thế kỷ trước tại các làng nhỏ thuộc tỉnh Nam Định, nơi mà theo các nhà nghiên cứu văn hóa, chính là quê hương của món phở truyền thống.
 
@@ -27,7 +27,7 @@ Phở bò, ngày nay đã trở thành một trong những món ăn tiêu biểu
 
 Theo sử liệu ẩm thực, phở xuất hiện trong các ghi chép vào đầu những năm 1910. Có một điều đặc biệt là mặc dù phở được xem là món ăn quốc dân của Việt Nam, nhưng lịch sử của nó lại khá ngắn ngủi so với nhiều món ăn truyền thống khác. Nhà nghiên cứu Georges Dumoutier trong công trình khảo cứu đồ sộ về ẩm thực Việt Nam năm 1907 đã không hề nhắc đến phở.
 
-Vùng đất được coi là cái nôi của phở là các làng Vân Cù và Dao Cù (hay Giao Cù) thuộc xã Đông Xuân, huyện Nam Trực, tỉnh Nam Định. Người dân Vân Cù khẳng định họ đã ăn phở từ rất lâu trước thời kỳ Pháp thuộc. Món ăn này ban đầu được bán như một món quà sáng sớm và chiều tối bởi những gánh hàng rong — cái tên dân dã ấy được gọi là *gánh phở*.
+Vùng đất được coi là cái nôi của phở là các làng Vân Cù và Dao Cù (hay Giao Cù) thuộc xã Đông Xuân, huyện Nam Trực, tỉnh Nam Định. Người dân Vân Cù khẳng định họ đã ăn phở từ rất lâu trước thời kỳ Pháp thuộc. Món ăn này ban đầu được bán như một món quà sáng sớm và chiều tối bởi những gánh [hàng rong]({{< relurl "pho-ha-noi/" >}}) — cái tên dân dã ấy được gọi là *gánh phở*.
 
 ### Sự giao thoa giữa Pháp và Trung Hoa
 

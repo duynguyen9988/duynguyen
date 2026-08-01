@@ -1,8 +1,8 @@
 ---
-title: "Phú Quốc — Hòn Đảo Ngọc Của Việt Nam Và Hành Trình Vươn Tầm Thế Giới"
+title: 'Phú Quốc: Hòn Đảo Ngọc Việt Nam Và Hành Trình Vươn Tầm Thế Giới'
 slug: "phu-quoc"
 date: 2026-07-27T01:32:42+07:00
-description: 'Khám phá Phú Quốc — hòn đảo ngọc với bãi biển, rừng nguyên sinh và hải sản tươi ngon.'
+description: 'Khám phá Phú Quốc — hòn đảo ngọc với bãi biển trong xanh, rừng nguyên sinh, hải sản tươi ngon và hành trình trở thành điểm đến du lịch tầm cỡ quốc tế.'
 categories: ["du-lich"]
 tags: ["phu-quoc", "kien-giang", "dao-ngoc", "du-lich-bien", "nha-trang"]
 resources:
@@ -13,7 +13,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Có một hòn đảo mà người ta thường nhắc đến với hai tiếng "ngọc" và "đảo", nơi làn nước biển trong xanh đến mức có thể nhìn thấy từng rạn san hô dưới đáy, và những bãi cát trắng mịn trải dài tít tắp dưới những hàng dừa nghiêng mình trong gió. Phú Quốc — hòn đảo lớn nhất của Việt Nam — từ lâu đã không chỉ là điểm đến yêu thích của du khách trong nước mà còn là cái tên được nhắc đến trên bản đồ du lịch toàn cầu.
+Có một hòn đảo mà người ta thường nhắc đến với hai tiếng "ngọc" và "đảo", nơi làn nước biển trong xanh đến mức có thể nhìn thấy từng rạn san hô dưới đáy, và những bãi cát trắng mịn trải dài tít tắp dưới những hàng dừa nghiêng mình trong gió. [Phú Quốc]({{< relurl "phu-quoc-cam-nang-du-lich-dao-ngoc/" >}}) — hòn đảo lớn nhất của Việt Nam — từ lâu đã không chỉ là điểm đến yêu thích của du khách trong nước mà còn là cái tên được nhắc đến trên bản đồ du lịch toàn cầu.
 
 ## Điểm đến và bối cảnh
 

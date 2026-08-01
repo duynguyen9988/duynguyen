@@ -28,7 +28,7 @@ Chuyển thể từ tiểu thuyết của nhà văn Ngụy Phong Hoa, dưới b�
 
 Mùa đầu tiên (36 tập, 2022) xoay quanh 8 vụ án xảy ra tại Trường An và các vùng lân cận. Không khí u ám, ma quái, nhưng mọi chuyện kỳ bí đều có lời giải thích hợp lý — điều làm nên thương hiệu của series.
 
-**Hồng Trà Trường An (长安红茶)** — Vụ án mở màn. Một loại hồng trà thần bí xuất hiện giữa kinh thành, được đồn thổi có khả năng dưỡng sinh, nhưng đằng sau nó là hàng loạt vụ mất tích tân nương. Lư Lăng Phong và Tô Vô Danh lần đầu gặp gỡ, bắt đầu mối quan hệ "kỳ phùng địch thủ" rồi trở thành bạn đồng hành. Một khởi đầu chắc chắn, giới thiệu đúng tông màu của toàn bộ series.
+**Hồng Trà Trường An (长安红茶)** — Vụ án mở màn. Một loại hồng trà thần bí xuất hiện giữa [kinh thành]({{< relurl "co-do-hue-kinh-thanh-lich-su/" >}}), được đồn thổi có khả năng dưỡng sinh, nhưng đằng sau nó là hàng loạt vụ mất tích tân nương. Lư Lăng Phong và Tô Vô Danh lần đầu gặp gỡ, bắt đầu mối quan hệ "kỳ phùng địch thủ" rồi trở thành bạn đồng hành. Một khởi đầu chắc chắn, giới thiệu đúng tông màu của toàn bộ series.
 
 **Thạch Kiều Đồ (石桥图)** — Một bức tranh phong cảnh nổi tiếng, và những người xuất hiện trong tranh lần lượt chết một cách bí ẩn. Vụ án mang không khí của một "whodunit" kiểu Agatha Christie giữa thời Đại Đường. Đây là tập mà khán giả bắt đầu thấy được chiều sâu suy luận của Tô Vô Danh.
 

@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Năm 2026, Apple vẫn là công ty công nghệ có giá trị vốn hóa lớn nhất thế giới, vượt mốc 4.000 tỷ đô la. Mỗi khi một chiếc iPhone mới ra mắt, câu hỏi tương tự lại xuất hiện: "Sao nó lại đắt thế?" Một chiếc iPhone Pro Max có giá khởi điểm hơn một nghìn đô la Mỹ, tương đương ba bốn tháng lương của người lao động Việt Nam. Và Apple vẫn bán được hàng chục triệu chiếc mỗi quý. Điều gì làm nên sức hút kỳ lạ đó? Câu trả lời không đơn giản chỉ là "thương hiệu mạnh".
+Năm 2026, apple vẫn là công ty công nghệ có giá trị vốn hóa lớn nhất thế giới, vượt mốc 4.000 tỷ đô la. Mỗi khi một chiếc iPhone mới ra mắt, câu hỏi tương tự lại xuất hiện: "Sao nó lại đắt thế?" Một chiếc iPhone [Pro Max]({{< relurl "so-sanh-iphone-17-pro-max-galaxy-s26-ultra-2026/" >}}) có giá khởi điểm hơn một nghìn đô la Mỹ, tương đương ba bốn tháng lương của người lao động Việt Nam. Và Apple vẫn bán được hàng chục triệu chiếc mỗi quý. Điều gì làm nên sức hút kỳ lạ đó? Câu trả lời không đơn giản chỉ là "thương hiệu mạnh".
 
 ## Chuỗi cung ứng — Lợi thế quy mô và chi phí chìm
 

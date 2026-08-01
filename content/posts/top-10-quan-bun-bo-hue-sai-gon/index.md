@@ -15,7 +15,7 @@ categories:
   - am-thuc
 ---
 
-Giữa Sài Gòn tấp nập, một tô bún bò Huế nóng hổi với nước lèo thơm nồng mùi sả ruốc có thể xoa dịu bất kỳ ngày mệt mỏi nào. Người Sài Gòn gốc Huế mang theo công thức gia truyền vào nam, biến tấu để phù hợp khẩu vị địa phương nhưng vẫn giữ được cái hồn của ẩm thực cố đô. Dưới đây là mười địa chỉ đã làm tròn vai trò đó suốt nhiều thập kỷ.
+Giữa [Sài Gòn]({{< relurl "top-10-quan-pho-sai-gon/" >}}) tấp nập, một tô bún bò Huế nóng hổi với nước lèo thơm nồng mùi sả ruốc có thể xoa dịu bất kỳ ngày mệt mỏi nào. Người Sài Gòn gốc Huế mang theo công thức gia truyền vào nam, biến tấu để phù hợp khẩu vị địa phương nhưng vẫn giữ được cái hồn của ẩm thực cố đô. Dưới đây là mười địa chỉ đã làm tròn vai trò đó suốt nhiều thập kỷ.
 
 ## Bún bò Huế 14B — Quận 4, Michelin Bib Gourmand
 
@@ -61,4 +61,4 @@ Nằm trên đường Nguyễn Bá Lân, Thảo Điền, Bún bò Trang thu hút
 
 Sài Gòn có lẽ là nơi hội tụ nhiều quán bún bò Huế nhất bên ngoài Huế. Mỗi quán mang một bí quyết riêng: 14B được Michelin chứng thực, 31 và Hạnh giữ vị truyền thống hơn bốn mươi năm, Giáo Toàn gây choáng với quy mô, còn Xưa chiếm trọn tình cảm sinh viên bằng giá rẻ khó tin. Dù chọn quán nào, một tô bún bò nóng hổi vẫn luôn là liều thuốc tinh thần không thể thay thế giữa lòng thành phố.
 
-Nếu bạn muốn khám phá thêm ẩm thực Sài Gòn, đừng bỏ qua [top quán lẩu ngon cho ngày mưa]({{< relurl "top-10-quan-lau-sai-gon/" >}}), [cà phê vỉa hè giữa lòng phố thị]({{< relurl "ca-phe-via-he-sai-gon/" >}}), [bánh mì Sài Gòn nức tiếng]({{< relurl "banh-mi-sai-gon/" >}}) hay [chợ đêm và ẩm thực đường phố]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) — tất cả đều là những mảnh ghép làm nên bức tranh ẩm thực Sài Thành.
+Nếu bạn muốn khám phá thêm ẩm thực Sài Gòn, đừng bỏ qua top [quán lẩu]({{< relurl "top-10-quan-lau-sai-gon/" >}}) ngon cho ngày mưa, cà phê vỉa hè giữa lòng phố thị, bánh mì Sài Gòn nức tiếng hay chợ đêm và ẩm thực đường phố — tất cả đều là những mảnh ghép làm nên bức tranh ẩm thực Sài Thành.

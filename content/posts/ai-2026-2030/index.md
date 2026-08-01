@@ -34,7 +34,7 @@ Bước ngoặt lớn nhất của giai đoạn 2026–2030 không đến từ c
 
 ## Những chuyển biến đáng chú ý
 
-Trong lĩnh vực y tế, AI đã bắt đầu thay đổi căn bản cách chẩn đoán và điều trị bệnh. Wikipedia ghi nhận AI được sử dụng trong chẩn đoán hình ảnh y khoa, phát hiện sớm ung thư, và hỗ trợ phẫu thuật robot. Nhưng bước tiến mang tính cách mạng lại đến từ một hướng khác: vào tháng 8 năm 2025, một công ty telehealth chỉ với hai nhân viên đã đạt 75 triệu USD lợi nhuận hàng năm nhờ tận dụng AI tác nhân để tự động hóa gần như toàn bộ quy trình khám chữa bệnh từ xa.
+Trong lĩnh vực y tế, AI đã bắt đầu thay đổi căn bản cách chẩn đoán và điều trị bệnh. Wikipedia ghi nhận AI được sử dụng trong chẩn đoán hình ảnh y khoa, phát hiện sớm ung thư, và hỗ trợ phẫu thuật robot. Nhưng bước tiến mang tính [cách mạng]({{< relurl "chatgpt-cach-mang-ai/" >}}) lại đến từ một hướng khác: vào tháng 8 năm 2025, một công ty telehealth chỉ với hai nhân viên đã đạt 75 triệu USD lợi nhuận hàng năm nhờ tận dụng AI tác nhân để tự động hóa gần như toàn bộ quy trình khám chữa bệnh từ xa.
 
 Không chỉ y tế, nông nghiệp cũng được AI cách mạng hóa. AI đã được đề xuất như một công cụ giúp nông dân xác định các khu vực cần tưới tiêu, bón phân hoặc xử lý thuốc trừ sâu để tăng năng suất. Các hệ thống AI cũng được sử dụng để tự động hóa nhà kính, phát hiện bệnh dịch và sâu bệnh, cũng như tối ưu hóa hệ thống tưới tiêu.
 
@@ -50,4 +50,4 @@ Tuy nhiên, không phải mọi thứ đều màu hồng. Một đánh giá củ
 
 ## Góc nhìn về tương lai
 
-Tương lai của AI 2026–2030 sẽ không chỉ được định hình bởi công nghệ, mà còn bởi các quyết định chính trị và xã hội. Wikipedia tiếng Anh vào tháng 3 năm 2026 đã cấm sử dụng LLM để tạo hoặc viết lại nội dung. Câu hỏi cốt lõi không phải AI có thay đổi thế giới hay không — điều đó đã rõ. Câu hỏi là chúng ta sẽ định hình sự thay đổi đó như thế nào.
+Tương lai của AI 2026–2030 sẽ không chỉ được định hình bởi [công nghệ]({{< relurl "thu-thuat-ai-cong-nghe-2026/" >}}), mà còn bởi các quyết định chính trị và xã hội. Wikipedia tiếng Anh vào tháng 3 năm 2026 đã cấm sử dụng LLM để tạo hoặc viết lại nội dung. Câu hỏi cốt lõi không phải AI có thay đổi thế giới hay không — điều đó đã rõ. Câu hỏi là chúng ta sẽ định hình sự thay đổi đó như thế nào.

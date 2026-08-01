@@ -17,7 +17,7 @@ slug: da-lat-cafe-view
 
 <!-- editorial-structure -->
 
-**Có một người bạn từng bảo tôi:** "Đến Đà Lạt mà không ngồi cafe ít nhất một buổi chiều là chưa từng đến Đà Lạt." Câu nói ấy cứ văng vẳng mỗi khi tôi nghĩ về thành phố cao nguyên này. Bởi Đà Lạt không chỉ có thác, có hồ, có chợ đêm — Đà Lạt còn là một không gian thưởng thức cafe độc đáo bậc nhất Việt Nam. Những quán cafe ở đây không đơn thuần là nơi bán đồ uống: chúng là những điểm dừng chân để bạn sống chậm lại, để nghe tiếng thông reo và nhìn mây trôi qua ô cửa.
+**Có một người bạn từng bảo tôi:** "[Đến Đà Lạt mà không ngồi cafe]({{< relurl "cam-nang-du-lich-da-lat-tu-tuc/" >}}) ít nhất một buổi chiều là chưa từng đến Đà Lạt." Câu nói ấy cứ văng vẳng mỗi khi tôi nghĩ về thành phố cao nguyên này. Bởi Đà Lạt không chỉ có thác, có hồ, có chợ đêm — Đà Lạt còn là một không gian thưởng thức cafe độc đáo bậc nhất Việt Nam. Những quán cafe ở đây không đơn thuần là nơi bán đồ uống: chúng là những điểm dừng chân để bạn sống chậm lại, để nghe tiếng thông reo và nhìn mây trôi qua ô cửa.
 
 ## Điểm đến và bối cảnh
 

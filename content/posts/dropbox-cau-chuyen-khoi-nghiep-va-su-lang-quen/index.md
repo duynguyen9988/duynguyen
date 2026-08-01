@@ -1,9 +1,9 @@
 ---
-title: 'Dropbox: Câu Chuyện Khởi Nghiệp Và Sự Lãng Quên Đắt Giá Nhất Thung Lũng Silicon'
+title: 'Dropbox: Khởi Nghiệp Và Sự Lãng Quên Đắt Giá Nhất Silicon Valley'
 slug: dropbox-cau-chuyen-khoi-nghiep-va-su-lang-quen
 date: 2026-07-25T09:00:00+07:00
 draft: false
-description: 'Câu chuyện khởi nghiệp của Dropbox — từ ý tưởng quên USB đến kỳ lân tỷ đô, và bài học về sự lãng quên trong thời đại cloud.'
+description: 'Câu chuyện khởi nghiệp Dropbox — từ ý tưởng quên USB đến kỳ lân tỷ đô, và bài học về sự lãng quên trong thời đại cloud mà founder nào cũng nên đọc.'
 tags:
   - dropbox
   - startup
@@ -37,7 +37,7 @@ Houston không bỏ cuộc. Anh làm một đoạn video ngắn quay màn hình 
 
 Tháng 9 năm 2008, Houston đứng trên sân khấu TechCrunch 50 để trình diễn Dropbox lần đầu tiên trước công chúng. Suýt nữa thì đó là một thảm họa — Wi-Fi đứt giữa buổi demo. Nhưng Houston đã chuẩn bị sẵn một video dự phòng. Khi ông bước xuống sân khấu, danh sách chờ đã có gần 200.000 người.
 
-Ý tưởng thì gần như ngớ ngẩn đến mức đơn giản: một thư mục trên desktop tự động đồng bộ mọi tập tin đến mọi thiết bị bạn sở hữu. Bạn lưu thứ gì đó trên điện thoại, và nó xuất hiện ở mọi nơi khác. Ở thời điểm đó, điều đó giống như một phép màu nhỏ.
+Ý tưởng thì gần như ngớ ngẩn đến mức đơn giản: một thư mục trên desktop tự động đồng bộ mọi tập tin đến mọi thiết bị bạn sở hữu. Bạn lưu thứ gì đó trên [điện thoại]({{< relurl "motorola-su-troi-day/" >}}), và nó xuất hiện ở mọi nơi khác. Ở thời điểm đó, điều đó giống như một phép màu nhỏ.
 
 Chương trình giới thiệu bạn bè của Dropbox cũng đơn giản không kém: mời một người bạn, cả hai cùng nhận 500MB dung lượng miễn phí. Chỉ trong 15 tháng, Dropbox đi từ 100.000 lên 4 triệu người dùng — tốc độ tăng trưởng 3.900%. Các con số lớn đến nỗi đội ngũ hết tường để dán giấy in milestone và phải chuyển lên trần nhà.
 
@@ -79,7 +79,7 @@ Các sản phẩm thất bại chỉ ra một cuộc khủng hoảng danh tính 
 
 Năm 2019, tài khoản miễn phí bị giới hạn còn ba thiết bị — trong khi mọi đối thủ vẫn cho phép không giới hạn. Cùng năm đó, giá thuê bao tăng 20%. Từ đỉnh điểm 3.100 nhân viên năm 2022, công ty đã cắt giảm xuống còn khoảng 2.100 — mất đi gần một phần ba lực lượng lao động.
 
-Tháng 12 năm 2024, Dropbox vay 2 tỷ đô bằng nợ có bảo đảm và ngay lập tức công bố chương trình mua lại cổ phiếu trị giá 1,2 tỷ đô. Đi vay để mua lại cổ phiếu thay vì đầu tư vào tăng trưởng — trong giới tài chính, người ta gọi đó là "chiến lược thu hoạch". Về cơ bản, bạn ngừng cố gắng. Bạn rút ra giá trị còn lại chừng nào nó còn kéo dài.
+Tháng 12 năm 2024, Dropbox vay 2 tỷ đô bằng nợ có bảo đảm và ngay lập tức công bố chương trình mua lại cổ phiếu trị giá 1,2 tỷ đô. Đi vay để mua lại cổ phiếu thay vì đầu tư vào tăng trưởng — trong giới tài chính, người ta gọi đó là "[chiến lược]({{< relurl "vi-sao-apple-dat/" >}}) thu hoạch". Về cơ bản, bạn ngừng cố gắng. Bạn rút ra giá trị còn lại chừng nào nó còn kéo dài.
 
 ## Bài học từ sự lãng quên
 

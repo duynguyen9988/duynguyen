@@ -70,7 +70,7 @@ Quá trình quay phim bắt đầu từ tháng 9 năm 2013 tại Cape Girardeau,
 
 ## Âm nhạc
 
-Nhạc phim do Trent Reznor và Atticus Ross sáng tác, đánh dấu lần hợp tác thứ ba của họ với Fincher sau *The Social Network* và *The Girl with the Dragon Tattoo*. Fincher yêu cầu Reznor tạo ra "thứ âm nhạc giả tạo cố gắng làm bạn cảm thấy ổn" — một phép ẩn dụ hoàn hảo cho bộ phim. Richard Butler của The Psychedelic Furs hát bản cover ca khúc "She" dùng trong teaser trailer.
+Nhạc phim do Trent Reznor và Atticus Ross sáng tác, đánh dấu lần hợp tác thứ ba của họ với Fincher sau *The Social Network* và *[The Girl]({{< relurl "girl-on-the-train-2016/" >}}) with the Dragon Tattoo*. Fincher yêu cầu Reznor tạo ra "thứ âm nhạc giả tạo cố gắng làm bạn cảm thấy ổn" — một phép ẩn dụ hoàn hảo cho bộ phim. Richard Butler của The Psychedelic Furs hát bản cover ca khúc "She" dùng trong teaser trailer.
 
 ## Đón nhận
 

@@ -44,7 +44,7 @@ Một gợi ý thực tế: thay vì dành một giờ để viết một bài c
 
 Trong công việc, nguyên lý này cũng chỉ rõ thứ tự ưu tiên. Nếu 20% lỗi sai tạo ra 80% sự cố, hãy tập trung sửa những lỗi đó trước — đây chính là tư duy đằng sau biểu đồ Pareto trong quản lý chất lượng: xếp hạng các nguyên nhân theo mức độ ảnh hưởng, rồi ưu tiên giải quyết những nguyên nhân lớn nhất. Một cố vấn tài chính có 100 khách hàng, theo nguyên tắc này, sẽ nhận ra 80% doanh thu đến từ 20 khách hàng hàng đầu, vì vậy cần dành phần lớn thời gian vun đắp mối quan hệ với nhóm khách hàng đó. Nghe có vẻ lạnh lùng, nhưng việc xác định rõ ai, việc gì, thứ gì mang lại giá trị lớn nhất lại chính là cách tôn trọng nguồn lực có hạn của mình.
 
-Với thói quen học tập và làm việc hàng ngày, bạn có thể kết hợp nguyên lý Pareto với phương pháp quản lý thời gian theo từng phiên tập trung như [kỹ thuật Pomodoro]({{< relurl "phuong-phap-pomodoro-quan-ly-thoi-gian/" >}}), dành những phiên đầu tiên trong ngày — khi tinh thần minh mẫn nhất — cho nhóm 20% công việc then chốt. Nếu bạn muốn hệ thống hóa cách sắp xếp công việc của mình, bài viết về [cách làm chủ thời gian và quản lý công việc]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) sẽ là điểm khởi đầu tốt.
+Với [thói quen]({{< relurl "5-thoi-quen-buoi-sang/" >}}) học tập và làm việc hàng ngày, bạn có thể kết hợp nguyên lý Pareto với [phương pháp]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) quản lý thời gian theo từng phiên tập trung như kỹ thuật Pomodoro, dành những phiên đầu tiên trong ngày — khi tinh thần minh mẫn nhất — cho nhóm 20% công việc then chốt. Nếu bạn muốn hệ thống hóa cách sắp xếp công việc của mình, bài viết về cách làm chủ thời gian và quản lý công việc sẽ là điểm khởi đầu tốt.
 
 ## Những hiểu lầm thường gặp
 

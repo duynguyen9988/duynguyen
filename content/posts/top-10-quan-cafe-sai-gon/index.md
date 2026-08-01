@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Cuối tuần rảnh rỗi, tìm một quán cafe ngồi chill, làm việc hay tụ tập bạn bè luôn là lựa chọn hàng đầu ở Sài Gòn. Sài thành có hàng trăm quán cafe mọc lên mỗi năm, từ phong cách tối giản, sân vườn, rooftop cho đến concept "cà phê trên giường" độc đáo. Dưới đây là 10 quán cafe đẹp và đáng thử nhất, được chọn lọc dựa trên không gian, chất lượng đồ uống và trải nghiệm thực tế.
+Cuối tuần rảnh rỗi, tìm một [quán cafe]({{< relurl "da-lat-cafe-view/" >}}) ngồi chill, làm việc hay tụ tập bạn bè luôn là lựa chọn hàng đầu ở [Sài Gòn]({{< relurl "top-10-quan-chay-sai-gon-2026/" >}}). Sài thành có hàng trăm quán cafe mọc lên mỗi năm, từ phong cách tối giản, sân vườn, rooftop cho đến concept "cà phê trên giường" độc đáo. Dưới đây là 10 quán cafe đẹp và đáng thử nhất, được chọn lọc dựa trên không gian, chất lượng đồ uống và trải nghiệm thực tế.
 
 ![Cà phê Sài Gòn — quán cà phê đẹp ở TP HCM](featured-image.jpg)
 

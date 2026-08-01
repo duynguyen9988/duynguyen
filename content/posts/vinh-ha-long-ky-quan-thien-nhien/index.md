@@ -1,6 +1,6 @@
 ---
-title: "Vịnh Hạ Long — Kỳ Quan Thiên Nhiên Thế Giới Và Hành Trình 500 Triệu Năm"
-description: "Khám phá vịnh Hạ Long — kỳ quan thiên nhiên thế giới với hơn 1.969 hòn đảo đá vôi, hệ sinh thái độc đáo và những câu chuyện địa chất kéo dài nửa tỷ năm."
+title: 'Vịnh Hạ Long: Kỳ Quan Thiên Nhiên Và Hành Trình 500 Triệu Năm'
+description: 'Khám phá vịnh Hạ Long — kỳ quan thiên nhiên thế giới với hơn 1.969 hòn đảo đá vôi, hệ sinh thái độc đáo và câu chuyện địa chất kéo dài nửa tỷ năm.'
 date: 2026-07-27T00:04:22+07:00
 slug: vinh-ha-long-ky-quan-thien-nhien
 categories: ["du-lich"]
@@ -11,7 +11,7 @@ resources:
 draft: false
 ---
 
-Có một câu chuyện kể rằng, thuở xa xưa, khi đất nước mới hình thành, giặc ngoại xâm tràn đến. Các vị thần đã sai một gia đình rồng xuống trần gian để giúp người Việt giữ đất. Đàn rồng nhả châu báu và ngọc bích xuống biển — những viên ngọc hóa thành muôn vàn hòn đảo nhấp nhô trên mặt sóng, tạo thành bức tường thành che chở cho bờ cõi. Nơi rồng mẹ đáp xuống được gọi là Hạ Long — "rồng bay xuống". Còn nơi đàn rồng con quẫy đuổi tung bọt trắng xóa nay là bán đảo Trà Cổ.
+Có một câu chuyện kể rằng, thuở xa xưa, khi đất nước mới hình thành, giặc ngoại xâm tràn đến. Các vị thần đã sai một gia đình rồng xuống trần gian để giúp người Việt giữ đất. Đàn rồng nhả châu báu và ngọc bích xuống biển — những [viên ngọc]({{< relurl "nha-trang/" >}}) hóa thành muôn vàn hòn đảo nhấp nhô trên mặt sóng, tạo thành bức tường thành che chở cho bờ cõi. Nơi rồng mẹ đáp xuống được gọi là Hạ Long — "rồng bay xuống". Còn nơi đàn rồng con quẫy đuổi tung bọt trắng xóa nay là bán đảo Trà Cổ.
 
 Đó là truyền thuyết. Nhưng sự thật địa chất còn kỳ diệu hơn thế.
 
@@ -21,7 +21,7 @@ Có một câu chuyện kể rằng, thuở xa xưa, khi đất nước mới h�
 
 Vịnh Hạ Long ngày nay là kết quả của nửa tỷ năm biến đổi địa chất. Vào kỷ Cambri, cách đây 570 triệu năm, khu vực này từng là đất liền, chịu sự bào mòn khắc nghiệt của mưa gió. Đến cuối kỷ Cambri, biển tràn vào nhấn chìm vùng đất. Suốt 100 triệu năm tiếp theo — từ kỷ Than Đá đến kỷ Permi — một vùng biển nông và ấm tồn tại, tạo nên lớp đá vôi dày hơn 1.000 mét.
 
-Chính lớp đá vôi ấy, sau hàng chục triệu năm bị nước mưa và gió bào mòn, đã tạo nên những khối núi đá vôi hình chóp và tháp cao chót vót — thứ mà các nhà địa mạo học gọi là karst fenglin và fengcong. Khi biển dâng lên vào đầu thế Holocen, những thung lũng giữa các tháp đá bị ngập nước. Kết quả là một cảnh quan độc nhất vô nhị trên thế giới: hàng nghìn hòn đảo đá vôi nhô lên từ mặt nước biển xanh ngọc.
+Chính lớp đá vôi ấy, sau hàng chục triệu năm bị nước mưa và gió bào mòn, đã tạo nên những khối núi đá vôi hình chóp và tháp cao chót vót — thứ mà các nhà địa mạo học gọi là karst fenglin và fengcong. Khi biển dâng lên vào đầu thế Holocen, những thung lũng giữa các tháp đá bị ngập nước. Kết quả là một cảnh quan độc nhất vô nhị trên [thế giới]({{< relurl "phu-quoc/" >}}): hàng nghìn hòn đảo đá vôi nhô lên từ mặt nước biển xanh ngọc.
 
 Giáo sư Tony Waltham, chuyên gia địa mạo người Anh, từng nhận xét: "Xét về chiều cao, độ dốc và số lượng tháp đá vôi, vịnh Hạ Long có lẽ chỉ đứng sau Dương Sóc ở Trung Quốc. Nhưng điều làm nên sự khác biệt tuyệt đối của Hạ Long là biển đã xâm lấn vào — biến nó thành một kỳ quan duy nhất trên Trái Đất."
 

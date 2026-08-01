@@ -13,11 +13,11 @@ draft: false
 
 <!-- editorial-structure -->
 
-Chín giờ tối, bạn ngồi trên ghế sofa, lướt điện thoại và phân vân giữa ba ứng dụng màu cam, xanh dương và xanh lá. Cùng một đôi giày, nhưng giá trên Shopee khác, trên Lazada khác, trên Tiki lại khác. Bạn muốn mua rẻ nhất nhưng cũng sợ hàng giả, muốn giao nhanh nhưng không muốn tốn phí ship. Câu chuyện mua sắm online của người Việt chưa bao giờ đơn giản, và năm 2026, bức tranh thương mại điện tử đã thay đổi đáng kể.
+Chín giờ tối, bạn ngồi trên ghế sofa, lướt điện thoại và phân vân giữa ba ứng dụng màu cam, xanh dương và xanh lá. Cùng một đôi giày, nhưng giá trên Shopee khác, trên Lazada khác, trên Tiki lại khác. Bạn muốn mua rẻ nhất nhưng cũng sợ hàng giả, muốn giao nhanh nhưng không muốn tốn phí ship. Câu chuyện mua sắm online của người Việt chưa bao giờ đơn giản, và năm 2026, bức tranh [thương mại]({{< relurl "thuong-mai-dien-tu/" >}}) điện tử đã thay đổi đáng kể.
 
 ## Bối cảnh và lựa chọn
 
-Thương mại điện tử tại Việt Nam, theo Wikipedia, đã tăng trưởng nhanh chóng với giá trị thị trường ngày càng mở rộng. Trong đại dịch COVID-19, người tiêu dùng Việt chuyển sang mua sắm trực tuyến nhiều hơn bao giờ hết, thúc đẩy tốc độ tăng trưởng của lĩnh vực này. Thực phẩm và chăm sóc cá nhân trở thành danh mục thương mại điện tử tăng trưởng cao nhất vào năm 2020. Thị trường thương mại điện tử Việt Nam đã tăng trưởng nhanh chóng từ năm 2020, với tốc độ tăng trưởng trung bình hàng năm từ 16% năm 2020 lên 30% trong giai đoạn 2021-2025. Năm 2021, thị trường được định giá 13,7 tỷ đô la và dự kiến đạt 32 tỷ đô la vào năm 2025.
+Thương mại điện tử tại Việt Nam, theo Wikipedia, đã tăng trưởng nhanh chóng với giá trị thị trường ngày càng mở rộng. Trong đại dịch COVID-19, người [tiêu dùng]({{< relurl "mua-sam-ben-vung/" >}}) Việt chuyển sang mua sắm trực tuyến nhiều hơn bao giờ hết, thúc đẩy tốc độ tăng trưởng của lĩnh vực này. Thực phẩm và chăm sóc cá nhân trở thành danh mục thương mại điện tử tăng trưởng cao nhất vào năm 2020. Thị trường thương mại điện tử Việt Nam đã tăng trưởng nhanh chóng từ năm 2020, với tốc độ tăng trưởng trung bình hàng năm từ 16% năm 2020 lên 30% trong giai đoạn 2021-2025. Năm 2021, thị trường được định giá 13,7 tỷ đô la và dự kiến đạt 32 tỷ đô la vào năm 2025.
 
 Shopee hiện là nền tảng thương mại điện tử lớn nhất tại Việt Nam. Theo số liệu từ Metric, Shopee chiếm khoảng 56% thị phần GMV (tổng giá trị hàng hóa) trên bốn sàn lớn nhất vào năm 2025. Shopee nổi tiếng với các chương trình khuyến mãi dày đặc — miễn phí vận chuyển, mã giảm giá, flash sale hàng giờ — và kho hàng khổng lồ từ hàng điện tử đến thời trang, mỹ phẩm. Điểm mạnh của Shopee là sự đa dạng và giá cạnh tranh, nhưng điểm yếu là hàng giả, hàng nhái vẫn còn là vấn đề nhức nhối.
 

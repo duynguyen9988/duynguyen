@@ -17,7 +17,7 @@ resources:
 draft: false
 ---
 
-Tháng 11 năm 2022, một sản phẩm công nghệ ra đời mà ít ai ngờ rằng nó sẽ thay đổi hoàn toàn cách con người tương tác với trí tuệ nhân tạo. ChatGPT, chatbot do OpenAI phát triển, không chỉ đơn thuần là một công cụ trả lời câu hỏi — nó trở thành hiện tượng văn hóa, kinh tế và công nghệ lớn nhất kể từ khi internet phổ cập.
+Tháng 11 năm 2022, một sản phẩm [công nghệ]({{< relurl "thu-thuat-ai-cong-nghe-2026/" >}}) ra đời mà ít ai ngờ rằng nó sẽ thay đổi hoàn toàn cách con người tương tác với trí [tuệ nhân]({{< relurl "lich-su-tri-tue-nhan-tao/" >}}) tạo. ChatGPT, chatbot do OpenAI phát triển, không chỉ đơn thuần là một công cụ trả lời câu hỏi — nó trở thành hiện tượng văn hóa, kinh tế và công nghệ lớn nhất kể từ khi internet phổ cập.
 
 <!--more-->
 

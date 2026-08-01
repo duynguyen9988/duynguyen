@@ -1,7 +1,7 @@
 ---
-title: "Phở — Hành Trình Từ Gánh Hàng Rong Nam Định Đến Biểu Tượng Ẩm Thực Toàn Cầu"
+title: 'Phở: Hành Trình Từ Gánh Hàng Rong Nam Định Đến Toàn Cầu'
 date: 2026-07-27T01:36:57+07:00
-description: 'Lịch sử phở Việt Nam hơn một thế kỷ: từ gánh hàng rong đến biểu tượng ẩm thực toàn cầu.'
+description: 'Lịch sử phở Việt Nam hơn một thế kỷ — từ gánh hàng rong đất Nam Định đến biểu tượng ẩm thực toàn cầu: nguồn gốc, biến thể Bắc–Nam và hành trình ra thế giới.'
 tags:
   - phở
   - ẩm thực Việt Nam
@@ -18,7 +18,7 @@ slug: pho-lich-su-van-hoa
 
 <!-- editorial-structure -->
 
-Buổi sáng Sài Gòn, một tô phở nóng hổi bốc khói nghi ngút — nước dùng trong veo, lát thịt tái hồng hào bên cọng rau thơm xanh mướt — có lẽ là hình ảnh quen thuộc nhất với bất kỳ ai đã từng đặt chân đến Việt Nam. Nhưng ít ai biết rằng, đằng sau tô phở tưởng chừng giản dị ấy là cả một hành trình hơn một thế kỷ, từ những gánh hàng rong ở làng Vân Cù, Nam Định, cho đến khi trở thành một trong những biểu tượng ẩm thực được cả thế giới ngưỡng mộ.
+Buổi sáng Sài Gòn, một tô phở nóng hổi bốc khói nghi ngút — nước dùng trong veo, lát thịt tái hồng hào bên cọng rau thơm xanh mướt — có lẽ là hình ảnh quen thuộc nhất với bất kỳ ai đã từng đặt chân đến Việt Nam. Nhưng ít ai biết rằng, đằng sau tô phở tưởng chừng giản dị ấy là cả một hành trình hơn một thế kỷ, từ những [gánh hàng]({{< relurl "pho-ha-noi/" >}}) rong ở [làng Vân]({{< relurl "pho-bo-tinh-hoa-am-thuc-viet-nam/" >}}) Cù, Nam Định, cho đến khi trở thành một trong những biểu tượng ẩm thực được cả thế giới ngưỡng mộ.
 
 ## Câu chuyện và bối cảnh
 

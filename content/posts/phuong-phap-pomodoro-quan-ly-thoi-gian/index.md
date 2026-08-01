@@ -13,7 +13,7 @@ draft: false
 
 Cuối những năm 1980, một sinh viên đại học người Ý tên Francesco Cirillo ngồi trong thư viện với một cuốn sách trên tay, nhưng mắt thì cứ nhìn đồng hồ hết lần này đến lần khác. Cậu không thể tập trung nổi. Trong cơn tuyệt vọng, Cirillo chộp lấy chiếc đồng hồ nhà bếp hình quả cà chua — pomodoro trong tiếng Ý — vặn nó lên 25 phút, và tự nhủ: "Chỉ 25 phút thôi. Sau đó tao có thể làm bất cứ thứ gì tao muốn."
 
-Từ khoảnh khắc đó, một trong những kỹ thuật quản lý thời gian phổ biến nhất thế giới đã ra đời.
+Từ khoảnh khắc đó, một trong những kỹ thuật quản lý [thời gian]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) phổ biến nhất [thế giới]({{< relurl "digital-detox/" >}}) đã ra đời.
 
 ## Tổng quan
 

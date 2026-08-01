@@ -16,13 +16,13 @@ resources:
     src: featured-image.jpg
 ---
 
-Sài Gòn không thiếu phở. Đi bất kỳ góc phố nào, cũng thấy một quán phở. Nhưng câu hỏi "phở ngon ở đâu?" không bao giờ có câu trả lời dễ dàng. Bởi phở là món ăn của ký ức, của thói quen — mỗi người Sài Gòn đều có một quán ruột riêng, một bát phở gắn với tuổi thơ, với buổi sáng vội vã.
+[Sài Gòn]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}) không thiếu phở. Đi bất kỳ góc phố nào, cũng thấy một quán phở. Nhưng câu hỏi "phở ngon ở đâu?" không bao giờ có câu trả lời dễ dàng. Bởi phở là món ăn của ký ức, của thói quen — mỗi người Sài Gòn đều có một quán ruột riêng, một bát phở gắn với tuổi thơ, với buổi sáng vội vã.
 
 Nhưng vẫn có những cái tên đủ sức vượt qua ranh giới của thị hiếu cá nhân. Những quán đã tồn tại hàng thập kỷ, được Michelin vinh danh, hoặc đơn giản là khiến thực khách xếp hàng mỗi ngày bất kể nắng mưa.
 
 ## Phở Lệ — Hơn nửa thế kỷ của phở Sài Gòn
 
-Chặng đường hơn 50 năm của Phở Lệ bắt đầu từ một gánh hàng rong ở Chợ Lớn. Ngày nay, nó là một trong những thương hiệu phở được biết đến rộng rãi nhất thành phố, với hai chi nhánh ở quận 5 và quận 3. Cả hai đều được Michelin trao chứng nhận Bib Gourmand — "quán ngon, giá phải chăng".
+Chặng đường hơn 50 năm của Phở Lệ bắt đầu từ một [gánh hàng]({{< relurl "pho-ha-noi/" >}}) rong ở Chợ Lớn. Ngày nay, nó là một trong những thương hiệu phở được biết đến rộng rãi nhất thành phố, với hai chi nhánh ở quận 5 và quận 3. Cả hai đều được Michelin trao chứng nhận Bib Gourmand — "quán ngon, giá phải chăng".
 
 Phở Lệ là hiện thân của phở Nam Bộ chính gốc. Nước dùng đục, béo, đậm đà, được ninh từ xương bò suốt nhiều giờ. Bánh phở sợi nhỏ, mềm nhưng không nát. Điểm nhấn là bò viên — to tròn, dai giòn, làm thủ công theo công thức gia truyền. Một tô phở Lệ đầy đủ: tái, nạm, gầu, gân, bò viên, tất cả trong cùng một bát. Giá 70.000 – 110.000 đồng, không rẻ nhưng xứng đáng với khẩu phần hào phóng.
 

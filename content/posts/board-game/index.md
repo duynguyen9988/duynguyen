@@ -1,7 +1,7 @@
 ---
-title: "Board game — Thế giới giải trí bàn cờ và sự phục hưng trong kỷ nguyên số"
+title: 'Board Game: Thế Giới Giải Trí Bàn Cờ Và Sự Phục Hưng Kỷ Nguyên Số'
 date: 2026-07-29T00:42:32+07:00
-description: "Từ Senet 3100 năm trước Công nguyên đến Catan, Ticket to Ride và board game café — hành trình phục hưng của trò chơi bàn cờ trong thế kỷ 21."
+description: 'Từ Senet 3100 năm trước Công nguyên đến Catan, Ticket to Ride và board game café — hành trình phục hưng của trò chơi bàn cờ trong thế kỷ 21.'
 tags:
   - board-game
   - giai-tri
@@ -41,7 +41,7 @@ Board game ngày nay vô cùng đa dạng. Abstract strategy — những trò ch
 
 ## Công nghiệp và giải thưởng
 
-Ngành công nghiệp board game tổ chức những hội chợ lớn như Gen Con tại Mỹ và Essen Spiel tại Đức, nơi hàng nghìn tựa game mới được ra mắt mỗi năm. Giải thưởng Spiel des Jahres (Trò chơi của Năm) của Đức là một trong những giải thưởng danh giá nhất, có ảnh hưởng lớn đến doanh số toàn cầu.
+Ngành [công nghiệp]({{< relurl "the-thao-dien-tu-viet-nam-2026/" >}}) board game tổ chức những hội chợ lớn như Gen Con tại Mỹ và Essen Spiel tại Đức, nơi hàng nghìn tựa game mới được ra mắt mỗi năm. Giải thưởng Spiel des Jahres (Trò chơi của Năm) của Đức là một trong những giải thưởng danh giá nhất, có ảnh hưởng lớn đến doanh số toàn cầu.
 
 ## Board game trong thời đại số
 
@@ -53,6 +53,6 @@ Board game không chỉ là giải trí. Nhiều nghiên cứu chỉ ra rằng b
 
 ## Board game tại Việt Nam
 
-Tại Việt Nam, board game café đã trở thành một phần quen thuộc của đời sống giải trí đô thị. Từ Sài Gòn đến Hà Nội, những quán board game với hàng trăm tựa game nhập ngoại và nội địa mọc lên, trở thành điểm hẹn cuối tuần của giới trẻ. Catan, Codenames, Exploding Kittens, Ma Sói (Werewolf) là những cái tên quen thuộc. Các giải đấu board game cũng dần xuất hiện, cho thấy thị trường board game Việt Nam đang đi theo đà phát triển chung của thế giới.
+Tại Việt Nam, board game café đã trở thành một phần quen thuộc của đời sống giải trí đô thị. Từ Sài Gòn đến Hà Nội, những quán board game với hàng trăm tựa game nhập ngoại và nội địa mọc lên, trở thành điểm hẹn cuối tuần của giới trẻ. Catan, Codenames, Exploding Kittens, Ma Sói (Werewolf) là những cái tên quen thuộc. Các giải đấu board game cũng dần xuất hiện, cho thấy thị trường board [game Việt]({{< relurl "lich-su-game-viet-nam/" >}}) Nam đang đi theo đà phát triển chung của thế giới.
 
 Từ những bàn cờ senet khắc trên đá sa thạch cách đây hơn năm nghìn năm đến những board game café sầm uất ở Sài Gòn, board game đã đi một hành trình dài. Trong thời đại mà mọi thứ đều được số hóa, việc ngồi lại với nhau quanh một bàn cờ, nhìn vào mắt nhau và tương tác trực tiếp, có lẽ chính là điều quý giá nhất mà board game mang lại.

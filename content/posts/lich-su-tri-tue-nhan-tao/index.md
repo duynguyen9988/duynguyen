@@ -19,7 +19,7 @@ draft: false
 
 Thế kỷ 17 chứng kiến những bước đi triết học quan trọng. Gottfried Leibniz mơ về một "ngôn ngữ phổ quát của lý trí" — *characteristica universalis* — nơi mọi tranh luận triết học đều có thể giải quyết bằng tính toán, giống như hai kế toán viên cầm bút chì ngồi xuống và nói: "Chúng ta hãy cùng tính toán." Thomas Hobbes, trong cuốn Leviathan, tuyên bố: "Lý trí chẳng qua là sự tính toán."
 
-Mãi đến thế kỷ 20, những nền tảng toán học mới thực sự được đặt ra. Alan Turing, với bài báo kinh điển "Computing Machinery and Intelligence" năm 1950, đã đặt ra câu hỏi mang tính cách mạng: liệu một cỗ máy có thể tư duy? Ông đề xuất một phép thử đơn giản — sau này được gọi là Turing Test — nếu một máy có thể trò chuyện mà người đối diện không phân biệt được với con người, thì có thể nói nó biết "nghĩ".
+Mãi đến thế kỷ 20, những nền tảng toán học mới thực sự được đặt ra. Alan Turing, với bài báo kinh điển "Computing Machinery and Intelligence" năm 1950, đã đặt ra câu hỏi mang tính [cách mạng]({{< relurl "chatgpt-cach-mang-ai/" >}}): liệu một cỗ máy có thể tư duy? Ông đề xuất một phép thử đơn giản — sau này được gọi là Turing Test — nếu một máy có thể trò chuyện mà người đối diện không phân biệt được với con người, thì có thể nói nó biết "nghĩ".
 
 ### Hội thảo Dartmouth và kỷ nguyên lạc quan (1956)
 
@@ -53,7 +53,7 @@ Năm 2012, một mạng nơ-ron do Alex Krizhevsky (học trò của Hinton) xâ
 
 Năm 2017, các nhà nghiên cứu tại Google công bố một bài báo có tựa đề "Attention Is All You Need", giới thiệu kiến trúc transformer. Không ai ngờ rằng đây sẽ là phát minh quan trọng nhất của AI trong thập kỷ.
 
-Transformer cho phép các mô hình ngôn ngữ xử lý văn bản với độ chính xác chưa từng có. GPT-3 của OpenAI (2020), với 175 tỷ tham số, có thể viết thơ, soạn email, lập trình và trả lời câu hỏi như một chuyên gia. ChatGPT ra mắt tháng 11 năm 2022, đạt 100 triệu người dùng sau hai tháng — tốc độ nhanh nhất trong lịch sử công nghệ.
+Transformer cho phép các mô hình ngôn ngữ xử lý văn bản với độ chính xác chưa từng có. GPT-3 của OpenAI (2020), với 175 tỷ tham số, có thể viết thơ, soạn email, lập trình và trả lời câu hỏi như một chuyên gia. ChatGPT ra mắt tháng 11 năm 2022, đạt 100 triệu người dùng sau hai tháng — tốc độ nhanh nhất trong lịch sử [công nghệ]({{< relurl "thu-thuat-ai-cong-nghe-2026/" >}}).
 
 ### AI hôm nay và ngày mai
 

@@ -19,7 +19,7 @@ resources:
 
 Chuyện bắt đầu với một con số nhỏ nhưng có hậu quả lớn: 5.000. Con số ấy là giới hạn chiều dài phần thân bài viết khi tính toán bài liên quan — một bước "cắt gọn" để pipeline không phải xử lý bài dài cả nghìn dòng. Trong bản Python, dòng code chỉ đơn giản là `body[:5000]`. Khi tôi port sang Go, dòng đầu tiên viết ra cũng tương tự: `body[:5000]`. Đúng cú pháp, đúng ý định, và hoàn toàn sai. Bài này kể về vì sao câu lệnh ấy sai, và bài học Unicode mà tôi phải trả giá bằng một buổi tối truy tìm sự chênh lệch điểm số 0,0001.
 
-Đây là bài thứ ba trong chuỗi tiếp nối [câu chuyện chuyển tech stack]({{< relurl "blog-tu-python-sang-go/" >}}), sau bài về [thuật toán TF-IDF]({{< relurl "thuat-toan-goi-y-bai-viet-tf-idf-go/" >}}) và [quy trình kiểm chứng]({{< relurl "kiem-chung-port-go-python/" >}}).
+Đây là bài thứ ba trong chuỗi tiếp nối câu chuyện chuyển tech stack, sau bài về [thuật toán]({{< relurl "thuat-toan-goi-y-bai-viet-tf-idf-go/" >}}) TF-IDF và quy trình [kiểm chứng]({{< relurl "kiem-chung-port-go-python/" >}}).
 
 ## Một ký tự có thể dài bốn byte
 
@@ -37,7 +37,7 @@ Cách sửa rất ngắn gọn nhưng cần hiểu bản chất vấn đề: chu
 
 Cái bẫy Unicode thứ hai tinh vi hơn nhiều, và nó không nằm trong code mà nằm trong dữ liệu. Trong tiếng Việt, ký tự "ờ" có thể được biểu diễn theo hai cách: một ký tự duy nhất đã có sẵn dấu, hoặc hai ký tự — chữ "o" và dấu "móc" tách rời. Hai cách biểu diễn này hiển thị giống hệt nhau trên màn hình, nhưng trong bộ nhớ máy tính, chúng là những chuỗi byte hoàn toàn khác nhau. Cách viết thứ hai, gọi là NFD, là kết quả khi nội dung bị dán từ nhiều nguồn khác nhau trên web.
 
-Trong quá trình kiểm chứng bản port, có một bài viết cũ trong blog sử dụng dạng NFD cho một vài từ. Vì bản Python và bản Go xử lý chuỗi ký tự ở mức độ khác nhau, bài viết này được gợi ý khác đi — và đó chính là nguồn gốc của 17 vị trí lệch mà tôi đã nhắc đến ở [bài kiểm chứng]({{< relurl "kiem-chung-port-go-python/" >}}). Lỗi không nằm ở chương trình mà nằm ở dữ liệu, và đúng như triết lý của blog: [nâng cấp có bằng chứng]({{< relurl "cai-tien-ky-thuat-blog-duy-nguyen/" >}}), lỗi được ghi chú lại để sửa sau.
+Trong quá trình kiểm chứng bản port, có một bài viết cũ trong blog sử dụng dạng NFD cho một vài từ. Vì bản Python và bản Go xử lý chuỗi ký tự ở mức độ khác nhau, bài viết này được gợi ý khác đi — và đó chính là nguồn gốc của 17 vị trí lệch mà tôi đã nhắc đến ở bài kiểm chứng. Lỗi không nằm ở chương trình mà nằm ở dữ liệu, và đúng như triết lý của blog: nâng cấp có bằng chứng, lỗi được ghi chú lại để sửa sau.
 
 ## Cách phòng tránh: một quy tắc và một bước kiểm tra
 
@@ -47,7 +47,7 @@ Bài học thứ hai là về dữ liệu đầu vào: bất kỳ nội dung nà
 
 ## Unicode là thứ vô hình nhưng phổ biến
 
-Hai cái bẫy này có một điểm chung: chúng hoạt động ngầm, không báo lỗi, và chỉ lộ ra khi bạn đặt hai kết quả cạnh nhau và đo. Đó là lý do văn bản đa ngôn ngữ là một trong những lĩnh vực mà "nó chạy được" là câu trả lời nguy hiểm nhất. Cũng giống như việc [chuyển toàn bộ công cụ sang Go]({{< relurl "blog-tu-python-sang-go/" >}}) buộc phải nghĩ lại về môi trường build, việc xử lý tiếng Việt buộc bạn phải nghĩ lại về đơn vị dữ liệu — byte không phải là ký tự, và hai văn bản "nhìn giống nhau" chưa chắc là hai chuỗi giống nhau.
+Hai cái bẫy này có một điểm chung: chúng hoạt động ngầm, không báo lỗi, và chỉ lộ ra khi bạn đặt hai kết quả cạnh nhau và đo. Đó là lý do văn bản đa ngôn ngữ là một trong những lĩnh vực mà "nó chạy được" là câu trả lời nguy hiểm nhất. Cũng giống như việc chuyển toàn bộ công cụ sang Go buộc phải nghĩ lại về môi trường build, việc xử lý tiếng Việt buộc bạn phải nghĩ lại về đơn vị dữ liệu — byte không phải là ký tự, và hai văn bản "nhìn giống nhau" chưa chắc là hai chuỗi giống nhau.
 
 ## Thông tin nhanh
 
@@ -67,4 +67,4 @@ Hai cái bẫy này có một điểm chung: chúng hoạt động ngầm, khôn
 | Bản sửa ngắn gọn: vài dòng rune slice | Nội dung dán từ web có thể chứa NFD ẩn |
 | Quy tắc phòng ngừa áp dụng được mọi nơi | Cần chuẩn hóa dữ liệu đầu vào một lần khi nhập |
 
-Câu chuyện cuối cùng trong chuỗi bài này nói về phía bên kia của hành trình: khi toàn bộ công cụ đã là Go, [quy trình CI/CD của blog]({{< relurl "ci-cd-blog-mot-lenh-go/" >}}) gọn lại còn một lệnh — và những bài học về môi trường build giảm xuống tối thiểu.
+Câu chuyện cuối cùng trong chuỗi bài này nói về phía bên kia của hành trình: khi toàn bộ công cụ đã là Go, quy trình CI/CD của blog gọn lại còn một lệnh — và những bài học về môi trường build giảm xuống tối thiểu.

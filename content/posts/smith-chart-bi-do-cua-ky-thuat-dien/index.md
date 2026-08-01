@@ -19,7 +19,7 @@ resources:
 
 Hãy tưởng tượng lần đầu tiên bạn nhìn thấy một tấm bản đồ với vô số vòng tròn chồng lên nhau, những đường cong chằng chịt như lỗ sâu trong phim khoa học viễn tưởng. Trên một số phiên bản, nó còn được ghi hẳn dòng chữ "ma thuật đen". Đó là Smith Chart — biểu đồ đáng sợ nhất trong ngành kỹ thuật điện. Hàng triệu bản in đã được phát hành, nó được tích hợp sâu vào phần mềm hiện đại nhất hiện nay, và nó giải quyết một trong những vấn đề nghịch lý nhất trong kỹ thuật điện: làm sao truyền tải năng lượng qua đường dây mà không bị mất mát do phản xạ.
 
-Thế nhưng câu chuyện đằng sau nó không bắt đầu từ một giáo sư đại học hay một phòng thí nghiệm hàn lâm. Nó bắt đầu từ một kỹ sư trẻ vừa ra trường, nhận công việc đầu tiên tại Bell Labs vào năm 1928, khi ngành điện thoại đang bùng nổ với hơn 65 triệu cuộc gọi mỗi ngày.
+Thế nhưng câu chuyện đằng sau nó không bắt đầu từ một giáo sư đại học hay một phòng thí nghiệm hàn lâm. Nó bắt đầu từ một kỹ sư trẻ vừa ra trường, nhận công việc đầu tiên tại Bell Labs vào năm 1928, khi ngành [điện thoại]({{< relurl "motorola-su-troi-day/" >}}) đang bùng nổ với hơn 65 triệu cuộc gọi mỗi ngày.
 
 ![Smith chart — biểu đồ Smith trong kỹ thuật điện và điện tử cao tần](featured-image.png)
 

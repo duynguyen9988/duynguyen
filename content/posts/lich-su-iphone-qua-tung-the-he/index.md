@@ -18,7 +18,7 @@ slug: lich-su-iphone-qua-tung-the-he
 
 Ngày 9 tháng 1 năm 2007, Steve Jobs bước lên sân khấu Macworld Conference & Expo tại San Francisco và nói: "Thỉnh thoảng, một sản phẩm cách mạng xuất hiện và thay đổi tất cả." Hôm đó, ông giới thiệu iPhone — một thiết bị mà ít ai ngờ rằng sẽ định hình lại hoàn toàn cách con người giao tiếp, làm việc và giải trí trong suốt hai thập kỷ sau đó.
 
-Từ một chiếc điện thoại màn hình cảm ứng chưa ai tin tưởng, iPhone đã trở thành một trong những sản phẩm công nghệ thành công nhất lịch sử, với hơn 2,5 tỷ chiếc bán ra tính đến năm 2026.
+Từ một chiếc [điện thoại]({{< relurl "lich-su-smartphone/" >}}) màn hình cảm ứng chưa ai tin tưởng, iPhone đã trở thành một trong những sản phẩm công nghệ thành công nhất lịch sử, với hơn 2,5 tỷ chiếc bán ra tính đến năm 2026.
 
 <!--more-->
 

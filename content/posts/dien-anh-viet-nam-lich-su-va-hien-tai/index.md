@@ -1,6 +1,6 @@
 ---
-title: "Điện Ảnh Việt Nam — Hành Trình Một Thế Kỷ Qua Ống Kính"
-description: "Từ những thước phim câm năm 1920 đến Cannes 2023 với giải Caméra d'Or, khám phá lịch sử hơn 100 năm của điện ảnh Việt Nam."
+title: 'Điện Ảnh Việt Nam — Hành Trình Một Thế Kỷ Qua Ống Kính'
+description: "Từ những thước phim câm năm 1920 đến giải Caméra d'Or tại Cannes, hành trình một thế kỷ của điện ảnh Việt Nam — thăng trầm, đổi thay và những dấu mốc đáng nhớ."
 date: 2026-07-27T00:04:22+07:00
 slug: dien-anh-viet-nam-lich-su-va-hien-tai
 categories: ["giai-tri"]
@@ -11,7 +11,7 @@ resources:
 draft: false
 ---
 
-Năm 1923, tại Hà Nội, một nhóm trí thức Việt Nam thành lập Hãng phim Hương Kỳ. Họ bắt đầu bằng những thước phim tài liệu về lễ tang vua Khải Định và lễ đăng quang của Bảo Đại — những thước phim đầu tiên do người Việt thực hiện. Cũng từ đó, họ cho ra đời bộ phim câm đầu tiên: *Một đồng kẽm tậu được ngựa* (A Penny for a Horse). Chẳng ai ngờ rằng hành trình ấy, một thế kỷ sau, sẽ đưa điện ảnh Việt Nam lên đỉnh cao của liên hoan phim danh giá nhất thế giới.
+Năm 1923, tại Hà Nội, một nhóm trí thức Việt Nam thành lập Hãng phim Hương Kỳ. Họ bắt đầu bằng những thước phim tài liệu về lễ tang vua Khải Định và lễ đăng quang của Bảo Đại — những thước phim đầu tiên do người Việt thực hiện. Cũng từ đó, họ cho ra đời bộ phim câm đầu tiên: *Một đồng kẽm tậu được ngựa* (A Penny for a Horse). Chẳng ai ngờ rằng hành trình ấy, một thế kỷ sau, sẽ đưa [điện ảnh]({{< relurl "phim-viet-nam-2026-bom-tan-dien-anh/" >}}) Việt Nam lên đỉnh cao của liên hoan phim danh giá nhất thế giới.
 
 ## Tổng quan
 
@@ -51,4 +51,4 @@ Năm 2023, Phạm Thiên Ân với *Bên trong vỏ kén vàng* giành Caméra d
 
 ### Kết
 
-Từ những thước phim câm đen trắng của thập niên 1920 đến giải thưởng Cannes 2023, điện ảnh Việt Nam đã đi một chặng đường dài đầy chông gai nhưng cũng đầy tự hào. Giữa dòng phim thương mại đang ngự trị phòng vé, vẫn có những nhà làm phim trẻ dám đi ngược số đông để kể những câu chuyện Việt Nam bằng một ngôn ngữ điện ảnh toàn cầu. Và đó là tín hiệu đẹp nhất cho một thế kỷ mới.
+Từ những thước phim câm đen trắng của thập niên 1920 đến giải thưởng Cannes 2023, điện ảnh Việt Nam đã đi một chặng đường dài đầy chông gai nhưng cũng đầy tự hào. Giữa dòng phim thương mại đang ngự trị phòng vé, vẫn có những nhà làm phim trẻ dám đi ngược số đông để kể những câu chuyện Việt Nam bằng một ngôn ngữ điện ảnh [toàn cầu]({{< relurl "anime/" >}}). Và đó là tín hiệu đẹp nhất cho một thế kỷ mới.

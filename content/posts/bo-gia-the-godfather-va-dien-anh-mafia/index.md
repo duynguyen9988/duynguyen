@@ -11,7 +11,7 @@ resources:
 draft: false
 ---
 
-Khi Mario Puzo viết những trang đầu tiên của cuốn tiểu thuyết *The Godfather* vào cuối những năm 1960, ông đang ngập trong nợ nần. Paramount Pictures mua bản quyền tác phẩm dang dở với giá 80.000 đô la — một con số mà Puzo không thể từ chối. Ông không biết rằng câu chuyện về dòng họ Corleone sẽ trở thành một trong những tác phẩm điện ảnh vĩ đại nhất lịch sử.
+Khi Mario Puzo viết những trang đầu tiên của cuốn tiểu thuyết *The Godfather* vào cuối những năm 1960, ông đang ngập trong nợ nần. Paramount Pictures mua bản quyền tác phẩm dang dở với giá 80.000 đô la — một con số mà Puzo không thể từ chối. Ông không biết rằng câu chuyện về dòng họ Corleone sẽ trở thành một trong những tác phẩm [điện ảnh]({{< relurl "phim-viet-nam-2026-bom-tan-dien-anh/" >}}) vĩ đại nhất lịch sử.
 
 ## Tổng quan
 

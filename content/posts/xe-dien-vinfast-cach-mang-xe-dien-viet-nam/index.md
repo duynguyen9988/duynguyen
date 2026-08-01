@@ -20,7 +20,7 @@ draft: false
 
 Ngày 2 tháng 9 năm 2017, một buổi lễ động thổ được tổ chức tại khu công nghiệp Đình Vũ — Cát Hải, Hải Phòng. Đó là Ngày Quốc khánh Việt Nam, và cũng là ngày khởi công nhà máy ô tô đầu tiên của một thương hiệu Việt Nam hoàn toàn mới. Người đứng sau dự án là Phạm Nhật Vượng, tỷ phú USD đầu tiên của Việt Nam, và tập đoàn Vingroup — một đế chế từ bất động sản, bán lẻ đến du lịch và y tế.
 
-Tám năm sau, VinFast đã đi một hành trình dài hơn bất kỳ ai có thể tưởng tượng — đưa xe điện Việt Nam ra thị trường quốc tế, niêm yết trên Nasdaq, và trải qua những thăng trầm khắc nghiệt nhất của ngành công nghiệp ô tô toàn cầu.
+Tám năm sau, VinFast đã đi một hành trình dài hơn bất kỳ ai có thể tưởng tượng — đưa xe điện Việt Nam ra thị trường quốc tế, niêm yết trên Nasdaq, và trải qua những thăng trầm khắc nghiệt nhất của ngành công nghiệp ô tô [toàn cầu]({{< relurl "netflix-lich-su-phat-trien/" >}}).
 
 ## Tổng quan
 
@@ -70,7 +70,7 @@ Còn tại Philippines, VinFast mở 6 đại lý và công bố kế hoạch m�
 
 ### Tái cấu trúc
 
-Tháng 5 năm 2026, VinFast nộp hồ sơ lên SEC về kế hoạch tái cấu trúc doanh nghiệp lớn. Theo đó, công ty sẽ tách hoạt động sản xuất tại Việt Nam — VinFast Trading and Production JSC (VFTP) — sang một công ty mới, chuyển khoảng 6,9 tỷ USD nợ và nghĩa vụ, và chỉ giữ lại mảng nghiên cứu phát triển, sở hữu trí tuệ và bán hàng quốc tế. VinFast chuyển sang mô hình "asset-light" — sản xuất theo hợp đồng gia công, không sở hữu nhà máy.
+Tháng 5 năm 2026, VinFast nộp hồ sơ lên SEC về kế hoạch tái cấu trúc doanh nghiệp lớn. Theo đó, công ty sẽ tách hoạt động sản xuất tại Việt Nam — VinFast Trading and Production JSC (VFTP) — sang một công ty mới, chuyển khoảng 6,9 tỷ USD nợ và nghĩa vụ, và chỉ giữ lại mảng [nghiên cứu]({{< relurl "google-lich-su/" >}}) phát triển, sở hữu trí tuệ và bán hàng quốc tế. VinFast chuyển sang mô hình "asset-light" — sản xuất theo hợp đồng gia công, không sở hữu nhà máy.
 
 Ngày 27 tháng 7 năm 2023, Vingroup cam kết cho VinFast vay tới 1,38 tỷ USD, còn Phạm Nhật Vượng cam kết thêm 1,97 tỷ USD tài trợ cá nhân — tổng cộng hơn 3 tỷ USD để giúp công ty đạt điểm hòa vốn. Ban đầu mục tiêu là cuối năm 2026, nhưng sau đó bị lùi qua 2027.
 

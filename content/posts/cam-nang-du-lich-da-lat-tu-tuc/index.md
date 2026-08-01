@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Sáu giờ ba mươi sáng thứ bảy, chiếc xe giường nằm rời bến xe miền Đông trong cái nóng 32 độ của Sài Gòn. Sáu tiếng sau, khi mắt vừa mở khỏi giấc ngủ vặt dọc quốc lộ 20, bạn đã ở một thế giới khác: 17 độ C, thông reo hai bên đường, hơi sương phả vào mặt qua ô cửa xe. Hơn 300 km đường núi, gần 1.500 mét độ cao — đó là khoảng cách giữa hai mùa trong cùng một ngày, và là lý do người Sài Gòn vẫn cứ mãi tìm về Đà Lạt.
+Sáu giờ ba mươi sáng thứ bảy, chiếc xe giường nằm rời bến xe miền Đông trong cái nóng 32 độ của Sài Gòn. Sáu tiếng sau, khi mắt vừa mở khỏi giấc ngủ vặt dọc quốc lộ 20, bạn đã ở một thế giới khác: 17 độ C, thông reo hai bên đường, hơi sương phả vào mặt qua ô cửa xe. Hơn 300 km đường núi, gần 1.500 mét độ cao — đó là khoảng cách giữa hai mùa trong cùng một ngày, và là lý do người Sài Gòn [vẫn cứ mãi tìm về Đà Lạt]({{< relurl "da-lat-kinh-nghiem-du-lich-tu-tuc/" >}}).
 
 Không cần tour, không cần trả trước hàng loạt dịch vụ, một chuyến Đà Lạt tự túc 3 ngày 2 đêm hoàn toàn nằm trong tầm tay nếu bạn nắm được ba thứ: thời điểm, phương tiện và ngân sách. Bài viết này tổng hợp từ Wikipedia cùng các nguồn cập nhật năm 2026 để bạn có một cẩm nang đầy đủ trước khi lên đường.
 
@@ -80,4 +80,4 @@ Phân bổ tham khảo cho một người: di chuyển khứ hồi 400.000–800
 
 Cuối cùng, vài lưu ý rút ra từ chính những con số trên. Thứ nhất, đi xe đêm thứ sáu là cách tiết kiệm nhất cả về tiền vé lẫn một đêm lưu trú. Thứ hai, tránh cuối tuần dài và ngày lễ nếu muốn phòng ở giá gốc — phụ phí cuối tuần là khoản "đội vốn" lớn nhất của dân tự túc. Thứ ba, tháng 7 đến tháng 10 có mưa nhiều, còn tháng 9–10 sương mù dày, nên các hoạt động ngắm cảnh từ trên cao cần linh hoạt đổi lịch. Và cuối cùng, một chi tiết hành chính nhỏ nhưng đáng biết: từ tháng 7/2025, Đà Lạt không còn là một thành phố trực thuộc tỉnh như trước — nhưng với du khách, thành phố sương mù vẫn vẹn nguyên những gì làm nên tên tuổi của nó.
 
-Đà Lạt không phải là điểm đến xa xôi với người Sài Gòn — nó chỉ cách một giấc ngủ trên xe. Nếu muốn khám phá sâu hơn về kiến trúc và văn hóa của thành phố, hãy đọc [cẩm nang du lịch Đà Lạt từ A đến Z]({{< relurl "da-lat-kinh-nghiem-du-lich-tu-tuc/" >}}) của blog; còn bản đồ [du lịch Việt Nam]({{< relurl "dia-diem-du-lich-viet-nam/" >}}) thì luôn còn nhiều hành trình thú vị khác để bạn lên kế hoạch sau chuyến đi này.
+Đà Lạt không phải là điểm đến xa xôi với người Sài Gòn — nó chỉ cách một giấc ngủ trên xe. Nếu muốn khám phá sâu hơn về kiến trúc và văn hóa của thành phố, hãy đọc cẩm nang du lịch Đà Lạt từ A đến Z của blog; còn bản đồ du lịch Việt Nam thì luôn còn nhiều hành trình thú vị khác để bạn lên kế hoạch sau chuyến đi này.

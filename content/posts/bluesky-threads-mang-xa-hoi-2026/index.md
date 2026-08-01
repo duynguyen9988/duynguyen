@@ -19,7 +19,7 @@ resources:
 draft: false
 ---
 
-Cuối năm 2022, Elon Musk mua lại Twitter với giá 44 tỷ USD. Sự kiện đó không chỉ làm rung chuyển Phố Wall — nó mở ra một cuộc tái cấu trúc toàn diện của ngành mạng xã hội toàn cầu. Hàng triệu người dùng bắt đầu tìm kiếm các nền tảng thay thế, và hai cái tên nhanh chóng nổi lên: Threads của Meta và Bluesky, một sản phẩm thoát thai từ chính Twitter cũ.
+Cuối năm 2022, Elon Musk mua lại Twitter với giá 44 tỷ USD. Sự kiện đó không chỉ làm rung chuyển Phố Wall — nó mở ra một cuộc tái cấu trúc toàn diện của ngành mạng xã hội toàn cầu. Hàng triệu người dùng bắt đầu tìm kiếm các [nền tảng]({{< relurl "tiktok-xa-hoi/" >}}) thay thế, và hai cái tên nhanh chóng nổi lên: Threads của Meta và Bluesky, một sản phẩm thoát thai từ chính Twitter cũ.
 
 Gần bốn năm sau, vào năm 2026, cuộc chiến giữa các nền tảng microblogging vẫn chưa có hồi kết. Nhưng một điều đã trở nên rõ ràng: cách chúng ta nghĩ về mạng xã hội sẽ không bao giờ như cũ.
 

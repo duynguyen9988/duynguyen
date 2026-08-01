@@ -29,9 +29,9 @@ Amy Ryan vào vai vợ Donovan, Alan Alda vào vai Thomas Watters Jr., Austin St
 
 ## Cốt truyện: 1957–1962
 
-Năm 1957, Rudolf Abel bị bắt tại New York với tội danh làm gián điệp cho Liên Xô. Donovan, một luật sư bảo hiểm, được chỉ định bào chữa cho hắn. Ông tin vào nguyên tắc — mọi người đều có quyền được bào vệ — và làm nhiệm vụ của mình với tất cả tâm huyết, bất chấp việc bị CIA gây áp lực và công chúng quay lưng.
+Năm 1957, Rudolf Abel bị bắt tại New York với tội danh làm [gián điệp]({{< relurl "prime-target/" >}}) cho Liên Xô. Donovan, một luật sư bảo hiểm, được chỉ định bào chữa cho hắn. Ông tin vào nguyên tắc — mọi người đều có quyền được bào vệ — và làm nhiệm vụ của mình với tất cả tâm huyết, bất chấp việc bị CIA gây áp lực và công chúng quay lưng.
 
-Kết quả: Abel bị kết tội, nhưng Donovan thuyết phục được thẩm phán không tuyên án tử hình với lý do Abel có thể hữu dụng trong một cuộc trao đổi tù nhân tương lai. Abel lĩnh 30 năm tù. Donovan kháng án lên Tối cao Pháp viện, nhưng bản án được giữ nguyên — dù chỉ với tỷ lệ sít sao. Gia đình Donovan bị quấy rối, thậm chí có kẻ nổ súng vào nhà họ.
+Kết quả: Abel bị kết tội, nhưng Donovan thuyết phục được thẩm phán không tuyên án tử hình với lý do Abel có thể hữu dụng trong một cuộc trao đổi tù nhân tương lai. Abel lĩnh 30 năm tù. Donovan kháng án lên Tối cao Pháp viện, nhưng bản án được giữ nguyên — dù chỉ với tỷ lệ sít sao. [Gia đình]({{< relurl "bo-gia-the-godfather-va-dien-anh-mafia/" >}}) Donovan bị quấy rối, thậm chí có kẻ nổ súng vào nhà họ.
 
 Năm 1960, máy bay do thám U-2 của Powers bị bắn rơi trên lãnh thổ Liên Xô. Phi công bị bắt và kết án 10 năm. Bức thư từ Đông Đức gửi Donovan, tưởng như từ vợ Abel, hóa ra là một đường dây ngầm của CIA và KGB. Donovan được đề nghị ra Berlin để đàm phán trao đổi — và ông đến đúng vào lúc Bức tường Berlin đang được dựng lên.
 

@@ -1,9 +1,9 @@
 ---
-title: 'Visa Hàn Quốc 5 Năm Thu Nhập 8.000 USD: Hồ Sơ Và Thủ Tục 2026'
+title: 'Visa Hàn Quốc 5 Năm 8.000 USD: Hồ Sơ Và Thủ Tục 2026'
 slug: visa-han-quoc-5-nam-8000-usd
 date: 2026-08-01T22:12:13+07:00
 draft: false
-description: 'Hướng dẫn xin visa Hàn Quốc 5 năm diện thu nhập trên 8.000 USD: điều kiện, hồ sơ cần chuẩn bị, lệ phí và quy trình nộp tại KVAC TP.HCM theo quy định mới nhất 2026.'
+description: 'Hướng dẫn xin visa Hàn Quốc 5 năm diện thu nhập trên 8.000 USD: điều kiện, hồ sơ, lệ phí 80 USD và quy trình nộp tại KVAC TP.HCM theo quy định mới nhất 2026.'
 tags:
   - visa-han-quoc
   - thu-tuc-xin-visa
@@ -16,7 +16,7 @@ resources:
     src: featured-image.png
 ---
 
-![Hộ chiếu Hàn Quốc — tấm vé mở ra hành trình 5 năm giữa hai đất nước (Ảnh: Direct700, Wikimedia Commons, CC BY-SA 4.0)](featured-image.png "Hộ chiếu Hàn Quốc — tấm vé mở ra hành trình 5 năm giữa hai đất nước (Ảnh: Direct700, Wikimedia Commons, CC BY-SA 4.0)")
+!Hộ chiếu Hàn Quốc — tấm vé mở ra [hành trình 5 năm giữa hai đất nước (Ảnh: Direct700, Wikimedia Commons, CC BY-SA 4.0)](featured-image.png "Hộ chiếu Hàn Quốc — tấm vé mở ra hành trình 5 năm giữa hai đất nước (Ảnh: Direct700, Wikimedia Commons, CC BY-SA 4.0)")
 
 Buổi tối cuối tuần, nhìn bộ phim Hàn Quốc đang phát trên tivi, nhiều người chợt nhận ra một điều: cảnh phim quen đến mức như đã đặt chân tới. Myeongdong ngập đèn neon, bờ sông Hàn lộng gió, những quán gà rán mở xuyên đêm — tất cả chỉ cách Sài Gòn một chuyến bay hơn bốn tiếng. Vấn đề duy nhất còn lại giữa bạn và xứ sở kim chi không phải là vé máy bay, mà là một tấm visa.
 
@@ -65,6 +65,6 @@ Ba lưu ý sau đây quyết định hồ sơ của bạn được tiếp nhận
 
 Nhìn một cách thực tế, visa Hàn Quốc 5 năm là khoản đầu tư rất xứng đáng nếu bạn du lịch Hàn Quốc hơn một lần mỗi năm, hoặc muốn tận dụng Hàn Quốc làm điểm nối chuyến cho các hành trình Đông Á. Phí 80 USD cho 5 năm nhập cảnh nhiều lần rẻ hơn hẳn việc xin visa một lần nhiều chuyến đi — mỗi lần xin lại là một lần lệ phí, một lần chờ đợi, một lần rủi ro. Với người thu nhập trên 8.000 USD/năm, bộ hồ sơ không quá phức tạp: giấy xác nhận nhân viên, sao kê lương và bảo hiểm xã hội là những giấy tờ có thể chuẩn bị trong một ngày.
 
-Tất nhiên, visa chỉ là tấm vé vào cửa. Khi đã cầm trên tay cuốn hộ chiếu dán visa đỏ trắng, bạn sẽ cần lịch trình cụ thể để tận dụng 30 ngày lưu trú mỗi lần — từ việc chọn mùa hoa anh đào ở Jinhae, mùa lá đỏ ở Seoraksan cho đến những góc ẩm thực ít người biết ở Seoul. Và nếu đây là lần đầu tiên của bạn với một chuyến du lịch quốc tế tự túc, hãy tham khảo thêm kinh nghiệm xin visa và đi lại từ bài viết về [du lịch Thái Lan tự túc]({{< relurl "du-lich-thai-lan/" >}}) của blog — cùng một tư duy chuẩn bị, chỉ khác điểm đến.
+Tất nhiên, visa chỉ là tấm vé vào cửa. Khi đã cầm trên tay cuốn hộ chiếu dán visa đỏ trắng, bạn sẽ cần [lịch trình]({{< relurl "cam-nang-du-lich-da-lat-tu-tuc/" >}}) cụ thể để tận dụng 30 ngày lưu trú mỗi lần — từ việc chọn mùa hoa anh đào ở Jinhae, mùa lá đỏ ở Seoraksan cho đến những góc ẩm thực ít người biết ở Seoul. Và nếu đây là lần đầu tiên của bạn với một chuyến du lịch quốc tế tự túc, hãy tham khảo thêm kinh nghiệm xin visa và đi lại từ bài viết về du lịch Thái Lan tự túc của blog — cùng một tư duy chuẩn bị, chỉ khác điểm đến.
 
 Chúc bạn sớm có tấm visa 5 năm và những chuyến đi đáng nhớ đến xứ sở kim chi — nơi mà sau chuyến đầu tiên, bạn sẽ hiểu vì sao người ta cứ muốn quay lại.

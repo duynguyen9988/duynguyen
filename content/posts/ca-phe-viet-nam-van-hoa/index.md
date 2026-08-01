@@ -38,7 +38,7 @@ Ngày nay, cà phê Robusta chiếm đến 97% tổng sản lượng cà phê c�
 
 ## Dấu ấn trong đời sống
 
-Văn hóa cà phê Việt Nam mang một bản sắc riêng không thể trộn lẫn. Đó là chiếc phin nhôm nhỏ nhắn, nơi từng giọt cà phê đen đặc sệt chảy xuống ly thủy tinh. Trong những ngày hè oi bức, cà phê được rót vào cốc đá, cho ra cà phê đá hoặc kết hợp với sữa đặc có đường để tạo nên cà phê sữa đá — một thức uống đã trở thành biểu tượng của ẩm thực đường phố Việt Nam. Sở dĩ sữa đặc được dùng thay cho sữa tươi là bởi sự tiện lợi trong bảo quản ở khí hậu nhiệt đới nóng ẩm, nhưng lâu dần nó đã trở thành gu thưởng thức đặc trưng.
+Văn hóa cà [phê Việt]({{< relurl "ca-phe-sua-da-van-hoa-viet-nam/" >}}) Nam mang một bản sắc riêng không thể trộn lẫn. Đó là chiếc phin nhôm nhỏ nhắn, nơi từng giọt cà phê đen đặc sệt chảy xuống ly thủy tinh. Trong những ngày hè oi bức, cà phê được rót vào cốc đá, cho ra cà phê đá hoặc kết hợp với sữa đặc có đường để tạo nên cà phê sữa đá — một [thức uống]({{< relurl "ca-phe-sua-da/" >}}) đã trở thành biểu tượng của ẩm thực đường phố Việt Nam. Sở dĩ sữa đặc được dùng thay cho sữa tươi là bởi sự tiện lợi trong bảo quản ở khí hậu nhiệt đới nóng ẩm, nhưng lâu dần nó đã trở thành gu thưởng thức đặc trưng.
 
 Các vùng trồng cà phê Buôn Ma Thuột được các nhà khoa học châu Âu phân loại thành các tiểu vùng khí hậu riêng biệt. Nhiều giống cà phê được trồng ở đây, bao gồm Arabica, Robusta (Canephora), Chari (Liberica), với các giống Arabica như Catimor và Arabica SE mang dòng dõi bản địa. Các nhà sản xuất Việt Nam thường pha trộn nhiều giống để tạo ra hương vị cân bằng.
 

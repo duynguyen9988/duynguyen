@@ -16,13 +16,13 @@ resources:
     src: featured-image.jpg
 ---
 
-Tôi nhớ lần đầu tiên bước vào một shop đồ second-hand ở Sài Gòn. Đó là một căn nhà nhỏ trên đường Nguyễn Công Trứ, Quận 1, với những kệ quần áo xếp chồng lên nhau đến trần nhà. Mùi thơm của vải cũ, tiếng nhạc từ chiếc radio cassette, và cảm giác hồi hộp khi lục tung đống áo khoác để tìm một món đồ độc — đó là một trải nghiệm không thể mua được ở bất kỳ trung tâm thương mại nào.
+Tôi nhớ lần đầu tiên bước vào một shop đồ second-hand ở [Sài Gòn]({{< relurl "top-shop-streetwear-sai-gon/" >}}). Đó là một căn nhà nhỏ trên đường Nguyễn Công Trứ, Quận 1, với những kệ quần áo xếp chồng lên nhau đến trần nhà. Mùi thơm của vải cũ, tiếng nhạc từ chiếc radio cassette, và cảm giác hồi hộp khi lục tung đống áo khoác để tìm một món đồ độc — đó là một trải nghiệm không thể mua được ở bất kỳ trung tâm thương mại nào.
 
 Sài Gòn có một văn hóa second-hand phát triển mạnh mẽ từ nhiều thập kỷ nay. Từ đồ Nhật cũ nhập về, hàng tồn kho của các thương hiệu, đến những món vintage chính hiệu từ phương Tây — thành phố này là thiên đường cho ai biết săn lùng.
 
 ## Đồ Nhật cũ trên đường Nguyễn Công Trứ
 
-Nguyễn Công Trứ, Quận 1, là con đường nổi tiếng nhất Sài Gòn về đồ second-hand. Hàng chục cửa hàng nằm san sát nhau, từ đầu đường đến cuối đường, bày bán quần áo, phụ kiện, giày dép nhập từ Nhật Bản.
+Nguyễn Công Trứ, Quận 1, là con đường nổi tiếng nhất Sài Gòn về đồ second-hand. Hàng chục [cửa hàng]({{< relurl "top-10-cua-hang-the-thao-sai-gon/" >}}) nằm san sát nhau, từ đầu đường đến cuối đường, bày bán quần áo, phụ kiện, giày dép nhập từ Nhật Bản.
 
 Đồ Nhật cũ có một đặc điểm: chất lượng vải rất tốt. Người Nhật chăm sóc quần áo cẩn thận, và đồ cũ của họ thường còn rất mới — đôi khi vẫn còn tag. Áo sơ mi Uniqlo, áo khoác The North Face, quần jean Levi's Nhật nội địa — tất cả đều có thể tìm thấy ở đây với giá 50.000–200.000 đồng.
 

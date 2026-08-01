@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Quận 3 là một thế giới cà phê thu nhỏ. Không quá ồn ào như quận 1, không quá xa trung tâm như quận 2, quận 3 tập trung nhiều quán cà phê nhất nhì Sài Gòn — từ những roastery nhỏ xinh trên đường Tú Xương đến những rooftop chill view thành phố trên đường Nguyễn Đình Chiểu.
+Quận 3 là một thế giới cà phê thu nhỏ. Không quá ồn ào như quận 1, không quá xa trung tâm như quận 2, quận 3 tập trung nhiều quán cà phê nhất nhì [Sài Gòn]({{< relurl "ca-phe-via-he-sai-gon/" >}}) — từ những roastery nhỏ xinh trên đường Tú Xương đến những rooftop chill view thành phố trên đường Nguyễn Đình Chiểu.
 
 Dưới đây là mười quán cà phê quận 3 đại diện cho mọi phong cách, từ không gian sân vườn, rooftop, vintage đến coffee roastery chuyên nghiệp.
 
@@ -105,7 +105,7 @@ Cộng Cà Phê là chuỗi cà phê nổi tiếng khắp cả nước, nhưng c
 
 Cà phê cốt dừa là món best seller — vị đậm đà của cà phê kết hợp vị béo ngậy của nước cốt dừa tạo nên một thức uống khó quên. Ngoài ra, Cộng còn có cà phê trứng, cà phê sữa đá và các loại trà.
 
-Không gian quán ấm cúng, thường đông khách vào cuối tuần. Giá 35.000 – 55.000 đồng — rất bình dân.
+Không gian quán ấm cúng, thường đông khách vào [cuối tuần]({{< relurl "top-10-quan-cafe-sai-gon/" >}}). Giá 35.000 – 55.000 đồng — rất bình dân.
 
 - 223 Võ Văn Tần, phường 5, quận 3
 - Mở cửa: 7h – 23h

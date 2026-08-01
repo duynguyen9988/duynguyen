@@ -1,7 +1,7 @@
 ---
-title: "Lịch Sử Điện Thoại Thông Minh — Từ IBM Simon Đến iPhone Và Cuộc Cách Mạng Di Động"
+title: 'Lịch Sử Điện Thoại Thông Minh: Từ IBM Simon Đến iPhone'
 date: 2026-07-27T01:36:20+07:00
-description: "Hành trình 30 năm của smartphone — từ chiếc IBM Simon 1993 đến iPhone và Android, cách điện thoại thông minh thay đổi cách sống của 75% dân số thế giới."
+description: 'Hành trình 30 năm của smartphone — từ chiếc IBM Simon 1993 đến iPhone và Android, cách điện thoại thông minh thay đổi cách sống của 75% dân số thế giới.'
 tags:
   - smartphone
   - lịch sử công nghệ
@@ -18,7 +18,7 @@ slug: lich-su-smartphone
 
 <!-- editorial-structure -->
 
-Điện thoại thông minh — một thiết bị nhỏ gọn nằm gọn trong lòng bàn tay nhưng lại chứa đựng sức mạnh tính toán vượt xa những siêu máy tính của vài thập kỷ trước. Nhưng ít ai biết rằng hành trình của chiếc smartphone bắt đầu từ một thiết bị to lớn, cồng kềnh có tên IBM Simon, ra mắt vào năm 1992.
+[Điện thoại]({{< relurl "motorola-su-troi-day/" >}}) thông minh — một thiết bị nhỏ gọn nằm gọn trong lòng bàn tay nhưng lại chứa đựng sức mạnh tính toán vượt xa những siêu máy tính của vài thập kỷ trước. Nhưng ít ai biết rằng hành trình của chiếc smartphone bắt đầu từ một thiết bị to lớn, cồng kềnh có tên IBM Simon, ra mắt vào năm 1992.
 
 ## Bối cảnh và lựa chọn
 
@@ -32,13 +32,13 @@ Cuối thập niên 1990 chứng kiến sự trỗi dậy của các thiết b�
 
 Đầu những năm 2000, Ericsson R380 (2000) trở thành chiếc điện thoại đầu tiên chạy hệ điều hành Symbian, dù chưa cho phép cài ứng dụng bên thứ ba. Nokia 9210 Communicator (2001) là thiết bị Symbian đầu tiên cho phép cài thêm phần mềm. Palm Treo 180 của Handspring (2002) tích hợp đầy đủ Palm OS với khả năng gọi GSM. Tại Mỹ, BlackBerry của Research In Motion trở nên phổ biến với dân văn phòng nhờ bàn phím QWERTY và khả năng email, đến mức người dùng đặt biệt danh "CrackBerry" vào năm 2006. Trong khi đó, Nokia thống trị châu Âu với dòng Eseries cho doanh nhân và Nseries giải trí, đưa Symbian trở thành hệ điều hành smartphone phổ biến nhất thế giới cho đến năm 2010.
 
-Bước ngoặt lịch sử đến vào tháng 1 năm 2007, khi Apple giới thiệu iPhone nguyên bản. Với màn hình cảm ứng điện dung 3,5 inch hỗ trợ đa chạm — cho phép thao tác "chụm" để phóng to ảnh, bản đồ và trang web — iPhone từ bỏ hoàn toàn bút stylus và bàn phím vật lý, thay vào đó dùng ngón tay làm công cụ tương tác chính. Hệ điều hành iOS chạy trình duyệt Safari có khả năng hiển thị toàn bộ trang web như trên máy tính, thay vì các phiên bản rút gọn bằng WML hay cHTML. Sau đó, App Store ra đời cho phép người dùng tải ứng dụng trực tiếp qua mạng không dây, tạo nên một hệ sinh thái phần mềm hoàn toàn mới.
+Bước ngoặt lịch sử đến vào tháng 1 năm 2007, khi Apple giới thiệu iPhone nguyên bản. Với màn hình cảm ứng điện dung 3,5 inch hỗ trợ đa chạm — cho phép thao tác "chụm" để phóng to ảnh, bản đồ và trang web — iPhone từ bỏ hoàn toàn bút stylus và bàn phím vật lý, thay vào đó dùng ngón tay làm công cụ tương tác chính. Hệ điều hành iOS chạy trình duyệt Safari có khả năng hiển thị toàn bộ trang web như trên máy tính, thay vì các [phiên bản]({{< relurl "lich-su-windows-tung-phien-ban/" >}}) rút gọn bằng WML hay cHTML. Sau đó, App Store ra đời cho phép người dùng tải ứng dụng trực tiếp qua mạng không dây, tạo nên một hệ sinh thái phần mềm hoàn toàn mới.
 
 ## Gợi ý trước khi quyết định
 
 Thành công của iPhone buộc Google phải thay đổi chiến lược. Nguyên mẫu Android đầu tiên vốn giống BlackBerry với bàn phím vật lý, nhưng sau đó bị loại bỏ để chuyển sang thiết kế màn hình cảm ứng trượt ngang. HTC Dream — chiếc điện thoại Android đầu tiên — ra mắt vào tháng 10 năm 2008. Từ đó, hai hệ điều hành iOS và Android tạo thành thế song quyền thống trị thị trường, đẩy lùi các đối thủ như Symbian, Windows Mobile, BlackBerry OS, và webOS. Microsoft mua lại mảng di động của Nokia với giá 7,1 tỷ USD năm 2013 nhưng sau đó phải xóa sổ 7,6 tỷ USD vào năm 2015, đánh dấu sự thất bại của Windows Phone. BlackBerry cũng lần lượt từ bỏ nền tảng riêng để chuyển sang Android.
 
-Cuộc cách mạng camera di động khởi đầu từ Kyocera Visual Phone VP-210 (1999) với camera trước 110.000 pixel, rồi Sharp J-SH04 (2000) — máy ảnh di động đại chúng đầu tiên. Năm 2009, Samsung Omnia HD ghi hình 720p, và đến 2013, Galaxy Note 3 ghi hình 4K. Nokia 808 PureView (2012) gây sốc với cảm biến 41 megapixel, trong khi iPhone 7 Plus (2016) phổ biến camera kép. Đến cuối thập niên, smartphone gần như thay thế hoàn toàn máy ảnh du lịch — doanh số máy ảnh kỹ thuật số năm 2015 chỉ còn một phần ba so với thời đỉnh cao.
+Cuộc cách mạng camera di động khởi đầu từ Kyocera Visual Phone VP-210 (1999) với camera trước 110.000 pixel, rồi Sharp J-SH04 (2000) — máy ảnh di động đại chúng đầu tiên. Năm 2009, Samsung Omnia HD ghi hình 720p, và đến 2013, galaxy Note 3 ghi hình 4K. Nokia 808 PureView (2012) gây sốc với cảm biến 41 megapixel, trong khi iPhone 7 Plus (2016) phổ biến camera kép. Đến cuối thập niên, smartphone gần như thay thế hoàn toàn máy ảnh du lịch — doanh số máy ảnh kỹ thuật số năm 2015 chỉ còn một phần ba so với thời đỉnh cao.
 
 Màn hình smartphone cũng thay đổi chóng mặt. Từ màn hình 3,5 inch của iPhone 2007, phablet như Galaxy Note (2011) đẩy lên 5,3 inch, và đến cuối thập niên 2010, màn hình 6 inch trở thành tiêu chuẩn với tỷ lệ dài hơn 16:9, viền siêu mỏng, "notch" và "hole-punch" cho camera trước, cùng tần số quét 90 Hz, 120 Hz. Công nghệ màn hình gập hiện thực hóa với Royole FlexPai (2018) và Galaxy Fold (2019).
 

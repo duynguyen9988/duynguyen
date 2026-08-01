@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Có những món ăn mang theo cả quê hương trong từng sợi mì. Với người con xứ Quảng rời Đà Nẵng, Quảng Nam vào Sài Gòn lập nghiệp, nỗi nhớ đầu tiên hiếm khi là nhà cửa hay bạn bè — mà là một tô mì Quảng. Sợi mì vàng dai mềm, tô nước nhưn sánh xâm xấp đầy tay, vài lát thịt, con tôm, miếng cá lóc kho hổ phách, thêm đĩa rau sống và bánh tráng mè giòn tan. Khác với phở ngập nước dùng hay bún bò Huế đậm màu, mì Quảng là món ăn của sự cân bằng: khô ráo mà vẫn đậm đà, mộc mạc mà không kém phần kỳ công.
+Có những món ăn mang theo cả quê hương trong từng sợi mì. Với người con xứ Quảng rời Đà Nẵng, Quảng Nam vào [Sài Gòn]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}) lập nghiệp, nỗi nhớ đầu tiên hiếm khi là nhà cửa hay bạn bè — mà là một tô mì Quảng. Sợi mì vàng dai mềm, tô nước nhưn sánh xâm xấp đầy tay, vài lát thịt, con tôm, miếng cá lóc kho hổ phách, thêm đĩa rau sống và bánh tráng mè giòn tan. Khác với phở ngập nước dùng hay bún bò Huế đậm màu, mì Quảng là món ăn của sự cân bằng: khô ráo mà vẫn đậm đà, mộc mạc mà không kém phần kỳ công.
 
 Sài Gòn không thiếu quán mì Quảng — hàng trăm quán trải từ vỉa hè Bảy Hiền đến mặt tiền quận 1. Nhưng tìm được tô mì "chuẩn Quảng" giữa lòng thành phố thì không dễ. Dưới đây là 10 cái tên được thực khách và báo chí nhắc đến nhiều nhất năm 2026, kèm địa chỉ, giá và giờ mở cửa để bạn ghé đúng lúc.
 
@@ -86,4 +86,4 @@ Khép lại danh sách là Mì Quảng Nam Sơn tại 21 Lê Đức Thọ, phư�
 
 Mì Quảng là món ăn của sự kiên nhẫn: sợi mì tráng thủ công, nước nhưn ninh nhỏ lửa, bánh tráng nướng than — mỗi công đoạn đều là tiếng vọng của miền Trung giữa lòng Sài Gòn. Danh sách trên không có thứ hạng tuyệt đối; mỗi quán một cá tính, từ Mì Quảng Sâm chuẩn vị vỉa hè xưa đến Mì Quảng Bà Mua theo triết lý thương hiệu, từ Mì Quảng 85 chỉ mở đến trưa cho đến Tiệm Mì Đúng Quảng mở đến tối. Hãy bắt đầu từ quán gần bạn nhất, và nhớ ghé sớm ở những quán chỉ phục vụ buổi sáng.
 
-Lưu ý giá cả có thể thay đổi theo thời điểm; các mức giá trong bài được tổng hợp từ báo chí và bài review trong năm 2025–2026. Nếu hành trình ẩm thực Sài Gòn của bạn chưa dừng lại, đừng bỏ qua [top quán phở ngon nhất Sài Gòn]({{< relurl "top-10-quan-pho-sai-gon/" >}}), [bún bò Huế đậm đà]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}) hay [cà phê vỉa hè sáng sớm]({{< relurl "ca-phe-via-he-sai-gon/" >}}) — mỗi món một câu chuyện riêng của thành phố này.
+Lưu ý giá cả có thể thay đổi theo thời điểm; các mức giá trong bài được tổng hợp từ báo chí và bài review trong năm 2025–2026. Nếu hành trình ẩm thực Sài Gòn của bạn chưa dừng lại, đừng bỏ qua top [quán phở]({{< relurl "top-10-quan-pho-sai-gon/" >}}) ngon nhất Sài Gòn, bún bò Huế đậm đà hay cà phê vỉa hè sáng sớm — mỗi món một câu chuyện riêng của thành phố này.

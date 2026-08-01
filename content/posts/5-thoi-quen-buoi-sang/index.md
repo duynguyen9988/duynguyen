@@ -22,7 +22,7 @@ Có một sự thật mà không ai nói với bạn khi bạn bước vào tu�
 
 ## Vấn đề và bối cảnh
 
-**Thói quen đầu tiên:** không chạm vào điện thoại trong ba mươi phút đầu sau khi thức dậy. Đây là thói quen khó nhất nhưng mang lại hiệu quả lớn nhất. Khi bạn mở điện thoậy ngay sau khi mở mắt, bạn nạp vào não một luồng thông tin hỗn loạn — email công việc, tin nhắn, thông báo mạng xã hội, tin tức. Não bạn bị kéo vào chế độ phản ứng ngay từ phút đầu tiên của ngày mới. Thay vào đó, hãy dành ba mươi phút đầu để làm những việc không cần màn hình: uống nước, vươn vai, đi tắm, ăn sáng. Não bạn cần thời gian để "khởi động" giống như cơ thể vậy.
+**Thói quen đầu tiên:** không chạm vào điện thoại trong ba mươi phút đầu sau khi thức dậy. Đây là thói quen khó nhất nhưng mang lại hiệu quả lớn nhất. Khi bạn mở điện thoậy ngay sau khi mở mắt, bạn nạp vào não một luồng thông tin hỗn loạn — email công việc, tin nhắn, thông báo mạng xã hội, tin tức. Não bạn bị kéo vào chế độ phản ứng ngay từ phút đầu tiên của ngày mới. Thay vào đó, hãy dành ba mươi phút đầu để làm những việc không cần màn hình: uống nước, vươn vai, đi tắm, ăn sáng. Não bạn cần [thời gian]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) để "khởi động" giống như cơ thể vậy.
 
 **Thói quen thứ hai:** uống một ly nước lớn ngay sau khi thức dậy. Cơ thể bạn đã trải qua sáu đến tám tiếng không có nước. Khi bạn ngủ, cơ thể vẫn hoạt động — tim đập, phổi thở, não xử lý thông tin — và tất cả đều cần nước. Một ly nước ấm với một lát chanh (nếu có) giúp kích hoạt hệ tiêu hóa, tăng cường trao đổi chất và làm sạch cơ thể. Tôi để sẵn một chai nước cạnh giường, và uống hết trước khi làm bất cứ việc gì khác.
 
@@ -32,7 +32,7 @@ Có một sự thật mà không ai nói với bạn khi bạn bước vào tu�
 
 **Thói quen thứ tư:** vận động nhẹ trong mười lăm phút. Tôi không tập gym. Tôi không chạy bộ. Tôi chỉ làm một vài động tác yoga đơn giản hoặc đi bộ quanh khu nhà. Mục đích không phải là đốt calo, mà là đánh thức cơ thể sau một đêm dài. Vận động nhẹ giúp máu lưu thông, tăng oxy lên não, và giải phóng endorphin — hormone tạo cảm giác hạnh phúc. Một nghiên cứu từ Đại học Bristol cho thấy những người tập thể dục nhẹ vào buổi sáng có tinh thần tốt hơn và hiệu suất công việc cao hơn 20% so với những người không tập.
 
-**Thói quen thứ năm:** đọc một thứ gì đó có chiều sâu trong mười phút. Không phải tin tức. Không phải Facebook. Một cuốn sách, một bài viết dài, một bản tin phân tích. Điều này giúp tôi bắt đầu ngày mới với tư duy chủ động thay vì bị động. Khi bạn đọc tin tức buổi sáng, bạn để người khác quyết định điều gì quan trọng với bạn. Khi bạn đọc một cuốn sách, bạn tự chọn điều gì đáng để suy nghĩ. Tôi thường đọc khoảng mười lăm đến hai mươi trang mỗi sáng — không nhiều, nhưng một năm tích lũy được khoảng mười lăm cuốn sách.
+**Thói quen thứ năm:** đọc một thứ gì đó có chiều sâu trong mười phút. Không phải tin tức. Không phải Facebook. Một cuốn sách, một bài viết dài, một bản tin phân tích. Điều này giúp tôi bắt đầu ngày mới với tư duy chủ động thay vì bị động. Khi bạn đọc tin tức buổi sáng, bạn để người khác quyết định điều gì [quan trọng]({{< relurl "nguyen-ly-pareto-8020/" >}}) với bạn. Khi bạn đọc một cuốn sách, bạn tự chọn điều gì đáng để suy nghĩ. Tôi thường đọc khoảng mười lăm đến hai mươi trang mỗi sáng — không nhiều, nhưng một năm tích lũy được khoảng mười lăm cuốn sách.
 
 ## Điều cần ghi nhớ
 

@@ -1,6 +1,6 @@
 ---
-title: "House of Cards — Ngôi Nhà Bài Chính Trị Và Cuộc Chơi Quyền Lực Tuyệt Đỉnh"
-description: 'House of Cards (2013–2018): series chính trị của Netflix về Frank Underwood và cuộc chơi quyền lực tuyệt đỉnh.'
+title: 'House of Cards: Ngôi Nhà Bài Chính Trị Và Cuộc Chơi Quyền Lực'
+description: 'House of Cards (2013–2018): series chính trị Netflix về Frank Underwood, thủ đoạn quyền lực tuyệt đỉnh và di sản của bộ phim khai sinh kỷ nguyên streaming.'
 date: 2026-07-29T01:16:24+07:00
 slug: house-of-cards
 categories: [phim]
@@ -11,7 +11,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Có một câu nói mà Francis Underwood thường thì thầm với khán giả xuyên qua màn hình: "Power is a lot like real estate. It's all about location, location, location." Với một cái nháy mắt, một điếu thuốc và giọng nói trầm ấm pha chút khinh bỉ, Kevin Spacey đã định nghĩa lại hình ảnh chính khách trên truyền hình. *House of Cards* không chỉ là series chính trị — nó là bản giao hưởng của tham vọng, sự phản bội, và câu hỏi liệu con người có thể đi bao xa để giữ lấy quyền lực.
+Có một câu nói mà Francis Underwood thường thì thầm với khán giả xuyên qua màn hình: "Power is a lot like real estate. It's all about location, location, location." Với một cái nháy mắt, một điếu thuốc và giọng nói trầm ấm pha chút khinh bỉ, Kevin Spacey đã định nghĩa lại hình ảnh chính khách trên truyền hình. *House of Cards* không chỉ là series chính trị — nó là bản giao hưởng của tham vọng, sự phản bội, và câu hỏi liệu con người có thể đi bao xa để giữ lấy [quyền lực]({{< relurl "bo-gia-the-godfather-va-dien-anh-mafia/" >}}).
 
 Dựa trên cuốn tiểu thuyết cùng tên năm 1989 của Michael Dobbs và loạt phim BBC năm 1990, *House of Cards* do Beau Willimon sáng tạo và David Fincher đạo diễn những tập đầu. Đây là series đầu tiên do Netflix sản xuất và phát hành theo định dạng binge-watch — tất cả 13 tập của mùa một được tung lên cùng lúc vào ngày 1 tháng 2 năm 2013, thay đổi mãi mãi cách thế giới xem truyền hình.
 
@@ -31,4 +31,4 @@ Mùa sáu — sau khi Kevin Spacey bị sa thải vì cáo buộc tấn công t�
 
 *House of Cards* nhận 33 đề cử Emmy và 8 đề cử Quả Cầu Vàng — Robin Wright thắng năm 2014, Kevin Spacey thắng năm 2015. Đây là series trực tuyến đầu tiên được đề cử giải Emmy hạng mục chính. Nhưng sau mùa ba, chất lượng kịch bản bắt đầu suy giảm, và mùa sáu bị chỉ trích vì phải viết lại toàn bộ sau khi Spacey biến mất.
 
-Dù vậy, *House of Cards* vẫn là một cột mốc quan trọng. Nó chứng minh rằng Netflix có thể sản xuất nội dung đẳng cấp Hollywood, và rằng khán giả sẵn sàng "mainline" cả một mùa phim trong một ngày cuối tuần. Như Frank từng nói, "Power is not a tool, it's a game." Và không ai chơi game đó hay hơn Underwoods.
+Dù vậy, *House of Cards* vẫn là một cột mốc quan trọng. Nó chứng minh rằng Netflix có thể sản xuất [nội dung]({{< relurl "squid-game-lan-song-noi-dung-han-quoc/" >}}) đẳng cấp Hollywood, và rằng khán giả sẵn sàng "mainline" cả một mùa phim trong một ngày cuối tuần. Như Frank từng nói, "Power is not a tool, it's a game." Và không ai chơi game đó hay hơn Underwoods.

@@ -2,15 +2,6 @@ User-agent: *
 
 Disallow:
 
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
 # Block SISTRIX
 User-agent: SISTRIX Crawler
 Disallow: /

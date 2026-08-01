@@ -1,9 +1,9 @@
 ---
-title: 'The Girl on the Train (2016): Phim tâm lý tội phạm của Tate Taylor với Emily Blunt'
+title: 'The Girl on the Train (2016): Phim Tâm Lý Tội Phạm Của Tate Taylor'
 slug: girl-on-the-train-2016
 date: 2026-07-23T09:00:00+07:00
 draft: false
-description: 'The Girl on the Train (2016) — chuyển thể từ best-seller của Paula Hawkins, câu chuyện ly kỳ về ký ức, mất trí và sự thật.'
+description: 'The Girl on the Train (2016) — chuyển thể từ best-seller của Paula Hawkins với Emily Blunt: câu chuyện ly kỳ về ký ức, mất trí và sự thật đằng sau vụ mất tích.'
 tags:
   - the-girl-on-the-train
   - emily-blunt
@@ -17,7 +17,7 @@ resources:
     src: featured-image.jpg
 ---
 
-*The Girl on the Train* là phim tâm lý tội phạm Mỹ năm 2016 do Tate Taylor đạo diễn, với kịch bản của Erin Cressida Wilson dựa trên tiểu thuyết cùng tên năm 2015 của Paula Hawkins. Phim có sự tham gia của Emily Blunt, Rebecca Ferguson, Haley Bennett, Justin Theroux, Luke Evans, Allison Janney, Édgar Ramírez và Lisa Kudrow.
+*The Girl on the Train* là phim tâm lý [tội phạm]({{< relurl "gone-girl-2014/" >}}) Mỹ năm 2016 do Tate Taylor đạo diễn, với kịch bản của Erin Cressida Wilson dựa trên tiểu thuyết cùng tên năm 2015 của Paula Hawkins. Phim có sự tham gia của Emily Blunt, Rebecca Ferguson, Haley Bennett, Justin Theroux, Luke Evans, Allison Janney, Édgar Ramírez và Lisa Kudrow.
 
 Phim công chiếu tại London ngày 20 tháng 9 năm 2016 và được phát hành rộng rãi tại Mỹ vào ngày 7 tháng 10 năm 2016 bởi Universal Pictures. *The Girl on the Train* thu về 173,2 triệu USD toàn cầu so với kinh phí 45 triệu USD, và là phim đầu tiên của DreamWorks Pictures được Universal Pictures phân phối sau khi chấm dứt hợp đồng với Walt Disney Studios.
 

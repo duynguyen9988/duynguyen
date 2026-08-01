@@ -22,7 +22,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Jakarta, Indonesia. Một buổi sáng tháng Bảy 2026, hơn 30 triệu người thức dậy trong vùng đô thị lớn nhất thế giới. Trong số họ, một gia đình trẻ sống trong căn hộ nhỏ ở ngoại ô, làm việc từ xa cho công ty ở Singapore, mua thực phẩm từ trang trại thông minh ở Đức, và gửi con đến trường trực tuyến với giáo viên AI. Đây là xã hội 2030 — nơi ranh giới giữa địa phương và toàn cầu, giữa thực và ảo, đã tan biến.
+Jakarta, Indonesia. Một buổi sáng tháng Bảy 2026, hơn 30 triệu người thức dậy trong vùng đô thị lớn nhất thế giới. Trong số họ, một gia đình trẻ sống trong căn hộ nhỏ ở ngoại ô, làm việc từ xa cho công ty ở Singapore, mua thực phẩm từ trang trại thông minh ở Đức, và gửi con đến trường trực tuyến với [giáo viên AI]({{< relurl "ai-2026-2030/" >}}). Đây là xã hội 2030 — nơi ranh giới giữa địa phương và toàn cầu, giữa thực và ảo, đã tan biến.
 
 ## Nguồn gốc và bối cảnh
 
@@ -36,7 +36,7 @@ Dân số thế giới tăng hơn ba lần trong thế kỷ 20, từ 1,65 tỷ l
 
 Già hóa dân số là áp lực lớn. Người dưới 15 tuổi chiếm 25,18%, người trên 65 chiếm 9,69% vào 2021. Tỷ lệ người già tăng nhanh ở Nhật, Hàn, châu Âu — nơi tỷ lệ sinh giảm mạnh và tuổi thọ tăng. Tỷ lệ phụ thuộc người già đang đặt áp lực lên lương hưu và y tế, nhưng cũng tạo ra "nền kinh tế bạc".
 
-Văn hóa toàn cầu đang thay đổi khi thế giới kết nối hơn bao giờ. TikTok và Netflix tạo ra văn hóa đại chúng toàn cầu, nhưng cũng làm dấy lên lo ngại về đồng nhất hóa và mất bản sắc địa phương. Tỷ lệ biết chữ tăng từ 66,7% năm 1979 lên 86,3%, nhưng mù chữ vì nghèo đói tập trung ở Nam Á và châu Phi cận Sahara.
+Văn hóa toàn cầu đang thay đổi khi thế giới kết nối hơn bao giờ. [TikTok và Netflix]({{< relurl "netflix-lich-su-phat-trien/" >}}) tạo ra văn hóa đại chúng toàn cầu, nhưng cũng làm dấy lên lo ngại về đồng nhất hóa và mất bản sắc địa phương. Tỷ lệ biết chữ tăng từ 66,7% năm 1979 lên 86,3%, nhưng mù chữ vì nghèo đói tập trung ở Nam Á và châu Phi cận Sahara.
 
 ## Dấu ấn trong đời sống
 

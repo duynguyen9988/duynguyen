@@ -32,7 +32,7 @@ Cùng ngày với He-Man, anh em nhà Wayans tái hợp sau mười tám năm đ
 
 ## Disclosure Day — 12 tháng 6
 
-Steven Spielberg trở lại với thể loại ông từng làm nên huyền thoại: người ngoài hành tinh. Nhưng nếu E.T. là câu chuyện về sự kết nối và Close Encounters là về sự kỳ diệu, thì Disclosure Day mang một tông màu khác: hoài nghi và âm mưu. Josh O'Connor vào vai Daniel Kellner, một nhân viên an ninh mạng quyết tâm phơi bày sự thật về người ngoài hành tinh đang sống giữa loài người. Emily Blunt, Eve Hewson và Colman Domingo tham gia dàn diễn viên. Trong một cuộc phỏng vấn, Spielberg từng nói ông tin rằng người ngoài hành tinh đã ở đây, và bộ phim này là cách ông đặt câu hỏi: tại sao họ lại giấu mình?
+Steven Spielberg trở lại với thể loại ông từng làm nên huyền thoại: người ngoài hành tinh. Nhưng nếu E.T. là câu chuyện về sự kết nối và Close Encounters là về sự kỳ diệu, thì [Disclosure Day]({{< relurl "thoi-khac-cong-bo/" >}}) mang một tông màu khác: hoài nghi và âm mưu. Josh O'Connor vào vai Daniel Kellner, một nhân viên an ninh mạng quyết tâm phơi bày sự thật về người ngoài hành tinh đang sống giữa loài người. Emily Blunt, Eve Hewson và Colman Domingo tham gia dàn diễn viên. Trong một cuộc phỏng vấn, Spielberg từng nói ông tin rằng người ngoài hành tinh đã ở đây, và bộ phim này là cách ông đặt câu hỏi: tại sao họ lại giấu mình?
 
 ## Toy Story 5 — 19 tháng 6
 
@@ -52,7 +52,7 @@ Disney tiếp tục chiến dịch làm mới các tác phẩm hoạt hình kinh
 
 ## The Odyssey — 17 tháng 7
 
-Và rồi Christopher Nolan gõ cửa. Chỉ vài ngày sau khi công chiếu, The Odyssey đã thu về hơn 389 triệu USD toàn cầu, phá vỡ mọi dự đoán của giới phân tích. Với kinh phí 250 triệu USD, bộ phim được quay hoàn toàn bằng máy quay phim nhựa IMAX 70mm — lần đầu tiên trong lịch sử. Matt Damon vào vai Odysseus, Tom Holland là Telemachus, trong khi Anne Hathaway, Zendaya, Robert Pattinson, Charlize Theron và Lupita Nyong'o tạo thành một dàn diễn viên mà Nolan gọi là những mắt xích phục vụ hành trình, chứ không phải những ngôi sao cạnh tranh thời lượng. Vé IMAX cho suất chiếu cuối tuần đầu tiên đã cháy hàng từ nhiều tháng trước, thậm chí có vé bị phe vé đẩy lên hàng nghìn USD. The Odyssey là bằng chứng cho thấy điện ảnh đại chúng vẫn có thể vừa là nghệ thuật vừa là một sự kiện toàn cầu.
+Và rồi Christopher Nolan gõ cửa. Chỉ vài ngày sau khi công chiếu, [The Odyssey]({{< relurl "review-the-odyssey-2026-khong-spoiler/" >}}) đã thu về hơn 389 triệu USD toàn cầu, phá vỡ mọi dự đoán của giới phân tích. Với kinh phí 250 triệu USD, bộ phim được quay hoàn toàn bằng máy quay phim nhựa IMAX 70mm — lần đầu tiên trong lịch sử. Matt Damon vào vai Odysseus, Tom Holland là Telemachus, trong khi Anne Hathaway, Zendaya, Robert Pattinson, Charlize Theron và Lupita Nyong'o tạo thành một dàn diễn viên mà Nolan gọi là những mắt xích phục vụ hành trình, chứ không phải những ngôi sao cạnh tranh thời lượng. Vé IMAX cho suất chiếu cuối tuần đầu tiên đã cháy hàng từ nhiều tháng trước, thậm chí có vé bị phe vé đẩy lên hàng nghìn USD. The Odyssey là bằng chứng cho thấy điện ảnh đại chúng vẫn có thể vừa là nghệ thuật vừa là một sự kiện toàn cầu.
 
 ## Spider-Man: Brand New Day — 31 tháng 7
 
@@ -62,4 +62,4 @@ Chốt lại mùa hè là Người Nhện. Sau sự kiện của No Way Home, Pe
 
 Mùa hè 2026 sắp khép lại, nhưng những gì nó để lại là một bức tranh điện ảnh đầy tham vọng: từ những thương hiệu kỳ cựu như Toy Story, Star Wars đến những tên tuổi lớn như Nolan và Spielberg, từ nỗi sợ UFO đến nụ cười của Minions. Và còn đó Avengers: Doomsday và Dune: Part Three đang chờ ở cuối năm. Có lẽ chưa bao giờ điện ảnh lại sôi động đến thế.
 
-Nếu muốn khám phá thêm về thế giới điện ảnh và giải trí 2026, hãy xem bài viết về [văn hóa giải trí Việt Nam 2026]({{< relurl "van-hoa-giai-tri-viet-nam-2026/" >}}) và bài [review chi tiết Disclosure Day của Spielberg]({{< relurl "thoi-khac-cong-bo/" >}}).
+Nếu muốn khám phá thêm về thế giới điện ảnh và giải trí 2026, hãy xem bài viết về văn hóa giải trí Việt Nam 2026 và bài review chi tiết Disclosure Day của Spielberg.

@@ -56,7 +56,7 @@ Nhưng yếu tố quan trọng nhất là kỹ thuật kể chuyện "cinematic"
 
 ## Sức mạnh của dōjinshi và fan culture
 
-Dōjinshi — manga tự xuất bản bởi fan — là một hiện tượng văn hóa độc đáo của Nhật Bản. Tại Comiket, hội chợ truyện tranh lớn nhất thế giới với hơn 500.000 lượt khách trong ba ngày, các tác giả nghiệp dư bán tác phẩm của mình — nhiều tác phẩm trong số đó là fan fiction hoặc parody của các series nổi tiếng.
+Dōjinshi — manga tự xuất bản bởi fan — là một [hiện tượng]({{< relurl "anime/" >}}) [văn hóa]({{< relurl "van-hoa-doc-sach-viet-nam/" >}}) độc đáo của Nhật Bản. Tại Comiket, hội chợ truyện tranh lớn nhất thế giới với hơn 500.000 lượt khách trong ba ngày, các tác giả nghiệp dư bán tác phẩm của mình — nhiều tác phẩm trong số đó là fan fiction hoặc parody của các series nổi tiếng.
 
 Hệ sinh thái này tạo ra một vòng tròn đạo đức lành mạnh: fan yêu thích một series đến mức muốn tự sáng tác, các tác giả chuyên nghiệp khuyến khích điều đó (thay vì đe dọa kiện tụng như phương Tây), và từ trong đám đông dōjinshi đó, những tài năng mới được phát hiện và trở thành mangaka chuyên nghiệp. One-Punch Man là một ví dụ điển hình: bắt đầu như một webcomic nghiệp dư của ONE, sau đó được làm lại chuyên nghiệp bởi Yusuke Murata và trở thành một trong những manga bán chạy nhất thế giới.
 

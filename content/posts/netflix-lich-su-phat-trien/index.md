@@ -1,7 +1,7 @@
 ---
-title: "Netflix — Từ Băng DVD Đơn Chiếc Đến Đế Chế Streaming 325 Triệu Người Dùng Toàn Cầu"
+title: 'Netflix: Từ Băng DVD Đơn Chiếc Đến Đế Chế Streaming Toàn Cầu'
 date: 2026-07-27T01:37:17+07:00
-description: "Hành trình 30 năm của Netflix — từ dịch vụ cho thuê DVD qua bưu điện năm 1997 đến nền tảng streaming lớn nhất thế giới với 325 triệu thuê bao."
+description: 'Hành trình 30 năm của Netflix — từ dịch vụ cho thuê DVD qua bưu điện năm 1997 đến nền tảng streaming lớn nhất thế giới với 325 triệu thuê bao.'
 tags:
   - Netflix
   - streaming
@@ -40,9 +40,9 @@ Năm 2011 chứng kiến cả thành công lẫn khủng hoảng. Netflix mua b�
 
 Bước ngoặt lớn nhất đến vào năm 2013, khi Netflix phát hành House of Cards — series truyền hình gốc đầu tiên được đặt hàng thẳng bởi một dịch vụ streaming. Netflix quyết định phát hành toàn bộ 13 tập cùng lúc, tận dụng thói quen binge-watching của khán giả — một công thức mà sau này trở thành chuẩn mực của toàn ngành. Orange Is the New Black ra mắt tháng 7 cùng năm và nhanh chóng trở thành series gốc được xem nhiều nhất của hãng.
 
-**Từ đó, Netflix không ngừng mở rộng:** ký hợp đồng với Marvel Comics để sản xuất bốn series riêng lẻ (Daredevil, Jessica Jones, Luke Cage, Iron Fist) và một miniseries The Defenders; ký thỏa thuận với Disney cho các phim hoạt hình kinh điển; và vươn ra toàn cầu với sự hiện diện ở 130 quốc gia vào tháng 1 năm 2016. Đến năm 2022, nội dung Netflix Original đã chiếm một nửa toàn bộ thư viện của hãng tại Mỹ, và công ty mở rộng sang lĩnh vực game di động.
+**Từ đó, Netflix không ngừng mở rộng:** ký hợp đồng với Marvel Comics để sản xuất bốn series riêng lẻ (Daredevil, Jessica Jones, Luke Cage, Iron Fist) và một miniseries The Defenders; ký thỏa thuận với Disney cho các phim hoạt hình kinh điển; và vươn ra [toàn cầu]({{< relurl "google-lich-su/" >}}) với sự hiện diện ở 130 quốc gia vào tháng 1 năm 2016. Đến năm 2022, nội dung Netflix Original đã chiếm một nửa toàn bộ thư viện của hãng tại Mỹ, và công ty mở rộng sang lĩnh vực game di động.
 
-Năm 2021 chứng kiến cơn sốt Squid Game — series Hàn Quốc về sinh tồn — trở thành chương trình được xem nhiều nhất lịch sử Netflix với hơn 111 triệu người xem trong 28 ngày đầu. Năm 2023, Netflix ngừng hoạt động cho thuê DVD sau 25 năm, khép lại một chương lịch sử. Từ tháng 1 năm 2025, Netflix bắt đầu phát sóng trực tiếp WWE Raw theo hợp đồng 10 năm trị giá 500 triệu đô mỗi năm, và năm 2027 sẽ là đơn vị phát sóng độc quyền FIFA Women's World Cup tại Mỹ.
+Năm 2021 chứng kiến cơn sốt [Squid Game]({{< relurl "squid-game-lan-song-noi-dung-han-quoc/" >}}) — series Hàn Quốc về sinh tồn — trở thành chương trình được xem nhiều nhất lịch sử Netflix với hơn 111 triệu người xem trong 28 ngày đầu. Năm 2023, Netflix ngừng hoạt động cho thuê DVD sau 25 năm, khép lại một chương lịch sử. Từ tháng 1 năm 2025, Netflix bắt đầu phát sóng trực tiếp WWE Raw theo hợp đồng 10 năm trị giá 500 triệu đô mỗi năm, và năm 2027 sẽ là đơn vị phát sóng độc quyền FIFA Women's World Cup tại Mỹ.
 
 ## Góc nhìn tổng quan
 

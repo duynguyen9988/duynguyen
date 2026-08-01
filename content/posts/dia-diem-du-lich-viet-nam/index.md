@@ -28,7 +28,7 @@ Sapa mỗi năm đón hàng ngàn du khách muốn chinh phục đỉnh Fansipan
 
 ## Những trải nghiệm nổi bật
 
-Miền Trung là nơi hội tụ của những di sản thế giới. Đà Nẵng dẫn đầu lượng tìm kiếm du lịch nội địa nửa đầu năm 2026, tăng 25% so với cùng kỳ. Thành phố biển với bãi Mỹ Khê dài cát trắng, cầu Rồng rực lửa cuối tuần, và Bà Nà Hills với cây cầu vàng nổi tiếng. Hội An, phố cổ hơn bốn trăm năm tuổi, là điểm đến hiếu khách nhất Việt Nam. Nơi đây từng là thương cảng quốc tế nhộn nhịp, nay vẫn vẹn nguyên với những ngôi nhà cổ, chùa Cầu Nhật Bản, lồng đèn rực rỡ mỗi tháng.
+[Miền Trung]({{< relurl "nha-trang/" >}}) là nơi hội tụ của những di sản thế giới. Đà Nẵng dẫn đầu lượng tìm kiếm du lịch nội địa nửa đầu năm 2026, tăng 25% so với cùng kỳ. Thành phố biển với bãi Mỹ Khê dài cát trắng, cầu Rồng rực lửa cuối tuần, và Bà Nà Hills với cây cầu vàng nổi tiếng. Hội An, phố cổ hơn bốn trăm năm tuổi, là điểm đến hiếu khách nhất Việt Nam. Nơi đây từng là thương cảng quốc tế nhộn nhịp, nay vẫn vẹn nguyên với những ngôi nhà cổ, chùa Cầu Nhật Bản, lồng đèn rực rỡ mỗi tháng.
 
 Cố đô Huế nằm trên bờ sông Hương thơ mộng, với Đại Nội, lăng tẩm các vua Nguyễn. Không ồn ào náo nhiệt, Huế mang vẻ đẹp trầm mặc, với những món ăn cung đình tinh tế và những con người nói năng nhẹ nhàng. Phong Nha — Kẻ Bàng ở Quảng Bình là vương quốc hang động với Hang Sơn Đoòng — hang động lớn nhất thế giới về thể tích. Những chuyến thám hiểm Sơn Đoòng đã đưa Quảng Bình lên bản đồ du lịch thế giới.
 
@@ -36,7 +36,7 @@ Nha Trang và Phú Yên mang vẻ đẹp khác nhau. Nha Trang là thành phố 
 
 ## Điều đáng lưu ý cho hành trình
 
-Phú Quốc tiếp tục là hòn đảo được yêu thích nhất Việt Nam. Tạp chí DestinAsian xếp Phú Quốc vào top mười hòn đảo đẹp nhất châu Á 2026. Cáp treo vượt biển dài nhất thế giới, VinWonders, những bãi biển hoang sơ như Bãi Sao, Bãi Dài, và nước mắm Phú Quốc nức tiếng. Côn Đảo, nơi từng là nhà tù khủng khiếp dưới thời Pháp, nay là điểm đến tâm linh và nghỉ dưỡng cao cấp, với những bãi biển hoang sơ và rùa biển đẻ trứng.
+[Phú Quốc]({{< relurl "phu-quoc/" >}}) tiếp tục là hòn đảo được yêu thích nhất Việt Nam. Tạp chí DestinAsian xếp Phú Quốc vào top mười hòn đảo đẹp nhất châu Á 2026. Cáp treo vượt biển dài nhất thế giới, VinWonders, những bãi biển hoang sơ như Bãi Sao, Bãi Dài, và nước mắm Phú Quốc nức tiếng. Côn Đảo, nơi từng là nhà tù khủng khiếp dưới thời Pháp, nay là điểm đến tâm linh và nghỉ dưỡng cao cấp, với những bãi biển hoang sơ và rùa biển đẻ trứng.
 
 Mũi Né với đồi cát vàng trải rộng, làn nước xanh và các hoạt động thể thao biển như lướt ván diều. Cần Thơ với chợ nổi Cái Răng, vựa trái cây miền Tây sông nước. An Giang với chợ nổi Châu Đốc, núi Sam, lăng Thoại Ngọc Hầu. Cà Mau với khu dự trữ sinh quyển rừng ngập mặn rộng hơn 370.000 héc-ta, là nơi tận cùng Tổ quốc nhìn ra biển Đông.
 
@@ -44,4 +44,4 @@ Năm 2026, du lịch Việt Nam không chỉ có biển xanh cát trắng, mà c
 
 ## Dư vị của chuyến đi
 
-Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm [bún bò Huế]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}), [lẩu cho ngày mưa]({{< relurl "top-10-quan-lau-sai-gon/" >}}), [cà phê vỉa hè]({{< relurl "ca-phe-via-he-sai-gon/" >}}) và [chợ đêm phố ẩm thực]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) — những trải nghiệm làm nên hồn cốt của thành phố.
+Khi ghé Sài Gòn trong hành trình khám phá, đừng quên trải nghiệm bún bò Huế, lẩu cho ngày mưa, cà phê vỉa hè và chợ đêm phố ẩm thực — những trải nghiệm làm nên hồn cốt của thành phố.

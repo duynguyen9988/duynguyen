@@ -15,7 +15,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Có một thời, nếu bạn nói với ai đó rằng mình xem hoạt hình Nhật Bản, phản ứng thường gặp nhất là một cái nhìn ái ngại — kiểu như bạn đang nói đến thứ gì đó chỉ dành cho trẻ con. Rồi *Spirited Away* giành Oscar năm 2003, *Your Name* làm mưa làm gió khắp toàn cầu năm 2016, và *Demon Slayer: Mugen Train* phá vỡ mọi kỷ lục phòng vé tại Nhật. Đến nay, anime không còn là thú vui của một nhóm nhỏ — nó đã trở thành một trong những ngành công nghiệp giải trí phát triển nhanh nhất thế giới, với sức ảnh hưởng trải dài từ thời trang, âm nhạc đến ngôn ngữ đường phố.
+Có một thời, nếu bạn nói với ai đó rằng mình xem hoạt hình [Nhật Bản]({{< relurl "manga-thanh-cong-toan-cau/" >}}), phản ứng thường gặp nhất là một cái nhìn ái ngại — kiểu như bạn đang nói đến thứ gì đó chỉ dành cho trẻ con. Rồi *Spirited Away* giành Oscar năm 2003, *Your Name* làm mưa làm gió khắp toàn cầu năm 2016, và *Demon Slayer: Mugen Train* phá vỡ mọi kỷ lục phòng vé tại Nhật. Đến nay, anime không còn là thú vui của một nhóm nhỏ — nó đã trở thành một trong những ngành công nghiệp giải trí phát triển nhanh nhất [thế giới]({{< relurl "lan-song-hallyu/" >}}), với sức ảnh hưởng trải dài từ thời trang, âm nhạc đến ngôn ngữ đường phố.
 
 ## Định nghĩa và thuật ngữ
 

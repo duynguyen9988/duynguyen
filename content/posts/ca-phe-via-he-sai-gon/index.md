@@ -16,7 +16,7 @@ slug: ca-phe-via-he-sai-gon
 
 <!-- editorial-structure -->
 
-Sài Gòn và cà phê vỉa hè là hai thứ không thể tách rời. Khi thành phố này thức dậy lúc năm giờ sáng, những xe cà phê cóc, những ly nhựa, những chiếc ghế nhựa thấp lè tè đã bắt đầu xuất hiện trên mọi góc phố. Cái đẹp của thứ văn hóa này nằm ở sự giản dị đến tận cùng. Một ly cà phê đen đá, một tờ báo, và một góc đường Sài Gòn ồn ào — đó là một buổi sáng hoàn hảo. Có những quán tồn tại hơn nửa thế kỷ, không tên, không bảng hiệu, thế mà khách vẫn đông. Dưới đây là mười địa chỉ đã làm nên tên tuổi cho cà phê vỉa hè Sài Gòn.
+Sài Gòn và cà phê vỉa hè là hai thứ không thể tách rời. Khi thành phố này thức dậy lúc năm giờ sáng, những xe cà phê cóc, những ly nhựa, những chiếc ghế nhựa thấp lè tè đã bắt đầu xuất hiện trên mọi góc phố. Cái đẹp của thứ [văn hóa]({{< relurl "ca-phe-sua-da/" >}}) này nằm ở sự giản dị đến tận cùng. Một ly cà phê đen đá, một tờ báo, và một góc đường Sài Gòn ồn ào — đó là một buổi sáng hoàn hảo. Có những quán tồn tại hơn nửa thế kỷ, không tên, không bảng hiệu, thế mà khách vẫn đông. Dưới đây là mười địa chỉ đã làm nên tên tuổi cho cà phê vỉa hè Sài Gòn.
 
 ## Câu chuyện và bối cảnh
 
@@ -30,7 +30,7 @@ Xa hơn một chút, tại quận Phú Nhuận, con hẻm nhỏ trên đường 
 
 Bước ra không gian Sài Gòn trung tâm, khu vực công viên 30/4 đối diện Dinh Độc Lập là tụ điểm cà phê bệt nổi tiếng nhất. Không bàn, không ghế, người ta trải báo, trải tấm ni lông ra thảm cỏ, ngồi bệt mà nhâm nhi cà phê. Cà phê được pha sẵn đổ vào ly nhựa, đủ loại đen, sữa, bạc xỉu, giá chỉ 15.000 đến 30.000 đồng. Buổi tối, nơi đây trở nên đông vui tấp nập, là điểm hẹn của giới trẻ và dân văn phòng. Xung quanh là ánh đèn đường, tiếng cười nói, và một Sài Gòn lấp lánh.
 
-Ngay bên hông Nhà thờ Đức Bà, cà phê bệt cũng đông không kém. Không gian thoáng đãng, mát mẻ, ghế nhựa đơn giản hoặc ngồi bệt trên nền gạch, vừa uống cà phê vừa ngắm dòng người qua lại. Thực đơn giáo trình: cà phê đen, cà phê sữa, sương sáo, milo dầm. Giá từ 20.000 đến 30.000 đồng. Khách chủ yếu là học sinh, sinh viên, và người lao động.
+Ngay bên hông Nhà thờ Đức Bà, cà phê bệt cũng đông không kém. Không gian thoáng đãng, mát mẻ, ghế nhựa đơn giản hoặc ngồi bệt trên nền gạch, vừa uống cà phê vừa ngắm dòng người qua lại. Thực đơn giáo trình: cà phê đen, cà [phê sữa]({{< relurl "ca-phe-sua-da-van-hoa-viet-nam/" >}}), sương sáo, milo dầm. Giá từ 20.000 đến 30.000 đồng. Khách chủ yếu là học sinh, sinh viên, và người lao động.
 
 Nằm ngay góc ngã tư Lê Thánh Tôn và Lê Anh Xuân, cà phê Vy có vị trí đắc địa với tầm nhìn rộng ra phố trung tâm. Dù diện tích nhỏ, quán vẫn gây ấn tượng với bộ bàn ghế nhỏ xinh, gần gũi. Cà phê Vy sử dụng cà phê nguyên chất Moka, Robusta, đặc biệt cà phê sữa pha phin là món được yêu thích nhất. Giá hơi cao so với mặt bằng vỉa hè, từ 30.000 đến 55.000 đồng một ly, nhưng quán vẫn luôn đông khách nhờ chất lượng.
 
@@ -50,4 +50,4 @@ Cuối cùng, không thể không nhắc đến cà phê Đắc Phúc, một hi�
 
 **Mười quán, mười câu chuyện khác nhau. Nhưng có một điều chung:** tất cả đều không cầu kỳ, không ồn ào. Một ly cà phê vỉa hè, một khoảng lặng giữa phố thị, đó là Sài Gòn.
 
-Sau ly cà phê sáng, hãy thử [bún bò Huế]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}), [bánh mì Sài Gòn]({{< relurl "banh-mi-sai-gon/" >}}) hay [lẩu cho ngày mưa]({{< relurl "top-10-quan-lau-sai-gon/" >}}). Khi màn đêm buông xuống, [chợ đêm và ẩm thực đường phố]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) sẽ kể cho bạn nghe một câu chuyện khác của Sài Thành.
+Sau ly cà phê sáng, hãy thử bún bò Huế, bánh mì Sài Gòn hay lẩu cho ngày mưa. Khi màn đêm buông xuống, chợ đêm và ẩm thực đường phố sẽ kể cho bạn nghe một câu chuyện khác của Sài Thành.

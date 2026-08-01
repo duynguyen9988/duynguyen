@@ -44,7 +44,7 @@ Làm phim hoạt hình với nhân vật là bộ xương là một thách thứ
 
 Thế giới Người Chết được thiết kế như một sự bùng nổ màu sắc — một thành phố thẳng đứng với những tòa tháp chọc trời, đèn neon rực rỡ và hệ thống giao thông kỳ ảo. Ngược lại, Santa Cecilia trên dương thế được giữ ở tông màu trầm hơn, mang lại sự tương phản rõ rệt. Cây cầu cánh hoa cúc vạn thọ (marigold) nối hai thế giới là một thách thức kỹ thuật khổng lồ, đòi hỏi hiệu ứng ánh sáng phức tạp để tạo cảm giác lung linh, sống động.
 
-Âm nhạc do Michael Giacchino sáng tác, với ca khúc "Remember Me" trở thành biểu tượng văn hóa — một bài hát ru dành cho con gái, không phải một bản tình ca hào nhoáng như khán giả tưởng. Sự thật về "Remember Me" khi được tiết lộ trong phim là một trong những khoảnh khắc cảm động nhất của điện ảnh hoạt hình thế kỷ 21.
+Âm nhạc do Michael Giacchino sáng tác, với ca khúc "Remember Me" trở thành biểu tượng văn hóa — một bài hát ru dành cho con gái, không phải một bản tình ca hào nhoáng như khán giả tưởng. Sự thật về "Remember Me" khi được tiết lộ trong phim là một trong những khoảnh khắc cảm động nhất của [điện ảnh]({{< relurl "van-hoa-giai-tri-viet-nam-2026/" >}}) hoạt hình thế kỷ 21.
 
 ## Di sản và giải thưởng
 

@@ -17,7 +17,7 @@ slug: top-10-quan-lau-sai-gon
 
 <!-- editorial-structure -->
 
-Sài Gòn những ngày mưa tầm tã, lòng người như chùng xuống, cái se lạnh hiếm hoi len lỏi giữa phố xá ồn ào. Chưa bao giờ người ta thấy nhớ một nồi lẩu nóng hổi đến thế. Có một thứ hạnh phúc giản đơn mang tên quây quần bên nồi lẩu đang sôi sùng sục, tiếng cười nói rôm rả hòa cùng hương thơm nghi ngút. Người Sài Gòn vốn có cả trăm kiểu lẩu, từ lẩu Thái chua cay, lẩu mắm đậm đà miền Tây đến lẩu bò ninh kỹ kiểu Đà Lạt. Và dưới đây là mười cái tên đã làm nên tên tuổi trong lòng dân sành ăn đất Sài Thành.
+[Sài Gòn]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}) những ngày mưa tầm tã, lòng người như chùng xuống, cái se lạnh hiếm hoi len lỏi giữa phố xá ồn ào. Chưa bao giờ người ta thấy nhớ một nồi lẩu nóng hổi đến thế. Có một thứ hạnh phúc giản đơn mang tên quây quần bên nồi lẩu đang sôi sùng sục, tiếng cười nói rôm rả hòa cùng hương thơm nghi ngút. Người Sài Gòn vốn có cả trăm kiểu lẩu, từ lẩu Thái chua cay, lẩu mắm đậm đà miền Tây đến lẩu bò ninh kỹ kiểu Đà Lạt. Và dưới đây là mười cái tên đã làm nên tên tuổi trong lòng dân sành ăn đất Sài Thành.
 
 ## Câu chuyện và bối cảnh
 
@@ -33,7 +33,7 @@ Manwah Taiwanese Hotpot đưa thực khách đến với ẩm thực Đài Loan 
 
 Giữa lòng Sài Gòn, lẩu bò Nhà Gỗ đưa người ta về với Đà Lạt. Thiết kế nhà gỗ mộc mạc, đơn giản nhưng ấm cúng. Bí quyết của quán nằm ở nước lẩu được ninh từ xương bò suốt hai mươi tiếng cùng công thức gia vị hoàn hảo, tạo nên vị ngọt thanh, không quá mặn. Một phần lẩu đầy đặn với nạm nạc, nạm gầu, nạm ba rọi, bò viên, bò gân, ăn kèm rau xanh và mì trứng.
 
-Lẩu mắm là linh hồn của ẩm thực miền Tây giữa Sài Gòn. Lẩu Mắm Bà Dú sử dụng mắm cá sặc và mắm cá linh, tạo nên hương vị thơm ngon đặc trưng. Nước lẩu đậm vị kết hợp với topping như thịt, cá, tôm, chả cá, mực, đậu hũ. Trong khi đó, Lẩu Mắm Bà Tư mang đậm hương vị sông nước, với nước lẩu sánh đậm, dậy mùi thơm quyện cùng nguyên liệu tươi mỗi ngày. Cả hai đều là lựa chọn tuyệt vời cho những ai muốn tìm hương vị miền Tây đích thực.
+Lẩu mắm là [linh hồn]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) của ẩm thực miền Tây giữa Sài Gòn. Lẩu Mắm Bà Dú sử dụng mắm cá sặc và mắm cá linh, tạo nên hương vị thơm ngon đặc trưng. Nước lẩu đậm vị kết hợp với topping như thịt, cá, tôm, chả cá, mực, đậu hũ. Trong khi đó, Lẩu Mắm Bà Tư mang đậm hương vị sông nước, với nước lẩu sánh đậm, dậy mùi thơm quyện cùng nguyên liệu tươi mỗi ngày. Cả hai đều là lựa chọn tuyệt vời cho những ai muốn tìm hương vị miền Tây đích thực.
 
 ## Điểm nhấn đáng nhớ
 
@@ -49,4 +49,4 @@ Cuối cùng, Lẩu nấm Ashima mang đến một lựa chọn thanh đạm, t�
 
 Mười quán lẩu, mười hương vị, mười câu chuyện khác nhau. Nhưng có một điểm chung: tất cả đều xứng đáng để bạn xỏ dép lê, bước ra cơn mưa Sài Gòn và tìm đến. Bởi mưa ở Sài Gòn không chỉ là nước từ trên trời rơi xuống, mà còn là cái cớ để người ta quây quần bên nhau, bên một nồi lẩu, kể cho nhau nghe những câu chuyện còn dang dở.
 
-**Hành trình ẩm thực Sài Gòn còn nhiều điều thú vị:** [bún bò Huế đậm đà]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}), [cà phê vỉa hè sáng sớm]({{< relurl "ca-phe-via-he-sai-gon/" >}}), [bánh mì giòn rụm]({{< relurl "banh-mi-sai-gon/" >}}) hay [chợ đêm về khuya]({{< relurl "cho-dem-am-thuc-duong-pho-sai-gon/" >}}) — mỗi món một câu chuyện riêng.
+**Hành trình ẩm thực Sài Gòn còn nhiều điều thú vị:** bún bò Huế đậm đà, cà phê vỉa hè sáng sớm, bánh mì giòn rụm hay chợ đêm về khuya — mỗi món một câu chuyện riêng.

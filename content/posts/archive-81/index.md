@@ -18,7 +18,7 @@ resources:
     src: featured-image.jpg
 ---
 
-*Archive 81* là series truyền hình kinh dị siêu nhiên của Mỹ do Rebecca Sonnenshine phát triển, được phát hành trên Netflix vào ngày 14 tháng 1 năm 2022. Series dựa trên [podcast cùng tên](https://en.wikipedia.org/wiki/Archive_81_\(podcast\)) bắt đầu từ năm 2016. Dù đạt 128,47 triệu giờ xem toàn cầu, Netflix đã hủy series sau một mùa vào tháng 3 năm 2022.
+*Archive 81* là series truyền hình kinh dị siêu nhiên của Mỹ do Rebecca Sonnenshine phát triển, được phát hành trên netflix vào ngày 14 tháng 1 năm 2022. Series dựa trên [podcast cùng tên](https://en.wikipedia.org/wiki/Archive_81_\(podcast\)) bắt đầu từ năm 2016. Dù đạt 128,47 triệu giờ xem [toàn cầu]({{< relurl "netflix-lich-su-phat-trien/" >}}), Netflix đã hủy series sau một mùa vào tháng 3 năm 2022.
 
 ## Nội dung
 

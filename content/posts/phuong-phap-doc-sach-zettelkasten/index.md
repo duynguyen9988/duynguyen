@@ -50,7 +50,7 @@ Bạn không cần phải là nhà xã hội học người Đức hay có 90.00
 
 ## Công cụ cho người Việt
 
-Mặc dù Zettelkasten có nguồn gốc phương Tây, nhưng nó đặc biệt phù hợp với văn hóa đọc của người Việt Nam vì một lý do: chúng ta thường đọc nhiều thể loại khác nhau cùng lúc. Một người Việt trung bình có thể đọc một cuốn self-help vào buổi sáng, một bài báo về công nghệ vào trưa và một cuốn tiểu thuyết vào tối. Zettelkasten giúp kết nối tất cả những mảnh tri thức đó lại với nhau.
+Mặc dù Zettelkasten có nguồn gốc phương Tây, nhưng nó đặc biệt phù hợp với [văn hóa]({{< relurl "van-hoa-doc-sach-viet-nam/" >}}) đọc của người Việt Nam vì một lý do: chúng ta thường đọc nhiều thể loại khác nhau cùng lúc. Một người Việt trung bình có thể đọc một cuốn self-help vào [buổi sáng]({{< relurl "5-thoi-quen-buoi-sang/" >}}), một bài báo về công nghệ vào trưa và một cuốn tiểu thuyết vào tối. Zettelkasten giúp kết nối tất cả những mảnh tri thức đó lại với nhau.
 
 Các công cụ phổ biến:
 - **Obsidian:** Miễn phí, mạnh mẽ, cộng đồng plugin lớn.

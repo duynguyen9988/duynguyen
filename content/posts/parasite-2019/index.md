@@ -22,7 +22,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Đó là một buổi tối tháng 2 năm 2020, khi lịch sử điện ảnh thế giới được viết lại tại nhà hát Dolby ở Los Angeles. Một bộ phim Hàn Quốc — nói tiếng Hàn, với dàn diễn viên châu Á và một đạo diễn không ai ở Hollywood dám gọi là quen thuộc — đã giành giải Oscar cho Phim hay nhất. Đó là khoảnh khắc mà Bong Joon-ho, vị đạo diễn với mái tóc xù đặc trưng, đứng trên sân khấu và nói: "Tôi sẽ uống đến sáng mai."
+Đó là một buổi tối tháng 2 năm 2020, khi lịch sử điện ảnh thế giới được viết lại tại nhà hát Dolby ở Los Angeles. Một bộ phim [Hàn Quốc]({{< relurl "squid-game-lan-song-noi-dung-han-quoc/" >}}) — nói tiếng Hàn, với dàn diễn viên châu Á và một đạo diễn không ai ở Hollywood dám gọi là quen thuộc — đã giành giải Oscar cho Phim hay nhất. Đó là khoảnh khắc mà Bong Joon-ho, vị đạo diễn với mái tóc xù đặc trưng, đứng trên sân khấu và nói: "Tôi sẽ uống đến sáng mai."
 
 ## Bối cảnh và nội dung
 
@@ -46,7 +46,7 @@ Kỹ thuật làm phim của *Parasite* đạt đến độ tinh xảo hiếm c�
 
 Âm nhạc của Jung Jae-il góp phần tạo nên bầu không khí căng thẳng đặc trưng: những bản piano tối giản, xen lẫn tiếng bộ gõ nhẹ, cùng với các trích đoạn từ vở opera *Rodelinda* của Handel. Và bài hát "Soju One Glass" do chính Choi Woo-shik thể hiện trong phần credit cuối mang đến một nốt buồn man mác khó tả.
 
-Khi ra mắt tại Liên hoan phim Cannes vào tháng 5 năm 2019, *Parasite* đã làm nên lịch sử khi trở thành bộ phim Hàn Quốc đầu tiên giành Cành cọ Vàng. Sau đó, nó tiếp tục chinh phục các giải thưởng danh giá nhất hành tinh: Quả cầu Vàng cho Phim nước ngoài xuất sắc, BAFTA cho Phim không nói tiếng Anh hay nhất, và Giải Nghiệp đoàn Diễn viên Màn ảnh cho Dàn diễn viên xuất sắc — kỳ tích đầu tiên cho một phim không nói tiếng Anh.
+Khi ra mắt tại Liên hoan phim Cannes vào tháng 5 năm 2019, *Parasite* đã làm nên lịch sử khi trở thành bộ phim Hàn Quốc đầu tiên giành Cành cọ Vàng. Sau đó, nó tiếp tục [chinh phục]({{< relurl "lan-song-hallyu/" >}}) các giải thưởng danh giá nhất hành tinh: Quả cầu Vàng cho Phim nước ngoài xuất sắc, BAFTA cho Phim không nói tiếng Anh hay nhất, và Giải Nghiệp đoàn Diễn viên Màn ảnh cho Dàn diễn viên xuất sắc — kỳ tích đầu tiên cho một phim không nói tiếng Anh.
 
 ## Đánh giá tổng quan
 

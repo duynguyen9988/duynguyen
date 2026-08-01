@@ -38,7 +38,7 @@ Nhưng chính sự khắc nghiệt này đã tạo ra những sản phẩm âm n
 
 Bước ngoặt lớn đến vào đầu thập niên 2000, khi BoA — một cô gái 14 tuổi — phá bỏ rào cản giữa Hàn Quốc và Nhật Bản. Album đầu tay *Listen to My Heart* (2002) giúp cô trở thành ngôi sao Hàn Quốc đầu tiên chinh phục thị trường Nhật sau chiến tranh thế hệ thứ hai. Năm 2008, 68% tổng kim ngạch xuất khẩu K-pop từ Hàn Quốc là sang Nhật Bản. TVXQ, Super Junior, BigBang, Wonder Girls và Girls' Generation lần lượt ra mắt và tạo nên những cơn sốt khắp châu Á.
 
-Sự bùng nổ thực sự của K-pop trên toàn cầu gắn liền với YouTube và mạng xã hội. Nếu làn sóng Hallyu thế hệ đầu — từ cuối thập niên 1990 đến đầu 2000 — chỉ giới hạn trong phạm vi châu Á với phim truyền hình Hàn Quốc làm chủ đạo, thì Hallyu 2.0, bắt đầu từ năm 2008, được thúc đẩy bởi K-pop lan truyền qua các nền tảng trực tuyến. Người hâm mộ từ khắp nơi trên thế giới không chỉ xem mà còn tạo ra nội dung: những video cover nhảy, phản ứng, và các bản dịch lời bài hát theo thời gian thực.
+Sự bùng nổ thực sự của K-pop trên toàn cầu gắn liền với YouTube và mạng xã hội. Nếu làn [sóng Hallyu]({{< relurl "lan-song-hallyu/" >}}) thế hệ đầu — từ cuối thập niên 1990 đến đầu 2000 — chỉ giới hạn trong phạm vi châu Á với phim truyền hình Hàn Quốc làm chủ đạo, thì Hallyu 2.0, bắt đầu từ năm 2008, được thúc đẩy bởi K-pop lan truyền qua các nền tảng trực tuyến. Người hâm mộ từ khắp nơi trên thế giới không chỉ xem mà còn tạo ra nội dung: những video cover nhảy, phản ứng, và các bản dịch lời bài hát theo thời gian thực.
 
 ## Dấu ấn và sức ảnh hưởng
 
@@ -50,7 +50,7 @@ Năm 2019, Hàn Quốc xếp thứ sáu trong các thị trường âm nhạc th
 
 ## Góc nhìn tổng quan
 
-Sự trỗi dậy của K-pop không chỉ là hiện tượng âm nhạc. Nó là một phần của làn sóng Hallyu rộng lớn hơn — sự lan tỏa văn hóa Hàn Quốc ra thế giới. Từ phim truyền hình như *Winter Sonata* (gây sốt tại Nhật Bản năm 2004), *Jewel in the Palace* (phát sóng tại hơn 80 quốc gia), đến thành công của *Parasite* tại Oscar và *Squid Game* trên Netflix, Hallyu đã trở thành một tài sản kinh tế và ngoại giao quan trọng của Hàn Quốc.
+Sự trỗi dậy của K-pop không chỉ là hiện tượng âm nhạc. Nó là một phần của làn sóng Hallyu rộng lớn hơn — sự lan tỏa văn hóa Hàn Quốc ra thế giới. Từ phim truyền hình như *Winter Sonata* (gây sốt tại Nhật Bản năm 2004), *Jewel in the Palace* (phát sóng tại hơn 80 quốc gia), đến thành công của *Parasite* tại Oscar và *[Squid Game]({{< relurl "squid-game-lan-song-noi-dung-han-quoc/" >}})* trên Netflix, Hallyu đã trở thành một tài sản kinh tế và ngoại giao quan trọng của Hàn Quốc.
 
 Bảo tàng Victoria and Albert ở London đã tổ chức triển lãm "Hallyu! The Korean Wave" từ tháng 9 năm 2022, trưng bày lịch sử của làn sóng văn hóa này qua thời trang, âm nhạc, khiêu vũ và nghệ thuật. Triển lãm sau đó đã đi qua Boston, San Francisco, Zurich và Canberra, nhận được sự hoan nghênh của giới phê bình.
 

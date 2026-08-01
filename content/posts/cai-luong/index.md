@@ -1,6 +1,6 @@
 ---
-title: "Cải lương — Hồn dân tộc trong loại hình nghệ thuật sân khấu miền Nam"
-description: 'Cải lương Việt Nam: lịch sử hơn trăm năm, từ hát bội đến sân khấu vàng son.'
+title: 'Cải Lương — Hồn Dân Tộc Trong Nghệ Thuật Sân Khấu Miền Nam'
+description: 'Cải lương Việt Nam hơn một thế kỷ: từ hát bội truyền thống đến sân khấu vàng son, những vở tuồng kinh điển và sức sống của bộ môn nghệ thuật miền Nam hôm nay.'
 date: 2026-07-29T00:48:18+07:00
 slug: cai-luong
 categories:
@@ -18,7 +18,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Buổi chiều Sài Gòn xuống nắng, từ một quán cóc ven đường bỗng vọng ra tiếng đàn tranh da diết, hòa cùng giọng ca ngân dài đầy nội lực. Chỉ vài câu vọng cổ, cả góc phố như lắng lại. Đó là cải lương — thứ nghệ thuật sân khấu đã đồng hành cùng người dân Nam Bộ suốt hơn một thế kỷ, len lỏi vào từng ngõ ngách đời sống bằng những điệu ca trầm bổng và những câu chuyện đầy ân tình.
+Buổi chiều Sài Gòn xuống nắng, từ một quán cóc ven đường bỗng vọng ra tiếng đàn tranh da diết, hòa cùng giọng ca ngân dài đầy nội lực. Chỉ vài câu vọng cổ, cả góc phố như lắng lại. Đó là cải lương — thứ [nghệ thuật]({{< relurl "van-hoa-tra-viet-lich-su/" >}}) sân khấu đã đồng hành cùng người dân Nam Bộ suốt hơn một thế kỷ, len lỏi vào từng ngõ ngách đời sống bằng những điệu ca trầm bổng và những câu chuyện đầy ân tình.
 
 Cải lương, còn gọi là tuồng cải lương, dịch sát nghĩa là "sân khấu cải cách" — một loại hình opera dân gian hiện đại của Việt Nam. Theo Wikipedia, thuật ngữ này bắt nguồn từ Hán-Nôm với chữ "cải" (改) nghĩa là đổi mới và "lương" (良) nghĩa là tốt đẹp. Ra đời từ đầu thế kỷ 20 tại vùng đất Nam Kỳ thuộc địa của Pháp, cải lương là sự pha trộn độc đáo giữa dân ca Nam Bộ, nhạc cổ điển, hát tuồng (một hình thức sân khấu cổ điển dựa trên opera Trung Quốc) và kịch nói hiện đại chịu ảnh hưởng từ kịch Pháp. Chính sự kết hợp Đông Tây này đã tạo nên một bộ môn nghệ thuật vừa lạ vừa quen, vừa bác học vừa bình dân.
 
@@ -32,4 +32,4 @@ Cải lương miền Nam đã sản sinh ra những tên tuổi lẫy lừng. �
 
 Từ sau năm 1975, cải lương bắt đầu chứng kiến sự suy thoái. Sự lấn át của truyền hình và phim ảnh, cùng với gu thưởng thức nghệ thuật thay đổi, đã đẩy cải lương vào thế khó khăn. Nhiều rạp hát phải đóng cửa, các đoàn nghệ thuật giải thể. Các bài báo từ năm 2007-2008 trên VietNamNet cũng từng nhận định rằng cải lương đang dần mất đi vị thế và cần được cứu vãn.
 
-Dẫu vậy, cải lương vẫn sống trong lòng nhiều người con đất Việt, nhất là người dân Nam Bộ và những nghệ sĩ đêm đêm vẫn cất tiếng hát giữa những sân khấu nhỏ. Sự công nhận của UNESCO dành cho đờn ca tài tử đã mở ra hy vọng cho việc bảo tồn và phát huy di sản này. Bởi xét cho cùng, cải lương không đơn thuần là một loại hình giải trí — đó là tiếng lòng, là câu chuyện của dân tộc, vang lên từ chính đồng ruộng và phố phường miền Nam.
+Dẫu vậy, cải lương vẫn sống trong lòng nhiều người con đất Việt, nhất là người dân Nam Bộ và những nghệ sĩ đêm đêm vẫn cất tiếng hát giữa những sân khấu nhỏ. Sự công nhận của UNESCO dành cho đờn ca tài tử đã mở ra hy vọng cho việc bảo tồn và phát huy di sản này. Bởi xét cho cùng, cải lương không đơn thuần là một loại hình [giải trí]({{< relurl "van-hoa-giai-tri-viet-nam-2026/" >}}) — đó là tiếng lòng, là câu chuyện của dân tộc, vang lên từ chính đồng ruộng và phố phường miền Nam.

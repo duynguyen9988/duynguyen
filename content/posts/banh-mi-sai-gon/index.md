@@ -1,8 +1,8 @@
 ---
-title: "Bánh mì Sài Gòn — Hành trình từ ổ bánh Pháp đến biểu tượng ẩm thực toàn cầu"
+title: 'Bánh Mì Sài Gòn: Hành Trình Từ Ổ Bánh Pháp Đến Biểu Tượng Toàn Cầu'
 slug: "banh-mi-sai-gon"
 date: 2026-07-27T01:39:00+07:00
-description: "Từ chiếc bánh mì Pháp du nhập vào thế kỷ 19, bánh mì Việt Nam đã vươn lên thành một trong những món ăn đường phố nổi tiếng nhất thế giới."
+description: 'Từ chiếc bánh mì Pháp du nhập thế kỷ 19, bánh mì Sài Gòn vươn lên thành biểu tượng ẩm thực toàn cầu — lịch sử, hương vị và những biến thể huyền thoại.'
 tags: [banh mi, am thuc viet nam, sandwich, mon an duong pho]
 categories: [am-thuc]
 resources:
@@ -13,7 +13,7 @@ draft: false
 
 <!-- editorial-structure -->
 
-Có một thứ mà bất kỳ ai đặt chân đến Sài Gòn cũng sẽ nhắc đến như một thứ tôn giáo đường phố — đó là bánh mì. Không phải ổ baguette kiểu Pháp khô cứng, cũng chẳng phải sandwich phương Tây lạnh tanh, bánh mì Việt Nam là một thế giới riêng, một cuộc hôn phối hoàn hảo giữa vỏ bánh giòn rụm và nhân đậm đà, giữa di sản ẩm thực thuộc địa và tài năng biến tấu của người bản địa.
+Có một thứ mà bất kỳ ai đặt chân đến [Sài Gòn]({{< relurl "top-10-banh-mi-sai-gon/" >}}) cũng sẽ nhắc đến như một thứ tôn giáo đường phố — đó là bánh mì. Không phải ổ baguette kiểu Pháp khô cứng, cũng chẳng phải sandwich phương Tây lạnh tanh, bánh mì Việt Nam là một [thế giới]({{< relurl "banh-xeo-tinh-hoa-am-thuc-viet-nam/" >}}) riêng, một cuộc hôn phối hoàn hảo giữa vỏ bánh giòn rụm và nhân đậm đà, giữa di sản ẩm thực thuộc địa và tài năng biến tấu của người bản địa.
 
 ## Câu chuyện và bối cảnh
 

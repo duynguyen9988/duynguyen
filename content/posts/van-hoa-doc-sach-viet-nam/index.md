@@ -1,7 +1,7 @@
 ---
-title: "Văn hóa đọc Việt Nam 2026 — Từ trang sách đến không gian số"
+title: 'Văn Hóa Đọc Việt Nam 2026: Từ Trang Sách Đến Không Gian Số'
 date: 2026-07-26T16:56:58+07:00
-description: "Bức tranh văn hóa đọc Việt Nam năm 2026 với chủ đề 'Mạch tri thức - Từ trang sách đến không gian số', những chuyển động trong kỷ nguyên chuyển đổi số."
+description: 'Bức tranh văn hóa đọc Việt Nam 2026: thói quen đọc sách người Việt, sách nói, nền tảng số và sáng kiến lan tỏa tình yêu sách.'
 tags:
   - văn hóa đọc
   - sách
@@ -44,9 +44,9 @@ Các chuyên gia nhận định rằng văn hóa đọc ở Việt Nam vẫn ch�
 
 Câu hỏi lớn nhất mà những người làm văn hóa đọc đặt ra: trong kỷ nguyên TikTok, YouTube Shorts và những nội dung 30 giây, làm sao để sách vẫn có chỗ đứng?
 
-Câu trả lời dường như không nằm ở việc chống lại công nghệ, mà là tận dụng nó. Cuộc thi "Cùng AI kể chuyện" là một minh chứng. Thay vì coi AI là kẻ thù, Ban Tổ chức đã biến nó thành công cụ để khơi dậy trí tưởng tượng và nuôi dưỡng tình yêu đọc sách. Cuộc thi thiết kế mô hình "Trạm sách cộng đồng" trong khuôn khổ chương trình STEM cũng là một cách tiếp cận thông minh: khuyến khích học sinh xây dựng những thư viện mini thông minh từ vật liệu tái chế, kết hợp không gian đọc với công nghệ.
+Câu trả lời dường như không nằm ở việc chống lại công nghệ, mà là tận dụng nó. Cuộc thi "Cùng AI kể chuyện" là một minh chứng. Thay vì coi AI là kẻ thù, Ban Tổ chức đã biến nó thành công cụ để khơi dậy trí tưởng tượng và nuôi dưỡng tình yêu [đọc sách]({{< relurl "phuong-phap-doc-sach-zettelkasten/" >}}). Cuộc thi thiết kế mô hình "Trạm sách cộng đồng" trong khuôn khổ chương trình STEM cũng là một cách tiếp cận thông minh: khuyến khích học sinh xây dựng những thư viện mini thông minh từ vật liệu tái chế, kết hợp không gian đọc với công nghệ.
 
-Thế hệ trẻ không thiếu khả năng tiếp nhận tri thức. Họ chỉ cần một cách tiếp cận khác. Thay vì một cuốn sách dày 300 trang in trên giấy, họ có thể đọc bản điện tử, nghe audiobook, hoặc tương tác với nội dung qua các nền tảng số. Và nếu biết cách dẫn dắt, những hình thức mới ấy hoàn toàn có thể là cánh cửa đưa họ đến với những giá trị sâu sắc hơn của sách.
+Thế hệ trẻ không thiếu khả năng tiếp nhận tri thức. Họ chỉ cần một cách tiếp cận khác. Thay vì một cuốn sách dày 300 trang in trên giấy, họ có thể đọc bản điện tử, nghe audiobook, hoặc tương tác với nội dung qua các [nền tảng]({{< relurl "tiktok-xa-hoi/" >}}) số. Và nếu biết cách dẫn dắt, những hình thức mới ấy hoàn toàn có thể là cánh cửa đưa họ đến với những giá trị sâu sắc hơn của sách.
 
 ### Mỗi cuốn sách — Một hành trình mới
 

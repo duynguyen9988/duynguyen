@@ -18,7 +18,7 @@ resources:
 
 ## Tổng quan thị trường
 
-Hủ tiếu Sài Gòn không phải một món — mà là một họ món. Dựa trên nguồn gốc và cách chế biến, có thể chia làm bốn nhóm chính:
+Hủ tiếu [Sài Gòn]({{< relurl "top-10-quan-pho-sai-gon/" >}}) không phải một món — mà là một họ món. Dựa trên nguồn gốc và cách chế biến, có thể chia làm bốn nhóm chính:
 
 | Nhóm | Đặc điểm | Sợi | Nước dùng | Đại diện |
 |------|----------|-----|-----------|----------|
@@ -39,7 +39,7 @@ Là thương hiệu hủ tiếu Việt đầu tiên vươn ra nước ngoài. Đ
 
 Google rating: 4.0–4.3 (tuỳ chi nhánh).
 - Giá: 60.000 – 90.000 đ/tô
-- Địa chỉ: 389–391 Võ Văn Tần, Q3 (và 4 chi nhánh khác)
+- [Địa chỉ]({{< relurl "top-10-quan-mi-quang-sai-gon/" >}}): 389–391 Võ Văn Tần, Q3 (và 4 chi nhánh khác)
 - Giờ: 6h30 – 22h30
 
 ### 2. Hủ Tiếu Nam Vang Nhân Quán — Chuỗi phát triển nhanh nhất

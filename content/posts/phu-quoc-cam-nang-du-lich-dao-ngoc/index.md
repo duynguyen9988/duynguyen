@@ -13,7 +13,7 @@ resources:
 
 <!-- editorial-structure -->
 
-Có một hòn đảo nằm biệt lập giữa Vịnh Thái Lan, nơi nước biển xanh như ngọc và những rặng dừa nghiêng mình trong gió. Phú Quốc — hòn đảo lớn nhất Việt Nam với diện tích 575 km² — không chỉ là một điểm đến du lịch biển thuần túy, mà còn là vùng đất giàu lịch sử và văn hóa, nơi thiên nhiên và con người hòa quyện vào nhau một cách hoàn hảo.
+Có một hòn đảo nằm biệt lập giữa Vịnh Thái Lan, nơi nước biển xanh như ngọc và những rặng dừa nghiêng mình trong gió. [Phú Quốc]({{< relurl "phu-quoc/" >}}) — hòn đảo lớn nhất Việt Nam với diện tích 575 km² — không chỉ là một điểm đến du lịch biển thuần túy, mà còn là vùng đất giàu lịch sử và văn hóa, nơi [thiên nhiên]({{< relurl "vinh-ha-long-ky-quan-thien-nhien/" >}}) và con người hòa quyện vào nhau một cách hoàn hảo.
 
 ## Điểm đến và bối cảnh
 

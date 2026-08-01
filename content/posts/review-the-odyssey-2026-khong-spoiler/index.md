@@ -21,7 +21,7 @@ resources:
 
 ## Giữa mùa hè, một cái tên khiến rạp phải tăng tốc
 
-Tháng 7/2026 không thiếu bom tấn: [Spider-Man: Brand New Day]({{< relurl "review-spider-man-brand-new-day/" >}}) vừa soán ngôi phòng vé Việt, Conan Movie 29 vượt mốc 100 tỉ đồng. Nhưng nếu có một cái tên khiến người ta xếp hàng săn vé IMAX từ nhiều tuần trước, thậm chí đưa cả hệ thống bán vé trực tuyến vào trạng thái quá tải ngay khi mở bán, đó là *The Odyssey* của Christopher Nolan — bom tấn 250 triệu USD được giới quan sát gọi là "bộ phim được mong đợi nhất nửa cuối năm".
+Tháng 7/2026 không thiếu bom tấn: Spider-Man: [Brand New]({{< relurl "review-spider-man-brand-new-day/" >}}) Day vừa soán ngôi phòng vé Việt, Conan Movie 29 vượt mốc 100 tỉ đồng. Nhưng nếu có một cái tên khiến người ta xếp hàng săn vé IMAX từ nhiều tuần trước, thậm chí đưa cả hệ thống bán vé trực tuyến vào trạng thái quá tải ngay khi mở bán, đó là *The Odyssey* của Christopher Nolan — bom tấn 250 triệu USD được giới quan sát gọi là "bộ phim được mong đợi nhất nửa cuối năm".
 
 Điều đáng nói: bộ phim này không dựa trên một thương hiệu truyện tranh, cũng không phải phần tiếp theo của loạt phim nào. Nó chuyển thể từ *Odyssey* của Homer — thiên sử thi gần 2.800 năm tuổi về hành trình trở về nhà của vua Odysseus sau cuộc chiến thành Troy. Và với Nolan, đây là cuộc hành trình ông đã ấp ủ suốt hai thập kỷ: khi còn được mời làm đạo diễn cho *Troy*, chính nhà làm phim đã từng cân nhắc chuyển thể bài thơ này.
 
@@ -61,7 +61,7 @@ Samantha Morton trong vai phù thủy Circe cũng được khen ngợi rộng r�
 **Điểm cộng**
 
 - Hình ảnh IMAX 70mm thực thụ: quay tại Morocco, Hy Lạp, Ý, Scotland, Iceland và Malta, những cảnh bão biển và chiến trận được giới phê bình mô tả là "cực kỳ mãn nhãn", không thể thưởng thức trọn vẹn ngoài rạp lớn
-- Âm nhạc của Ludwig Göransson (nhạc phim *Oppenheimer*, *Tenet*) được Time Out gọi là "kiệt tác biểu cảm"
+- Âm nhạc của Ludwig Göransson (nhạc phim *Oppenheimer*, *Tenet*) được Time Out gọi là "[kiệt tác]({{< relurl "interstellar-2014-nhin-lai/" >}}) biểu cảm"
 - Dàn diễn viên đồng đều, từ Pattinson với vai phản diện Antinous "nhờn nhợt" đến Zendaya trong vai nữ thần Athena đầy mơ hồ
 - Chủ đề nhân văn: phim nói về nợ nần của chiến tranh và khao khát trở về — thứ chạm đến bất kỳ ai từng xa nhà
 
@@ -77,6 +77,6 @@ Samantha Morton trong vai phù thủy Circe cũng được khen ngợi rộng r�
 
 Câu trả lời ngắn: có — nếu bạn là người thích trải nghiệm điện ảnh đúng nghĩa trên màn ảnh lớn. Đây không phải phim để xem qua điện thoại hay laptop; 173 phút quay hoàn toàn bằng IMAX được thiết kế để thưởng thức ở rạp. Với người chưa biết câu chuyện, phim vẫn tự đứng vững như một thiên phiêu lưu kỳ ảo; với người đã từng đọc *Odyssey* ở trường, cách Nolan hiện thực hóa thần thoại — những con quái vật "đáng sợ mà đáng tin" — là điều đáng để trả tiền vé.
 
-Nếu bạn là fan của [Interstellar]({{< relurl "interstellar-2014-nhin-lai/" >}}) hay [Inception]({{< relurl "top-10-phim-bom-tan-he-2026/" >}}), bạn sẽ nhận ra đây là đề tài Nolan đã nung nấu suốt cả sự nghiệp: chuyện những người đàn ông lạc lối trên đường về nhà. Chỉ khác, lần này ông không còn ẩn giấu thông điệp trong mê cung thời gian, mà kể thẳng ra bằng thép và sóng biển.
+Nếu bạn là fan của Interstellar hay Inception, bạn sẽ nhận ra đây là đề tài Nolan đã nung nấu suốt cả sự nghiệp: chuyện những người đàn ông lạc lối trên đường về nhà. Chỉ khác, lần này ông không còn ẩn giấu thông điệp trong mê cung thời gian, mà kể thẳng ra bằng thép và sóng biển.
 
 > **Tóm lại:** *The Odyssey* (2026) là phim chiến trận - thần thoại quy mô lớn nhất của Nolan từ trước tới nay, được giới phê bình đánh giá rất cao nhờ màn trình diễn của Matt Damon, Anne Hathaway và hình ảnh IMAX mãn nhãn. Nhược điểm nằm ở nhịp phim có đoạn chùng và trận chiến cuối kém sức hút. Đáng xem nhất ở định dạng rạp lớn, và chưa nên kỳ vọng một tuyệt tác hoàn hảo.

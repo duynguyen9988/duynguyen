@@ -1,7 +1,7 @@
 ---
-title: "Phượt Tây Bắc Mùa Hoa — Cung Đường, Kinh Nghiệm Và Khoảnh Khắc Không Thể Quên"
+title: 'Phượt Tây Bắc Mùa Hoa: Cung Đường Và Kinh Nghiệm Không Thể Quên'
 date: 2026-07-26T16:49:54+07:00
-description: "Từ hoa ban trắng tinh khôi ở Điện Biên đến tam giác mạch hồng rực cao nguyên đá Hà Giang — cẩm nang phượt Tây Bắc qua từng mùa hoa."
+description: 'Từ hoa ban trắng Điện Biên đến tam giác mạch hồng Hà Giang — cẩm nang phượt Tây Bắc từng mùa hoa: cung đường, thời điểm đẹp nhất và kinh nghiệm cần biết.'
 tags:
   - du-lich
   - tay-bac
@@ -30,7 +30,7 @@ Tháng Ba, hoa ban nở. Đây không chỉ là một mùa hoa đẹp, mà còn 
 
 ## Những trải nghiệm nổi bật
 
-Khi hè đến, tháng Năm và tháng Sáu, Tây Bắc bước vào mùa nước đổ. Những ruộng bậc thang ở Mù Cang Chải, Hoàng Su Phì, Y Tý — vốn khô cằn sau mùa đông — bỗng được con người dẫn nước từ các dòng suối trên cao đổ về. Cả vùng núi như một tấm gương khổng lồ phản chiếu ánh mặt trời. Có người đã khóc khi lần đầu nhìn thấy ruộng bậc thang mùa nước đổ ở La Pán Tẩn — những đường cong mềm mại của đất hòa cùng ánh nước lấp lánh. Mùa hè cũng là thời điểm lý tưởng để chinh phục Fansipan — nóc nhà Đông Dương cao 3.143 mét.
+Khi hè đến, tháng Năm và tháng Sáu, Tây Bắc bước vào mùa nước đổ. Những ruộng bậc thang ở Mù Cang Chải, Hoàng Su Phì, Y Tý — vốn khô cằn sau mùa đông — bỗng được con người dẫn nước từ các dòng suối trên cao đổ về. Cả vùng núi như một tấm gương khổng lồ phản chiếu ánh mặt trời. Có người đã khóc khi lần đầu nhìn thấy ruộng bậc thang mùa nước đổ ở La Pán Tẩn — những đường cong mềm mại của đất hòa cùng ánh nước lấp lánh. Mùa hè cũng là thời điểm lý tưởng để [chinh phục]({{< relurl "sapa/" >}}) Fansipan — nóc nhà Đông Dương cao 3.143 mét.
 
 Tháng Chín và tháng Mười là mùa lúa chín. Vàng óng cả một vùng Mù Cang Chải, Tú Lệ, Hoàng Su Phì. Những thửa ruộng bậc thang chín rộ, nặng trĩu hạt, tạo nên những bậc thang vàng trải dài đến tận chân trời. Con đèo Khau Phạ dài hơn 40km — một trong tứ đỉnh đèo của Việt Nam — dẫn bạn qua những bản làng như La Pán Tẩn, Chế Cu Nha, Nậm Có. Đứng trên đỉnh đèo Khau Phạ vào sáng sớm, bạn sẽ thấy một biển mây trắng bồng bềnh bên dưới, núi non hùng vĩ hai bên, và thấp thoáng dưới thung lũng là những bản làng nhỏ nằm nép mình bên sườn núi.
 

@@ -16,7 +16,7 @@ resources:
     src: featured-image.jpg
 ---
 
-Giữa muôn vàn thức uống du nhập, trà vẫn giữ cho mình một chỗ đứng rất riêng trong đời sống người Việt. Không ồn ào như rượu, chẳng vội vã như [cà phê]({{< relurl "ca-phe-viet-nam-van-hoa/" >}}), hương trà len lỏi vào từng ngôi nhà, từng quán cóc ven đường, từng buổi sớm mai và đêm khuya bên bếp lửa. Dù cuộc sống ngày càng hiện đại, văn hóa thưởng trà vẫn có sức sống riêng — như một mạch ngầm âm ỉ, bền bỉ trong mỗi người, mỗi nhà, mỗi vùng miền, để kết nối và đưa con người lại gần nhau hơn.
+Giữa muôn vàn [thức uống]({{< relurl "ca-phe-sua-da-van-hoa-viet-nam/" >}}) du nhập, trà vẫn giữ cho mình một chỗ đứng rất riêng trong đời sống người Việt. Không ồn ào như rượu, chẳng vội vã như cà phê, hương trà len lỏi vào từng ngôi nhà, từng quán cóc ven đường, từng buổi sớm mai và đêm khuya bên bếp lửa. Dù cuộc sống ngày càng hiện đại, [văn hóa]({{< relurl "ca-phe-sua-da/" >}}) thưởng trà vẫn có sức sống riêng — như một mạch ngầm âm ỉ, bền bỉ trong mỗi người, mỗi nhà, mỗi vùng miền, để kết nối và đưa con người lại gần nhau hơn.
 
 ## Một thức uống của mọi nhà
 
@@ -48,7 +48,7 @@ Không gian thưởng trà của người Việt thường mang hơi hướng c�
 
 ## Mạch ngầm hồi sinh
 
-Thế kỷ XX chứng kiến nhiều biến động chính trị, chiến tranh và làn sóng hiện đại hóa mạnh mẽ. Cùng với sự phát triển của cà phê, rượu, nước ngọt công nghiệp và nhịp sống đô thị hóa, văn hóa uống trà truyền thống dần bị quên lãng; trà chỉ còn hiện diện như thức uống tiếp đãi khách quý hay một sản phẩm thương mại. Nhưng từ đầu thế kỷ XXI trở lại đây, một làn sóng hồi sinh đã bắt đầu lan tỏa: các nghệ nhân, nhà nghiên cứu và cộng đồng yêu trà nỗ lực phục dựng cách pha trà cổ truyền, tìm lại những giống trà cổ thụ như Shan Tuyết, Bạch Hạc, Suối Giàng, Tà Xùa, Phìn Hồ, Khe Cốc, đồng thời tổ chức các không gian trà Việt kết hợp cùng thi ca, thư pháp và mỹ thuật truyền thống — nơi hơi thở của thi nhân và trang sách tìm được chỗ dừng bên ấm trà, như một phần của [văn hóa đọc sâu lắng]({{< relurl "van-hoa-doc-sach-viet-nam/" >}}) của người Việt.
+Thế kỷ XX chứng kiến nhiều biến động chính trị, chiến tranh và làn sóng hiện đại hóa mạnh mẽ. Cùng với sự phát triển của cà phê, rượu, nước ngọt công nghiệp và nhịp sống đô thị hóa, văn hóa uống trà truyền thống dần bị quên lãng; trà chỉ còn hiện diện như thức uống tiếp đãi khách quý hay một sản phẩm thương mại. Nhưng từ đầu thế kỷ XXI trở lại đây, một làn sóng hồi sinh đã bắt đầu lan tỏa: các nghệ nhân, nhà nghiên cứu và cộng đồng yêu trà nỗ lực phục dựng cách pha trà cổ truyền, tìm lại những giống trà cổ thụ như Shan Tuyết, Bạch Hạc, Suối Giàng, Tà Xùa, Phìn Hồ, Khe Cốc, đồng thời tổ chức các không gian trà Việt kết hợp cùng thi ca, thư pháp và mỹ thuật truyền thống — nơi hơi thở của thi nhân và trang sách tìm được chỗ dừng bên ấm trà, như một phần của văn hóa đọc sâu lắng của người Việt.
 
 Mỗi giống trà cổ lại mang một khí chất riêng: trà Shan Tuyết Hà Giang phủ lớp lông trắng như tuyết, đậm vị núi cao và hậu ngọt sâu lắng; trà Suối Giàng Yên Bái mộc mạc, thanh khiết như hơi sương trên độ cao 1300 mét; hương trà Tà Xùa Sơn La mạnh mẽ, nồng nàn, thấm đẫm đất trời Tây Bắc; trà Phìn Hồ Hoàng Su Phì dày hương vị, hậu vị sâu lắng, lưu giữ bí quyết chế biến cổ của người Dao đỏ; còn trà Khe Cốc Thái Nguyên dịu dàng, nhẹ tênh của vùng trà trung du. Mỗi chén trà là một lát cắt hương sắc của đất Việt, đậm đà song tinh tế, bền bỉ như chính người Việt.
 

@@ -1,7 +1,7 @@
 ---
-title: "Chợ đêm và ẩm thực đường phố Sài Gòn — linh hồn của thành phố không ngủ"
+title: 'Chợ Đêm Và Ẩm Thực Đường Phố Sài Gòn: Linh Hồn Thành Phố Không Ngủ'
 date: 2026-07-26T12:00:00+07:00
-description: "Sài Gòn về đêm không bao giờ ngủ. Những khu chợ đêm, phố ẩm thực đường phố là nơi lưu giữ linh hồn ẩm thực bình dân nhất của thành phố."
+description: 'Sài Gòn về đêm không bao giờ ngủ — khu chợ đêm, phố ẩm thực đường phố nơi lưu giữ linh hồn ẩm thực bình dân nhất thành phố. Cẩm nang ăn đêm từ A đến Z.'
 tags:
   - cho-dem
   - am-thuc-duong-pho
@@ -16,7 +16,7 @@ slug: cho-dem-am-thuc-duong-pho-sai-gon
 
 <!-- editorial-structure -->
 
-Sài Gòn khi màn đêm buông xuống lại khoác lên mình một bộ mặt khác. Không còn cái nắng chói chang, không còn vội vã của giờ tan tầm. Sài Gòn về đêm là chuyện của những con phố ẩm thực, những khu chợ đêm, những quầy hàng rong bốc khói nghi ngút. Nếu văn hóa cà phê vỉa hè là buổi sáng của Sài Gòn, thì ẩm thực đường phố về đêm lại là câu chuyện khác. Câu chuyện của những người lao động tan ca, của hội bạn tụ tập, của du khách muốn tìm vị Sài Gòn thật nhất.
+[Sài Gòn]({{< relurl "top-10-quan-lau-sai-gon/" >}}) khi màn đêm buông xuống lại khoác lên mình một bộ mặt khác. Không còn cái nắng chói chang, không còn vội vã của giờ tan tầm. Sài Gòn về đêm là chuyện của những con phố ẩm thực, những khu chợ đêm, những quầy hàng rong bốc khói nghi ngút. Nếu văn hóa cà phê vỉa hè là buổi sáng của Sài Gòn, thì ẩm thực [đường phố]({{< relurl "top-quan-oc-sai-gon/" >}}) về đêm lại là câu chuyện khác. Câu chuyện của những người lao động tan ca, của hội bạn tụ tập, của du khách muốn tìm vị Sài Gòn thật nhất.
 
 ## Câu chuyện và bối cảnh
 
@@ -38,4 +38,4 @@ Phố đêm Thảo Điền ở thành phố Thủ Đức là một tổ hợp �
 
 Bảy khu chợ đêm, bảy sắc thái khác nhau. Có nơi ồn ào náo nhiệt như Bùi Viện, có nơi hoài cổ trầm mặc như Chợ Lớn, có nơi bình dân dân dã như Vĩnh Khánh. Nhưng tất cả đều có một điểm chung: Sài Gòn về đêm không bao giờ ngủ, và linh hồn của thành phố này vẫn luôn âm ỉ trên những bếp than, trong những quán cóc vỉa hè, nơi người ta đến để ăn, để uống, để sống.
 
-**Ban ngày, Sài Gòn cũng có những trải nghiệm ẩm thực không thể bỏ qua:** [bún bò Huế]({{< relurl "top-10-quan-bun-bo-hue-sai-gon/" >}}), [lẩu cho ngày mưa]({{< relurl "top-10-quan-lau-sai-gon/" >}}), [cà phê vỉa hè sáng sớm]({{< relurl "ca-phe-via-he-sai-gon/" >}}) và [bánh mì nức tiếng]({{< relurl "banh-mi-sai-gon/" >}}).
+**Ban ngày, Sài Gòn cũng có những trải nghiệm ẩm thực không thể bỏ qua:** bún bò Huế, lẩu cho ngày mưa, cà phê vỉa hè sáng sớm và bánh mì nức tiếng.

@@ -13,7 +13,7 @@ draft: false
 
 <!-- editorial-structure -->
 
-Nhận lương tháng đầu tiên, bạn cảm thấy mình giàu có. Nhưng đến cuối tháng, tài khoản gần như bằng không mà không rõ tiền đã đi đâu. Câu chuyện ấy lặp lại hàng tháng với vô số người trẻ mới bước vào đời. Quản lý tài chính cá nhân không phải là điều được dạy trong nhà trường, nhưng nó quyết định bạn sẽ sống một cuộc đời thoải mái hay luôn trong cảnh chật vật.
+Nhận lương tháng đầu tiên, bạn cảm thấy mình giàu có. Nhưng đến cuối tháng, tài khoản gần như bằng không mà không rõ tiền đã đi đâu. Câu chuyện ấy lặp lại hàng tháng với vô số người trẻ mới bước vào đời. Quản lý [tài chính]({{< relurl "tai-chinh-ca-nhan-cho-nguoi-tre/" >}}) cá nhân không phải là điều được dạy trong nhà trường, nhưng nó quyết định bạn sẽ sống một cuộc đời thoải mái hay luôn trong cảnh chật vật.
 
 ## Vấn đề và bối cảnh
 
@@ -33,7 +33,7 @@ Tại sao người trẻ cần quan tâm đến tài chính cá nhân ngay từ 
 
 ## Điều cần ghi nhớ
 
-Thứ hai, tuổi lao động đang ngắn lại. Tự động hóa và thay đổi công nghệ đang khiến nhiều công việc trở nên dư thừa. Các cơ hội việc làm đang dịch chuyển từ nước có chi phí lao động cao sang nước có chi phí thấp. Trong các nền kinh tế với lực lượng lao động trẻ đông đảo, những nhân viên cấp trung không nâng cao kỹ năng có thể bị thay thế bởi những người trẻ hơn với chi phí thấp hơn.
+Thứ hai, tuổi lao động đang ngắn lại. Tự động hóa và thay đổi công nghệ đang khiến nhiều [công việc]({{< relurl "lam-chu-thoi-gian-quan-ly-cong-viec/" >}}) trở nên dư thừa. Các cơ hội việc làm đang dịch chuyển từ nước có chi phí lao động cao sang nước có chi phí thấp. Trong các nền kinh tế với lực lượng lao động trẻ đông đảo, những nhân viên cấp trung không nâng cao kỹ năng có thể bị thay thế bởi những người trẻ hơn với chi phí thấp hơn.
 
 Thứ ba, tuổi thọ tăng lên. Nhờ phát triển y tế, con người ngày nay sống lâu hơn các thế hệ trước. Tuổi thọ trung bình đã tăng từ 60 lên 81 tuổi. Kết hợp với tuổi lao động ngắn hơn, điều này càng củng cố nhu cầu có một quỹ hưu trí đủ lớn.
 

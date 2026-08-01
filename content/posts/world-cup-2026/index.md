@@ -1,8 +1,8 @@
 ---
-title: "World Cup 2026: Hành Trình Lịch Sử Qua Ba Quốc Gia Và Ngôi Vương Của Tây Ban Nha"
+title: 'World Cup 2026: Hành Trình Lịch Sử Qua Ba Quốc Gia'
 slug: world-cup-2026
 date: 2026-07-27T01:16:47+07:00
-description: 'World Cup 2026 khép lại với chức vô địch của Tây Ban Nha — hành trình lịch sử qua ba quốc gia.'
+description: 'World Cup 2026 khép lại với chức vô địch của Tây Ban Nha — hành trình lịch sử qua ba quốc gia Mỹ, Canada, Mexico và những kỷ lục của kỳ World Cup mở rộng.'
 categories:
   - giai-tri
 tags:
