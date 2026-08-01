@@ -15,7 +15,7 @@ Personal blog built with Hugo + GitHub Pages.
 | **Font** | System font stack (Segoe UI, Roboto, Noto Sans, system-ui, sans-serif) |
 | **Icons** | Font Awesome (free) |
 | **Image Loading** | Lazysizes (lazy load + blur placeholder) |
-| **Automation** | Python 3 (local build script) |
+| **Automation** | Go (tools/deploy + tools/ml-related) |
 
 ## Development
 
@@ -24,7 +24,7 @@ Personal blog built with Hugo + GitHub Pages.
 hugo server
 
 # Build
-hugo --minify
+go run ./tools/deploy
 
 # Deploy (push to main → GitHub Actions auto-deploys)
 git push origin main

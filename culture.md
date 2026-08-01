@@ -61,7 +61,7 @@ Penalty: any fabricated content undermines blog credibility. Always err on the s
 - Shows `commit id | dd-mm-yyyy hh:mm:ss GMT+7` in Navbar beside blog name (legacy)
 - Generated from `git log -1` before each build
 - CI step: `mkdir -p data && git log -1 --format='...' > data/version.json`
-- Local: same in `deploy.py`
+- Local: same in `tools/deploy/main.go` (`go run ./tools/deploy`)
 - File `data/version.json` is in `.gitignore`
 
 ## Images
@@ -149,16 +149,18 @@ Post cards and random posts sidebar use `.Resources.GetMatch "featured-image"` d
 
 ### Local
 ```bash
-python3 deploy.py   # generates data/version.json then runs hugo --minify
+go run ./tools/deploy   # version.json + related.json + hugo --minify
 hugo server          # dev server (no version.json, graceful fallback)
 ```
 
 ### CI (GitHub Actions)
 `.github/workflows/hugo-deploy.yml`:
-1. `actions/checkout@v4` with `fetch-depth: 0` and `submodules: recursive`
-2. Generate version info: `mkdir -p data && git log -1 --format='...' > data/version.json`
-3. Build: `hugo --minify`
-4. Upload + deploy via `actions/deploy-pages@v4`
+1. `actions/checkout@v6` with `submodules: recursive` + `fetch-depth: 0`
+2. `actions/setup-go@v6` (go 1.24) — Go toolchain for the ML pipeline
+3. Generate version info: `mkdir -p data && git log -1 --format='...' > data/version.json`
+4. Generate related posts: `go run ./tools/ml-related`
+5. Build: `hugo --minify`
+6. Upload + deploy via `actions/upload-pages-artifact@v5` + `actions/deploy-pages@v5`
 
 ### Push
 ```bash
