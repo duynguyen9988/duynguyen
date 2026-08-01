@@ -891,6 +891,58 @@
         }, 80);
     }
 
+    var PRINT_PAGE_H = 1040;
+
+    function buildPrintPages() {
+        var src = $('#cv-preview');
+        if (!src || !src.innerHTML.trim()) return;
+
+        var meas = document.createElement('div');
+        meas.className = 'cvp-page cvp-measure';
+        meas.style.cssText = 'position:fixed;left:-10000px;top:0;visibility:hidden;padding:38px 45px;';
+        meas.innerHTML = src.innerHTML;
+        document.body.appendChild(meas);
+
+        var children = [].slice.call(meas.children);
+        var pages = [];
+        var cur = [];
+        var curH = 0;
+        children.forEach(function (el) {
+            var h = el.offsetHeight;
+            var extra = cur.length ? (parseFloat(window.getComputedStyle(el).marginTop) || 0) : 0;
+            if (cur.length && curH + extra + h > PRINT_PAGE_H) {
+                pages.push(cur);
+                cur = [];
+                curH = 0;
+                extra = 0;
+            }
+            cur.push(el.cloneNode(true));
+            curH += extra + h;
+        });
+        if (cur.length) pages.push(cur);
+        document.body.removeChild(meas);
+
+        var sheet = $('#cv-print-sheet');
+        if (!sheet) {
+            sheet = document.createElement('div');
+            sheet.id = 'cv-print-sheet';
+            sheet.className = 'cvp-print-sheet';
+            document.body.appendChild(sheet);
+        }
+        sheet.innerHTML = '';
+        var total = pages.length;
+        pages.forEach(function (items, i) {
+            var pg = document.createElement('div');
+            pg.className = 'cvp-page cvp-print-page';
+            items.forEach(function (el) { pg.appendChild(el); });
+            var num = document.createElement('div');
+            num.className = 'cvp-page-num';
+            num.textContent = (i + 1) + ' / ' + total;
+            pg.appendChild(num);
+            sheet.appendChild(pg);
+        });
+    }
+
     function downloadBlob(blob, name) {
         var a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
@@ -1657,12 +1709,14 @@
             var err = exportGate();
             if (err) { toast(err, true); return; }
             renderAll();
+            buildPrintPages();
             window.print();
         });
 
         $('#btn-print').addEventListener('click', function () {
             collectState();
             renderAll();
+            buildPrintPages();
             window.print();
         });
 
@@ -1694,7 +1748,10 @@
         });
 
         window.addEventListener('resize', fitPreview);
-        window.addEventListener('beforeprint', fitPreview);
+        window.addEventListener('beforeprint', function () {
+            fitPreview();
+            buildPrintPages();
+        });
         setTimeout(fitPreview, 400);
     }
 

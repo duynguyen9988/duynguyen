@@ -855,6 +855,11 @@
     }
 }
 
+/* Print-only pagination sheet — hidden on screen */
+.cvp-print-sheet {
+    display: none;
+}
+
 @media print {
     body,
     .wrapper,
@@ -865,10 +870,14 @@
         margin: 0 !important;
         background: #fff !important;
     }
-    .elton-header,
+    .elton-nav,
+    .elton-footer,
     .wrapper > footer,
+    #header-desktop,
+    .breadcrumb,
     #mask,
     #fixed-buttons,
+    #back-to-top,
     #reading-progress,
     .cvgen-hero,
     .cvgen-kpis,
@@ -877,7 +886,7 @@
     .cvgen-form,
     .cvgen-actions,
     .cvgen-content,
-    .cvgen-panel:not(.cvgen-preview-panel),
+    .cvgen-panel,
     .cvgen-toolbar,
     .cvgen-save-state,
     .cvgen-toast {
@@ -886,8 +895,7 @@
     .cvgen,
     .cvgen-chrome,
     .cvgen-layout,
-    .cvgen-main,
-    .cvgen-preview-panel {
+    .cvgen-main {
         display: block !important;
         background: #fff !important;
         border: 0 !important;
@@ -896,15 +904,31 @@
         margin: 0 !important;
         border-radius: 0 !important;
     }
-    .cvgen-preview-panel .cvgen-panel-t,
-    .cvgen-preview-wrap .cvgen-actions-note {
+    .cvp-print-sheet {
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .cvp-measure {
         display: none !important;
     }
-    .cvgen-preview-wrap {
-        overflow: visible !important;
-        padding: 0 !important;
-        height: auto !important;
-        min-height: 0 !important;
+    .cvp-print-page {
+        position: relative !important;
+        page-break-after: always;
+        break-after: page;
+    }
+    .cvp-print-page:last-child {
+        page-break-after: auto;
+        break-after: auto;
+    }
+    .cvp-page-num {
+        position: absolute;
+        bottom: 4mm;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 9px;
+        color: #94A3B8;
     }
     .cvp-page {
         transform: none !important;
