@@ -221,6 +221,7 @@ Track generated blog posts here:
 - [x] Thời Khắc Công Bố / Disclosure Day (2026-07-26)
 - [x] Delete /bai-viet-dau-tien/ (hello world) (2026-07-26)
 - [x] Review Spider-Man: Brand New Day (2026) không spoiler (2026-08-01)
+- [x] Top 10 quán mì Quảng ngon ở Sài Gòn (2026-08-01)
 
 ## Shortcuts
 
