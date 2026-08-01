@@ -15,6 +15,10 @@
             {{- end -}}
         </h1>
 
+        {{- with .Params.description -}}
+            <p class="elton-section-band">{{ . }}</p>
+        {{- end -}}
+
         {{- if .Pages -}}
             {{- $paginator := .Paginate .Pages.ByDate.Reverse -}}
             <div class="elton-post-grid">

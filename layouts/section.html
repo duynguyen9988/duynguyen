@@ -9,6 +9,10 @@
                 {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
             </h1>
 
+            {{- with .Params.description -}}
+                <p class="elton-section-band">{{ . }}</p>
+            {{- end -}}
+
             {{- $paginator := .Paginate .Pages.ByDate.Reverse -}}
             <div class="elton-post-grid">
                 {{- range $paginator.Pages -}}

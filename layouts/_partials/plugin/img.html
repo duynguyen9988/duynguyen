@@ -15,17 +15,24 @@
 {{- with dict "Path" $src "Resources" .Resources | partial "function/resource.html" -}}
     {{- if not (eq .MediaType.SubType "svg") -}}
         {{- $res := . -}}
-        {{- $fit := "1600x1200" -}}
-        {{- $processed := $res.Fit (printf "%s webp" $fit) -}}
+        {{- $processed := $res.Resize "1600x webp" -}}
         {{- $src = $processed.RelPermalink -}}
         {{- $width = $processed.Width -}}
         {{- $height = $processed.Height -}}
-        {{- $smallRes := $res.Fit "800x600 webp" -}}
-        {{- $small = $smallRes.RelPermalink -}}
-        {{- $smallW = $smallRes.Width -}}
-        {{- $largeRes := $res.Fit "2400x1800 webp" -}}
-        {{- $large = $largeRes.RelPermalink -}}
-        {{- $largeW = $largeRes.Width -}}
+        {{- $small = $src -}}
+        {{- $smallW = $width -}}
+        {{- $large = $src -}}
+        {{- $largeW = $width -}}
+        {{- if gt $res.Width 800 -}}
+            {{- $smallRes := $res.Resize "800x webp" -}}
+            {{- $small = $smallRes.RelPermalink -}}
+            {{- $smallW = $smallRes.Width -}}
+        {{- end -}}
+        {{- if ge $res.Width 1600 -}}
+            {{- $largeRes := $res.Resize "2400x webp" -}}
+            {{- $large = $largeRes.RelPermalink -}}
+            {{- $largeW = $largeRes.Width -}}
+        {{- end -}}
     {{- else -}}
         {{- $src = .RelPermalink -}}
         {{- $width = $width | default .Width -}}
