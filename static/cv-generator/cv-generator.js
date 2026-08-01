@@ -70,15 +70,32 @@
         'làm việc tại': 'đảm nhận', 'làm việc ở': 'làm việc tại', 'làm việc với': 'phối hợp với',
         'giúp đỡ': 'hỗ trợ', 'giúp': 'hỗ trợ', 'chịu trách nhiệm về': 'quản lý', 'chịu trách nhiệm': 'phụ trách',
         'dùng': 'sử dụng', 'xử lý': 'giải quyết', 'tìm hiểu': 'nghiên cứu', 'nói chuyện với': 'trao đổi với',
-        'theo dõi': 'giám sát', 'trông coi': 'quản lý', 'lo việc': 'phụ trách'
+        'theo dõi': 'giám sát', 'trông coi': 'quản lý', 'lo việc': 'phụ trách',
+        'được giao nhiệm vụ': 'đảm nhận', 'được giao': 'đảm nhận', 'được phân công': 'đảm nhận',
+        'có nhiệm vụ': 'phụ trách', 'chuyên phụ trách': 'phụ trách', 'phụ trách mảng': 'phụ trách',
+        'viết bài': 'biên soạn nội dung', 'viết nội dung': 'biên soạn nội dung', 'đăng bài': 'xuất bản bài viết',
+        'chạy quảng cáo': 'vận hành chiến dịch quảng cáo', 'đặt quảng cáo': 'triển khai quảng cáo',
+        'chăm sóc khách': 'hỗ trợ khách hàng', 'chăm sóc khách hàng': 'hỗ trợ khách hàng',
+        'nhập liệu': 'cập nhật dữ liệu', 'gọi điện': 'trao đổi qua điện thoại', 'in ấn': 'chuẩn bị tài liệu',
+        'sửa lỗi': 'khắc phục lỗi', 'fix lỗi': 'khắc phục lỗi', 'test': 'kiểm thử',
+        'làm báo cáo': 'lập báo cáo', 'làm hồ sơ': 'soạn thảo hồ sơ', 'làm slide': 'thiết kế bài thuyết trình',
+        'học hỏi': 'nghiên cứu', 'điều tra': 'khảo sát', 'quét': 'rà soát', 'soạn thảo': 'biên soạn',
+        'làm việc tại': 'công tác tại', 'làm việc ở': 'công tác tại'
     };
 
     var EN_WEAK = {
         'worked on': 'developed', 'worked with': 'collaborated with', 'worked as': 'served as',
         'helped with': 'assisted with', 'helped': 'supported', 'was responsible for': 'led',
-        'responsible for': 'led', 'took care of': 'managed', 'tried to': 'aimed to',
-        'dealt with': 'managed', 'was part of': 'contributed to', 'used to': 'leveraged',
-        'in charge of': 'oversaw', 'talked to': 'communicated with'
+        'was in charge of': 'led', 'responsible for': 'owned', 'in charge of': 'led',
+        'took care of': 'managed', 'tried to': 'aimed to', 'dealt with': 'resolved',
+        'was part of': 'contributed to', 'talked to': 'communicated with',
+        'used to': 'leveraged', 'looked after': 'managed', 'handled': 'managed',
+        'made': 'created', 'did': 'executed', 'built': 'developed', 'fixed': 'resolved',
+        'wrote': 'authored', 'started': 'launched', 'grew': 'expanded', 'ran': 'operated',
+        'got': 'secured', 'watched': 'monitored', 'kept': 'maintained', 'found': 'identified',
+        'learned': 'mastered', 'learnt': 'mastered', 'checked': 'reviewed', 'sent': 'delivered',
+        'recruited': 'hired', 'trained': 'coached', 'organised': 'orchestrated', 'organized': 'orchestrated',
+        'managed the team': 'led the team', 'assisted': 'supported', 'assist': 'support'
     };
 
     var FILLERS_VN = ['vô cùng', 'thực sự rất', 'thực sự', 'khá là', 'rất', 'có thể nói là', 'một cách', 'nhằm mục đích', 'để có thể'];
@@ -1119,10 +1136,12 @@
 
     function replaceAllWords(text, map) {
         var keys = Object.keys(map).sort(function (a, b) { return b.length - a.length; });
+        var out = String(text);
         keys.forEach(function (k) {
-            text = text.replace(new RegExp('\\b' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'gi'), map[k]);
+            var re = new RegExp('(?<![\\p{L}\\p{N}])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![\\p{L}\\p{N}])', 'giu');
+            out = out.replace(re, map[k]);
         });
-        return text;
+        return out;
     }
 
     function stripFillers(text) {
@@ -1142,23 +1161,129 @@
         return { text: out.trim(), count: count };
     }
 
-    function stripFirstPerson(text) {
-        var out = text
-            .replace(/\b(Tôi|Tôi đã|Tôi sẽ|Tôi thường)\s+/gi, '')
-            .replace(/\bI\s+(have|had|was|am|will)\s+/gi, '')
-            .replace(/\bI\s+/gi, '')
-            .replace(/\bTôi là\b/gi, 'Là');
-        out = out.charAt(0).toUpperCase() + out.slice(1);
-        return out;
+    function detectLang(text) {
+        var viHits = (text.match(/[ăâđêôơưĂÂĐÊÔƠƯáàảãạấầẩẫậắằẳẵặéèẻẽẹếềểễệíìỉĩịóòỏõọốồổỗộớờởỡợúùủũụứừửữựýỳỷỹỵ]/g) || []).length;
+        var enHits = (text.match(/\b(the|and|with|for|was|were|team|company|project|sales|marketing|development|client|customer|market|product|design|data|support|business|managed|worked|experience|skills)\b/gi) || []).length;
+        return viHits > enHits ? 'vi' : 'en';
+    }
+
+    function stripFirstPerson(text, lang) {
+        var out = String(text);
+        lang = lang || detectLang(out);
+        if (lang === 'vi') {
+            out = out
+                .replace(/\b(Tôi|Em)\s+(đã|sẽ|thường|luôn)\s+/gi, '')
+                .replace(/\b(Tôi|Em)\s+(là|được|bị)\s+/gi, '')
+                .replace(/\bTôi\s+/gi, '')
+                .replace(/\bEm\s+/gi, '')
+                .replace(/\bTôi là\b/gi, 'Là');
+        } else {
+            out = out
+                .replace(/\bI\s+(have|had|was|am|will|would|can|could|used)\s+/gi, '')
+                .replace(/\bMy\s+(role|job|duty|responsibilities?|main task)\s+(was|were|is|are|included)\s+/gi, '')
+                .replace(/\bI\s+/gi, '')
+                .replace(/\bmy\s+(team|role|responsibility|duties?|job|task)\s+(at|of|with|in|was|were|is|are)\s+/gi, '');
+        }
+        return out.charAt(0).toUpperCase() + out.slice(1);
+    }
+
+    var EN_GERUND_PAST = {
+        'managing': 'managed', 'developing': 'developed', 'building': 'built', 'creating': 'created',
+        'designing': 'designed', 'implementing': 'implemented', 'handling': 'handled',
+        'overseeing': 'oversaw', 'leading': 'led', 'coordinating': 'coordinated',
+        'supporting': 'supported', 'launching': 'launched', 'running': 'ran', 'growing': 'grew',
+        'improving': 'improved', 'increasing': 'increased', 'reducing': 'reduced', 'testing': 'tested',
+        'writing': 'wrote', 'reporting': 'reported', 'analyzing': 'analyzed', 'planning': 'planned',
+        'training': 'trained', 'recruiting': 'recruited', 'preparing': 'prepared', 'reviewing': 'reviewed'
+    };
+
+    var EN_TO_PAST = {
+        'support': 'supported', 'manage': 'managed', 'handle': 'handled', 'coordinate': 'coordinated',
+        'oversee': 'oversaw', 'develop': 'developed', 'lead': 'led', 'assist': 'assisted',
+        'prepare': 'prepared', 'maintain': 'maintained', 'monitor': 'monitored', 'analyze': 'analyzed',
+        'plan': 'planned', 'organize': 'organized', 'train': 'trained', 'recruit': 'recruited',
+        'write': 'wrote', 'update': 'updated', 'review': 'reviewed', 'report': 'reported',
+        'run': 'ran', 'grow': 'grew', 'improve': 'improved', 'increase': 'increased',
+        'reduce': 'reduced', 'launch': 'launched', 'build': 'built', 'design': 'designed',
+        'test': 'tested', 'create': 'created', 'implement': 'implemented', 'negotiate': 'negotiated',
+        'deliver': 'delivered', 'produce': 'produced', 'establish': 'established', 'execute': 'executed',
+        'facilitate': 'facilitated', 'promote': 'promoted', 'optimize': 'optimized', 'restructure': 'restructured',
+        'resolve': 'resolved', 'document': 'documented', 'budget': 'budgeted', 'forecast': 'forecasted'
+    };
+
+    function fixEnGerund(text) {
+        var t = String(text);
+        t = t
+            .replace(/\b(?:was\s+)?(?:responsible|in\s+charge)\s+(?:for|of)\s+(\w+ing)\b/gi, function (m, g) {
+                return EN_GERUND_PAST[g.toLowerCase()] || m;
+            })
+            .replace(/\bworked\s+on\s+(\w+ing)\b/gi, function (m, g) {
+                return EN_GERUND_PAST[g.toLowerCase()] || m;
+            })
+            .replace(/\bwas\s+tasked\s+with\s+(\w+ing)\b/gi, function (m, g) {
+                return EN_GERUND_PAST[g.toLowerCase()] || m;
+            })
+            .replace(/\bhelped\s+(?:to\s+)?(?:with\s+)?(\w+ing)\b/gi, function (m, g) {
+                return EN_GERUND_PAST[g.toLowerCase()] || m;
+            })
+            .replace(/\b(?:my\s+)?(?:role|job|duty|responsibilities?|main\s+task)\s+(?:was|were|is|are)\s+to\s+(\w+)\b/gi, function (m, g) {
+                return EN_TO_PAST[g.toLowerCase()] || m;
+            })
+            .replace(/\bwas\s+to\s+(\w+)\b/gi, function (m, g) {
+                return EN_TO_PAST[g.toLowerCase()] || m;
+            });
+        return t;
+    }
+
+    function cleanSentence(text, lang) {
+        var t = String(text);
+        lang = lang || detectLang(t);
+        if (lang === 'en') t = fixEnGerund(t);
+        t = stripFirstPerson(t, lang);
+        t = replaceAllWords(t, lang === 'vi' ? VN_WEAK : EN_WEAK);
+        t = t.replace(/\s{2,}/g, ' ').replace(/\s+([,.;:!?])/g, '$1').trim();
+        if (t && /^[a-zđẹ]/.test(t)) t = t.charAt(0).toUpperCase() + t.slice(1);
+        if (t && !/[.!?]$/.test(t)) t += '.';
+        return t;
+    }
+
+    function smartRewrite(text, lang) {
+        var t = String(text);
+        lang = lang || detectLang(t);
+        var n = 0;
+        t = t.replace(/^(Tôi|Em|I)\s+/, function (m) { n++; return ''; });
+        t = t.replace(/\b(Tôi|I)\s+(đã|sẽ|đang|have|had|was|am|will)\s+/gi, function (m) { n++; return ''; });
+        t = cleanSentence(t, lang);
+        if (t && /^[a-z]/.test(t)) t = t.charAt(0).toUpperCase() + t.slice(1);
+        return { text: t, changed: n };
+    }
+
+    function applyRewriteAll() {
+        var n = 0;
+        var apply = function (t) {
+            if (!t || !t.trim()) return t;
+            var r = smartRewrite(t);
+            if (r.text !== t.trim()) n++;
+            return r.text;
+        };
+        state.objective.summary = apply(state.objective.summary);
+        state.experience.forEach(function (e) {
+            e.bullets = (e.bullets || []).map(apply);
+        });
+        state.projects.forEach(function (x) { x.description = apply(x.description); });
+        state.activities.forEach(function (x) { x.description = apply(x.description); });
+        state.additional.text = apply(state.additional.text);
+        return n;
     }
 
     function impactBullet(text) {
-        var t = stripFirstPerson(text.trim());
-        var verbed = replaceAllWords(t, merge(VN_WEAK, EN_WEAK));
+        var lang = detectLang(text);
+        var t = stripFirstPerson(text.trim(), lang);
+        var verbed = replaceAllWords(t, lang === 'vi' ? VN_WEAK : EN_WEAK);
         var clauses = verbed.split(/\s*[;,]\s*/).filter(Boolean);
         var metricIdx = -1;
         for (var i = 0; i < clauses.length; i++) {
-            if (/\d|%|triệu|tỷ|phần trăm/.test(clauses[i]) && /^(tăng|giảm|tiết kiệm|cải thiện|nâng|đạt|mang|đem|giúp|giảm thiểu|tối ưu)/.test(clauses[i])) {
+            if (/\d|%|triệu|tỷ|phần trăm/.test(clauses[i]) && /^(tăng|giảm|tiết kiệm|cải thiện|nâng|đạt|mang|đem|giúp|giảm thiểu|tối ưu|increased|reduced|improved|boosted|cut|grew)/.test(clauses[i])) {
                 metricIdx = i;
                 break;
             }
@@ -1286,26 +1411,23 @@
         state.experience.forEach(function (e) {
             e.bullets = (e.bullets || []).map(function (b) {
                 if (!b.trim()) return b;
-                var t = stripFirstPerson(b.trim());
-                t = replaceAllWords(t, merge(VN_WEAK, EN_WEAK));
-                t = t.replace(/\s{2,}/g, ' ').replace(/\s+([,.!?;:])/g, '$1').trim();
-                if (!/[.!?]$/.test(t)) t += '.';
-                if (t !== b.trim()) n++;
-                return t;
+                var r = smartRewrite(b.trim());
+                if (r.text !== b.trim()) n++;
+                return r.text;
             });
         });
         return n;
     }
 
     function improveObjective() {
+        var lang = (state.ui && state.ui.lang === 'en') ? 'en' : 'vi';
         if (state.objective.summary.trim()) {
             pushUndo();
-            var t = stripFirstPerson(state.objective.summary.trim());
-            t = replaceAllWords(t, merge(VN_WEAK, EN_WEAK));
-            t = t.replace(/\s{2,}/g, ' ').trim();
-            if (!/[.!?]$/.test(t)) t += '.';
+            var t = cleanSentence(state.objective.summary.trim(), lang);
             state.objective.summary = t;
-            return 'Mục tiêu nghề nghiệp đã được viết lại giọng chủ động, bỏ xưng hô "tôi" và nâng cấp động từ.';
+            return lang === 'en'
+                ? 'Career objective rewritten in an active, first-person-free English tone with stronger verbs.'
+                : 'Mục tiêu nghề nghiệp đã được viết lại giọng chủ động, bỏ xưng hô "tôi" và nâng cấp động từ.';
         }
         var role = detectRole();
         var skills = state.skills.filter(function (x) { return x.name.trim(); }).slice(0, 3).map(function (x) { return x.name; });
@@ -1319,9 +1441,18 @@
         var name = state.personal.fullName.trim();
         var title = state.personal.jobTitle.trim();
         if (!title && !skills.length && !name) {
-            return { warn: 'Điền ít nhất họ tên, chức danh hoặc vài kỹ năng để tôi dựng câu mục tiêu từ dữ liệu của bạn.' };
+            return { warn: lang === 'en' ? 'Fill in at least your name, job title or a few skills so I can draft an objective from your data.' : 'Điền ít nhất họ tên, chức danh hoặc vài kỹ năng để tôi dựng câu mục tiêu từ dữ liệu của bạn.' };
         }
         pushUndo();
+        if (lang === 'en') {
+            var eparts = [];
+            if (title) eparts.push('A dedicated ' + title);
+            if (years && years >= 1) eparts.push(years + ' years of experience');
+            if (skills.length) eparts.push('strengths in ' + skills.join(', '));
+            var elead = eparts.length ? eparts.join(' with ') + ', seeking to ' : 'Seeking to ';
+            state.objective.summary = elead + 'contribute and grow in a professional environment where I can apply my experience to deliver measurable results. Please tailor this to your specific goal.';
+            return 'Objective drafted from your data (title, experience, skills) — review and tailor it to the role.';
+        }
         var parts = [];
         if (title) parts.push('Là ' + title);
         if (years && years >= 1) parts.push(years + ' năm kinh nghiệm');
@@ -1337,12 +1468,9 @@
         exps.forEach(function (e) {
             e.bullets = (e.bullets || []).map(function (b) {
                 if (!b.trim()) return b;
-                var t = stripFirstPerson(b.trim());
-                t = replaceAllWords(t, merge(VN_WEAK, EN_WEAK));
-                t = t.replace(/\s{2,}/g, ' ').replace(/\s+([,.!?;:])/g, '$1').trim();
-                if (!/[.!?]$/.test(t)) t += '.';
-                if (t !== b.trim()) n++;
-                return t;
+                var r = smartRewrite(b.trim());
+                if (r.text !== b.trim()) n++;
+                return r.text;
             });
         });
         var emptyExps = exps.filter(function (e) { return !(e.bullets || []).some(function (b) { return b.trim(); }); });
@@ -1396,6 +1524,12 @@
                 break;
             }
             case 'improve-experience': msg = improveExperience(); break;
+            case 'rewrite-all': {
+                var na = applyRewriteAll();
+                msg = na ? 'Đã viết lại ' + na + ' đoạn văn bản (tự nhận diện tiếng Việt/Tiếng Anh, bỏ ngôi thứ nhất, nâng cấp động từ).' : 'Không có đoạn nào cần viết lại.';
+                if (na) pushUndo();
+                break;
+            }
             case 'rewrite-bullets': {
                 var n = applyRewriteBullets();
                 msg = n ? 'Đã viết lại ' + n + ' gạch đầu dòng.' : 'Không có gạch đầu dòng nào để viết lại.';
