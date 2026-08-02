@@ -226,6 +226,7 @@ Track generated blog posts here:
 - [x] Thủ tục xin visa Hàn Quốc 5 năm diện thu nhập 8.000 USD (2026-08-01)
 - [x] SEO overhaul: title ≤70 + description 90–160 cho 31 bài; internal links inline ~100 bài (script bigram + thủ công); bỏ chặn AhrefsBot/MJ12bot/BLEXBot trong robots.txt; mở rộng 3 bài mỏng bằng Wikipedia (nhà thờ Đức Bà, cơm chiên rau củ, bánh mì nấm tỏi) (2026-08-02)
 - [x] Cẩm nang du lịch Nha Trang tự túc 3N2Đ 2026 (2026-08-02)
+- [x] Review Xứ Sở Thần Tiên (The Land of Sometimes) 2026 không spoiler (2026-08-02)
 
 ## Shortcuts
 
