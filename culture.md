@@ -229,6 +229,7 @@ Track generated blog posts here:
 - [x] Review Xứ Sở Thần Tiên (The Land of Sometimes) 2026 không spoiler (2026-08-02)
 - [x] Blog nhỏ đặt AdSense khi người dùng chặn quảng cáo: còn cơ hội? (2026-08-02)
 - [x] Cẩm nang du lịch Hội An tự túc 2N1Đ 2026 (2026-08-02)
+- [x] Cẩm nang du lịch Sapa tự túc 3N2Đ 2026 (2026-08-02)
 
 ## Shortcuts
 
