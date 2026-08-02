@@ -20,6 +20,7 @@
             ui: { lang: 'vi' },
             personal: { fullName: '', jobTitle: '', email: '', phone: '', address: '', nationality: '', birthDate: '', linkedin: '', website: '' },
             objective: { summary: '' },
+            highlights: { text: '' },
             experience: [],
             education: [],
             projects: [],
@@ -44,14 +45,14 @@
 
     var T = {
         vi: {
-            obj: 'Mục tiêu nghề nghiệp', exp: 'Kinh nghiệm làm việc', edu: 'Học vấn', proj: 'Dự án',
+            obj: 'Mục tiêu nghề nghiệp', hl: 'Highlights', exp: 'Kinh nghiệm làm việc', edu: 'Học vấn', proj: 'Dự án',
             skills: 'Kỹ năng', cert: 'Chứng chỉ', lang: 'Ngoại ngữ', award: 'Giải thưởng', act: 'Hoạt động',
             ref: 'Người tham chiếu', add: 'Thông tin bổ sung', present: 'Hiện tại', photo: 'Ảnh thẻ 3x4',
             attach: 'Attach Passport Photo', birth: 'Ngày sinh', nat: 'Quốc tịch',
             lvl: { 'Cơ bản': 'Cơ bản', 'Khá': 'Khá', 'Tốt': 'Tốt', 'Thành thạo': 'Thành thạo', 'Bản ngữ': 'Bản ngữ' }
         },
         en: {
-            obj: 'Career Objective', exp: 'Work Experience', edu: 'Education', proj: 'Projects',
+            obj: 'Career Objective', hl: 'Highlights', exp: 'Work Experience', edu: 'Education', proj: 'Projects',
             skills: 'Skills', cert: 'Certifications', lang: 'Languages', award: 'Awards & Honors', act: 'Activities',
             ref: 'References', add: 'Additional Information', present: 'Present', photo: 'Passport photo 3x4',
             attach: 'Attach Passport Photo', birth: 'DOB', nat: 'Nationality',
@@ -326,7 +327,7 @@
     }
 
     function setStaticValues() {
-        var binds = ['personal.fullName', 'personal.jobTitle', 'personal.email', 'personal.phone', 'personal.address', 'personal.nationality', 'personal.birthDate', 'personal.linkedin', 'personal.website', 'ui.lang', 'objective.summary', 'additional.text', 'jd'];
+        var binds = ['personal.fullName', 'personal.jobTitle', 'personal.email', 'personal.phone', 'personal.address', 'personal.nationality', 'personal.birthDate', 'personal.linkedin', 'personal.website', 'ui.lang', 'objective.summary', 'highlights.text', 'additional.text', 'jd'];
         binds.forEach(function (p) {
             var el = $('[data-bind="' + p + '"]');
             if (el) {
@@ -427,6 +428,10 @@
             '<p class="cvp-photo-note">' + esc(L.photo) + '</p>' +
             '</div>' +
             '</div>';
+
+        if (s.highlights.text.trim()) {
+            html += '<section class="cvp-sec"><h2 class="cvp-sec-t">' + esc(L.hl) + '</h2><p class="cvp-objective">' + esc(s.highlights.text) + '</p></section>';
+        }
 
         if (s.objective.summary.trim()) {
             html += '<section class="cvp-sec"><h2 class="cvp-sec-t">' + esc(L.obj) + '</h2><p class="cvp-objective">' + esc(s.objective.summary) + '</p></section>';
@@ -554,7 +559,7 @@
         var s = state;
         var w = {
             fullName: 15, jobTitle: 4, email: 10, phone: 10, address: 2, linkedin: 3, website: 3, birthDate: 1, nationality: 1,
-            summary: 15, exp: 20, edu: 12, skills: 8, proj: 3, cert: 2, lang: 2, award: 2, act: 2, ref: 2, additional: 1
+            summary: 15, highlights: 2, exp: 20, edu: 12, skills: 8, proj: 3, cert: 2, lang: 2, award: 2, act: 2, ref: 2, additional: 1
         };
         var total = 0, got = 0;
         function add(k, fn) { total += w[k]; if (fn()) got += w[k]; }
@@ -568,6 +573,7 @@
         add('birthDate', function () { return !!s.personal.birthDate; });
         add('nationality', function () { return !!s.personal.nationality.trim(); });
         add('summary', function () { return s.objective.summary.trim().length >= 60; });
+        add('highlights', function () { return s.highlights.text.trim().length >= 80; });
         add('exp', function () { var e = s.experience.filter(function (x) { return x.title.trim() && x.company.trim(); }); return e.length >= 1 && e.some(function (x) { return (x.bullets || []).some(function (b) { return b.trim(); }); }); });
         add('edu', function () { return s.education.some(function (e) { return e.school.trim() && e.degree.trim(); }); });
         add('skills', function () { return s.skills.filter(function (x) { return x.name.trim(); }).length >= 4; });
@@ -583,7 +589,7 @@
 
     function collectText() {
         var s = state;
-        var parts = [s.personal.fullName, s.personal.jobTitle, s.objective.summary, s.additional.text];
+        var parts = [s.personal.fullName, s.personal.jobTitle, s.objective.summary, s.highlights.text, s.additional.text];
         s.experience.forEach(function (e) { parts.push(e.title, e.company, e.location, (e.bullets || []).join(' ')); });
         s.education.forEach(function (e) { parts.push(e.school, e.degree, e.field); });
         s.projects.forEach(function (x) { parts.push(x.name, x.description); });
@@ -637,6 +643,7 @@
 
         var fmt = 0, fmtMax = 20;
         var secCount = 0;
+        if (s.highlights.text.trim()) secCount++;
         if (s.objective.summary.trim()) secCount++;
         if (s.experience.length) secCount++;
         if (s.education.length) secCount++;
@@ -648,7 +655,7 @@
         if (s.activities.length) secCount++;
         if (s.references.length) secCount++;
         if (s.additional.text.trim()) secCount++;
-        fmt = Math.round(20 * secCount / 11);
+        fmt = Math.round(20 * secCount / 12);
         if (hasPlaceholder) { fmt = Math.max(0, fmt - 8); res.warnings.push('Phát hiện văn bản giữ chỗ (lorem/xxx/điền vào...) — thay bằng nội dung thật trước khi nộp.'); }
         if (!s.objective.summary.trim()) res.warnings.push('Thiếu mục tiêu nghề nghiệp — ATS thường dò từ khóa ở phần đầu CV này.');
 
@@ -862,7 +869,7 @@
 
     function exportGate() {
         var miss = requiredList();
-        var hasContent = state.objective.summary.trim() || state.experience.length || state.education.length ||
+        var hasContent = state.objective.summary.trim() || state.highlights.text.trim() || state.experience.length || state.education.length ||
             state.projects.length || state.skills.length || state.certifications.length || state.languages.length ||
             state.awards.length || state.activities.length || state.references.length || state.additional.text.trim();
         if (!state.personal.fullName.trim()) return 'Nhập họ và tên trước khi xuất CV.';
@@ -1027,6 +1034,11 @@
         body.push('<w:tbl><w:tblPr><w:tblW w:w="9638" w:type="dxa"/><w:tblLayout w:type="fixed"/></w:tblPr>' +
             '<w:tblGrid><w:gridCol w:w="7938"/><w:gridCol w:w="1700"/></w:tblGrid>' +
             '<w:tr><w:trPr><w:cantSplit/></w:trPr>' + headCell + photoCell + '</w:tr></w:tbl>');
+
+        if (s.highlights.text.trim()) {
+            body.push(docxSection(L.hl));
+            body.push(docxP(s.highlights.text.trim(), { after: 120 }));
+        }
 
         if (s.objective.summary.trim()) {
             body.push(docxSection(L.obj));
