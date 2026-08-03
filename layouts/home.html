@@ -16,6 +16,16 @@
             <p class="elton-home-desc">{{ .Site.Params.description | plainify }}</p>
         </header>
 
+        <section class="elton-home-sec" aria-labelledby="home-sec-all">
+            <h2 class="elton-home-sec-t" id="home-sec-all">ALL POSTS</h2>
+            <div class="elton-post-grid">
+                {{- range $paginator.Pages -}}
+                    {{- partial "post-card.html" . -}}
+                {{- end -}}
+            </div>
+            {{- partial "paginator.html" (dict "Pager" $paginator) -}}
+        </section>
+
         {{- with $phimPosts -}}
         <section class="elton-home-sec" aria-labelledby="home-sec-phim">
             <h2 class="elton-home-sec-t" id="home-sec-phim">PHIM</h2>
@@ -31,15 +41,5 @@
             {{- end -}}
         </section>
         {{- end -}}
-
-        <section class="elton-home-sec" aria-labelledby="home-sec-all">
-            <h2 class="elton-home-sec-t" id="home-sec-all">ALL POSTS</h2>
-            <div class="elton-post-grid">
-                {{- range $paginator.Pages -}}
-                    {{- partial "post-card.html" . -}}
-                {{- end -}}
-            </div>
-            {{- partial "paginator.html" (dict "Pager" $paginator) -}}
-        </section>
     </div>
 {{- end -}}
