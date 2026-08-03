@@ -231,6 +231,7 @@ Track generated blog posts here:
 - [x] Blog nhỏ đặt AdSense khi người dùng chặn quảng cáo: còn cơ hội? (2026-08-02)
 - [x] Cẩm nang du lịch Hội An tự túc 2N1Đ 2026 (2026-08-02)
 - [x] Cẩm nang du lịch Sapa tự túc 3N2Đ 2026 (2026-08-02)
+- [x] Lịch nghỉ lễ 2/9/2026: nghỉ 5 ngày liên tục + gợi ý điểm đến du lịch Quốc khánh (2026-08-03)
 
 ## Shortcuts
 
