@@ -232,6 +232,14 @@ Track generated blog posts here:
 - [x] Cẩm nang du lịch Hội An tự túc 2N1Đ 2026 (2026-08-02)
 - [x] Cẩm nang du lịch Sapa tự túc 3N2Đ 2026 (2026-08-02)
 - [x] Lịch nghỉ lễ 2/9/2026: nghỉ 5 ngày liên tục + gợi ý điểm đến du lịch Quốc khánh (2026-08-03)
+- [x] Top 10 quán cơm tấm ngon Sài Gòn 2026: địa chỉ, giá, giờ mở (2026-08-03)
+- [x] Cách chọn laptop sinh viên 2026: cấu hình theo ngành + ngân sách (2026-08-03)
+- [x] Cẩm nang du lịch Vũng Tàu tự túc 2N1Đ 2026 (2026-08-03)
+- [x] Top 10 podcast Việt Nam 2026 (2026-08-03)
+- [x] Xây dựng thói quen tốt với Atomic Habits (2026-08-03)
+- [x] Săn sale 9/9 2026: mẹo shopping Shopee, Lazada, Tiki (2026-08-03)
+- [x] Review Ma Xưởng Hòm (Danur: The Last Chapter) 2026 không spoiler (2026-08-03)
+- [x] Múa rối nước: lịch sử, nghệ thuật và địa điểm xem ở Hà Nội (2026-08-03)
 
 ## Shortcuts
 
