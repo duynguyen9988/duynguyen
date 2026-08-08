@@ -20,7 +20,7 @@
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ if and .IsNode .Paginator (gt .Paginator.PageNumber 1) }}{{ .Paginator.URL | absURL }}{{ else }}{{ .Permalink }}{{ end }}">
 <meta property="og:type" content="{{ if and .IsPage (eq .Section "posts") }}article{{ else }}website{{ end }}">
 {{- if $socialImage -}}
     <meta property="og:image" content="{{ $socialImage.Permalink }}">

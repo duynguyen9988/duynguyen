@@ -1,0 +1,54 @@
+{{- /* Auto footer: bản quyền + liên kết nội bộ + liên kết ngoài — rendered automatically at the end of every post */ -}}
+{{- $content := .Content -}}
+{{- $links := findRE `<a[^>]*href=["'][^"'#]+["'][^>]*>.*?</a>` $content -}}
+{{- $int := dict -}}
+{{- $ext := dict -}}
+{{- range $links -}}
+    {{- $m := . -}}
+    {{- $href := replaceRE `^<a[^>]*href=["']([^"'#]+)["'][^>]*>.*$` `$1` $m -}}
+    {{- $text := replaceRE `<a[^>]*>(.*)</a>$` `$1` $m -}}
+    {{- $text = strings.TrimSpace $text -}}
+    {{- if or (hasPrefix $href "http://") (hasPrefix $href "https://") (hasPrefix $href "//") -}}
+        {{- $ext = merge $ext (dict $href $text) -}}
+    {{- else if or (hasPrefix $href "/") (hasPrefix $href "./") -}}
+        {{- $int = merge $int (dict $href $text) -}}
+    {{- end -}}
+{{- end -}}
+{{- $intKeys := slice -}}
+{{- range $k, $v := $int -}}{{ $intKeys = $intKeys | append $k }}{{- end -}}
+{{- $intKeys = sort $intKeys -}}
+{{- $extKeys := slice -}}
+{{- range $k, $v := $ext -}}{{ $extKeys = $extKeys | append $k }}{{- end -}}
+{{- $extKeys = sort $extKeys -}}
+
+<aside class="elton-postnotes" aria-label="Thông tin cuối bài">
+    <section class="elton-postnotes-sec">
+        <h2 class="elton-postnotes-t">1. Bản quyền và ghi nguồn</h2>
+        <p>© {{ now.Format "2006" }} Duy Nguyen Blog. Bài viết được biên soạn, tổng hợp từ các nguồn đã dẫn. Khi chia sẻ hoặc trích dẫn lại nội dung, vui lòng ghi rõ nguồn Duy Nguyen Blog và kèm liên kết đến bài viết gốc: <a href="{{ .Permalink }}" rel="bookmark">{{ .Permalink }}</a>.</p>
+    </section>
+
+    {{- with $intKeys -}}
+    <section class="elton-postnotes-sec">
+        <h2 class="elton-postnotes-t">2. Liên kết nội bộ liên quan</h2>
+        <ul class="elton-postnotes-list">
+            {{- range . -}}
+                {{- $text := index $int . -}}
+                {{- if not $text }}{{ $text = . }}{{ end -}}
+                <li><a href="{{ . | safeURL }}">{{ $text }}</a></li>
+            {{- end -}}
+        </ul>
+    </section>
+    {{- end -}}
+
+    {{- with $extKeys -}}
+    <section class="elton-postnotes-sec">
+        <h2 class="elton-postnotes-t">3. Liên kết ngoài dùng trong bài viết</h2>
+        <ul class="elton-postnotes-list">
+            {{- range . -}}
+                {{- $text := index $ext . -}}
+                <li><a href="{{ . | safeURL }}" rel="nofollow noopener" target="_blank" rel="noopener">{{ if $text }}{{ $text }}{{ else }}{{ . }}{{ end }}</a></li>
+            {{- end -}}
+        </ul>
+    </section>
+    {{- end -}}
+</aside>

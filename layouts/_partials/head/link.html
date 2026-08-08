@@ -6,7 +6,11 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/duy-nguyen-logo.webp" | relURL }}">
 {{- end -}}
 
-<link rel="canonical" href="{{ .Permalink }}" />
+{{- $canonical := .Permalink -}}
+{{- if and .IsNode .Paginator (gt .Paginator.PageNumber 1) -}}
+    {{- $canonical = .Paginator.URL | absURL -}}
+{{- end -}}
+<link rel="canonical" href="{{ $canonical }}" />
 {{- if .PrevInSection -}}
     <link rel="prev" href="{{ .PrevInSection.Permalink }}" />
 {{- end -}}
@@ -21,6 +25,6 @@
 
 {{- /* style.min.css */ -}}
 {{- $options := dict "Source" "css/style.scss" "Fingerprint" $fingerprint -}}
-{{- $toCSS := dict "targetPath" "css/style.min.css" "outputStyle" "compressed" "enableSourceMap" true -}}
+{{- $toCSS := dict "targetPath" "css/style.min.css" "outputStyle" "compressed" "enableSourceMap" false -}}
 {{- $options = dict "Context" . "ToCSS" $toCSS | merge $options -}}
 {{- partial "plugin/style.html" $options -}}
