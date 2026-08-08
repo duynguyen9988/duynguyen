@@ -240,6 +240,7 @@ Track generated blog posts here:
 - [x] Săn sale 9/9 2026: mẹo shopping Shopee, Lazada, Tiki (2026-08-03)
 - [x] Review Ma Xưởng Hòm (Danur: The Last Chapter) 2026 không spoiler (2026-08-03)
 - [x] Múa rối nước: lịch sử, nghệ thuật và địa điểm xem ở Hà Nội (2026-08-03)
+- [x] Chả cá Lã Vọng: lịch sử, bí quyết và cách thưởng thức 155 năm (2026-08-08)
 
 ## Shortcuts
 
