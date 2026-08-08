@@ -15,6 +15,62 @@
         });
     }
 
+    var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
+    var ACCESS_KEY = 'cvgen:unlock:v1';
+    var LANG_LABELS = { vi: 'Tiếng Việt', en: 'English', ko: '한국어' };
+
+    function sha256Hex(text) {
+        return crypto.subtle.digest('SHA-256', new TextEncoder().encode(String(text)))
+            .then(function (buf) {
+                var bytes = new Uint8Array(buf);
+                var hex = '';
+                for (var i = 0; i < bytes.length; i++) {
+                    hex += (bytes[i] < 16 ? '0' : '') + bytes[i].toString(16);
+                }
+                return hex;
+            });
+    }
+
+    function isUnlocked() {
+        try { return sessionStorage.getItem(ACCESS_KEY) === ACCESS_HASH; } catch (e) { return false; }
+    }
+
+    function unlock() {
+        var gate = $('#cvgen-gate');
+        if (gate) gate.remove();
+        var chrome = $('#cvgen-app');
+        if (chrome) chrome.removeAttribute('hidden');
+        initApp();
+    }
+
+    function setupGate() {
+        var form = $('#cvgen-gate-form');
+        if (!form) return;
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var input = $('#cvgen-gate-input');
+            var err = $('#cvgen-gate-error');
+            var val = (input.value || '').trim();
+            if (!val) {
+                err.textContent = 'Vui lòng nhập mã truy cập.';
+                input.classList.add('is-invalid');
+                input.focus();
+                return;
+            }
+            sha256Hex(val).then(function (h) {
+                if (h === ACCESS_HASH) {
+                    try { sessionStorage.setItem(ACCESS_KEY, ACCESS_HASH); } catch (ex) { }
+                    unlock();
+                } else {
+                    err.textContent = 'Mã truy cập không đúng, vui lòng thử lại.';
+                    input.classList.add('is-invalid');
+                    input.value = '';
+                    input.focus();
+                }
+            });
+        });
+    }
+
     function blankState() {
         return {
             ui: { lang: 'vi' },
@@ -57,8 +113,20 @@
             ref: 'References', add: 'Additional Information', present: 'Present', photo: 'Passport photo 3x4',
             attach: 'Attach Passport Photo', birth: 'DOB', nat: 'Nationality',
             lvl: { 'Cơ bản': 'Basic', 'Khá': 'Good', 'Tốt': 'Proficient', 'Thành thạo': 'Fluent', 'Bản ngữ': 'Native' }
+        },
+        ko: {
+            obj: '경력 목표', hl: '하이라이트', exp: '경력 사항', edu: '학력', proj: '프로젝트',
+            skills: '보유 기술', cert: '자격증', lang: '어학', award: '수상 경력', act: '대외 활동',
+            ref: '추천인', add: '추가 정보', present: '현재', photo: '증명사진 3x4',
+            attach: '증명사진 첨부', birth: '생년월일', nat: '국적',
+            lvl: { 'Cơ bản': '초급', 'Khá': '중급', 'Tốt': '상급', 'Thành thạo': '유창함', 'Bản ngữ': '원어민' }
         }
     };
+
+    function cvLang() {
+        var l = state.ui && state.ui.lang;
+        return (l === 'en' || l === 'ko') ? l : 'vi';
+    }
 
     var ACTION_VERBS = ('led managed developed designed implemented created improved increased reduced launched built delivered coordinated directed achieved mentored negotiated optimized streamlined trained analyzed researched resolved automated expanded produced handled maintained prepared processed operated organized planned presented promoted raised recommended supervised supported evaluated initiated established generated accelerated administered advised architected collaborated configured consulted cultivated drove executed facilitated founded guided hired identified invented marketed modernized monitored oversaw pioneered published reengineered revamped restructured saved secured selected shaped spearheaded transformed upgraded wrote authored administered audited budgeted catalyzed championed consolidated crafted cultivated cut decreased defined delegated delivered designed determined devised diagnosed doubled eliminated engineered enhanced enlarged erected established estimated evaluated executed expanded expedited fabricated facilitated financed forged formulated fortified generated grew guided headed helped implemented improved improvised incorporated increased influenced informed initiated innovated inspected inspired instituted insured integrated interpreted introduced invented investigated justified launched lectured leveraged localized maintained managed mapped marketed measured merged motivated navigated negotiated normalized nurtured observed obtained operated orchestrated ordered organized originated overhauled oversaw packaged participated penetrated perceived perfected performed persuaded pioneered planned positioned prepared presented prioritized processed procured produced programmed projected promoted proved provided publicized published purchased pursued qualified quantified quoted raised ranked reached received recognized recommended reconciled recruited reduced referenced refined regained regulated rehabilitated reinforced rejuvenated remodeled reorganized replaced reported represented resolved restored restructured retrieved revamped reversed reviewed revitalized revolutionized routed safeguarded salvaged satisfied saved screened secured separated served serviced settled shaped shared shipped simplified simulated slashed sold solicited solved sourced sparked spearheaded specialized specified spurred stabilized staffed staged standardized steered stimulated streamlined strengthened stressed structured studied submitted substantiated substituted succeeded suggested summarized superseded supervised supplied supported surpassed sustained tabulated tailored taught tended terminated tested tightened traced tracked trained transcribed transferred transformed translated transmitted transported traveled treated tripled trimmed triumphed troubleshot tutored unified united upgraded upheld utilized validated valued verified vitalized volunteered weighed welcomed widened wielded won worked wrote'.split(' '));
 
@@ -383,6 +451,7 @@
             var d = new Date(+parts[0], +parts[1] - 1, 1);
             return d.toLocaleString('en-US', { month: 'short' }) + ' ' + parts[0];
         }
+        if (lang === 'ko') return parts[0] + '년 ' + (+parts[1]) + '월';
         return parts[1] + '/' + parts[0];
     }
 
@@ -391,6 +460,7 @@
         var d = new Date(v + 'T00:00:00');
         if (isNaN(d)) return v;
         if (lang === 'en') return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        if (lang === 'ko') return d.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
         return d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric' });
     }
 
@@ -405,7 +475,7 @@
 
     function renderPreview() {
         var s = state;
-        var lang = (s.ui && s.ui.lang === 'en') ? 'en' : 'vi';
+        var lang = cvLang();
         var L = T[lang];
         var p = s.personal;
         var html = '';
@@ -997,7 +1067,7 @@
 
     function buildDocx() {
         var s = state;
-        var lang = (s.ui && s.ui.lang === 'en') ? 'en' : 'vi';
+        var lang = cvLang();
         var L = T[lang];
         var body = [];
 
@@ -1486,7 +1556,7 @@
     }
 
     function improveObjective() {
-        var lang = (state.ui && state.ui.lang === 'en') ? 'en' : 'vi';
+        var lang = cvLang();
         if (state.objective.summary.trim()) {
             pushUndo();
             var t = cleanSentence(state.objective.summary.trim(), lang);
@@ -1518,6 +1588,15 @@
             var elead = eparts.length ? eparts.join(' with ') + ', seeking to ' : 'Seeking to ';
             state.objective.summary = elead + 'contribute and grow in a professional environment where I can apply my experience to deliver measurable results. Please tailor this to your specific goal.';
             return 'Objective drafted from your data (title, experience, skills) — review and tailor it to the role.';
+        }
+        if (lang === 'ko') {
+            var kparts = [];
+            if (title) kparts.push(title + ' 경력자');
+            if (years && years >= 1) kparts.push(years + '년 경력');
+            if (skills.length) kparts.push(skills.join(', ') + ' 분야 강점');
+            var klead = kparts.length ? kparts.join(', ') + '으로서 ' : '저는 ';
+            state.objective.summary = klead + '전문적인 환경에서 경험을 활용해 측정 가능한 성과를 내고 성장하고자 합니다. 지원 직무에 맞게 수정해 주세요.';
+            return '직무 데이터(직책, 경력, 기술)를 바탕으로 목표 문구를 작성했습니다 — 실제 상황에 맞게 수정하세요.';
         }
         var parts = [];
         if (title) parts.push('Là ' + title);
@@ -1671,7 +1750,26 @@
         toast('Đã thêm ' + sk.list.length + ' kỹ năng vào mục kỹ năng — bổ sung trình độ cho từng mục.');
     }
 
-    function init() {
+    function setLang(lang) {
+        if (lang !== 'vi' && lang !== 'en' && lang !== 'ko') lang = 'vi';
+        state.ui = state.ui || {};
+        state.ui.lang = lang;
+        syncLangUI();
+        renderAll();
+        scheduleSave();
+        toast('Ngôn ngữ CV: ' + LANG_LABELS[lang] + ' — bản xem trước và file xuất sẽ dùng ngôn ngữ này.');
+    }
+
+    function syncLangUI() {
+        var lang = cvLang();
+        $$('.cvgen-lang').forEach(function (b) {
+            b.classList.toggle('is-active', b.getAttribute('data-lang') === lang);
+        });
+        var sel = $('#f-lang');
+        if (sel) sel.value = lang;
+    }
+
+    function initApp() {
         loadDraft();
         var theme = 'light';
         try { theme = localStorage.getItem(THEME_KEY) || 'light'; } catch (e) { }
@@ -1681,9 +1779,20 @@
         themeBtn.textContent = theme === 'dark' ? 'Chế độ sáng' : 'Chế độ tối';
 
         applyStateToForm();
+        syncLangUI();
         cvgenEmptyStyle();
         renderAll();
         fitPreview();
+
+        $$('.cvgen-lang').forEach(function (b) {
+            b.addEventListener('click', function () {
+                setLang(b.getAttribute('data-lang'));
+            });
+        });
+        var langSel = $('#f-lang');
+        if (langSel) langSel.addEventListener('change', function () {
+            setLang(langSel.value);
+        });
 
         $('#cvgen-form').addEventListener('submit', function (e) { e.preventDefault(); });
         $('#cvgen-form').addEventListener('input', function (e) {
@@ -1765,6 +1874,14 @@
             buildPrintPages();
         });
         setTimeout(fitPreview, 400);
+    }
+
+    function init() {
+        if (isUnlocked()) {
+            unlock();
+        } else {
+            setupGate();
+        }
     }
 
     if (document.readyState === 'loading') {

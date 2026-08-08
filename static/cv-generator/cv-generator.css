@@ -83,6 +83,125 @@
     align-items: center;
     gap: 12px;
     padding-top: 6px;
+    flex-wrap: wrap;
+}
+
+.cvgen-langs {
+    display: inline-flex;
+    background: var(--cvgen-bg);
+    border: 1px solid var(--cvgen-border);
+    border-radius: 999px;
+    padding: 3px;
+    gap: 2px;
+}
+
+.cvgen-lang {
+    border: 0;
+    background: transparent;
+    color: var(--cvgen-muted);
+    font-size: .82rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background .15s, color .15s;
+}
+
+.cvgen-lang:hover {
+    color: var(--cvgen-accent);
+}
+
+.cvgen-lang.is-active {
+    background: var(--cvgen-accent);
+    color: #fff;
+}
+
+.cvgen-chrome[hidden] {
+    display: none !important;
+}
+
+.cvgen-gate {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cvgen-gate-card {
+    background: var(--cvgen-panel);
+    border: 1px solid var(--cvgen-border);
+    border-radius: 16px;
+    box-shadow: var(--cvgen-shadow);
+    padding: 40px 32px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.cvgen-gate-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 14px;
+    color: var(--cvgen-accent);
+}
+
+.cvgen-gate-title {
+    font-size: 1.3rem;
+    margin: 0 0 6px;
+    color: var(--cvgen-text);
+}
+
+.cvgen-gate-sub {
+    color: var(--cvgen-muted);
+    font-size: .9rem;
+    margin: 0 0 20px;
+}
+
+.cvgen-gate-form {
+    display: flex;
+    gap: 10px;
+}
+
+.cvgen-gate-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 14px;
+    border: 1px solid var(--cvgen-border);
+    border-radius: 10px;
+    font-size: 1.05rem;
+    letter-spacing: .35em;
+    text-align: center;
+    background: var(--cvgen-bg);
+    color: var(--cvgen-text);
+    font-family: inherit;
+}
+
+.cvgen-gate-input:focus {
+    outline: none;
+    border-color: var(--cvgen-accent);
+    box-shadow: 0 0 0 3px var(--cvgen-accent-soft);
+}
+
+.cvgen-gate-input.is-invalid {
+    border-color: var(--cvgen-danger);
+}
+
+.cvgen-gate-error {
+    color: var(--cvgen-danger);
+    font-size: .85rem;
+    min-height: 1.3em;
+    margin: 10px 0 0;
+}
+
+.cvgen-gate-btn {
+    white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+    .cvgen-gate-form {
+        flex-direction: column;
+    }
 }
 
 .cvgen-save-state {
@@ -894,6 +1013,8 @@
     .cvgen-panel,
     .cvgen-toolbar,
     .cvgen-save-state,
+    .cvgen-langs,
+    .cvgen-gate,
     .cvgen-toast {
         display: none !important;
     }

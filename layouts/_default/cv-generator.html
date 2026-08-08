@@ -54,13 +54,36 @@
 
 {{- define "content" -}}
 <div id="cvgen" class="cvgen" data-theme="light">
-    <div class="cvgen-chrome">
+    <div id="cvgen-gate" class="cvgen-gate" role="dialog" aria-modal="true" aria-labelledby="cvgen-gate-title">
+        <div class="cvgen-gate-card">
+            <div class="cvgen-gate-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h2 id="cvgen-gate-title" class="cvgen-gate-title">Truy cập có mã</h2>
+            <p class="cvgen-gate-sub">Công cụ này chỉ dành cho người được cấp mã truy cập. Nhập mã để tiếp tục.</p>
+            <form id="cvgen-gate-form" class="cvgen-gate-form" novalidate>
+                <label for="cvgen-gate-input" class="cvgen-sr">Mã truy cập</label>
+                <input type="password" id="cvgen-gate-input" class="cvgen-gate-input" placeholder="••••" inputmode="numeric" autocomplete="off" aria-label="Mã truy cập">
+                <button type="submit" class="cvgen-btn cvgen-btn-primary cvgen-gate-btn">Mở khóa</button>
+            </form>
+            <p class="cvgen-gate-error" id="cvgen-gate-error" role="alert"></p>
+        </div>
+    </div>
+    <div class="cvgen-chrome" id="cvgen-app" hidden>
         <header class="cvgen-hero">
             <div>
                 <h1 class="cvgen-h1">{{ .Title }}</h1>
                 <p class="cvgen-sub">Điền thông tin bên trái — CV của bạn được cập nhật trực tiếp bên phải. Dữ liệu chỉ lưu trên trình duyệt của bạn.</p>
             </div>
             <div class="cvgen-toolbar">
+                <div class="cvgen-langs" role="group" aria-label="Ngôn ngữ CV">
+                    <button type="button" class="cvgen-lang is-active" data-lang="vi">Tiếng Việt</button>
+                    <button type="button" class="cvgen-lang" data-lang="en">English</button>
+                    <button type="button" class="cvgen-lang" data-lang="ko">한국어</button>
+                </div>
                 <button type="button" id="cvgen-theme" class="cvgen-btn cvgen-btn-ghost" aria-label="Chuyển chế độ sáng tối">Chế độ tối</button>
                 <span id="cvgen-save-state" class="cvgen-save-state" role="status" aria-live="polite">Chưa lưu</span>
             </div>
@@ -135,10 +158,11 @@
                             <input type="url" id="f-website" data-bind="personal.website" placeholder="https://annguyen.dev">
                         </div>
                         <div class="cvgen-field cvgen-field-2">
-                            <label for="f-lang">Ngôn ngữ tiêu đề CV</label>
+                            <label for="f-lang">Ngôn ngữ CV</label>
                             <select id="f-lang" data-bind="ui.lang">
                                 <option value="vi">Tiếng Việt</option>
                                 <option value="en">English</option>
+                                <option value="ko">한국어</option>
                             </select>
                         </div>
                     </div>
