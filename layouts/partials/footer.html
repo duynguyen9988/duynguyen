@@ -28,7 +28,7 @@
                         {{- with .Page -}}
                             {{- $url = .RelPermalink -}}
                         {{- end -}}
-                        <a href="{{ $url }}"{{ if eq .Identifier "cv-generator" }} class="elton-footer-cvgen"{{ end }}>{{ .Name }}</a>
+                        <a href="{{ $url }}">{{ .Name }}</a>
                     {{- end -}}
                 </nav>
             </div>
